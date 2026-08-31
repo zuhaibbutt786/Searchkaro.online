@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
-"""Rebuild index.html with recent articles, courses, scholarships, jobs + SEO/AEO."""
+"""Rebuild index.html — SearchKaro hub for PK/IN + world traffic."""
 
 from __future__ import annotations
 
 import html
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+SITE = os.getenv("SITE_BASE_URL", "https://searchkaro.online").rstrip("/")
 
 
 def load(path: Path, default):
@@ -28,8 +30,8 @@ def main() -> None:
 
     posts = sorted(posts, key=lambda p: p.get("date", ""), reverse=True)[:6]
     courses = courses[:6]
-    scholarships = scholarships[:5]
-    jobs = jobs[:5]
+    scholarships = scholarships[:6]
+    jobs = jobs[:6]
 
     post_cards = []
     for p in posts:
@@ -47,40 +49,37 @@ def main() -> None:
         img = html.escape(c.get("image") or "")
         title = html.escape(c.get("title") or "")
         page = html.escape(c.get("page") or f"p/{c.get('slug','')}.html")
-        thumb = f'<div class="course-thumb"><span class="badge-free">100% OFF</span><img src="{img}" alt="" loading="lazy" referrerpolicy="no-referrer" /></div>' if img else ""
+        thumb = (
+            f'<div class="course-thumb"><span class="badge-free">100% OFF</span>'
+            f'<img src="{img}" alt="" loading="lazy" referrerpolicy="no-referrer" /></div>'
+            if img
+            else ""
+        )
         course_cards.append(
-            f"""<article class="course-card">
-  {thumb}
-  <div class="course-body">
+            f"""<article class="course-card">{thumb}<div class="course-body">
     <h3>{title}</h3>
     <p class="course-meta">{html.escape(c.get('language') or 'English')}<span class="dot">·</span>{html.escape(c.get('category') or '')}</p>
-    <a class="btn green block" href="courses/{page}">View coupon</a>
-  </div>
-</article>"""
+    <a class="btn green block" href="courses/{page}">View coupon</a></div></article>"""
         )
 
     sch_items = "".join(
-        f'<li><a href="{html.escape(s.get("url") or "#")}" target="_blank" rel="noopener nofollow">{html.escape(s.get("title") or "")}</a></li>'
+        f'<li><a href="scholarships/{html.escape(s.get("page") or "")}">{html.escape(s.get("title") or "")}</a></li>'
         for s in scholarships
-    ) or "<li>Scholarship feed updates daily.</li>"
+    ) or "<li>Scholarship pages update daily.</li>"
 
     job_items = "".join(
-        f'<li><a href="{html.escape(j.get("url") or "#")}" target="_blank" rel="noopener nofollow">{html.escape(j.get("title") or "")}</a></li>'
+        f'<li><a href="jobs/{html.escape(j.get("page") or "")}">{html.escape(j.get("title") or "")}</a>'
+        f' <span class="muted">({html.escape(j.get("region") or "")})</span></li>'
         for j in jobs
-    ) or "<li>Job feed updates daily.</li>"
+    ) or "<li>Job pages update daily.</li>"
 
     updated = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     schema = {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": "LearnWithZuhaib",
-        "url": "https://zuhaibbutt786.github.io/tech-blog-courses/",
-        "description": "Free Udemy coupons, AI ML tutorials, Stack Overflow style answers, MS PhD scholarships, and remote tech jobs.",
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://zuhaibbutt786.github.io/tech-blog-courses/blog/",
-            "query-input": "required name=search_term_string",
-        },
+        "name": "SearchKaro",
+        "url": f"{SITE}/",
+        "description": "Fully funded MS PhD scholarships, jobs in Pakistan and Europe, HEC university rankings, free Udemy courses, and tech guides for students in Pakistan and India.",
     }
 
     page = f"""<!DOCTYPE html>
@@ -88,111 +87,97 @@ def main() -> None:
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>LearnWithZuhaib — Free Udemy Courses, AI Blog, Scholarships & Tech Jobs</title>
-  <meta name="description" content="Daily free Udemy course coupons, practical AI/ML coding articles, Stack Overflow style answers, MS & PhD scholarships, and remote developer jobs. Learn with Zuhaib." />
-  <meta name="keywords" content="free udemy courses, udemy coupon, AI tutorial, machine learning blog, stack overflow answers, MS scholarship, PhD scholarship, remote developer jobs, MLOps, LLM, learn programming" />
+  <title>SearchKaro — Scholarships, Jobs Pakistan & Europe, Universities, Free Courses</title>
+  <meta name="description" content="Fully funded MS & PhD scholarships, jobs in Pakistan and Europe, HEC & world university rankings, free Udemy coupons, and tech articles for students in Pakistan, India, and worldwide." />
+  <meta name="keywords" content="fully funded ms scholarship, phd scholarship pakistan, scholarships for indian students, jobs in pakistan, europe software jobs, hec ranking, best universities pakistan, free udemy courses, study abroad" />
   <meta name="robots" content="index,follow,max-image-preview:large" />
-  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/" />
-  <meta property="og:title" content="LearnWithZuhaib — Free Courses, Tech Blog, Scholarships" />
-  <meta property="og:description" content="Free Udemy coupons, AI coding guides, scholarships, and tech jobs updated daily." />
+  <link rel="canonical" href="{SITE}/" />
+  <meta property="og:title" content="SearchKaro — Scholarships, Jobs, Universities" />
+  <meta property="og:description" content="MS/PhD scholarships, Pakistan & Europe jobs, university rankings, free courses." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://zuhaibbutt786.github.io/tech-blog-courses/" />
+  <meta property="og:url" content="{SITE}/" />
   <link rel="stylesheet" href="assets/style.css" />
   <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="logo" href="index.html">Learn<span>With</span>Zuhaib</a>
+      <a class="logo" href="index.html">Search<span>Karo</span></a>
+      <button class="nav-toggle" aria-label="Menu" onclick="document.body.classList.toggle('nav-open')">☰</button>
       <nav>
         <a href="index.html" class="active">Home</a>
-        <a href="blog/">Tech Blog</a>
-        <a href="courses/">Free Courses</a>
         <a href="scholarships/">Scholarships</a>
         <a href="jobs/">Jobs</a>
-        <a href="about.html">About</a>
+        <a href="universities/">Universities</a>
+        <a href="courses/">Courses</a>
+        <a href="blog/">Blog</a>
       </nav>
     </div>
   </header>
 
   <section class="hero">
     <div class="container">
-      <p class="eyebrow">Updated {updated} · Built for learners & job seekers</p>
-      <h1>Free Udemy coupons, AI coding guides, scholarships & tech jobs</h1>
+      <p class="eyebrow">Updated {updated} · Pakistan · India · Worldwide</p>
+      <h1>Scholarships, jobs, university rankings & free courses</h1>
       <p class="lead">
-        High-intent learning hub: 100% off Udemy courses, practical machine learning articles,
-        answers to questions developers actually ask, plus MS/PhD scholarships and remote jobs.
+        Search high-intent opportunities: fully funded <strong>MS & PhD scholarships</strong>,
+        <strong>jobs in Pakistan & Europe</strong>, <strong>HEC and world university lists</strong>,
+        and free Udemy coupons — written for mobile and desktop.
       </p>
       <div class="hero-actions">
-        <a class="btn green" href="courses/">New free course coupons</a>
-        <a class="btn primary" href="blog/">Latest tech articles</a>
-        <a class="btn secondary" href="scholarships/">MS & PhD scholarships</a>
+        <a class="btn green" href="scholarships/">MS & PhD scholarships</a>
+        <a class="btn primary" href="jobs/">Jobs Pakistan / Europe</a>
+        <a class="btn secondary" href="universities/">University rankings</a>
+        <a class="btn secondary" href="courses/">Free course coupons</a>
       </div>
-    </div>
-  </section>
-
-  <section class="container section">
-    <div class="section-head">
-      <h2>Most recent articles</h2>
-      <a href="blog/">All articles →</a>
-    </div>
-    <div class="home-grid">
-      {''.join(post_cards) or '<p class="empty">Articles publish daily.</p>'}
-    </div>
-  </section>
-
-  <section class="container section">
-    <div class="section-head">
-      <h2>New free Udemy course coupons</h2>
-      <a href="courses/">All coupons →</a>
-    </div>
-    <div class="course-grid">
-      {''.join(course_cards) or '<p class="empty">Courses refresh every morning.</p>'}
     </div>
   </section>
 
   <section class="container section dual">
     <div class="card">
-      <div class="section-head">
-        <h2>MS & PhD scholarships</h2>
-        <a href="scholarships/">View all →</a>
-      </div>
+      <div class="section-head"><h2>Latest scholarships</h2><a href="scholarships/">All →</a></div>
       <ul class="link-list">{sch_items}</ul>
     </div>
     <div class="card">
-      <div class="section-head">
-        <h2>Tech & remote jobs</h2>
-        <a href="jobs/">View all →</a>
-      </div>
+      <div class="section-head"><h2>Latest jobs</h2><a href="jobs/">All →</a></div>
       <ul class="link-list">{job_items}</ul>
     </div>
   </section>
 
+  <section class="container section">
+    <div class="section-head"><h2>Universities</h2><a href="universities/">Explore →</a></div>
+    <div class="home-grid">
+      <a class="card mini" href="universities/pakistan.html"><h3>Pakistan HEC list</h3><p>NUST, UET, LUMS, QAU and more</p></a>
+      <a class="card mini" href="universities/medical.html"><h3>Medical universities</h3><p>By country including PK & India</p></a>
+      <a class="card mini" href="universities/engineering.html"><h3>Engineering universities</h3><p>IIT, NUST, MIT-style references</p></a>
+      <a class="card mini" href="universities/law.html"><h3>Law universities</h3><p>Pakistan, India, UK, US</p></a>
+    </div>
+  </section>
+
+  <section class="container section">
+    <div class="section-head"><h2>New free Udemy coupons</h2><a href="courses/">All →</a></div>
+    <div class="course-grid">{''.join(course_cards) or '<p class="empty">Courses refresh daily.</p>'}</div>
+  </section>
+
+  <section class="container section">
+    <div class="section-head"><h2>Recent articles</h2><a href="blog/">All →</a></div>
+    <div class="home-grid">{''.join(post_cards) or '<p class="empty">Articles publish daily.</p>'}</div>
+  </section>
+
   <section class="container section faq-home">
-    <h2>Common questions</h2>
-    <details open><summary>Are the Udemy courses really free?</summary><p>Listings include coupon links. Always confirm the price shows <strong>$0</strong> on Udemy before checkout — coupons can expire.</p></details>
-    <details><summary>What topics does the tech blog cover?</summary><p>AI, machine learning, LLMs, MLOps, coding fixes inspired by real developer questions, and production engineering tips.</p></details>
-    <details><summary>Where do scholarships and jobs come from?</summary><p>Public RSS feeds from education and job boards. Always apply on the official source page.</p></details>
+    <h2>People also ask</h2>
+    <details open><summary>Where can I find fully funded MS and PhD scholarships?</summary><p>Open our <a href="scholarships/">scholarships</a> section. Each listing has eligibility, steps, and a link to the official page.</p></details>
+    <details><summary>How do I find jobs in Pakistan or Europe?</summary><p>Use the <a href="jobs/">jobs</a> page filters for Pakistan, Europe, or remote roles.</p></details>
+    <details><summary>What is HEC ranking?</summary><p>HEC publishes category rankings for Pakistani universities. See our <a href="universities/pakistan.html">Pakistan universities</a> guide and verify on hec.gov.pk.</p></details>
   </section>
 
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div>
-        <strong>LearnWithZuhaib</strong>
-        <p class="muted">Practical tech learning, free courses, scholarships, and jobs.</p>
-      </div>
-      <div>
-        <a href="about.html">About</a><br />
-        <a href="contact.html">Contact</a><br />
-        <a href="privacy.html">Privacy Policy</a>
-      </div>
-      <div>
-        <a href="blog/">Tech Blog</a><br />
-        <a href="courses/">Free Courses</a><br />
-        <a href="scholarships/">Scholarships</a> · <a href="jobs/">Jobs</a>
-      </div>
+      <div><strong>SearchKaro</strong><p class="muted">Scholarships, jobs, universities & free learning for Pakistan, India, and the world.</p></div>
+      <div><a href="about.html">About</a><br /><a href="contact.html">Contact</a><br /><a href="privacy.html">Privacy</a></div>
+      <div><a href="scholarships/">Scholarships</a><br /><a href="jobs/">Jobs</a><br /><a href="universities/">Universities</a></div>
     </div>
-    <div class="container"><p class="muted">© <span id="y"></span> LearnWithZuhaib · Not affiliated with Udemy or Stack Overflow.</p></div>
+    <div class="container"><p class="muted">© <span id="y"></span> SearchKaro · Verify all deadlines on official sites.</p></div>
   </footer>
   <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
 </body>
