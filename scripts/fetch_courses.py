@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Scrape free Udemy listings from jobs.e-next.in, resolve ONLY udemy.com links,
-write data/courses.json, and build on-site detail pages (no couponami/third-party).
+write data/courses.json, and build on-site detail pages (no third-party).
 """
 
 from __future__ import annotations
@@ -32,23 +32,21 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
-ENEXT_PAGES = [f"https://jobs.e-next.in/course/udemy/{i}" for i in range(1, 8)]
+ENEXT_PAGES = [f"https://jobs.e-next.in/course/udemy/{i}" for i in range(1, 11)]
 
-BLOCKED_HOSTS = {
-    "couponami.com",
-    "www.couponami.com",
-    "discudemy.com",
-    "www.discudemy.com",
-    "coursevania.com",
-    "www.coursevania.com",
-    "real.discount",
-    "www.real.discount",
-    "cdn.real.discount",
+SKIP_TITLES = {
+    "enroll now free",
+    "view course",
+    "home",
+    "how to enroll",
+    "need help",
+    "read step-by-step enrollment guide",
 }
 
 
 def clean_text(s: str) -> str:
-    return re.sub(r"\s+", " ", (s or "").strip())
+    s = re.sub(r"[📲🚀]\s*", "", s or "")
+    return re.sub(r"\s+", " ", s).strip()
 
 
 def slugify(title: str) -> str:
@@ -73,7 +71,8 @@ def is_blocked(url: str) -> bool:
         host = urlparse(url).netloc.lower()
     except Exception:
         return True
-    return host in BLOCKED_HOSTS or any(b in host for b in ("couponami", "discudemy", "coursevania"))
+    bad = ("couponami", "discudemy", "coursevania", "real.discount")
+    return any(b in host for b in bad)
 
 
 def normalize_udemy(url: str) -> str:
@@ -84,11 +83,17 @@ def normalize_udemy(url: str) -> str:
     keep = {}
     if "couponCode" in qs:
         keep["couponCode"] = qs["couponCode"][0]
-    new_q = urlencode(keep)
-    return urlunparse(("https", "www.udemy.com", p.path.rstrip("/") + "/", "", new_q, ""))
+    return urlunparse(("https", "www.udemy.com", p.path.rstrip("/") + "/", "", urlencode(keep), ""))
 
 
 def extract_udemy_from_html(text: str) -> str:
+    # trk.udemy.com sometimes embeds destination
+    for m in re.finditer(r"url=(https?%3A%2F%2F(?:www\.)?udemy\.com%2Fcourse%2F[^&\"']+)", text):
+        from urllib.parse import unquote
+
+        u = unquote(m.group(1))
+        if is_udemy_url(u):
+            return normalize_udemy(u)
     for m in re.finditer(
         r"https?://(?:www\.)?udemy\.com/course/[a-zA-Z0-9\-_/]+(?:\?[^\"'\s]*)?",
         text,
@@ -96,64 +101,103 @@ def extract_udemy_from_html(text: str) -> str:
         u = m.group(0).rstrip("\"').,;")
         if "couponCode=" in u:
             return normalize_udemy(u)
-    for m in re.finditer(
-        r"https?://(?:www\.)?udemy\.com/course/[a-zA-Z0-9\-_/]+",
-        text,
-    ):
+    for m in re.finditer(r"https?://(?:www\.)?udemy\.com/course/[a-zA-Z0-9\-_/]+", text):
         return normalize_udemy(m.group(0))
     return ""
 
 
 def parse_enext_list(html_text: str, base: str) -> list[dict]:
+    """Parse e-next portfolio cards: .portfolio-item with img + title + enroll link."""
     soup = BeautifulSoup(html_text, "html.parser")
     items: list[dict] = []
     seen: set[str] = set()
 
-    for a in soup.select("a[href*='/course/udemy/']"):
-        href = a.get("href") or ""
-        if href.startswith("/"):
-            href = urljoin(base, href)
-        if re.search(r"/course/udemy/\d+/?$", href):
-            continue
-        if "/course/udemy/enroll" in href:
-            continue
-
-        title = clean_text(a.get_text(" ", strip=True))
-        if len(title) < 10:
-            parent = a.find_parent(["div", "article", "li"])
+    cards = soup.select(".portfolio-item")
+    if not cards:
+        # fallback: columns that contain udemy images
+        cards = []
+        for img in soup.select("img[src*='udemycdn']"):
+            parent = img.find_parent("div")
             if parent:
-                h = parent.select_one("h2, h3, h4, h5, .title")
-                if h:
-                    title = clean_text(h.get_text(" ", strip=True))
-        if len(title) < 10 or title.lower() in seen:
-            continue
-        if title.lower() in {"enroll now free", "view course", "home"}:
-            continue
+                cards.append(parent)
 
+    print(f"  portfolio cards: {len(cards)}")
+
+    for card in cards:
+        img = card.select_one("img")
         image = ""
-        parent = a.find_parent(["div", "article", "li", "section"]) or a.parent
-        if parent:
-            img = parent.select_one("img[src*='udemycdn'], img[data-src*='udemycdn'], img")
-            if img:
-                image = img.get("src") or img.get("data-src") or ""
-                if image.startswith("//"):
-                    image = "https:" + image
+        if img:
+            image = img.get("src") or img.get("data-src") or ""
+            if image.startswith("//"):
+                image = "https:" + image
 
-        meta = clean_text(parent.get_text(" ", strip=True) if parent else "")
+        # Title: prefer <p class="h6">, then img alt, then strongest text node
+        title = ""
+        h = card.select_one("p.h6, .h6, h5, h4, h3, p b")
+        if h:
+            title = clean_text(h.get_text(" ", strip=True))
+        if len(title) < 8 and img and img.get("alt"):
+            title = clean_text(img.get("alt"))
+        if len(title) < 8:
+            # strip enroll button text from full card text
+            t = clean_text(card.get_text(" ", strip=True))
+            t = re.sub(r"Enroll Now Free.*$", "", t, flags=re.I).strip()
+            # drop trailing "English | Category"
+            t = re.sub(r"\s*(English|Spanish|German|French|Portuguese)\s*\|.*$", "", t, flags=re.I)
+            title = t[:180]
+
+        if len(title) < 8:
+            continue
+        if title.lower() in SKIP_TITLES or title.lower().startswith("enroll now"):
+            continue
+        if title.lower() in seen:
+            continue
+
+        # Detail page link on e-next
+        href = ""
+        for a in card.select("a[href]"):
+            hlink = a.get("href") or ""
+            if hlink.startswith("/"):
+                hlink = urljoin(base, hlink)
+            if "/course/udemy/" in hlink and not re.search(r"/course/udemy/\d+/?$", hlink):
+                if "enroll-guide" in hlink:
+                    continue
+                href = hlink
+                break
+        if not href:
+            continue
+
+        meta = clean_text(card.get_text(" ", strip=True))
         language = "English"
         for lang in ("English", "Spanish", "Portuguese", "German", "French", "Hindi", "Arabic"):
             if re.search(rf"\b{lang}\b", meta, re.I):
                 language = lang
                 break
+
         category = "IT & Software"
-        for cat in (
-            "Development", "Business", "Design", "Marketing",
-            "Finance & Accounting", "IT & Software", "Personal Development",
-            "Health & Fitness", "Office Productivity", "Photography", "Music",
-        ):
-            if cat.lower() in meta.lower():
-                category = cat
-                break
+        # pattern: English | Category
+        m = re.search(
+            r"(?:English|Spanish|Portuguese|German|French)\s*\|\s*([A-Za-z &/+-]+)",
+            meta,
+            re.I,
+        )
+        if m:
+            category = clean_text(m.group(1))[:60]
+        else:
+            for cat in (
+                "Development",
+                "Business",
+                "Design",
+                "Marketing",
+                "Finance & Accounting",
+                "IT & Software",
+                "Personal Development",
+                "Health & Fitness",
+                "Office Productivity",
+            ):
+                if cat.lower() in meta.lower():
+                    category = cat
+                    break
 
         seen.add(title.lower())
         items.append(
@@ -179,15 +223,22 @@ def resolve_udemy(enext_url: str) -> tuple[str, str, dict]:
             return normalize_udemy(r.url), image, meta
 
         soup = BeautifulSoup(r.text, "html.parser")
-        udemy = ""
-        for a in soup.select("a[href*='udemy.com/course']"):
-            href = a.get("href") or ""
-            if is_udemy_url(href):
-                udemy = normalize_udemy(href)
-                if "couponCode=" in href:
-                    break
+        udemy = extract_udemy_from_html(r.text)
+
+        # also check anchor hrefs (including trk.udemy.com)
         if not udemy:
-            udemy = extract_udemy_from_html(r.text)
+            for a in soup.select("a[href]"):
+                href = a.get("href") or ""
+                if "udemy.com/course" in href:
+                    found = extract_udemy_from_html(href)
+                    if found:
+                        udemy = found
+                        break
+                if "url=" in href and "udemy.com" in href:
+                    found = extract_udemy_from_html(href)
+                    if found:
+                        udemy = found
+                        break
 
         img = soup.select_one("img[src*='udemycdn']")
         if img and img.get("src"):
@@ -195,17 +246,26 @@ def resolve_udemy(enext_url: str) -> tuple[str, str, dict]:
             if image.startswith("//"):
                 image = "https:" + image
 
+        # Prefer real title from detail page
+        h1 = soup.select_one("h1, .course-title, title")
+        if h1:
+            t = clean_text(h1.get_text(" ", strip=True))
+            t = re.sub(r"\s*[-|]\s*100% Free.*$", "", t, flags=re.I)
+            t = re.sub(r"\s*\|\s*E-Drive.*$", "", t, flags=re.I)
+            if len(t) > 8 and "enroll" not in t.lower():
+                meta["title"] = t[:180]
+
         text = soup.get_text("\n", strip=True)
         for line in text.splitlines():
-            low = line.lower()
+            low = line.lower().strip()
             if low.startswith("language"):
                 meta["language"] = line.split(None, 1)[-1][:40]
             elif low.startswith("category") and "sub" not in low:
                 meta["category"] = line.split(None, 1)[-1][:80]
             elif low.startswith("creator") or low.startswith("instructor"):
                 meta["instructor"] = line.split(None, 1)[-1][:100]
-            elif low.startswith("length") or ("hours" in low and len(line) < 40):
-                meta["length"] = line[:40]
+            elif low.startswith("length"):
+                meta["length"] = line.split(None, 1)[-1][:40]
 
         p = soup.select_one(".description, #description, .course-description, article p")
         if p:
@@ -220,7 +280,7 @@ def resolve_udemy(enext_url: str) -> tuple[str, str, dict]:
 def fallback_copy(title: str, category: str, raw_desc: str) -> dict:
     return {
         "summary": raw_desc
-        or f"{title} is listed with a free Udemy coupon in {category}. Open the Udemy page and confirm the price shows free before checkout.",
+        or f"{title} is listed with a free Udemy coupon in {category}. Open Udemy and confirm the price shows free before checkout.",
         "learn": [
             "Core ideas covered in the course",
             "Practical examples you can apply",
@@ -233,6 +293,10 @@ def fallback_copy(title: str, category: str, raw_desc: str) -> dict:
 
 
 def groq_course_copy(title: str, category: str, language: str, raw_desc: str) -> dict:
+    # Keep CI fast: only call Groq for a subset unless forced
+    if os.getenv("GROQ_COURSE_COPY", "1") not in ("1", "true", "yes"):
+        return fallback_copy(title, category, raw_desc)
+
     prompt = f"""Write a short course landing page for a free Udemy coupon listing.
 
 Title: {title}
@@ -247,7 +311,7 @@ Return ONLY JSON:
   "who": "one sentence who this is for",
   "note": "one line: coupon may expire; confirm $0 on Udemy"
 }}
-No marketing fluff. No 'game-changer'. JSON only."""
+JSON only."""
     data = groq_chat_json(
         system="Clear course copywriter. JSON only.",
         user=prompt,
@@ -255,11 +319,9 @@ No marketing fluff. No 'game-changer'. JSON only."""
         max_tokens=700,
         timeout=40,
     )
-    if not data:
+    if not data or not data.get("summary"):
         return fallback_copy(title, category, raw_desc)
     data["learn"] = list(data.get("learn") or [])[:6]
-    if not data.get("summary"):
-        return fallback_copy(title, category, raw_desc)
     return data
 
 
@@ -276,13 +338,11 @@ def render_detail_page(course: dict) -> str:
     udemy = html.escape(course.get("udemy_url") or "#")
     learn = course.get("learn") or []
     learn_html = "\n".join(f"<li>{html.escape(str(x))}</li>" for x in learn)
-
     img_block = (
         f'<div class="detail-hero"><img src="{image}" alt="" referrerpolicy="no-referrer" /></div>'
         if image
         else ""
     )
-
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -314,7 +374,6 @@ def render_detail_page(course: dict) -> str:
       </nav>
     </div>
   </header>
-
   <main class="container detail">
     {img_block}
     <p><span class="badge-free" style="position:static">100% OFF coupon</span></p>
@@ -322,36 +381,15 @@ def render_detail_page(course: dict) -> str:
     <p class="detail-meta">
       {language}{f' · {category}' if category else ''}{f' · {instructor}' if instructor else ''}{f' · {length}' if length else ''}
     </p>
-
-    <div class="detail-box">
-      <h2>About this course</h2>
-      <p>{summary}</p>
-    </div>
-
-    <div class="detail-box">
-      <h2>What you'll learn</h2>
-      <ul>
-        {learn_html}
-      </ul>
-    </div>
-
-    <div class="detail-box">
-      <h2>Who this is for</h2>
-      <p>{who}</p>
-      <p class="note">{note}</p>
-    </div>
-
+    <div class="detail-box"><h2>About this course</h2><p>{summary}</p></div>
+    <div class="detail-box"><h2>What you'll learn</h2><ul>{learn_html}</ul></div>
+    <div class="detail-box"><h2>Who this is for</h2><p>{who}</p><p class="note">{note}</p></div>
     <div class="detail-actions">
       <a class="btn green" href="{udemy}" target="_blank" rel="noopener noreferrer">Enroll on Udemy (free)</a>
       <a class="btn secondary" href="../">← Back to course list</a>
     </div>
   </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>Not affiliated with Udemy. Final enrollment happens only on udemy.com.</p>
-    </div>
-  </footer>
+  <footer class="site-footer"><div class="container"><p>Not affiliated with Udemy. Enrollment only on udemy.com.</p></div></footer>
 </body>
 </html>
 """
@@ -365,10 +403,12 @@ def main() -> None:
         print(f"List: {page}")
         try:
             resp = requests.get(page, headers=HEADERS, timeout=30)
-            print(f"  status={resp.status_code}")
+            print(f"  status={resp.status_code} bytes={len(resp.content)}")
             if resp.status_code != 200:
                 continue
-            for item in parse_enext_list(resp.text, page):
+            batch = parse_enext_list(resp.text, page)
+            print(f"  parsed={len(batch)}")
+            for item in batch:
                 key = item["title"].lower()
                 if key in seen:
                     continue
@@ -376,43 +416,65 @@ def main() -> None:
                 collected.append(item)
         except Exception as e:
             print(f"  error: {e}")
-        time.sleep(1.0)
+        time.sleep(0.8)
 
-    print(f"Collected {len(collected)} list items from e-next")
+    print(f"Collected {len(collected)} unique courses from e-next lists")
 
     courses: list[dict] = []
-    max_detail = int(os.getenv("MAX_COURSE_DETAIL", "60"))
+    max_detail = int(os.getenv("MAX_COURSE_DETAIL", "80"))
+    # Use template copy for most courses so CI stays under time limits;
+    # still generate real Udemy links + images for all resolved courses.
+    use_groq_every = int(os.getenv("GROQ_EVERY_N", "5"))
+
     for i, item in enumerate(collected[:max_detail]):
-        print(f"Detail {i+1}/{min(max_detail, len(collected))}: {item['title'][:50]}")
+        print(f"Detail {i+1}/{min(max_detail, len(collected))}: {item['title'][:55]}")
         udemy, image, meta = resolve_udemy(item["enext_url"])
         if not udemy or is_blocked(udemy) or not is_udemy_url(udemy):
             print("  skip — no direct Udemy URL")
-            time.sleep(0.5)
+            time.sleep(0.4)
+            continue
+
+        title = meta.get("title") or item["title"]
+        if title.lower() in SKIP_TITLES or title.lower().startswith("enroll now"):
+            print("  skip — bad title")
             continue
 
         category = meta.get("category") or item.get("category") or "IT & Software"
         language = meta.get("language") or item.get("language") or "English"
         image = image or item.get("image") or ""
-        copy = groq_course_copy(item["title"], category, language, meta.get("raw_desc", ""))
 
-        slug = slugify(item["title"])
-        course = {
-            "title": item["title"],
-            "slug": slug,
-            "udemy_url": udemy,
-            "image": image,
-            "category": category,
-            "language": language,
-            "instructor": meta.get("instructor", ""),
-            "length": meta.get("length", ""),
-            "summary": copy.get("summary", ""),
-            "learn": copy.get("learn", []),
-            "who": copy.get("who", ""),
-            "note": copy.get("note", ""),
-            "page": f"p/{slug}.html",
-        }
-        courses.append(course)
-        time.sleep(0.7)
+        if use_groq_every > 0 and (i % use_groq_every == 0):
+            copy = groq_course_copy(title, category, language, meta.get("raw_desc", ""))
+        else:
+            copy = fallback_copy(title, category, meta.get("raw_desc", ""))
+
+        slug = slugify(title)
+        # ensure unique slug
+        base_slug = slug
+        n = 2
+        existing = {c["slug"] for c in courses}
+        while slug in existing:
+            slug = f"{base_slug}-{n}"
+            n += 1
+
+        courses.append(
+            {
+                "title": title,
+                "slug": slug,
+                "udemy_url": udemy,
+                "image": image,
+                "category": category,
+                "language": language,
+                "instructor": meta.get("instructor", ""),
+                "length": meta.get("length", ""),
+                "summary": copy.get("summary", ""),
+                "learn": copy.get("learn", []),
+                "who": copy.get("who", ""),
+                "note": copy.get("note", ""),
+                "page": f"p/{slug}.html",
+            }
+        )
+        time.sleep(0.45)
 
     payload = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
@@ -429,8 +491,9 @@ def main() -> None:
             old.unlink()
     PAGES_DIR.mkdir(parents=True, exist_ok=True)
     for course in courses:
-        path = PAGES_DIR / f"{course['slug']}.html"
-        path.write_text(render_detail_page(course), encoding="utf-8")
+        (PAGES_DIR / f"{course['slug']}.html").write_text(
+            render_detail_page(course), encoding="utf-8"
+        )
     print(f"Wrote {len(courses)} detail pages → {PAGES_DIR}")
 
 
