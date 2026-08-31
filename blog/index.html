@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tech Blog — AI/ML Articles | LearnWithZuhaib</title>
+  <meta name="description" content="Practical AI/ML engineering articles for builders." />
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">LearnWithZuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Udemy Courses</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="page-head">
+      <h1>Tech Blog</h1>
+      <p class="lead">Coding-side AI/ML posts — production tips, code, and methods.</p>
+    </div>
+    <div class="post-list" id="posts">Loading posts…</div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><p>LearnWithZuhaib · Tech Blog</p></div>
+  </footer>
+
+  <script>
+    const el = document.getElementById('posts');
+    fetch('../data/posts.json')
+      .then(r => r.json())
+      .then(data => {
+        const posts = (data.posts || []).slice().sort((a,b) => (b.date||'').localeCompare(a.date||''));
+        if (!posts.length) {
+          el.innerHTML = '<p class="empty">No posts yet. Auto-publisher will add articles soon.</p>';
+          return;
+        }
+        el.innerHTML = posts.map(p => `
+          <article class="card post-card">
+            <div class="date">${escapeHtml(p.date || '')}</div>
+            <h2><a href="${escapeHtml(p.slug)}.html">${escapeHtml(p.title)}</a></h2>
+            <p class="excerpt">${escapeHtml(p.excerpt || '')}</p>
+            <a href="${escapeHtml(p.slug)}.html">Read more →</a>
+          </article>
+        `).join('');
+      })
+      .catch(() => {
+        el.innerHTML = '<p class="empty">Could not load posts.</p>';
+      });
+
+    function escapeHtml(s) {
+      return String(s || '').replace(/[&<>"']/g, m => ({'&':'&','<':'<','>':'>','"':'"',"'":'&#39;'}[m]));
+    }
+  </script>
+</body>
+</html>
