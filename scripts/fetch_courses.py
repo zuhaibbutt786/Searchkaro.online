@@ -18,6 +18,8 @@ from urllib.parse import urljoin, urlparse, parse_qs, urlencode, urlunparse
 import requests
 from bs4 import BeautifulSoup
 
+from groq_client import groq_chat_json
+
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "courses.json"
 PAGES_DIR = ROOT / "courses" / "p"
@@ -30,9 +32,7 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
-ENEXT_PAGES = [
-    f"https://jobs.e-next.in/course/udemy/{i}" for i in range(1, 8)
-]
+ENEXT_PAGES = [f"https://jobs.e-next.in/course/udemy/{i}" for i in range(1, 8)]
 
 BLOCKED_HOSTS = {
     "couponami.com",
@@ -55,7 +55,7 @@ def slugify(title: str) -> str:
     s = title.lower()
     s = re.sub(r"[^a-z0-9\s-]", "", s)
     s = re.sub(r"[\s_]+", "-", s).strip("-")
-    return (s[:90] or f"course-{int(time.time())}")
+    return s[:90] or f"course-{int(time.time())}"
 
 
 def is_udemy_url(url: str) -> bool:
@@ -77,7 +77,6 @@ def is_blocked(url: str) -> bool:
 
 
 def normalize_udemy(url: str) -> str:
-    """Keep couponCode if present; drop tracking junk."""
     if not is_udemy_url(url):
         return ""
     p = urlparse(url)
@@ -85,13 +84,11 @@ def normalize_udemy(url: str) -> str:
     keep = {}
     if "couponCode" in qs:
         keep["couponCode"] = qs["couponCode"][0]
-    # path only + optional coupon
     new_q = urlencode(keep)
     return urlunparse(("https", "www.udemy.com", p.path.rstrip("/") + "/", "", new_q, ""))
 
 
 def extract_udemy_from_html(text: str) -> str:
-    # Prefer links with couponCode
     for m in re.finditer(
         r"https?://(?:www\.)?udemy\.com/course/[a-zA-Z0-9\-_/]+(?:\?[^\"'\s]*)?",
         text,
@@ -112,12 +109,10 @@ def parse_enext_list(html_text: str, base: str) -> list[dict]:
     items: list[dict] = []
     seen: set[str] = set()
 
-    # Collect anchors that point at e-next course detail pages
     for a in soup.select("a[href*='/course/udemy/']"):
         href = a.get("href") or ""
         if href.startswith("/"):
             href = urljoin(base, href)
-        # skip list pagination like /course/udemy/1
         if re.search(r"/course/udemy/\d+/?$", href):
             continue
         if "/course/udemy/enroll" in href:
@@ -125,7 +120,6 @@ def parse_enext_list(html_text: str, base: str) -> list[dict]:
 
         title = clean_text(a.get_text(" ", strip=True))
         if len(title) < 10:
-            # try parent card heading
             parent = a.find_parent(["div", "article", "li"])
             if parent:
                 h = parent.select_one("h2, h3, h4, h5, .title")
@@ -175,14 +169,12 @@ def parse_enext_list(html_text: str, base: str) -> list[dict]:
 
 
 def resolve_udemy(enext_url: str) -> tuple[str, str, dict]:
-    """Return (udemy_url, image, meta) from e-next detail page."""
     meta: dict = {}
     image = ""
     try:
         r = requests.get(enext_url, headers=HEADERS, timeout=25, allow_redirects=True)
         if r.status_code != 200:
             return "", "", meta
-        # If redirect landed on udemy
         if is_udemy_url(r.url):
             return normalize_udemy(r.url), image, meta
 
@@ -212,10 +204,9 @@ def resolve_udemy(enext_url: str) -> tuple[str, str, dict]:
                 meta["category"] = line.split(None, 1)[-1][:80]
             elif low.startswith("creator") or low.startswith("instructor"):
                 meta["instructor"] = line.split(None, 1)[-1][:100]
-            elif low.startswith("length") or "hours" in low and len(line) < 40:
+            elif low.startswith("length") or ("hours" in low and len(line) < 40):
                 meta["length"] = line[:40]
 
-        # short description snippet from page
         p = soup.select_one(".description, #description, .course-description, article p")
         if p:
             meta["raw_desc"] = clean_text(p.get_text(" ", strip=True))[:600]
@@ -224,55 +215,6 @@ def resolve_udemy(enext_url: str) -> tuple[str, str, dict]:
     except Exception as e:
         print(f"  resolve fail {enext_url}: {e}")
         return "", "", meta
-
-
-def groq_course_copy(title: str, category: str, language: str, raw_desc: str) -> dict:
-    api_key = os.getenv("GROQ_API_KEY")
-    if not api_key:
-        return fallback_copy(title, category, raw_desc)
-
-    prompt = f"""Write a short course landing page for a free Udemy coupon listing.
-
-Title: {title}
-Category: {category}
-Language: {language}
-Source notes: {raw_desc[:400]}
-
-Return ONLY JSON:
-{{
-  "summary": "2-3 sentences, plain and useful",
-  "learn": ["bullet 1", "bullet 2", "bullet 3", "bullet 4"],
-  "who": "one sentence who this is for",
-  "note": "one line: coupon may expire; confirm $0 on Udemy"
-}}
-No marketing fluff. No 'game-changer'. JSON only."""
-    try:
-        resp = requests.post(
-            "https://api.groq.com/openai/v1/chat/completions",
-            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
-            json={
-                "model": "llama-3.3-70b-versatile",
-                "messages": [
-                    {"role": "system", "content": "Clear course copywriter. JSON only."},
-                    {"role": "user", "content": prompt},
-                ],
-                "temperature": 0.5,
-                "max_tokens": 700,
-            },
-            timeout=40,
-        )
-        if resp.status_code != 200:
-            return fallback_copy(title, category, raw_desc)
-        raw = resp.json()["choices"][0]["message"]["content"].strip()
-        if raw.startswith("```"):
-            raw = raw.strip("`")
-            if raw.lower().startswith("json"):
-                raw = raw[4:].strip()
-        data = json.loads(raw)
-        data["learn"] = list(data.get("learn") or [])[:6]
-        return data
-    except Exception:
-        return fallback_copy(title, category, raw_desc)
 
 
 def fallback_copy(title: str, category: str, raw_desc: str) -> dict:
@@ -288,6 +230,37 @@ def fallback_copy(title: str, category: str, raw_desc: str) -> dict:
         "who": f"Learners interested in {category} who want a free coupon seat while it lasts.",
         "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
     }
+
+
+def groq_course_copy(title: str, category: str, language: str, raw_desc: str) -> dict:
+    prompt = f"""Write a short course landing page for a free Udemy coupon listing.
+
+Title: {title}
+Category: {category}
+Language: {language}
+Source notes: {raw_desc[:400]}
+
+Return ONLY JSON:
+{{
+  "summary": "2-3 sentences, plain and useful",
+  "learn": ["bullet 1", "bullet 2", "bullet 3", "bullet 4"],
+  "who": "one sentence who this is for",
+  "note": "one line: coupon may expire; confirm $0 on Udemy"
+}}
+No marketing fluff. No 'game-changer'. JSON only."""
+    data = groq_chat_json(
+        system="Clear course copywriter. JSON only.",
+        user=prompt,
+        temperature=0.5,
+        max_tokens=700,
+        timeout=40,
+    )
+    if not data:
+        return fallback_copy(title, category, raw_desc)
+    data["learn"] = list(data.get("learn") or [])[:6]
+    if not data.get("summary"):
+        return fallback_copy(title, category, raw_desc)
+    return data
 
 
 def render_detail_page(course: dict) -> str:
@@ -408,7 +381,6 @@ def main() -> None:
     print(f"Collected {len(collected)} list items from e-next")
 
     courses: list[dict] = []
-    # Cap detail fetches to keep CI time reasonable
     max_detail = int(os.getenv("MAX_COURSE_DETAIL", "60"))
     for i, item in enumerate(collected[:max_detail]):
         print(f"Detail {i+1}/{min(max_detail, len(collected))}: {item['title'][:50]}")
@@ -442,7 +414,6 @@ def main() -> None:
         courses.append(course)
         time.sleep(0.7)
 
-    # Write JSON
     payload = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "source": "jobs.e-next.in",
@@ -453,7 +424,6 @@ def main() -> None:
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"Wrote {len(courses)} courses → {OUT}")
 
-    # Build on-site pages
     if PAGES_DIR.exists():
         for old in PAGES_DIR.glob("*.html"):
             old.unlink()
