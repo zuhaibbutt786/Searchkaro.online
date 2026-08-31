@@ -1,0 +1,18 @@
+{
+  "updated_at": "2026-08-31T00:00:00Z",
+  "source": "seed",
+  "courses": [
+    {
+      "title": "Python for Beginners — sample listing (replace via automation)",
+      "url": "https://www.udemy.com/",
+      "category": "Development",
+      "language": "English"
+    },
+    {
+      "title": "AWS Cloud Practitioner practice — sample listing",
+      "url": "https://www.udemy.com/",
+      "category": "IT & Software",
+      "language": "English"
+    }
+  ]
+}
