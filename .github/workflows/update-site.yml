@@ -2,7 +2,6 @@ name: Update courses and blog
 
 on:
   schedule:
-    # Every day 06:00 UTC = 11:00 AM PKT
     - cron: '0 6 * * *'
   workflow_dispatch:
 
@@ -24,7 +23,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4
 
-      - name: Fetch free Udemy courses
+      - name: Fetch courses + build on-site pages
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          MAX_COURSE_DETAIL: '50'
         run: python scripts/fetch_courses.py
         continue-on-error: true
 
@@ -38,6 +40,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/courses.json data/posts.json blog/
+          git add data/courses.json data/posts.json blog/ courses/p/
           git diff --staged --quiet || git commit -m "chore: daily courses + blog update [skip ci]"
           git push
