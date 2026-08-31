@@ -47,6 +47,18 @@
       "slug": "practical-notes-on-reproducible-cuda-training-seeds",
       "date": "2026-08-31",
       "excerpt": "Engineering checklist and code patterns for Reproducible CUDA training seeds."
+    },
+    {
+      "title": "Practical notes on Structured outputs and tool calling",
+      "slug": "practical-notes-on-structured-outputs-and-tool-calling",
+      "date": "2026-08-31",
+      "excerpt": "Engineering checklist and code patterns for Structured outputs and tool calling."
+    },
+    {
+      "title": "Practical notes on RAG chunking that retrieves",
+      "slug": "practical-notes-on-rag-chunking-that-retrieves",
+      "date": "2026-08-31",
+      "excerpt": "Engineering checklist and code patterns for RAG chunking that retrieves."
     }
   ]
 }
