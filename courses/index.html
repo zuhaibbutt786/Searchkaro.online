@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>100% Free Udemy Courses with Coupons | LearnWithZuhaib</title>
+  <meta name="description" content="Daily updated list of free Udemy courses with 100% OFF coupons and certificates." />
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">LearnWithZuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../blog/">Tech Blog</a>
+        <a href="./" class="active">Free Udemy Courses</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="page-head">
+      <h1>Free Udemy Course List</h1>
+      <p class="lead">100% OFF coupons · certificate-eligible when coupon is active. Updated automatically.</p>
+      <p><a href="enroll-guide.html">Need help? Step-by-step enrollment guide →</a></p>
+    </div>
+
+    <div class="toolbar">
+      <input id="q" type="search" placeholder="Search courses (python, aws, excel...)" />
+      <select id="cat">
+        <option value="">All categories</option>
+      </select>
+    </div>
+    <p class="stats" id="stats">Loading courses…</p>
+
+    <div class="course-list" id="list"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Not affiliated with Udemy. Instructor promotional coupons only.</p>
+    </div>
+  </footer>
+
+  <script>
+    const listEl = document.getElementById('list');
+    const statsEl = document.getElementById('stats');
+    const qEl = document.getElementById('q');
+    const catEl = document.getElementById('cat');
+    let courses = [];
+
+    function render() {
+      const q = (qEl.value || '').toLowerCase().trim();
+      const cat = catEl.value;
+      const filtered = courses.filter(c => {
+        const hay = `${c.title} ${c.category || ''} ${c.language || ''}`.toLowerCase();
+        const okQ = !q || hay.includes(q);
+        const okC = !cat || (c.category || '') === cat;
+        return okQ && okC;
+      });
+      statsEl.textContent = `${filtered.length} courses shown · ${courses.length} total`;
+      if (!filtered.length) {
+        listEl.innerHTML = '<p class="empty">No courses match your filters. Try another search.</p>';
+        return;
+      }
+      listEl.innerHTML = filtered.map(c => `
+        <article class="course-item">
+          <div>
+            <h3>${escapeHtml(c.title)} <span class="badge-free">100% OFF</span></h3>
+            <div class="meta">${escapeHtml(c.language || 'English')} ${c.category ? '· ' + escapeHtml(c.category) : ''}</div>
+          </div>
+          <a class="btn green" href="${escapeAttr(c.url)}" target="_blank" rel="noopener noreferrer">Enroll Now Free</a>
+        </article>
+      `).join('');
+    }
+
+    function escapeHtml(s) {
+      return String(s || '').replace(/[&<>"']/g, m => ({'&':'&','<':'<','>':'>','"':'"',"'":'&#39;'}[m]));
+    }
+    function escapeAttr(s) {
+      return escapeHtml(s).replace(/`/g, '');
+    }
+
+    fetch('../data/courses.json')
+      .then(r => r.json())
+      .then(data => {
+        courses = data.courses || [];
+        const cats = [...new Set(courses.map(c => c.category).filter(Boolean))].sort();
+        cats.forEach(c => {
+          const opt = document.createElement('option');
+          opt.value = c; opt.textContent = c;
+          catEl.appendChild(opt);
+        });
+        if (data.updated_at) {
+          statsEl.title = 'Updated ' + data.updated_at;
+        }
+        render();
+      })
+      .catch(() => {
+        statsEl.textContent = 'Could not load courses. Run the update workflow.';
+        listEl.innerHTML = '<p class="empty">Courses data missing. GitHub Action will populate data/courses.json.</p>';
+      });
+
+    qEl.addEventListener('input', render);
+    catEl.addEventListener('change', render);
+  </script>
+</body>
+</html>
