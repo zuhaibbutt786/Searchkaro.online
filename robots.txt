@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zuhaibbutt786.github.io/tech-blog-courses/sitemap.xml
+Sitemap: https://searchkaro.online/sitemap.xml
