@@ -2,7 +2,6 @@ name: Update courses and blog
 
 on:
   schedule:
-    # 10:00 AM Pakistan Standard Time (UTC+5) = 05:00 UTC
     - cron: '0 5 * * *'
   workflow_dispatch:
 
@@ -24,15 +23,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4
 
-      - name: Fetch courses + build on-site pages
+      - name: Fetch courses
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           MAX_COURSE_DETAIL: '50'
           PYTHONPATH: scripts
+          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
         run: python scripts/fetch_courses.py
         continue-on-error: true
 
-      - name: Generate topic blog posts
+      - name: Topic blog posts
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           POSTS_PER_RUN: '2'
@@ -40,7 +40,7 @@ jobs:
         run: python scripts/generate_posts.py
         continue-on-error: true
 
-      - name: Stack Overflow answer posts (top by views)
+      - name: Stack Overflow answer posts
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           SO_POSTS_PER_RUN: '4'
@@ -48,27 +48,34 @@ jobs:
         run: python scripts/fetch_stackoverflow.py
         continue-on-error: true
 
-      - name: Scholarships + jobs from RSS
+      - name: Scholarships + jobs (detail pages)
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          MAX_SCHOLARSHIPS: '12'
-          MAX_JOBS: '12'
+          MAX_SCHOLARSHIPS: '30'
+          MAX_JOBS: '30'
+          GROQ_ENRICH_LIMIT: '18'
           PYTHONPATH: scripts
+          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
         run: python scripts/fetch_feeds.py
         continue-on-error: true
+
+      - name: Universities pages
+        env:
+          PYTHONPATH: scripts
+        run: python scripts/build_universities.py
 
       - name: Rebuild homepage + sitemap
         env:
           PYTHONPATH: scripts
+          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
         run: |
           python scripts/build_home.py
           python scripts/build_sitemap.py
 
-      - name: Notify WhatsApp channel (new courses)
+      - name: WhatsApp notify
         env:
           PYTHONPATH: scripts
           SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
-          WHATSAPP_PROVIDER: ${{ secrets.WHATSAPP_PROVIDER }}
           WHAPI_TOKEN: ${{ secrets.WHAPI_TOKEN }}
           WHAPI_CHANNEL_ID: ${{ secrets.WHAPI_CHANNEL_ID }}
           WHATSAPP_TOKEN: ${{ secrets.WHATSAPP_TOKEN }}
@@ -82,6 +89,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ blog/ courses/p/ scholarships/ jobs/ index.html sitemap.xml robots.txt about.html contact.html privacy.html assets/style.css
-          git diff --staged --quiet || git commit -m "chore: daily content hub update [skip ci]"
+          git add data/ blog/ courses/p/ scholarships/ jobs/ universities/ index.html sitemap.xml assets/style.css
+          git diff --staged --quiet || git commit -m "chore: daily searchkaro content update [skip ci]"
           git push
