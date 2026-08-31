@@ -71,6 +71,18 @@
       "slug": "practical-notes-on-mlops-metrics-that-matter",
       "date": "2026-08-31",
       "excerpt": "Engineering checklist and code patterns for MLOps metrics that matter."
+    },
+    {
+      "title": "Implementing Prompt Versioning for Reliable LLM Production Pipelines",
+      "slug": "implementing-prompt-versioning-for-reliable-llm-production-pipelines",
+      "date": "2026-08-31",
+      "excerpt": "Prompt versioning prevents silent regressions and makes A/B testing reproducible. This post shows how to store, retrieve, and roll back prompts in a live service."
+    },
+    {
+      "title": "KV Cache Tuning for Low\u2011Latency LLMs",
+      "slug": "kv-cache-tuning-for-lowlatency-llms",
+      "date": "2026-08-31",
+      "excerpt": "Learn how to reduce inference latency in large language models by efficiently managing key\u2011value caches and adjusting cache reuse policies."
     }
   ]
 }

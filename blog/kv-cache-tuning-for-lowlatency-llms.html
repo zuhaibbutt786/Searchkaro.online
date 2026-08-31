@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KV Cache Tuning for Low‑Latency LLMs | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to reduce inference latency in large language models by efficiently managing key‑value caches and adjusting cache reuse policies." />
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-08-31</p>
+    <h1>KV Cache Tuning for Low‑Latency LLMs</h1>
+    <p class="lead">Learn how to reduce inference latency in large language models by efficiently managing key‑value caches and adjusting cache reuse policies.</p>
+    <div class="content">
+<h2>Understanding KV Cache Mechanics</h2>
+<p>In transformer models, each layer stores key and value tensors for every token processed. During generation, the model can reuse these tensors instead of recomputing them, which saves both compute and memory bandwidth. The cache is typically a list of tuples, one per layer, that the decoder passes back to itself on each step. When the cache is empty, the model performs a full forward pass; when it is present, the decoder only processes the new token and concatenates the results with the stored tensors.</p>
+<p>A well‑managed cache reduces the number of matrix multiplications by a factor of the sequence length, especially for long prompts. However, the cache also occupies GPU memory; if it grows too large, paging or evictions can negate the speedup. Understanding the trade‑off between cache size and latency is the first step toward optimization.</p>
+<h2>Cache Granularity and Reuse</h2>
+<p>You can control how much of the cache you keep between requests. Token‑level reuse keeps the entire sequence, which is fastest but consumes the most memory. Layer‑level reuse stores only the last few layers’ keys and values, which lowers memory usage but adds a small compute penalty.</p>
+<p>Choosing the right granularity depends on your batch size and the typical prompt length. For example, a 32‑token prompt can be fully cached on a single GPU, but a 512‑token prompt may require truncating or recomputing older layers. Profiling different reuse strategies on your hardware will reveal the sweet spot.</p>
+<h2>Implementing a Simple KV Cache in PyTorch</h2>
+<p>Below is a minimal example that shows how to forward a prompt while reusing a cache across steps. The code assumes a Hugging‑Face transformer model that exposes `past_key_values`.</p>
+<p>You can store the returned cache after the first token and pass it back in subsequent calls. This pattern is common in streaming inference setups.</p>
+<p>The snippet is intentionally concise; in production you would add error handling and device placement logic.</p>
+<pre><code># Example: reuse KV cache across prompts
+
+def forward_with_cache(model, input_ids, past_key_values=None):
+    outputs = model(input_ids, past_key_values=past_key_values, use_cache=True)
+    return outputs.logits, outputs.past_key_values</code></pre>
+<h2>Performance Measurement and Profiling</h2>
+<p>Measure latency with `torch.cuda.synchronize()` before and after the forward call to get accurate GPU timings. Wrap the code in `torch.autograd.profiler.profile` to capture kernel launch times and memory usage.</p>
+<p>A typical pattern:</p>
+<p>```python
+start = time.time()
+torch.cuda.synchronize()
+logits, cache = forward_with_cache(model, token, cache)
+torch.cuda.synchronize()
+print(&#x27;step latency:&#x27;, time.time() - start)
+```</p>
+<p>Collecting these metrics over a batch of prompts lets you compare token‑level vs. layer‑level reuse and decide which strategy yields the best latency for your workload.</p>
+<h2>Practical Tips for Production</h2>
+<p>1. **Batch Size Tuning** – Larger batches amortize kernel launch overhead, but they also increase cache contention. Start with a batch size that fits in GPU memory and gradually increase until latency plateaus.</p>
+<p>2. **Sequence Truncation** – For very long prompts, truncate or summarize the tail before caching to keep the cache within a fixed size.</p>
+<p>3. **Memory Pooling** – Reuse the same CUDA tensors for the cache across requests to avoid frequent allocation and deallocation.</p>
+<p>4. **Model Parallelism** – When using multiple GPUs, split the cache across devices to balance memory usage and avoid inter‑GPU traffic.</p>
+<p>Applying these techniques systematically can bring consistent latency reductions across a range of LLM workloads.</p>
+<p><strong>Takeaway:</strong> Fine‑tuned KV cache management can cut LLM inference time by up to 30% without additional hardware.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

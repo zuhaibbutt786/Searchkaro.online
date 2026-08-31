@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Implementing Prompt Versioning for Reliable LLM Production Pipelines | LearnWithZuhaib</title>
+  <meta name="description" content="Prompt versioning prevents silent regressions and makes A/B testing reproducible. This post shows how to store, retrieve, and roll back prompts in a live service." />
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-08-31</p>
+    <h1>Implementing Prompt Versioning for Reliable LLM Production Pipelines</h1>
+    <p class="lead">Prompt versioning prevents silent regressions and makes A/B testing reproducible. This post shows how to store, retrieve, and roll back prompts in a live service.</p>
+    <div class="content">
+<h2>Why prompt versioning matters</h2>
+<p>A single line change in a prompt can alter model output dramatically. Without a versioning strategy, you cannot trace which prompt produced a given result, making debugging and compliance difficult. Treat prompts as code: they deserve the same change‑control discipline.</p>
+<p>Versioning also enables safe rollout of new prompts. By tagging each version, you can run canary experiments and compare key metrics before committing to production.</p>
+<h2>Design a lightweight prompt registry</h2>
+<p>Store prompts in a central key‑value store (e.g., a JSON file in a Git repo or a small NoSQL table). Each entry should contain:
+- version identifier (semantic or timestamp)
+- raw prompt text
+- optional metadata such as author, target model, and test coverage.</p>
+<p>A registry API abstracts the storage backend, letting you swap from a file system to a database without changing calling code.</p>
+<h2>Commit prompts alongside model code</h2>
+<p>Place the prompt JSON file in the same repository as your model inference code. When you open a pull request, reviewers see both code changes and prompt edits. Tag releases with a combined version tag, for example `v2.3-prompt‑001`, so you can reproduce the exact environment later.</p>
+<p>Automated CI can lint the JSON schema and run a quick sanity check (e.g., token length) before merging.</p>
+<h2>Runtime loading and hot‑swap logic</h2>
+<p>At inference time, fetch the active prompt version from the registry. Cache it locally to avoid repeated I/O, but provide an endpoint that invalidates the cache when a new version is deployed. This pattern lets you roll back with a single API call.</p>
+<p>```python
+import json, os
+from functools import lru_cache</p>
+<p>REGISTRY_PATH = os.getenv(&quot;PROMPT_REGISTRY&quot;, &quot;prompts.json&quot;)
+ACTIVE_VERSION = os.getenv(&quot;PROMPT_VERSION&quot;, &quot;latest&quot;)</p>
+<p>@lru_cache(maxsize=1)
+def load_prompt(version: str = ACTIVE_VERSION) -&gt; str:
+    &quot;&quot;&quot;Load a prompt string for the given version.
+    The JSON file maps version IDs to prompt texts.
+    &quot;&quot;&quot;
+    with open(REGISTRY_PATH, &quot;r&quot;, encoding=&quot;utf-8&quot;) as f:
+        registry = json.load(f)
+    if version not in registry:
+        raise KeyError(f&quot;Prompt version {version!r} not found&quot;)
+    return registry[version][&quot;text&quot;]</p>
+<p># Example usage in an inference wrapper
+def generate_response(model, user_input):
+    prompt = load_prompt() + &quot;\nUser: &quot; + user_input
+    return model.complete(prompt)
+```</p>
+<h2>Monitoring drift and rolling back safely</h2>
+<p>Log the prompt version with every request (e.g., as a request header or in your telemetry platform). Compare downstream metrics—accuracy, latency, user satisfaction—across versions. If a new version degrades performance, trigger an automated rollback by resetting `PROMPT_VERSION` to the previous tag.</p>
+<p>Having the version in logs also satisfies audit requirements for regulated industries, where you must prove which prompt generated a particular output.</p>
+<p><strong>Takeaway:</strong> Treat prompts as versioned artifacts; store, load, and monitor them just like code to keep LLM services stable.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>
