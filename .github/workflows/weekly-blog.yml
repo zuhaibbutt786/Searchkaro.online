@@ -1,0 +1,57 @@
+name: Weekly blog and Stack Overflow
+
+on:
+  schedule:
+    # Friday 10:00 AM PKT = 05:00 UTC
+    - cron: '0 5 * * 5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  blog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Topic blog posts
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          POSTS_PER_RUN: '4'
+          PYTHONPATH: scripts
+        run: python scripts/generate_posts.py
+        continue-on-error: true
+
+      - name: Stack Overflow answer posts
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          SO_POSTS_PER_RUN: '6'
+          PYTHONPATH: scripts
+        run: python scripts/fetch_stackoverflow.py
+        continue-on-error: true
+
+      - name: Rebuild homepage + sitemap
+        env:
+          PYTHONPATH: scripts
+          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
+        run: |
+          python scripts/build_home.py
+          python scripts/build_sitemap.py
+
+      - name: Commit updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/posts.json data/so_seen.json blog/ index.html sitemap.xml
+          git diff --staged --quiet || git commit -m "chore: weekly blog + stackoverflow [skip ci]"
+          git push
