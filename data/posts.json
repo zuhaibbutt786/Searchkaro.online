@@ -1,3 +1,16 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "title": "Practical notes on Quantization without quality collapse",
+      "slug": "practical-notes-on-quantization-without-quality-collapse",
+      "date": "2026-08-31",
+      "excerpt": "Engineering checklist and code patterns for Quantization without quality collapse."
+    },
+    {
+      "title": "Practical notes on KV cache and LLM latency",
+      "slug": "practical-notes-on-kv-cache-and-llm-latency",
+      "date": "2026-08-31",
+      "excerpt": "Engineering checklist and code patterns for KV cache and LLM latency."
+    }
+  ]
 }

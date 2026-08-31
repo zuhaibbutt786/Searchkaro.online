@@ -1,18 +1,532 @@
 {
-  "updated_at": "2026-08-31T00:00:00Z",
-  "source": "seed",
+  "updated_at": "2026-08-31T10:44:59.114559+00:00",
+  "source": "discudemy",
+  "count": 75,
   "courses": [
     {
-      "title": "Python for Beginners — sample listing (replace via automation)",
-      "url": "https://www.udemy.com/",
-      "category": "Development",
-      "language": "English"
+      "title": "AI for Enterprise Transformation: A Roadmap for Leaders",
+      "url": "https://www.couponami.com/business/ai-at-scale-roadmap-for-enterprise-transformation",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
     },
     {
-      "title": "AWS Cloud Practitioner practice — sample listing",
-      "url": "https://www.udemy.com/",
-      "category": "IT & Software",
-      "language": "English"
+      "title": "Artificial Intelligence for Entrepreneurs",
+      "url": "https://www.couponami.com/machine-learning/artificial-intelligence-for-entrepreneurs",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Financial Modeling with Generative AI",
+      "url": "https://www.couponami.com/business/financial-modeling-with-generative-ai-l",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "AI for Finance: Smarter Forecasting & Risk Intelligence",
+      "url": "https://www.couponami.com/business/practical-ai-for-finance-automate-forecast-and-optimize",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "AI for Strategic HR Operations and Compliance",
+      "url": "https://www.couponami.com/business/ai-for-strategic-hr-operations-and-compliance-z",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Generative AI For Leaders",
+      "url": "https://www.couponami.com/business/generative-ai-for-leaders-sw",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "AI in Marketing & Sales: Predictive Analytics & Forecasting",
+      "url": "https://www.couponami.com/business/ai-powered-sales-marketing-forecast-smarter-with-genai",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "AI for Non-Technical Pros: ChatGPT, Copilot, Claude & Gemini",
+      "url": "https://www.couponami.com/business/ai-for-non-technical-pros-chatgpt-copilot-claude-gemini",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Product Innovation with ChatGPT",
+      "url": "https://www.couponami.com/business/product-innovation-with-chatgpt",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "AI in Healthcare: Transforming Clinical & Admin Workflows",
+      "url": "https://www.couponami.com/health-fitness/ai-innovations-with-open-tools-in-healthcare-processes",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "End-to-End GenAI Model Engineering",
+      "url": "https://www.couponami.com/machine-learning/end-to-end-genai-model-engineering",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "AI for Product Leaders: Strategy, Innovation & Execution",
+      "url": "https://www.couponami.com/business/ai-for-product-leaders-strategy-innovation-execution",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "AI-Driven Business Process Modeling",
+      "url": "https://www.couponami.com/business/ai-driven-business-process-modeling",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "AI-Powered Change Management Strategies",
+      "url": "https://www.couponami.com/business/ai-powered-change-management-strategies",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Build RAG Systems: Generative AI & LangChain Mastery",
+      "url": "https://www.couponami.com/machine-learning/designing-autonomous-ai-agents",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Blockchain Essentials for Finance Professionals",
+      "url": "https://www.couponami.com/business/blockchain-essentials-for-finance-professionals",
+      "category": "English",
+      "language": "Spanish",
+      "source": "discudemy"
+    },
+    {
+      "title": "Bond Markets & Fixed Income Securities Mastery 2026",
+      "url": "https://www.couponami.com/business/fixed-income-securities",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "The Executive Communicator: Leading with Clarity",
+      "url": "https://www.couponami.com/business/the-executive-communicator-leading-with-clarity",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Intelligent Business Operations",
+      "url": "https://www.couponami.com/business/intelligent-business-operations",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "AI for Product and Process Optimization",
+      "url": "https://www.couponami.com/business/ai-for-product-and-process-optimization",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "AI Business Transformation: Org Change to Societal Impact",
+      "url": "https://www.couponami.com/business/transforming-your-business-with-ai-organization-and-society",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Precision Writing: Mastering Business & Technical Style",
+      "url": "https://www.couponami.com/business/precision-writing-mastering-business-technical-style",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Business Writing: Technical Writing & Communication Skills",
+      "url": "https://www.couponami.com/marketing/business-writing-immersion",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Advanced Business Analysis (35 IIBA® PDUs)",
+      "url": "https://www.couponami.com/business/advanced-business-analysis",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Ciberseguridad Gubernamental: Integración NIST–ISO en 16 pas",
+      "url": "https://www.couponami.com/network-security/ciberseguridad-gubernamental-integracion-nistiso-en-16-pas",
+      "category": "Spanish",
+      "language": "Spanish",
+      "source": "discudemy"
+    },
+    {
+      "title": "Mastering Cybersecurity: Essential Knowledge and Techniques",
+      "url": "https://www.couponami.com/network-security/mastering-cybersecurity-essential-knowledge-and-techniques",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Master Credit Analysis",
+      "url": "https://www.couponami.com/business/credit-analysis-academy",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Credit Risk Essentials: Analytics, AI & Underwriting",
+      "url": "https://www.couponami.com/business/credit-risk-essentials-analytics-ai-underwriting",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Principles of Credit Evaluation and Fixed Income Instruments",
+      "url": "https://www.couponami.com/business/principles-of-credit-evaluation-and-fixed-income-instruments",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Strategic Credit Modeling and Advanced Financial Diagnostics",
+      "url": "https://www.couponami.com/business/strategic-credit-modeling-and-advanced-financial-diagnostics",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Critical Concepts in Incident Response Frameworks",
+      "url": "https://www.couponami.com/business/critical-concepts-in-incident-response-frameworks",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Customer Service Training: Create Loyal Customers for Life",
+      "url": "https://www.couponami.com/business/customer-service-fundamentals",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Cyber Defense Fundamentals: Threats, Tools & Techniques",
+      "url": "https://www.couponami.com/network-security/cyber-defense-fundamentals-threats-tools-techniques",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "A Practical Guide to Threat Hunting Techniques",
+      "url": "https://www.couponami.com/development-tools/a-practical-guide-to-threat-hunting-techniques",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Cybersecurity Warrior Certification: Cybersecurity Immersion",
+      "url": "https://www.couponami.com/network-security/cyber-security-building-a-cyberwarrior-certification",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Storytelling for Financial Advisors and Investment Experts",
+      "url": "https://www.couponami.com/business/storytelling-for-financial-advisors-and-investment-experts",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Data Visualization: Advanced Storytelling for Sales Success",
+      "url": "https://www.couponami.com/business/storytelling-with-data-boosting-b2b-b2c-sales",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Learn PHP Laravel 12 for Beginners 2026: Build CMS Blog",
+      "url": "https://www.couponami.com/php/learn-php-laravel-12-for-beginners-2026-build-cms-blog",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "PHP Laravel: Build Amazing Restaurant Management System",
+      "url": "https://www.couponami.com/php/php-laravel-2023-build-amazing-restaurant-management-system",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Bootcamp AZ-900: Microsoft Azure Fundamentals Course",
+      "url": "https://www.couponami.com/business/bootcamp-az-900-microsoft-azure-fundamentals",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "UI/UX Design Masterclass with Adobe XD: From Beginner to Pro",
+      "url": "https://www.couponami.com/ux/uiux-design-masterclass-with-adobe-xd-from-beginner-to-pro",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Adobe Illustrator for T-Shirt Design: From Sketch to Print",
+      "url": "https://www.couponami.com/photoshop/adobe-illustrator-for-t-shirt-design-from-sketch-to-print",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "CapCut Video Editing for Social Media Beginner to Pro",
+      "url": "https://www.couponami.com/video-design/capcut-video-editing-for-social-media-beginner-to-pro",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Adobe Illustrator CC for Learning Graphics Design",
+      "url": "https://www.couponami.com/graphic-design/adobe-illustrator-cc-for-learning-graphics-design",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Learn Filmora for Video Editing Masterclass Course",
+      "url": "https://www.couponami.com/video-design/learn-filmora-for-video-editing-masterclass-course",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Adobe Premiere Pro CC Masterclass for Video Editing",
+      "url": "https://www.couponami.com/premiere-pro/adobe-premiere-pro-cc-masterclass-for-video-editing",
+      "category": "English",
+      "language": "German",
+      "source": "discudemy"
+    },
+    {
+      "title": "Learn Figma: UI/UX Design Masterclass From Beginner to Pro",
+      "url": "https://www.couponami.com/graphic-design/learn-figma-uiux-design-masterclass-from-beginner-to-pro",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Unlock the Secrets of Polynomials: Command On Algebra",
+      "url": "https://www.couponami.com/academic/unlock-the-secrets-of-polynomials-command-on-algebra",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Rewrite Your Reality: 10x Your Writing Skills Effortlessly",
+      "url": "https://www.couponami.com/personal-development/rewrite-your-reality-10x-your-writing-skills-effortlessly",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Mastering Adobe Illustrator Projects: Build Your Portfolio",
+      "url": "https://www.couponami.com/graphic-design/mastering-adobe-illustrator-projects-build-your-portfolio",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Blender Essential: From Beginner to 3D Masterclass",
+      "url": "https://www.couponami.com/game-development/blender-essential-from-beginner-to-3d-masterclass",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "The Complete Guide to Instagram Marketing for Businesses",
+      "url": "https://www.couponami.com/marketing/the-complete-guide-to-instagram-marketing-for-businesses",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Hands-On R Programming: Build Real World Data Projects",
+      "url": "https://www.couponami.com/r-programming/hands-on-r-programming-build-real-world-data-projects",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "The Ultimate C# Bootcamp: Build Modern Web & API Apps",
+      "url": "https://www.couponami.com/csharp/the-ultimate-c-bootcamp-build-modern-web-api-apps",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Responsive Design with CSS3: Create Mobile Friendly Webpages",
+      "url": "https://www.couponami.com/css/responsive-design-with-css3-create-mobile-friendly-webpages",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Hands On Excel VBA Macros: Automate Daily Tasks in Minutes",
+      "url": "https://www.couponami.com/office-productivity/hands-on-excel-vba-macros-automate-daily-tasks-in-minutes",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Master Logo Design with Photoshop Illustrator Zero to Pro",
+      "url": "https://www.couponami.com/photoshop/master-logo-design-with-photoshop-illustrator-zero-to-pro",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Vorstellungsgespräch: Häufige Fragen und optimale Antworten!",
+      "url": "https://www.couponami.com/personal-development/vorstellungsgespraech-bewerbungsgespraech-fragen-und-antworten",
+      "category": "German",
+      "language": "German",
+      "source": "discudemy"
+    },
+    {
+      "title": "Workshops und Seminare professionell vorbereiten und leiten",
+      "url": "https://www.couponami.com/academic/workshop-methoden-online-und-offline-seminare-leiten",
+      "category": "German",
+      "language": "German",
+      "source": "discudemy"
+    },
+    {
+      "title": "Podcasting für Online-Unternehmer leicht gemacht mit Spotify",
+      "url": "https://www.couponami.com/marketing/podcast-online-business-digitales-marketing-mit-anchor",
+      "category": "German",
+      "language": "German",
+      "source": "discudemy"
+    },
+    {
+      "title": "Foundations of Web Development: CSS, Bootstrap, JS, React",
+      "url": "https://www.couponami.com/javascript/cssbootstrapjavascriptreact-overview-course-for-beginners",
+      "category": "English",
+      "language": "Spanish",
+      "source": "discudemy"
+    },
+    {
+      "title": "CSS, Bootstrap, JavaScript And PHP Stack Complete Course",
+      "url": "https://www.couponami.com/php/css-bootstrap-javascript-and-php-stack-complete-course",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Javascript For Beginners Complete Course",
+      "url": "https://www.couponami.com/javascript/javascript-for-beginners-complete-course",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Professional Diploma in Office Administration Management",
+      "url": "https://www.couponami.com/business/officeadministrationmanagement",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "AI for Image, Video and Music Creation",
+      "url": "https://www.couponami.com/development-tools/ai-for-image-video-and-music-creation",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Anti Money Laundering (AML) Insights for Financial Security",
+      "url": "https://www.couponami.com/business/anti-money-laundering-aml-kyc-compliance",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Global Human Resource Management",
+      "url": "https://www.couponami.com/business/global-human-resource",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Introduction to HR(Human Resource)",
+      "url": "https://www.couponami.com/business/human-resource",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Retail Management 101",
+      "url": "https://www.couponami.com/business/retail-management-101",
+      "category": "English",
+      "language": "English",
+      "source": "discudemy"
+    },
+    {
+      "title": "Microsoft PowerPoint: Crea presentaciones profesionales",
+      "url": "https://www.couponami.com/office-productivity/microsoft-powerpoint-desde-cero",
+      "category": "Spanish",
+      "language": "Spanish",
+      "source": "discudemy"
+    },
+    {
+      "title": "Microsoft Access: Desde cero para principiantes",
+      "url": "https://www.couponami.com/development-tools/microsoft-access-desde-cero",
+      "category": "Spanish",
+      "language": "Spanish",
+      "source": "discudemy"
+    },
+    {
+      "title": "R Programming: De Principiante a Avanzado",
+      "url": "https://www.couponami.com/r-programming/r-programming-desde-cero-analisis-de-datos",
+      "category": "Spanish",
+      "language": "Spanish",
+      "source": "discudemy"
+    },
+    {
+      "title": "Microsoft Excel: De Principiante a Avanzado",
+      "url": "https://www.couponami.com/office-productivity/microsoft-excel-desde-cero-y-analisis-de-datos",
+      "category": "Spanish",
+      "language": "Spanish",
+      "source": "discudemy"
+    },
+    {
+      "title": "R Programming: Análisis de datos",
+      "url": "https://www.couponami.com/r-programming/analisis-de-datos-con-r-programming",
+      "category": "Spanish",
+      "language": "Spanish",
+      "source": "discudemy"
+    },
+    {
+      "title": "Microsoft Excel: Análisis de datos",
+      "url": "https://www.couponami.com/office-productivity/analisis-de-datos-con-microsoft-excel",
+      "category": "Spanish",
+      "language": "Spanish",
+      "source": "discudemy"
     }
   ]
 }
