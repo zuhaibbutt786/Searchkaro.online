@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Practical notes on Prompt versioning in production | LearnWithZuhaib</title>
+  <meta name="description" content="Engineering checklist and code patterns for Prompt versioning in production." />
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-08-31</p>
+    <h1>Practical notes on Prompt versioning in production</h1>
+    <p class="lead">Engineering checklist and code patterns for Prompt versioning in production.</p>
+    <div class="content">
+<h2>What to measure first</h2>
+<p>Log latency percentiles, token counts, and failure modes before changing models. Averages hide the pain users feel.</p>
+<h2>Minimal code check</h2>
+<p>Start with a tiny reproducible script so every experiment is comparable.</p>
+<pre><code>import time
+t0 = time.time()
+# run inference
+print(&#x27;seconds&#x27;, time.time() - t0)</code></pre>
+<h2>Ship checklist</h2>
+<p>Pin versions, add eval gates, and name an owner for the first week in production.</p>
+<p><strong>Takeaway:</strong> Measure, baseline, then optimize the bottleneck you can prove.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>
