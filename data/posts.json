@@ -23,6 +23,18 @@
       "slug": "practical-notes-on-feature-stores-for-real-time-ml",
       "date": "2026-08-31",
       "excerpt": "Engineering checklist and code patterns for Feature stores for real-time ML."
+    },
+    {
+      "title": "Practical notes on vLLM batching for throughput",
+      "slug": "practical-notes-on-vllm-batching-for-throughput",
+      "date": "2026-08-31",
+      "excerpt": "Engineering checklist and code patterns for vLLM batching for throughput."
+    },
+    {
+      "title": "Practical notes on Speech models Whisper decoding tips",
+      "slug": "practical-notes-on-speech-models-whisper-decoding-tips",
+      "date": "2026-08-31",
+      "excerpt": "Engineering checklist and code patterns for Speech models Whisper decoding tips."
     }
   ]
 }
