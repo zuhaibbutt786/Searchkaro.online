@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate 2 AI/ML blog posts per day with Groq and write static HTML + index."""
+"""Generate 2 AI/ML blog posts per day with Groq (model fallbacks) and write static HTML."""
 
 from __future__ import annotations
 
@@ -8,11 +8,10 @@ import json
 import os
 import random
 import re
-import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import requests
+from groq_client import groq_chat_json
 
 ROOT = Path(__file__).resolve().parent.parent
 POSTS_JSON = ROOT / "data" / "posts.json"
@@ -55,9 +54,6 @@ def load_index() -> dict:
 
 
 def generate_with_groq(topic: str) -> dict | None:
-    api_key = os.getenv("GROQ_API_KEY")
-    if not api_key:
-        return None
     prompt = f"""Write a practical tech blog post for AI/ML engineers.
 
 Topic: {topic}
@@ -79,33 +75,16 @@ Rules:
 - at least one section with real Python code
 - ban: leverage, game-changer, delve, cutting-edge
 - JSON only"""
-    try:
-        resp = requests.post(
-            "https://api.groq.com/openai/v1/chat/completions",
-            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
-            json={
-                "model": "llama-3.3-70b-versatile",
-                "messages": [
-                    {"role": "system", "content": "Senior AI engineer blogger. JSON only."},
-                    {"role": "user", "content": prompt},
-                ],
-                "temperature": 0.7,
-                "max_tokens": 2500,
-            },
-            timeout=60,
-        )
-        if resp.status_code != 200:
-            print("Groq error", resp.status_code, resp.text[:200])
-            return None
-        raw = resp.json()["choices"][0]["message"]["content"].strip()
-        if raw.startswith("```"):
-            raw = raw.strip("`")
-            if raw.lower().startswith("json"):
-                raw = raw[4:].strip()
-        return json.loads(raw)
-    except Exception as e:
-        print("generate failed", e)
+    data = groq_chat_json(
+        system="Senior AI engineer blogger. JSON only.",
+        user=prompt,
+        temperature=0.7,
+        max_tokens=2500,
+        timeout=60,
+    )
+    if not data or not data.get("title") or not data.get("sections"):
         return None
+    return data
 
 
 def fallback_post(topic: str) -> dict:
@@ -157,11 +136,11 @@ def render_html(meta: dict, content: dict) -> str:
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="logo" href="../index.html">LearnWithZuhaib</a>
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
       <nav>
         <a href="../index.html">Home</a>
         <a href="./" class="active">Tech Blog</a>
-        <a href="../courses/">Free Udemy Courses</a>
+        <a href="../courses/">Free Courses</a>
       </nav>
     </div>
   </header>
@@ -212,7 +191,6 @@ def main() -> None:
         created += 1
         print(f"Wrote {html_path.name}")
 
-    # keep newest 200 in index
     posts = sorted(index.get("posts") or [], key=lambda p: p.get("date", ""), reverse=True)[:200]
     POSTS_JSON.write_text(json.dumps({"posts": posts}, indent=2), encoding="utf-8")
     print(f"Created {created} posts")
