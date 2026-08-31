@@ -11,6 +11,18 @@
       "slug": "practical-notes-on-kv-cache-and-llm-latency",
       "date": "2026-08-31",
       "excerpt": "Engineering checklist and code patterns for KV cache and LLM latency."
+    },
+    {
+      "title": "Practical notes on Vector search HNSW vs IVF",
+      "slug": "practical-notes-on-vector-search-hnsw-vs-ivf",
+      "date": "2026-08-31",
+      "excerpt": "Engineering checklist and code patterns for Vector search HNSW vs IVF."
+    },
+    {
+      "title": "Practical notes on Feature stores for real-time ML",
+      "slug": "practical-notes-on-feature-stores-for-real-time-ml",
+      "date": "2026-08-31",
+      "excerpt": "Engineering checklist and code patterns for Feature stores for real-time ML."
     }
   ]
 }
