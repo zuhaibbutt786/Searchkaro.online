@@ -35,6 +35,18 @@
       "slug": "practical-notes-on-speech-models-whisper-decoding-tips",
       "date": "2026-08-31",
       "excerpt": "Engineering checklist and code patterns for Speech models Whisper decoding tips."
+    },
+    {
+      "title": "Practical notes on Computer vision deployment pitfalls",
+      "slug": "practical-notes-on-computer-vision-deployment-pitfalls",
+      "date": "2026-08-31",
+      "excerpt": "Engineering checklist and code patterns for Computer vision deployment pitfalls."
+    },
+    {
+      "title": "Practical notes on Reproducible CUDA training seeds",
+      "slug": "practical-notes-on-reproducible-cuda-training-seeds",
+      "date": "2026-08-31",
+      "excerpt": "Engineering checklist and code patterns for Reproducible CUDA training seeds."
     }
   ]
 }
