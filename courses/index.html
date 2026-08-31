@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Free Udemy Courses with Coupons | LearnWithZuhaib</title>
-  <meta name="description" content="Browse free Udemy courses with 100% OFF coupons. Updated daily." />
+  <title>Free Udemy Courses | LearnWithZuhaib</title>
+  <meta name="description" content="Free Udemy courses. Open a course on this site, then enroll on Udemy." />
   <link rel="stylesheet" href="../assets/style.css" />
 </head>
 <body>
@@ -22,8 +22,8 @@
   <main class="container">
     <div class="page-head">
       <h1>Free Udemy Course List</h1>
-      <p class="sub">100% OFF coupons · certificate when the offer is still active</p>
-      <a class="help-pill" href="enroll-guide.html">Need help? Step-by-step enrollment guide</a>
+      <p class="sub">Open a course here for details. Enroll only goes to Udemy — no third-party coupon sites.</p>
+      <a class="help-pill" href="enroll-guide.html">Enrollment guide</a>
     </div>
 
     <div class="toolbar">
@@ -38,7 +38,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>Not affiliated with Udemy. Coupons are instructor promotional codes and may expire.</p>
+      <p>Not affiliated with Udemy. Enrollment opens only on udemy.com.</p>
     </div>
   </footer>
 
@@ -59,12 +59,18 @@
       return String(s || '').replace(/[&<>"']/g, m => ({'&':'&','<':'<','>':'>','"':'"',"'":'&#39;'}[m]));
     }
 
+    function detailHref(c) {
+      if (c.page) return c.page;
+      if (c.slug) return 'p/' + c.slug + '.html';
+      return '#';
+    }
+
     function render() {
       const q = (qEl.value || '').toLowerCase().trim();
       const cat = catEl.value;
       const lang = langEl.value;
       const filtered = courses.filter(c => {
-        const hay = `${c.title} ${c.category || ''} ${c.language || ''} ${c.instructor || ''}`.toLowerCase();
+        const hay = `${c.title} ${c.category || ''} ${c.language || ''}`.toLowerCase();
         return (!q || hay.includes(q))
           && (!cat || (c.category || '') === cat)
           && (!lang || (c.language || '') === lang);
@@ -76,20 +82,22 @@
       }
       listEl.innerHTML = filtered.map(c => {
         const img = c.image || PLACEHOLDER;
-        const href = c.url || '#';
+        const href = detailHref(c);
         return `
         <article class="course-card">
-          <div class="course-thumb">
-            <img src="${escapeHtml(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.src='${PLACEHOLDER}'" />
-            <span class="badge-free">100% OFF</span>
-          </div>
+          <a href="${escapeHtml(href)}" style="color:inherit;text-decoration:none">
+            <div class="course-thumb">
+              <img src="${escapeHtml(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.src='${PLACEHOLDER}'" />
+              <span class="badge-free">100% OFF</span>
+            </div>
+          </a>
           <div class="course-body">
-            <h3>${escapeHtml(c.title)}</h3>
+            <h3><a href="${escapeHtml(href)}" style="color:inherit;text-decoration:none">${escapeHtml(c.title)}</a></h3>
             <div class="course-meta">
               ${escapeHtml(c.language || 'English')}
               ${c.category ? '<span class="dot">·</span>' + escapeHtml(c.category) : ''}
             </div>
-            <a class="btn green block" href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">Enroll Now Free</a>
+            <a class="btn green block" href="${escapeHtml(href)}">View course</a>
           </div>
         </article>`;
       }).join('');
@@ -110,15 +118,19 @@
     fetch('../data/courses.json')
       .then(r => r.json())
       .then(data => {
-        courses = data.courses || [];
+        // Only show courses that have a local page / udemy url (never couponami)
+        courses = (data.courses || []).filter(c => {
+          const u = (c.udemy_url || c.url || '');
+          if (/couponami|discudemy|coursevania|real\.discount/i.test(u)) return false;
+          return true;
+        });
         fillSelect(catEl, [...new Set(courses.map(c => c.category).filter(Boolean))].sort(), 'Category');
         fillSelect(langEl, [...new Set(courses.map(c => c.language).filter(Boolean))].sort(), 'Language');
-        if (data.updated_at) statsEl.title = 'Updated ' + data.updated_at;
         render();
       })
       .catch(() => {
         statsEl.textContent = 'Could not load courses.';
-        listEl.innerHTML = '<p class="empty">Run the daily update workflow to load courses.</p>';
+        listEl.innerHTML = '<p class="empty">Run the update workflow to load courses.</p>';
       });
 
     qEl.addEventListener('input', render);
