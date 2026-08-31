@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>100% Free Udemy Courses with Coupons | LearnWithZuhaib</title>
-  <meta name="description" content="Daily updated list of free Udemy courses with 100% OFF coupons and certificates." />
+  <title>Free Udemy Courses with Coupons | LearnWithZuhaib</title>
+  <meta name="description" content="Browse free Udemy courses with 100% OFF coupons. Updated daily." />
   <link rel="stylesheet" href="../assets/style.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="logo" href="../index.html">LearnWithZuhaib</a>
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
       <nav>
         <a href="../index.html">Home</a>
         <a href="../blog/">Tech Blog</a>
-        <a href="./" class="active">Free Udemy Courses</a>
+        <a href="./" class="active">Free Courses</a>
       </nav>
     </div>
   </header>
@@ -22,24 +22,23 @@
   <main class="container">
     <div class="page-head">
       <h1>Free Udemy Course List</h1>
-      <p class="lead">100% OFF coupons · certificate-eligible when coupon is active. Updated automatically.</p>
-      <p><a href="enroll-guide.html">Need help? Step-by-step enrollment guide →</a></p>
+      <p class="sub">100% OFF coupons · certificate when the offer is still active</p>
+      <a class="help-pill" href="enroll-guide.html">Need help? Step-by-step enrollment guide</a>
     </div>
 
     <div class="toolbar">
-      <input id="q" type="search" placeholder="Search courses (python, aws, excel...)" />
-      <select id="cat">
-        <option value="">All categories</option>
-      </select>
+      <input id="q" type="search" placeholder="Search course name" />
+      <select id="lang"><option value="">Language</option></select>
+      <select id="cat"><option value="">Category</option></select>
     </div>
     <p class="stats" id="stats">Loading courses…</p>
 
-    <div class="course-list" id="list"></div>
+    <div class="course-grid" id="list"></div>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>Not affiliated with Udemy. Instructor promotional coupons only.</p>
+      <p>Not affiliated with Udemy. Coupons are instructor promotional codes and may expire.</p>
     </div>
   </footer>
 
@@ -48,62 +47,83 @@
     const statsEl = document.getElementById('stats');
     const qEl = document.getElementById('q');
     const catEl = document.getElementById('cat');
+    const langEl = document.getElementById('lang');
     let courses = [];
 
-    function render() {
-      const q = (qEl.value || '').toLowerCase().trim();
-      const cat = catEl.value;
-      const filtered = courses.filter(c => {
-        const hay = `${c.title} ${c.category || ''} ${c.language || ''}`.toLowerCase();
-        const okQ = !q || hay.includes(q);
-        const okC = !cat || (c.category || '') === cat;
-        return okQ && okC;
-      });
-      statsEl.textContent = `${filtered.length} courses shown · ${courses.length} total`;
-      if (!filtered.length) {
-        listEl.innerHTML = '<p class="empty">No courses match your filters. Try another search.</p>';
-        return;
-      }
-      listEl.innerHTML = filtered.map(c => `
-        <article class="course-item">
-          <div>
-            <h3>${escapeHtml(c.title)} <span class="badge-free">100% OFF</span></h3>
-            <div class="meta">${escapeHtml(c.language || 'English')} ${c.category ? '· ' + escapeHtml(c.category) : ''}</div>
-          </div>
-          <a class="btn green" href="${escapeAttr(c.url)}" target="_blank" rel="noopener noreferrer">Enroll Now Free</a>
-        </article>
-      `).join('');
-    }
+    const PLACEHOLDER =
+      'data:image/svg+xml,' + encodeURIComponent(
+        '<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360"><rect fill="#dbe4ea" width="100%" height="100%"/><text x="50%" y="50%" fill="#6b7280" font-family="Arial" font-size="22" text-anchor="middle" dy=".3em">Course</text></svg>'
+      );
 
     function escapeHtml(s) {
       return String(s || '').replace(/[&<>"']/g, m => ({'&':'&','<':'<','>':'>','"':'"',"'":'&#39;'}[m]));
     }
-    function escapeAttr(s) {
-      return escapeHtml(s).replace(/`/g, '');
+
+    function render() {
+      const q = (qEl.value || '').toLowerCase().trim();
+      const cat = catEl.value;
+      const lang = langEl.value;
+      const filtered = courses.filter(c => {
+        const hay = `${c.title} ${c.category || ''} ${c.language || ''} ${c.instructor || ''}`.toLowerCase();
+        return (!q || hay.includes(q))
+          && (!cat || (c.category || '') === cat)
+          && (!lang || (c.language || '') === lang);
+      });
+      statsEl.textContent = `${filtered.length} courses · ${courses.length} total`;
+      if (!filtered.length) {
+        listEl.innerHTML = '<p class="empty">No courses match your filters.</p>';
+        return;
+      }
+      listEl.innerHTML = filtered.map(c => {
+        const img = c.image || PLACEHOLDER;
+        const href = c.url || '#';
+        return `
+        <article class="course-card">
+          <div class="course-thumb">
+            <img src="${escapeHtml(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.src='${PLACEHOLDER}'" />
+            <span class="badge-free">100% OFF</span>
+          </div>
+          <div class="course-body">
+            <h3>${escapeHtml(c.title)}</h3>
+            <div class="course-meta">
+              ${escapeHtml(c.language || 'English')}
+              ${c.category ? '<span class="dot">·</span>' + escapeHtml(c.category) : ''}
+            </div>
+            <a class="btn green block" href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">Enroll Now Free</a>
+          </div>
+        </article>`;
+      }).join('');
+    }
+
+    function fillSelect(el, values, label) {
+      const current = el.value;
+      el.innerHTML = `<option value="">${label}</option>`;
+      values.forEach(v => {
+        const opt = document.createElement('option');
+        opt.value = v;
+        opt.textContent = v;
+        el.appendChild(opt);
+      });
+      if (values.includes(current)) el.value = current;
     }
 
     fetch('../data/courses.json')
       .then(r => r.json())
       .then(data => {
         courses = data.courses || [];
-        const cats = [...new Set(courses.map(c => c.category).filter(Boolean))].sort();
-        cats.forEach(c => {
-          const opt = document.createElement('option');
-          opt.value = c; opt.textContent = c;
-          catEl.appendChild(opt);
-        });
-        if (data.updated_at) {
-          statsEl.title = 'Updated ' + data.updated_at;
-        }
+        fillSelect(catEl, [...new Set(courses.map(c => c.category).filter(Boolean))].sort(), 'Category');
+        fillSelect(langEl, [...new Set(courses.map(c => c.language).filter(Boolean))].sort(), 'Language');
+        if (data.updated_at) statsEl.title = 'Updated ' + data.updated_at;
         render();
       })
       .catch(() => {
-        statsEl.textContent = 'Could not load courses. Run the update workflow.';
-        listEl.innerHTML = '<p class="empty">Courses data missing. GitHub Action will populate data/courses.json.</p>';
+        statsEl.textContent = 'Could not load courses.';
+        listEl.innerHTML = '<p class="empty">Run the daily update workflow to load courses.</p>';
       });
 
     qEl.addEventListener('input', render);
     catEl.addEventListener('change', render);
+    langEl.addEventListener('change', render);
   </script>
 </body>
 </html>
