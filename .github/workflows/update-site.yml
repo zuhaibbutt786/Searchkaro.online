@@ -32,12 +32,37 @@ jobs:
         run: python scripts/fetch_courses.py
         continue-on-error: true
 
-      - name: Generate blog posts
+      - name: Generate topic blog posts
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           POSTS_PER_RUN: '2'
           PYTHONPATH: scripts
         run: python scripts/generate_posts.py
+        continue-on-error: true
+
+      - name: Stack Overflow answer posts (top by views)
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          SO_POSTS_PER_RUN: '4'
+          PYTHONPATH: scripts
+        run: python scripts/fetch_stackoverflow.py
+        continue-on-error: true
+
+      - name: Scholarships + jobs from RSS
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          MAX_SCHOLARSHIPS: '12'
+          MAX_JOBS: '12'
+          PYTHONPATH: scripts
+        run: python scripts/fetch_feeds.py
+        continue-on-error: true
+
+      - name: Rebuild homepage + sitemap
+        env:
+          PYTHONPATH: scripts
+        run: |
+          python scripts/build_home.py
+          python scripts/build_sitemap.py
 
       - name: Notify WhatsApp channel (new courses)
         env:
@@ -50,7 +75,6 @@ jobs:
           WHATSAPP_PHONE_NUMBER_ID: ${{ secrets.WHATSAPP_PHONE_NUMBER_ID }}
           WHATSAPP_TO: ${{ secrets.WHATSAPP_TO }}
           WHATSAPP_WEBHOOK_URL: ${{ secrets.WHATSAPP_WEBHOOK_URL }}
-          FORCE_WHATSAPP: ${{ github.event_name == 'workflow_dispatch' && '0' || '0' }}
         run: python scripts/notify_whatsapp.py
         continue-on-error: true
 
@@ -58,6 +82,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/courses.json data/posts.json data/courses_seen.json blog/ courses/p/
-          git diff --staged --quiet || git commit -m "chore: daily courses + blog + whatsapp [skip ci]"
+          git add data/ blog/ courses/p/ scholarships/ jobs/ index.html sitemap.xml robots.txt about.html contact.html privacy.html assets/style.css
+          git diff --staged --quiet || git commit -m "chore: daily content hub update [skip ci]"
           git push
