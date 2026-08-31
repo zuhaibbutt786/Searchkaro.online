@@ -11,6 +11,9 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .
     steps:
       - uses: actions/checkout@v4
 
@@ -27,6 +30,7 @@ jobs:
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           MAX_COURSE_DETAIL: '50'
+          PYTHONPATH: scripts
         run: python scripts/fetch_courses.py
         continue-on-error: true
 
@@ -34,6 +38,7 @@ jobs:
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           POSTS_PER_RUN: '2'
+          PYTHONPATH: scripts
         run: python scripts/generate_posts.py
 
       - name: Commit updates
