@@ -27,7 +27,6 @@ a { color: var(--brand-2); text-decoration: none; }
 a:hover { text-decoration: underline; }
 .container { width: min(1140px, 94%); margin: 0 auto; }
 
-/* Header */
 .site-header {
   background: var(--brand);
   color: #fff;
@@ -48,16 +47,15 @@ a:hover { text-decoration: underline; }
   text-decoration: none !important;
 }
 .logo span { color: #fbbf24; }
-.nav nav { display: flex; gap: 18px; flex-wrap: wrap; }
+.nav nav { display: flex; gap: 14px; flex-wrap: wrap; }
 .nav a {
   color: rgba(255,255,255,0.88);
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   text-decoration: none !important;
 }
 .nav a:hover, .nav a.active { color: #fff; }
 
-/* Hero */
 .hero {
   background: linear-gradient(180deg, #e8f1f3 0%, var(--bg) 100%);
   padding: 48px 0 28px;
@@ -65,11 +63,19 @@ a:hover { text-decoration: underline; }
 }
 .hero h1 {
   margin: 0 0 10px;
-  font-size: clamp(1.7rem, 3.5vw, 2.35rem);
+  font-size: clamp(1.55rem, 3.4vw, 2.3rem);
   letter-spacing: -0.02em;
   color: var(--brand);
 }
-.lead { color: var(--muted); max-width: 62ch; margin: 0 0 18px; }
+.eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--brand-2);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.lead { color: var(--muted); max-width: 68ch; margin: 0 0 18px; }
 .hero-actions { display: flex; gap: 10px; flex-wrap: wrap; }
 
 .btn {
@@ -92,7 +98,46 @@ a:hover { text-decoration: underline; }
 .btn.green:hover { background: var(--accent-hover); }
 .btn.block { width: 100%; }
 
-/* Feature tiles */
+.section { padding: 28px 0 12px; }
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.section-head h2 {
+  margin: 0;
+  color: var(--brand);
+  font-size: 1.35rem;
+}
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+}
+.dual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 800px) { .dual { grid-template-columns: 1fr; } }
+.link-list { margin: 0; padding-left: 1.15rem; color: var(--ink); }
+.link-list li { margin: 0.45rem 0; }
+.list-card h3 { margin: 8px 0; font-size: 1.05rem; }
+.list-card .excerpt { color: var(--muted); margin: 0 0 8px; }
+.list-card .meta, .list-card .date { color: var(--muted); font-size: 0.85rem; }
+
+.faq-home details {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+}
+.faq-home summary { font-weight: 700; cursor: pointer; color: var(--brand); }
+.faq-home p { color: var(--muted); margin: 8px 0 0; }
+
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -133,14 +178,18 @@ a:hover { text-decoration: underline; }
   padding: 28px 0 40px;
   color: var(--muted);
   font-size: 0.9rem;
+  margin-top: 24px;
 }
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 16px;
+}
+@media (max-width: 720px) { .footer-grid { grid-template-columns: 1fr; } }
 .muted { opacity: 0.9; }
 
-/* Page head */
-.page-head {
-  padding: 32px 0 8px;
-  text-align: center;
-}
+.page-head { padding: 32px 0 8px; text-align: center; }
 .page-head h1 {
   margin: 0 0 8px;
   font-size: clamp(1.5rem, 3vw, 2rem);
@@ -165,7 +214,6 @@ a:hover { text-decoration: underline; }
   text-decoration: none !important;
 }
 
-/* Filters */
 .toolbar {
   display: flex;
   gap: 10px;
@@ -191,7 +239,6 @@ a:hover { text-decoration: underline; }
   font-size: 0.92rem;
 }
 
-/* BIG course cards */
 .course-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -254,14 +301,10 @@ a:hover { text-decoration: underline; }
   overflow: hidden;
   min-height: 2.7em;
 }
-.course-meta {
-  color: var(--muted);
-  font-size: 0.88rem;
-}
+.course-meta { color: var(--muted); font-size: 0.88rem; }
 .course-meta .dot { margin: 0 6px; opacity: 0.5; }
 .course-body .btn { margin-top: auto; }
 
-/* Blog */
 .post-list { display: grid; gap: 14px; padding: 8px 0 48px; }
 .post-card h2 { margin: 0 0 8px; font-size: 1.15rem; }
 .post-card h2 a { color: var(--ink); }
