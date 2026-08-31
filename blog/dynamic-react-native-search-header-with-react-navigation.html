@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dynamic React Native Search Header with React Navigation | LearnWithZuhaib</title>
+  <meta name="description" content="Implement a state-driven search bar in React Navigation headers by replacing static navigationOptions with dynamic components." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, reactjs,react-native,header,searchbar" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/dynamic-react-native-search-header-with-react-navigation.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I use context for this?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, if multiple screens need to trigger the same search state, a React Context provider is more scalable than passing props."}}, {"@type": "Question", "name": "Why not use navigationOptions property?", "acceptedAnswer": {"@type": "Answer", "text": "Static navigationOptions do not re-evaluate on state changes. Dynamic updates require the imperative setOptions API or function-based options tied to re-renders."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-08-31 · Q&A guide</p>
+    <h1>Dynamic React Native Search Header with React Navigation</h1>
+    <p class="lead">Implement a state-driven search bar in React Navigation headers by replacing static navigationOptions with dynamic components.</p>
+    <div class="content">
+<h2>Why Static Options Fail</h2>
+<p>The core issue in your snippet is using a module-level variable `var search = false`. React Navigation does not re-render the header when external variables change because it lacks a dependency tracking mechanism for plain variables.</p>
+<p>To make the header reactive, the state controlling the UI must live within the component tree. You need to lift the state to the screen component or use a context provider if the state is shared across multiple screens.</p>
+<h2>Lifting State to the Component</h2>
+<p>Move the `search` boolean into the state of your screen component. Use `useState` for functional components or `this.setState` for class components.</p>
+<p>Pass this state value into the `navigationOptions` function. Since `navigationOptions` is a function, it re-executes when the component re-renders due to state changes, allowing the header to update dynamically.</p>
+<h2>Implementing the Dynamic Header</h2>
+<p>Define the header elements conditionally based on the state. When `isSearching` is true, swap the menu icon for a back arrow and replace the text title with a `TextInput`.</p>
+<p>Ensure the `TextInput` handles focus and blur events to toggle the state back to false when the user dismisses the search or presses cancel.</p>
+<h2>Code Implementation</h2>
+<p>Here is a functional component example using React Navigation v5+ syntax. Note that `navigationOptions` is now a function that receives the `route` and `navigation` props, but we can also use the `useNavigation` hook or pass state via the route params if needed. However, the cleanest way is to define `navigationOptions` as a function property that accesses the component&#x27;s state via a closure or by defining it inside the component.</p>
+<p>Actually, in modern React Navigation, it is better to use the `navigation.setOptions` API inside `useEffect` or event handlers to update the header dynamically without relying on static prop definitions.</p>
+<pre><code>import React, { useState, useEffect } from &#x27;react&#x27;;
+import { View, Text, TextInput, TouchableOpacity, StyleSheet } from &#x27;react-native&#x27;;
+import { useNavigation } from &#x27;@react-navigation/native&#x27;;
+
+const MyScreen = () =&gt; {
+  const [isSearching, setIsSearching] = useState(false);
+  const navigation = useNavigation();
+
+  useEffect(() =&gt; {
+    if (isSearching) {
+      navigation.setOptions({
+        headerTitle: () =&gt; (
+          &lt;TextInput
+            style={{ flex: 1 }}
+            placeholder=&quot;Search...&quot;
+            autoFocus
+          /&gt;
+        ),
+        headerLeft: () =&gt; (
+          &lt;TouchableOpacity onPress={() =&gt; setIsSearching(false)}&gt;
+            &lt;Text&gt;Back&lt;/Text&gt;
+          &lt;/TouchableOpacity&gt;
+        ),
+      });
+    } else {
+      navigation.setOptions({
+        headerTitle: &#x27;My Title&#x27;,
+        headerLeft: () =&gt; (
+          &lt;TouchableOpacity onPress={() =&gt; {}}&gt;
+            &lt;Text&gt;Menu&lt;/Text&gt;
+          &lt;/TouchableOpacity&gt;
+        ),
+      });
+    }
+  }, [isSearching, navigation]);
+
+  return (
+    &lt;View style={styles.container}&gt;
+      &lt;TouchableOpacity onPress={() =&gt; setIsSearching(true)}&gt;
+        &lt;Text&gt;Search Icon&lt;/Text&gt;
+      &lt;/TouchableOpacity&gt;
+    &lt;/View&gt;
+  );
+};
+
+const styles = StyleSheet.create({
+  container: { flex: 1, justifyContent: &#x27;center&#x27;, alignItems: &#x27;center&#x27; },
+});</code></pre>
+<h2>Handling Focus and Blur</h2>
+<p>Attach `onFocus` and `onBlur` handlers to the `TextInput`. If the user taps outside or presses the keyboard&#x27;s return key, trigger the state change to reset the header.</p>
+<p>You can also add a &#x27;Cancel&#x27; button in the `headerRight` when in search mode to provide an explicit exit path, mimicking native iOS behavior.</p>
+<p><strong>Takeaway:</strong> Use navigation.setOptions inside a useEffect hook to dynamically update header elements based on component state.</p>
+<h2>People also ask</h2>
+<h3>Can I use context for this?</h3>
+<p>Yes, if multiple screens need to trigger the same search state, a React Context provider is more scalable than passing props.</p>
+<h3>Why not use navigationOptions property?</h3>
+<p>Static navigationOptions do not re-evaluate on state changes. Dynamic updates require the imperative setOptions API or function-based options tied to re-renders.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/58951779/react-native-searchbar-with-react-navigation" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

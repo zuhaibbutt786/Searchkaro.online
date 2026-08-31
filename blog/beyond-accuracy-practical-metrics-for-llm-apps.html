@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Beyond Accuracy: Practical Metrics for LLM Apps | LearnWithZuhaib</title>
+  <meta name="description" content="Accuracy is only one side of the coin. This post explores latency, fairness, UX, and security metrics that matter in production LLM deployments." />
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-08-31</p>
+    <h1>Beyond Accuracy: Practical Metrics for LLM Apps</h1>
+    <p class="lead">Accuracy is only one side of the coin. This post explores latency, fairness, UX, and security metrics that matter in production LLM deployments.</p>
+    <div class="content">
+<h2>User Experience &amp; Prompt Design</h2>
+<p>Accuracy measured on a test set tells you what the model can do in isolation, but end‑users judge it by relevance, coherence, and tone. Simple metrics like BLEU, ROUGE, or perplexity can be augmented with user satisfaction scores collected through quick surveys.</p>
+<p>Iterative A/B testing on a small cohort reveals how wording changes shift perceived usefulness. Capture qualitative feedback with Likert scales and convert it into a quantitative score that can be tracked alongside traditional accuracy.</p>
+<h2>Latency and Throughput</h2>
+<p>In a real‑world service, response time and the number of requests processed per second are often the deciding factors for adoption. Measure round‑trip time (RTT) at the client, and use load‑testing tools to gauge throughput under realistic traffic.</p>
+<p>Record latency per endpoint and expose it to a monitoring system so that SLA violations trigger alerts. This data also informs scaling decisions and cost‑optimization.</p>
+<pre><code>import time
+import requests
+start = time.time()
+response = requests.post(&#x27;https://api.example.com/chat&#x27;, json={&#x27;prompt&#x27;: &#x27;Hello&#x27;})
+latency = time.time() - start
+print(f&#x27;RTT: {latency:.3f}s&#x27;)</code></pre>
+<h2>Fairness &amp; Bias Auditing</h2>
+<p>A model that is accurate overall can still produce disparate outcomes across demographic groups. Compute demographic parity or equalized odds by comparing positive prediction rates for each group.</p>
+<p>Use simple statistical tests to flag significant deviations and feed the results back into the data‑collection loop. Regular audits help maintain compliance and build user trust.</p>
+<h2>Explainability &amp; Interpretability</h2>
+<p>Understanding why a model outputs a certain answer is critical for debugging and for building user confidence. Attention maps, token‑level importance scores, or gradient‑based saliency can surface the most influential words.</p>
+<p>Expose these insights through a lightweight dashboard that developers can query during feature rollouts, enabling rapid iteration on prompt phrasing and model fine‑tuning.</p>
+<pre><code>from transformers import AutoModelForCausalLM, AutoTokenizer
+model = AutoModelForCausalLM.from_pretrained(&#x27;gpt2&#x27;, output_attentions=True)
+tokenizer = AutoTokenizer.from_pretrained(&#x27;gpt2&#x27;)
+inputs = tokenizer(&#x27;Hello world&#x27;, return_tensors=&#x27;pt&#x27;)
+outputs = model(**inputs)
+print(outputs.attentions[-1].shape)</code></pre>
+<h2>Security &amp; Robustness</h2>
+<p>Large language models are susceptible to prompt injection, hallucinations, and other adversarial behaviors. Implement a sanity‑check layer that flags suspicious patterns before the model processes the request.</p>
+<p>Simulate injection attacks in a sandbox and measure the rate of unintended outputs. Use the findings to tighten token limits, filter content, and adjust temperature settings.</p>
+<h2>Continuous Monitoring &amp; Alerting</h2>
+<p>Deploying an LLM is not a one‑time event; it requires ongoing observation. Log key metrics—latency, error rates, bias scores, and user satisfaction—and feed them into a time‑series database.</p>
+<p>Set up anomaly detection rules that trigger alerts when any metric deviates from its baseline, enabling rapid rollback or retraining before users notice a degradation.</p>
+<p><strong>Takeaway:</strong> Measure latency, fairness, UX, and security alongside accuracy to fully evaluate an LLM app’s production readiness.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

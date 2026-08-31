@@ -83,6 +83,46 @@
       "slug": "kv-cache-tuning-for-lowlatency-llms",
       "date": "2026-08-31",
       "excerpt": "Learn how to reduce inference latency in large language models by efficiently managing key\u2011value caches and adjusting cache reuse policies."
+    },
+    {
+      "title": "Prompt Versioning in Production: A Practical Guide",
+      "slug": "prompt-versioning-in-production-a-practical-guide",
+      "date": "2026-08-31",
+      "excerpt": "When your LLMs evolve, managing prompt changes in CI/CD pipelines is critical. This post shows how to version, test, and deploy prompts safely."
+    },
+    {
+      "title": "Beyond Accuracy: Practical Metrics for LLM Apps",
+      "slug": "beyond-accuracy-practical-metrics-for-llm-apps",
+      "date": "2026-08-31",
+      "excerpt": "Accuracy is only one side of the coin. This post explores latency, fairness, UX, and security metrics that matter in production LLM deployments."
+    },
+    {
+      "title": "Set Default JSON Value in Laravel Migration (MySQL 8.0+)",
+      "slug": "set-default-json-value-in-laravel-migration-mysql-80",
+      "date": "2026-08-31",
+      "excerpt": "Learn how to assign a default JSON structure to a column in a Laravel migration for MySQL, including handling older MySQL versions and factory integration.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "How to Connect and Print to a USB POS Printer from an Android Tablet",
+      "slug": "how-to-connect-and-print-to-a-usb-pos-printer-from-an-android-tablet",
+      "date": "2026-08-31",
+      "excerpt": "Learn to detect a USB thermal POS printer on Android, set up the required permissions, and send a test ESC/POS print using the Android USB Host API or Epson ePOS SDK.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Choosing Pixi.js vs Three.js for a Web\u2011Based Graph Editor",
+      "slug": "choosing-pixijs-vs-threejs-for-a-webbased-graph-editor",
+      "date": "2026-08-31",
+      "excerpt": "Learn how to pick between Pixi.js and Three.js\u2014or combine them\u2014to build a high\u2011performance, WebGL\u2011driven UI with custom HUD elements.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Dynamic React Native Search Header with React Navigation",
+      "slug": "dynamic-react-native-search-header-with-react-navigation",
+      "date": "2026-08-31",
+      "excerpt": "Implement a state-driven search bar in React Navigation headers by replacing static navigationOptions with dynamic components.",
+      "source": "stackoverflow"
     }
   ]
 }

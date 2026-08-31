@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prompt Versioning in Production: A Practical Guide | LearnWithZuhaib</title>
+  <meta name="description" content="When your LLMs evolve, managing prompt changes in CI/CD pipelines is critical. This post shows how to version, test, and deploy prompts safely." />
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-08-31</p>
+    <h1>Prompt Versioning in Production: A Practical Guide</h1>
+    <p class="lead">When your LLMs evolve, managing prompt changes in CI/CD pipelines is critical. This post shows how to version, test, and deploy prompts safely.</p>
+    <div class="content">
+<h2>Why Prompt Versioning Matters</h2>
+<p>Prompts are first‑class artifacts that evolve just like code.</p>
+<p>Without versioning, a new prompt can silently break downstream logic or user experience.</p>
+<p>Versioning also enables reproducible experiments, audit trails, and regulatory compliance.</p>
+<h2>Schema for Prompt Metadata</h2>
+<p>Define a lightweight JSON schema that captures the prompt text, variables, and target model.</p>
+<p>Example:</p>
+<p>{
+  &quot;id&quot;: &quot;greeting_v1&quot;,
+  &quot;model&quot;: &quot;gpt-4o-mini&quot;,
+  &quot;text&quot;: &quot;Hello, {name}!&quot;,
+  &quot;variables&quot;: [&quot;name&quot;],
+  &quot;metadata&quot;: {
+    &quot;author&quot;: &quot;alice&quot;,
+    &quot;created&quot;: &quot;2024-08-01&quot;
+  }
+}</p>
+<h2>Automated Testing Pipeline</h2>
+<p>Integrate prompt tests into the CI pipeline.</p>
+<p>Each test loads the prompt by ID, injects sample variables, and asserts that the output contains expected tokens.</p>
+<p>This catches regressions before the prompt reaches production.</p>
+<pre><code>import openai
+
+def test_prompt(prompt_id, expected_tokens):
+    resp = openai.ChatCompletion.create(
+        model=&quot;gpt-4o-mini&quot;,
+        messages=[{&quot;role&quot;:&quot;user&quot;,&quot;content&quot;:prompt_id}],
+        max_tokens=50
+    )
+    return all(tok in resp.choices[0].message.content for tok in expected_tokens)</code></pre>
+<h2>Deployment Strategies</h2>
+<p>Deploy prompts via a lightweight registry that supports semantic versioning.</p>
+<p>Use feature flags to toggle between prompt versions without redeploying the entire application.</p>
+<p>Rollout can be staged by traffic weight, ensuring that any issues surface on a small user subset before full exposure.</p>
+<h2>Monitoring and Rollback</h2>
+<p>Expose prompt performance metrics to your monitoring stack.</p>
+<p>Track latency, error rates, and drift in output quality.</p>
+<p>If anomalies appear, automatically roll back to the last stable prompt version.</p>
+<pre><code>from prometheus_client import Gauge, start_http_server
+
+prompt_latency = Gauge(&#x27;prompt_latency_seconds&#x27;, &#x27;Latency of prompt processing&#x27;)
+
+def record_latency(prompt_id, latency):
+    prompt_latency.labels(prompt_id=prompt_id).set(latency)
+
+start_http_server(8000)</code></pre>
+<p><strong>Takeaway:</strong> Version your prompts like code, test them in CI, and monitor them in production to ensure safe evolution.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Set Default JSON Value in Laravel Migration (MySQL 8.0+) | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to assign a default JSON structure to a column in a Laravel migration for MySQL, including handling older MySQL versions and factory integration." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, laravel" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/set-default-json-value-in-laravel-migration-mysql-80.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I use a PHP array in the default clause?", "acceptedAnswer": {"@type": "Answer", "text": "No. The default must be a JSON literal string; convert the array with json_encode before passing it to default()."}}, {"@type": "Question", "name": "Will the default be applied to existing rows?", "acceptedAnswer": {"@type": "Answer", "text": "No. It only affects new inserts; update existing rows manually or via a migration script."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-08-31 · Q&A guide</p>
+    <h1>Set Default JSON Value in Laravel Migration (MySQL 8.0+)</h1>
+    <p class="lead">Learn how to assign a default JSON structure to a column in a Laravel migration for MySQL, including handling older MySQL versions and factory integration.</p>
+    <div class="content">
+<h2>MySQL JSON Default Constraints</h2>
+<p>MySQL 8.0.13 introduced support for default values on JSON columns. The value must be a JSON literal, not an expression. Earlier MySQL releases do not allow defaults on JSON fields at all.</p>
+<h2>Laravel Migration Example</h2>
+<p>Use a raw JSON string in the migration. Laravel’s Schema builder will escape the value correctly. The JSON must be a valid literal, so escape inner quotes with backslashes or use single quotes for the PHP string.</p>
+<p>```php
+Schema::create(&#x27;users&#x27;, function (Blueprint $table) {
+    $table-&gt;id();
+    $table-&gt;json(&#x27;settings&#x27;)
+          -&gt;default(&#x27;{&quot;mail&quot;:{&quot;hasNewsletter&quot;:false},&quot;time&quot;:{&quot;timezone&quot;:&quot;&quot;}}&#x27;);
+    $table-&gt;timestamps();
+});
+```</p>
+<pre><code>```php
+Schema::create(&#x27;users&#x27;, function (Blueprint $table) {
+    $table-&gt;id();
+    $table-&gt;json(&#x27;settings&#x27;)
+          -&gt;default(&#x27;{&quot;mail&quot;:{&quot;hasNewsletter&quot;:false},&quot;time&quot;:{&quot;timezone&quot;:&quot;&quot;}}&#x27;);
+    $table-&gt;timestamps();
+});
+```</code></pre>
+<h2>Handling Older MySQL Versions</h2>
+<p>If you’re on MySQL &lt; 8.0.13, the default clause will fail. Two common workarounds are:</p>
+<p>1. **Trigger** – Set the column after insert.
+2. **Model Mutator** – Provide a default in the Eloquent model.</p>
+<p>Trigger example:</p>
+<p>```sql
+CREATE TRIGGER set_default_settings AFTER INSERT ON users
+FOR EACH ROW
+SET NEW.settings = COALESCE(NEW.settings, &#x27;{&quot;mail&quot;:{&quot;hasNewsletter&quot;:false},&quot;time&quot;:{&quot;timezone&quot;:&quot;&quot;}}&#x27;);
+```</p>
+<pre><code>```sql
+CREATE TRIGGER set_default_settings AFTER INSERT ON users
+FOR EACH ROW
+SET NEW.settings = COALESCE(NEW.settings, &#x27;{&quot;mail&quot;:{&quot;hasNewsletter&quot;:false},&quot;time&quot;:{&quot;timezone&quot;:&quot;&quot;}}&#x27;);
+```</code></pre>
+<h2>Factory &amp; Observer Integration</h2>
+<p>When using factories, define the default value directly in the factory definition so the observer doesn’t overwrite it.</p>
+<p>```php
+$factory-&gt;define(User::class, function (Faker $faker) {
+    return [
+        &#x27;name&#x27; =&gt; $faker-&gt;name,
+        &#x27;settings&#x27; =&gt; json_encode([
+            &#x27;mail&#x27; =&gt; [&#x27;hasNewsletter&#x27; =&gt; false],
+            &#x27;time&#x27; =&gt; [&#x27;timezone&#x27; =&gt; &#x27;&#x27;],
+        ]),
+    ];
+});
+```</p>
+<p>If you still need an observer, guard against overwriting:</p>
+<p>```php
+public function created(User $user)
+{
+    if (empty($user-&gt;settings)) {
+        $user-&gt;settings = json_encode([
+            &#x27;mail&#x27; =&gt; [&#x27;hasNewsletter&#x27; =&gt; false],
+            &#x27;time&#x27; =&gt; [&#x27;timezone&#x27; =&gt; &#x27;&#x27;],
+        ]);
+        $user-&gt;save();
+    }
+}
+```</p>
+<h2>Best Practice Summary</h2>
+<p>Use the native MySQL default for JSON when available. For older MySQL, rely on a trigger or model mutator. Ensure factories provide the same default to keep test data consistent.</p>
+<p><strong>Takeaway:</strong> Define a JSON literal default in the migration for MySQL 8.0+, or use a trigger/mutator for older versions, and align factory definitions to avoid observer conflicts.</p>
+<h2>People also ask</h2>
+<h3>Can I use a PHP array in the default clause?</h3>
+<p>No. The default must be a JSON literal string; convert the array with json_encode before passing it to default().</p>
+<h3>Will the default be applied to existing rows?</h3>
+<p>No. It only affects new inserts; update existing rows manually or via a migration script.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/53489881/migration-how-to-set-default-value-for-json-mysql" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>
