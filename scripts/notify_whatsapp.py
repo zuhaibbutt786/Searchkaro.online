@@ -1,21 +1,21 @@
 #!/usr/bin/env python3
 """
-Post newly listed free courses to a WhatsApp Channel (or chat).
+Post newly listed free courses to WhatsApp (Channel / group / chat).
 
-Supports:
-1) Whapi.cloud  — best for WhatsApp Channels (newsletter IDs like 1203...@newsletter)
-2) Meta Cloud API — send to a phone number (not a Channel)
-3) Generic webhook — POST JSON {"text": "..."} to any automation URL
+Providers:
+1) baileys  — POST to your Baileys bridge (whatsapp-baileys/)  ★ recommended with https://baileys.wiki/
+2) whapi    — Whapi.cloud channel API
+3) meta     — Meta Cloud API (phone chat, not Channel)
+4) webhook  — generic JSON {"text": "..."}
 
-Secrets / env:
-  SITE_BASE_URL              e.g. https://zuhaibbutt786.github.io/tech-blog-courses
-  WHATSAPP_PROVIDER          whapi | meta | webhook  (default: auto)
-  WHAPI_TOKEN                Whapi API token
-  WHAPI_CHANNEL_ID           e.g. 120363171744447809@newsletter
-  WHATSAPP_TOKEN             Meta Cloud API access token
-  WHATSAPP_PHONE_NUMBER_ID   Meta phone number id
-  WHATSAPP_TO                E.164 digits only, e.g. 923001234567
-  WHATSAPP_WEBHOOK_URL       optional generic webhook
+Secrets:
+  SITE_BASE_URL              https://searchkaro.online
+  WHATSAPP_PROVIDER          baileys | whapi | meta | webhook | auto
+  BAILEYS_WEBHOOK_URL        https://your-host:8787/send
+  BAILEYS_API_SECRET         Bearer token matching bridge API_SECRET
+  WHAPI_TOKEN / WHAPI_CHANNEL_ID
+  WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_TO
+  WHATSAPP_WEBHOOK_URL
 """
 
 from __future__ import annotations
@@ -42,17 +42,14 @@ def load_json(path: Path, default):
 
 
 def site_base() -> str:
-    return os.getenv(
-        "SITE_BASE_URL",
-        "https://zuhaibbutt786.github.io/tech-blog-courses",
-    ).rstrip("/")
+    return (os.getenv("SITE_BASE_URL") or "https://searchkaro.online").rstrip("/")
 
 
 def build_message(new_courses: list[dict], total: int) -> str:
     base = site_base()
     list_url = f"{base}/courses/"
     lines = [
-        "🎓 *New free Udemy courses today*",
+        "🎓 *New free Udemy courses — SearchKaro*",
         "",
     ]
     for c in new_courses[:12]:
@@ -74,11 +71,29 @@ def build_message(new_courses: list[dict], total: int) -> str:
             f"📋 Full list ({total} courses):",
             list_url,
             "",
-            "Open a course on the site → then *Enroll on Udemy*.",
-            "#FreeUdemy #LearnWithZuhaib",
+            "Open on the site → *Enroll on Udemy*.",
+            "#FreeUdemy #SearchKaro",
         ]
     )
     return "\n".join(lines).strip()
+
+
+def send_baileys(text: str) -> bool:
+    url = (os.getenv("BAILEYS_WEBHOOK_URL") or os.getenv("WHATSAPP_WEBHOOK_URL") or "").strip()
+    secret = (os.getenv("BAILEYS_API_SECRET") or os.getenv("API_SECRET") or "").strip()
+    if not url:
+        print("Baileys: missing BAILEYS_WEBHOOK_URL")
+        return False
+    headers = {"Content-Type": "application/json"}
+    if secret:
+        headers["Authorization"] = f"Bearer {secret}"
+    payload = {"text": text}
+    jid = (os.getenv("BAILEYS_TARGET_JID") or os.getenv("TARGET_JID") or "").strip()
+    if jid:
+        payload["jid"] = jid
+    resp = requests.post(url, headers=headers, json=payload, timeout=45)
+    print(f"Baileys status={resp.status_code} body={resp.text[:300]}")
+    return resp.status_code in (200, 201)
 
 
 def send_whapi(text: str) -> bool:
@@ -90,10 +105,7 @@ def send_whapi(text: str) -> bool:
     url = os.getenv("WHAPI_API_URL", "https://gate.whapi.cloud/messages/text")
     resp = requests.post(
         url,
-        headers={
-            "Authorization": f"Bearer {token}",
-            "Content-Type": "application/json",
-        },
+        headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
         json={"to": channel, "body": text},
         timeout=30,
     )
@@ -111,10 +123,7 @@ def send_meta(text: str) -> bool:
     url = f"https://graph.facebook.com/v20.0/{phone_id}/messages"
     resp = requests.post(
         url,
-        headers={
-            "Authorization": f"Bearer {token}",
-            "Content-Type": "application/json",
-        },
+        headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
         json={
             "messaging_product": "whatsapp",
             "to": to,
@@ -131,7 +140,10 @@ def send_webhook(text: str) -> bool:
     hook = os.getenv("WHATSAPP_WEBHOOK_URL")
     if not hook:
         return False
-    resp = requests.post(hook, json={"text": text, "source": "tech-blog-courses"}, timeout=30)
+    # If this is the Baileys URL, prefer authorized baileys sender
+    if "/send" in hook and os.getenv("BAILEYS_API_SECRET"):
+        return send_baileys(text)
+    resp = requests.post(hook, json={"text": text, "source": "searchkaro"}, timeout=30)
     print(f"Webhook status={resp.status_code}")
     return resp.status_code in (200, 201, 204)
 
@@ -141,20 +153,19 @@ def main() -> None:
     data = load_json(COURSES_JSON, {"courses": []})
     courses = data.get("courses") or []
     if not courses:
-        print("No courses in data/courses.json — skip WhatsApp")
+        print("No courses — skip WhatsApp")
         sys.exit(0)
 
     seen = set(load_json(SEEN_JSON, {"slugs": []}).get("slugs") or [])
     current_slugs = [c.get("slug") for c in courses if c.get("slug")]
-
     new_courses = [c for c in courses if c.get("slug") and c["slug"] not in seen]
+
     if force and not new_courses:
         new_courses = courses[:8]
-        print("FORCE_WHATSAPP: posting sample of current courses")
+        print("FORCE_WHATSAPP: sample of current courses")
 
     if not new_courses:
-        print("No new courses since last run — skip WhatsApp post")
-        # still refresh seen set to current
+        print("No new courses — skip WhatsApp")
         SEEN_JSON.write_text(
             json.dumps({"slugs": current_slugs[-500:]}, indent=2), encoding="utf-8"
         )
@@ -168,6 +179,8 @@ def main() -> None:
     provider = (os.getenv("WHATSAPP_PROVIDER") or "auto").strip().lower()
     ok = False
 
+    if provider in ("auto", "baileys") and os.getenv("BAILEYS_WEBHOOK_URL"):
+        ok = send_baileys(text) or ok
     if provider in ("auto", "whapi") and (
         os.getenv("WHAPI_TOKEN") or os.getenv("WHAPI_CHANNEL_ID")
     ):
@@ -178,8 +191,9 @@ def main() -> None:
         ok = send_webhook(text) or ok
 
     if not ok and provider == "auto":
-        # try all once more by capability
-        if os.getenv("WHAPI_CHANNEL_ID"):
+        if os.getenv("BAILEYS_WEBHOOK_URL"):
+            ok = send_baileys(text)
+        if not ok and os.getenv("WHAPI_CHANNEL_ID"):
             ok = send_whapi(text)
         if not ok and os.getenv("WHATSAPP_PHONE_NUMBER_ID"):
             ok = send_meta(text)
@@ -188,14 +202,13 @@ def main() -> None:
 
     if not ok:
         print(
-            "WhatsApp not sent. Add secrets:\n"
-            "  Channel (recommended): WHAPI_TOKEN + WHAPI_CHANNEL_ID\n"
-            "  or Meta chat: WHATSAPP_TOKEN + WHATSAPP_PHONE_NUMBER_ID + WHATSAPP_TO\n"
-            "  or WHATSAPP_WEBHOOK_URL"
+            "WhatsApp not sent. For Baileys set:\n"
+            "  BAILEYS_WEBHOOK_URL + BAILEYS_API_SECRET\n"
+            "  Run whatsapp-baileys/ on a VPS (see README)\n"
+            "Or Whapi: WHAPI_TOKEN + WHAPI_CHANNEL_ID"
         )
-        sys.exit(0)  # do not fail the whole workflow
+        sys.exit(0)
 
-    # mark seen
     seen.update(current_slugs)
     SEEN_JSON.parent.mkdir(parents=True, exist_ok=True)
     SEEN_JSON.write_text(
