@@ -1,0 +1,20 @@
+{
+  "name": "searchkaro-whatsapp-baileys",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Baileys bridge: receive posts from GitHub Actions and send to WhatsApp group/channel",
+  "scripts": {
+    "start": "node src/index.js",
+    "login": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
