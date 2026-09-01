@@ -1,0 +1,269 @@
+{
+  "updated_at": "2026-09-01T10:37:37.466250+00:00",
+  "pakistan_hec": [
+    {
+      "name": "National University of Sciences & Technology (NUST)",
+      "city": "Islamabad",
+      "hec_note": "Top general / engineering focused"
+    },
+    {
+      "name": "Quaid-i-Azam University (QAU)",
+      "city": "Islamabad",
+      "hec_note": "Strong research & natural sciences"
+    },
+    {
+      "name": "University of the Punjab",
+      "city": "Lahore",
+      "hec_note": "Large comprehensive university"
+    },
+    {
+      "name": "University of Karachi",
+      "city": "Karachi",
+      "hec_note": "Major public university"
+    },
+    {
+      "name": "COMSATS University Islamabad",
+      "city": "Islamabad",
+      "hec_note": "IT & engineering strength"
+    },
+    {
+      "name": "University of Engineering & Technology (UET) Lahore",
+      "city": "Lahore",
+      "hec_note": "Premier engineering"
+    },
+    {
+      "name": "Lahore University of Management Sciences (LUMS)",
+      "city": "Lahore",
+      "hec_note": "Business, CS, social sciences"
+    },
+    {
+      "name": "Aga Khan University",
+      "city": "Karachi",
+      "hec_note": "Medical & health sciences"
+    },
+    {
+      "name": "Pakistan Institute of Engineering and Applied Sciences (PIEAS)",
+      "city": "Islamabad",
+      "hec_note": "Engineering & applied sciences"
+    },
+    {
+      "name": "Institute of Business Administration (IBA)",
+      "city": "Karachi",
+      "hec_note": "Business & CS"
+    },
+    {
+      "name": "University of Agriculture Faisalabad",
+      "city": "Faisalabad",
+      "hec_note": "Agriculture & allied"
+    },
+    {
+      "name": "Bahria University",
+      "city": "Islamabad",
+      "hec_note": "Multi-campus public sector"
+    }
+  ],
+  "times_ref": [
+    {
+      "name": "University of Oxford",
+      "country": "UK",
+      "note": "Frequently top in THE World Rankings"
+    },
+    {
+      "name": "Stanford University",
+      "country": "USA",
+      "note": "Top global research university"
+    },
+    {
+      "name": "MIT",
+      "country": "USA",
+      "note": "Engineering & technology leader"
+    },
+    {
+      "name": "Harvard University",
+      "country": "USA",
+      "note": "Global brand & research output"
+    },
+    {
+      "name": "University of Cambridge",
+      "country": "UK",
+      "note": "Historic research excellence"
+    },
+    {
+      "name": "Imperial College London",
+      "country": "UK",
+      "note": "Science & engineering focus"
+    },
+    {
+      "name": "ETH Zurich",
+      "country": "Switzerland",
+      "note": "Europe STEM leader"
+    },
+    {
+      "name": "National University of Singapore",
+      "country": "Singapore",
+      "note": "Asia top tier"
+    },
+    {
+      "name": "Tsinghua University",
+      "country": "China",
+      "note": "Engineering strength"
+    },
+    {
+      "name": "University of Tokyo",
+      "country": "Japan",
+      "note": "Leading Japanese research university"
+    }
+  ],
+  "by_field": {
+    "medical": {
+      "title": "Top Medical Universities",
+      "keywords": "best medical universities, mbbs ranking, medical colleges pakistan india",
+      "countries": {
+        "Pakistan": [
+          "Aga Khan University",
+          "King Edward Medical University",
+          "Dow University of Health Sciences",
+          "Rawalpindi Medical University"
+        ],
+        "India": [
+          "AIIMS New Delhi",
+          "Christian Medical College Vellore",
+          "AFMC Pune",
+          "JIPMER Puducherry"
+        ],
+        "United Kingdom": [
+          "University of Oxford (Medical Sciences)",
+          "University of Cambridge",
+          "UCL",
+          "Imperial College London"
+        ],
+        "United States": [
+          "Harvard University",
+          "Johns Hopkins University",
+          "Stanford University",
+          "University of California San Francisco"
+        ],
+        "Germany": [
+          "Charité – Universitätsmedizin Berlin",
+          "Heidelberg University",
+          "LMU Munich"
+        ]
+      }
+    },
+    "engineering": {
+      "title": "Top Engineering Universities",
+      "keywords": "best engineering universities, NUST ranking, IIT ranking, engineering abroad",
+      "countries": {
+        "Pakistan": [
+          "NUST",
+          "UET Lahore",
+          "PIEAS",
+          "GIK Institute"
+        ],
+        "India": [
+          "IIT Bombay",
+          "IIT Delhi",
+          "IIT Madras",
+          "IIT Kanpur"
+        ],
+        "United States": [
+          "MIT",
+          "Stanford University",
+          "UC Berkeley",
+          "Caltech"
+        ],
+        "United Kingdom": [
+          "Imperial College London",
+          "University of Cambridge",
+          "University of Oxford",
+          "University of Manchester"
+        ],
+        "Germany": [
+          "TU Munich",
+          "RWTH Aachen",
+          "University of Stuttgart"
+        ]
+      }
+    },
+    "arts": {
+      "title": "Top Arts & Humanities Universities",
+      "keywords": "arts universities ranking, fine arts colleges, humanities ranking",
+      "countries": {
+        "Pakistan": [
+          "National College of Arts",
+          "University of the Punjab",
+          "Beaconhouse National University"
+        ],
+        "India": [
+          "JNU",
+          "University of Delhi",
+          "Jamia Millia Islamia"
+        ],
+        "United Kingdom": [
+          "University of Oxford",
+          "University of Cambridge",
+          "UCL",
+          "University of Edinburgh"
+        ],
+        "United States": [
+          "Harvard University",
+          "Yale University",
+          "Columbia University"
+        ]
+      }
+    },
+    "law": {
+      "title": "Top Law Universities",
+      "keywords": "best law universities, LLB ranking, law schools pakistan india",
+      "countries": {
+        "Pakistan": [
+          "LUMS Shaikh Ahmad Hassan School of Law",
+          "University of Punjab Law College",
+          "International Islamic University"
+        ],
+        "India": [
+          "NLSIU Bangalore",
+          "NALSAR Hyderabad",
+          "NLU Delhi"
+        ],
+        "United Kingdom": [
+          "University of Oxford",
+          "University of Cambridge",
+          "LSE",
+          "UCL"
+        ],
+        "United States": [
+          "Yale Law School",
+          "Harvard Law School",
+          "Stanford Law School"
+        ]
+      }
+    },
+    "allied-sciences": {
+      "title": "Allied Health & Applied Sciences Universities",
+      "keywords": "allied health sciences universities, nursing physiotherapy ranking, applied sciences",
+      "countries": {
+        "Pakistan": [
+          "University of Health Sciences Lahore",
+          "Dow University",
+          "SHIFA Tameer-e-Millat University"
+        ],
+        "India": [
+          "Manipal Academy of Higher Education",
+          "SRM Institute",
+          "Amity University"
+        ],
+        "United Kingdom": [
+          "King's College London",
+          "University of Manchester",
+          "University of Southampton"
+        ],
+        "Australia": [
+          "University of Sydney",
+          "Monash University",
+          "University of Melbourne"
+        ]
+      }
+    }
+  }
+}
