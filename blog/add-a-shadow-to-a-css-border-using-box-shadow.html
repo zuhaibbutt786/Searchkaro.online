@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Add a Shadow to a CSS Border Using Box-Shadow | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to add a subtle shadow to a border in CSS with the box-shadow property." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, css" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/add-a-shadow-to-a-css-border-using-box-shadow.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I use filter: drop-shadow on the body element?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, filter: drop-shadow(0 0 10px #000); works similarly to box-shadow but applies to the element’s rendered image. It’s useful for SVGs and images."}}, {"@type": "Question", "name": "Will the shadow affect layout?", "acceptedAnswer": {"@type": "Answer", "text": "No, box-shadow does not alter the element’s size or flow; it’s purely visual. If you need the shadow to influence layout, use an outer wrapper with padding."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-09-04 · Q&A guide</p>
+    <h1>Add a Shadow to a CSS Border Using Box-Shadow</h1>
+    <p class="lead">Learn how to add a subtle shadow to a border in CSS with the box-shadow property.</p>
+    <div class="content">
+<h2>Why Border Shadows Don’t Work</h2>
+<p>The CSS &quot;border&quot; property only defines the line that surrounds an element. It has no built‑in shadow capability, so a declaration like &quot;border: 10px shadow black&quot; is invalid. To give a border a shadow you must use another visual effect that sits outside or inside the border.</p>
+<h2>Using box-shadow for a Border‑Like Shadow</h2>
+<p>The simplest way is to keep a solid border and add a box-shadow. The shadow will appear around the entire element, including the border.</p>
+<pre><code>body {
+  width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border: 10px solid #000;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+}</code></pre>
+<h2>Inner Shadow and Outline Alternatives</h2>
+<p>If you want the shadow to appear inside the border, use an inset shadow. Or, if you need a thicker border effect, combine outline with box-shadow.</p>
+<pre><code>/* Inner shadow */
+body {
+  box-shadow: inset 0 0 10px rgba(0,0,0,.5);
+}
+
+/* Outline + shadow */
+body {
+  outline: 10px solid #000;
+  outline-offset: -10px;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+}</code></pre>
+<h2>Pseudo‑Element Trick for Complex Borders</h2>
+<p>For more control (e.g., rounded corners, multiple layers) wrap the content in a positioned pseudo‑element that carries the border and shadow.</p>
+<pre><code>body {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+body::before {
+  content: &quot;&quot;;
+  position: absolute;
+  inset: 0;
+  border: 10px solid #000;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  pointer-events: none;
+}</code></pre>
+<h2>Performance Tips and Browser Support</h2>
+<p>box-shadow is hardware accelerated in modern browsers and works on all major desktop and mobile engines. Avoid large blur radii on many elements, as that can cause jank. Use CSS variables if you need to tweak the shadow globally.</p>
+<p><strong>Takeaway:</strong> Use box-shadow or a pseudo‑element to create a shadow around a border; the border property itself cannot have a shadow.</p>
+<h2>People also ask</h2>
+<h3>Can I use filter: drop-shadow on the body element?</h3>
+<p>Yes, filter: drop-shadow(0 0 10px #000); works similarly to box-shadow but applies to the element’s rendered image. It’s useful for SVGs and images.</p>
+<h3>Will the shadow affect layout?</h3>
+<p>No, box-shadow does not alter the element’s size or flow; it’s purely visual. If you need the shadow to influence layout, use an outer wrapper with padding.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/46475183/adding-shadow-to-border-in-css" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

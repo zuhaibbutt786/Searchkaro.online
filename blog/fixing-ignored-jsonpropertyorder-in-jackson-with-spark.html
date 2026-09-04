@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fixing Ignored @JsonPropertyOrder in Jackson with Spark | LearnWithZuhaib</title>
+  <meta name="description" content="Learn why Jackson&#x27;s @JsonPropertyOrder can be bypassed when using wrapper objects in Spark and how to enforce the declared field order." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, java,json,jackson" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/fixing-ignored-jsonpropertyorder-in-jackson-with-spark.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does @JsonPropertyOrder work with Lombok @Data?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Lombok only generates getters/setters. The annotation is processed by Jackson at runtime, independent of Lombok."}}, {"@type": "Question", "name": "What if I need dynamic fields after the ordered ones?", "acceptedAnswer": {"@type": "Answer", "text": "Add a `Map<String,Object>` field annotated with `@JsonAnyGetter` at the end of the class; Jackson will place it after the ordered properties."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-09-04 · Q&A guide</p>
+    <h1>Fixing Ignored @JsonPropertyOrder in Jackson with Spark</h1>
+    <p class="lead">Learn why Jackson&#x27;s @JsonPropertyOrder can be bypassed when using wrapper objects in Spark and how to enforce the declared field order.</p>
+    <div class="content">
+<h2>Why @JsonPropertyOrder Seems Ignored</h2>
+<p>Jackson respects the order you declare **only** for the class that is directly serialized. In your response the root object is a wrapper that contains a field called `infoList`. The wrapper is serialized first, then each `Info` instance is written. If the wrapper uses a `Map` or a generic `ObjectNode`, Jackson falls back to its default ordering (alphabetical or insertion order), which hides the order you set on `Info`.</p>
+<h2>Check the Container Type</h2>
+<p>If `infoList` is declared as `Map&lt;String,Object&gt;` or you build the response with `JsonNode`/`ObjectNode`, the order of nested objects is not guaranteed. Use a concrete POJO for the whole response or a `List&lt;Info&gt;` directly.</p>
+<pre><code>public class ApiResponse {
+    private int status;
+    private Result result;
+    // getters/setters
+}
+
+public class Result {
+    private List&lt;Info&gt; infoList;
+    // getters/setters
+}</code></pre>
+<h2>Configure the ObjectMapper Correctly</h2>
+<p>Make sure the mapper is created **once** and that the `MapperFeature.SORT_PROPERTIES_ALPHABETICALLY` feature is disabled (it is off by default, but some frameworks enable it). Also, register the `JacksonAnnotationIntrospector` if you use custom modules.</p>
+<pre><code>ObjectMapper mapper = new ObjectMapper();
+mapper.configure(MapperFeature.SORT_PROPERTIES_ALPHABETICALLY, false);
+mapper.enable(SerializationFeature.INDENT_OUTPUT);
+mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
+// reuse this mapper for all responses</code></pre>
+<h2>Spark Integration Tip</h2>
+<p>When Spark serializes the return value, it may wrap it in a `JsonTransformer` that creates a `Map&lt;String,Object&gt;` internally. Provide your own transformer that writes the POJO with the pre‑configured mapper, ensuring the order stays intact.</p>
+<pre><code>public class JacksonTransformer implements ResponseTransformer {
+    private final ObjectMapper mapper;
+    public JacksonTransformer(ObjectMapper mapper) { this.mapper = mapper; }
+    @Override
+    public String render(Object model) throws Exception {
+        return mapper.writeValueAsString(model);
+    }
+}
+
+// usage in Spark route
+get(&quot;/info&quot;, (req, res) -&gt; service.getInfo(), new JacksonTransformer(mapper));</code></pre>
+<h2>Verify the Result</h2>
+<p>Run the endpoint and inspect the JSON. The fields inside each `Info` object should now follow the order `id, company, title, infos, startDate, endDate` as declared in `@JsonPropertyOrder`.</p>
+<p><strong>Takeaway:</strong> Use a concrete POJO for the whole response and a single, properly configured ObjectMapper; then @JsonPropertyOrder works as expected.</p>
+<h2>People also ask</h2>
+<h3>Does @JsonPropertyOrder work with Lombok @Data?</h3>
+<p>Yes, Lombok only generates getters/setters. The annotation is processed by Jackson at runtime, independent of Lombok.</p>
+<h3>What if I need dynamic fields after the ordered ones?</h3>
+<p>Add a `Map&lt;String,Object&gt;` field annotated with `@JsonAnyGetter` at the end of the class; Jackson will place it after the ordered properties.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/33186004/jackson-jsonpropertyorder-is-ignored" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

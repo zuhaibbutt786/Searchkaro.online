@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fixing &#x27;type object has no attribute objects&#x27; in DRF | LearnWithZuhaib</title>
+  <meta name="description" content="Resolve the AttributeError in Django Rest Framework by correctly referencing your model and imports." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, django,django-rest-framework" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/fixing-type-object-has-no-attribute-objects-in-drf.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why does renaming the view fix the error?", "acceptedAnswer": {"@type": "Answer", "text": "Renaming removes the namespace collision so Django can resolve Notification to the model instead of the view class."}}, {"@type": "Question", "name": "Can I keep the same name if I import the model differently?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, but you must use an alias: from .models import Notification as NotificationModel and refer to NotificationModel.objects."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-09-04 · Q&A guide</p>
+    <h1>Fixing &#x27;type object has no attribute objects&#x27; in DRF</h1>
+    <p class="lead">Resolve the AttributeError in Django Rest Framework by correctly referencing your model and imports.</p>
+    <div class="content">
+<h2>Identify the Root Cause</h2>
+<p>The error arises when the class name used inside the view shadows the actual Django model. In the example, the view class is named Notification, which is the same as the model, so Django interprets Notification as the view class rather than the model when accessing .objects.</p>
+<h2>Separate Model and View Names</h2>
+<p>Give the view a distinct name that reflects its purpose. A common convention is to append a suffix such as View or List.</p>
+<pre><code>class NotificationListView(generics.ListAPIView):
+    serializer_class = NotificationSerializer
+    def get_queryset(self):
+        return Notification.objects.all()</code></pre>
+<h2>Correct Import Statements</h2>
+<p>Ensure the model is imported from the correct module. If the model resides in models.py, import it explicitly:</p>
+<pre><code>from .models import Notification</code></pre>
+<h2>Use get_queryset Properly</h2>
+<p>Return the queryset directly without assigning it to an intermediate variable unless you need to modify it. This keeps the code concise and avoids accidental name clashes.</p>
+<pre><code>def get_queryset(self):
+    return Notification.objects.filter(is_active=True)</code></pre>
+<h2>Test and Verify</h2>
+<p>Run the Django development server and hit the endpoint. If the list appears without errors, the issue is resolved. Use Django&#x27;s shell to double‑check that Notification.objects.exists() returns a boolean.</p>
+<p><strong>Takeaway:</strong> Avoid naming the view the same as the model; use clear names and correct imports to eliminate the AttributeError.</p>
+<h2>People also ask</h2>
+<h3>Why does renaming the view fix the error?</h3>
+<p>Renaming removes the namespace collision so Django can resolve Notification to the model instead of the view class.</p>
+<h3>Can I keep the same name if I import the model differently?</h3>
+<p>Yes, but you must use an alias: from .models import Notification as NotificationModel and refer to NotificationModel.objects.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/35543695/type-object-x-has-no-attribute-objects" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

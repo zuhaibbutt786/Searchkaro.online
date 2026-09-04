@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://searchkaro.online/</loc></url>
   <url><loc>https://searchkaro.online/about.html</loc></url>
+  <url><loc>https://searchkaro.online/blog/add-a-shadow-to-a-css-border-using-box-shadow.html</loc></url>
   <url><loc>https://searchkaro.online/blog/beyond-accuracy-practical-metrics-for-llm-apps.html</loc></url>
   <url><loc>https://searchkaro.online/blog/choosing-pixijs-vs-threejs-for-a-webbased-graph-editor.html</loc></url>
   <url><loc>https://searchkaro.online/blog/dynamic-react-native-search-header-with-react-navigation.html</loc></url>
+  <url><loc>https://searchkaro.online/blog/fixing-ignored-jsonpropertyorder-in-jackson-with-spark.html</loc></url>
+  <url><loc>https://searchkaro.online/blog/fixing-type-object-has-no-attribute-objects-in-drf.html</loc></url>
+  <url><loc>https://searchkaro.online/blog/get-a-static-download-link-for-the-latest-github-release-asset.html</loc></url>
+  <url><loc>https://searchkaro.online/blog/how-to-combine-multiple-where-clauses-in-a-single-sql-query.html</loc></url>
   <url><loc>https://searchkaro.online/blog/how-to-connect-and-print-to-a-usb-pos-printer-from-an-android-tablet.html</loc></url>
   <url><loc>https://searchkaro.online/blog/implementing-prompt-versioning-for-reliable-llm-production-pipelines.html</loc></url>
   <url><loc>https://searchkaro.online/blog/</loc></url>
   <url><loc>https://searchkaro.online/blog/kv-cache-tuning-for-lowlatency-llms.html</loc></url>
+  <url><loc>https://searchkaro.online/blog/mlops-metrics-that-matter-for-production-ai.html</loc></url>
   <url><loc>https://searchkaro.online/blog/practical-notes-on-computer-vision-deployment-pitfalls.html</loc></url>
   <url><loc>https://searchkaro.online/blog/practical-notes-on-feature-stores-for-real-time-ml.html</loc></url>
   <url><loc>https://searchkaro.online/blog/practical-notes-on-kv-cache-and-llm-latency.html</loc></url>
@@ -23,6 +29,7 @@
   <url><loc>https://searchkaro.online/blog/practical-notes-on-vllm-batching-for-throughput.html</loc></url>
   <url><loc>https://searchkaro.online/blog/prompt-versioning-in-production-a-practical-guide.html</loc></url>
   <url><loc>https://searchkaro.online/blog/set-default-json-value-in-laravel-migration-mysql-80.html</loc></url>
+  <url><loc>https://searchkaro.online/blog/switch-multiple-python-versions-on-macos-with-homebrew-pyenv.html</loc></url>
   <url><loc>https://searchkaro.online/contact.html</loc></url>
   <url><loc>https://searchkaro.online/courses/enroll-guide.html</loc></url>
   <url><loc>https://searchkaro.online/courses/</loc></url>

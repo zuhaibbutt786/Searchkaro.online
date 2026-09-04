@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Switch Multiple Python Versions on macOS with Homebrew &amp; pyenv | LearnWithZuhaib</title>
+  <meta name="description" content="Use Homebrew, pyenv, and conda to install and manage several Python releases on macOS, enabling parallel testing with tox." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, python,macos,homebrew" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/switch-multiple-python-versions-on-macos-with-homebrew-pyenv.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I keep Homebrew’s Python 3.5 while installing 3.4?", "acceptedAnswer": {"@type": "Answer", "text": "Yes; Homebrew only installs the latest patch for each major release. Use pyenv or conda to get older 3.4 binaries."}}, {"@type": "Question", "name": "How do I avoid conflicts between system and Homebrew Python?", "acceptedAnswer": {"@type": "Answer", "text": "Place Homebrew’s shims before /usr/bin in PATH and use pyenv init to manage precedence."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-09-04 · Q&A guide</p>
+    <h1>Switch Multiple Python Versions on macOS with Homebrew &amp; pyenv</h1>
+    <p class="lead">Use Homebrew, pyenv, and conda to install and manage several Python releases on macOS, enabling parallel testing with tox.</p>
+    <div class="content">
+<h2>Why Multiple Versions Are Needed</h2>
+<p>Modern projects often rely on different Python releases for compatibility checks. Tox, the test runner, requires the interpreter paths to be available on the system. Having a clean, isolated installation for each version prevents interference between builds.</p>
+<h2>Homebrew: Installing the Latest Releases</h2>
+<p>Homebrew keeps the newest Python 3.x packages in the core repository. Install them with:</p>
+<pre><code>brew install python@3.5
+brew install python@3.6
+brew install python@3.7
+brew install python@3.8</code></pre>
+<h2>pyenv: Lightweight Version Switching</h2>
+<p>pyenv manages multiple Python binaries without altering system paths. Install pyenv via Homebrew and add the shims to your shell:</p>
+<pre><code>brew install pyenv
+echo &#x27;export PYENV_ROOT=&quot;$HOME/.pyenv&quot;&#x27; &gt;&gt; ~/.zshrc
+echo &#x27;export PATH=&quot;$PYENV_ROOT/bin:$PATH&quot;&#x27; &gt;&gt; ~/.zshrc
+echo &#x27;eval &quot;$(pyenv init -)&quot;&#x27; &gt;&gt; ~/.zshrc
+source ~/.zshrc
+
+# Install desired versions
+pyenv install 2.7.18
+pyenv install 3.4.10
+pyenv install 3.5.10
+pyenv install 3.6.15
+
+# Set global or local version
+pyenv global 3.6.15</code></pre>
+<h2>Conda Environments for Isolated Builds</h2>
+<p>If you need a separate Python 3.5 build that differs from Homebrew’s, use conda. Create an environment and link it to tox:</p>
+<pre><code>conda create -n py35 python=3.5
+conda activate py35
+# Verify interpreter
+python --version
+
+# Add to tox.ini
+[virtualenv]
+python=python
+
+# or specify path
+[tox]
+envlist = py35,py36
+
+[testenv:py35]
+basepython = /Users/you/miniconda3/envs/py35/bin/python</code></pre>
+<h2>Configuring tox to Find All Interpreters</h2>
+<p>Tox scans the PATH for executables named pythonX.Y. Ensure all shims are in the PATH or explicitly list them in tox.ini. Example of a comprehensive configuration:</p>
+<pre><code>[tox]
+envlist = py26,py27,py34,py35,py36,py37,py38
+
+[testenv]
+deps = -rrequirements.txt
+commands = pytest
+
+[testenv:py26]
+basepython = python2.6
+
+[testenv:py27]
+basepython = python2.7
+
+[testenv:py34]
+basepython = python3.4
+
+[testenv:py35]
+basepython = python3.5
+
+[testenv:py36]
+basepython = python3.6
+
+[testenv:py37]
+basepython = python3.7
+
+[testenv:py38]
+basepython = python3.8</code></pre>
+<p><strong>Takeaway:</strong> Combine Homebrew, pyenv, and conda to install, isolate, and reference multiple Python versions, then point tox to each interpreter for parallel testing.</p>
+<h2>People also ask</h2>
+<h3>Can I keep Homebrew’s Python 3.5 while installing 3.4?</h3>
+<p>Yes; Homebrew only installs the latest patch for each major release. Use pyenv or conda to get older 3.4 binaries.</p>
+<h3>How do I avoid conflicts between system and Homebrew Python?</h3>
+<p>Place Homebrew’s shims before /usr/bin in PATH and use pyenv init to manage precedence.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/36968425/how-can-i-install-multiple-versions-of-python-on-latest-os-x-and-use-them-in-par" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

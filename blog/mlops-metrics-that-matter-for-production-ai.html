@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MLOps Metrics That Matter for Production AI | LearnWithZuhaib</title>
+  <meta name="description" content="Track the right metrics to keep models healthy, fast, and aligned with business goals. This post focuses on concrete, code‑ready practices for ML engineers." />
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-09-04</p>
+    <h1>MLOps Metrics That Matter for Production AI</h1>
+    <p class="lead">Track the right metrics to keep models healthy, fast, and aligned with business goals. This post focuses on concrete, code‑ready practices for ML engineers.</p>
+    <div class="content">
+<h2>Define Success Early</h2>
+<p>Start by mapping business objectives to measurable outcomes. For example, if user retention is the goal, track churn‑rate impact of model updates. Tie every metric to a stakeholder value so that monitoring feels purposeful.</p>
+<h2>Model Accuracy vs. Drift</h2>
+<p>Accuracy is not the only signal; monitor concept drift with distribution checks such as Kolmogorov‑Smirnov or population stability index. Set thresholds that trigger a data‑quality alert when the drift score exceeds a defined limit. This keeps the model aligned with the data it sees in production.</p>
+<h2>Latency and Throughput</h2>
+<p>Measure inference latency per request and aggregate throughput per second. Use these to size autoscaling groups and to spot bottlenecks in the inference pipeline. Consistent latency metrics help maintain SLAs for real‑time applications.</p>
+<h2>Data Quality &amp; Lineage</h2>
+<p>Track missing‑value rates, duplicate counts, and schema changes. Store each data version in a lineage store so that a model can be traced back to the exact dataset that produced it. This audit trail is critical for reproducibility and compliance.</p>
+<h2>Deployment Health &amp; Alerting</h2>
+<p>Expose runtime metrics to a monitoring system and set alerts for abnormal patterns. The following code shows a minimal Prometheus exporter that updates latency and throughput gauges.</p>
+<pre><code>from prometheus_client import Gauge, start_http_server
+import time
+
+latency = Gauge(&#x27;latency&#x27;, &#x27;Inference latency&#x27;)
+throughput = Gauge(&#x27;throughput&#x27;, &#x27;Inference count/s&#x27;)
+start_http_server(8000)
+
+while True:
+    latency.set(get_latency())
+    throughput.set(get_throughput())
+    time.sleep(5)</code></pre>
+<p><strong>Takeaway:</strong> Track metrics that directly influence model health, business value, and operational stability.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>
