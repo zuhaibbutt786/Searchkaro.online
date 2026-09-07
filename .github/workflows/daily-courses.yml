@@ -40,20 +40,13 @@ jobs:
           python scripts/build_home.py
           python scripts/build_sitemap.py
 
-      - name: WhatsApp notify (Baileys / Whapi / Meta)
+      - name: WhatsApp notify (Whapi)
         env:
           PYTHONPATH: scripts
           SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
-          WHATSAPP_PROVIDER: ${{ secrets.WHATSAPP_PROVIDER }}
-          BAILEYS_WEBHOOK_URL: ${{ secrets.BAILEYS_WEBHOOK_URL }}
-          BAILEYS_API_SECRET: ${{ secrets.BAILEYS_API_SECRET }}
-          BAILEYS_TARGET_JID: ${{ secrets.BAILEYS_TARGET_JID }}
+          WHATSAPP_PROVIDER: whapi
           WHAPI_TOKEN: ${{ secrets.WHAPI_TOKEN }}
           WHAPI_CHANNEL_ID: ${{ secrets.WHAPI_CHANNEL_ID }}
-          WHATSAPP_TOKEN: ${{ secrets.WHATSAPP_TOKEN }}
-          WHATSAPP_PHONE_NUMBER_ID: ${{ secrets.WHATSAPP_PHONE_NUMBER_ID }}
-          WHATSAPP_TO: ${{ secrets.WHATSAPP_TO }}
-          WHATSAPP_WEBHOOK_URL: ${{ secrets.WHATSAPP_WEBHOOK_URL }}
           FORCE_WHATSAPP: ${{ secrets.FORCE_WHATSAPP }}
         run: python scripts/notify_whatsapp.py
         continue-on-error: true
@@ -62,6 +55,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/courses.json data/courses_seen.json courses/p/ index.html sitemap.xml
+          mkdir -p data courses/p
+          touch data/courses.json data/courses_seen.json index.html sitemap.xml
+          git add -A data/ courses/ index.html sitemap.xml || true
           git diff --staged --quiet || git commit -m "chore: daily free courses [skip ci]"
           git push
