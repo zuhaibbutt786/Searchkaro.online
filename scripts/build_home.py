@@ -80,6 +80,17 @@ def main() -> None:
         "name": "SearchKaro",
         "url": f"{SITE}/",
         "description": "Fully funded MS PhD scholarships, jobs in Pakistan and Europe, HEC university rankings, free Udemy courses, and tech guides for students in Pakistan and India.",
+        "publisher": {
+            "@type": "Organization",
+            "name": "SearchKaro",
+            "url": f"{SITE}/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": f"{SITE}/assets/logo.svg",
+                "width": 420,
+                "height": 96,
+            },
+        },
     }
 
     page = f"""<!DOCTYPE html>
@@ -92,17 +103,40 @@ def main() -> None:
   <meta name="keywords" content="fully funded ms scholarship, phd scholarship pakistan, scholarships for indian students, jobs in pakistan, europe software jobs, hec ranking, best universities pakistan, free udemy courses, study abroad" />
   <meta name="robots" content="index,follow,max-image-preview:large" />
   <link rel="canonical" href="{SITE}/" />
+  <!-- Brand icons / favicon SEO -->
+  <link rel="icon" href="{SITE}/assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="{SITE}/assets/favicon.svg" sizes="any" />
+  <link rel="apple-touch-icon" href="{SITE}/assets/favicon.svg" />
+  <link rel="mask-icon" href="{SITE}/assets/favicon.svg" color="#0f4c5c" />
+  <link rel="manifest" href="{SITE}/site.webmanifest" />
+  <meta name="theme-color" content="#0f4c5c" />
+  <meta name="msapplication-TileColor" content="#0f4c5c" />
+  <meta name="application-name" content="SearchKaro" />
+  <meta name="apple-mobile-web-app-title" content="SearchKaro" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <!-- Open Graph / social preview -->
+  <meta property="og:site_name" content="SearchKaro" />
   <meta property="og:title" content="SearchKaro — Scholarships, Jobs, Universities" />
   <meta property="og:description" content="MS/PhD scholarships, Pakistan & Europe jobs, university rankings, free courses." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{SITE}/" />
+  <meta property="og:image" content="{SITE}/assets/logo.svg" />
+  <meta property="og:image:alt" content="SearchKaro logo — find scholarships, jobs and free courses" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="SearchKaro — Scholarships, Jobs, Universities" />
+  <meta name="twitter:description" content="MS/PhD scholarships, Pakistan & Europe jobs, university rankings, free courses." />
+  <meta name="twitter:image" content="{SITE}/assets/logo.svg" />
+  <meta name="twitter:image:alt" content="SearchKaro logo" />
   <link rel="stylesheet" href="assets/style.css" />
   <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="logo" href="index.html">Search<span>Karo</span></a>
+      <a class="logo" href="index.html" aria-label="SearchKaro home">
+        <img src="assets/favicon.svg" alt="SearchKaro" width="32" height="32" />
+        Search<span>Karo</span>
+      </a>
       <button class="nav-toggle" aria-label="Menu" onclick="document.body.classList.toggle('nav-open')">☰</button>
       <nav>
         <a href="index.html" class="active">Home</a>
