@@ -12,6 +12,15 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SITE = os.getenv("SITE_BASE_URL", "https://searchkaro.online").rstrip("/")
 
+GTAG = """  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GG1Q4ZMG3J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-GG1Q4ZMG3J');
+  </script>"""
+
 
 def load(path: Path, default):
     if path.exists():
@@ -97,6 +106,7 @@ def main() -> None:
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+{GTAG}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SearchKaro — Scholarships, Jobs Pakistan & Europe, Universities, Free Courses</title>
   <meta name="description" content="Fully funded MS & PhD scholarships, jobs in Pakistan and Europe, HEC & world university rankings, free Udemy coupons, and tech articles for students in Pakistan, India, and worldwide." />
