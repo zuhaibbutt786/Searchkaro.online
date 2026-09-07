@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SearchKaro">
+  <rect width="64" height="64" rx="14" fill="#0f4c5c"/>
+  <path d="M14 40c0-1.2.6-2.3 1.6-2.9l12.2-7.4c1.1-.7 2.5-.7 3.6 0l12.2 7.4c1 .6 1.6 1.7 1.6 2.9v2.2H14V40z" fill="#e8b923"/>
+  <path d="M16 38.5V28.8c0-1 .5-1.9 1.4-2.4l11.4-6.2c1.3-.7 2.9-.7 4.2 0l11.4 6.2c.9.5 1.4 1.4 1.4 2.4v9.7" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linejoin="round"/>
+  <circle cx="40" cy="26" r="9" fill="none" stroke="#e8b923" stroke-width="3"/>
+  <path d="M46.5 32.5L54 40" stroke="#e8b923" stroke-width="3" stroke-linecap="round"/>
+  <path d="M40 22.5l1.2 2.6 2.8.3-2.1 1.9.6 2.8L40 28.6l-2.5 1.5.6-2.8-2.1-1.9 2.8-.3L40 22.5z" fill="#ffffff"/>
+</svg>
