@@ -128,19 +128,28 @@ def render_html(meta: dict, content: dict) -> str:
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GG1Q4ZMG3J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-GG1Q4ZMG3J');
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{html.escape(meta['title'])} | LearnWithZuhaib</title>
+  <title>{html.escape(meta['title'])} | SearchKaro</title>
   <meta name="description" content="{html.escape(meta.get('excerpt',''))}" />
+  <link rel="icon" href="https://searchkaro.online/assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="../assets/style.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <a class="logo" href="../index.html">Search<span>Karo</span></a>
       <nav>
         <a href="../index.html">Home</a>
-        <a href="./" class="active">Tech Blog</a>
-        <a href="../courses/">Free Courses</a>
+        <a href="./" class="active">Blog</a>
+        <a href="../courses/">Courses</a>
       </nav>
     </div>
   </header>
