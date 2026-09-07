@@ -55,11 +55,11 @@ a:hover { text-decoration: underline; }
   gap: 8px;
 }
 .logo img {
-  height: 34px;
-  width: auto;
+  height: 32px;
+  width: 32px;
   display: block;
-  /* invert dark logo parts for teal header */
-  filter: brightness(0) invert(1);
+  border-radius: 8px;
+  flex-shrink: 0;
 }
 .logo span { color: #fbbf24; }
 .nav nav {
