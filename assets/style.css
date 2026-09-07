@@ -50,6 +50,16 @@ a:hover { text-decoration: underline; }
   font-size: 1.15rem;
   letter-spacing: -0.02em;
   text-decoration: none !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.logo img {
+  height: 34px;
+  width: auto;
+  display: block;
+  /* invert dark logo parts for teal header */
+  filter: brightness(0) invert(1);
 }
 .logo span { color: #fbbf24; }
 .nav nav {
