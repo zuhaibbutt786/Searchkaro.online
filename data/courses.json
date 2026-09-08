@@ -1,38 +1,38 @@
 {
-  "updated_at": "2026-09-07T10:05:21.410430+00:00",
+  "updated_at": "2026-09-08T09:30:36.016143+00:00",
   "source": "jobs.e-next.in",
-  "count": 44,
+  "count": 49,
   "courses": [
     {
-      "title": "Data Visualization & Reporting w/ BoldReports [Masterclass]",
-      "slug": "data-visualization-reporting-w-boldreports-masterclass",
-      "udemy_url": "https://www.udemy.com/course/master-boldreports-enterprise-reporting-data-visualization/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/6438703_364d_6.jpg",
+      "title": "Complete Python Course 2026: Beginner to Advanced",
+      "slug": "complete-python-course-2026-beginner-to-advanced",
+      "udemy_url": "https://www.udemy.com/course/complete-python-training/?couponCode=JOSHFREE55",
+      "image": "https://img-c.udemycdn.com/course/480x270/6375731_c6aa.jpg",
       "category": "Category",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Learn to create powerful dashboards and reports with BoldReports, from data import to interactive visualizations. This masterclass covers best practices, advanced features, and real-world examples to help you become a data visualization pro.",
+      "summary": "Dive into Python from scratch to mastery with this comprehensive course. You'll learn fundamentals, data structures, web development, and advanced topics like machine learning—all in one place. No prior experience needed, just a curiosity to code.",
       "learn": [
-        "Import and transform data from multiple sources with ease.",
-        "Build interactive charts, tables, and maps using BoldReports designer.",
-        "Automate report generation and scheduling for real-time insights.",
-        "Deploy reports to web, mobile, and PDF formats with secure access controls."
+        "Understand Python fundamentals and syntax",
+        "Build real-world projects using libraries like Flask and Pandas",
+        "Master data manipulation, visualization, and basic machine learning",
+        "Deploy applications and automate tasks with best practices"
       ],
-      "who": "Ideal for business analysts, data scientists, and developers who want to quickly deliver compelling reports without extensive coding.",
-      "note": "Coupon may expire soon; confirm the course is $0 on Udemy before enrolling.",
-      "page": "p/data-visualization-reporting-w-boldreports-masterclass.html"
+      "who": "Ideal for beginners looking to start a career in tech, hobbyists wanting to build projects, and experienced developers seeking a refresher.",
+      "note": "Coupon may expire soon; confirm the course is free ($0) on Udemy before enrolling.",
+      "page": "p/complete-python-course-2026-beginner-to-advanced.html"
     },
     {
-      "title": "Build No-code AI Agents / Apps [AI Automation Course 2025]",
-      "slug": "build-no-code-ai-agents-apps-ai-automation-course-2025",
-      "udemy_url": "https://www.udemy.com/course/ai-automation-course/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/6307157_83b5_6.jpg",
+      "title": "Adobe Photoshop CC Crash Course Learn Photoshop In Two Hour",
+      "slug": "adobe-photoshop-cc-crash-course-learn-photoshop-in-two-hour",
+      "udemy_url": "https://www.udemy.com/course/essential-adobe-photoshop-free-photoshop-crash-course/?couponCode=652021D8BEE00ED87162",
+      "image": "https://img-c.udemycdn.com/course/480x270/3444190_c544.jpg",
       "category": "Category",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Build No-code AI Agents / Apps [AI Automation Course 2025] is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "Adobe Photoshop CC Crash Course Learn Photoshop In Two Hour is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -41,18 +41,18 @@
       ],
       "who": "Learners interested in Category who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/build-no-code-ai-agents-apps-ai-automation-course-2025.html"
+      "page": "p/adobe-photoshop-cc-crash-course-learn-photoshop-in-two-hour.html"
     },
     {
-      "title": "Build AI Voice Agents — Automate Sales & Phone Calls w/ AI",
-      "slug": "build-ai-voice-agents-automate-sales-phone-calls-w-ai",
-      "udemy_url": "https://www.udemy.com/course/ai-cold-calling-course/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/6214899_7c4d_13.jpg",
+      "title": "Modern Graphic Design MasterClass with AI Driven Tools",
+      "slug": "modern-graphic-design-masterclass-with-ai-driven-tools",
+      "udemy_url": "https://www.udemy.com/course/ultimate-adobe-photoshop-cc-masterclass-basics-to-advanced/?couponCode=20436B9DDD8C2CDB5CA3",
+      "image": "https://img-c.udemycdn.com/course/480x270/3406388_848f_5.jpg",
       "category": "Category",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Build AI Voice Agents — Automate Sales & Phone Calls w/ AI is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "Modern Graphic Design MasterClass with AI Driven Tools is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -61,18 +61,18 @@
       ],
       "who": "Learners interested in Category who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/build-ai-voice-agents-automate-sales-phone-calls-w-ai.html"
+      "page": "p/modern-graphic-design-masterclass-with-ai-driven-tools.html"
     },
     {
-      "title": "Cold Email, Lead Generation & B2B Sales Masterclass [2025]",
-      "slug": "cold-email-lead-generation-b2b-sales-masterclass-2025",
-      "udemy_url": "https://www.udemy.com/course/ai-cold-emails-lead-generation-sales-masterclass-2024/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/6120403_3b70_9.jpg",
+      "title": "Adobe Photoshop CC Fundamentals and Essentials Training",
+      "slug": "adobe-photoshop-cc-fundamentals-and-essentials-training",
+      "udemy_url": "https://www.udemy.com/course/adobe-photoshop-cc-principal-essential-course-for-beginners/?couponCode=C0D9FC2AC75571BCA685",
+      "image": "https://img-c.udemycdn.com/course/480x270/3361030_7ccc_9.jpg",
       "category": "Category",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Cold Email, Lead Generation & B2B Sales Masterclass [2025] is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "Adobe Photoshop CC Fundamentals and Essentials Training is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -81,18 +81,18 @@
       ],
       "who": "Learners interested in Category who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/cold-email-lead-generation-b2b-sales-masterclass-2025.html"
+      "page": "p/adobe-photoshop-cc-fundamentals-and-essentials-training.html"
     },
     {
-      "title": "Chatbot Development Course — Automate Sales & Support w/ AI",
-      "slug": "chatbot-development-course-automate-sales-support-w-ai",
-      "udemy_url": "https://www.udemy.com/course/chatbot-development-course/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/6064231_296a_4.jpg",
+      "title": "PHP with MySQL: Build 8 PHP and MySQL Projects",
+      "slug": "php-with-mysql-build-8-php-and-mysql-projects",
+      "udemy_url": "https://www.udemy.com/course/php-with-mysql-2022-build-php-and-mysql-projects/?couponCode=PHPMYSQLPROJECTS76",
+      "image": "https://img-c.udemycdn.com/course/480x270/4931232_fc3a.jpg",
       "category": "Category",
       "language": "Language",
-      "instructor": "support to answer questions as you build",
+      "instructor": "Name",
       "length": "Length",
-      "summary": "Chatbot Development Course — Automate Sales & Support w/ AI is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "PHP with MySQL: Build 8 PHP and MySQL Projects is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -101,558 +101,38 @@
       ],
       "who": "Learners interested in Category who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/chatbot-development-course-automate-sales-support-w-ai.html"
+      "page": "p/php-with-mysql-build-8-php-and-mysql-projects.html"
     },
     {
-      "title": "Develop AI Agents, Apps & Automations [No-code x ChatGPT]",
-      "slug": "develop-ai-agents-apps-automations-no-code-x-chatgpt",
-      "udemy_url": "https://www.udemy.com/course/develop-ai-automations-course/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/5900700_31d7_13.jpg",
+      "title": "Master Microsoft Word for Business and Career Success",
+      "slug": "master-microsoft-word-for-business-and-career-success",
+      "udemy_url": "https://www.udemy.com/course/master-microsoft-word-for-business-and-career-success/?couponCode=F2CE99C6659F56188108",
+      "image": "https://img-c.udemycdn.com/course/480x270/7043059_06b3.jpg",
       "category": "Category",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Develop AI Agents, Apps & Automations [No-code x ChatGPT] is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "Learn how to harness Microsoft Word’s advanced features to streamline business documents, create polished reports, and boost your career prospects. This free course covers everything from formatting to collaboration tools, ensuring you’re ready for any professional writing task.",
       "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
+        "Master formatting, styles, and templates for consistent, professional documents.",
+        "Use advanced editing tools like Track Changes, Comments, and Compare Documents for efficient collaboration.",
+        "Create dynamic tables, charts, and mail merge to automate repetitive tasks.",
+        "Leverage Word’s integration with other Microsoft Office apps and cloud services for seamless workflow."
       ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/develop-ai-agents-apps-automations-no-code-x-chatgpt.html"
-    },
-    {
-      "title": "Reduce el Consumo de Tokens y obtén mejores resultados en IA",
-      "slug": "reduce-el-consumo-de-tokens-y-obtn-mejores-resultados-en-ia",
-      "udemy_url": "https://www.udemy.com/course/reduce-el-consumo-de-tokens-y-obten-mejores-resultados-en-ia/?couponCode=59661A1421ACC7184339",
-      "image": "https://img-c.udemycdn.com/course/480x270/7155437_26cd_2.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Reduce el Consumo de Tokens y obtén mejores resultados en IA is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/reduce-el-consumo-de-tokens-y-obtn-mejores-resultados-en-ia.html"
-    },
-    {
-      "title": "Convert Websites into Mobile Apps w/ [No-code] (iOS/Android)",
-      "slug": "convert-websites-into-mobile-apps-w-no-code-iosandroid",
-      "udemy_url": "https://www.udemy.com/course/convert-websites-into-mobile-apps-no-coding-course/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/5873946_a9f1_10.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Convert Websites into Mobile Apps w/ [No-code] (iOS/Android) is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/convert-websites-into-mobile-apps-w-no-code-iosandroid.html"
-    },
-    {
-      "title": "Shopify Marketing 101 — Boost Ecommerce Traffic w/ SEO & Ads",
-      "slug": "shopify-marketing-101-boost-ecommerce-traffic-w-seo-ads",
-      "udemy_url": "https://www.udemy.com/course/shopify-seo-course/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/5852142_b55a_8.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Shopify Marketing 101 — Boost Ecommerce Traffic w/ SEO & Ads is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/shopify-marketing-101-boost-ecommerce-traffic-w-seo-ads.html"
-    },
-    {
-      "title": "Building a Personal Brand on Linkedin & X (Twitter) w/ AI",
-      "slug": "building-a-personal-brand-on-linkedin-x-twitter-w-ai",
-      "udemy_url": "https://www.udemy.com/course/b2b-lead-generation/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/5781082_f76c_7.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Learn how to craft a compelling personal brand on LinkedIn and X using AI tools, from profile optimization to content strategy. This free Udemy course shows you step‑by‑step how to generate engaging posts, grow your network, and turn your expertise into a recognized online presence. No prior marketing experience required.",
-      "learn": [
-        "Build a standout LinkedIn profile with AI‑generated headlines and summaries",
-        "Create high‑impact X (Twitter) content using AI writing assistants",
-        "Automate content scheduling and engagement with AI‑powered tools",
-        "Measure brand growth and refine strategy using analytics dashboards"
-      ],
-      "who": "Ideal for professionals, freelancers, and entrepreneurs looking to boost their online visibility and attract career or business opportunities.",
-      "note": "Coupon may expire; confirm $0 on Udemy before enrolling.",
-      "page": "p/building-a-personal-brand-on-linkedin-x-twitter-w-ai.html"
-    },
-    {
-      "title": "Start a Profitable AI Automation Agency [Full Course 2025]",
-      "slug": "start-a-profitable-ai-automation-agency-full-course-2025",
-      "udemy_url": "https://www.udemy.com/course/ai-automation-agency/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/5744786_d101_10.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Start a Profitable AI Automation Agency [Full Course 2025] is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/start-a-profitable-ai-automation-agency-full-course-2025.html"
-    },
-    {
-      "title": "Create & Sell Online Courses using WordPress LMS",
-      "slug": "create-sell-online-courses-using-wordpress-lms",
-      "udemy_url": "https://www.udemy.com/course/wordpress-lms-course/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/5689074_8c3c_5.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Create & Sell Online Courses using WordPress LMS is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/create-sell-online-courses-using-wordpress-lms.html"
-    },
-    {
-      "title": "Build, Train & Sell AI Agents / Chatbots [No-code x ChatGPT]",
-      "slug": "build-train-sell-ai-agents-chatbots-no-code-x-chatgpt",
-      "udemy_url": "https://www.udemy.com/course/ai-chatbots/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/5613378_ec4f_7.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Build, Train & Sell AI Agents / Chatbots [No-code x ChatGPT] is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/build-train-sell-ai-agents-chatbots-no-code-x-chatgpt.html"
-    },
-    {
-      "title": "Productivity & Task Automation w/ AI x ChatGPT [Masterclass]",
-      "slug": "productivity-task-automation-w-ai-x-chatgpt-masterclass",
-      "udemy_url": "https://www.udemy.com/course/ai-productivity/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/5532792_ac69_6.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Unlock the power of AI to boost your productivity and automate repetitive tasks with this comprehensive masterclass. Learn how to harness ChatGPT and other AI tools to streamline workflows, save time, and achieve more with less effort.",
-      "learn": [
-        "Master the fundamentals of AI-driven task automation and how it applies to everyday work",
-        "Discover practical techniques for integrating ChatGPT into your productivity stack",
-        "Learn to create custom AI workflows that automate data entry, scheduling, and content generation",
-        "Gain insights into best practices for scaling AI solutions across teams and projects"
-      ],
-      "who": "Ideal for professionals, freelancers, and anyone looking to elevate their efficiency using AI and ChatGPT.",
-      "note": "Coupon may expire; confirm $0 on Udemy before enrolling.",
-      "page": "p/productivity-task-automation-w-ai-x-chatgpt-masterclass.html"
-    },
-    {
-      "title": "Cold Email Course— B2B Cold Outreach & Lead Generation w/ AI",
-      "slug": "cold-email-course-b2b-cold-outreach-lead-generation-w-ai",
-      "udemy_url": "https://www.udemy.com/course/ai-cold-email/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/5510406_4f13_15.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Q&A and Support",
-      "length": "Length",
-      "summary": "Cold Email Course— B2B Cold Outreach & Lead Generation w/ AI is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/cold-email-course-b2b-cold-outreach-lead-generation-w-ai.html"
-    },
-    {
-      "title": "Build AI Saas Apps / AI Tools with [No Code] x ChatGPT",
-      "slug": "build-ai-saas-apps-ai-tools-with-no-code-x-chatgpt",
-      "udemy_url": "https://www.udemy.com/course/ai-saas-apps/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/5452230_5543_14.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "and influencers wanting to monetize their audience with branded AI tools",
-      "length": "Length",
-      "summary": "Build AI Saas Apps / AI Tools with [No Code] x ChatGPT is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/build-ai-saas-apps-ai-tools-with-no-code-x-chatgpt.html"
-    },
-    {
-      "title": "Learn Content Writing using AI & Make Money Online",
-      "slug": "learn-content-writing-using-ai-make-money-online",
-      "udemy_url": "https://www.udemy.com/course/ai-content-course/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/5219242_fa8c_9.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Learn Content Writing using AI & Make Money Online is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/learn-content-writing-using-ai-make-money-online.html"
-    },
-    {
-      "title": "Learn Content Writing using AI & Start Freelancing",
-      "slug": "learn-content-writing-using-ai-start-freelancing",
-      "udemy_url": "https://www.udemy.com/course/ai-content-writing/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/5094876_6b37_8.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Discover how to harness AI tools for compelling content writing and kickstart a freelancing career in just a few weeks. This free Udemy coupon unlocks a comprehensive course that blends practical AI techniques with real‑world freelancing strategies. Start building your portfolio and earning income today!",
-      "learn": [
-        "Master AI‑powered writing tools like ChatGPT and Jasper for rapid content creation",
-        "Learn SEO fundamentals and keyword research to boost content visibility",
-        "Develop a freelancing business model, including client acquisition and pricing",
-        "Create a portfolio and marketing plan to attract high‑pay clients"
-      ],
-      "who": "Ideal for aspiring freelancers, copywriters, and anyone looking to monetize AI‑enhanced writing skills",
-      "note": "Coupon may expire; confirm $0 on Udemy before enrolling",
-      "page": "p/learn-content-writing-using-ai-start-freelancing.html"
-    },
-    {
-      "title": "Create and Sell Digital Art using AI [Complete Blueprint]",
-      "slug": "create-and-sell-digital-art-using-ai-complete-blueprint",
-      "udemy_url": "https://www.udemy.com/course/ai-art-course/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/5013542_60eb_4.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Create and Sell Digital Art using AI [Complete Blueprint] is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/create-and-sell-digital-art-using-ai-complete-blueprint.html"
-    },
-    {
-      "title": "Affiliate Blueprint 2025: Build & Monetize Coupon Websites",
-      "slug": "affiliate-blueprint-2025-build-monetize-coupon-websites",
-      "udemy_url": "https://www.udemy.com/course/start-a-profitable-discount-coupons-website-passive-income/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/4991498_2244_4.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Affiliate Blueprint 2025: Build & Monetize Coupon Websites is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/affiliate-blueprint-2025-build-monetize-coupon-websites.html"
-    },
-    {
-      "title": "Affiliate Marketing Masterclass — Build & Scale Blogs w/ SEO",
-      "slug": "affiliate-marketing-masterclass-build-scale-blogs-w-seo",
-      "udemy_url": "https://www.udemy.com/course/become-a-six-figure-affiliate-marketer-success-blueprint/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/4946484_5b93_5.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Affiliate Marketing Masterclass — Build & Scale Blogs w/ SEO is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/affiliate-marketing-masterclass-build-scale-blogs-w-seo.html"
-    },
-    {
-      "title": "SEO Freelancer Blueprint — Build a Profitable SEO Agency",
-      "slug": "seo-freelancer-blueprint-build-a-profitable-seo-agency",
-      "udemy_url": "https://www.udemy.com/course/become-a-six-figure-seo-freelancer-start-getting-clients/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/4784348_cbf8_14.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "SEO Freelancer Blueprint — Build a Profitable SEO Agency is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/seo-freelancer-blueprint-build-a-profitable-seo-agency.html"
-    },
-    {
-      "title": "The Ultimate Guide to Create & Sell Online Courses [2025]",
-      "slug": "the-ultimate-guide-to-create-sell-online-courses-2025",
-      "udemy_url": "https://www.udemy.com/course/complete-guide-become-a-six-figure-online-course-instructor/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/4789478_4786_24.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Discover how to design, launch, and market high‑earning online courses in 2025. This free guide covers everything from curriculum creation to sales funnels, ensuring you can turn your expertise into profit.",
-      "learn": [
-        "Craft compelling course outlines that resonate with your target audience",
-        "Master video production and editing techniques for professional quality",
-        "Build effective sales pages and pricing strategies that convert",
-        "Leverage Udemy’s platform features and marketing tools to reach millions of learners"
-      ],
-      "who": "Ideal for aspiring instructors, coaches, and entrepreneurs who want to monetize their knowledge without upfront costs.",
-      "note": "Coupon may expire; confirm $0 on Udemy",
-      "page": "p/the-ultimate-guide-to-create-sell-online-courses-2025.html"
-    },
-    {
-      "title": "Build Profitable E-Commerce Stores with WordPress & Woostify",
-      "slug": "build-profitable-e-commerce-stores-with-wordpress-woostify",
-      "udemy_url": "https://www.udemy.com/course/build-successful-e-commerce-stores-with-wordpress-woostify/?couponCode=SUBHANALLAH926",
-      "image": "https://img-c.udemycdn.com/course/480x270/4897256_4433_12.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Build Profitable E-Commerce Stores with WordPress & Woostify is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/build-profitable-e-commerce-stores-with-wordpress-woostify.html"
-    },
-    {
-      "title": "AWS Certified Machine Learning Specialty Pracitce Test 2026",
-      "slug": "aws-certified-machine-learning-specialty-pracitce-test-2026",
-      "udemy_url": "https://www.udemy.com/course/aws-certified-machine-learning-specialty-pracitce-test-2026/?couponCode=0266BD19628A77413AF0",
-      "image": "https://img-c.udemycdn.com/course/480x270/7033709_5556.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "AWS Certified Machine Learning Specialty Pracitce Test 2026 is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/aws-certified-machine-learning-specialty-pracitce-test-2026.html"
-    },
-    {
-      "title": "Certified in Cybersecurity (CC) Exam 2026",
-      "slug": "certified-in-cybersecurity-cc-exam-2026",
-      "udemy_url": "https://www.udemy.com/course/certified-in-cybersecurity-cc-exam-2026/?couponCode=F67AF357679EA06036DD",
-      "image": "https://img-c.udemycdn.com/course/480x270/7033481_b487.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Certified in Cybersecurity (CC) Exam 2026 is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/certified-in-cybersecurity-cc-exam-2026.html"
-    },
-    {
-      "title": "PMP - Project Management Professional Certification Exam",
-      "slug": "pmp---project-management-professional-certification-exam",
-      "udemy_url": "https://www.udemy.com/course/pmp-project-management-professional-certification-exam/?couponCode=DE9CF43EBBD0CC91E570",
-      "image": "https://img-c.udemycdn.com/course/480x270/7031977_67bc_5.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Boost your career with our free Udemy coupon for the PMP - Project Management Professional Certification Exam course. Master the concepts, processes, and best practices needed to pass the PMP exam and lead successful projects.",
-      "learn": [
-        "Understand the PMBOK® Guide framework and key knowledge areas",
-        "Learn exam strategies and practice with real‑world sample questions",
-        "Develop skills for effective project planning, execution, and monitoring",
-        "Gain confidence to achieve PMP certification on your first attempt"
-      ],
-      "who": "Ideal for aspiring project managers and current professionals seeking PMP certification.",
-      "note": "Coupon may expire; confirm $0 cost on Udemy before enrolling.",
-      "page": "p/pmp---project-management-professional-certification-exam.html"
-    },
-    {
-      "title": "AWS Data Engineer Associate DEA-C01 Practice Exam 2026",
-      "slug": "aws-data-engineer-associate-dea-c01-practice-exam-2026",
-      "udemy_url": "https://www.udemy.com/course/aws-data-engineer-associate-dea-c01-practice-exam-2026/?couponCode=599590D4758198970F7C",
-      "image": "https://img-c.udemycdn.com/course/480x270/7033259_638c.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "AWS Data Engineer Associate DEA-C01 Practice Exam 2026 is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/aws-data-engineer-associate-dea-c01-practice-exam-2026.html"
-    },
-    {
-      "title": "AI-900 Microsoft Azure AI Fundamentals Practice Exams 2026",
-      "slug": "ai-900-microsoft-azure-ai-fundamentals-practice-exams-2026",
-      "udemy_url": "https://www.udemy.com/course/ai-900-microsoft-azure-ai-fundamentals-practice-exams-2026/?couponCode=F60FA1A0B8C2636034F4",
-      "image": "https://img-c.udemycdn.com/course/480x270/7034851_2f3a_2.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "AI-900 Microsoft Azure AI Fundamentals Practice Exams 2026 is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/ai-900-microsoft-azure-ai-fundamentals-practice-exams-2026.html"
-    },
-    {
-      "title": "AZ-900: Microsoft Azure Fundamentals Certification Exam 2026",
-      "slug": "az-900-microsoft-azure-fundamentals-certification-exam-2026",
-      "udemy_url": "https://www.udemy.com/course/az-900-microsoft-azure-fundamentals-certification-exam-2026/?couponCode=2EE30254B11136D35838",
-      "image": "https://img-c.udemycdn.com/course/480x270/7016175_ec5c.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "AZ-900: Microsoft Azure Fundamentals Certification Exam 2026 is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/az-900-microsoft-azure-fundamentals-certification-exam-2026.html"
-    },
-    {
-      "title": "CISSP 2026: 200 Practice Questions & Detailed Explanations",
-      "slug": "cissp-2026-200-practice-questions-detailed-explanations",
-      "udemy_url": "https://www.udemy.com/course/cissp-2026-200-practice-questions-detailed-explanations/?couponCode=8C18A76EEB5EC944B7FB",
-      "image": "https://img-c.udemycdn.com/course/480x270/7033331_59e5.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "CISSP 2026: 200 Practice Questions & Detailed Explanations is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/cissp-2026-200-practice-questions-detailed-explanations.html"
-    },
-    {
-      "title": "Palo Alto Certified Network Security Administrator Exam 2026",
-      "slug": "palo-alto-certified-network-security-administrator-exam-2026",
-      "udemy_url": "https://www.udemy.com/course/palo-alto-certified-network-security-administrator-exam-2026/?couponCode=0F486D72DABBB110E477",
-      "image": "https://img-c.udemycdn.com/course/480x270/7031825_5a11.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Get ready for the Palo Alto Certified Network Security Administrator Exam 2026 with this comprehensive free Udemy course. Learn the latest network security concepts, configuration techniques, and exam strategies to boost your certification success.",
-      "learn": [
-        "Master Palo Alto firewall configuration and management",
-        "Understand advanced threat prevention and security policies",
-        "Practice real-world exam scenarios and sample questions",
-        "Gain hands-on labs and practical troubleshooting skills"
-      ],
-      "who": "This course is ideal for network security professionals, system administrators, and aspiring Palo Alto Certified Network Security Administrators looking to prepare for the 2026 exam.",
+      "who": "This course is ideal for business professionals, students, and anyone looking to improve their document creation skills for career advancement.",
       "note": "Coupon may expire; confirm $0 on Udemy.",
-      "page": "p/palo-alto-certified-network-security-administrator-exam-2026.html"
+      "page": "p/master-microsoft-word-for-business-and-career-success.html"
     },
     {
-      "title": "Cisco DevNet Associate (DEVASC 200-901) Practice Tests 2026",
-      "slug": "cisco-devnet-associate-devasc-200-901-practice-tests-2026",
-      "udemy_url": "https://www.udemy.com/course/cisco-devnet-associate-devasc-200-901-practice-tests-2026/?couponCode=1AC2A7D8BDD1505CB069",
-      "image": "https://img-c.udemycdn.com/course/480x270/7028767_d93e.jpg",
+      "title": "Ultimate Python Game Development 2025 : From Zero To Gamer",
+      "slug": "ultimate-python-game-development-2025-from-zero-to-gamer",
+      "udemy_url": "https://www.udemy.com/course/complete-python-game-development-course-from-zero-to-hero/",
+      "image": "https://img-c.udemycdn.com/course/480x270/6147203_b67f_3.jpg",
       "category": "Category",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Cisco DevNet Associate (DEVASC 200-901) Practice Tests 2026 is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "Ultimate Python Game Development 2025 : From Zero To Gamer is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -661,18 +141,18 @@
       ],
       "who": "Learners interested in Category who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/cisco-devnet-associate-devasc-200-901-practice-tests-2026.html"
+      "page": "p/ultimate-python-game-development-2025-from-zero-to-gamer.html"
     },
     {
-      "title": "ITSM Foundations Fast Track: Learn Faster & Advance Quickly",
-      "slug": "itsm-foundations-fast-track-learn-faster-advance-quickly",
-      "udemy_url": "https://www.udemy.com/course/foundation-practice-certification-exams-2026/?couponCode=46276AA81C70EA8EBF8F",
-      "image": "https://img-c.udemycdn.com/course/480x270/7024961_1b80_8.jpg",
+      "title": "Complete Face Recognition Using SQL Database Project 2025",
+      "slug": "complete-face-recognition-using-sql-database-project-2025",
+      "udemy_url": "https://www.udemy.com/course/complete-face-recognition-using-sql-database-project/",
+      "image": "https://img-c.udemycdn.com/course/480x270/5841048_da84_2.jpg",
       "category": "Category",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "ITSM Foundations Fast Track: Learn Faster & Advance Quickly is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "Complete Face Recognition Using SQL Database Project 2025 is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -681,18 +161,18 @@
       ],
       "who": "Learners interested in Category who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/itsm-foundations-fast-track-learn-faster-advance-quickly.html"
+      "page": "p/complete-face-recognition-using-sql-database-project-2025.html"
     },
     {
-      "title": "PCNSE: Palo Alto Certified Network Security Engineer Exam",
-      "slug": "pcnse-palo-alto-certified-network-security-engineer-exam",
-      "udemy_url": "https://www.udemy.com/course/pcnse-palo-alto-certified-network-security-engineer-exam/?couponCode=59315DE13431D3004E57",
-      "image": "https://img-c.udemycdn.com/course/480x270/7030359_2f5a_3.jpg",
+      "title": "MySQL Ultimate Course 2025 : From Zero To Hero | Learn Mysql",
+      "slug": "mysql-ultimate-course-2025-from-zero-to-hero-learn-mysql",
+      "udemy_url": "https://www.udemy.com/course/complete-mysql-crash-course-from-zero-to-hero/",
+      "image": "https://img-c.udemycdn.com/course/480x270/5834162_7cc2_3.jpg",
       "category": "Category",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "PCNSE: Palo Alto Certified Network Security Engineer Exam is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "MySQL Ultimate Course 2025 : From Zero To Hero | Learn Mysql is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -701,38 +181,538 @@
       ],
       "who": "Learners interested in Category who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/pcnse-palo-alto-certified-network-security-engineer-exam.html"
+      "page": "p/mysql-ultimate-course-2025-from-zero-to-hero-learn-mysql.html"
     },
     {
-      "title": "Kubernetes Application Development with Real-World Scenarios",
-      "slug": "kubernetes-application-development-with-real-world-scenarios",
-      "udemy_url": "https://www.udemy.com/course/kubernetes-application-development-with-real-world-scenarios/?couponCode=2C83FC4578CA32F8D0F9",
-      "image": "https://img-c.udemycdn.com/course/480x270/7026923_3478.jpg",
+      "title": "Oracle Sql 2025 : Beginner to Sql Database Pro",
+      "slug": "oracle-sql-2025-beginner-to-sql-database-pro",
+      "udemy_url": "https://www.udemy.com/course/complete-sql-crash-course-from-zero-to-hero/",
+      "image": "https://img-c.udemycdn.com/course/480x270/5802976_cfdc_2.jpg",
       "category": "Category",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Discover how to build, deploy, and manage containerized applications on Kubernetes using hands‑on, real‑world scenarios. This free Udemy course covers core concepts, best practices, and advanced techniques to help you become a confident Kubernetes developer. No prior experience required—just a curiosity to build scalable, resilient apps.",
+      "summary": "Oracle Sql 2025 : Beginner to Sql Database Pro is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
-        "Deploy microservices to a Kubernetes cluster using Helm charts and custom manifests",
-        "Scale, monitor, and troubleshoot applications with Kubernetes native tools and Prometheus",
-        "Implement CI/CD pipelines that automatically build, test, and release container images",
-        "Secure workloads with role‑based access control, network policies, and secrets management"
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
       ],
-      "who": "Ideal for software engineers, DevOps practitioners, and aspiring cloud architects looking to master Kubernetes in a practical, scenario‑based environment.",
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/oracle-sql-2025-beginner-to-sql-database-pro.html"
+    },
+    {
+      "title": "Java Fundamentals Course For Beginners",
+      "slug": "java-fundamentals-course-for-beginners",
+      "udemy_url": "https://www.udemy.com/course/java-fundamentals-course-for-beginners/?couponCode=8BF4014CA06D26EA2E59",
+      "image": "https://img-c.udemycdn.com/course/480x270/5638424_41f4.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "This free Udemy course introduces Java fundamentals, covering syntax, object-oriented concepts, and practical coding exercises. Ideal for beginners looking to build a solid foundation before tackling advanced topics.",
+      "learn": [
+        "Understand Java syntax and basic programming constructs",
+        "Master object-oriented principles like classes, objects, inheritance, and polymorphism",
+        "Write, debug, and run Java applications using popular IDEs",
+        "Apply Java fundamentals to real-world projects and prepare for further learning"
+      ],
+      "who": "Perfect for students, career switchers, or hobbyists with no prior coding experience.",
+      "note": "Coupon may expire; confirm $0 on Udemy",
+      "page": "p/java-fundamentals-course-for-beginners.html"
+    },
+    {
+      "title": "Object Detection And Tracking Using Yolov11 : Deep Learning",
+      "slug": "object-detection-and-tracking-using-yolov11-deep-learning",
+      "udemy_url": "https://www.udemy.com/course/complete-goat-detection-and-counting-using-yolov11/",
+      "image": "https://img-c.udemycdn.com/course/480x270/6289103_b3c5_2.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Object Detection And Tracking Using Yolov11 : Deep Learning is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/object-detection-and-tracking-using-yolov11-deep-learning.html"
+    },
+    {
+      "title": "YOLOv11 : Complete Machine Learning Project For Experts",
+      "slug": "yolov11-complete-machine-learning-project-for-experts",
+      "udemy_url": "https://www.udemy.com/course/yolov11-complete-machine-learning-project-from-scratch/",
+      "image": "https://img-c.udemycdn.com/course/480x270/6263627_f2a4.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "YOLOv11 : Complete Machine Learning Project For Experts is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/yolov11-complete-machine-learning-project-for-experts.html"
+    },
+    {
+      "title": "JavaScript , PHP : The Ultimate Beginner's Course",
+      "slug": "javascript-php-the-ultimate-beginners-course",
+      "udemy_url": "https://www.udemy.com/course/javascript-and-php-ultimate-course-for-beginners/",
+      "image": "https://img-c.udemycdn.com/course/480x270/6215429_8db2_4.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "JavaScript , PHP : The Ultimate Beginner's Course is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/javascript-php-the-ultimate-beginners-course.html"
+    },
+    {
+      "title": "Mastery Age & Gender Detection Using DNN & OPENCV Project",
+      "slug": "mastery-age-gender-detection-using-dnn-opencv-project",
+      "udemy_url": "https://www.udemy.com/course/complete-age-gender-detection-using-dnn-opencv-project/",
+      "image": "https://img-c.udemycdn.com/course/480x270/6138057_06d3.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Mastery Age & Gender Detection Using DNN & OPENCV Project is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/mastery-age-gender-detection-using-dnn-opencv-project.html"
+    },
+    {
+      "title": "Time Management & Energy Optimization for Peak Productivity",
+      "slug": "time-management-energy-optimization-for-peak-productivity",
+      "udemy_url": "https://www.udemy.com/course/time-management-energy-optimization-for-peak-productivity/?couponCode=A343B6EEAF4C5AE49144",
+      "image": "https://img-c.udemycdn.com/course/480x270/6879427_258b_2.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Learn how to master your schedule, harness your natural energy rhythms, and eliminate distractions to achieve more in less time. This course equips you with practical tools to boost focus, productivity, and overall well‑being.",
+      "learn": [
+        "Prioritize tasks using the Eisenhower Matrix",
+        "Align work blocks with your peak energy periods",
+        "Apply the Pomodoro Technique for sustained focus",
+        "Create a habit loop that reinforces productivity"
+      ],
+      "who": "Ideal for busy professionals, students, and entrepreneurs who want to boost efficiency without burning out.",
+      "note": "Coupon may expire; confirm $0 on Udemy",
+      "page": "p/time-management-energy-optimization-for-peak-productivity.html"
+    },
+    {
+      "title": "Smart Customer Service: KYC, AML & AI Tools",
+      "slug": "smart-customer-service-kyc-aml-ai-tools",
+      "udemy_url": "https://www.udemy.com/course/diving-customer-service-kyc-compliance-with-ai-chatbots/?couponCode=8C603908FC07C130FB9D",
+      "image": "https://img-c.udemycdn.com/course/480x270/6634699_2887_6.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Smart Customer Service: KYC, AML & AI Tools is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/smart-customer-service-kyc-aml-ai-tools.html"
+    },
+    {
+      "title": "Anti Money Laundering (AML) Insights for Financial Security",
+      "slug": "anti-money-laundering-aml-insights-for-financial-security",
+      "udemy_url": "https://www.udemy.com/course/anti-money-laundering-aml-kyc-compliance/?couponCode=4C6BE54194164474F3F5",
+      "image": "https://img-c.udemycdn.com/course/480x270/6583467_2314_4.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Anti Money Laundering (AML) Insights for Financial Security is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/anti-money-laundering-aml-insights-for-financial-security.html"
+    },
+    {
+      "title": "Ultimate End To End Chatbot Using Python & Streamlit Project",
+      "slug": "ultimate-end-to-end-chatbot-using-python-streamlit-project",
+      "udemy_url": "https://www.udemy.com/course/complete-end-to-end-chatbot-using-python-streamlit-project/",
+      "image": "https://img-c.udemycdn.com/course/480x270/6138009_6627.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Ultimate End To End Chatbot Using Python & Streamlit Project is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/ultimate-end-to-end-chatbot-using-python-streamlit-project.html"
+    },
+    {
+      "title": "Responsive Portfolio Website With HTML CSS NETLIFY Project",
+      "slug": "responsive-portfolio-website-with-html-css-netlify-project",
+      "udemy_url": "https://www.udemy.com/course/complete-portfolio-website-using-html-css-netlify-project/",
+      "image": "https://img-c.udemycdn.com/course/480x270/6064327_f790.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Build a fully responsive portfolio website using HTML, CSS, and Netlify deployment. Learn to structure clean HTML, style with CSS, and host your site for free on Netlify. By the end, you'll have a polished, mobile‑friendly portfolio ready to showcase your work.",
+      "learn": [
+        "Create a semantic HTML structure for a portfolio page",
+        "Style components with modern CSS techniques (Flexbox, Grid, media queries)",
+        "Deploy your site to Netlify and configure a custom domain",
+        "Optimize images and performance for fast loading"
+      ],
+      "who": "This course is ideal for front‑end developers, designers, or anyone looking to build a personal portfolio website without backend complexity.",
+      "note": "Coupon may expire; confirm $0 price on Udemy before enrolling.",
+      "page": "p/responsive-portfolio-website-with-html-css-netlify-project.html"
+    },
+    {
+      "title": "Face Recognition Attendance Project Using Machine Learning",
+      "slug": "face-recognition-attendance-project-using-machine-learning",
+      "udemy_url": "https://www.udemy.com/course/complete-face-recognition-attendance-system-using-knn/",
+      "image": "https://img-c.udemycdn.com/course/480x270/5937084_16d3_3.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Face Recognition Attendance Project Using Machine Learning is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/face-recognition-attendance-project-using-machine-learning.html"
+    },
+    {
+      "title": "Chatbot Development Project Using Machine Learning 2025",
+      "slug": "chatbot-development-project-using-machine-learning-2025",
+      "udemy_url": "https://www.udemy.com/course/complete-chatbot-using-machine-learning-project/",
+      "image": "https://img-c.udemycdn.com/course/480x270/5914768_8635_2.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Chatbot Development Project Using Machine Learning 2025 is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/chatbot-development-project-using-machine-learning-2025.html"
+    },
+    {
+      "title": "Hate Speech Detection Using Machine Learning Project",
+      "slug": "hate-speech-detection-using-machine-learning-project",
+      "udemy_url": "https://www.udemy.com/course/hate-speech-detection-using-machine-learning-project/",
+      "image": "https://img-c.udemycdn.com/course/480x270/5908352_576a.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Hate Speech Detection Using Machine Learning Project is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/hate-speech-detection-using-machine-learning-project.html"
+    },
+    {
+      "title": "WhatsApp Chat Sentiment Analysis Project | ML & NLP",
+      "slug": "whatsapp-chat-sentiment-analysis-project-ml-nlp",
+      "udemy_url": "https://www.udemy.com/course/whatsapp-chat-sentiment-analysis-using-machine-learning/",
+      "image": "https://img-c.udemycdn.com/course/480x270/5908268_b661_3.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "WhatsApp Chat Sentiment Analysis Project | ML & NLP is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/whatsapp-chat-sentiment-analysis-project-ml-nlp.html"
+    },
+    {
+      "title": "Flipkart Review Sentiment Analysis & Spam Comments Detection",
+      "slug": "flipkart-review-sentiment-analysis-spam-comments-detection",
+      "udemy_url": "https://www.udemy.com/course/flipkart-review-sentiment-analysis-spam-comments-detection/",
+      "image": "https://img-c.udemycdn.com/course/480x270/5904452_bda6_2.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Unlock the power of natural language processing with our free Udemy coupon for \"Flipkart Review Sentiment Analysis & Spam Comments Detection.\" In this course, you’ll learn how to scrape product reviews, preprocess text, build sentiment classifiers, and detect spam comments using Python and popular ML libraries. By the end, you’ll have a complete pipeline ready to analyze real-world e‑commerce data.",
+      "learn": [
+        "Scrape and clean Flipkart reviews using Python and BeautifulSoup",
+        "Preprocess text data and engineer features for sentiment analysis",
+        "Build and evaluate machine learning models for sentiment classification",
+        "Detect spam comments with advanced NLP techniques and model deployment"
+      ],
+      "who": "Data science enthusiasts, ML engineers, and e‑commerce analysts looking to gain hands‑on experience in text analytics and spam detection.",
+      "note": "Coupon may expire soon; confirm $0 price on Udemy before enrolling.",
+      "page": "p/flipkart-review-sentiment-analysis-spam-comments-detection.html"
+    },
+    {
+      "title": "SQLite Ultimate Course 2025 : From Zero to SQL Expert",
+      "slug": "sqlite-ultimate-course-2025-from-zero-to-sql-expert",
+      "udemy_url": "https://www.udemy.com/course/complete-sqlite-crash-course-from-zero-to-hero/",
+      "image": "https://img-c.udemycdn.com/course/480x270/5861030_4c1a_3.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "SQLite Ultimate Course 2025 : From Zero to SQL Expert is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/sqlite-ultimate-course-2025-from-zero-to-sql-expert.html"
+    },
+    {
+      "title": "Complete Machine Learning Project Using YOLOv9 From Scratch",
+      "slug": "complete-machine-learning-project-using-yolov9-from-scratch",
+      "udemy_url": "https://www.udemy.com/course/complete-machine-learning-project-using-yolov9/",
+      "image": "https://img-c.udemycdn.com/course/480x270/5860720_d1f8.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Complete Machine Learning Project Using YOLOv9 From Scratch is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/complete-machine-learning-project-using-yolov9-from-scratch.html"
+    },
+    {
+      "title": "Microsoft Outlook Associate (MO-400): Practice Exams",
+      "slug": "microsoft-outlook-associate-mo-400-practice-exams",
+      "udemy_url": "https://www.udemy.com/course/microsoft-outlook-associate-mo-400-practice-exams/?couponCode=4AACD0BA00DCA4B66B2C",
+      "image": "https://img-c.udemycdn.com/course/480x270/7185797_969f_3.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Microsoft Outlook Associate (MO-400): Practice Exams is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/microsoft-outlook-associate-mo-400-practice-exams.html"
+    },
+    {
+      "title": "Microsoft Publisher (MO-400): Practice Exams",
+      "slug": "microsoft-publisher-mo-400-practice-exams",
+      "udemy_url": "https://www.udemy.com/course/microsoft-publisher-mo-400-practice-exams/?couponCode=604679579EFD91248F9E",
+      "image": "https://img-c.udemycdn.com/course/480x270/7185607_1c77_3.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Microsoft Publisher (MO-400): Practice Exams is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/microsoft-publisher-mo-400-practice-exams.html"
+    },
+    {
+      "title": "Microsoft Access Expert (MO-500): Practice Exams",
+      "slug": "microsoft-access-expert-mo-500-practice-exams",
+      "udemy_url": "https://www.udemy.com/course/microsoft-access-expert-mo-500-practice-exams/?couponCode=000F6CC82DAA7A01222E",
+      "image": "https://img-c.udemycdn.com/course/480x270/7185595_81b3_3.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Master the Microsoft Access Expert exam with our comprehensive practice tests. This free Udemy coupon unlocks a full set of realistic questions, complete with detailed explanations. Perfect for both beginners and seasoned professionals looking to validate their skills.",
+      "learn": [
+        "Realistic exam‑style questions covering all MO‑500 objectives",
+        "Detailed answer explanations to reinforce concepts",
+        "Time‑tracking to simulate real exam conditions",
+        "Instant feedback and performance analytics"
+      ],
+      "who": "This course is ideal for IT professionals, database administrators, and anyone preparing for the Microsoft Access Expert (MO‑500) certification.",
+      "note": "Coupon may expire; confirm $0 on Udemy.",
+      "page": "p/microsoft-access-expert-mo-500-practice-exams.html"
+    },
+    {
+      "title": "Microsoft PowerPoint Associate (MO-300): Practice Exams",
+      "slug": "microsoft-powerpoint-associate-mo-300-practice-exams",
+      "udemy_url": "https://www.udemy.com/course/microsoft-powerpoint-associate-mo-300-practice-exams/?couponCode=B021769CC997B15A5F55",
+      "image": "https://img-c.udemycdn.com/course/480x270/7185579_4d1d_3.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Microsoft PowerPoint Associate (MO-300): Practice Exams is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/microsoft-powerpoint-associate-mo-300-practice-exams.html"
+    },
+    {
+      "title": "B2B Sales Training: Lead Generation, Cold Calling & Closing",
+      "slug": "b2b-sales-training-lead-generation-cold-calling-closing",
+      "udemy_url": "https://www.udemy.com/course/b2b-sales-skills-for-business-development-lead-generation/?couponCode=B152B41F9B84D57CFE5E",
+      "image": "https://img-c.udemycdn.com/course/480x270/7009465_90cc.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "B2B Sales Training: Lead Generation, Cold Calling & Closing is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/b2b-sales-training-lead-generation-cold-calling-closing.html"
+    },
+    {
+      "title": "Leadership & Management Training: Become an Effective Leader",
+      "slug": "leadership-management-training-become-an-effective-leader",
+      "udemy_url": "https://www.udemy.com/course/leadership-management-training-become-an-effective-leader/?couponCode=871796D4C89157C89BC4",
+      "image": "https://img-c.udemycdn.com/course/480x270/6931211_a6ba_2.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Leadership & Management Training: Become an Effective Leader is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/leadership-management-training-become-an-effective-leader.html"
+    },
+    {
+      "title": "MS Word Associate (MO-110): Practice Exams",
+      "slug": "ms-word-associate-mo-110-practice-exams",
+      "udemy_url": "https://www.udemy.com/course/course-title-ms-word-associate-mo-110-practice-exams/?couponCode=716F7D5981CC7E668B0B",
+      "image": "https://img-c.udemycdn.com/course/480x270/7184911_a4e4_3.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "MS Word Associate (MO-110): Practice Exams is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/ms-word-associate-mo-110-practice-exams.html"
+    },
+    {
+      "title": "Certification in Child Psychology and Child Development",
+      "slug": "certification-in-child-psychology-and-child-development",
+      "udemy_url": "https://www.udemy.com/course/certification-in-child-psychology-and-child-development/?couponCode=63EF6BB86269B48AB0E8",
+      "image": "https://img-c.udemycdn.com/course/480x270/6773377_bd14.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Gain a comprehensive understanding of child psychology and development with our Certification course. Learn evidence-based theories, assessment techniques, and practical interventions to support children’s growth. Earn a recognized credential while studying at your own pace.",
+      "learn": [
+        "Explore developmental milestones and psychological theories from infancy to adolescence",
+        "Master assessment tools and intervention strategies for diverse child populations",
+        "Understand the impact of family, culture, and environment on child development",
+        "Apply ethical practices and evidence-based approaches in real-world settings"
+      ],
+      "who": "Ideal for educators, counselors, healthcare professionals, and parents who want to deepen their knowledge of child development and earn a certification.",
       "note": "Coupon may expire; confirm $0 on Udemy before enrolling.",
-      "page": "p/kubernetes-application-development-with-real-world-scenarios.html"
+      "page": "p/certification-in-child-psychology-and-child-development.html"
     },
     {
-      "title": "Google Secure AI Framework (SAIF): A GRC Guide",
-      "slug": "google-secure-ai-framework-saif-a-grc-guide",
-      "udemy_url": "https://www.udemy.com/course/google-secure-ai-framework-saif-a-grc-guide-y/?couponCode=2C09ADB8B3D9451538FD",
-      "image": "https://img-c.udemycdn.com/course/480x270/7287041_901d_7.jpg",
+      "title": "Designated Safeguarding Lead (DSL) Training for Schools",
+      "slug": "designated-safeguarding-lead-dsl-training-for-schools",
+      "udemy_url": "https://www.udemy.com/course/designated-safeguarding-lead-dsl-training/?couponCode=04825471500BC9B71CF1",
+      "image": "https://img-c.udemycdn.com/course/480x270/6747789_2ca8_2.jpg",
       "category": "Category",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Google Secure AI Framework (SAIF): A GRC Guide is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "Designated Safeguarding Lead (DSL) Training for Schools is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -741,18 +721,18 @@
       ],
       "who": "Learners interested in Category who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/google-secure-ai-framework-saif-a-grc-guide.html"
+      "page": "p/designated-safeguarding-lead-dsl-training-for-schools.html"
     },
     {
-      "title": "Ultimate Job Seeker Course - Resume, Cover Letter, Interview",
-      "slug": "ultimate-job-seeker-course---resume-cover-letter-interview",
-      "udemy_url": "https://www.udemy.com/course/ultimate-job-seeker-course-resume-cover-letter-interview/?couponCode=0D86BDB9E352C57BA47D",
-      "image": "https://img-c.udemycdn.com/course/480x270/6181393_329b_2.jpg",
+      "title": "Create a Powerful Vision Board That Works",
+      "slug": "create-a-powerful-vision-board-that-works",
+      "udemy_url": "https://www.udemy.com/course/vision-board-blueprint-unlock-the-law-of-attraction/?couponCode=EAFE7F301456B0194AFE",
+      "image": "https://img-c.udemycdn.com/course/480x270/6672677_8bcf_4.jpg",
       "category": "Category",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Ultimate Job Seeker Course - Resume, Cover Letter, Interview is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "Create a Powerful Vision Board That Works is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -761,18 +741,18 @@
       ],
       "who": "Learners interested in Category who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/ultimate-job-seeker-course---resume-cover-letter-interview.html"
+      "page": "p/create-a-powerful-vision-board-that-works.html"
     },
     {
-      "title": "AI & Machine Learning Bootcamp: 21 Courses in 1 (Python, DS)",
-      "slug": "ai-machine-learning-bootcamp-21-courses-in-1-python-ds",
-      "udemy_url": "https://www.udemy.com/course/python-data-science-ai-machine-learning-full-stack-bootcamp/?couponCode=PDSSEP26",
-      "image": "https://img-c.udemycdn.com/course/480x270/6940263_7239_3.jpg",
+      "title": "Waste and Environment Management for Hospitals and Clinics",
+      "slug": "waste-and-environment-management-for-hospitals-and-clinics",
+      "udemy_url": "https://www.udemy.com/course/waste-and-environmental-management-for-sustainability/?couponCode=91C036630FABA67D731E",
+      "image": "https://img-c.udemycdn.com/course/480x270/7033371_1c2c_2.jpg",
       "category": "Category",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "AI & Machine Learning Bootcamp: 21 Courses in 1 (Python, DS) is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "Waste and Environment Management for Hospitals and Clinics is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -781,18 +761,18 @@
       ],
       "who": "Learners interested in Category who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/ai-machine-learning-bootcamp-21-courses-in-1-python-ds.html"
+      "page": "p/waste-and-environment-management-for-hospitals-and-clinics.html"
     },
     {
-      "title": "أمانك بوعيك: كيف تحمي نفسك من الاحتيال والاختراق الرقمي",
-      "slug": "course-1788775513",
-      "udemy_url": "https://www.udemy.com/course/bibyaqqz/",
-      "image": "https://img-c.udemycdn.com/course/480x270/7207531_50e8_3.jpg",
+      "title": "CCNA 200-301 Exam Questions",
+      "slug": "ccna-200-301-exam-questions",
+      "udemy_url": "https://www.udemy.com/course/ccna-real-exam-questions/?couponCode=87657F54D729C28B5142",
+      "image": "https://img-c.udemycdn.com/course/480x270/7222415_b4fa.jpg",
       "category": "Category",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "أمانك بوعيك: كيف تحمي نفسك من الاحتيال والاختراق الرقمي is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "CCNA 200-301 Exam Questions is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -801,58 +781,38 @@
       ],
       "who": "Learners interested in Category who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/course-1788775513.html"
+      "page": "p/ccna-200-301-exam-questions.html"
     },
     {
-      "title": "CapCut Mastery: From Beginner to Pro",
-      "slug": "capcut-mastery-from-beginner-to-pro",
-      "udemy_url": "https://www.udemy.com/course/capcut-mastery-from-beginner-to-pro/?couponCode=82984211A046ACF98952",
-      "image": "https://img-c.udemycdn.com/course/480x270/6212797_8091.jpg",
+      "title": "Cómo Reducir el Estrés y la Sobrecarga Mental en el Trabajo",
+      "slug": "cmo-reducir-el-estrs-y-la-sobrecarga-mental-en-el-trabajo",
+      "udemy_url": "https://www.udemy.com/course/sistema-de-gestion-de-la-carga-cognitiva/",
+      "image": "https://img-c.udemycdn.com/course/480x270/7172862_96e6_2.jpg",
       "category": "Category",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Learn how to edit videos like a pro using CapCut, from basic cuts to advanced effects. This free course covers all the essential tools and techniques to create stunning videos for social media, YouTube, and more.",
+      "summary": "Aprende a identificar y gestionar las fuentes de estrés laboral con técnicas prácticas de mindfulness, gestión del tiempo y establecimiento de límites. Este curso te brinda herramientas simples para mejorar tu bienestar mental y aumentar tu productividad sin comprometer tu salud.",
       "learn": [
-        "Master CapCut's interface and essential editing tools.",
-        "Create dynamic transitions, text overlays, and motion graphics.",
-        "Apply color grading, filters, and audio editing for polished results.",
-        "Export and optimize videos for various platforms and formats."
+        "Identificar los principales desencadenantes de estrés en el entorno laboral.",
+        "Aplicar ejercicios de respiración y atención plena para calmar la mente.",
+        "Organizar tareas y prioridades con métodos efectivos de gestión del tiempo.",
+        "Establecer límites claros y rutinas de autocuidado para prevenir la sobrecarga mental."
       ],
-      "who": "Ideal for beginners and intermediate creators who want to elevate their video editing skills without spending money.",
-      "note": "Coupon may expire; confirm $0 on Udemy before enrolling.",
-      "page": "p/capcut-mastery-from-beginner-to-pro.html"
+      "who": "Profesionales, gerentes y cualquier persona que sienta que el estrés y la sobrecarga mental están afectando su rendimiento y bienestar.",
+      "note": "El cupón puede expirar; confirma que el precio es $0 en Udemy.",
+      "page": "p/cmo-reducir-el-estrs-y-la-sobrecarga-mental-en-el-trabajo.html"
     },
     {
-      "title": "Adobe Premiere Pro CC Essential Video Editing Zero To Hero",
-      "slug": "adobe-premiere-pro-cc-essential-video-editing-zero-to-hero",
-      "udemy_url": "https://www.udemy.com/course/adobe-premiere-pro-cc-essential-video-editing-zero-to-hero/?couponCode=C0C88238D01E1D3BDA71",
-      "image": "https://img-c.udemycdn.com/course/480x270/3604676_63b5_4.jpg",
+      "title": "PHP Master Class - The Complete PHP Developer Course",
+      "slug": "php-master-class---the-complete-php-developer-course",
+      "udemy_url": "https://www.udemy.com/course/php-master-class-the-complete-php-developer-course/?couponCode=45751ACBC3E2F41B663F",
+      "image": "https://img-c.udemycdn.com/course/480x270/5636472_7921.jpg",
       "category": "Category",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Adobe Premiere Pro CC Essential Video Editing Zero To Hero is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/adobe-premiere-pro-cc-essential-video-editing-zero-to-hero.html"
-    },
-    {
-      "title": "Cisco CCNP Enterprise ENCOR 350-401 Practice Tests 2026",
-      "slug": "cisco-ccnp-enterprise-encor-350-401-practice-tests-2026",
-      "udemy_url": "https://www.udemy.com/course/cisco-ccnp-enterprise-encor-350-401-practice-tests-2026/?couponCode=5B2D01C902C53B31B1E2",
-      "image": "https://img-c.udemycdn.com/course/480x270/7066417_819d_2.jpg",
-      "category": "Category",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Cisco CCNP Enterprise ENCOR 350-401 Practice Tests 2026 is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "PHP Master Class - The Complete PHP Developer Course is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -861,18 +821,18 @@
       ],
       "who": "Learners interested in Category who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/cisco-ccnp-enterprise-encor-350-401-practice-tests-2026.html"
+      "page": "p/php-master-class---the-complete-php-developer-course.html"
     },
     {
-      "title": "Diversity Equity Inclusion Building Inclusive Workplaces",
-      "slug": "diversity-equity-inclusion-building-inclusive-workplaces",
-      "udemy_url": "https://www.udemy.com/course/diversity-equity-inclusion-building-inclusive-workplaces/?couponCode=04AB5DF6311D18A3BBDA",
-      "image": "https://img-c.udemycdn.com/course/480x270/6130227_f3a9_2.jpg",
+      "title": "The Complete JavaScript Course: From Zero to Expert",
+      "slug": "the-complete-javascript-course-from-zero-to-expert",
+      "udemy_url": "https://www.udemy.com/course/the-complete-javascript-course-from-zero-to-expert-o/?couponCode=28D231911559870B6903",
+      "image": "https://img-c.udemycdn.com/course/480x270/5638532_1c7a.jpg",
       "category": "Category",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Diversity Equity Inclusion Building Inclusive Workplaces is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "The Complete JavaScript Course: From Zero to Expert is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -881,7 +841,147 @@
       ],
       "who": "Learners interested in Category who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/diversity-equity-inclusion-building-inclusive-workplaces.html"
+      "page": "p/the-complete-javascript-course-from-zero-to-expert.html"
+    },
+    {
+      "title": "Practice Test For CFRN : Flight Nurse Exam Prep 2026",
+      "slug": "practice-test-for-cfrn-flight-nurse-exam-prep-2026",
+      "udemy_url": "https://www.udemy.com/course/practice-test-for-cfrn-flight-nurse-exam-prep-2026/?couponCode=4A04D33586C1CBB0508B",
+      "image": "https://img-c.udemycdn.com/course/480x270/7327245_bc10.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Practice Test For CFRN : Flight Nurse Exam Prep 2026 is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/practice-test-for-cfrn-flight-nurse-exam-prep-2026.html"
+    },
+    {
+      "title": "Practice Tests For Certified MCP Security Expert (CMCPSE)",
+      "slug": "practice-tests-for-certified-mcp-security-expert-cmcpse",
+      "udemy_url": "https://www.udemy.com/course/practice-tests-for-certified-mcp-security-expert-cmcpse-m/?couponCode=C0A3E6DA9191A65A63F4",
+      "image": "https://img-c.udemycdn.com/course/480x270/7327255_064b_2.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Practice Tests For Certified MCP Security Expert (CMCPSE) is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/practice-tests-for-certified-mcp-security-expert-cmcpse.html"
+    },
+    {
+      "title": "Practice Test For ICF Credentialing Exam: PCC & MCC 2026",
+      "slug": "practice-test-for-icf-credentialing-exam-pcc-mcc-2026",
+      "udemy_url": "https://www.udemy.com/course/practice-test-for-icf-credentialing-exam-pcc-mcc-2026/?couponCode=E5590FBE595012B61C1E",
+      "image": "https://img-c.udemycdn.com/course/480x270/7327271_a9ce_2.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Get ready for the ICF Credentialing Exam with our comprehensive practice test. This free resource covers both PCC and MCC exams, helping you identify strengths and gaps. Use it to boost confidence before the 2026 exam.",
+      "learn": [
+        "Simulated exam environment with realistic question bank",
+        "Instant feedback and detailed explanations",
+        "Track progress and identify weak areas",
+        "Flexible study schedule with downloadable materials"
+      ],
+      "who": "Ideal for aspiring PCC and MCC credential holders preparing for the 2026 ICF exam.",
+      "note": "Coupon may expire; confirm $0 on Udemy.",
+      "page": "p/practice-test-for-icf-credentialing-exam-pcc-mcc-2026.html"
+    },
+    {
+      "title": "Practice Tests For FCC GROL Element 1 & 3- 2026",
+      "slug": "practice-tests-for-fcc-grol-element-1-3--2026",
+      "udemy_url": "https://www.udemy.com/course/fcc-grol-element-1-3-practice-test-2026/?couponCode=57FA861AC3A9719AF0A9",
+      "image": "https://img-c.udemycdn.com/course/480x270/7213387_6dba_2.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Practice Tests For FCC GROL Element 1 & 3- 2026 is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/practice-tests-for-fcc-grol-element-1-3--2026.html"
+    },
+    {
+      "title": "Practice Tests For DAT 2026: Full-Length Mock Exam",
+      "slug": "practice-tests-for-dat-2026-full-length-mock-exam",
+      "udemy_url": "https://www.udemy.com/course/practice-tests-for-dat-2026-full-length-mock-exam/?couponCode=F9457BED7CB1B331B9C8",
+      "image": "https://img-c.udemycdn.com/course/480x270/7328523_a5ab.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Practice Tests For DAT 2026: Full-Length Mock Exam is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/practice-tests-for-dat-2026-full-length-mock-exam.html"
+    },
+    {
+      "title": "Practice Test For AWS Advanced Networking Specialty Exam",
+      "slug": "practice-test-for-aws-advanced-networking-specialty-exam",
+      "udemy_url": "https://www.udemy.com/course/aws-certified-advanced-networking-specialty-ans-c01-exam-zn/?couponCode=53E88D5A9390C0D06398",
+      "image": "https://img-c.udemycdn.com/course/480x270/7230825_f084_3.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Practice Test For AWS Advanced Networking Specialty Exam is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/practice-test-for-aws-advanced-networking-specialty-exam.html"
+    },
+    {
+      "title": "Practice Tests For PMI PgMP Program Management Professional",
+      "slug": "practice-tests-for-pmi-pgmp-program-management-professional",
+      "udemy_url": "https://www.udemy.com/course/pmi-pgmp-practice-test-2026-program-management-professional/?couponCode=B432FFEF2D432F4A46F6",
+      "image": "https://img-c.udemycdn.com/course/480x270/7227761_b4b4_3.jpg",
+      "category": "Category",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Practice Tests For PMI PgMP Program Management Professional is listed with a free Udemy coupon in Category. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Category who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/practice-tests-for-pmi-pgmp-program-management-professional.html"
     }
   ]
 }
