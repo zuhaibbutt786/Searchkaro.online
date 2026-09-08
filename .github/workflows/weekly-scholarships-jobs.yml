@@ -42,10 +42,32 @@ jobs:
           python scripts/build_home.py
           python scripts/build_sitemap.py
 
+      - name: WhatsApp — scholarships
+        env:
+          PYTHONPATH: scripts
+          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
+          WHATSAPP_PROVIDER: whapi
+          WHAPI_TOKEN: ${{ secrets.WHAPI_TOKEN }}
+          WHAPI_CHANNEL_ID: ${{ secrets.WHAPI_CHANNEL_ID }}
+          NOTIFY_MODE: scholarships
+        run: python scripts/notify_whatsapp.py
+        continue-on-error: true
+
+      - name: WhatsApp — jobs
+        env:
+          PYTHONPATH: scripts
+          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
+          WHATSAPP_PROVIDER: whapi
+          WHAPI_TOKEN: ${{ secrets.WHAPI_TOKEN }}
+          WHAPI_CHANNEL_ID: ${{ secrets.WHAPI_CHANNEL_ID }}
+          NOTIFY_MODE: jobs
+        run: python scripts/notify_whatsapp.py
+        continue-on-error: true
+
       - name: Commit updates
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/scholarships.json data/jobs.json scholarships/ jobs/ index.html sitemap.xml
+          git add data/scholarships.json data/jobs.json data/scholarships_seen.json data/jobs_seen.json scholarships/ jobs/ index.html sitemap.xml || true
           git diff --staged --quiet || git commit -m "chore: weekly scholarships + jobs [skip ci]"
           git push
