@@ -1,78 +1,138 @@
 {
-  "updated_at": "2026-09-09T09:33:01.462850+00:00",
+  "updated_at": "2026-09-10T09:32:11.971100+00:00",
   "source": "jobs.e-next.in",
   "count": 50,
   "courses": [
     {
-      "title": "Professional Adobe Photoshop CC Course With Advance Training",
-      "slug": "professional-adobe-photoshop-cc-course-with-advance-training",
-      "udemy_url": "https://www.udemy.com/course/professional-adobe-photoshop-cc-course-with-advance-training/?couponCode=01EDBB4462FBB9483546",
-      "image": "https://img-c.udemycdn.com/course/480x270/3213441_6289_4.jpg",
+      "title": "Python Programming: Build a Strong Foundation in Coding",
+      "slug": "python-programming-build-a-strong-foundation-in-coding",
+      "udemy_url": "https://www.udemy.com/course/python-programming-build-a-strong-foundation-in-coding/?couponCode=E377EF3DC172AF5434C8",
+      "image": "https://img-c.udemycdn.com/course/480x270/6182945_6e0a.jpg",
+      "category": "Development Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Unlock the fundamentals of Python with this free Udemy course and start coding confidently. You'll learn core concepts, practical coding techniques, and how to build real-world applications—all at no cost.",
+      "learn": [
+        "Master Python syntax and basic data types",
+        "Understand control flow, functions, and error handling",
+        "Build simple projects to reinforce learning",
+        "Gain confidence to tackle advanced topics later"
+      ],
+      "who": "Ideal for beginners eager to start a career in software development or anyone looking to strengthen their coding foundation.",
+      "note": "Coupon may expire soon; confirm the $0 price on Udemy before enrolling.",
+      "page": "p/python-programming-build-a-strong-foundation-in-coding.html"
+    },
+    {
+      "title": "Mastering MYSQL: Database Creation, Management & SQL Queries",
+      "slug": "mastering-mysql-database-creation-management-sql-queries",
+      "udemy_url": "https://www.udemy.com/course/mastering-mysql-database-creation-management-sql-queries/?couponCode=4C2264F98E445DA80B01",
+      "image": "https://img-c.udemycdn.com/course/480x270/6182905_c45a.jpg",
+      "category": "Development Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Mastering MYSQL: Database Creation, Management & SQL Queries is listed with a free Udemy coupon in Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Development Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/mastering-mysql-database-creation-management-sql-queries.html"
+    },
+    {
+      "title": "JavaScript, jQuery & TypeScript: Full-Stack Web Development",
+      "slug": "javascript-jquery-typescript-full-stack-web-development",
+      "udemy_url": "https://www.udemy.com/course/javascript-jquery-typescript-full-stack-web-development/?couponCode=A46AA786C246EE039127",
+      "image": "https://img-c.udemycdn.com/course/480x270/6119801_c7e7.jpg",
+      "category": "Development Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "JavaScript, jQuery & TypeScript: Full-Stack Web Development is listed with a free Udemy coupon in Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Development Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/javascript-jquery-typescript-full-stack-web-development.html"
+    },
+    {
+      "title": "C, C++ and PHP: Comprehensive Programming Bootcamp",
+      "slug": "c-c-and-php-comprehensive-programming-bootcamp",
+      "udemy_url": "https://www.udemy.com/course/c-c-and-php-comprehensive-programming-bootcamp/?couponCode=788F0F20D722FFC52CF6",
+      "image": "https://img-c.udemycdn.com/course/480x270/6119481_61ba.jpg",
+      "category": "Development Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "C, C++ and PHP: Comprehensive Programming Bootcamp is listed with a free Udemy coupon in Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Development Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/c-c-and-php-comprehensive-programming-bootcamp.html"
+    },
+    {
+      "title": "Salesforce Fundamentals : A Complete Guide for Beginners",
+      "slug": "salesforce-fundamentals-a-complete-guide-for-beginners",
+      "udemy_url": "https://www.udemy.com/course/salesforce-fundamentals-a-complete-guide-for-beginners/?couponCode=218C50FAB98AF30A6E5C",
+      "image": "https://img-c.udemycdn.com/course/480x270/5668638_f94e_2.jpg",
+      "category": "Development Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Salesforce Fundamentals : A Complete Guide for Beginners is listed with a free Udemy coupon in Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Development Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/salesforce-fundamentals-a-complete-guide-for-beginners.html"
+    },
+    {
+      "title": "Video Editing with ChatGPT Adobe Premiere Pro Canva CapCut",
+      "slug": "video-editing-with-chatgpt-adobe-premiere-pro-canva-capcut",
+      "udemy_url": "https://www.udemy.com/course/video-editing-with-chatgpt-adobe-premiere-pro-canva-capcut/?couponCode=E578FB363E55A6ACDCCD",
+      "image": "https://img-c.udemycdn.com/course/480x270/6713845_7001.jpg",
       "category": "Design Enroll Now Free",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Unlock advanced Photoshop skills with this comprehensive, free course. Learn how to master layer styles, advanced masking, and creative retouching techniques. Perfect for designers looking to elevate their portfolio.",
+      "summary": "Learn how to harness ChatGPT to streamline your video editing workflow across Adobe Premiere Pro, Canva, and CapCut. This free course covers AI‑driven script generation, automated editing, and design templates to boost your creative output. No prior experience required—just a passion for video.",
       "learn": [
-        "Master Photoshop's advanced layer styles and blending options",
-        "Create complex masks and selections for precise editing",
-        "Apply professional retouching techniques to enhance images",
-        "Build a portfolio‑ready set of projects using real‑world scenarios"
+        "Generate video scripts and storyboards with ChatGPT",
+        "Automate editing tasks in Premiere Pro using AI prompts",
+        "Create stunning graphics and templates in Canva powered by ChatGPT",
+        "Edit mobile videos efficiently in CapCut with AI‑assisted techniques"
       ],
-      "who": "This course is ideal for graphic designers, photographers, and digital artists seeking to deepen their Photoshop expertise.",
-      "note": "Coupon may expire; confirm $0 on Udemy.",
-      "page": "p/professional-adobe-photoshop-cc-course-with-advance-training.html"
+      "who": "Ideal for content creators, marketers, and hobbyists looking to elevate their video projects with AI tools.",
+      "note": "Coupon may expire; confirm $0 price on Udemy before enrolling.",
+      "page": "p/video-editing-with-chatgpt-adobe-premiere-pro-canva-capcut.html"
     },
     {
-      "title": "Practice Test For CompTIA CySA+ Exam: Cybersecurity Analyst",
-      "slug": "practice-test-for-comptia-cysa-exam-cybersecurity-analyst",
-      "udemy_url": "https://www.udemy.com/course/practice-test-for-comptia-cysa-exam-cybersecurity-analyst/?couponCode=63E8AF10511E5DD2AA59",
-      "image": "https://img-c.udemycdn.com/course/480x270/7328739_3c60.jpg",
-      "category": "IT & Software Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Practice Test For CompTIA CySA+ Exam: Cybersecurity Analyst is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/practice-test-for-comptia-cysa-exam-cybersecurity-analyst.html"
-    },
-    {
-      "title": "Pytest Practice Test 2026: Python Testing Exam Preparation",
-      "slug": "pytest-practice-test-2026-python-testing-exam-preparation",
-      "udemy_url": "https://www.udemy.com/course/pytest-practice-test-2026-python-testing-exam-preparation/?couponCode=D16BAAC323C3CC8CE394",
-      "image": "https://img-c.udemycdn.com/course/480x270/7328725_7f45.jpg",
-      "category": "Development Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Pytest Practice Test 2026: Python Testing Exam Preparation is listed with a free Udemy coupon in Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Development Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/pytest-practice-test-2026-python-testing-exam-preparation.html"
-    },
-    {
-      "title": "Practice Test For CQIA : Quality Improvement Associate",
-      "slug": "practice-test-for-cqia-quality-improvement-associate",
-      "udemy_url": "https://www.udemy.com/course/practice-test-for-cqia-quality-improvement-associate/?couponCode=06E26EB540C8DBA08E66",
-      "image": "https://img-c.udemycdn.com/course/480x270/7327329_a2f6.jpg",
+      "title": "Start Your Project Management Career: An Honest Roadmap",
+      "slug": "start-your-project-management-career-an-honest-roadmap",
+      "udemy_url": "https://www.udemy.com/course/start-your-project-management-career-an-honest-roadmap/?couponCode=85A148EEA1654813AC92",
+      "image": "https://img-c.udemycdn.com/course/480x270/7253483_c015.jpg",
       "category": "Business Enroll Now Free",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Practice Test For CQIA : Quality Improvement Associate is listed with a free Udemy coupon in Business Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "Start Your Project Management Career: An Honest Roadmap is listed with a free Udemy coupon in Business Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -81,178 +141,18 @@
       ],
       "who": "Learners interested in Business Enroll Now Free who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/practice-test-for-cqia-quality-improvement-associate.html"
+      "page": "p/start-your-project-management-career-an-honest-roadmap.html"
     },
     {
-      "title": "Practice Tests For AWS Certified Welder (CW) Exam 2026",
-      "slug": "practice-tests-for-aws-certified-welder-cw-exam-2026",
-      "udemy_url": "https://www.udemy.com/course/practice-tests-for-aws-certified-welder-cw-exam-2026/?couponCode=FF91918E4494E25FC747",
-      "image": "https://img-c.udemycdn.com/course/480x270/7327319_350f.jpg",
-      "category": "Teaching & Academics Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Practice Tests For AWS Certified Welder (CW) Exam 2026 is listed with a free Udemy coupon in Teaching & Academics Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Teaching & Academics Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/practice-tests-for-aws-certified-welder-cw-exam-2026.html"
-    },
-    {
-      "title": "Test Prep For PQC-NIST-TECH: Master FIPS 203, 204 & 205",
-      "slug": "test-prep-for-pqc-nist-tech-master-fips-203-204-205",
-      "udemy_url": "https://www.udemy.com/course/test-prep-for-pqc-nist-tech-master-fips-203-204-205/?couponCode=1B1923771EFF2E86C6D7",
-      "image": "https://img-c.udemycdn.com/course/480x270/7018227_fa5f_3.jpg",
-      "category": "IT & Software Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Get ready for the PQC NIST tech exams with our comprehensive, free course covering FIPS 203, 204, and 205. Learn the core concepts, best practices, and exam strategies from industry experts. Enroll now and start mastering quantum‑resistant cryptography for free.",
-      "learn": [
-        "In‑depth coverage of FIPS 203, 204, and 205 specifications",
-        "Hands‑on labs and real‑world application scenarios",
-        "Exam‑style practice questions and detailed solutions",
-        "Career‑boosting credentials in post‑quantum cryptography"
-      ],
-      "who": "This course is designed for IT professionals, security engineers, and developers who need to pass the PQC NIST tech certification exams.",
-      "note": "Coupon may expire; confirm $0 on Udemy before enrolling.",
-      "page": "p/test-prep-for-pqc-nist-tech-master-fips-203-204-205.html"
-    },
-    {
-      "title": "CNCF Prometheus PCA Certified Associate Practice Test 2026",
-      "slug": "cncf-prometheus-pca-certified-associate-practice-test-2026",
-      "udemy_url": "https://www.udemy.com/course/cncf-prometheus-pca-certified-associate-practice-test-2026/?couponCode=23E4688443436248A683",
-      "image": "https://img-c.udemycdn.com/course/480x270/7016181_1b12_3.jpg",
-      "category": "IT & Software Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "CNCF Prometheus PCA Certified Associate Practice Test 2026 is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/cncf-prometheus-pca-certified-associate-practice-test-2026.html"
-    },
-    {
-      "title": "Kubernetes Security Specialist CKS Practice Test 2026",
-      "slug": "kubernetes-security-specialist-cks-practice-test-2026",
-      "udemy_url": "https://www.udemy.com/course/kubernetes-security-specialist-cks-practice-test-2026/?couponCode=D3B1FC94F19411588A88",
-      "image": "https://img-c.udemycdn.com/course/480x270/7015853_6a35_2.jpg",
-      "category": "IT & Software Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Kubernetes Security Specialist CKS Practice Test 2026 is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/kubernetes-security-specialist-cks-practice-test-2026.html"
-    },
-    {
-      "title": "Cloud Native Security Associate (KCSA) Practice Exams 2026",
-      "slug": "cloud-native-security-associate-kcsa-practice-exams-2026",
-      "udemy_url": "https://www.udemy.com/course/cloud-native-security-associate-kcsa-practice-exams-2026/?couponCode=C3D89168523E2BE6429A",
-      "image": "https://img-c.udemycdn.com/course/480x270/7015655_6688_2.jpg",
-      "category": "IT & Software Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Cloud Native Security Associate (KCSA) Practice Exams 2026 is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/cloud-native-security-associate-kcsa-practice-exams-2026.html"
-    },
-    {
-      "title": "KCNA Practice Exams Prep Questions for Kubernetes Associate",
-      "slug": "kcna-practice-exams-prep-questions-for-kubernetes-associate",
-      "udemy_url": "https://www.udemy.com/course/kcna-practice-exams-prep-questions-for-kubernetes-associate/?couponCode=A2797DCD4452A0DBAE48",
-      "image": "https://img-c.udemycdn.com/course/480x270/7012557_1e51_2.jpg",
-      "category": "IT & Software Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "KCNA Practice Exams Prep Questions for Kubernetes Associate is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/kcna-practice-exams-prep-questions-for-kubernetes-associate.html"
-    },
-    {
-      "title": "C++ Programming Made Easy: From Basics to Advanced Concepts",
-      "slug": "c-programming-made-easy-from-basics-to-advanced-concepts",
-      "udemy_url": "https://www.udemy.com/course/c-programming-made-easy-from-basics-to-advanced-concepts/?couponCode=020C889C4C82047A82B8",
-      "image": "https://img-c.udemycdn.com/course/480x270/6849531_3ff3_2.jpg",
+      "title": "Java Programming Masterclass: From Beginner to Expert",
+      "slug": "java-programming-masterclass-from-beginner-to-expert",
+      "udemy_url": "https://www.udemy.com/course/java-programming-masterclass-from-beginner-to-expert-i/?couponCode=E3ED76AE96DD4998F67A",
+      "image": "https://img-c.udemycdn.com/course/480x270/7056365_3441.jpg",
       "category": "Development Enroll Now Free",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Learn C++ from the ground up, covering fundamentals, object-oriented programming, templates, and modern C++ features. The course is structured with hands‑on projects and clear explanations to help you master the language quickly.",
-      "learn": [
-        "Understand basic syntax, data types, and control structures in C++.",
-        "Build object‑oriented programs using classes, inheritance, and polymorphism.",
-        "Master templates, STL containers, and algorithms for efficient coding.",
-        "Dive into modern C++ (C++11/14/17/20) features like smart pointers, lambda expressions, and concurrency."
-      ],
-      "who": "Ideal for programmers looking to start or deepen their C++ knowledge, whether you’re a beginner or an experienced developer seeking to upgrade your skills.",
-      "note": "Coupon may expire soon; confirm $0 price on Udemy before enrolling.",
-      "page": "p/c-programming-made-easy-from-basics-to-advanced-concepts.html"
-    },
-    {
-      "title": "Deepseek AI: Automate Tasks and Write Code Effortlessly",
-      "slug": "deepseek-ai-automate-tasks-and-write-code-effortlessly",
-      "udemy_url": "https://www.udemy.com/course/deepseek-ai-automate-tasks-and-write-code-effortlessly/?couponCode=DFE7F6EC45A44A424784",
-      "image": "https://img-c.udemycdn.com/course/480x270/6835699_b190_5.jpg",
-      "category": "Business Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Deepseek AI: Automate Tasks and Write Code Effortlessly is listed with a free Udemy coupon in Business Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Business Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/deepseek-ai-automate-tasks-and-write-code-effortlessly.html"
-    },
-    {
-      "title": "Complete Guide to Python Data Analysis with Real Datasets",
-      "slug": "complete-guide-to-python-data-analysis-with-real-datasets",
-      "udemy_url": "https://www.udemy.com/course/complete-guide-to-python-data-analysis-with-real-datasets/?couponCode=F964729EEED8E33DFB8A",
-      "image": "https://img-c.udemycdn.com/course/480x270/6813895_92fb_3.jpg",
-      "category": "Development Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Complete Guide to Python Data Analysis with Real Datasets is listed with a free Udemy coupon in Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "Java Programming Masterclass: From Beginner to Expert is listed with a free Udemy coupon in Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -261,18 +161,78 @@
       ],
       "who": "Learners interested in Development Enroll Now Free who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/complete-guide-to-python-data-analysis-with-real-datasets.html"
+      "page": "p/java-programming-masterclass-from-beginner-to-expert.html"
     },
     {
-      "title": "Video Editing Course Premiere Pro: 18 Project In 1 Course",
-      "slug": "video-editing-course-premiere-pro-18-project-in-1-course",
-      "udemy_url": "https://www.udemy.com/course/premiere-pro-cc-novice-to-expert-how-to-earn-money-by-video/?couponCode=57676A12690442F44E22",
-      "image": "https://img-c.udemycdn.com/course/480x270/1619752_ff0e.jpg",
+      "title": "Python Data Analysis - Matplotlib, Seaborn, Pandas & NumPy",
+      "slug": "python-data-analysis---matplotlib-seaborn-pandas-numpy",
+      "udemy_url": "https://www.udemy.com/course/python-data-analysis-matplotlib-seaborn-pandas-numpy/?couponCode=57CBDF483B91B726CB71",
+      "image": "https://img-c.udemycdn.com/course/480x270/7017173_7c3e.jpg",
+      "category": "Development Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Python Data Analysis - Matplotlib, Seaborn, Pandas & NumPy is listed with a free Udemy coupon in Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Development Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/python-data-analysis---matplotlib-seaborn-pandas-numpy.html"
+    },
+    {
+      "title": "Prompt Engineering & AI from Scratch: ChatGPT",
+      "slug": "prompt-engineering-ai-from-scratch-chatgpt",
+      "udemy_url": "https://www.udemy.com/course/prompt-engineering-ai-from-scratch-chatgpt/?couponCode=B7ECEDB061EA0CFBF4EA",
+      "image": "https://img-c.udemycdn.com/course/480x270/7012857_015d.jpg",
+      "category": "IT & Software Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Prompt Engineering & AI from Scratch: ChatGPT is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/prompt-engineering-ai-from-scratch-chatgpt.html"
+    },
+    {
+      "title": "Complete UI/UX Design with Canva - Design Smart Interface",
+      "slug": "complete-uiux-design-with-canva---design-smart-interface",
+      "udemy_url": "https://www.udemy.com/course/complete-uiux-design-with-canva-design-smart-interface/?couponCode=78F83A3D9F78D6855E00",
+      "image": "https://img-c.udemycdn.com/course/480x270/6752731_bf9b_2.jpg",
+      "category": "Design Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Discover how to create professional UI/UX designs using Canva in this comprehensive course. You'll learn to craft clean interfaces, apply design principles, and build prototypes—all for free. Join now and start designing smarter!",
+      "learn": [
+        "Master Canva's advanced tools for UI/UX design",
+        "Apply design thinking to create user-friendly interfaces",
+        "Build responsive prototypes and wireframes",
+        "Export polished designs ready for developers"
+      ],
+      "who": "Ideal for aspiring designers, freelancers, and anyone looking to enhance their UI/UX skills without spending a dime.",
+      "note": "Coupon may expire soon; confirm the course is $0 on Udemy before enrolling.",
+      "page": "p/complete-uiux-design-with-canva---design-smart-interface.html"
+    },
+    {
+      "title": "CapCut Video Edit With AI ChatGPT and Motion Cinematography",
+      "slug": "capcut-video-edit-with-ai-chatgpt-and-motion-cinematography",
+      "udemy_url": "https://www.udemy.com/course/capcut-video-edit-with-ai-chatgpt-and-motion-cinematography/?couponCode=F9EF6D5CABACF832461C",
+      "image": "https://img-c.udemycdn.com/course/480x270/6731221_bc2a_2.jpg",
       "category": "Photography & Video Enroll Now Free",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Video Editing Course Premiere Pro: 18 Project In 1 Course is listed with a free Udemy coupon in Photography & Video Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "CapCut Video Edit With AI ChatGPT and Motion Cinematography is listed with a free Udemy coupon in Photography & Video Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -281,178 +241,18 @@
       ],
       "who": "Learners interested in Photography & Video Enroll Now Free who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/video-editing-course-premiere-pro-18-project-in-1-course.html"
+      "page": "p/capcut-video-edit-with-ai-chatgpt-and-motion-cinematography.html"
     },
     {
-      "title": "MS Word - Microsoft Word Course Beginner to Expert",
-      "slug": "ms-word---microsoft-word-course-beginner-to-expert",
-      "udemy_url": "https://www.udemy.com/course/ms-word-for-novice/?couponCode=85D0CD4A10EE8D694058",
-      "image": "https://img-c.udemycdn.com/course/480x270/1590338_8206_6.jpg",
-      "category": "IT & Software Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "MS Word - Microsoft Word Course Beginner to Expert is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/ms-word---microsoft-word-course-beginner-to-expert.html"
-    },
-    {
-      "title": "Practice Tests For OCP Java SE 21 Developer 2026",
-      "slug": "practice-tests-for-ocp-java-se-21-developer-2026",
-      "udemy_url": "https://www.udemy.com/course/practice-tests-for-ocp-java-se-21-developer-2026/?couponCode=13A4FA4A8445A3026AF9",
-      "image": "https://img-c.udemycdn.com/course/480x270/7292127_cacc.jpg",
-      "category": "IT & Software Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Get ready for the 2026 OCP Java SE 21 Developer exam with our comprehensive practice tests. This free Udemy coupon gives you instant access to realistic exam questions and detailed explanations, helping you build confidence and improve your score.",
-      "learn": [
-        "Master the core Java SE 21 concepts tested in the certification exam",
-        "Practice with realistic, time‑boxed questions to simulate exam conditions",
-        "Receive instant feedback and explanations for every answer",
-        "Track your progress and identify weak areas for focused study"
-      ],
-      "who": "Ideal for Java developers, students, and IT professionals preparing for the 2026 OCP Java SE 21 Developer certification.",
-      "note": "Coupon may expire; confirm $0 price on Udemy before enrolling.",
-      "page": "p/practice-tests-for-ocp-java-se-21-developer-2026.html"
-    },
-    {
-      "title": "KCSA Practice Exam 2026: Cloud Native Security Associate",
-      "slug": "kcsa-practice-exam-2026-cloud-native-security-associate",
-      "udemy_url": "https://www.udemy.com/course/kcsa-practice-exam-2026-cloud-native-security-associate/?couponCode=ADE854D1C9DD39F0C9F8",
-      "image": "https://img-c.udemycdn.com/course/480x270/7292119_4f93.jpg",
-      "category": "IT & Software Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "KCSA Practice Exam 2026: Cloud Native Security Associate is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/kcsa-practice-exam-2026-cloud-native-security-associate.html"
-    },
-    {
-      "title": "ServiceNow CSA Practice Tests 2026",
-      "slug": "servicenow-csa-practice-tests-2026",
-      "udemy_url": "https://www.udemy.com/course/servicenow-csa-practice-tests-2026/?couponCode=894EADF25D50D163AC2F",
-      "image": "https://img-c.udemycdn.com/course/480x270/7292097_ec9a.jpg",
-      "category": "IT & Software Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "ServiceNow CSA Practice Tests 2026 is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/servicenow-csa-practice-tests-2026.html"
-    },
-    {
-      "title": "APICS CSCP Practice Tests: Supply Chain Professional Exam",
-      "slug": "apics-cscp-practice-tests-supply-chain-professional-exam",
-      "udemy_url": "https://www.udemy.com/course/apics-cscp-practice-tests-supply-chain-professional-exam/?couponCode=DC6E1F084AECB9EF3542",
-      "image": "https://img-c.udemycdn.com/course/480x270/7292077_abba.jpg",
-      "category": "Business Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "APICS CSCP Practice Tests: Supply Chain Professional Exam is listed with a free Udemy coupon in Business Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Business Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/apics-cscp-practice-tests-supply-chain-professional-exam.html"
-    },
-    {
-      "title": "CIPP/E Practice Test 2026: GDPR & EU Privacy Exam Prep",
-      "slug": "cippe-practice-test-2026-gdpr-eu-privacy-exam-prep",
-      "udemy_url": "https://www.udemy.com/course/cippe-practice-test-2026-gdpr-eu-privacy-exam-prep/?couponCode=35C74A6D6F5E73FB5CC9",
-      "image": "https://img-c.udemycdn.com/course/480x270/7292037_6af1.jpg",
-      "category": "IT & Software Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "CIPP/E Practice Test 2026: GDPR & EU Privacy Exam Prep is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/cippe-practice-test-2026-gdpr-eu-privacy-exam-prep.html"
-    },
-    {
-      "title": "BCBA Practice Test 2026: Exam Questions with Explanations",
-      "slug": "bcba-practice-test-2026-exam-questions-with-explanations",
-      "udemy_url": "https://www.udemy.com/course/bcba-practice-test-2026-exam-questions-with-explanations/?couponCode=F4887A57655437CFB640",
-      "image": "https://img-c.udemycdn.com/course/480x270/7291873_8a16.jpg",
-      "category": "Teaching & Academics Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Get ready for the BCBA 2026 exam with this comprehensive practice test featuring real exam questions and detailed explanations. Study at your own pace and boost your confidence—free with a Udemy coupon.",
-      "learn": [
-        "Master key BCBA concepts with 200+ practice questions",
-        "Understand the rationale behind each answer through in-depth explanations",
-        "Identify and address common pitfalls in exam scenarios",
-        "Track progress and pinpoint areas for improvement"
-      ],
-      "who": "Ideal for aspiring BCBA candidates preparing for the 2026 exam who want a structured, cost‑free study resource.",
-      "note": "Coupon may expire; confirm $0 on Udemy",
-      "page": "p/bcba-practice-test-2026-exam-questions-with-explanations.html"
-    },
-    {
-      "title": "Practice Tests For CELPIP Exam Prep 2026",
-      "slug": "practice-tests-for-celpip-exam-prep-2026",
-      "udemy_url": "https://www.udemy.com/course/practice-tests-for-celpip-exam-prep-2026/?couponCode=B9EE5950754D0D891C63",
-      "image": "https://img-c.udemycdn.com/course/480x270/7287421_9429.jpg",
-      "category": "Teaching & Academics Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Practice Tests For CELPIP Exam Prep 2026 is listed with a free Udemy coupon in Teaching & Academics Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Teaching & Academics Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/practice-tests-for-celpip-exam-prep-2026.html"
-    },
-    {
-      "title": "Practice Tests For Unity Certified Associate Exam Prep 2026",
-      "slug": "practice-tests-for-unity-certified-associate-exam-prep-2026",
-      "udemy_url": "https://www.udemy.com/course/practice-tests-for-unity-certified-associate-exam-prep-2026/?couponCode=333104DE6A735925405E",
-      "image": "https://img-c.udemycdn.com/course/480x270/7287391_a973.jpg",
+      "title": "Complete Python Course 2026: Beginner to Advanced",
+      "slug": "complete-python-course-2026-beginner-to-advanced",
+      "udemy_url": "https://www.udemy.com/course/complete-python-training/?couponCode=JOSHFREE56",
+      "image": "https://img-c.udemycdn.com/course/480x270/6375731_c6aa.jpg",
       "category": "Development Enroll Now Free",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Practice Tests For Unity Certified Associate Exam Prep 2026 is listed with a free Udemy coupon in Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "Complete Python Course 2026: Beginner to Advanced is listed with a free Udemy coupon in Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -461,498 +261,18 @@
       ],
       "who": "Learners interested in Development Enroll Now Free who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/practice-tests-for-unity-certified-associate-exam-prep-2026.html"
+      "page": "p/complete-python-course-2026-beginner-to-advanced.html"
     },
     {
-      "title": "Mastering The NIST Risk Management Framework Architecture",
-      "slug": "mastering-the-nist-risk-management-framework-architecture",
-      "udemy_url": "https://www.udemy.com/course/mastering-the-nist-risk-management-framework-architecture/?couponCode=DCD62D4FD086CB747D45",
-      "image": "https://img-c.udemycdn.com/course/480x270/7311069_c8b9.jpg",
-      "category": "IT & Software Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Mastering The NIST Risk Management Framework Architecture is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/mastering-the-nist-risk-management-framework-architecture.html"
-    },
-    {
-      "title": "CSTE Certification: Professional Software Testing Skills",
-      "slug": "cste-certification-professional-software-testing-skills",
-      "udemy_url": "https://www.udemy.com/course/cste-certification-professional-software-testing-skills/?couponCode=4354D678F54B99185D7C",
-      "image": "https://img-c.udemycdn.com/course/480x270/7306349_83bb.jpg",
-      "category": "Development Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "CSTE Certification: Professional Software Testing Skills is listed with a free Udemy coupon in Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Development Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/cste-certification-professional-software-testing-skills.html"
-    },
-    {
-      "title": "CyberArk PAM Certification: Vault, Sessions and Security",
-      "slug": "cyberark-pam-certification-vault-sessions-and-security",
-      "udemy_url": "https://www.udemy.com/course/cyberark-pam-certification-vault-sessions-and-security/?couponCode=CARK006EK90",
-      "image": "https://img-c.udemycdn.com/course/480x270/7299625_1927.jpg",
-      "category": "IT & Software Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Get certified in CyberArk PAM with this free Udemy course covering vault management, session recording, and security best practices. The curriculum is designed for IT professionals and security analysts looking to master privileged access management. Enroll now and start learning immediately with no cost.",
-      "learn": [
-        "Understand CyberArk Vault architecture and configuration",
-        "Manage privileged sessions and recordings",
-        "Implement security controls and compliance",
-        "Prepare for the CyberArk PAM certification exam"
-      ],
-      "who": "This course is ideal for IT security professionals, system administrators, and compliance officers seeking to validate their CyberArk PAM expertise.",
-      "note": "Coupon may expire; confirm $0 on Udemy before enrolling.",
-      "page": "p/cyberark-pam-certification-vault-sessions-and-security.html"
-    },
-    {
-      "title": "Organizational Change Leadership Masterclass",
-      "slug": "organizational-change-leadership-masterclass",
-      "udemy_url": "https://www.udemy.com/course/organizational-change-leadership-masterclass/",
-      "image": "https://img-c.udemycdn.com/course/480x270/7195501_788d.jpg",
-      "category": "Business Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Organizational Change Leadership Masterclass is listed with a free Udemy coupon in Business Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Business Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/organizational-change-leadership-masterclass.html"
-    },
-    {
-      "title": "Python Web Developer Masterclass - Build 6 Website",
-      "slug": "python-web-developer-masterclass---build-6-website",
-      "udemy_url": "https://www.udemy.com/course/python-web-developer-masterclass-build-6-website/?couponCode=9A0666F95094B666C914",
-      "image": "https://img-c.udemycdn.com/course/480x270/6285393_3aad.jpg",
-      "category": "Development Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Python Web Developer Masterclass - Build 6 Website is listed with a free Udemy coupon in Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Development Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/python-web-developer-masterclass---build-6-website.html"
-    },
-    {
-      "title": "Canva Masterclass: Social Media, T-Shirt, Video Edit, Motion",
-      "slug": "canva-masterclass-social-media-t-shirt-video-edit-motion",
-      "udemy_url": "https://www.udemy.com/course/canva-masterclass-social-media-t-shirt-video-edit-motion/?couponCode=05D3FD5CA03A04022DFA",
-      "image": "https://img-c.udemycdn.com/course/480x270/6000606_3b08_3.jpg",
-      "category": "Design Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Canva Masterclass: Social Media, T-Shirt, Video Edit, Motion is listed with a free Udemy coupon in Design Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Design Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/canva-masterclass-social-media-t-shirt-video-edit-motion.html"
-    },
-    {
-      "title": "Microsoft Word Essential Training: Master the Basics to Pro",
-      "slug": "microsoft-word-essential-training-master-the-basics-to-pro",
-      "udemy_url": "https://www.udemy.com/course/microsoft-word-essential-training-master-the-basics-to-pro/?couponCode=B7B421E888AAA48125E8",
-      "image": "https://img-c.udemycdn.com/course/480x270/5987426_3f95_3.jpg",
-      "category": "Office Productivity Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Microsoft Word Essential Training: Master the Basics to Pro is listed with a free Udemy coupon in Office Productivity Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Office Productivity Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/microsoft-word-essential-training-master-the-basics-to-pro.html"
-    },
-    {
-      "title": "Certified Anomaly Detection & Outlier Analytics",
-      "slug": "certified-anomaly-detection-outlier-analytics",
-      "udemy_url": "https://www.udemy.com/course/certified-anomaly-detection-outlier-analytics/?couponCode=30385700E6D3500A4419",
-      "image": "https://img-c.udemycdn.com/course/480x270/6909287_2d27_2.jpg",
-      "category": "IT & Software Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Discover the fundamentals of anomaly detection and outlier analytics in this free Udemy course. Learn how to identify unusual patterns, apply statistical techniques, and use machine learning models to spot anomalies in real-world data. Gain practical skills that can be applied across IT, finance, and cybersecurity.",
-      "learn": [
-        "Understand core concepts of anomalies and outliers",
-        "Apply statistical methods like z-scores, IQR, and clustering for detection",
-        "Implement machine learning models (Isolation Forest, One-Class SVM) for anomaly detection",
-        "Analyze real datasets and build end-to-end detection pipelines"
-      ],
-      "who": "Ideal for data scientists, analysts, and IT professionals looking to enhance their data quality and security skill set.",
-      "note": "Coupon may expire; confirm $0 price on Udemy before enrolling.",
-      "page": "p/certified-anomaly-detection-outlier-analytics.html"
-    },
-    {
-      "title": "Certified Statistical Modelling & Inference",
-      "slug": "certified-statistical-modelling-inference",
-      "udemy_url": "https://www.udemy.com/course/certified-statistical-modelling-inference/?couponCode=D298C3F022DEE5D8D164",
-      "image": "https://img-c.udemycdn.com/course/480x270/6908767_4ab2_2.jpg",
-      "category": "IT & Software Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Certified Statistical Modelling & Inference is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/certified-statistical-modelling-inference.html"
-    },
-    {
-      "title": "Certified Data Wrangling & Cleaning",
-      "slug": "certified-data-wrangling-cleaning",
-      "udemy_url": "https://www.udemy.com/course/certified-data-wrangling-cleaning/?couponCode=45D27692F7E9831C2974",
-      "image": "https://img-c.udemycdn.com/course/480x270/6907443_02fc_2.jpg",
-      "category": "IT & Software Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Certified Data Wrangling & Cleaning is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/certified-data-wrangling-cleaning.html"
-    },
-    {
-      "title": "Certified Unsupervised Learning & Clustering",
-      "slug": "certified-unsupervised-learning-clustering",
-      "udemy_url": "https://www.udemy.com/course/certified-unsupervised-learning-clustering/?couponCode=11FA18975D097359D492",
-      "image": "https://img-c.udemycdn.com/course/480x270/6870335_3233_2.jpg",
-      "category": "IT & Software Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Certified Unsupervised Learning & Clustering is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/certified-unsupervised-learning-clustering.html"
-    },
-    {
-      "title": "Master Python & ML: Stats, Analysis & Data Visualization",
-      "slug": "master-python-ml-stats-analysis-data-visualization",
-      "udemy_url": "https://www.udemy.com/course/master-python-ml-stats-analysis-data-visualization/?couponCode=1BA60F0DE798F323D42E",
-      "image": "https://img-c.udemycdn.com/course/480x270/6850545_3cd7_2.jpg",
-      "category": "IT & Software Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Master Python & ML: Stats, Analysis & Data Visualization is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/master-python-ml-stats-analysis-data-visualization.html"
-    },
-    {
-      "title": "Manifester son succès par la croyance et l'action",
-      "slug": "manifester-son-succs-par-la-croyance-et-laction",
-      "udemy_url": "https://www.udemy.com/course/manifester-son-succes/?couponCode=F94B560DE94C45490127",
-      "image": "https://img-c.udemycdn.com/course/480x270/7242867_f1b8.jpg",
-      "category": "Personal Development Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Ce cours vous guide pour manifester votre succès en combinant croyance et action. Vous découvrirez des techniques concrètes pour transformer vos intentions en résultats tangibles, tout en cultivant une mentalité positive et proactive.",
-      "learn": [
-        "Comprendre les principes fondamentaux de la loi de l'attraction et de la manifestation",
-        "Apprendre à aligner vos pensées, émotions et actions pour créer votre réalité",
-        "Mettre en place un plan d'action quotidien pour renforcer votre confiance et votre persévérance",
-        "Utiliser des exercices pratiques pour visualiser et concrétiser vos objectifs"
-      ],
-      "who": "Ce cours s'adresse aux personnes qui souhaitent transformer leurs rêves en réalité en combinant la puissance de la croyance et l'action déterminée.",
-      "note": "Le coupon peut expirer; confirmez qu'il est gratuit sur Udemy.",
-      "page": "p/manifester-son-succs-par-la-croyance-et-laction.html"
-    },
-    {
-      "title": "Méthode Retraite Ermite : travailler en profondeur et avance",
-      "slug": "mthode-retraite-ermite-travailler-en-profondeur-et-avance",
-      "udemy_url": "https://www.udemy.com/course/retraite-ermite-travailler-en-profondeur/?couponCode=FD650780CEC77C4AB565",
-      "image": "https://img-c.udemycdn.com/course/480x270/7233541_cd6d_3.jpg",
-      "category": "Personal Development Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Méthode Retraite Ermite : travailler en profondeur et avance is listed with a free Udemy coupon in Personal Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Personal Development Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/mthode-retraite-ermite-travailler-en-profondeur-et-avance.html"
-    },
-    {
-      "title": "Construis ta vie idéale en 30 minutes/jour, étape par étape",
-      "slug": "construis-ta-vie-idale-en-30-minutesjour-tape-par-tape",
-      "udemy_url": "https://www.udemy.com/course/construis-ta-vie/?couponCode=RD26-9YFHVQG7Q2",
-      "image": "https://img-c.udemycdn.com/course/480x270/7179908_0827_5.jpg",
-      "category": "Personal Development Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Construis ta vie idéale en 30 minutes/jour, étape par étape is listed with a free Udemy coupon in Personal Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Personal Development Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/construis-ta-vie-idale-en-30-minutesjour-tape-par-tape.html"
-    },
-    {
-      "title": "Transforme ta vie en suivant tes humeurs",
-      "slug": "transforme-ta-vie-en-suivant-tes-humeurs",
-      "udemy_url": "https://www.udemy.com/course/vie-sensationnelle/?couponCode=RD26-PWDU8F6DG6",
-      "image": "https://img-c.udemycdn.com/course/480x270/7075243_ecb6_5.jpg",
-      "category": "Personal Development Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Transforme ta vie en suivant tes humeurs is listed with a free Udemy coupon in Personal Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Personal Development Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/transforme-ta-vie-en-suivant-tes-humeurs.html"
-    },
-    {
-      "title": "Motivation et Équilibre Émotionnel. Crée ta Journée Parfaite",
-      "slug": "motivation-et-quilibre-motionnel-cre-ta-journe-parfaite",
-      "udemy_url": "https://www.udemy.com/course/equilibre-emotionnel/?couponCode=RD26-EVZCZ7FEMF",
-      "image": "https://img-c.udemycdn.com/course/480x270/6873669_dd29_3.jpg",
-      "category": "Personal Development Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Motivation et Équilibre Émotionnel. Crée ta Journée Parfaite is listed with a free Udemy coupon in Personal Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Personal Development Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/motivation-et-quilibre-motionnel-cre-ta-journe-parfaite.html"
-    },
-    {
-      "title": "Liberté et Efficacité : vivre du minimalisme en voyageant",
-      "slug": "libert-et-efficacit-vivre-du-minimalisme-en-voyageant",
-      "udemy_url": "https://www.udemy.com/course/voyage-du-minimalisme/?couponCode=RD26-Y2WKAFZEBU",
-      "image": "https://img-c.udemycdn.com/course/480x270/6860025_1f3c_4.jpg",
-      "category": "Lifestyle Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Discover how to travel light and live efficiently with minimalism. This free course shows practical steps to pack less, save money, and enjoy more freedom on the road. Join now and start turning minimalism into a lifestyle that fuels adventure.",
-      "learn": [
-        "Master the art of packing minimal essentials for any trip.",
-        "Learn budgeting tricks that let you travel on a shoestring.",
-        "Understand how to declutter your life to reduce stress.",
-        "Create a sustainable travel routine that balances freedom and responsibility."
-      ],
-      "who": "Ideal for wanderers, budget travelers, or anyone looking to simplify life while exploring the world.",
-      "note": "Coupon may expire; confirm $0 on Udemy.",
-      "page": "p/libert-et-efficacit-vivre-du-minimalisme-en-voyageant.html"
-    },
-    {
-      "title": "Mental de Champion transformer tes problèmes en opportunités",
-      "slug": "mental-de-champion-transformer-tes-problmes-en-opportunits",
-      "udemy_url": "https://www.udemy.com/course/mental-de-champion/?couponCode=46A89F6F816C70F51A36",
-      "image": "https://img-c.udemycdn.com/course/480x270/6840037_3e21_2.jpg",
-      "category": "Personal Development Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Mental de Champion transformer tes problèmes en opportunités is listed with a free Udemy coupon in Personal Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Personal Development Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/mental-de-champion-transformer-tes-problmes-en-opportunits.html"
-    },
-    {
-      "title": "Comment Avoir Une Belle Vie",
-      "slug": "comment-avoir-une-belle-vie",
-      "udemy_url": "https://www.udemy.com/course/comment-avoir-une-belle-vie/?couponCode=A52D31CD10A960809206",
-      "image": "https://img-c.udemycdn.com/course/480x270/6753061_5882.jpg",
-      "category": "Personal Development Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Comment Avoir Une Belle Vie is listed with a free Udemy coupon in Personal Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Personal Development Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/comment-avoir-une-belle-vie.html"
-    },
-    {
-      "title": "Transforme ton Intérieur en Environnement de Réussite",
-      "slug": "transforme-ton-intrieur-en-environnement-de-russite",
-      "udemy_url": "https://www.udemy.com/course/environnement-interieur-succes-et-reussite/?couponCode=37C78505A446FFBFB151",
-      "image": "https://img-c.udemycdn.com/course/480x270/6750979_af53_5.jpg",
-      "category": "Personal Development Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Transforme ton Intérieur en Environnement de Réussite is listed with a free Udemy coupon in Personal Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Personal Development Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/transforme-ton-intrieur-en-environnement-de-russite.html"
-    },
-    {
-      "title": "Reprendre le Contrôle du Temps Par L'Immersion Totale",
-      "slug": "reprendre-le-contrle-du-temps-par-limmersion-totale",
-      "udemy_url": "https://www.udemy.com/course/immersion/?couponCode=D50F8C0EBC57290AAB2B",
-      "image": "https://img-c.udemycdn.com/course/480x270/6719285_f66a_5.jpg",
-      "category": "Personal Development Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Reprendre le Contrôle du Temps Par L'Immersion Totale is listed with a free Udemy coupon in Personal Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Personal Development Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/reprendre-le-contrle-du-temps-par-limmersion-totale.html"
-    },
-    {
-      "title": "Superhumain – Investir en soi en apprenant en continu",
-      "slug": "superhumain-investir-en-soi-en-apprenant-en-continu",
-      "udemy_url": "https://www.udemy.com/course/devenir-un-superhumain/?couponCode=RD26-R7KKDNJTH4",
-      "image": "https://img-c.udemycdn.com/course/480x270/6712869_0b21_3.jpg",
-      "category": "Personal Development Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Superhumain – Investir en soi en apprenant en continu est un cours gratuit de développement personnel qui vous guide vers une meilleure version de vous-même grâce à l’apprentissage continu. Vous découvrirez des stratégies simples pour intégrer l’apprentissage dans votre quotidien et booster votre confiance en vous. Rejoignez dès maintenant cette expérience transformative, sans frais ni engagement.",
-      "learn": [
-        "Maîtriser les principes clés de l’apprentissage continu pour rester compétitif",
-        "Appliquer des techniques pratiques pour intégrer l’apprentissage dans votre routine quotidienne",
-        "Développer une mentalité de croissance et surmonter les blocages mentaux",
-        "Élaborer un plan d’action personnalisé pour atteindre vos objectifs personnels et professionnels"
-      ],
-      "who": "Ce cours s’adresse aux personnes souhaitant investir en elles-mêmes, qu’elles soient débutantes ou déjà expérimentées, et désireuses d’adopter une approche proactive de leur développement personnel.",
-      "note": "Le coupon peut expirer; vérifiez que le cours est bien à 0 $ sur Udemy avant de vous inscrire.",
-      "page": "p/superhumain-investir-en-soi-en-apprenant-en-continu.html"
-    },
-    {
-      "title": "Start Your One-Person Freelance Agency",
-      "slug": "start-your-one-person-freelance-agency",
-      "udemy_url": "https://www.udemy.com/course/start-your-freelancing-agency/?couponCode=RD26-TYQ2SG22KL",
-      "image": "https://img-c.udemycdn.com/course/480x270/6269857_b5bf_4.jpg",
-      "category": "Lifestyle Enroll Now Free",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Start Your One-Person Freelance Agency is listed with a free Udemy coupon in Lifestyle Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Lifestyle Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/start-your-one-person-freelance-agency.html"
-    },
-    {
-      "title": "BUILD IN PUBLIC Your Learning like a Film & Grow an Audience",
-      "slug": "build-in-public-your-learning-like-a-film-grow-an-audience",
-      "udemy_url": "https://www.udemy.com/course/how-to-build-in-public/?couponCode=RD26-GNE3T7NTGR",
-      "image": "https://img-c.udemycdn.com/course/480x270/6098499_0cff_4.jpg",
+      "title": "Ultimate YouTube Blueprint: Proven Tactics Channel Success",
+      "slug": "ultimate-youtube-blueprint-proven-tactics-channel-success",
+      "udemy_url": "https://www.udemy.com/course/ultimate-youtube-blueprint-proven-tactics-channel-success/?couponCode=6184946A2F90B14D1347",
+      "image": "https://img-c.udemycdn.com/course/480x270/5931688_08e1.jpg",
       "category": "Marketing Enroll Now Free",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "BUILD IN PUBLIC Your Learning like a Film & Grow an Audience is listed with a free Udemy coupon in Marketing Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "Ultimate YouTube Blueprint: Proven Tactics Channel Success is listed with a free Udemy coupon in Marketing Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -961,18 +281,98 @@
       ],
       "who": "Learners interested in Marketing Enroll Now Free who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/build-in-public-your-learning-like-a-film-grow-an-audience.html"
+      "page": "p/ultimate-youtube-blueprint-proven-tactics-channel-success.html"
     },
     {
-      "title": "Build Complete CMS Blog in PHP MySQL Bootstrap & PDO",
-      "slug": "build-complete-cms-blog-in-php-mysql-bootstrap-pdo",
-      "udemy_url": "https://www.udemy.com/course/build-complete-2022-cms-blog-in-php-mysql-bootstrap-pdo/?couponCode=PHPBLOG84",
-      "image": "https://img-c.udemycdn.com/course/480x270/4873758_1514_3.jpg",
+      "title": "Adobe Illustrator Essentials: Design Like a Pro in Days",
+      "slug": "adobe-illustrator-essentials-design-like-a-pro-in-days",
+      "udemy_url": "https://www.udemy.com/course/adobe-illustrator-essentials-design-like-a-pro-in-days/?couponCode=0540CF6628E3C8173101",
+      "image": "https://img-c.udemycdn.com/course/480x270/5928512_3d47.jpg",
+      "category": "Design Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Adobe Illustrator Essentials: Design Like a Pro in Days is listed with a free Udemy coupon in Design Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Design Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/adobe-illustrator-essentials-design-like-a-pro-in-days.html"
+    },
+    {
+      "title": "React.js Complete Guide: Build Interactive Web Applications",
+      "slug": "reactjs-complete-guide-build-interactive-web-applications",
+      "udemy_url": "https://www.udemy.com/course/reactjs-complete-guide-build-interactive-web-applications/?couponCode=AD24D259966C45E6A0AB",
+      "image": "https://img-c.udemycdn.com/course/480x270/6849329_133a.jpg",
       "category": "Development Enroll Now Free",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Build Complete CMS Blog in PHP MySQL Bootstrap & PDO is listed with a free Udemy coupon in Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "Learn how to build modern web apps with React.js from scratch. This free course covers fundamentals, component architecture, state management, and hooks, plus real-world projects to solidify your skills.",
+      "learn": [
+        "Understand React fundamentals and JSX syntax",
+        "Build reusable components and manage state with hooks",
+        "Integrate APIs and handle asynchronous data",
+        "Deploy React applications to production"
+      ],
+      "who": "Ideal for developers looking to transition into front-end development or expand their JavaScript toolkit.",
+      "note": "Coupon may expire; confirm $0 price on Udemy before enrolling.",
+      "page": "p/reactjs-complete-guide-build-interactive-web-applications.html"
+    },
+    {
+      "title": "Mastering Excel Data Visualization with Design Chart & Graph",
+      "slug": "mastering-excel-data-visualization-with-design-chart-graph",
+      "udemy_url": "https://www.udemy.com/course/mastering-excel-data-visualization-with-design-chart-graph/?couponCode=BC66A27AE1151917B999",
+      "image": "https://img-c.udemycdn.com/course/480x270/6848623_b14d.jpg",
+      "category": "Office Productivity Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Mastering Excel Data Visualization with Design Chart & Graph is listed with a free Udemy coupon in Office Productivity Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Office Productivity Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/mastering-excel-data-visualization-with-design-chart-graph.html"
+    },
+    {
+      "title": "The Complete Microsoft Excel Course: Beginner to Advanced",
+      "slug": "the-complete-microsoft-excel-course-beginner-to-advanced",
+      "udemy_url": "https://www.udemy.com/course/the-complete-microsoft-excel-course-beginner-to-advanced/?couponCode=67EBBEFE1FF3D0080A90",
+      "image": "https://img-c.udemycdn.com/course/480x270/6848609_db52.jpg",
+      "category": "Office Productivity Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "The Complete Microsoft Excel Course: Beginner to Advanced is listed with a free Udemy coupon in Office Productivity Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Office Productivity Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/the-complete-microsoft-excel-course-beginner-to-advanced.html"
+    },
+    {
+      "title": "PHP with MySQL: Build a Complete Job Portal",
+      "slug": "php-with-mysql-build-a-complete-job-portal",
+      "udemy_url": "https://www.udemy.com/course/php-with-mysql-2022-build-a-complete-job-portal/?couponCode=PHPJOBPORTAL93",
+      "image": "https://img-c.udemycdn.com/course/480x270/4924658_22e0_2.jpg",
+      "category": "Development Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "PHP with MySQL: Build a Complete Job Portal is listed with a free Udemy coupon in Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -981,18 +381,18 @@
       ],
       "who": "Learners interested in Development Enroll Now Free who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/build-complete-cms-blog-in-php-mysql-bootstrap-pdo.html"
+      "page": "p/php-with-mysql-build-a-complete-job-portal.html"
     },
     {
-      "title": "Build a Backend REST API with Node JS from Scratch",
-      "slug": "build-a-backend-rest-api-with-node-js-from-scratch",
-      "udemy_url": "https://www.udemy.com/course/build-backend-api-node-js-and-react-frontend/?couponCode=RD26-W6JNGA4R5X",
-      "image": "https://img-c.udemycdn.com/course/480x270/4774978_448e.jpg",
+      "title": "Master Full Stack Web Development With Games and Application",
+      "slug": "master-full-stack-web-development-with-games-and-application",
+      "udemy_url": "https://www.udemy.com/course/master-full-stack-web-development-with-games-and-application/?couponCode=384CC5E2221608720317",
+      "image": "https://img-c.udemycdn.com/course/480x270/6616915_f73a_2.jpg",
       "category": "Development Enroll Now Free",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Build a Backend REST API with Node JS from Scratch is listed with a free Udemy coupon in Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "Master Full Stack Web Development With Games and Application is listed with a free Udemy coupon in Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
       "learn": [
         "Core ideas covered in the course",
         "Practical examples you can apply",
@@ -1001,7 +401,607 @@
       ],
       "who": "Learners interested in Development Enroll Now Free who want a free coupon seat while it lasts.",
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/build-a-backend-rest-api-with-node-js-from-scratch.html"
+      "page": "p/master-full-stack-web-development-with-games-and-application.html"
+    },
+    {
+      "title": "Master Data Analysis with Python - From Beginner to Pro",
+      "slug": "master-data-analysis-with-python---from-beginner-to-pro",
+      "udemy_url": "https://www.udemy.com/course/master-data-analysis-with-python-from-beginner-to-pro/?couponCode=79CB46D2BA5D3F839512",
+      "image": "https://img-c.udemycdn.com/course/480x270/6612389_c088.jpg",
+      "category": "Development Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Master Data Analysis with Python takes you from absolute beginner to proficient data analyst in just a few weeks. The course covers essential libraries, data cleaning, visualization, and machine learning basics—all through hands‑on projects and real‑world datasets.",
+      "learn": [
+        "Build a solid foundation in Python programming and data structures",
+        "Master pandas, NumPy, and Matplotlib for efficient data manipulation and visualization",
+        "Apply statistical analysis and machine learning techniques with scikit‑learn",
+        "Create end‑to‑end data pipelines and dashboards to present insights to stakeholders"
+      ],
+      "who": "Ideal for students, junior analysts, and professionals who want to boost their data skills without a steep learning curve.",
+      "note": "Coupon may expire; confirm $0 on Udemy before enrolling.",
+      "page": "p/master-data-analysis-with-python---from-beginner-to-pro.html"
+    },
+    {
+      "title": "Advanced MS Word Excel PowerPoint Course for Job Success",
+      "slug": "advanced-ms-word-excel-powerpoint-course-for-job-success",
+      "udemy_url": "https://www.udemy.com/course/advanced-ms-word-excel-powerpoint-course-for-job-success/?couponCode=485B962978483B2E56B1",
+      "image": "https://img-c.udemycdn.com/course/480x270/5266096_3048_3.jpg",
+      "category": "Office Productivity Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Advanced MS Word Excel PowerPoint Course for Job Success is listed with a free Udemy coupon in Office Productivity Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Office Productivity Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/advanced-ms-word-excel-powerpoint-course-for-job-success.html"
+    },
+    {
+      "title": "Practice Test for ISO/IEC 42001 AI Management System Exam",
+      "slug": "practice-test-for-isoiec-42001-ai-management-system-exam",
+      "udemy_url": "https://www.udemy.com/course/practice-test-for-isoiec-42001-ai-management-system-exam/?couponCode=454F1333D84C3788C944",
+      "image": "https://img-c.udemycdn.com/course/480x270/7327291_0dcc.jpg",
+      "category": "IT & Software Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Practice Test for ISO/IEC 42001 AI Management System Exam is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/practice-test-for-isoiec-42001-ai-management-system-exam.html"
+    },
+    {
+      "title": "CIDPRO Exam Prep 2026: Practice Tests",
+      "slug": "cidpro-exam-prep-2026-practice-tests",
+      "udemy_url": "https://www.udemy.com/course/cidpro-exam-prep-2026-practice-tests/?couponCode=CB6594463F738B8CFBC7",
+      "image": "https://img-c.udemycdn.com/course/480x270/7202067_336f.jpg",
+      "category": "IT & Software Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "CIDPRO Exam Prep 2026: Practice Tests is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/cidpro-exam-prep-2026-practice-tests.html"
+    },
+    {
+      "title": "PMI-SP Exam Prep 2026: Practice Tests",
+      "slug": "pmi-sp-exam-prep-2026-practice-tests",
+      "udemy_url": "https://www.udemy.com/course/pmi-sp-exam-prep-2026-practice-tests/?couponCode=34E33BCADC33A04C31F8",
+      "image": "https://img-c.udemycdn.com/course/480x270/7201825_d092.jpg",
+      "category": "Business Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "PMI-SP Exam Prep 2026: Practice Tests is listed with a free Udemy coupon in Business Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Business Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/pmi-sp-exam-prep-2026-practice-tests.html"
+    },
+    {
+      "title": "Practice Test For AIGP: AI Governance Professional Exam Prep",
+      "slug": "practice-test-for-aigp-ai-governance-professional-exam-prep",
+      "udemy_url": "https://www.udemy.com/course/practice-test-for-aigp-ai-governance-professional-exam-prep/?couponCode=F0EAD93FC51E816748D8",
+      "image": "https://img-c.udemycdn.com/course/480x270/7328905_ac65.jpg",
+      "category": "IT & Software Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Get ready for the AIGP certification with our comprehensive practice test. This free course covers all exam domains, helping you gauge readiness and identify gaps. Boost confidence and improve your score with targeted practice.",
+      "learn": [
+        "Master the four core domains of AI governance: strategy, risk, compliance, and operations.",
+        "Identify common exam questions and learn the best answer strategies.",
+        "Simulate real exam conditions with timed practice tests.",
+        "Track progress and receive instant feedback on performance."
+      ],
+      "who": "Ideal for IT professionals, data scientists, and compliance officers preparing for the AIGP certification.",
+      "note": "Coupon may expire; confirm $0 price on Udemy before enrolling.",
+      "page": "p/practice-test-for-aigp-ai-governance-professional-exam-prep.html"
+    },
+    {
+      "title": "Practice Test For AMB-BC Ambulatory Care Nursing 2026",
+      "slug": "practice-test-for-amb-bc-ambulatory-care-nursing-2026",
+      "udemy_url": "https://www.udemy.com/course/practice-test-for-amb-bc-ambulatory-care-nursing-2026/?couponCode=DD2D458C1F29E29D761A",
+      "image": "https://img-c.udemycdn.com/course/480x270/7328865_d282.jpg",
+      "category": "Teaching & Academics Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Practice Test For AMB-BC Ambulatory Care Nursing 2026 is listed with a free Udemy coupon in Teaching & Academics Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Teaching & Academics Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/practice-test-for-amb-bc-ambulatory-care-nursing-2026.html"
+    },
+    {
+      "title": "CompTIA PenTest+ Practice Test: Prepare for the PT0-002 Exam",
+      "slug": "comptia-pentest-practice-test-prepare-for-the-pt0-002-exam",
+      "udemy_url": "https://www.udemy.com/course/comptia-pentest-practice-test-prepare-for-the-pt0-002-exam/?couponCode=768F6140C73F9BB0478A",
+      "image": "https://img-c.udemycdn.com/course/480x270/7328757_0c63.jpg",
+      "category": "IT & Software Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "CompTIA PenTest+ Practice Test: Prepare for the PT0-002 Exam is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/comptia-pentest-practice-test-prepare-for-the-pt0-002-exam.html"
+    },
+    {
+      "title": "Practice Exams 2026 For TOGAF 10 Enterprise Architecture",
+      "slug": "practice-exams-2026-for-togaf-10-enterprise-architecture",
+      "udemy_url": "https://www.udemy.com/course/togaf-10-enterprise-architecture-practice-exams-2026/?couponCode=E4EE31310F042FE1E94E",
+      "image": "https://img-c.udemycdn.com/course/480x270/7201791_3151.jpg",
+      "category": "IT & Software Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Practice Exams 2026 For TOGAF 10 Enterprise Architecture is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/practice-exams-2026-for-togaf-10-enterprise-architecture.html"
+    },
+    {
+      "title": "FAA Part 107 Drone Pilot Practice Test 2026",
+      "slug": "faa-part-107-drone-pilot-practice-test-2026",
+      "udemy_url": "https://www.udemy.com/course/faa-part-107-drone-pilot-practice-test-2026/?couponCode=1A9EBE574AEFDC71D30C",
+      "image": "https://img-c.udemycdn.com/course/480x270/7199863_3721.jpg",
+      "category": "Teaching & Academics Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "FAA Part 107 Drone Pilot Practice Test 2026 is listed with a free Udemy coupon in Teaching & Academics Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Teaching & Academics Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/faa-part-107-drone-pilot-practice-test-2026.html"
+    },
+    {
+      "title": "AHIMA CHDA Certification Practice Tests 2026",
+      "slug": "ahima-chda-certification-practice-tests-2026",
+      "udemy_url": "https://www.udemy.com/course/ahima-chda-certification-practice-tests-2026-c/?couponCode=2D5637BA958F2B188B20",
+      "image": "https://img-c.udemycdn.com/course/480x270/7198869_7ef3.jpg",
+      "category": "IT & Software Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Get ready for your AHIMA CHDA certification with our 2026 practice tests. This free Udemy coupon gives you unlimited access to comprehensive quizzes covering all exam domains. Practice anytime, anywhere, and boost your confidence before the real test.",
+      "learn": [
+        "In-depth practice questions aligned with the 2026 exam syllabus",
+        "Detailed explanations and rationales for every answer",
+        "Time‑boxed mock exams to simulate real test conditions",
+        "Progress tracking and performance analytics to identify weak areas"
+      ],
+      "who": "Ideal for healthcare data analysts, medical coders, and IT professionals preparing for the AHIMA CHDA exam.",
+      "note": "Coupon may expire; confirm $0 price on Udemy before enrolling.",
+      "page": "p/ahima-chda-certification-practice-tests-2026.html"
+    },
+    {
+      "title": "Essential Adobe Lightroom Course for Photo Editing",
+      "slug": "essential-adobe-lightroom-course-for-photo-editing",
+      "udemy_url": "https://www.udemy.com/course/essential-adobe-lightroom-course-for-photo-editing/?couponCode=6961249E68B592FD5DCF",
+      "image": "https://img-c.udemycdn.com/course/480x270/5346426_982e_2.jpg",
+      "category": "Design Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Essential Adobe Lightroom Course for Photo Editing is listed with a free Udemy coupon in Design Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Design Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/essential-adobe-lightroom-course-for-photo-editing.html"
+    },
+    {
+      "title": "Advance MS Excel VBA for Beginner to Advanced",
+      "slug": "advance-ms-excel-vba-for-beginner-to-advanced",
+      "udemy_url": "https://www.udemy.com/course/advance-ms-excel-vba-for-beginner-to-advanced/?couponCode=26E9346120E3B9EAAE54",
+      "image": "https://img-c.udemycdn.com/course/480x270/5313330_d78b_2.jpg",
+      "category": "Office Productivity Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Advance MS Excel VBA for Beginner to Advanced is listed with a free Udemy coupon in Office Productivity Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Office Productivity Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/advance-ms-excel-vba-for-beginner-to-advanced.html"
+    },
+    {
+      "title": "WordPress Website Practice Test – Build & Test Your Skills",
+      "slug": "wordpress-website-practice-test-build-test-your-skills",
+      "udemy_url": "https://www.udemy.com/course/wordpress-website-practice-test-build-test-your-skills/?couponCode=F81DB238FEE21B87B6CA",
+      "image": "https://img-c.udemycdn.com/course/480x270/6752753_c578.jpg",
+      "category": "IT & Software Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "WordPress Website Practice Test – Build & Test Your Skills is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/wordpress-website-practice-test-build-test-your-skills.html"
+    },
+    {
+      "title": "Google Slides: Full Guide to Creating Impactful Presentation",
+      "slug": "google-slides-full-guide-to-creating-impactful-presentation",
+      "udemy_url": "https://www.udemy.com/course/google-slides-full-guide-to-creating-impactful-presentation/?couponCode=522BCE7D68A26E907085",
+      "image": "https://img-c.udemycdn.com/course/480x270/6126889_f56f_3.jpg",
+      "category": "Office Productivity Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Google Slides: Full Guide to Creating Impactful Presentation is listed with a free Udemy coupon in Office Productivity Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Office Productivity Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/google-slides-full-guide-to-creating-impactful-presentation.html"
+    },
+    {
+      "title": "Canva for Social Media: Zero to Hero Graphic Design in Canva",
+      "slug": "canva-for-social-media-zero-to-hero-graphic-design-in-canva",
+      "udemy_url": "https://www.udemy.com/course/canva-for-social-media-zero-to-hero-graphic-design-in-canva/?couponCode=E2764E0716E33CB20EF1",
+      "image": "https://img-c.udemycdn.com/course/480x270/6092263_509c_2.jpg",
+      "category": "Design Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Learn how to create eye‑catching social media graphics with Canva, from beginner to pro, in just a few hours. This free course covers templates, branding, and design best practices to boost your online presence.",
+      "learn": [
+        "Master Canva's interface and essential tools",
+        "Create stunning social media posts, stories, and ads",
+        "Apply branding techniques for consistent visuals",
+        "Export and schedule content for maximum reach"
+      ],
+      "who": "Ideal for marketers, small business owners, and anyone looking to elevate their social media presence without expensive design software.",
+      "note": "Coupon may expire soon—check the Udemy page to confirm the $0 price before enrolling.",
+      "page": "p/canva-for-social-media-zero-to-hero-graphic-design-in-canva.html"
+    },
+    {
+      "title": "Microsoft Excel : Mastering Data Analysis with Pivot Table",
+      "slug": "microsoft-excel-mastering-data-analysis-with-pivot-table",
+      "udemy_url": "https://www.udemy.com/course/microsoft-excel-mastering-data-analysis-with-pivot-table/?couponCode=D807803EF9B90D0B4F7A",
+      "image": "https://img-c.udemycdn.com/course/480x270/6014988_095c_3.jpg",
+      "category": "Office Productivity Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Microsoft Excel : Mastering Data Analysis with Pivot Table is listed with a free Udemy coupon in Office Productivity Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Office Productivity Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/microsoft-excel-mastering-data-analysis-with-pivot-table.html"
+    },
+    {
+      "title": "Word - Microsoft Word from Basic to Advanced",
+      "slug": "word---microsoft-word-from-basic-to-advanced",
+      "udemy_url": "https://www.udemy.com/course/word-microsoft-word-from-basic-to-advanced/?couponCode=537985C61F7A2532FE26",
+      "image": "https://img-c.udemycdn.com/course/480x270/5983044_dd3a_2.jpg",
+      "category": "Office Productivity Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Word - Microsoft Word from Basic to Advanced is listed with a free Udemy coupon in Office Productivity Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Office Productivity Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/word---microsoft-word-from-basic-to-advanced.html"
+    },
+    {
+      "title": "SnowPro Core Certification (COF-C03) — 1500 Exam Questions",
+      "slug": "snowpro-core-certification-cof-c03-1500-exam-questions",
+      "udemy_url": "https://www.udemy.com/course/snowpro-core-cof-c03-1500-certified-exam-questions/?couponCode=B8366D7C73E45A9365EE",
+      "image": "https://img-c.udemycdn.com/course/480x270/7202711_d61c_5.jpg",
+      "category": "IT & Software Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "SnowPro Core Certification (COF-C03) — 1500 Exam Questions is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/snowpro-core-certification-cof-c03-1500-exam-questions.html"
+    },
+    {
+      "title": "Databricks Spark Developer Associate — 1500 Exam Questions",
+      "slug": "databricks-spark-developer-associate-1500-exam-questions",
+      "udemy_url": "https://www.udemy.com/course/databricks-spark-developer-associate-1500-exam-questions/?couponCode=3AAC9D53B3009C94751C",
+      "image": "https://img-c.udemycdn.com/course/480x270/7192951_18d1_2.jpg",
+      "category": "IT & Software Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Databricks Spark Developer Associate — 1500 Exam Questions is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/databricks-spark-developer-associate-1500-exam-questions.html"
+    },
+    {
+      "title": "MD-102 Microsoft Modern Desktop — 1500 Exam Questions",
+      "slug": "md-102-microsoft-modern-desktop-1500-exam-questions",
+      "udemy_url": "https://www.udemy.com/course/md-102-microsoft-modern-desktop-1500-exam-questions/?couponCode=9B999A74EFA26CC3C77F",
+      "image": "https://img-c.udemycdn.com/course/480x270/7147293_8e87_3.jpg",
+      "category": "IT & Software Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Unlock the free Udemy coupon for the MD-102 Microsoft Modern Desktop course, featuring 1500 practice exam questions and comprehensive video lessons. Ideal for IT professionals aiming to master Windows 10, Office 365, and modern desktop management. Enroll now and start exam preparation at no cost.",
+      "learn": [
+        "1500+ exam‑style questions covering all MD-102 objectives",
+        "Video lectures and hands‑on labs for Windows 10, Office 365, and device management",
+        "Real‑world scenarios and troubleshooting tips to boost confidence",
+        "Study plan, progress tracking, and downloadable resources"
+      ],
+      "who": "Designed for IT support technicians, system administrators, and anyone preparing for the Microsoft MD‑102 certification.",
+      "note": "Coupon may expire; confirm $0 on Udemy before enrolling.",
+      "page": "p/md-102-microsoft-modern-desktop-1500-exam-questions.html"
+    },
+    {
+      "title": "Nutrition Masterclass: Fat Loss & Muscle Building",
+      "slug": "nutrition-masterclass-fat-loss-muscle-building",
+      "udemy_url": "https://www.udemy.com/course/fat-loss-muscle-building-nutrition/?couponCode=96433",
+      "image": "https://img-c.udemycdn.com/course/480x270/6822109_3111_2.jpg",
+      "category": "Health & Fitness Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Nutrition Masterclass: Fat Loss & Muscle Building is listed with a free Udemy coupon in Health & Fitness Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Health & Fitness Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/nutrition-masterclass-fat-loss-muscle-building.html"
+    },
+    {
+      "title": "550+ Unix Interview Questions Practice Test [2026]",
+      "slug": "550-unix-interview-questions-practice-test-2026",
+      "udemy_url": "https://www.udemy.com/course/unix-interview-questions-test/?couponCode=953E45E7C3A548ED7A69",
+      "image": "https://img-c.udemycdn.com/course/480x270/5717466_47bd_2.jpg",
+      "category": "IT & Software Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "550+ Unix Interview Questions Practice Test [2026] is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/550-unix-interview-questions-practice-test-2026.html"
+    },
+    {
+      "title": "600+ HTML Interview Questions Practice Test [2026]",
+      "slug": "600-html-interview-questions-practice-test-2026",
+      "udemy_url": "https://www.udemy.com/course/html-interview-questions/?couponCode=ACDCBA4E4F5E2E51C40A",
+      "image": "https://img-c.udemycdn.com/course/480x270/5718362_8d0f_3.jpg",
+      "category": "Development Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "600+ HTML Interview Questions Practice Test [2026] is listed with a free Udemy coupon in Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Development Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/600-html-interview-questions-practice-test-2026.html"
+    },
+    {
+      "title": "600+ Multithreading Interview Questions Practice Test [2026]",
+      "slug": "600-multithreading-interview-questions-practice-test-2026",
+      "udemy_url": "https://www.udemy.com/course/600-multithreading-interview-questions-practice-test/?couponCode=224A7E945C67B08B538D",
+      "image": "https://img-c.udemycdn.com/course/480x270/5717378_015b_3.jpg",
+      "category": "IT & Software Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "600+ Multithreading Interview Questions Practice Test [2026] is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/600-multithreading-interview-questions-practice-test-2026.html"
+    },
+    {
+      "title": "450+ Software Testing Interview Questions Practice Test 2026",
+      "slug": "450-software-testing-interview-questions-practice-test-2026",
+      "udemy_url": "https://www.udemy.com/course/software-testing-interview-questions/?couponCode=2287A1CDE6450E05CB1A",
+      "image": "https://img-c.udemycdn.com/course/480x270/5715394_4d74_3.jpg",
+      "category": "Development Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Master the most common software testing interview questions with our comprehensive 450+ question practice test. Designed for aspiring QA engineers, this free resource covers everything from basic concepts to advanced test automation scenarios. Get ready to ace your interview in 2026 with real-world examples and detailed explanations.",
+      "learn": [
+        "In-depth coverage of functional, performance, security, and automation testing questions.",
+        "Step-by-step solutions and rationales for each question.",
+        "Real-world interview scenarios and best practice tips.",
+        "Time management strategies and mock interview practice."
+      ],
+      "who": "Ideal for entry-level QA engineers, software testers, and developers preparing for technical interviews in 2026.",
+      "note": "Coupon may expire; confirm $0 on Udemy before enrolling.",
+      "page": "p/450-software-testing-interview-questions-practice-test-2026.html"
+    },
+    {
+      "title": "350+ DevOps Interview Questions Practice Test [2026]",
+      "slug": "350-devops-interview-questions-practice-test-2026",
+      "udemy_url": "https://www.udemy.com/course/devops-interview-questions-practice-test/?couponCode=54237F4506D99D6A976D",
+      "image": "https://img-c.udemycdn.com/course/480x270/5715292_5aa1_4.jpg",
+      "category": "IT & Software Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "350+ DevOps Interview Questions Practice Test [2026] is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/350-devops-interview-questions-practice-test-2026.html"
+    },
+    {
+      "title": "400+ Power BI Interview Questions Practice Test [2026]",
+      "slug": "400-power-bi-interview-questions-practice-test-2026",
+      "udemy_url": "https://www.udemy.com/course/power-bi-interview-questions-test/?couponCode=745B34EC5E7F521A86D4",
+      "image": "https://img-c.udemycdn.com/course/480x270/5715260_9446_3.jpg",
+      "category": "Business Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "400+ Power BI Interview Questions Practice Test [2026] is listed with a free Udemy coupon in Business Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Business Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/400-power-bi-interview-questions-practice-test-2026.html"
+    },
+    {
+      "title": "350+ Azure Interview Questions Practice Test",
+      "slug": "350-azure-interview-questions-practice-test",
+      "udemy_url": "https://www.udemy.com/course/azure-interview-questions/?couponCode=274D200AD3C33E0D036E",
+      "image": "https://img-c.udemycdn.com/course/480x270/5714104_3472_2.jpg",
+      "category": "IT & Software Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "350+ Azure Interview Questions Practice Test is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/350-azure-interview-questions-practice-test.html"
+    },
+    {
+      "title": "AWS Cloud Practitioner Practice Exam 2026 (CLF-C02)",
+      "slug": "aws-cloud-practitioner-practice-exam-2026-clf-c02",
+      "udemy_url": "https://www.udemy.com/course/aws-cloud-practitioner-new/?couponCode=9D4F433C5EC3B857B08E",
+      "image": "https://img-c.udemycdn.com/course/480x270/7050505_a308_2.jpg",
+      "category": "IT & Software Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "AWS Cloud Practitioner Practice Exam 2026 (CLF-C02) is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/aws-cloud-practitioner-practice-exam-2026-clf-c02.html"
     }
   ]
 }
