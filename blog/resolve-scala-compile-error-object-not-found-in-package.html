@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resolve Scala compile error: object not found in package | LearnWithZuhaib</title>
+  <meta name="description" content="Learn why Scala cannot locate an object in a package and how to fix the import by aligning package declarations with the directory layout." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, scala" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/resolve-scala-compile-error-object-not-found-in-package.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why does Scala complain about a missing package even though the file exists?", "acceptedAnswer": {"@type": "Answer", "text": "The compiler only searches directories that match the declared package path; a mismatch between the package statement and the file location makes the symbol invisible."}}, {"@type": "Question", "name": "Can I keep source files in arbitrary folders?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, but you must add those folders as source roots in your build configuration and ensure the package statements still reflect the logical hierarchy."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-09-11 · Q&A guide</p>
+    <h1>Resolve Scala compile error: object not found in package</h1>
+    <p class="lead">Learn why Scala cannot locate an object in a package and how to fix the import by aligning package declarations with the directory layout.</p>
+    <div class="content">
+<h2>Package declarations must match the folder hierarchy</h2>
+<p>Scala uses the package statement at the top of a source file to determine the fully‑qualified name of the class or object. If the declared package does not reflect the actual directory structure, the compiler will not be able to resolve the symbol, resulting in an error like &quot;object scalacommon is not a member of package com.kwoolytech&quot;.</p>
+<h2>Correct the package path for Syslog</h2>
+<p>Place the file under a directory that mirrors its package name and declare the package accordingly. For example, if the object lives in `src/main/scala/com/kwoolytech/scalacommon/Syslog.scala`, the file should start with:</p>
+<pre><code>package com.kwoolytech.scalacommon
+
+object Syslog {
+  def emergency(s: String) = println(s&quot;[Emergency] $s&quot;)
+  def alert(s: String)      = println(s&quot;[Alert] $s&quot;)
+  def critical(s: String)   = println(s&quot;[Critical] $s&quot;)
+  def error(s: String)      = println(s&quot;[Error] $s&quot;)
+  def warning(s: String)    = println(s&quot;[Warning] $s&quot;)
+  def notice(s: String)     = println(s&quot;[Notice] $s&quot;)
+  def debug(s: String)      = println(s&quot;[Debug] $s&quot;)
+  def info(s: String)       = println(s&quot;[Info] $s&quot;)
+}</code></pre>
+<h2>Align the Dice class with its own package</h2>
+<p>The Dice source file should also be placed under a directory that reflects its package declaration. For a package `com.kwoolytech.kwoolybot`, the path would be `src/main/scala/com/kwoolytech/kwoolybot/Dice.scala` and the file should begin with:</p>
+<pre><code>package com.kwoolytech.kwoolybot
+
+import com.kwoolytech.scalacommon.Syslog
+
+class Dice(command: List[String], callback: List[String] =&gt; Unit) extends Bot {
+  override def run(): Unit = {
+    command.headOption match {
+      case Some(&quot;roll&quot;) =&gt; roll(command.tail, callback)
+      case _ =&gt; Syslog.debug(s&quot;${getClass.getName} Invalid command.&quot;)
+    }
+  }
+}</code></pre>
+<h2>Check your build tool&#x27;s source roots</h2>
+<p>When using sbt, Maven, or Gradle, ensure that the source root (`src/main/scala` by default) is correctly configured. Adding an extra source root like `src/scalacommon` without updating the build definition will keep the compiler from seeing the `Syslog` object.</p>
+<h2>Recompile and verify the import works</h2>
+<p>After fixing the package statements and directory layout, run a clean build (`sbt clean compile` or `mvn clean compile`). The compiler should now resolve `com.kwoolytech.scalacommon.Syslog` without errors. If the problem persists, double‑check that there are no duplicate package declarations in other files.</p>
+<p><strong>Takeaway:</strong> Package declarations and folder structure must be in sync for Scala imports to succeed.</p>
+<h2>People also ask</h2>
+<h3>Why does Scala complain about a missing package even though the file exists?</h3>
+<p>The compiler only searches directories that match the declared package path; a mismatch between the package statement and the file location makes the symbol invisible.</p>
+<h3>Can I keep source files in arbitrary folders?</h3>
+<p>Yes, but you must add those folders as source roots in your build configuration and ensure the package statements still reflect the logical hierarchy.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/38419163/compile-error-on-a-scala-project-object-is-not-a-member-of-package" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

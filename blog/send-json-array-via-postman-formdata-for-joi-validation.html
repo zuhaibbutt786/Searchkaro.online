@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Send JSON Array via Postman Form‑Data for Joi Validation | LearnWithZuhaib</title>
+  <meta name="description" content="Step‑by‑step guide on constructing multipart/form‑data in Postman so an array of JSON objects satisfies a Joi schema." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, postman,joi" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/send-json-array-via-postman-formdata-for-joi-validation.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I send the whole array as a single JSON string?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, but only if the server parses the string back into an object. With strict multipart parsing the bracket notation is required."}}, {"@type": "Question", "name": "What if I also need to upload a real file alongside the IDs?", "acceptedAnswer": {"@type": "Answer", "text": "Add a row with key `files[0][file]` (type **File**) and keep `files[0][fileId]` as a text field; the server can read both the binary and the ID."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-09-11 · Q&A guide</p>
+    <h1>Send JSON Array via Postman Form‑Data for Joi Validation</h1>
+    <p class="lead">Step‑by‑step guide on constructing multipart/form‑data in Postman so an array of JSON objects satisfies a Joi schema.</p>
+    <div class="content">
+<h2>Why Form‑Data and Not Raw JSON?</h2>
+<p>The API you are calling expects a multipart/form‑data payload, typically because it also handles file uploads. Joi validates the structure after the request is parsed, so the server looks for fields named `files` and `folders` that contain arrays of objects. Sending a raw JSON string would bypass the multipart parser and fail the validation.</p>
+<h2>Naming Convention for Nested Objects</h2>
+<p>When you use Postman&#x27;s **form‑data** tab, each key becomes a separate part. To represent an array of objects you must flatten the hierarchy using bracket notation. For example, the first file object is expressed as `files[0][fileId]`. The second becomes `files[1][fileId]`. The same pattern applies to the `folders` array.</p>
+<pre><code>files[0][fileId]   →  f28019d7-9268-4013-bacb-67ed96eb095f
+files[1][fileId]   →  51e99e3d-755a-4530-9eed-f08d20cbfe8b
+folders[0][folderId] →  a1b2c3d4‑e5f6‑7890‑abcd‑ef1234567890</code></pre>
+<h2>Configuring Postman</h2>
+<p>1. Open the **Body** tab and select **form‑data**.
+2. Add a new row for each element using the bracket syntax described above.
+3. Set the **type** of each row to **Text** (unless you are also uploading a file, then choose **File**).
+4. Leave the **Content‑Type** header blank; Postman will generate the correct `multipart/form-data; boundary=…` header automatically.
+5. Click **Send** and verify that the server receives a structure matching the Joi schema.</p>
+<h2>Quick Postman Screenshot Example</h2>
+<p>Below is a minimal representation of what the form‑data table should look like:</p>
+<pre><code>Key                     | Value
+------------------------|------------------------------------------
+files[0][fileId]        | f28019d7-9268-4013-bacb-67ed96eb095f
+files[1][fileId]        | 51e99e3d-755a-4530-9eed-f08d20cbfe8b
+folders[0][folderId]   | a1b2c3d4-e5f6-7890-abcd-ef1234567890</code></pre>
+<h2>Testing the Payload with a Mock Server</h2>
+<p>If you want to double‑check the payload before hitting the real endpoint, spin up a quick Node.js server that uses the same Joi schema. Log `req.body` after `multer` or `express‑formidable` parses the multipart request. You should see an object like `{ files: [{ fileId: &#x27;…&#x27; }, { fileId: &#x27;…&#x27; }], folders: [{ folderId: &#x27;…&#x27; }] }`. Matching this shape confirms that Postman is sending the data correctly.</p>
+<p><strong>Takeaway:</strong> Use bracket notation (e.g., `files[0][fileId]`) in Postman&#x27;s form‑data to send arrays of JSON objects that satisfy Joi validation.</p>
+<h2>People also ask</h2>
+<h3>Can I send the whole array as a single JSON string?</h3>
+<p>Yes, but only if the server parses the string back into an object. With strict multipart parsing the bracket notation is required.</p>
+<h3>What if I also need to upload a real file alongside the IDs?</h3>
+<p>Add a row with key `files[0][file]` (type **File**) and keep `files[0][fileId]` as a text field; the server can read both the binary and the ID.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/62518279/how-to-send-an-array-of-jsons-in-postman-with-form-data" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

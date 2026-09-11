@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Connect Jenkins to Microsoft SQL Server – Quick Guide | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to link Jenkins with MSSQL and execute scripts directly from a build pipeline." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, jenkins" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/connect-jenkins-to-microsoft-sql-server-quick-guide.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What connection string does sqlcmd use for MSSQL?", "acceptedAnswer": {"@type": "Answer", "text": "Use -S servername,port and -d database. Example: -S myserver,1433 -d MyDB."}}, {"@type": "Question", "name": "Can I run the script from a Jenkins pipeline?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, use the Pipeline step \"bat\" or \"sh\" and reference the credentials with the credentials() step."}}, {"@type": "Question", "name": "Do I need a plugin for JDBC?", "acceptedAnswer": {"@type": "Answer", "text": "Optional. The Microsoft JDBC driver works without a plugin; however, the JDBC plugin simplifies connection handling if you prefer Java-based execution."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-09-11 · Q&A guide</p>
+    <h1>Connect Jenkins to Microsoft SQL Server – Quick Guide</h1>
+    <p class="lead">Learn how to link Jenkins with MSSQL and execute scripts directly from a build pipeline.</p>
+    <div class="content">
+<h2>Prerequisites</h2>
+<p>• A running Microsoft SQL Server instance accessible from the Jenkins host.
+• Jenkins 2.x or newer with administrative access.
+• Basic knowledge of Jenkins job configuration and shell scripting.</p>
+<h2>Add the JDBC Driver to Jenkins</h2>
+<p>Place the Microsoft JDBC Driver (mssql-jdbc‑&lt;version&gt;.jar) into the Jenkins shared library or a dedicated folder. Then add it to the global classpath via the Jenkins UI: Manage Jenkins → Configure System → Global properties → Add a new global property for the driver path, or set the environment variable JENKINS_CLASSPATH.</p>
+<h2>Store SQL Credentials Securely</h2>
+<p>Use Jenkins Credentials Binding to keep the database username and password out of plain text. Create a Username‑Password credential and reference it in the job with the variable names DB_USER and DB_PASS.</p>
+<h2>Create a Freestyle Job to Run SQL</h2>
+<p>Add an &quot;Execute shell&quot; or &quot;Execute Windows batch&quot; build step. Use the sqlcmd utility or a JDBC call. Example using sqlcmd:</p>
+<pre><code>#!/bin/bash
+DB_HOST=&quot;your_sql_server&quot;
+DB_PORT=&quot;1433&quot;
+DB_NAME=&quot;YourDB&quot;
+DB_USER=&quot;${DB_USER}&quot;
+DB_PASS=&quot;${DB_PASS}&quot;
+
+sqlcmd -S ${DB_HOST},${DB_PORT} -d ${DB_NAME} -U ${DB_USER} -P ${DB_PASS} -Q &quot;UPDATE dbo.YourTable SET Column=&#x27;Value&#x27; WHERE Id=1;&quot;</code></pre>
+<p><strong>Takeaway:</strong> Jenkins can manage SQL Server updates by combining JDBC drivers, secure credentials, and the sqlcmd tool in a simple build step.</p>
+<h2>People also ask</h2>
+<h3>What connection string does sqlcmd use for MSSQL?</h3>
+<p>Use -S servername,port and -d database. Example: -S myserver,1433 -d MyDB.</p>
+<h3>Can I run the script from a Jenkins pipeline?</h3>
+<p>Yes, use the Pipeline step &quot;bat&quot; or &quot;sh&quot; and reference the credentials with the credentials() step.</p>
+<h3>Do I need a plugin for JDBC?</h3>
+<p>Optional. The Microsoft JDBC driver works without a plugin; however, the JDBC plugin simplifies connection handling if you prefer Java-based execution.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/19768849/connect-jenkins-to-microsoft-sql-server" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

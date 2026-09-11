@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Disable Space-to-Tab Conversion in VS Code for TypeScript &amp; HTML | LearnWithZuhaib</title>
+  <meta name="description" content="Disable VS Code’s auto‑space insertion and enforce tabs in TypeScript and HTML files." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, vs-code,tabs,spaces" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/disable-space-to-tab-conversion-in-vs-code-for-typescript-html.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I apply the tab setting only to the current workspace?", "acceptedAnswer": {"@type": "Answer", "text": "Edit .vscode/settings.json and add the desired settings; they override user settings for that project."}}, {"@type": "Question", "name": "Will disabling \"editor.detectIndentation\" affect other projects?", "acceptedAnswer": {"@type": "Answer", "text": "Only the workspace where you set it; other workspaces use their own settings."}}, {"@type": "Question", "name": "Can I enforce tabs using an editorconfig file?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, add an .editorconfig with \"indent_style = tab\" and VS Code will honor it."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-09-11 · Q&A guide</p>
+    <h1>Disable Space-to-Tab Conversion in VS Code for TypeScript &amp; HTML</h1>
+    <p class="lead">Disable VS Code’s auto‑space insertion and enforce tabs in TypeScript and HTML files.</p>
+    <div class="content">
+<h2>Why VS Code Inserts Spaces by Default</h2>
+<p>VS Code detects indentation style per file and, when &quot;editor.detectIndentation&quot; is true, it automatically switches to spaces if the file contains them. This behavior applies to all languages unless overridden.</p>
+<h2>Global vs. Language‑Specific Settings</h2>
+<p>Settings in the global user settings.json apply to every file. Workspace settings (.vscode/settings.json) override them for the current project. Language overrides use the language id, e.g. &quot;typescript&quot; or &quot;html&quot;.</p>
+<pre><code>&quot;typescript&quot;: {
+  &quot;editor.insertSpaces&quot;: false,
+  &quot;editor.tabSize&quot;: 4
+}</code></pre>
+<h2>Turn Off Space Insertion for All Files</h2>
+<p>Set the following in either user or workspace settings to enforce tabs everywhere:</p>
+<pre><code>&quot;editor.insertSpaces&quot;: false,
+&quot;editor.tabSize&quot;: 4,
+&quot;editor.detectIndentation&quot;: false</code></pre>
+<h2>Fixing TypeScript’s Auto‑Indentation</h2>
+<p>TypeScript files often inherit settings from the TypeScript language server. Adding a language override and disabling detection ensures tabs are used:</p>
+<p>1. Add the &quot;typescript&quot; block from the previous section.
+2. If formatting still inserts spaces, disable formatOnSave or set &quot;editor.defaultFormatter&quot; to null for TypeScript.</p>
+<pre><code>&quot;typescript&quot;: {
+  &quot;editor.insertSpaces&quot;: false,
+  &quot;editor.tabSize&quot;: 4,
+  &quot;editor.formatOnSave&quot;: false
+}</code></pre>
+<h2>Verify and Clean Existing Files</h2>
+<p>After changing settings, run:</p>
+<p>- Find all spaces: Ctrl+Shift+F, search for &quot;^\s+&quot;.
+- Replace with tabs: use the replace dialog with the tab character (Ctrl+V, then press Tab).</p>
+<p>You can also add an .editorconfig file to lock the style across editors:</p>
+<pre><code>[*]
+indent_style = tab
+indent_size = 4</code></pre>
+<p><strong>Takeaway:</strong> Set &quot;editor.insertSpaces&quot;: false, disable detection, and apply language overrides to keep tabs in all project files.</p>
+<h2>People also ask</h2>
+<h3>How do I apply the tab setting only to the current workspace?</h3>
+<p>Edit .vscode/settings.json and add the desired settings; they override user settings for that project.</p>
+<h3>Will disabling &quot;editor.detectIndentation&quot; affect other projects?</h3>
+<p>Only the workspace where you set it; other workspaces use their own settings.</p>
+<h3>Can I enforce tabs using an editorconfig file?</h3>
+<p>Yes, add an .editorconfig with &quot;indent_style = tab&quot; and VS Code will honor it.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/36814642/visual-studio-code-convert-spaces-to-tabs" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

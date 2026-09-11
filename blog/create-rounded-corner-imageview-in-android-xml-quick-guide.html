@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Create Rounded Corner ImageView in Android XML – Quick Guide | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to display images with rounded corners directly in XML using ShapeDrawables, CardView, or a lightweight custom view." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, android,xml,android-layout,user-interface,rounding" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/create-rounded-corner-imageview-in-android-xml-quick-guide.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I change the corner radius at runtime?", "acceptedAnswer": {"@type": "Answer", "text": "Yes – for CardView use app:cardCornerRadius or call setCardCornerRadius(). For ShapeDrawable, modify the drawable’s radius property. For the custom view, expose a setter that updates the radius and calls invalidate()."}}, {"@type": "Question", "name": "Will this affect image loading libraries like Glide?", "acceptedAnswer": {"@type": "Answer", "text": "Glide can load into the ImageView normally; the clipping is handled by the view or background. If you use a custom view, pass the image to the parent ImageView or override setImageDrawable."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-09-11 · Q&A guide</p>
+    <h1>Create Rounded Corner ImageView in Android XML – Quick Guide</h1>
+    <p class="lead">Learn how to display images with rounded corners directly in XML using ShapeDrawables, CardView, or a lightweight custom view.</p>
+    <div class="content">
+<h2>Why Rounded Corners Matter</h2>
+<p>Rounded corners give UI a modern look, improve visual hierarchy, and help images blend with card or list layouts. They also reduce visual noise on sharp edges.</p>
+<h2>Method 1: ShapeDrawable Mask</h2>
+<p>Wrap the image in an ImageView and apply a background that masks the corners. This requires no Java code and works on all API levels.</p>
+<pre><code>&lt;ImageView
+    android:id=&quot;@+id/img_round&quot;
+    android:layout_width=&quot;120dp&quot;
+    android:layout_height=&quot;120dp&quot;
+    android:scaleType=&quot;centerCrop&quot;
+    android:src=&quot;@drawable/sample&quot;
+    android:background=&quot;@drawable/round_mask&quot;
+    android:clipToOutline=&quot;true&quot; /&gt;
+
+&lt;!-- res/drawable/round_mask.xml --&gt;
+&lt;shape xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    android:shape=&quot;rectangle&quot;&gt;
+    &lt;solid android:color=&quot;@android:color/transparent&quot; /&gt;
+    &lt;corners android:radius=&quot;12dp&quot; /&gt;
+&lt;/shape&gt;</code></pre>
+<h2>Method 2: CardView Wrapper</h2>
+<p>Place the ImageView inside a CardView and set the corner radius. CardView handles clipping automatically and is part of the Material Components library.</p>
+<pre><code>&lt;androidx.cardview.widget.CardView
+    android:layout_width=&quot;120dp&quot;
+    android:layout_height=&quot;120dp&quot;
+    app:cardCornerRadius=&quot;12dp&quot;
+    app:cardUseCompatPadding=&quot;true&quot;
+    app:cardPreventCornerOverlap=&quot;false&quot;&gt;
+
+    &lt;ImageView
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;match_parent&quot;
+        android:scaleType=&quot;centerCrop&quot;
+        android:src=&quot;@drawable/sample&quot; /&gt;
+&lt;/androidx.cardview.widget.CardView&gt;</code></pre>
+<h2>Method 3: Custom RoundedImageView</h2>
+<p>Create a small subclass that overrides onDraw to clip the canvas. This gives full control over corner radius and can be reused across projects.</p>
+<pre><code>// RoundedImageView.kt
+class RoundedImageView @JvmOverloads constructor(
+    context: Context,
+    attrs: AttributeSet? = null,
+    defStyle: Int = 0
+) : AppCompatImageView(context, attrs, defStyle) {
+
+    private val radius = 12f * resources.displayMetrics.density
+    private val path = Path()
+
+    override fun onDraw(canvas: Canvas) {
+        val rect = RectF(0f, 0f, width.toFloat(), height.toFloat())
+        path.reset()
+        path.addRoundRect(rect, radius, radius, Path.Direction.CW)
+        canvas.clipPath(path)
+        super.onDraw(canvas)
+    }
+}</code></pre>
+<h2>Performance Tips &amp; Compatibility</h2>
+<p>Use clipToOutline for API 21+ to avoid custom drawing. Avoid setting both background and image drawable when using ShapeDrawable to reduce overdraw. For older APIs, the custom view method is safe.</p>
+<p><strong>Takeaway:</strong> Rounded corners can be added in XML without extra libraries by using ShapeDrawables, CardView, or a lightweight custom view.</p>
+<h2>People also ask</h2>
+<h3>Can I change the corner radius at runtime?</h3>
+<p>Yes – for CardView use app:cardCornerRadius or call setCardCornerRadius(). For ShapeDrawable, modify the drawable’s radius property. For the custom view, expose a setter that updates the radius and calls invalidate().</p>
+<h3>Will this affect image loading libraries like Glide?</h3>
+<p>Glide can load into the ImageView normally; the clipping is handled by the view or background. If you use a custom view, pass the image to the parent ImageView or override setImageDrawable.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/37982066/make-an-imageview-with-rounded-corners" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

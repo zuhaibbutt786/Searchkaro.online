@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "title": "Disable Space-to-Tab Conversion in VS Code for TypeScript & HTML",
+      "slug": "disable-space-to-tab-conversion-in-vs-code-for-typescript-html",
+      "date": "2026-09-11",
+      "excerpt": "Disable VS\u202fCode\u2019s auto\u2011space insertion and enforce tabs in TypeScript and HTML files.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Create Rounded Corner ImageView in Android XML \u2013 Quick Guide",
+      "slug": "create-rounded-corner-imageview-in-android-xml-quick-guide",
+      "date": "2026-09-11",
+      "excerpt": "Learn how to display images with rounded corners directly in XML using ShapeDrawables, CardView, or a lightweight custom view.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Connect Jenkins to Microsoft SQL Server \u2013 Quick Guide",
+      "slug": "connect-jenkins-to-microsoft-sql-server-quick-guide",
+      "date": "2026-09-11",
+      "excerpt": "Learn how to link Jenkins with MSSQL and execute scripts directly from a build pipeline.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Resolve Angular CLI Compatibility Errors After Upgrade",
+      "slug": "resolve-angular-cli-compatibility-errors-after-upgrade",
+      "date": "2026-09-11",
+      "excerpt": "Learn how to fix the \"CLI is only compatible with Angular versions\" mismatch by synchronising global and local Angular CLI versions and updating project dependencies.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Resolve Scala compile error: object not found in package",
+      "slug": "resolve-scala-compile-error-object-not-found-in-package",
+      "date": "2026-09-11",
+      "excerpt": "Learn why Scala cannot locate an object in a package and how to fix the import by aligning package declarations with the directory layout.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Send JSON Array via Postman Form\u2011Data for Joi Validation",
+      "slug": "send-json-array-via-postman-formdata-for-joi-validation",
+      "date": "2026-09-11",
+      "excerpt": "Step\u2011by\u2011step guide on constructing multipart/form\u2011data in Postman so an array of JSON objects satisfies a Joi schema.",
+      "source": "stackoverflow"
+    },
+    {
       "title": "Get a Static Download Link for the Latest GitHub Release Asset",
       "slug": "get-a-static-download-link-for-the-latest-github-release-asset",
       "date": "2026-09-04",
