@@ -3,18 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Free Udemy Courses | LearnWithZuhaib</title>
-  <meta name="description" content="Free Udemy courses. Open a course on this site, then enroll on Udemy." />
+  <title>Free Udemy Courses | SearchKaro</title>
+  <meta name="description" content="Free Udemy course coupons on SearchKaro. Open a course on this site, then enroll on Udemy." />
+  <link rel="icon" href="https://searchkaro.online/assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="../assets/style.css" />
+  <style>
+    .badge-new {
+      position: absolute; top: 10px; right: 10px;
+      background: #0f4c5c; color: #fff;
+      font-size: 0.68rem; font-weight: 800;
+      padding: 3px 8px; border-radius: 999px;
+    }
+    .course-thumb { position: relative; }
+    .added-line { font-size: 0.8rem; color: var(--muted); margin: 0 0 6px; }
+    .update-banner {
+      background: #e8f1f3; border: 1px solid var(--line);
+      border-radius: 12px; padding: 10px 14px; margin: 0 0 16px;
+      color: var(--brand); font-weight: 600; font-size: 0.92rem;
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <a class="logo" href="../index.html" aria-label="SearchKaro home">
+        <img src="../assets/favicon.svg" alt="SearchKaro" width="32" height="32" />
+        Search<span>Karo</span>
+      </a>
       <nav>
         <a href="../index.html">Home</a>
-        <a href="../blog/">Tech Blog</a>
-        <a href="./" class="active">Free Courses</a>
+        <a href="../blog/">Blog</a>
+        <a href="./" class="active">Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
       </nav>
     </div>
   </header>
@@ -26,10 +47,16 @@
       <a class="help-pill" href="enroll-guide.html">Enrollment guide</a>
     </div>
 
+    <div class="update-banner" id="updatedBanner">Loading update time…</div>
+
     <div class="toolbar">
       <input id="q" type="search" placeholder="Search course name" />
       <select id="lang"><option value="">Language</option></select>
       <select id="cat"><option value="">Category</option></select>
+      <select id="sort">
+        <option value="newest">Newest first</option>
+        <option value="title">Title A–Z</option>
+      </select>
     </div>
     <p class="stats" id="stats">Loading courses…</p>
 
@@ -38,17 +65,20 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>Not affiliated with Udemy. Enrollment opens only on udemy.com.</p>
+      <p>Not affiliated with Udemy. Enrollment opens only on udemy.com. Older listings stay on the site when coupons expire.</p>
     </div>
   </footer>
 
   <script>
     const listEl = document.getElementById('list');
     const statsEl = document.getElementById('stats');
+    const bannerEl = document.getElementById('updatedBanner');
     const qEl = document.getElementById('q');
     const catEl = document.getElementById('cat');
     const langEl = document.getElementById('lang');
+    const sortEl = document.getElementById('sort');
     let courses = [];
+    let catalogMeta = {};
 
     const PLACEHOLDER =
       'data:image/svg+xml,' + encodeURIComponent(
@@ -65,17 +95,30 @@
       return '#';
     }
 
+    function isNew(c) {
+      const t = c.added_at || '';
+      if (!t) return false;
+      const d = new Date(t);
+      if (Number.isNaN(d.getTime())) return false;
+      return (Date.now() - d.getTime()) < 48 * 3600 * 1000;
+    }
+
     function render() {
       const q = (qEl.value || '').toLowerCase().trim();
       const cat = catEl.value;
       const lang = langEl.value;
-      const filtered = courses.filter(c => {
+      let filtered = courses.filter(c => {
         const hay = `${c.title} ${c.category || ''} ${c.language || ''}`.toLowerCase();
         return (!q || hay.includes(q))
           && (!cat || (c.category || '') === cat)
           && (!lang || (c.language || '') === lang);
       });
-      statsEl.textContent = `${filtered.length} courses · ${courses.length} total`;
+      if (sortEl.value === 'title') {
+        filtered = filtered.slice().sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+      } else {
+        filtered = filtered.slice().sort((a, b) => (b.added_at || '').localeCompare(a.added_at || ''));
+      }
+      statsEl.textContent = `${filtered.length} shown · ${courses.length} total in catalog`;
       if (!filtered.length) {
         listEl.innerHTML = '<p class="empty">No courses match your filters.</p>';
         return;
@@ -83,16 +126,20 @@
       listEl.innerHTML = filtered.map(c => {
         const img = c.image || PLACEHOLDER;
         const href = detailHref(c);
+        const added = c.added_at_pkt || c.added_at || '';
+        const newBadge = isNew(c) ? '<span class="badge-new">NEW</span>' : '';
         return `
         <article class="course-card">
           <a href="${escapeHtml(href)}" style="color:inherit;text-decoration:none">
             <div class="course-thumb">
               <img src="${escapeHtml(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.src='${PLACEHOLDER}'" />
               <span class="badge-free">100% OFF</span>
+              ${newBadge}
             </div>
           </a>
           <div class="course-body">
             <h3><a href="${escapeHtml(href)}" style="color:inherit;text-decoration:none">${escapeHtml(c.title)}</a></h3>
+            ${added ? `<p class="added-line">Added: ${escapeHtml(added)}</p>` : ''}
             <div class="course-meta">
               ${escapeHtml(c.language || 'English')}
               ${c.category ? '<span class="dot">·</span>' + escapeHtml(c.category) : ''}
@@ -118,7 +165,17 @@
     fetch('../data/courses.json')
       .then(r => r.json())
       .then(data => {
-        // Only show courses that have a local page / udemy url (never couponami)
+        catalogMeta = data || {};
+        const updated =
+          data.updated_at_pkt ||
+          data.updated_at ||
+          '—';
+        const neu = data.new_in_this_run;
+        bannerEl.textContent =
+          `Catalog last updated: ${updated}` +
+          (typeof neu === 'number' ? ` · ${neu} new in last scrape` : '') +
+          ` · Old course pages are kept on this site.`;
+
         courses = (data.courses || []).filter(c => {
           const u = (c.udemy_url || c.url || '');
           if (/couponami|discudemy|coursevania|real\.discount/i.test(u)) return false;
@@ -129,6 +186,7 @@
         render();
       })
       .catch(() => {
+        bannerEl.textContent = 'Could not load catalog time.';
         statsEl.textContent = 'Could not load courses.';
         listEl.innerHTML = '<p class="empty">Run the update workflow to load courses.</p>';
       });
@@ -136,6 +194,7 @@
     qEl.addEventListener('input', render);
     catEl.addEventListener('change', render);
     langEl.addEventListener('change', render);
+    sortEl.addEventListener('change', render);
   </script>
 </body>
 </html>
