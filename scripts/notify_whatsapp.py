@@ -2,8 +2,9 @@
 """
 Post free courses / jobs / scholarships to WhatsApp Channel (Whapi / Baileys / Meta).
 
-Course messages follow the popular category digest style:
-  *_8 Sep | 35 💻 Development Free Udemy Coupons — SearchKaro_*
+Course messages follow the popular category digest style with full PKT date/time:
+  *_12 Sep 2026 · 10:00 AM PKT_*
+  *35 💻 Development Free Udemy Coupons — SearchKaro*
   numbered list + SearchKaro detail links
 
 Env:
@@ -77,7 +78,8 @@ def site_base() -> str:
 
 def today_label() -> str:
     now = datetime.now(ZoneInfo("Asia/Karachi"))
-    return now.strftime("%-d %b")  # e.g. 8 Sep
+    # e.g. 12 Sep 2026 · 10:00 AM PKT
+    return now.strftime("%-d %b %Y · %I:%M %p PKT")
 
 
 def cat_emoji(category: str) -> str:
@@ -123,7 +125,7 @@ def build_category_messages(courses: list[dict]) -> list[str]:
             chunk = items[start : start + MAX_ITEMS_PER_MSG]
             n = len(chunk)
             emoji = cat_emoji(cat)
-            header = f"*_{day} | {n} {emoji} {cat} Free Udemy Coupons — SearchKaro_*"
+            header = f"*_{day}_*\n*{n} {emoji} {cat} Free Udemy Coupons — SearchKaro*"
             lines = [
                 header,
                 "━━━━━━━━━━━━━━━━━━━━━",
@@ -152,7 +154,7 @@ def build_category_messages(courses: list[dict]) -> list[str]:
                 for sub_start in range(0, len(chunk), mid):
                     sub = chunk[sub_start : sub_start + mid]
                     lines = [
-                        f"*_{day} | {len(sub)} {emoji} {cat} Free Udemy Coupons — SearchKaro_*",
+                        f"*_{day}_*\n*{len(sub)} {emoji} {cat} Free Udemy Coupons — SearchKaro*",
                         "━━━━━━━━━━━━━━━━━━━━━",
                         list_url,
                         "━━━━━━━━━━━━━━━━━━━━━",
@@ -181,7 +183,7 @@ def build_list_message(kind: str, items: list[dict], list_path: str) -> str:
     }
     emoji, label = title_map.get(kind, ("📌", kind.title()))
     lines = [
-        f"*_{day} | {len(items)} {emoji} {label} — SearchKaro_*",
+        f"*_{day}_*\n*{len(items)} {emoji} {label} — SearchKaro*",
         "━━━━━━━━━━━━━━━━━━━━━",
         f"{base}/{list_path.strip('/')}/",
         "━━━━━━━━━━━━━━━━━━━━━",
