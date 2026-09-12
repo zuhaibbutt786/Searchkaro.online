@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pregnancy Due Date Calculator — Week & Trimester | SearchKaro</title>
+  <meta name="description" content="Free pregnancy calculator. Estimate due date, current week, and trimester from last menstrual period (LMP). Simple pregnancy week calculator." />
+  <meta name="keywords" content="pregnancy calculator, due date calculator, pregnancy week calculator, LMP calculator, trimester calculator" />
+  <link rel="canonical" href="https://searchkaro.online/calculators/pregnancy.html" />
+  <link rel="icon" href="https://searchkaro.online/assets/favicon.svg" type="image/svg+xml" />
+  <meta property="og:title" content="Pregnancy Due Date Calculator | SearchKaro" />
+  <meta property="og:description" content="Estimate pregnancy due date and current week from your last menstrual period." />
+  <meta property="og:url" content="https://searchkaro.online/calculators/pregnancy.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <link rel="stylesheet" href="../assets/calculators.css" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"Pregnancy Due Date Calculator","url":"https://searchkaro.online/calculators/pregnancy.html","applicationCategory":"HealthApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Search<span>Karo</span></a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Calculators</a>
+        <a href="../courses/">Courses</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <div class="page-head">
+      <p class="eyebrow"><a href="./">Calculators</a> · Pregnancy</p>
+      <h1>Pregnancy due date calculator</h1>
+      <p class="sub">Estimate your due date and current pregnancy week from the first day of your last menstrual period (LMP), using the standard 40-week timeline.</p>
+    </div>
+    <div class="calc-layout">
+      <div class="calc-card">
+        <h2>Last menstrual period</h2>
+        <div class="calc-field">
+          <label for="lmp">First day of LMP</label>
+          <input id="lmp" type="date" />
+        </div>
+        <div class="calc-field">
+          <label for="cycle">Average cycle length (days)</label>
+          <input id="cycle" type="number" min="20" max="45" value="28" />
+          <span class="hint">Default 28 days; adjustment shifts estimated ovulation</span>
+        </div>
+        <div class="calc-actions">
+          <button class="btn green" type="button" id="calcBtn">Calculate due date</button>
+        </div>
+      </div>
+      <div class="calc-result-card" id="result">
+        <h2>Results</h2>
+        <p class="muted">Enter LMP date to estimate.</p>
+      </div>
+    </div>
+    <section class="article">
+      <h2>How this works</h2>
+      <p>Naegele’s rule estimates due date as LMP + 280 days (40 weeks), with a small adjustment when cycle length differs from 28 days. Ultrasound dating from your clinician is more accurate.</p>
+    </section>
+    <p class="calc-note"><strong>Medical disclaimer:</strong> This tool is informational only and is not a substitute for professional prenatal care. Always confirm dates with your doctor or midwife.</p>
+  </main>
+  <footer class="site-footer"><div class="container"><p><a href="./">All calculators</a></p></div></footer>
+  <script>
+    function calculate() {
+      const box = document.getElementById('result');
+      const lmpVal = document.getElementById('lmp').value;
+      const cycle = parseInt(document.getElementById('cycle').value, 10) || 28;
+      if (!lmpVal) {
+        box.innerHTML = '<h2>Results</h2><p>Please select LMP date.</p>';
+        return;
+      }
+      const lmp = new Date(lmpVal + 'T00:00:00');
+      const adjust = cycle - 28;
+      const due = new Date(lmp.getTime());
+      due.setDate(due.getDate() + 280 + adjust);
+      const today = new Date();
+      today.setHours(0,0,0,0);
+      const dayNum = Math.floor((today - lmp) / 86400000) + 1;
+      let week = Math.floor((dayNum - 1) / 7) + 1;
+      let dayOfWeek = ((dayNum - 1) % 7) + 1;
+      if (dayNum < 1) { week = 0; dayOfWeek = 0; }
+      if (week > 42) week = 42;
+      let trimester = '—';
+      if (week >= 1 && week <= 13) trimester = '1st trimester';
+      else if (week <= 27) trimester = '2nd trimester';
+      else if (week <= 42) trimester = '3rd trimester';
+      const remain = Math.ceil((due - today) / 86400000);
+      box.innerHTML = `
+        <h2>Results</h2>
+        <div class="big">${due.toLocaleDateString(undefined, { dateStyle: 'long' })}</div>
+        <table>
+          <tr><td>Estimated due date</td><td>${due.toLocaleDateString()}</td></tr>
+          <tr><td>Current week</td><td>${week > 0 ? `Week ${week}, day ${dayOfWeek}` : 'Before LMP / check dates'}</td></tr>
+          <tr><td>Trimester</td><td>${trimester}</td></tr>
+          <tr><td>Days until due date</td><td>${remain}</td></tr>
+        </table>`;
+    }
+    document.getElementById('calcBtn').onclick = calculate;
+    document.getElementById('lmp').addEventListener('change', calculate);
+  </script>
+</body>
+</html>
