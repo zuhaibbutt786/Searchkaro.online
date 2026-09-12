@@ -63,7 +63,6 @@ def news_api_keys() -> list[str]:
         v = (os.getenv(name) or "").strip()
         if v and v not in keys:
             keys.append(v)
-    # last resort: shared site key
     shared = (os.getenv("GROQ_API_KEY") or "").strip()
     if shared and shared not in keys:
         keys.append(shared)
@@ -74,7 +73,7 @@ def slugify(title: str) -> str:
     s = title.lower()
     s = re.sub(r"[^a-z0-9\s-]", "", s)
     s = re.sub(r"[\s_]+", "-", s).strip("-")
-    return (s[:90] or f"trend-{int(time.time())}")
+    return s[:90] or f"trend-{int(time.time())}"
 
 
 def word_count(text: str) -> int:
@@ -145,7 +144,6 @@ def fetch_all_trends() -> list[dict]:
             for it in batch:
                 key = it["topic"].lower().strip()
                 if key in seen:
-                    # merge geos
                     for existing in collected:
                         if existing["topic"].lower().strip() == key:
                             if geo not in existing.get("geos", []):
@@ -245,7 +243,9 @@ Hard requirements:
                     timeout=90,
                 )
                 if resp.status_code != 200:
-                    print(f"  Groq {model} key…{key[-4:]} HTTP {resp.status_code}: {resp.text[:120]}")
+                    print(
+                        f"  Groq {model} key...{key[-4:]} HTTP {resp.status_code}: {resp.text[:120]}"
+                    )
                     last_err = resp.text[:120]
                     continue
                 raw = resp.json()["choices"][0]["message"]["content"]
@@ -262,7 +262,7 @@ Hard requirements:
                     last_err = "short"
                     continue
                 data["_word_count"] = body_words
-                print(f"  OK model={model} words={body_words} key…{key[-4:]}")
+                print(f"  OK model={model} words={body_words} key...{key[-4:]}")
                 return data
             except Exception as e:
                 print(f"  error {model}: {e}")
@@ -276,12 +276,13 @@ def fallback_article(trend: dict) -> dict:
     geos = ", ".join(trend.get("geos") or [trend.get("geo", "")])
     related = trend.get("related") or []
     related_bits = ". ".join(
-        f"{r.get('source') or 'Media'} reported: {r.get('title')}" for r in related[:3] if r.get("title")
+        f"{r.get('source') or 'Media'} reported: {r.get('title')}"
+        for r in related[:3]
+        if r.get("title")
     )
-    # Pad to ~500 words with structured context (honest that full AI copy failed)
     body1 = (
-        f"Searches for “{topic}” are rising across {geos or 'multiple regions'}, "
-        f"according to Google Trends signals used by SearchKaro’s daily news desk. "
+        f'Searches for "{topic}" are rising across {geos or "multiple regions"}, '
+        f"according to Google Trends signals used by SearchKaro daily news desk. "
         f"When a query climbs the daily chart, it usually means a fresh headline, "
         f"a scheduled event, a viral clip, or a policy update is pushing people to "
         f"look for context beyond a single social post. This explainer summarizes "
@@ -292,12 +293,12 @@ def fallback_article(trend: dict) -> dict:
         f"SearchKaro stores each topic page so older trends remain readable after "
         f"they leave the live list. Readers in Pakistan, India, the United States, "
         f"the United Kingdom, and Saudi Arabia often see overlapping global topics "
-        f"with local angles — sports results, entertainment releases, diplomacy, "
+        f"with local angles. Sports results, entertainment releases, diplomacy, "
         f"markets, and weather events are common drivers. Treat every secondary "
         f"repost as incomplete until you open a primary report from a named outlet."
     )
     body2 = (
-        f"Why “{topic}” appears now is usually a mix of timing and distribution. "
+        f'Why "{topic}" appears now is usually a mix of timing and distribution. '
         f"Algorithms amplify topics that already have engagement, which can make "
         f"a regional story look worldwide within hours. Check the date on every "
         f"article, the country of the reporting desk, and whether updates were "
@@ -307,12 +308,12 @@ def fallback_article(trend: dict) -> dict:
         f"For entertainment and sports, schedules and official club or studio "
         f"channels are safer than anonymous pages. For public policy, prefer "
         f"government portals and established national newspapers. "
-        f"SearchKaro’s page for this trend is designed for people who landed "
+        f"SearchKaro page for this trend is designed for people who landed "
         f"from search and need a structured overview, not a replacement for "
         f"live local reporting."
     )
     body3 = (
-        f"Background on “{topic}” may include prior seasons of the same story, "
+        f'Background on "{topic}" may include prior seasons of the same story, '
         f"rival teams or companies, or a long-running diplomatic track. "
         f"Skim a timeline of the last few days before reacting to a single clip. "
         f"Where SearchKaro lists related headlines, those titles are attributed "
@@ -324,7 +325,7 @@ def fallback_article(trend: dict) -> dict:
         f"that omit context in the first lines of a post."
     )
     body4 = (
-        f"What to do next: open two independent reports about “{topic}”, "
+        f'What to do next: open two independent reports about "{topic}", '
         f"compare the core facts, and ignore unverified forwardable messages. "
         f"If the trend is local to {geos or 'your region'}, local language "
         f"sources may publish details faster than global English pages. "
@@ -335,7 +336,7 @@ def fallback_article(trend: dict) -> dict:
         f"generation is unavailable; regenerate later for richer narrative."
     )
     body5 = (
-        f"Key takeaways for “{topic}”: the query is trending in {geos or 'listed regions'}; "
+        f'Key takeaways for "{topic}": the query is trending in {geos or "listed regions"}; '
         f"Google Trends traffic figures are estimates; related headlines are starting "
         f"points, not final truth; keep older SearchKaro news pages for history; "
         f"verify before you share. Readers looking for scholarships, jobs, courses, "
@@ -344,9 +345,15 @@ def fallback_article(trend: dict) -> dict:
     )
     return {
         "title": f"{topic.title()}: why this search is trending today",
-        "meta_description": f"What to know about trending search “{topic}” in {geos}. Context, related headlines, and how to verify updates."[:160],
+        "meta_description": (
+            f'What to know about trending search "{topic}" in {geos}. '
+            f"Context, related headlines, and how to verify updates."
+        )[:160],
         "keywords": [topic, f"{topic} news", "google trends", geos, "trending today"],
-        "excerpt": f“People are searching for {topic} in {geos}. Here is a structured overview and how to verify the story.”,
+        "excerpt": (
+            f"People are searching for {topic} in {geos}. "
+            f"Here is a structured overview and how to verify the story."
+        ),
         "sections": [
             {"heading": "What is happening", "body": body1},
             {"heading": "Why people are searching this now", "body": body2},
@@ -368,7 +375,6 @@ def render_article(meta: dict, content: dict) -> str:
     geos = html.escape(", ".join(meta.get("geos") or []))
     traffic = html.escape(meta.get("traffic") or "")
     picture = html.escape(meta.get("picture") or "")
-    slug = html.escape(meta.get("slug") or "")
     canonical = f"https://searchkaro.online/news/p/{meta.get('slug')}.html"
 
     parts = []
@@ -387,13 +393,12 @@ def render_article(meta: dict, content: dict) -> str:
                 continue
             src = html.escape(r.get("source") or "Source")
             tt = html.escape(r.get("title") or "")
-            # do not deep-link aggressively; show attributed titles only for safety/SEO
             lis.append(f"<li><strong>{src}:</strong> {tt}</li>")
         if lis:
             related_html = (
                 "<h2>Related headlines (third-party)</h2><ul>"
                 + "".join(lis)
-                + "</ul><p class=\"note\">Headlines are attributed for context. Verify on the publisher’s site.</p>"
+                + '</ul><p class="note">Headlines are attributed for context. Verify on the publisher site.</p>'
             )
 
     img_block = (
@@ -484,100 +489,6 @@ def render_article(meta: dict, content: dict) -> str:
 """
 
 
-def main() -> None:
-    keys = news_api_keys()
-    if not keys:
-        print("ERROR: set GitHub secrets NEW1 and/or NEW2 (Groq keys for news)")
-    else:
-        print(f"News Groq keys available: {len(keys)}")
-
-    max_new = int(os.getenv("NEWS_PER_RUN", "10"))
-    trends = fetch_all_trends()
-    print(f"Unique trends collected: {len(trends)}")
-
-    existing = {"items": []}
-    if OUT_JSON.exists():
-        try:
-            existing = json.loads(OUT_JSON.read_text(encoding="utf-8"))
-        except Exception:
-            existing = {"items": []}
-
-    by_slug = {i.get("slug"): i for i in (existing.get("items") or []) if i.get("slug")}
-    existing_topics = {i.get("topic", "").lower() for i in by_slug.values()}
-    # also skip same topic published today
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    today_pkt = datetime.now(ZoneInfo("Asia/Karachi")).strftime("%Y-%m-%d %I:%M %p PKT")
-
-    created = 0
-    for trend in trends:
-        if created >= max_new:
-            break
-        topic_key = (trend.get("topic") or "").lower().strip()
-        if not topic_key or topic_key in existing_topics:
-            continue
-
-        print(f"Article {created+1}/{max_new}: {trend.get('topic')} ({','.join(trend.get('geos') or [])})")
-        content = None
-        if keys:
-            content = groq_news_article(trend, keys)
-        if content is None:
-            content = fallback_article(trend)
-
-        title = (content.get("title") or trend["topic"]).strip()
-        slug = slugify(title)
-        if slug in by_slug:
-            slug = f"{slug}-{today.replace('-', '')}"
-
-        meta = {
-            "title": title,
-            "slug": slug,
-            "topic": trend.get("topic"),
-            "date": today,
-            "date_pkt": today_pkt,
-            "excerpt": (content.get("excerpt") or "")[:240],
-            "meta_description": (content.get("meta_description") or "")[:160],
-            "keywords": list(content.get("keywords") or [])[:12],
-            "geos": trend.get("geos") or [trend.get("geo")],
-            "traffic": trend.get("traffic") or "",
-            "picture": trend.get("picture") or "",
-            "related": trend.get("related") or [],
-            "word_count": content.get("_word_count") or 0,
-            "page": f"p/{slug}.html",
-        }
-
-        PAGES_DIR.mkdir(parents=True, exist_ok=True)
-        (PAGES_DIR / f"{slug}.html").write_text(
-            render_article(meta, content), encoding="utf-8"
-        )
-        by_slug[slug] = meta
-        existing_topics.add(topic_key)
-        created += 1
-        print(f"  wrote news/p/{slug}.html ({meta['word_count']} words)")
-        time.sleep(0.8)
-
-    # Keep old items; sort newest first; soft-cap index only (HTML never deleted)
-    items = list(by_slug.values())
-    items.sort(key=lambda x: (x.get("date") or "", x.get("title") or ""), reverse=True)
-    max_keep = int(os.getenv("NEWS_MAX_KEEP", "500"))
-    if len(items) > max_keep:
-        items = items[:max_keep]
-
-    payload = {
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "updated_at_pkt": today_pkt,
-        "count": len(items),
-        "new_in_this_run": created,
-        "sources": [u for _, u in FEEDS],
-        "items": items,
-    }
-    OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
-    OUT_JSON.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Catalog {len(items)} articles → {OUT_JSON} (new={created})")
-
-    # Hub index page
-    write_news_index(payload)
-
-
 def write_news_index(payload: dict) -> None:
     NEWS_DIR.mkdir(parents=True, exist_ok=True)
     items = payload.get("items") or []
@@ -657,6 +568,99 @@ def write_news_index(payload: dict) -> None:
 """
     (NEWS_DIR / "index.html").write_text(page, encoding="utf-8")
     print(f"Wrote {NEWS_DIR / 'index.html'}")
+
+
+def main() -> None:
+    keys = news_api_keys()
+    if not keys:
+        print("ERROR: set GitHub secrets NEW1 and/or NEW2 (Groq keys for news)")
+    else:
+        print(f"News Groq keys available: {len(keys)}")
+
+    max_new = int(os.getenv("NEWS_PER_RUN", "10"))
+    trends = fetch_all_trends()
+    print(f"Unique trends collected: {len(trends)}")
+
+    existing = {"items": []}
+    if OUT_JSON.exists():
+        try:
+            existing = json.loads(OUT_JSON.read_text(encoding="utf-8"))
+        except Exception:
+            existing = {"items": []}
+
+    by_slug = {i.get("slug"): i for i in (existing.get("items") or []) if i.get("slug")}
+    existing_topics = {i.get("topic", "").lower() for i in by_slug.values()}
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    today_pkt = datetime.now(ZoneInfo("Asia/Karachi")).strftime("%Y-%m-%d %I:%M %p PKT")
+
+    created = 0
+    for trend in trends:
+        if created >= max_new:
+            break
+        topic_key = (trend.get("topic") or "").lower().strip()
+        if not topic_key or topic_key in existing_topics:
+            continue
+
+        print(
+            f"Article {created+1}/{max_new}: {trend.get('topic')} "
+            f"({','.join(trend.get('geos') or [])})"
+        )
+        content = None
+        if keys:
+            content = groq_news_article(trend, keys)
+        if content is None:
+            content = fallback_article(trend)
+
+        title = (content.get("title") or trend["topic"]).strip()
+        slug = slugify(title)
+        if slug in by_slug:
+            slug = f"{slug}-{today.replace('-', '')}"
+
+        meta = {
+            "title": title,
+            "slug": slug,
+            "topic": trend.get("topic"),
+            "date": today,
+            "date_pkt": today_pkt,
+            "excerpt": (content.get("excerpt") or "")[:240],
+            "meta_description": (content.get("meta_description") or "")[:160],
+            "keywords": list(content.get("keywords") or [])[:12],
+            "geos": trend.get("geos") or [trend.get("geo")],
+            "traffic": trend.get("traffic") or "",
+            "picture": trend.get("picture") or "",
+            "related": trend.get("related") or [],
+            "word_count": content.get("_word_count") or 0,
+            "page": f"p/{slug}.html",
+        }
+
+        PAGES_DIR.mkdir(parents=True, exist_ok=True)
+        (PAGES_DIR / f"{slug}.html").write_text(
+            render_article(meta, content), encoding="utf-8"
+        )
+        by_slug[slug] = meta
+        existing_topics.add(topic_key)
+        created += 1
+        print(f"  wrote news/p/{slug}.html ({meta['word_count']} words)")
+        time.sleep(0.8)
+
+    items = list(by_slug.values())
+    items.sort(key=lambda x: (x.get("date") or "", x.get("title") or ""), reverse=True)
+    max_keep = int(os.getenv("NEWS_MAX_KEEP", "500"))
+    if len(items) > max_keep:
+        items = items[:max_keep]
+
+    payload = {
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "updated_at_pkt": today_pkt,
+        "count": len(items),
+        "new_in_this_run": created,
+        "sources": [u for _, u in FEEDS],
+        "items": items,
+    }
+    OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
+    OUT_JSON.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"Catalog {len(items)} articles → {OUT_JSON} (new={created})")
+    write_news_index(payload)
 
 
 if __name__ == "__main__":
