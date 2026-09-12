@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Time Calculator — Duration Between Dates & Times | SearchKaro</title>
+  <meta name="description" content="Free time calculator. Find the duration between two dates and times, or add hours and minutes to a start time." />
+  <meta name="keywords" content="time calculator, duration calculator, time difference calculator, add time calculator, hours minutes calculator" />
+  <link rel="canonical" href="https://searchkaro.online/calculators/time.html" />
+  <link rel="icon" href="https://searchkaro.online/assets/favicon.svg" type="image/svg+xml" />
+  <meta property="og:title" content="Time Calculator | SearchKaro" />
+  <meta property="og:description" content="Calculate time duration between two moments or add hours and minutes." />
+  <meta property="og:url" content="https://searchkaro.online/calculators/time.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <link rel="stylesheet" href="../assets/calculators.css" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"Time Calculator","url":"https://searchkaro.online/calculators/time.html","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Search<span>Karo</span></a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Calculators</a>
+        <a href="../courses/">Courses</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <div class="page-head">
+      <p class="eyebrow"><a href="./">Calculators</a> · Time</p>
+      <h1>Time calculator</h1>
+      <p class="sub">Measure duration between two date-times, or add hours and minutes to a start time.</p>
+    </div>
+    <div class="calc-layout">
+      <div class="calc-card">
+        <h2>Duration between two times</h2>
+        <div class="calc-field">
+          <label for="start">Start</label>
+          <input id="start" type="datetime-local" />
+        </div>
+        <div class="calc-field">
+          <label for="end">End</label>
+          <input id="end" type="datetime-local" />
+        </div>
+        <div class="calc-actions">
+          <button class="btn green" type="button" id="diffBtn">Calculate duration</button>
+        </div>
+        <hr style="border:none;border-top:1px solid var(--line);margin:18px 0" />
+        <h2>Add time</h2>
+        <div class="calc-field">
+          <label for="base">Start time</label>
+          <input id="base" type="datetime-local" />
+        </div>
+        <div class="calc-row">
+          <div class="calc-field">
+            <label for="addH">Hours to add</label>
+            <input id="addH" type="number" value="2" />
+          </div>
+          <div class="calc-field">
+            <label for="addM">Minutes to add</label>
+            <input id="addM" type="number" value="30" />
+          </div>
+        </div>
+        <div class="calc-actions">
+          <button class="btn primary" type="button" id="addBtn">Add time</button>
+        </div>
+      </div>
+      <div class="calc-result-card" id="result">
+        <h2>Results</h2>
+        <p class="muted">Choose dates/times and calculate.</p>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="container"><p><a href="./">All calculators</a></p></div></footer>
+  <script>
+    const now = new Date();
+    const pad = n => String(n).padStart(2,'0');
+    const localVal = d => `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}`;
+    document.getElementById('start').value = localVal(now);
+    const later = new Date(now.getTime() + 90*60000);
+    document.getElementById('end').value = localVal(later);
+    document.getElementById('base').value = localVal(now);
+    const box = document.getElementById('result');
+    function showDiff() {
+      const a = new Date(document.getElementById('start').value);
+      const b = new Date(document.getElementById('end').value);
+      if (isNaN(a) || isNaN(b)) { box.innerHTML = '<h2>Results</h2><p>Invalid date/time.</p>'; return; }
+      let ms = Math.abs(b - a);
+      const sign = b >= a ? '' : '−';
+      const days = Math.floor(ms / 86400000); ms %= 86400000;
+      const hours = Math.floor(ms / 3600000); ms %= 3600000;
+      const mins = Math.floor(ms / 60000);
+      const secs = Math.floor((ms % 60000) / 1000);
+      const totalHours = (Math.abs(b - a) / 3600000).toFixed(2);
+      box.innerHTML = `
+        <h2>Duration</h2>
+        <div class="big">${sign}${days}d ${hours}h ${mins}m</div>
+        <table>
+          <tr><td>Days</td><td>${sign}${days}</td></tr>
+          <tr><td>Hours</td><td>${sign}${hours}</td></tr>
+          <tr><td>Minutes</td><td>${sign}${mins}</td></tr>
+          <tr><td>Seconds</td><td>${sign}${secs}</td></tr>
+          <tr><td>Total hours</td><td>${sign}${totalHours}</td></tr>
+        </table>`;
+    }
+    function showAdd() {
+      const base = new Date(document.getElementById('base').value);
+      const h = parseFloat(document.getElementById('addH').value) || 0;
+      const m = parseFloat(document.getElementById('addM').value) || 0;
+      if (isNaN(base)) { box.innerHTML = '<h2>Results</h2><p>Invalid start time.</p>'; return; }
+      const out = new Date(base.getTime() + (h * 60 + m) * 60000);
+      box.innerHTML = `
+        <h2>New time</h2>
+        <div class="big">${out.toLocaleString()}</div>
+        <table>
+          <tr><td>Started</td><td>${base.toLocaleString()}</td></tr>
+          <tr><td>Added</td><td>${h} hours, ${m} minutes</td></tr>
+          <tr><td>Result</td><td>${out.toLocaleString()}</td></tr>
+        </table>`;
+    }
+    document.getElementById('diffBtn').onclick = showDiff;
+    document.getElementById('addBtn').onclick = showAdd;
+    showDiff();
+  </script>
+</body>
+</html>
