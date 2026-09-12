@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Age Calculator — Exact Years, Months & Days | SearchKaro</title>
+  <meta name="description" content="Free age calculator. Find exact age in years, months, and days from date of birth. Also see next birthday countdown." />
+  <meta name="keywords" content="age calculator, calculate age, exact age calculator, date of birth calculator, how old am I" />
+  <link rel="canonical" href="https://searchkaro.online/calculators/age.html" />
+  <link rel="icon" href="https://searchkaro.online/assets/favicon.svg" type="image/svg+xml" />
+  <meta property="og:title" content="Age Calculator | SearchKaro" />
+  <meta property="og:description" content="Calculate exact age in years, months, and days from your date of birth." />
+  <meta property="og:url" content="https://searchkaro.online/calculators/age.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <link rel="stylesheet" href="../assets/calculators.css" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"Age Calculator","url":"https://searchkaro.online/calculators/age.html","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Search<span>Karo</span></a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Calculators</a>
+        <a href="../courses/">Courses</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <div class="page-head">
+      <p class="eyebrow"><a href="./">Calculators</a> · Age</p>
+      <h1>Age calculator</h1>
+      <p class="sub">Find your exact age in years, months, and days. See total days lived and days until your next birthday.</p>
+    </div>
+    <div class="calc-layout">
+      <div class="calc-card">
+        <h2>Date of birth</h2>
+        <div class="calc-field">
+          <label for="dob">Birth date</label>
+          <input id="dob" type="date" />
+        </div>
+        <div class="calc-field">
+          <label for="asOf">Age as of (optional)</label>
+          <input id="asOf" type="date" />
+          <span class="hint">Defaults to today</span>
+        </div>
+        <div class="calc-actions">
+          <button class="btn green" type="button" id="calcBtn">Calculate age</button>
+        </div>
+      </div>
+      <div class="calc-result-card" id="result">
+        <h2>Results</h2>
+        <p class="muted">Select a birth date to calculate.</p>
+      </div>
+    </div>
+    <p class="calc-note">For personal reference only.</p>
+  </main>
+  <footer class="site-footer"><div class="container"><p><a href="./">All calculators</a></p></div></footer>
+  <script>
+    const dob = document.getElementById('dob');
+    const asOf = document.getElementById('asOf');
+    const today = new Date();
+    asOf.value = today.toISOString().slice(0, 10);
+    function diffYMD(start, end) {
+      let y = end.getFullYear() - start.getFullYear();
+      let m = end.getMonth() - start.getMonth();
+      let d = end.getDate() - start.getDate();
+      if (d < 0) {
+        m -= 1;
+        const prev = new Date(end.getFullYear(), end.getMonth(), 0);
+        d += prev.getDate();
+      }
+      if (m < 0) { y -= 1; m += 12; }
+      return { y, m, d };
+    }
+    function calculate() {
+      const box = document.getElementById('result');
+      if (!dob.value) {
+        box.innerHTML = '<h2>Results</h2><p>Please select a birth date.</p>';
+        return;
+      }
+      const start = new Date(dob.value + 'T00:00:00');
+      const end = new Date((asOf.value || today.toISOString().slice(0,10)) + 'T00:00:00');
+      if (end < start) {
+        box.innerHTML = '<h2>Results</h2><p>As-of date must be after birth date.</p>';
+        return;
+      }
+      const { y, m, d } = diffYMD(start, end);
+      const totalDays = Math.floor((end - start) / 86400000);
+      let next = new Date(end.getFullYear(), start.getMonth(), start.getDate());
+      if (next <= end) next = new Date(end.getFullYear() + 1, start.getMonth(), start.getDate());
+      const until = Math.ceil((next - end) / 86400000);
+      box.innerHTML = `
+        <h2>Results</h2>
+        <div class="big">${y} years</div>
+        <table>
+          <tr><td>Exact age</td><td>${y} years, ${m} months, ${d} days</td></tr>
+          <tr><td>Total days lived</td><td>${totalDays.toLocaleString()}</td></tr>
+          <tr><td>Next birthday in</td><td>${until} days</td></tr>
+        </table>`;
+    }
+    document.getElementById('calcBtn').onclick = calculate;
+    dob.addEventListener('change', calculate);
+    asOf.addEventListener('change', calculate);
+  </script>
+</body>
+</html>
