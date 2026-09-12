@@ -36,9 +36,19 @@
   <url><loc>https://searchkaro.online/blog/send-json-array-via-postman-formdata-for-joi-validation.html</loc></url>
   <url><loc>https://searchkaro.online/blog/set-default-json-value-in-laravel-migration-mysql-80.html</loc></url>
   <url><loc>https://searchkaro.online/blog/switch-multiple-python-versions-on-macos-with-homebrew-pyenv.html</loc></url>
+  <url><loc>https://searchkaro.online/calculators/age.html</loc></url>
+  <url><loc>https://searchkaro.online/calculators/bmi.html</loc></url>
+  <url><loc>https://searchkaro.online/calculators/</loc></url>
+  <url><loc>https://searchkaro.online/calculators/loan.html</loc></url>
+  <url><loc>https://searchkaro.online/calculators/pregnancy.html</loc></url>
+  <url><loc>https://searchkaro.online/calculators/time.html</loc></url>
   <url><loc>https://searchkaro.online/contact.html</loc></url>
   <url><loc>https://searchkaro.online/courses/enroll-guide.html</loc></url>
   <url><loc>https://searchkaro.online/courses/</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/1020-da0-002-comptia-data-exam-style-practice-questions.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/1020-issep-practice-questions-isc2-certification-prep-2026.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/1020-issmp-practice-questions-isc2-certification-prep2026.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/1500-issap-practice-questions-isc2-certification-prep-2026.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/350-azure-interview-questions-practice-test.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/350-devops-interview-questions-practice-test-2026.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/400-power-bi-interview-questions-practice-test-2026.html</loc></url>
@@ -46,22 +56,56 @@
   <url><loc>https://searchkaro.online/courses/p/550-unix-interview-questions-practice-test-2026.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/600-html-interview-questions-practice-test-2026.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/600-multithreading-interview-questions-practice-test-2026.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/ab-100-microsoft-agentic-ai-business-solutions-architect.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/ab-730-microsoft-ai-business-professional-practice-exams.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/ab-731-microsoft-ai-transformation-leader-practice-exams.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/ab-900-microsoft-copilot-agent-administrator-fundamentals.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/adobe-illustrator-essentials-design-like-a-pro-in-days.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/advance-ms-excel-vba-for-beginner-to-advanced.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/advanced-ms-word-excel-powerpoint-course-for-job-success.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/ahima-chda-certification-practice-tests-2026.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/artificial-intelligence-general-practice-tests.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/aws-cloud-practitioner-practice-exam-2026-clf-c02.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/aws-generative-ai-developer-professional-aip-c01-test-exams.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/c-c-and-php-comprehensive-programming-bootcamp.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/canva-for-social-media-zero-to-hero-graphic-design-in-canva.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/capcut-video-edit-with-ai-chatgpt-and-motion-cinematography.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/cc-practice-exams-2026-isc2-certified-in-cybersecurity.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/ccsp-practice-exams-2026-isc2-cloud-security-professional.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/certified-information-systems-auditor-cisa-mock-exams-2026.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/certified-infra-ai-expert-end-to-end-gpu-accelerated-ai.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/cgrc-practice-exams-isc2-governance-risk-compliance-2026.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/cidpro-exam-prep-2026-practice-tests.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/cisco-ccna-it-networking-master-mock-exams.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/cism-practice-tests-2026-pass-the-cism-exam-with-confidence.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/cloud-computing-foundations-general-practice-tests.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/complete-python-course-2026-beginner-to-advanced.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/complete-uiux-design-with-canva---design-smart-interface.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/comptia-pentest-practice-test-prepare-for-the-pt0-002-exam.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/cs0-004-comptia-cysa-cybersecurity-analyst-practice-exams.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/csslp-practice-exams-2026-isc2-certification-prep.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/cybersecurity-101-foundations-for-absolute-beginners.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/databricks-data-analyst-assoc-full-6-practice-tests-2026.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/databricks-spark-developer-associate-1500-exam-questions.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/es-desarrollo-ia-y-python-megaclase-con-300-proyectos.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/es-ia-full-stack-con-ollama-llama-deepseek-mistral-qwq.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/essential-adobe-lightroom-course-for-photo-editing.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/faa-part-107-drone-pilot-practice-test-2026.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/fr-ia-full-stack-avec-ollama-llama-deepseek-mistral.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/gcp-associate-cloud-engineer-practice-exams-2026.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/gcp-associate-data-practitioner-practice-exams-2026.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/gcp-associate-google-workspace-administrator-practice-exams.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/gcp-cloud-digital-leader-practice-exams-2026.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/gcp-professional-cloud-developer-practice-exams-2026.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/gcp-professional-cloud-devops-engineer-practice-exams-2026.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/gcp-professional-cloud-network-engineer-practice-exams-2026.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/gcp-professional-data-engineer-practice-exams-2026.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/gcp-professional-machine-learning-engineer-practice-exams.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/google-cloud-professional-cloud-architect-practice-exam-2026.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/google-slides-full-guide-to-creating-impactful-presentation.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/hashicorp-vault-associate-practice-tests-2026.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/human-resources-hr-master-mock-exams-shrmphr.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/ic2-systems-security-certified-practitioner-sscp-test-exam.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/java-programming-masterclass-from-beginner-to-expert.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/javascript-jquery-typescript-full-stack-web-development.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/master-data-analysis-with-python---from-beginner-to-pro.html</loc></url>
@@ -69,9 +113,15 @@
   <url><loc>https://searchkaro.online/courses/p/mastering-excel-data-visualization-with-design-chart-graph.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/mastering-mysql-database-creation-management-sql-queries.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/md-102-microsoft-modern-desktop-1500-exam-questions.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/microsoft-azure-architecture-master-mock-exams.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/microsoft-excel-mastering-data-analysis-with-pivot-table.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/nl-full-stack-ai-met-ollama-llama-deepseek-mistral-qwq.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/nutrition-masterclass-fat-loss-muscle-building.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/pass-aws-aip-c01-fast-ai-practitioner-practice-tests-2026.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/pass-aws-security-scs-c03-fast-6-full-practice-exams-2026.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/past-consul-associate-exam-prep-fast---practice-tests-2026.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/php-with-mysql-build-a-complete-job-portal.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/php-with-mysql-build-complete-tours-and-travel-website.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/pmi-sp-exam-prep-2026-practice-tests.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/practice-exams-2026-for-togaf-10-enterprise-architecture.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/practice-test-for-aigp-ai-governance-professional-exam-prep.html</loc></url>
@@ -82,13 +132,19 @@
   <url><loc>https://searchkaro.online/courses/p/python-programming-build-a-strong-foundation-in-coding.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/reactjs-complete-guide-build-interactive-web-applications.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/salesforce-fundamentals-a-complete-guide-for-beginners.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/sc-200-microsoft-security-operations-analyst-practice-exams.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/sc-300-microsoft-identity-and-access-admin-practice-exams.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/sc-900-practice-exams-security-compliance-identity-2026.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/snowpro-core-certification-cof-c03-1500-exam-questions.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/start-your-project-management-career-an-honest-roadmap.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/terraform-associate-exam-prep-practice-tests-2026.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/the-complete-microsoft-excel-course-beginner-to-advanced.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/tr-ollama-ile-yapay-zeka-llama-deepseek-mistral-qwq.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/ultimate-youtube-blueprint-proven-tactics-channel-success.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/video-editing-with-chatgpt-adobe-premiere-pro-canva-capcut.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/word---microsoft-word-from-basic-to-advanced.html</loc></url>
   <url><loc>https://searchkaro.online/courses/p/wordpress-website-practice-test-build-test-your-skills.html</loc></url>
+  <url><loc>https://searchkaro.online/courses/p/xk0-006-comptia-linux-practice-exams-2026.html</loc></url>
   <url><loc>https://searchkaro.online/jobs/</loc></url>
   <url><loc>https://searchkaro.online/jobs/p/account-executive-canada-enterprise.html</loc></url>
   <url><loc>https://searchkaro.online/jobs/p/account-manager-global-opportunities-at-workwhile.html</loc></url>
