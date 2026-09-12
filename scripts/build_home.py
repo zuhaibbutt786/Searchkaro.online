@@ -36,11 +36,13 @@ def main() -> None:
     courses = load(ROOT / "data" / "courses.json", {"courses": []}).get("courses") or []
     scholarships = load(ROOT / "data" / "scholarships.json", {"items": []}).get("items") or []
     jobs = load(ROOT / "data" / "jobs.json", {"items": []}).get("items") or []
+    news = load(ROOT / "data" / "news.json", {"items": []}).get("items") or []
 
     posts = sorted(posts, key=lambda p: p.get("date", ""), reverse=True)[:6]
     courses = courses[:6]
     scholarships = scholarships[:6]
     jobs = jobs[:6]
+    news = news[:6]
 
     post_cards = []
     for p in posts:
@@ -50,6 +52,17 @@ def main() -> None:
   <h3><a href="blog/{html.escape(p.get('slug',''))}.html">{html.escape(p.get('title',''))}</a></h3>
   <p class="excerpt">{html.escape((p.get('excerpt') or '')[:160])}</p>
   <p class="date">{html.escape(p.get('date') or '')}</p>
+</article>"""
+        )
+
+    news_cards = []
+    for n in news:
+        news_cards.append(
+            f"""<article class="card list-card">
+  <span class="tag">News</span>
+  <h3><a href="news/{html.escape(n.get('page') or '')}">{html.escape(n.get('title') or '')}</a></h3>
+  <p class="excerpt">{html.escape((n.get('excerpt') or '')[:160])}</p>
+  <p class="date">{html.escape(n.get('date_pkt') or n.get('date') or '')}</p>
 </article>"""
         )
 
@@ -88,7 +101,7 @@ def main() -> None:
         "@type": "WebSite",
         "name": "SearchKaro",
         "url": f"{SITE}/",
-        "description": "Fully funded MS PhD scholarships, jobs in Pakistan and Europe, HEC university rankings, free Udemy courses, calculators, and tech guides for students in Pakistan and India.",
+        "description": "Fully funded MS PhD scholarships, jobs in Pakistan and Europe, HEC university rankings, free Udemy courses, trending news, calculators, and tech guides for students in Pakistan and India.",
         "publisher": {
             "@type": "Organization",
             "name": "SearchKaro",
@@ -108,35 +121,21 @@ def main() -> None:
   <meta charset="UTF-8" />
 {GTAG}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SearchKaro — Scholarships, Jobs Pakistan & Europe, Universities, Free Courses</title>
-  <meta name="description" content="Fully funded MS & PhD scholarships, jobs in Pakistan and Europe, HEC & world university rankings, free Udemy coupons, online calculators, and tech articles for students in Pakistan, India, and worldwide." />
-  <meta name="keywords" content="fully funded ms scholarship, phd scholarship pakistan, scholarships for indian students, jobs in pakistan, europe software jobs, hec ranking, best universities pakistan, free udemy courses, loan calculator, BMI calculator, age calculator, study abroad" />
+  <title>SearchKaro — Scholarships, Jobs, Trending News, Universities, Free Courses</title>
+  <meta name="description" content="Fully funded MS & PhD scholarships, jobs in Pakistan and Europe, trending news, HEC rankings, free Udemy coupons, online calculators, and tech articles for Pakistan, India, and worldwide." />
+  <meta name="keywords" content="fully funded ms scholarship, phd scholarship pakistan, trending news, google trends pakistan, jobs in pakistan, free udemy courses, loan calculator, BMI calculator" />
   <meta name="robots" content="index,follow,max-image-preview:large" />
   <link rel="canonical" href="{SITE}/" />
-  <!-- Brand icons / favicon SEO -->
   <link rel="icon" href="{SITE}/assets/favicon.svg" type="image/svg+xml" />
-  <link rel="icon" href="{SITE}/assets/favicon.svg" sizes="any" />
   <link rel="apple-touch-icon" href="{SITE}/assets/favicon.svg" />
-  <link rel="mask-icon" href="{SITE}/assets/favicon.svg" color="#0f4c5c" />
   <link rel="manifest" href="{SITE}/site.webmanifest" />
   <meta name="theme-color" content="#0f4c5c" />
-  <meta name="msapplication-TileColor" content="#0f4c5c" />
-  <meta name="application-name" content="SearchKaro" />
-  <meta name="apple-mobile-web-app-title" content="SearchKaro" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <!-- Open Graph / social preview -->
   <meta property="og:site_name" content="SearchKaro" />
-  <meta property="og:title" content="SearchKaro — Scholarships, Jobs, Universities" />
-  <meta property="og:description" content="MS/PhD scholarships, Pakistan & Europe jobs, university rankings, free courses, calculators." />
+  <meta property="og:title" content="SearchKaro — Scholarships, Jobs, News" />
+  <meta property="og:description" content="MS/PhD scholarships, jobs, trending news, universities, free courses, calculators." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{SITE}/" />
   <meta property="og:image" content="{SITE}/assets/logo.svg" />
-  <meta property="og:image:alt" content="SearchKaro logo — find scholarships, jobs and free courses" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="SearchKaro — Scholarships, Jobs, Universities" />
-  <meta name="twitter:description" content="MS/PhD scholarships, Pakistan & Europe jobs, university rankings, free courses." />
-  <meta name="twitter:image" content="{SITE}/assets/logo.svg" />
-  <meta name="twitter:image:alt" content="SearchKaro logo" />
   <link rel="stylesheet" href="assets/style.css" />
   <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>
 </head>
@@ -150,6 +149,7 @@ def main() -> None:
       <button class="nav-toggle" aria-label="Menu" onclick="document.body.classList.toggle('nav-open')">☰</button>
       <nav>
         <a href="index.html" class="active">Home</a>
+        <a href="news/">News</a>
         <a href="calculators/">Calculators</a>
         <a href="scholarships/">Scholarships</a>
         <a href="jobs/">Jobs</a>
@@ -163,20 +163,25 @@ def main() -> None:
   <section class="hero">
     <div class="container">
       <p class="eyebrow">Updated {updated} · Pakistan · India · Worldwide</p>
-      <h1>Scholarships, jobs, university rankings & free courses</h1>
+      <h1>Scholarships, jobs, trending news & free courses</h1>
       <p class="lead">
-        Search high-intent opportunities: fully funded <strong>MS & PhD scholarships</strong>,
-        <strong>jobs in Pakistan & Europe</strong>, <strong>HEC and world university lists</strong>,
-        free Udemy coupons, and useful <strong>online calculators</strong> — written for mobile and desktop.
+        Fully funded <strong>MS & PhD scholarships</strong>,
+        <strong>jobs in Pakistan & Europe</strong>, daily <strong>trending news</strong>,
+        university rankings, free Udemy coupons, and online calculators.
       </p>
       <div class="hero-actions">
         <a class="btn green" href="scholarships/">MS & PhD scholarships</a>
-        <a class="btn primary" href="jobs/">Jobs Pakistan / Europe</a>
-        <a class="btn secondary" href="universities/">University rankings</a>
+        <a class="btn primary" href="news/">Trending news</a>
+        <a class="btn secondary" href="jobs/">Jobs Pakistan / Europe</a>
         <a class="btn secondary" href="courses/">Free course coupons</a>
         <a class="btn secondary" href="calculators/">Free calculators</a>
       </div>
     </div>
+  </section>
+
+  <section class="container section">
+    <div class="section-head"><h2>Trending news</h2><a href="news/">All →</a></div>
+    <div class="home-grid">{''.join(news_cards) or '<p class="empty">News publishes daily from Google Trends (PK, IN, US, GB, SA).</p>'}</div>
   </section>
 
   <section class="container section dual">
@@ -207,24 +212,23 @@ def main() -> None:
 
   <section class="container section">
     <div class="section-head"><h2>Recent articles</h2><a href="blog/">All →</a></div>
-    <div class="home-grid">{''.join(post_cards) or '<p class="empty">Articles publish daily.</p>'}</div>
+    <div class="home-grid">{''.join(post_cards) or '<p class="empty">Articles publish weekly.</p>'}</div>
   </section>
 
   <section class="container section faq-home">
     <h2>People also ask</h2>
-    <details open><summary>Where can I find fully funded MS and PhD scholarships?</summary><p>Open our <a href="scholarships/">scholarships</a> section. Each listing has eligibility, steps, and a link to the official page.</p></details>
-    <details><summary>How do I find jobs in Pakistan or Europe?</summary><p>Use the <a href="jobs/">jobs</a> page filters for Pakistan, Europe, or remote roles.</p></details>
-    <details><summary>What is HEC ranking?</summary><p>HEC publishes category rankings for Pakistani universities. See our <a href="universities/pakistan.html">Pakistan universities</a> guide and verify on hec.gov.pk.</p></details>
-    <details><summary>Do you have free calculators?</summary><p>Yes — <a href="calculators/">loan EMI, age, BMI, time, and pregnancy due date</a> calculators.</p></details>
+    <details open><summary>Where can I find fully funded MS and PhD scholarships?</summary><p>Open our <a href="scholarships/">scholarships</a> section.</p></details>
+    <details><summary>Where is trending news?</summary><p>See <a href="news/">Trending news</a> — daily Google Trends topics from PK, IN, US, GB, and SA.</p></details>
+    <details><summary>Do you have free calculators?</summary><p>Yes — <a href="calculators/">loan, age, BMI, time, pregnancy</a>.</p></details>
   </section>
 
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div><strong>SearchKaro</strong><p class="muted">Scholarships, jobs, universities, calculators & free learning for Pakistan, India, and the world.</p></div>
+      <div><strong>SearchKaro</strong><p class="muted">Scholarships, jobs, news, universities, calculators & free learning.</p></div>
       <div><a href="about.html">About</a><br /><a href="contact.html">Contact</a><br /><a href="privacy.html">Privacy</a></div>
-      <div><a href="calculators/">Calculators</a><br /><a href="scholarships/">Scholarships</a><br /><a href="jobs/">Jobs</a><br /><a href="universities/">Universities</a></div>
+      <div><a href="news/">News</a><br /><a href="calculators/">Calculators</a><br /><a href="scholarships/">Scholarships</a><br /><a href="courses/">Courses</a></div>
     </div>
-    <div class="container"><p class="muted">© <span id="y"></span> SearchKaro · Verify all deadlines on official sites.</p></div>
+    <div class="container"><p class="muted">© <span id="y"></span> SearchKaro · Verify deadlines on official sites.</p></div>
   </footer>
   <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
 </body>
