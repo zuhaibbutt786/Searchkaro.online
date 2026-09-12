@@ -3,12 +3,12 @@
 Fetch Google Trends RSS (PK, US, GB, IN, SA), expand each trend into a
 long-form SEO news article via dedicated Groq keys NEW1 / NEW2, keep history.
 
-Trends are interleaved by country so the daily quota is shared fairly
-(not filled only by Pakistan).
+Takes top NEWS_PER_GEO (default 6) trends from EVERY country.
 
 Env:
-  NEW1, NEW2          — Groq API keys for news only (also accepts new1/new2)
-  NEWS_PER_RUN        — max new articles per day (default 15; round-robin across geos)
+  NEW1, NEW2          — Groq API keys for news only
+  NEWS_PER_GEO        — top N trends per country (default 6)
+  NEWS_PER_RUN        — hard max new articles (default 30 = 6 x 5 countries)
   NEWS_MAX_KEEP       — max entries in data/news.json index (default 500)
   SITE_BASE_URL       — canonical site (default https://searchkaro.online)
 """
@@ -133,7 +133,7 @@ def parse_feed(xml_text: str, geo: str) -> list[dict]:
 
 
 def fetch_all_trends() -> list[dict]:
-    """Fetch all geos, then interleave so PK/IN/US/GB/SA share the daily quota."""
+    """Fetch all geos; take top NEWS_PER_GEO from each country."""
     by_geo: dict[str, list[dict]] = {}
     for geo, url in FEEDS:
         print(f"Feed {geo}: {url}")
@@ -151,29 +151,32 @@ def fetch_all_trends() -> list[dict]:
             by_geo[geo] = []
         time.sleep(0.6)
 
-    # Round-robin: 1st from PK, IN, US, GB, SA, then 2nd from each, ...
-    interleaved: list[dict] = []
+    # Top N from every country (default 6 each)
+    per_geo = int(os.getenv("NEWS_PER_GEO", "6"))
+    selected: list[dict] = []
     seen: set[str] = set()
-    max_len = max((len(v) for v in by_geo.values()), default=0)
-    for i in range(max_len):
-        for geo, _url in FEEDS:
-            items = by_geo.get(geo) or []
-            if i >= len(items):
-                continue
-            it = dict(items[i])
+    counts: dict[str, int] = {}
+    for geo, _url in FEEDS:
+        taken = 0
+        for it0 in by_geo.get(geo) or []:
+            if taken >= per_geo:
+                break
+            it = dict(it0)
             key = it["topic"].lower().strip()
-            if not key or key in seen:
+            if not key:
+                continue
+            # Prefer unique topics; if already used, try next trend for this geo
+            if key in seen:
                 continue
             seen.add(key)
             it["geos"] = [geo]
-            interleaved.append(it)
+            selected.append(it)
+            taken += 1
+        counts[geo] = taken
+        print(f"  selected {taken}/{per_geo} for {geo}")
 
-    counts: dict[str, int] = {}
-    for it in interleaved:
-        g = (it.get("geos") or [it.get("geo")])[0]
-        counts[g] = counts.get(g, 0) + 1
-    print(f"Interleaved unique trends: {len(interleaved)} by geo={counts}")
-    return interleaved
+    print(f"Selected trends: {len(selected)} by geo={counts} (NEWS_PER_GEO={per_geo})")
+    return selected
 
 
 def _parse_json(raw: str) -> dict | None:
@@ -510,7 +513,7 @@ def write_news_index(payload: dict) -> None:
     NEWS_DIR.mkdir(parents=True, exist_ok=True)
     items = payload.get("items") or []
     cards = []
-    for it in items[:80]:
+    for it in items[:120]:
         title = html.escape(it.get("title") or "")
         excerpt = html.escape(it.get("excerpt") or "")
         date = html.escape(it.get("date_pkt") or it.get("date") or "")
@@ -572,7 +575,7 @@ def write_news_index(payload: dict) -> None:
   <main class="container">
     <div class="page-head">
       <h1>Trending news</h1>
-      <p class="sub">Daily topics from Google Trends in Pakistan, India, United States, United Kingdom, and Saudi Arabia — each expanded into a long SEO article. Older stories stay published.</p>
+      <p class="sub">Top trends from Pakistan, India, United States, United Kingdom, and Saudi Arabia — long SEO articles. Older stories stay published.</p>
     </div>
     <div class="update-banner">Last updated: {updated} · {payload.get('count', 0)} articles in archive · {payload.get('new_in_this_run', 0)} new this run</div>
     <div class="news-grid">
@@ -594,7 +597,7 @@ def main() -> None:
     else:
         print(f"News Groq keys available: {len(keys)}")
 
-    max_new = int(os.getenv("NEWS_PER_RUN", "15"))
+    max_new = int(os.getenv("NEWS_PER_RUN", "30"))
     trends = fetch_all_trends()
     print(f"Unique trends collected: {len(trends)}")
 
