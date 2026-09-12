@@ -1,0 +1,56 @@
+name: Daily trending news
+
+on:
+  schedule:
+    # 11:00 AM PKT = 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Fetch trends + write long SEO articles
+        env:
+          NEW1: ${{ secrets.NEW1 }}
+          NEW2: ${{ secrets.NEW2 }}
+          new1: ${{ secrets.new1 }}
+          new2: ${{ secrets.new2 }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          NEWS_PER_RUN: '10'
+          NEWS_MAX_KEEP: '500'
+          PYTHONPATH: scripts
+          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
+        run: python scripts/fetch_trending_news.py
+
+      - name: Rebuild homepage + sitemap
+        env:
+          PYTHONPATH: scripts
+          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
+        run: |
+          python scripts/build_home.py
+          python scripts/build_sitemap.py
+
+      - name: Commit news archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p data news/p
+          touch data/news.json news/index.html index.html sitemap.xml
+          git add -A data/news.json news/ index.html sitemap.xml || true
+          git diff --staged --quiet || git commit -m "chore: daily trending news [skip ci]"
+          git push
