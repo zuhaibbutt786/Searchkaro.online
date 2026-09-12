@@ -29,7 +29,7 @@ jobs:
           NEW1: ${{ secrets.NEW1 }}
           NEW2: ${{ secrets.NEW2 }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          NEWS_PER_RUN: '10'
+          NEWS_PER_RUN: '15'
           NEWS_MAX_KEEP: '500'
           PYTHONPATH: scripts
           SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
