@@ -3,9 +3,12 @@
 Fetch Google Trends RSS (PK, US, GB, IN, SA), expand each trend into a
 long-form SEO news article via dedicated Groq keys NEW1 / NEW2, keep history.
 
+Trends are interleaved by country so the daily quota is shared fairly
+(not filled only by Pakistan).
+
 Env:
   NEW1, NEW2          — Groq API keys for news only (also accepts new1/new2)
-  NEWS_PER_RUN        — max new articles per day (default 10)
+  NEWS_PER_RUN        — max new articles per day (default 15; round-robin across geos)
   NEWS_MAX_KEEP       — max entries in data/news.json index (default 500)
   SITE_BASE_URL       — canonical site (default https://searchkaro.online)
 """
@@ -130,33 +133,47 @@ def parse_feed(xml_text: str, geo: str) -> list[dict]:
 
 
 def fetch_all_trends() -> list[dict]:
-    collected: list[dict] = []
-    seen: set[str] = set()
+    """Fetch all geos, then interleave so PK/IN/US/GB/SA share the daily quota."""
+    by_geo: dict[str, list[dict]] = {}
     for geo, url in FEEDS:
         print(f"Feed {geo}: {url}")
         try:
             r = requests.get(url, headers=HEADERS, timeout=30)
             print(f"  status={r.status_code} bytes={len(r.content)}")
             if r.status_code != 200:
+                by_geo[geo] = []
                 continue
             batch = parse_feed(r.text, geo)
             print(f"  items={len(batch)}")
-            for it in batch:
-                key = it["topic"].lower().strip()
-                if key in seen:
-                    for existing in collected:
-                        if existing["topic"].lower().strip() == key:
-                            if geo not in existing.get("geos", []):
-                                existing.setdefault("geos", [existing["geo"]]).append(geo)
-                            break
-                    continue
-                seen.add(key)
-                it["geos"] = [geo]
-                collected.append(it)
+            by_geo[geo] = batch
         except Exception as e:
             print(f"  error: {e}")
+            by_geo[geo] = []
         time.sleep(0.6)
-    return collected
+
+    # Round-robin: 1st from PK, IN, US, GB, SA, then 2nd from each, ...
+    interleaved: list[dict] = []
+    seen: set[str] = set()
+    max_len = max((len(v) for v in by_geo.values()), default=0)
+    for i in range(max_len):
+        for geo, _url in FEEDS:
+            items = by_geo.get(geo) or []
+            if i >= len(items):
+                continue
+            it = dict(items[i])
+            key = it["topic"].lower().strip()
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            it["geos"] = [geo]
+            interleaved.append(it)
+
+    counts: dict[str, int] = {}
+    for it in interleaved:
+        g = (it.get("geos") or [it.get("geo")])[0]
+        counts[g] = counts.get(g, 0) + 1
+    print(f"Interleaved unique trends: {len(interleaved)} by geo={counts}")
+    return interleaved
 
 
 def _parse_json(raw: str) -> dict | None:
@@ -577,7 +594,7 @@ def main() -> None:
     else:
         print(f"News Groq keys available: {len(keys)}")
 
-    max_new = int(os.getenv("NEWS_PER_RUN", "10"))
+    max_new = int(os.getenv("NEWS_PER_RUN", "15"))
     trends = fetch_all_trends()
     print(f"Unique trends collected: {len(trends)}")
 
