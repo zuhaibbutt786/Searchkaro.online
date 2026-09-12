@@ -2,6 +2,8 @@
 """
 Scrape free Udemy listings from jobs.e-next.in, resolve ONLY udemy.com links,
 write data/courses.json, and build on-site detail pages (no third-party).
+
+Old course HTML pages and catalog entries are kept and merged across runs.
 """
 
 from __future__ import annotations
@@ -14,6 +16,7 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse, parse_qs, urlencode, urlunparse
+from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
@@ -344,11 +347,17 @@ def render_detail_page(course: dict) -> str:
     length = html.escape(course.get("length") or "")
     image = html.escape(course.get("image") or "")
     udemy = html.escape(course.get("udemy_url") or "#")
+    added = html.escape(course.get("added_at_pkt") or course.get("added_at") or "")
     learn = course.get("learn") or []
     learn_html = "\n".join(f"<li>{html.escape(str(x))}</li>" for x in learn)
     img_block = (
         f'<div class="detail-hero"><img src="{image}" alt="" referrerpolicy="no-referrer" /></div>'
         if image
+        else ""
+    )
+    added_line = (
+        f'<p class="detail-meta">Listed: {added}</p>'
+        if added
         else ""
     )
     return f"""<!DOCTYPE html>
@@ -389,6 +398,7 @@ def render_detail_page(course: dict) -> str:
     <p class="detail-meta">
       {language}{f' · {category}' if category else ''}{f' · {instructor}' if instructor else ''}{f' · {length}' if length else ''}
     </p>
+    {added_line}
     <div class="detail-box"><h2>About this course</h2><p>{summary}</p></div>
     <div class="detail-box"><h2>What you'll learn</h2><ul>{learn_html}</ul></div>
     <div class="detail-box"><h2>Who this is for</h2><p>{who}</p><p class="note">{note}</p></div>
@@ -470,6 +480,8 @@ def main() -> None:
             slug = f"{base_slug}-{n}"
             n += 1
 
+        now_iso = datetime.now(timezone.utc).isoformat()
+        now_pkt = datetime.now(ZoneInfo("Asia/Karachi")).strftime("%Y-%m-%d %I:%M %p PKT")
         courses.append(
             {
                 "title": title,
@@ -485,29 +497,77 @@ def main() -> None:
                 "who": copy.get("who", ""),
                 "note": copy.get("note", ""),
                 "page": f"p/{slug}.html",
+                "added_at": now_iso,
+                "added_at_pkt": now_pkt,
             }
         )
         time.sleep(0.45)
 
+    # --- Merge with existing catalog (never drop old courses / pages) ---
+    existing_payload = {}
+    if OUT.exists():
+        try:
+            existing_payload = json.loads(OUT.read_text(encoding="utf-8"))
+        except Exception:
+            existing_payload = {}
+    old_list = existing_payload.get("courses") or []
+    by_slug: dict[str, dict] = {}
+    for c in old_list:
+        s = c.get("slug")
+        if s:
+            by_slug[s] = c
+
+    new_count = 0
+    for c in courses:
+        s = c.get("slug")
+        if not s:
+            continue
+        if s in by_slug:
+            # Keep first-added timestamps; refresh live fields (coupon, image, copy)
+            prev = by_slug[s]
+            c["added_at"] = prev.get("added_at") or c.get("added_at")
+            c["added_at_pkt"] = prev.get("added_at_pkt") or c.get("added_at_pkt")
+            by_slug[s] = c
+        else:
+            by_slug[s] = c
+            new_count += 1
+
+    # Newest first (prefer added_at, then title)
+    merged = list(by_slug.values())
+    merged.sort(
+        key=lambda x: (x.get("added_at") or "", x.get("title") or ""),
+        reverse=True,
+    )
+    # Soft cap so repo stays manageable; HTML pages beyond this are still not deleted
+    max_keep = int(os.getenv("MAX_COURSES_KEEP", "400"))
+    if len(merged) > max_keep:
+        print(
+            f"Catalog has {len(merged)} courses — keeping newest {max_keep} in index "
+            "(HTML pages still retained on disk)"
+        )
+        merged = merged[:max_keep]
+
+    now_utc = datetime.now(timezone.utc)
+    now_pkt = datetime.now(ZoneInfo("Asia/Karachi"))
     payload = {
-        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "updated_at": now_utc.isoformat(),
+        "updated_at_pkt": now_pkt.strftime("%Y-%m-%d %I:%M %p PKT"),
         "source": "jobs.e-next.in",
-        "count": len(courses),
-        "courses": courses,
+        "count": len(merged),
+        "new_in_this_run": new_count,
+        "courses": merged,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Wrote {len(courses)} courses → {OUT}")
+    print(f"Wrote {len(merged)} courses → {OUT} (new this run: {new_count})")
 
-    if PAGES_DIR.exists():
-        for old in PAGES_DIR.glob("*.html"):
-            old.unlink()
+    # Write/update pages for courses scraped this run ONLY — do NOT delete old HTML
     PAGES_DIR.mkdir(parents=True, exist_ok=True)
     for course in courses:
         (PAGES_DIR / f"{course['slug']}.html").write_text(
             render_detail_page(course), encoding="utf-8"
         )
-    print(f"Wrote {len(courses)} detail pages → {PAGES_DIR}")
+    print(f"Updated {len(courses)} detail pages (old pages kept) → {PAGES_DIR}")
 
 
 if __name__ == "__main__":
