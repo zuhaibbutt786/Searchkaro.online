@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Loan EMI Calculator — Monthly Payment & Interest | SearchKaro</title>
+  <meta name="description" content="Free loan EMI calculator. Enter amount, interest rate, and tenure to get monthly EMI, total interest, and total payment. Home loan, car loan, personal loan." />
+  <meta name="keywords" content="loan calculator, EMI calculator, monthly payment calculator, home loan EMI, personal loan calculator, interest calculator" />
+  <link rel="canonical" href="https://searchkaro.online/calculators/loan.html" />
+  <link rel="icon" href="https://searchkaro.online/assets/favicon.svg" type="image/svg+xml" />
+  <meta property="og:title" content="Loan EMI Calculator | SearchKaro" />
+  <meta property="og:description" content="Calculate loan EMI, total interest, and total amount payable online for free." />
+  <meta property="og:url" content="https://searchkaro.online/calculators/loan.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <link rel="stylesheet" href="../assets/calculators.css" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"Loan EMI Calculator","url":"https://searchkaro.online/calculators/loan.html","applicationCategory":"FinanceApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Search<span>Karo</span></a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Calculators</a>
+        <a href="../courses/">Courses</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <div class="page-head">
+      <p class="eyebrow"><a href="./">Calculators</a> · Loan</p>
+      <h1>Loan EMI calculator</h1>
+      <p class="sub">Estimate your equated monthly installment (EMI), total interest, and total payment for home, car, or personal loans.</p>
+    </div>
+    <div class="calc-layout">
+      <div class="calc-card">
+        <h2>Loan details</h2>
+        <div class="calc-field">
+          <label for="principal">Loan amount</label>
+          <input id="principal" type="number" min="1000" step="1000" value="500000" />
+          <span class="hint">Principal in your currency (e.g. PKR, INR, USD)</span>
+        </div>
+        <div class="calc-row">
+          <div class="calc-field">
+            <label for="rate">Annual interest rate (%)</label>
+            <input id="rate" type="number" min="0" step="0.05" value="12" />
+          </div>
+          <div class="calc-field">
+            <label for="years">Tenure (years)</label>
+            <input id="years" type="number" min="0.5" step="0.5" value="5" />
+          </div>
+        </div>
+        <div class="calc-actions">
+          <button class="btn green" type="button" id="calcBtn">Calculate EMI</button>
+          <button class="btn secondary" type="button" id="resetBtn">Reset</button>
+        </div>
+      </div>
+      <div class="calc-result-card" id="result">
+        <h2>Results</h2>
+        <p class="muted">Enter values and press Calculate EMI.</p>
+      </div>
+    </div>
+    <section class="article">
+      <h2>How EMI is calculated</h2>
+      <p>EMI = P × r × (1+r)<sup>n</sup> ÷ ((1+r)<sup>n</sup> − 1), where P is principal, r is monthly interest rate, and n is number of months. Rates and fees vary by bank — this is an estimate only.</p>
+    </section>
+    <p class="calc-note">Not financial advice. Confirm figures with your lender.</p>
+  </main>
+  <footer class="site-footer"><div class="container"><p><a href="./">All calculators</a></p></div></footer>
+  <script>
+    const fmt = n => Number(n).toLocaleString(undefined, { maximumFractionDigits: 2 });
+    function calculate() {
+      const P = parseFloat(document.getElementById('principal').value);
+      const annual = parseFloat(document.getElementById('rate').value);
+      const years = parseFloat(document.getElementById('years').value);
+      const box = document.getElementById('result');
+      if (!(P > 0) || !(annual >= 0) || !(years > 0)) {
+        box.innerHTML = '<h2>Results</h2><p>Please enter valid positive numbers.</p>';
+        return;
+      }
+      const n = years * 12;
+      const r = annual / 12 / 100;
+      let emi, total, interest;
+      if (r === 0) {
+        emi = P / n;
+        total = P;
+        interest = 0;
+      } else {
+        emi = P * r * Math.pow(1 + r, n) / (Math.pow(1 + r, n) - 1);
+        total = emi * n;
+        interest = total - P;
+      }
+      box.innerHTML = `
+        <h2>Results</h2>
+        <div class="big">${fmt(emi)} / month</div>
+        <table>
+          <tr><td>Monthly EMI</td><td>${fmt(emi)}</td></tr>
+          <tr><td>Total interest</td><td>${fmt(interest)}</td></tr>
+          <tr><td>Total payment</td><td>${fmt(total)}</td></tr>
+          <tr><td>Tenure</td><td>${n} months</td></tr>
+        </table>`;
+    }
+    document.getElementById('calcBtn').onclick = calculate;
+    document.getElementById('resetBtn').onclick = () => {
+      principal.value = 500000; rate.value = 12; years.value = 5; calculate();
+    };
+    calculate();
+  </script>
+</body>
+</html>
