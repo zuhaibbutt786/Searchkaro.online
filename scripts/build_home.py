@@ -88,7 +88,7 @@ def main() -> None:
         "@type": "WebSite",
         "name": "SearchKaro",
         "url": f"{SITE}/",
-        "description": "Fully funded MS PhD scholarships, jobs in Pakistan and Europe, HEC university rankings, free Udemy courses, and tech guides for students in Pakistan and India.",
+        "description": "Fully funded MS PhD scholarships, jobs in Pakistan and Europe, HEC university rankings, free Udemy courses, calculators, and tech guides for students in Pakistan and India.",
         "publisher": {
             "@type": "Organization",
             "name": "SearchKaro",
@@ -109,8 +109,8 @@ def main() -> None:
 {GTAG}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SearchKaro — Scholarships, Jobs Pakistan & Europe, Universities, Free Courses</title>
-  <meta name="description" content="Fully funded MS & PhD scholarships, jobs in Pakistan and Europe, HEC & world university rankings, free Udemy coupons, and tech articles for students in Pakistan, India, and worldwide." />
-  <meta name="keywords" content="fully funded ms scholarship, phd scholarship pakistan, scholarships for indian students, jobs in pakistan, europe software jobs, hec ranking, best universities pakistan, free udemy courses, study abroad" />
+  <meta name="description" content="Fully funded MS & PhD scholarships, jobs in Pakistan and Europe, HEC & world university rankings, free Udemy coupons, online calculators, and tech articles for students in Pakistan, India, and worldwide." />
+  <meta name="keywords" content="fully funded ms scholarship, phd scholarship pakistan, scholarships for indian students, jobs in pakistan, europe software jobs, hec ranking, best universities pakistan, free udemy courses, loan calculator, BMI calculator, age calculator, study abroad" />
   <meta name="robots" content="index,follow,max-image-preview:large" />
   <link rel="canonical" href="{SITE}/" />
   <!-- Brand icons / favicon SEO -->
@@ -127,7 +127,7 @@ def main() -> None:
   <!-- Open Graph / social preview -->
   <meta property="og:site_name" content="SearchKaro" />
   <meta property="og:title" content="SearchKaro — Scholarships, Jobs, Universities" />
-  <meta property="og:description" content="MS/PhD scholarships, Pakistan & Europe jobs, university rankings, free courses." />
+  <meta property="og:description" content="MS/PhD scholarships, Pakistan & Europe jobs, university rankings, free courses, calculators." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{SITE}/" />
   <meta property="og:image" content="{SITE}/assets/logo.svg" />
@@ -150,6 +150,7 @@ def main() -> None:
       <button class="nav-toggle" aria-label="Menu" onclick="document.body.classList.toggle('nav-open')">☰</button>
       <nav>
         <a href="index.html" class="active">Home</a>
+        <a href="calculators/">Calculators</a>
         <a href="scholarships/">Scholarships</a>
         <a href="jobs/">Jobs</a>
         <a href="universities/">Universities</a>
@@ -166,13 +167,14 @@ def main() -> None:
       <p class="lead">
         Search high-intent opportunities: fully funded <strong>MS & PhD scholarships</strong>,
         <strong>jobs in Pakistan & Europe</strong>, <strong>HEC and world university lists</strong>,
-        and free Udemy coupons — written for mobile and desktop.
+        free Udemy coupons, and useful <strong>online calculators</strong> — written for mobile and desktop.
       </p>
       <div class="hero-actions">
         <a class="btn green" href="scholarships/">MS & PhD scholarships</a>
         <a class="btn primary" href="jobs/">Jobs Pakistan / Europe</a>
         <a class="btn secondary" href="universities/">University rankings</a>
         <a class="btn secondary" href="courses/">Free course coupons</a>
+        <a class="btn secondary" href="calculators/">Free calculators</a>
       </div>
     </div>
   </section>
@@ -213,13 +215,14 @@ def main() -> None:
     <details open><summary>Where can I find fully funded MS and PhD scholarships?</summary><p>Open our <a href="scholarships/">scholarships</a> section. Each listing has eligibility, steps, and a link to the official page.</p></details>
     <details><summary>How do I find jobs in Pakistan or Europe?</summary><p>Use the <a href="jobs/">jobs</a> page filters for Pakistan, Europe, or remote roles.</p></details>
     <details><summary>What is HEC ranking?</summary><p>HEC publishes category rankings for Pakistani universities. See our <a href="universities/pakistan.html">Pakistan universities</a> guide and verify on hec.gov.pk.</p></details>
+    <details><summary>Do you have free calculators?</summary><p>Yes — <a href="calculators/">loan EMI, age, BMI, time, and pregnancy due date</a> calculators.</p></details>
   </section>
 
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div><strong>SearchKaro</strong><p class="muted">Scholarships, jobs, universities & free learning for Pakistan, India, and the world.</p></div>
+      <div><strong>SearchKaro</strong><p class="muted">Scholarships, jobs, universities, calculators & free learning for Pakistan, India, and the world.</p></div>
       <div><a href="about.html">About</a><br /><a href="contact.html">Contact</a><br /><a href="privacy.html">Privacy</a></div>
-      <div><a href="scholarships/">Scholarships</a><br /><a href="jobs/">Jobs</a><br /><a href="universities/">Universities</a></div>
+      <div><a href="calculators/">Calculators</a><br /><a href="scholarships/">Scholarships</a><br /><a href="jobs/">Jobs</a><br /><a href="universities/">Universities</a></div>
     </div>
     <div class="container"><p class="muted">© <span id="y"></span> SearchKaro · Verify all deadlines on official sites.</p></div>
   </footer>
