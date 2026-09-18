@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "title": "Extract Day, Month, Year in Windows CMD \u2013 Quick Script Guide",
+      "slug": "extract-day-month-year-in-windows-cmd-quick-script-guide",
+      "date": "2026-09-18",
+      "excerpt": "Learn how to retrieve the current day, month, and year from a Windows CMD script and store each component in its own variable.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "When to Use SecureString in .NET for Sensitive Data",
+      "slug": "when-to-use-securestring-in-net-for-sensitive-data",
+      "date": "2026-09-18",
+      "excerpt": "SecureString encrypts memory and lets you control disposal, but it\u2019s not always the right choice for modern .NET applications.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Why Store Secrets in Environment Variables in Node.js",
+      "slug": "why-store-secrets-in-environment-variables-in-nodejs",
+      "date": "2026-09-18",
+      "excerpt": "Learn why secrets belong in env vars, how to set them, and best practices for Node.js apps.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Keep Navigation Text Fixed with CSS: Prevent Browser Font Scaling",
+      "slug": "keep-navigation-text-fixed-with-css-prevent-browser-font-scaling",
+      "date": "2026-09-18",
+      "excerpt": "Use CSS to lock navigation text at a fixed size, so browser zoom or user\u2011defined font settings don\u2019t affect it.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Fix Maven Bundle Build Errors: Unresolved Extensions & SSL Issues",
+      "slug": "fix-maven-bundle-build-errors-unresolved-extensions-ssl-issues",
+      "date": "2026-09-18",
+      "excerpt": "Resolve common Maven bundle build problems by correcting plugin versions, fixing SSL cert paths, and ensuring proper packaging.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Fix IIS 7 Application Pool Identity Rejection for Valid Domain Account",
+      "slug": "fix-iis-7-application-pool-identity-rejection-for-valid-domain-account",
+      "date": "2026-09-18",
+      "excerpt": "Learn why IIS refuses a correct domain\\user credential and how to troubleshoot and configure a custom application pool identity on Windows\u202f7.",
+      "source": "stackoverflow"
+    },
+    {
       "title": "Disable Space-to-Tab Conversion in VS Code for TypeScript & HTML",
       "slug": "disable-space-to-tab-conversion-in-vs-code-for-typescript-html",
       "date": "2026-09-11",

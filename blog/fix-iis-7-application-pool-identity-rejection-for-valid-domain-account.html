@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fix IIS 7 Application Pool Identity Rejection for Valid Domain Account | LearnWithZuhaib</title>
+  <meta name="description" content="Learn why IIS refuses a correct domain\user credential and how to troubleshoot and configure a custom application pool identity on Windows 7." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, asp.net,iis" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/fix-iis-7-application-pool-identity-rejection-for-valid-domain-account.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why does Remote Desktop work but IIS still says the password is invalid?", "acceptedAnswer": {"@type": "Answer", "text": "Remote Desktop only authenticates over the network, while IIS must generate a local logon token, which fails if the account lacks the necessary user rights or the machine isn’t domain‑joined."}}, {"@type": "Question", "name": "Can I use a domain account on a workgroup computer?", "acceptedAnswer": {"@type": "Answer", "text": "No. IIS can only use domain accounts on computers that are members of that domain; otherwise you must rely on built‑in identities or local accounts."}}, {"@type": "Question", "name": "Do I need to restart IIS after changing the pool identity?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. After updating the identity, recycle the pool or restart the IIS service to apply the new token."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-09-18 · Q&A guide</p>
+    <h1>Fix IIS 7 Application Pool Identity Rejection for Valid Domain Account</h1>
+    <p class="lead">Learn why IIS refuses a correct domain\user credential and how to troubleshoot and configure a custom application pool identity on Windows 7.</p>
+    <div class="content">
+<h2>Understand the Common Causes</h2>
+<p>IIS validates a custom identity against the local security authority, not just the domain controller. If the workstation is not a member of the target domain, the password is encrypted locally and the domain cannot be reached, resulting in the &quot;specified password is invalid&quot; dialog. Other frequent blockers are account lockout, password‑policy mismatch, or the account lacking the &quot;Log on as a batch job&quot; right.</p>
+<p>Even though Remote Desktop and runas /netonly succeed, those tools only need network authentication, while IIS needs to create a local security token for the process.</p>
+<h2>Verify the Account Outside IIS</h2>
+<p>Before touching IIS, confirm that the machine can resolve the domain and that the account is not locked.</p>
+<p>```cmd
+# Check domain connectivity
+nltest /dsgetdc:yourdomain.com</p>
+<p># Validate credentials without creating a token
+runas /user:DOMAIN\User cmd
+```</p>
+<p>If these commands succeed, the problem is specific to the way IIS creates the service account token.</p>
+<h2>Grant the Required User Rights</h2>
+<p>IIS creates a worker process that runs as a service. The account must have the &quot;Log on as a batch job&quot; and &quot;Log on as a service&quot; rights. Add them via the Local Security Policy snap‑in or with secedit:</p>
+<p>```cmd
+secedit /export /cfg C:\temp\secpol.cfg
+# Edit secpol.cfg, add DOMAIN\User to SeBatchLogonRight and SeServiceLogonRight
+secedit /import /cfg C:\temp\secpol.cfg /db C:\temp\secpol.sdb
+```</p>
+<p>After updating the rights, restart the computer so the policy takes effect.</p>
+<h2>Configure the Application Pool Using PowerShell</h2>
+<p>When the workstation is a member of the domain, use PowerShell to avoid UI glitches that can misinterpret the password.</p>
+<p>```powershell
+Import-Module WebAdministration
+$pool = &#x27;MyAppPool&#x27;
+$domainUser = &#x27;DOMAIN\User&#x27;
+$pwd = ConvertTo-SecureString &#x27;P@ssw0rd!&#x27; -AsPlainText -Force
+Set-ItemProperty IIS:\AppPools\$pool -Name processModel.identityType -Value SpecificUser
+Set-ItemProperty IIS:\AppPools\$pool -Name processModel.userName -Value $domainUser
+Set-ItemProperty IIS:\AppPools\$pool -Name processModel.password -Value $pwd
+```</p>
+<p>If the command returns no error, the pool now runs under the custom account. Verify with IIS Manager → Advanced Settings → Identity.</p>
+<h2>When the Machine Isn’t Joined to the Domain</h2>
+<p>If joining the domain is not possible, switch to the built‑in &quot;ApplicationPoolIdentity&quot; and use delegation (Kerberos constrained delegation) to access resources on the remote domain. Alternatively, create a local account that mirrors the domain credentials and grant it the same rights, but this approach is less secure and should be a last resort.</p>
+<p><strong>Takeaway:</strong> IIS rejects a valid domain account when the local machine cannot create a proper security token; ensure domain membership, required user rights, and set the identity via PowerShell.</p>
+<h2>People also ask</h2>
+<h3>Why does Remote Desktop work but IIS still says the password is invalid?</h3>
+<p>Remote Desktop only authenticates over the network, while IIS must generate a local logon token, which fails if the account lacks the necessary user rights or the machine isn’t domain‑joined.</p>
+<h3>Can I use a domain account on a workgroup computer?</h3>
+<p>No. IIS can only use domain accounts on computers that are members of that domain; otherwise you must rely on built‑in identities or local accounts.</p>
+<h3>Do I need to restart IIS after changing the pool identity?</h3>
+<p>Yes. After updating the identity, recycle the pool or restart the IIS service to apply the new token.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/32846100/iis-application-pool-identity-rejected-with-valid-username-password" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

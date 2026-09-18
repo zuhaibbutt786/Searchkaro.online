@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fix Maven Bundle Build Errors: Unresolved Extensions &amp; SSL Issues | LearnWithZuhaib</title>
+  <meta name="description" content="Resolve common Maven bundle build problems by correcting plugin versions, fixing SSL cert paths, and ensuring proper packaging." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, java,eclipse,maven,aem" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/fix-maven-bundle-build-errors-unresolved-extensions-ssl-issues.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why does the plugin pull Maven 2 core artifacts?", "acceptedAnswer": {"@type": "Answer", "text": "An outdated plugin version (e.g., 2.3.7) targets Maven 2. Updating to 5.x removes that dependency."}}, {"@type": "Question", "name": "Can I bypass SSL validation permanently?", "acceptedAnswer": {"@type": "Answer", "text": "Set `<trustAll>true</trustAll>` in settings.xml for the Adobe server, but use it only in development, not production."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-09-18 · Q&A guide</p>
+    <h1>Fix Maven Bundle Build Errors: Unresolved Extensions &amp; SSL Issues</h1>
+    <p class="lead">Resolve common Maven bundle build problems by correcting plugin versions, fixing SSL cert paths, and ensuring proper packaging.</p>
+    <div class="content">
+<h2>Root Causes of the Build Failure</h2>
+<p>The error log shows two distinct problems:
+1. The maven‑bundle‑plugin cannot load its dependencies, pulling Maven 2 core artifacts that no longer exist in modern repositories.
+2. SSL validation fails when accessing the Adobe Nexus repository, preventing artifact downloads.
+Both issues stop the build before the bundle is even packaged.</p>
+<h2>Fix the SSL Certificate Path</h2>
+<p>Add Adobe’s public key to the Java trust store or configure Maven to skip certificate checks for that host. The simplest approach for development is to trust the repository via settings.xml.</p>
+<pre><code>&lt;settings xmlns=&quot;http://maven.apache.org/SETTINGS/1.0.0&quot;&gt;
+  &lt;servers&gt;
+    &lt;server&gt;
+      &lt;id&gt;adobe&lt;/id&gt;
+      &lt;configuration&gt;
+        &lt;trustAll&gt;true&lt;/trustAll&gt;
+      &lt;/configuration&gt;
+    &lt;/server&gt;
+  &lt;/servers&gt;
+&lt;/settings&gt;</code></pre>
+<h2>Update the Bundle Plugin Configuration</h2>
+<p>Use a recent version of the Apache Felix bundle plugin that targets Maven 3.x. Declare the packaging type explicitly and bind the plugin to the package phase.</p>
+<pre><code>&lt;build&gt;
+  &lt;plugins&gt;
+    &lt;plugin&gt;
+      &lt;groupId&gt;org.apache.felix&lt;/groupId&gt;
+      &lt;artifactId&gt;maven-bundle-plugin&lt;/artifactId&gt;
+      &lt;version&gt;5.1.2&lt;/version&gt;
+      &lt;extensions&gt;true&lt;/extensions&gt;
+      &lt;configuration&gt;
+        &lt;instructions&gt;
+          &lt;Bundle-SymbolicName&gt;${project.artifactId}&lt;/Bundle-SymbolicName&gt;
+          &lt;Bundle-Version&gt;${project.version}&lt;/Bundle-Version&gt;
+        &lt;/instructions&gt;
+      &lt;/configuration&gt;
+      &lt;executions&gt;
+        &lt;execution&gt;
+          &lt;id&gt;bundle&lt;/id&gt;
+          &lt;phase&gt;package&lt;/phase&gt;
+          &lt;goals&gt;
+            &lt;goal&gt;bundle&lt;/goal&gt;
+          &lt;/goals&gt;
+        &lt;/execution&gt;
+      &lt;/executions&gt;
+    &lt;/plugin&gt;
+  &lt;/plugins&gt;
+  &lt;packaging&gt;bundle&lt;/packaging&gt;
+&lt;/build&gt;</code></pre>
+<h2>Verify Repository Access and Maven Version</h2>
+<p>Ensure that the Adobe Nexus URL is correct and reachable. Run `mvn -version` to confirm you are using Maven 3.6+; older Maven 2 installations will trigger the 2.0.7 dependency errors. If you must use an older Maven, upgrade the plugin to a compatible version or migrate to Maven 3.</p>
+<pre><code>mvn -version
+# Expected output: Apache Maven 3.6.x
+
+# Clean and install with the updated settings
+mvn clean install -U</code></pre>
+<h2>Rebuild with the Maven Wrapper for Consistency</h2>
+<p>Add the Maven Wrapper to the project so every developer uses the same Maven version and settings. Generate it with `mvn -N io.takari:maven:wrapper` and commit the wrapper files. Then run `./mvnw clean install` to avoid environment drift.</p>
+<pre><code>./mvnw -version
+./mvnw clean install -U</code></pre>
+<p><strong>Takeaway:</strong> Update the bundle plugin, trust the Adobe repository, and use Maven 3 to resolve all build errors.</p>
+<h2>People also ask</h2>
+<h3>Why does the plugin pull Maven 2 core artifacts?</h3>
+<p>An outdated plugin version (e.g., 2.3.7) targets Maven 2. Updating to 5.x removes that dependency.</p>
+<h3>Can I bypass SSL validation permanently?</h3>
+<p>Set `&lt;trustAll&gt;true&lt;/trustAll&gt;` in settings.xml for the Adobe server, but use it only in development, not production.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/36578962/error-while-building-bundle-in-maven" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Keep Navigation Text Fixed with CSS: Prevent Browser Font Scaling | LearnWithZuhaib</title>
+  <meta name="description" content="Use CSS to lock navigation text at a fixed size, so browser zoom or user‑defined font settings don’t affect it." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, css,font-size" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/keep-navigation-text-fixed-with-css-prevent-browser-font-scaling.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I use viewport units for the fixed text?", "acceptedAnswer": {"@type": "Answer", "text": "Viewport units (vw, vh) scale with the window size, not the font size setting, so they can be used if you want the text to grow with the viewport."}}, {"@type": "Question", "name": "Will this break mobile responsiveness?", "acceptedAnswer": {"@type": "Answer", "text": "No, because only the navigation text is fixed; the rest of the layout uses relative units and will adapt to different screen sizes."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-09-18 · Q&A guide</p>
+    <h1>Keep Navigation Text Fixed with CSS: Prevent Browser Font Scaling</h1>
+    <p class="lead">Use CSS to lock navigation text at a fixed size, so browser zoom or user‑defined font settings don’t affect it.</p>
+    <div class="content">
+<h2>Why Fixed Font Size Matters</h2>
+<p>Navigation bars often host brand names, logo text or key links that need to stay legible and proportional to the layout. When a user increases the default font size in their browser, the entire page scales, but the navigation text can become distorted, breaking the visual hierarchy. Keeping the nav text at a constant size preserves design intent while still allowing the rest of the content to adapt.</p>
+<h2>Understanding Browser Font Scaling</h2>
+<p>Browsers apply a global font size based on the user’s settings or zoom level. All relative units (rem, em, %) inherit from this root value. If the root changes, every element that uses relative units will change proportionally. To isolate an element, you must break that inheritance chain.</p>
+<h2>The CSS Trick: Using em with a Root Reset</h2>
+<p>Reset the root font size to a fixed pixel value, then use em units for everything else. The element you want to keep constant will be set in pixels, so it ignores the root change.</p>
+<pre><code>html {
+  font-size: 16px; /* fixed baseline */
+}
+
+body {
+  font-size: 1rem; /* inherits 16px */
+}
+
+.nav {
+  font-size: 1.125rem; /* 18px */
+}
+
+.nav-fixed {
+  font-size: 14px; /* fixed, independent of zoom */
+}</code></pre>
+<h2>Applying to a Single Element</h2>
+<p>Wrap the navigation text in a container with a pixel‑based font size. All other text can remain fluid. This approach keeps the nav text stable across zoom levels while the rest of the page scales normally.</p>
+<pre><code>.navbar {
+  font-size: 14px; /* fixed */
+  line-height: 1.4;
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+}
+
+/* Rest of the page uses relative units */
+.content {
+  font-size: 1rem;
+}</code></pre>
+<h2>Cross‑Browser Pitfalls &amp; Accessibility</h2>
+<p>Pixels are not affected by the user’s font‑size preference, which can hinder accessibility for visually impaired users. Consider using a minimum font size with media queries or the CSS clamp() function to provide a small range of scaling while keeping the design stable.</p>
+<p><strong>Takeaway:</strong> Lock the nav font with a parent reset and a pixel unit, keeping the rest of the page fluid.</p>
+<h2>People also ask</h2>
+<h3>Can I use viewport units for the fixed text?</h3>
+<p>Viewport units (vw, vh) scale with the window size, not the font size setting, so they can be used if you want the text to grow with the viewport.</p>
+<h3>Will this break mobile responsiveness?</h3>
+<p>No, because only the navigation text is fixed; the rest of the layout uses relative units and will adapt to different screen sizes.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/19918286/how-to-set-a-fixed-font-size-prevent-browser-scaling-for-a-specific-single-elem" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>
