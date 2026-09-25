@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Navigate in React without Reloading – Use React Router Links | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to navigate between pages in a React app without full page reloads by properly configuring React Router links and routes." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, reactjs" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/navigate-in-react-without-reloading-use-react-router-links.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What if I need to pass state to the next page?", "acceptedAnswer": {"@type": "Answer", "text": "Use the `state` prop on `Link` or the second argument of `navigate`, e.g., `navigate('/userlist', { state: { from: 'header' } })`."}}, {"@type": "Question", "name": "How do I keep the page from reloading on a form submit?", "acceptedAnswer": {"@type": "Answer", "text": "Prevent the default submit event (`e.preventDefault()`) and then use `navigate` to change routes."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-09-25 · Q&A guide</p>
+    <h1>Navigate in React without Reloading – Use React Router Links</h1>
+    <p class="lead">Learn how to navigate between pages in a React app without full page reloads by properly configuring React Router links and routes.</p>
+    <div class="content">
+<h2>Why the Page Reloads</h2>
+<p>A full page reload happens when the browser performs a normal navigation. In React apps, you want navigation to be handled client‑side so that the app’s state is preserved and only the relevant component re‑renders. The issue usually stems from a mismatch between the link path and the defined route, or from using a non‑React link element.</p>
+<h2>Matching Link to Route</h2>
+<p>Your header uses `&lt;Link to=&quot;/allusers&quot;&gt;` while the route is defined for `&#x27;/userlist&#x27;`. React Router will try to find a matching route and, if none exists, falls back to a normal browser navigation, causing a reload. Align the paths so the router can intercept the navigation.</p>
+<pre><code>// Header.js
+import { Link } from &quot;react-router-dom&quot;;
+
+export default function Header() {
+  return &lt;Link to=&quot;/userlist&quot;&gt;All Users&lt;/Link&gt;;
+}
+
+// App.js (React Router v6)
+import { BrowserRouter, Routes, Route } from &quot;react-router-dom&quot;;
+import UsersList from &quot;./user/UsersList&quot;;
+
+function App() {
+  return (
+    &lt;BrowserRouter&gt;
+      &lt;Header /&gt;
+      &lt;Routes&gt;
+        &lt;Route path=&quot;/userlist&quot; element={&lt;UsersList /&gt;} /&gt;
+      &lt;/Routes&gt;
+    &lt;/BrowserRouter&gt;
+  );
+}
+
+export default App;</code></pre>
+<h2>Using Programmatic Navigation</h2>
+<p>When you need to redirect from code (e.g., after form submission), use the `useNavigate` hook. It returns a function that performs a client‑side push to the new route without reloading.</p>
+<pre><code>import { useNavigate } from &quot;react-router-dom&quot;;
+
+function SubmitButton() {
+  const navigate = useNavigate();
+  const handleClick = () =&gt; {
+    // perform actions
+    navigate(&quot;/userlist&quot;);
+  };
+
+  return &lt;button onClick={handleClick}&gt;Go to Users&lt;/button&gt;;
+}</code></pre>
+<h2>Avoiding Full Reloads in Older Versions</h2>
+<p>If you’re on React Router v5, replace `Switch` with `Routes` and `component` with `element`. For v4, ensure you import `BrowserRouter` at the root and that your links use `Link` from `react-router-dom`. Any direct `&lt;a href=&quot;...&quot;&gt;` will trigger a reload.</p>
+<h2>Testing the Navigation</h2>
+<p>Open the app, click the link, and observe that the URL changes while the page content updates without a full refresh. Use the browser’s network tab to confirm no new document is fetched.</p>
+<p><strong>Takeaway:</strong> Align your `&lt;Link&gt;` paths with `&lt;Route&gt;` paths and use `useNavigate` for programmatic redirects to keep navigation client‑side.</p>
+<h2>People also ask</h2>
+<h3>What if I need to pass state to the next page?</h3>
+<p>Use the `state` prop on `Link` or the second argument of `navigate`, e.g., `navigate(&#x27;/userlist&#x27;, { state: { from: &#x27;header&#x27; } })`.</p>
+<h3>How do I keep the page from reloading on a form submit?</h3>
+<p>Prevent the default submit event (`e.preventDefault()`) and then use `navigate` to change routes.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/55536389/how-to-navigate-on-a-page-without-reloading-the-page" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

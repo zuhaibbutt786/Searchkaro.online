@@ -2,9 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://searchkaro.online/</loc></url>
   <url><loc>https://searchkaro.online/about.html</loc></url>
+  <url><loc>https://searchkaro.online/blog/add-a-percent-defective-column-to-excel-pivot-tables.html</loc></url>
   <url><loc>https://searchkaro.online/blog/add-a-shadow-to-a-css-border-using-box-shadow.html</loc></url>
   <url><loc>https://searchkaro.online/blog/beyond-accuracy-practical-metrics-for-llm-apps.html</loc></url>
   <url><loc>https://searchkaro.online/blog/choosing-pixijs-vs-threejs-for-a-webbased-graph-editor.html</loc></url>
+  <url><loc>https://searchkaro.online/blog/conditional-object-inclusion-in-array-declaration-javascript.html</loc></url>
   <url><loc>https://searchkaro.online/blog/connect-jenkins-to-microsoft-sql-server-quick-guide.html</loc></url>
   <url><loc>https://searchkaro.online/blog/create-rounded-corner-imageview-in-android-xml-quick-guide.html</loc></url>
   <url><loc>https://searchkaro.online/blog/disable-space-to-tab-conversion-in-vs-code-for-typescript-html.html</loc></url>
@@ -12,6 +14,7 @@
   <url><loc>https://searchkaro.online/blog/extract-day-month-year-in-windows-cmd-quick-script-guide.html</loc></url>
   <url><loc>https://searchkaro.online/blog/fix-iis-7-application-pool-identity-rejection-for-valid-domain-account.html</loc></url>
   <url><loc>https://searchkaro.online/blog/fix-maven-bundle-build-errors-unresolved-extensions-ssl-issues.html</loc></url>
+  <url><loc>https://searchkaro.online/blog/fix-ora-06502-in-oracle-apex-tabular-form-buffer-too-small.html</loc></url>
   <url><loc>https://searchkaro.online/blog/fixing-ignored-jsonpropertyorder-in-jackson-with-spark.html</loc></url>
   <url><loc>https://searchkaro.online/blog/fixing-type-object-has-no-attribute-objects-in-drf.html</loc></url>
   <url><loc>https://searchkaro.online/blog/get-a-static-download-link-for-the-latest-github-release-asset.html</loc></url>
@@ -22,6 +25,7 @@
   <url><loc>https://searchkaro.online/blog/keep-navigation-text-fixed-with-css-prevent-browser-font-scaling.html</loc></url>
   <url><loc>https://searchkaro.online/blog/kv-cache-tuning-for-lowlatency-llms.html</loc></url>
   <url><loc>https://searchkaro.online/blog/mlops-metrics-that-matter-for-production-ai.html</loc></url>
+  <url><loc>https://searchkaro.online/blog/navigate-in-react-without-reloading-use-react-router-links.html</loc></url>
   <url><loc>https://searchkaro.online/blog/practical-notes-on-computer-vision-deployment-pitfalls.html</loc></url>
   <url><loc>https://searchkaro.online/blog/practical-notes-on-feature-stores-for-real-time-ml.html</loc></url>
   <url><loc>https://searchkaro.online/blog/practical-notes-on-kv-cache-and-llm-latency.html</loc></url>
@@ -34,11 +38,13 @@
   <url><loc>https://searchkaro.online/blog/practical-notes-on-structured-outputs-and-tool-calling.html</loc></url>
   <url><loc>https://searchkaro.online/blog/practical-notes-on-vector-search-hnsw-vs-ivf.html</loc></url>
   <url><loc>https://searchkaro.online/blog/practical-notes-on-vllm-batching-for-throughput.html</loc></url>
+  <url><loc>https://searchkaro.online/blog/prevent-pip-from-overwriting-packages-during-conflicting-installs.html</loc></url>
   <url><loc>https://searchkaro.online/blog/prompt-versioning-in-production-a-practical-guide.html</loc></url>
   <url><loc>https://searchkaro.online/blog/resolve-angular-cli-compatibility-errors-after-upgrade.html</loc></url>
   <url><loc>https://searchkaro.online/blog/resolve-scala-compile-error-object-not-found-in-package.html</loc></url>
   <url><loc>https://searchkaro.online/blog/send-json-array-via-postman-formdata-for-joi-validation.html</loc></url>
   <url><loc>https://searchkaro.online/blog/set-default-json-value-in-laravel-migration-mysql-80.html</loc></url>
+  <url><loc>https://searchkaro.online/blog/set-default-row-selection-in-primeng-p-tablecheckbox.html</loc></url>
   <url><loc>https://searchkaro.online/blog/switch-multiple-python-versions-on-macos-with-homebrew-pyenv.html</loc></url>
   <url><loc>https://searchkaro.online/blog/when-to-use-securestring-in-net-for-sensitive-data.html</loc></url>
   <url><loc>https://searchkaro.online/blog/why-store-secrets-in-environment-variables-in-nodejs.html</loc></url>

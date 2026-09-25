@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "title": "Conditional Object Inclusion in Array Declaration \u2013 JavaScript",
+      "slug": "conditional-object-inclusion-in-array-declaration-javascript",
+      "date": "2026-09-25",
+      "excerpt": "Use spread syntax and a ternary to add an object only when a flag is true.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Navigate in React without Reloading \u2013 Use React Router Links",
+      "slug": "navigate-in-react-without-reloading-use-react-router-links",
+      "date": "2026-09-25",
+      "excerpt": "Learn how to navigate between pages in a React app without full page reloads by properly configuring React Router links and routes.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Prevent pip from Overwriting Packages During Conflicting Installs",
+      "slug": "prevent-pip-from-overwriting-packages-during-conflicting-installs",
+      "date": "2026-09-25",
+      "excerpt": "Learn how to stop pip from silently upgrading dependencies and enforce version constraints with constraints files, flags, and modern tooling.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Set Default Row Selection in PrimeNG p-tableCheckbox",
+      "slug": "set-default-row-selection-in-primeng-p-tablecheckbox",
+      "date": "2026-09-25",
+      "excerpt": "Learn how to pre-select rows in a PrimeNG table using the selection binding and component logic.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Fix ORA-06502 in Oracle APEX Tabular Form \u2013 Buffer Too Small",
+      "slug": "fix-ora-06502-in-oracle-apex-tabular-form-buffer-too-small",
+      "date": "2026-09-25",
+      "excerpt": "Learn why a tabular form throws ORA-06502 in APEX and how to resolve it without touching production code.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Add a Percent Defective Column to Excel Pivot Tables",
+      "slug": "add-a-percent-defective-column-to-excel-pivot-tables",
+      "date": "2026-09-25",
+      "excerpt": "Learn how to create a calculated field that shows the percentage of defective orders directly inside your pivot table.",
+      "source": "stackoverflow"
+    },
+    {
       "title": "Extract Day, Month, Year in Windows CMD \u2013 Quick Script Guide",
       "slug": "extract-day-month-year-in-windows-cmd-quick-script-guide",
       "date": "2026-09-18",

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fix ORA-06502 in Oracle APEX Tabular Form – Buffer Too Small | LearnWithZuhaib</title>
+  <meta name="description" content="Learn why a tabular form throws ORA-06502 in APEX and how to resolve it without touching production code." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, oracle-apex,oracle-apex-5,oracle-apex-5.1" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/fix-ora-06502-in-oracle-apex-tabular-form-buffer-too-small.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why does the error appear only in production?", "acceptedAnswer": {"@type": "Answer", "text": "Production often has real‑world data (longer strings, multibyte characters) that test environments don't replicate, exposing size mismatches."}}, {"@type": "Question", "name": "Can I disable the error by turning off bulk binding?", "acceptedAnswer": {"@type": "Answer", "text": "No; bulk binding is required for tabular forms. The correct fix is to adjust lengths or truncate data, not to disable binding."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-09-25 · Q&A guide</p>
+    <h1>Fix ORA-06502 in Oracle APEX Tabular Form – Buffer Too Small</h1>
+    <p class="lead">Learn why a tabular form throws ORA-06502 in APEX and how to resolve it without touching production code.</p>
+    <div class="content">
+<h2>What the error really means</h2>
+<p>ORA-06502 is raised when PL/SQL tries to put more characters into a variable than the variable can hold. In a tabular form the culprit is often a page item, an APEX collection column, or a hidden column that receives data longer than its declared length. The message &quot;character string buffer too small&quot; tells you the mismatch is on the character side, not a numeric overflow.</p>
+<h2>Typical sources in an APEX tabular form</h2>
+<p>A tabular form builds an array of values (f01‑f50) from the HTML inputs. Each array element is stored in a PL/SQL collection (APEX_APPLICATION.G_F01, etc.) that defaults to VARCHAR2(4000). If a column in the underlying table is defined as VARCHAR2(30) but the form allows 100 characters, the bulk‑bind insert will raise ORA-06502. Other hidden columns used for row‑ids, status flags, or computed values can also be too short.</p>
+<h2>Debugging steps you can run in production</h2>
+<p>Even when you cannot attach a debugger, you can capture the offending value with APEX debug messages. Add a before‑process PL/SQL block:
+```plsql
+apex_debug.message(&#x27;G_F01 length=%s, first value=%s&#x27;,
+                  apex_application.g_f01.count,
+                  apex_application.g_f01(1));
+```
+Enable &quot;Debug Mode&quot; for the session (run the page with `p_debug=YES`). The debug log will show the exact string that overflows the target column. If the log is too large, limit the output with `substr(...,1,200)`.</p>
+<p>Another quick check is to query the session state after submit:
+```sql
+select name, length(value) len, substr(value,1,30) sample
+from apex_application_page_items
+where application_id = :APP_ID and page_id = :APP_PAGE_ID;
+```</p>
+<h2>Practical fixes you can apply</h2>
+<p>1. **Resize the database column** – If the business rule permits, alter the table column to a larger size or to CLOB.
+```sql
+alter table my_table modify (description varchar2(4000));
+```
+2. **Trim the input before the DML** – Add a `before submit` process that truncates values to the column length.
+```plsql
+for i in 1..apex_application.g_f01.count loop
+  apex_application.g_f01(i) := substr(apex_application.g_f01(i),1,30);
+end loop;
+```
+3. **Use APEX_ITEM with explicit size** – When you generate the tabular form manually, specify the `p_size` attribute to match the database column.
+```plsql
+apex_item.text(p_idx =&gt; 1, p_value =&gt; col_name, p_size =&gt; 30);
+```
+4. **Switch to APEX collections with CLOB fields** – If you need to store very long text, move the data into a collection that uses `CLOB` and insert it later with `DBMS_LOB.SUBSTR`.
+5. **Enable length‑semantics** – Ensure the database and the application use the same semantics (BYTE vs CHAR) to avoid hidden truncation when multibyte characters are entered.</p>
+<h2>Preventive best practices</h2>
+<p>• Keep the page item length (`maxlength` attribute) in sync with the column definition.
+• Add a validation rule that checks `length(:Pxx_ITEM) &lt;= column_max_length` before the DML process runs.
+• Turn on APEX&#x27;s &quot;Maximum Length&quot; property for every column in a tabular form; APEX will automatically truncate or raise a user‑friendly error.
+• Periodically review the APEX debug logs after a release to catch new mismatches early.
+• Document any custom processes that manipulate `APEX_APPLICATION.G_Fxx` arrays, because they bypass the automatic length checks.</p>
+<p><strong>Takeaway:</strong> Align the size of form items, PL/SQL variables, and database columns to eliminate ORA‑06502 in tabular forms.</p>
+<h2>People also ask</h2>
+<h3>Why does the error appear only in production?</h3>
+<p>Production often has real‑world data (longer strings, multibyte characters) that test environments don&#x27;t replicate, exposing size mismatches.</p>
+<h3>Can I disable the error by turning off bulk binding?</h3>
+<p>No; bulk binding is required for tabular forms. The correct fix is to adjust lengths or truncate data, not to disable binding.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/66669303/ora-06502-pl-sql-numeric-or-value-error-character-string-buffer-too-small-in" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

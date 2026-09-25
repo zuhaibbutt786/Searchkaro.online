@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Set Default Row Selection in PrimeNG p-tableCheckbox | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to pre-select rows in a PrimeNG table using the selection binding and component logic." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, html,angular,checkbox,primeng" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/set-default-row-selection-in-primeng-p-tablecheckbox.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I select rows after the table has rendered?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, push the row objects into the selection array or assign a new array; PrimeNG will update the checkboxes."}}, {"@type": "Question", "name": "How to deselect all rows programmatically?", "acceptedAnswer": {"@type": "Answer", "text": "Set the selection array to an empty array: this.selectedProducts = [];"}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-09-25 · Q&A guide</p>
+    <h1>Set Default Row Selection in PrimeNG p-tableCheckbox</h1>
+    <p class="lead">Learn how to pre-select rows in a PrimeNG table using the selection binding and component logic.</p>
+    <div class="content">
+<h2>Overview</h2>
+<p>PrimeNG’s p-table supports row selection through the selectionMode attribute. The selected rows are bound to a component property. By initializing this property you can make rows checked automatically.</p>
+<h2>Use selectionMode and selection binding</h2>
+<p>Add selectionMode=&quot;multiple&quot; to the table and bind the selection property to a local array.</p>
+<pre><code>&lt;p-table [value]=&quot;products&quot; selectionMode=&quot;multiple&quot; [(selection)]=&quot;selectedProducts&quot;&gt;
+  &lt;ng-template pTemplate=&quot;header&quot;&gt;
+    &lt;tr&gt;
+      &lt;th pSelectableRow&gt;&lt;/th&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Price&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/ng-template&gt;
+  &lt;ng-template pTemplate=&quot;body&quot; let-product let-rowIndex=&quot;rowIndex&quot;&gt;
+    &lt;tr&gt;
+      &lt;td pSelectableRow&gt;&lt;/td&gt;
+      &lt;td&gt;{{product.name}}&lt;/td&gt;
+      &lt;td&gt;{{product.price}}&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/ng-template&gt;
+&lt;/p-table&gt;</code></pre>
+<h2>Pre-select rows in component.ts</h2>
+<p>Populate the selectedProducts array with the row objects you want checked. The comparison uses object identity, so the same instance must be used.</p>
+<pre><code>export class ProductTableComponent {
+  products = [
+    { id: 1, name: &#x27;Apple&#x27;, price: 1.2 },
+    { id: 2, name: &#x27;Banana&#x27;, price: 0.8 },
+    { id: 3, name: &#x27;Cherry&#x27;, price: 2.5 }
+  ];
+
+  selectedProducts = [];
+
+  ngOnInit() {
+    // Pre‑select Apple and Cherry
+    this.selectedProducts = this.products.filter(p =&gt; p.id === 1 || p.id === 3);
+  }
+}</code></pre>
+<h2>Update UI after data load</h2>
+<p>If the table data comes asynchronously, set the selection inside the subscription or after the data is assigned.</p>
+<pre><code>this.productService.getAll().subscribe(data =&gt; {
+  this.products = data;
+  this.selectedProducts = this.products.filter(p =&gt; p.id === 2); // select Banana
+});</code></pre>
+<h2>Common pitfalls</h2>
+<p>1. Using a different object instance for selection will not work. 2. Changing the selection array reference without re‑assigning it may not trigger change detection. 3. Remember to include pSelectableRow in the header and body templates.</p>
+<p><strong>Takeaway:</strong> Default selection in PrimeNG tables is achieved by binding the selection array to the table and initializing it with desired rows.</p>
+<h2>People also ask</h2>
+<h3>Can I select rows after the table has rendered?</h3>
+<p>Yes, push the row objects into the selection array or assign a new array; PrimeNG will update the checkboxes.</p>
+<h3>How to deselect all rows programmatically?</h3>
+<p>Set the selection array to an empty array: this.selectedProducts = [];</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/61936235/p-tablecheckbox-check-by-default" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

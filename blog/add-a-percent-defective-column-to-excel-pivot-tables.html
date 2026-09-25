@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Add a Percent Defective Column to Excel Pivot Tables | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to create a calculated field that shows the percentage of defective orders directly inside your pivot table." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, excel,pivot-table,calculated-columns,pivot-chart" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/add-a-percent-defective-column-to-excel-pivot-tables.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I use a calculated field to show a running total?", "acceptedAnswer": {"@type": "Answer", "text": "Yes—create a field with the formula =SUM(Orders) and then set it to show as a running total in the Value Field Settings."}}, {"@type": "Question", "name": "Will the calculated field update automatically when I refresh the pivot?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, as long as the source table is refreshed, the calculated field recalculates on every pivot refresh."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-09-25 · Q&A guide</p>
+    <h1>Add a Percent Defective Column to Excel Pivot Tables</h1>
+    <p class="lead">Learn how to create a calculated field that shows the percentage of defective orders directly inside your pivot table.</p>
+    <div class="content">
+<h2>Prepare Your Source Table</h2>
+<p>Your source data should contain at least three columns: a date field, a count of orders, and a count of defective orders. Keep the table tidy—no blank rows or merged cells—and give the table a name (e.g., OrdersTable) so it can be referenced easily.</p>
+<h2>Build the Pivot Table</h2>
+<p>Insert a pivot table based on OrdersTable. Drag the Date field to Rows, the Orders count to Values (set to Sum), and the Defective count to Values (also set to Sum). The pivot will now show two numeric columns per day.</p>
+<h2>Insert a Calculated Field</h2>
+<p>With the pivot table selected, go to PivotTable Analyze → Fields, Items &amp; Sets → Calculated Field. Name the field &quot;% Defective&quot; and use the formula:</p>
+<p>=Defective Orders / Orders</p>
+<p>Replace the field names with the exact names that appear in the Values list. Click Add, then OK. The new column will appear in the pivot and show a decimal value.</p>
+<pre><code>Calculated Field Formula:
+
+    =&quot;Defective Orders&quot; / &quot;Orders&quot;
+
+(Use the exact field names shown in the pivot.)</code></pre>
+<h2>Format as a Percentage</h2>
+<p>Right‑click the new column, choose Value Field Settings, then Number Format. Select Percentage and set the desired decimal places. The column now displays the defect rate as a percent, making it ready for a p‑chart or other visual analysis.</p>
+<h2>Common Pitfalls and Fixes</h2>
+<p>If the calculated field shows a #DIV/0! error, ensure that the Orders column never contains zero. If the values look wrong, double‑check that the field names in the formula match exactly what appears in the pivot. Finally, remember that the calculated field uses the aggregated totals, not the raw row values.</p>
+<p><strong>Takeaway:</strong> A single calculated field lets you turn raw order counts into a ready‑to‑chart defect percentage inside the pivot table.</p>
+<h2>People also ask</h2>
+<h3>Can I use a calculated field to show a running total?</h3>
+<p>Yes—create a field with the formula =SUM(Orders) and then set it to show as a running total in the Value Field Settings.</p>
+<h3>Will the calculated field update automatically when I refresh the pivot?</h3>
+<p>Yes, as long as the source table is refreshed, the calculated field recalculates on every pivot refresh.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/72801743/create-a-calculated-pivot-table-column-in-excel-based-off-other-columns-in-the-p" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>
