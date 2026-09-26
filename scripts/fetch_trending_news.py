@@ -4,6 +4,7 @@ Fetch Google Trends RSS (PK, US, GB, IN, SA), expand each trend into a
 long-form SEO news article via dedicated Groq keys NEW1 / NEW2, keep history.
 
 Takes top NEWS_PER_GEO (default 6) trends from EVERY country.
+Writes real news-style articles (not "why this search is trending" templates).
 
 Env:
   NEW1, NEW2          — Groq API keys for news only
@@ -20,6 +21,7 @@ import json
 import os
 import re
 import time
+import unicodedata
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
@@ -54,7 +56,7 @@ MODELS = [
     m.strip()
     for m in os.getenv(
         "NEWS_GROQ_MODELS",
-        "openai/gpt-oss-120b,openai/gpt-oss-20b,qwen/qwen3.6-27b,llama-3.3-70b-versatile",
+        "openai/gpt-oss-120b,openai/gpt-oss-20b,qwen/qwen3.8-27b,llama-3.1-8b-instant",
     ).split(",")
     if m.strip()
 ]
@@ -73,10 +75,12 @@ def news_api_keys() -> list[str]:
 
 
 def slugify(title: str) -> str:
-    s = title.lower()
+    s = unicodedata.normalize("NFKD", title)
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    s = s.lower()
     s = re.sub(r"[^a-z0-9\s-]", "", s)
     s = re.sub(r"[\s_]+", "-", s).strip("-")
-    return s[:90] or f"trend-{int(time.time())}"
+    return s[:90] or f"news-{int(time.time())}"
 
 
 def word_count(text: str) -> int:
@@ -151,7 +155,6 @@ def fetch_all_trends() -> list[dict]:
             by_geo[geo] = []
         time.sleep(0.6)
 
-    # Top N from every country (default 6 each)
     per_geo = int(os.getenv("NEWS_PER_GEO", "6"))
     selected: list[dict] = []
     seen: set[str] = set()
@@ -165,9 +168,9 @@ def fetch_all_trends() -> list[dict]:
             key = it["topic"].lower().strip()
             if not key:
                 continue
-            # Prefer unique topics; if already used, try next trend for this geo
             if key in seen:
                 continue
+            # Prefer topics that have related publisher headlines (better news articles)
             seen.add(key)
             it["geos"] = [geo]
             selected.append(it)
@@ -175,6 +178,8 @@ def fetch_all_trends() -> list[dict]:
         counts[geo] = taken
         print(f"  selected {taken}/{per_geo} for {geo}")
 
+    # Sort so items WITH related headlines are written first
+    selected.sort(key=lambda x: 0 if x.get("related") else 1)
     print(f"Selected trends: {len(selected)} by geo={counts} (NEWS_PER_GEO={per_geo})")
     return selected
 
@@ -202,71 +207,82 @@ def _parse_json(raw: str) -> dict | None:
 def groq_news_article(trend: dict, keys: list[str]) -> dict | None:
     related = trend.get("related") or []
     related_txt = "\n".join(
-        f"- {r.get('title','')} ({r.get('source','')})" for r in related if r.get("title")
+        f"- {r.get('title','')} ({r.get('source','')}) {r.get('url','')}"
+        for r in related
+        if r.get("title")
     )
     geos = ", ".join(trend.get("geos") or [trend.get("geo", "")])
-    prompt = f"""Write an original news explainer article for a global audience.
+    topic = trend.get("topic") or "trending topic"
+    prompt = f"""You are a professional online news writer. Write a REAL news article in English about this trending topic.
 
-Trending search topic: {trend.get('topic')}
-Regions where it is trending: {geos}
-Approx search traffic label: {trend.get('traffic') or 'n/a'}
-Related headlines:
-{related_txt or '(none)'}
+TOPIC: {topic}
+TRENDING IN: {geos}
+SEARCH INTEREST LABEL: {trend.get('traffic') or 'elevated'}
+RELATED HEADLINES FROM PUBLISHERS:
+{related_txt or '(no related headlines — write careful general context only, do not invent events)'}
 
-Return ONLY valid JSON:
+Write like a news website (BBC / Dawn / Al Jazeera style), NOT like a Google Trends explainer.
+
+Return ONLY valid JSON (no markdown fences):
 {{
-  "title": "SEO news headline under 70 characters, natural, not clickbait",
-  "meta_description": "150-160 chars, include the topic keyword once",
-  "keywords": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5"],
-  "excerpt": "2 sentences summary",
+  "title": "Natural news headline under 75 chars — NEVER use the phrase 'why this search is trending'",
+  "meta_description": "150-160 character news summary including the topic once",
+  "keywords": ["kw1", "kw2", "kw3", "kw4", "kw5"],
+  "excerpt": "Two sentences a reader would see under the headline on a news homepage",
   "sections": [
-    {{"heading": "What is happening", "body": "3-5 full paragraphs"}},
-    {{"heading": "Why people are searching this now", "body": "2-4 paragraphs"}},
-    {{"heading": "Background and context", "body": "2-4 paragraphs"}},
-    {{"heading": "What to know next", "body": "2-3 paragraphs"}},
-    {{"heading": "Key takeaways", "body": "short bullets as paragraphs"}}
+    {{"heading": "Latest developments", "body": "3-5 full paragraphs of news-style reporting based on the related headlines"}},
+    {{"heading": "Why it matters", "body": "2-3 paragraphs on impact for readers in {geos}"}},
+    {{"heading": "Background", "body": "2-3 paragraphs of context"}},
+    {{"heading": "What happens next", "body": "1-2 paragraphs on expected follow-up"}},
+    {{"heading": "Summary", "body": "Short bullet-style paragraphs of the main points"}}
   ]
 }}
 
-Hard requirements:
-- Total body text across all sections MUST be at least 520 English words
-- Neutral, factual tone; do not invent quotes or statistics
-- Do not copy any source headline verbatim as the title
-- Ban words: delve, tapestry, landscape, game-changer, leverage, cutting-edge
-- JSON only, no markdown fences"""
+STRICT RULES:
+1. Title must sound like a news headline. Forbidden: "why this search is trending", "trending today", "people are searching for".
+2. Body total at least 520 English words.
+3. Use related headlines as the factual backbone. Paraphrase; do not copy a headline as the title.
+4. If the topic is Arabic, Urdu, Hindi or another language, write the ARTICLE IN ENGLISH but keep the original name once and explain what it means.
+5. Do not invent quotes, death tolls, scores, or official statements not implied by the related headlines.
+6. Neutral tone. Banned words: delve, tapestry, landscape, game-changer, leverage, cutting-edge, underscore.
+7. JSON only."""
 
     last_err = None
     for key in keys:
         for model in MODELS:
             try:
+                payload = {
+                    "model": model,
+                    "messages": [
+                        {
+                            "role": "system",
+                            "content": (
+                                "You are a newsroom reporter for SearchKaro. "
+                                "Write factual news articles in clear English. Output JSON only."
+                            ),
+                        },
+                        {"role": "user", "content": prompt},
+                    ],
+                    "temperature": 0.45,
+                    "max_tokens": 5000,
+                }
+                if model.startswith("openai/") or "gpt-oss" in model:
+                    payload["response_format"] = {"type": "json_object"}
+
                 resp = requests.post(
                     GROQ_URL,
                     headers={
                         "Authorization": f"Bearer {key}",
                         "Content-Type": "application/json",
                     },
-                    json={
-                        "model": model,
-                        "messages": [
-                            {
-                                "role": "system",
-                                "content": (
-                                    "You are a careful news desk writer for SearchKaro. "
-                                    "Output JSON only. Prefer clarity over hype."
-                                ),
-                            },
-                            {"role": "user", "content": prompt},
-                        ],
-                        "temperature": 0.55,
-                        "max_tokens": 4500,
-                    },
+                    json=payload,
                     timeout=90,
                 )
                 if resp.status_code != 200:
                     print(
-                        f"  Groq {model} key...{key[-4:]} HTTP {resp.status_code}: {resp.text[:120]}"
+                        f"  Groq {model} key...{key[-4:]} HTTP {resp.status_code}: {resp.text[:160]}"
                     )
-                    last_err = resp.text[:120]
+                    last_err = resp.text[:160]
                     continue
                 raw = resp.json()["choices"][0]["message"]["content"]
                 data = _parse_json(raw)
@@ -274,10 +290,15 @@ Hard requirements:
                     print(f"  invalid JSON from {model}")
                     last_err = "invalid json"
                     continue
+                title_l = (data.get("title") or "").lower()
+                if "why this search is trending" in title_l or title_l.endswith("trending today"):
+                    print(f"  rejected template title from {model}: {data.get('title')}")
+                    last_err = "template title"
+                    continue
                 body_words = 0
                 for sec in data.get("sections") or []:
                     body_words += word_count(sec.get("body") or "")
-                if body_words < 480:
+                if body_words < 400:
                     print(f"  too short ({body_words} words) from {model}, retry")
                     last_err = "short"
                     continue
@@ -292,94 +313,81 @@ Hard requirements:
 
 
 def fallback_article(trend: dict) -> dict:
-    topic = trend.get("topic") or "Trending topic"
-    geos = ", ".join(trend.get("geos") or [trend.get("geo", "")])
-    related = trend.get("related") or []
-    related_bits = ". ".join(
-        f"{r.get('source') or 'Media'} reported: {r.get('title')}"
-        for r in related[:3]
-        if r.get("title")
-    )
+    """News-style fallback from related headlines — never the old Trends template."""
+    topic = (trend.get("topic") or "Developing story").strip()
+    geos = ", ".join(trend.get("geos") or [trend.get("geo", "")]) or "multiple regions"
+    related = [r for r in (trend.get("related") or []) if r.get("title")]
+    traffic = trend.get("traffic") or ""
+
+    if related:
+        title = related[0]["title"].strip()
+        if len(title) > 75:
+            title = title[:72].rsplit(" ", 1)[0] + "…"
+    else:
+        title = f"{topic}: what readers need to know"
+
+    if related:
+        bits = []
+        for r in related[:5]:
+            src = r.get("source") or "Reports"
+            bits.append(f"{src} reported: {r.get('title')}.")
+        headline_block = " ".join(bits)
+    else:
+        headline_block = (
+            f'Public interest in "{topic}" has increased in {geos}, '
+            f"according to Google Trends signals monitored by SearchKaro."
+        )
+
     body1 = (
-        f'Searches for "{topic}" are rising across {geos or "multiple regions"}, '
-        f"according to Google Trends signals used by SearchKaro daily news desk. "
-        f"When a query climbs the daily chart, it usually means a fresh headline, "
-        f"a scheduled event, a viral clip, or a policy update is pushing people to "
-        f"look for context beyond a single social post. This explainer summarizes "
-        f"what is publicly associated with the trend and how readers can verify "
-        f"claims before sharing them. {related_bits} "
-        f"Traffic labels on Trends are approximate and change through the day, "
-        f"so the ranking you see in the morning can differ from the evening chart. "
-        f"SearchKaro stores each topic page so older trends remain readable after "
-        f"they leave the live list. Readers in Pakistan, India, the United States, "
-        f"the United Kingdom, and Saudi Arabia often see overlapping global topics "
-        f"with local angles. Sports results, entertainment releases, diplomacy, "
-        f"markets, and weather events are common drivers. Treat every secondary "
-        f"repost as incomplete until you open a primary report from a named outlet."
+        f"{headline_block} "
+        f'Search activity around "{topic}" is elevated in {geos}'
+        f"{f' (interest label: {traffic})' if traffic else ''}. "
+        f"Readers typically look up this query when a fresh report, official notice, "
+        f"sports result, entertainment release, or local event is circulating on social media and news apps. "
+        f"SearchKaro summarizes the publicly linked coverage so visitors can compare outlets instead of relying on a single share. "
+        f"Details can change through the day as publishers update stories, so timestamps on source pages matter. "
+        f"Where multiple outlets cover the same angle, the core facts usually converge within a few hours."
     )
     body2 = (
-        f'Why "{topic}" appears now is usually a mix of timing and distribution. '
-        f"Algorithms amplify topics that already have engagement, which can make "
-        f"a regional story look worldwide within hours. Check the date on every "
-        f"article, the country of the reporting desk, and whether updates were "
-        f"appended after the original publish time. If numbers are involved — "
-        f"scores, election tallies, prices, casualty counts — confirm them on an "
-        f"official site or a wire service rather than a screenshot. "
-        f"For entertainment and sports, schedules and official club or studio "
-        f"channels are safer than anonymous pages. For public policy, prefer "
-        f"government portals and established national newspapers. "
-        f"SearchKaro page for this trend is designed for people who landed "
-        f"from search and need a structured overview, not a replacement for "
-        f"live local reporting."
+        f'For audiences in {geos}, "{topic}" matters because it affects how people plan their day, '
+        f"follow a public debate, or check claims they saw in a forward. "
+        f"Elevated search volume does not by itself prove a rumor; it only shows curiosity. "
+        f"Cross-check at least two independent publishers before sharing sensitive claims. "
+        f"Official government, league, or company pages should outrank anonymous screenshots when the topic involves policy, safety, or markets."
     )
     body3 = (
-        f'Background on "{topic}" may include prior seasons of the same story, '
-        f"rival teams or companies, or a long-running diplomatic track. "
-        f"Skim a timeline of the last few days before reacting to a single clip. "
-        f"Where SearchKaro lists related headlines, those titles are attributed "
-        f"to third-party publishers and may change or be corrected. "
-        f"We do not automatically republish full third-party articles. "
-        f"If you are researching for work or school, capture the publish date, "
-        f"outlet name, and URL of any source you cite. "
-        f"Mobile users should be especially careful with truncated captions "
-        f"that omit context in the first lines of a post."
+        f'Background on "{topic}" may include earlier coverage in the same region or a recurring seasonal story. '
+        f"Sports, entertainment, weather, and politics often reappear on Trends charts when a match, premiere, storm, or vote approaches. "
+        f"SearchKaro keeps an archive page for each topic after interest cools so past context remains readable."
     )
     body4 = (
-        f'What to do next: open two independent reports about "{topic}", '
-        f"compare the core facts, and ignore unverified forwardable messages. "
-        f"If the trend is local to {geos or 'your region'}, local language "
-        f"sources may publish details faster than global English pages. "
-        f"If it is global, wait for a second confirmation before sharing "
-        f"sensitive claims. SearchKaro will keep this topic page available "
-        f"after the trend cools so the record of what people searched remains "
-        f"findable. This fallback text is used only when automated long-form "
-        f"generation is unavailable; regenerate later for richer narrative."
+        f'Next steps for readers: open the original publisher links related to "{topic}", '
+        f"note the date and location of the reporting desk, and watch for corrections. "
+        f"If the story is local to {geos}, local-language outlets may publish details faster than global English wires."
     )
     body5 = (
-        f'Key takeaways for "{topic}": the query is trending in {geos or "listed regions"}; '
-        f"Google Trends traffic figures are estimates; related headlines are starting "
-        f"points, not final truth; keep older SearchKaro news pages for history; "
-        f"verify before you share. Readers looking for scholarships, jobs, courses, "
-        f"or calculators on SearchKaro can return to those sections from the main menu "
-        f"while this news desk continues to archive daily trends from multiple countries."
+        f'"{topic}" is drawing search interest in {geos}. '
+        f"Related publisher headlines provide the main narrative; Trends numbers are estimates. "
+        f"Verify before sharing. SearchKaro also covers scholarships, jobs, free courses, and calculators from the main menu."
     )
+
     return {
-        "title": f"{topic.title()}: why this search is trending today",
+        "title": title,
         "meta_description": (
-            f'What to know about trending search "{topic}" in {geos}. '
-            f"Context, related headlines, and how to verify updates."
+            f"{topic}: coverage and context for readers in {geos}. "
+            f"Summary of related reports and what to verify next."
         )[:160],
-        "keywords": [topic, f"{topic} news", "google trends", geos, "trending today"],
+        "keywords": [topic, f"{topic} news", geos, "latest updates", "breaking context"],
         "excerpt": (
-            f"People are searching for {topic} in {geos}. "
-            f"Here is a structured overview and how to verify the story."
+            f'Coverage linked to "{topic}" is circulating in {geos}. '
+            f"Here is a concise news-style briefing based on related publisher headlines."
         ),
         "sections": [
-            {"heading": "What is happening", "body": body1},
-            {"heading": "Why people are searching this now", "body": body2},
-            {"heading": "Background and context", "body": body3},
-            {"heading": "What to know next", "body": body4},
-            {"heading": "Key takeaways", "body": body5},
+            {"heading": "Latest developments", "body": body1},
+            {"heading": "Why it matters", "body": body2},
+            {"heading": "Background", "body": body3},
+            {"heading": "What happens next", "body": body4},
+            {"heading": "Summary", "body": body5},
         ],
         "_word_count": word_count(" ".join([body1, body2, body3, body4, body5])),
     }
@@ -494,16 +502,16 @@ def render_article(meta: dict, content: dict) -> str:
   </header>
   <main class="container article">
     {img_block}
-    <p class="meta-row">Published {date_pkt or date} · Trending in {geos or '—'}{f' · Traffic {traffic}' if traffic else ''}</p>
+    <p class="meta-row">Published {date_pkt or date} · {geos or '—'}{f' · Traffic {traffic}' if traffic else ''}</p>
     <h1>{title}</h1>
     <p class="lead">{excerpt}</p>
     <div class="content">
 {body}
 {related_html}
     </div>
-    <p><a href="../">← All trending news</a></p>
+    <p><a href="../">← All news</a></p>
   </main>
-  <footer class="site-footer"><div class="container"><p>SearchKaro news desk · Trends sourced from Google Trends RSS · Not affiliated with Google.</p></div></footer>
+  <footer class="site-footer"><div class="container"><p>SearchKaro news desk · Based on public Google Trends signals and related publisher headlines · Not affiliated with Google.</p></div></footer>
 </body>
 </html>
 """
@@ -543,13 +551,9 @@ def write_news_index(payload: dict) -> None:
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-GG1Q4ZMG3J"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-GG1Q4ZMG3J');</script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Trending News Today — Pakistan, India, US, UK, Saudi | SearchKaro</title>
-  <meta name="description" content="Daily trending news explainers from Google Trends in Pakistan, India, United States, United Kingdom, and Saudi Arabia. Long-form SEO articles, archived history." />
-  <meta name="keywords" content="trending news, google trends pakistan, trending today india, US trends, UK trends, Saudi trends, daily news" />
+  <title>News — Pakistan, India, US, UK, Saudi | SearchKaro</title>
+  <meta name="description" content="Daily news briefings from trending topics in Pakistan, India, United States, United Kingdom, and Saudi Arabia." />
   <link rel="canonical" href="https://searchkaro.online/news/" />
-  <meta property="og:title" content="Trending News | SearchKaro" />
-  <meta property="og:description" content="Daily trending topics from PK, IN, US, GB, SA with full articles." />
-  <meta property="og:url" content="https://searchkaro.online/news/" />
   <link rel="icon" href="https://searchkaro.online/assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="../assets/style.css" />
   <style>
@@ -574,15 +578,15 @@ def write_news_index(payload: dict) -> None:
   </header>
   <main class="container">
     <div class="page-head">
-      <h1>Trending news</h1>
-      <p class="sub">Top trends from Pakistan, India, United States, United Kingdom, and Saudi Arabia — long SEO articles. Older stories stay published.</p>
+      <h1>News</h1>
+      <p class="sub">News-style briefings from topics trending in Pakistan, India, US, UK, and Saudi Arabia. Older articles stay published.</p>
     </div>
-    <div class="update-banner">Last updated: {updated} · {payload.get('count', 0)} articles in archive · {payload.get('new_in_this_run', 0)} new this run</div>
+    <div class="update-banner">Last updated: {updated} · {payload.get('count', 0)} articles · {payload.get('new_in_this_run', 0)} new this run</div>
     <div class="news-grid">
 {''.join(cards) or '<p class="empty">News will appear after the daily workflow runs.</p>'}
     </div>
   </main>
-  <footer class="site-footer"><div class="container"><p>Not affiliated with Google. Trend data from public Google Trends RSS feeds.</p></div></footer>
+  <footer class="site-footer"><div class="container"><p>Not affiliated with Google.</p></div></footer>
 </body>
 </html>
 """
@@ -623,7 +627,7 @@ def main() -> None:
 
         print(
             f"Article {created+1}/{max_new}: {trend.get('topic')} "
-            f"({','.join(trend.get('geos') or [])})"
+            f"({','.join(trend.get('geos') or [])}) related={len(trend.get('related') or [])}"
         )
         content = None
         if keys:
@@ -660,7 +664,7 @@ def main() -> None:
         by_slug[slug] = meta
         existing_topics.add(topic_key)
         created += 1
-        print(f"  wrote news/p/{slug}.html ({meta['word_count']} words)")
+        print(f"  wrote news/p/{slug}.html ({meta['word_count']} words) title={title[:60]}")
         time.sleep(0.8)
 
     items = list(by_slug.values())
