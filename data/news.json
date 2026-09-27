@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-26T10:53:01.291993+00:00",
-  "updated_at_pkt": "2026-09-26 03:51 PM PKT",
-  "count": 359,
+  "updated_at": "2026-09-27T11:29:08.890944+00:00",
+  "updated_at_pkt": "2026-09-27 04:26 PM PKT",
+  "count": 388,
   "new_in_this_run": 29,
   "sources": [
     "https://trends.google.com/trending/rss?geo=PK",
@@ -11,6 +11,1146 @@
     "https://trends.google.com/trending/rss?geo=SA"
   ],
   "items": [
+    {
+      "title": "Unseasonably Warm Weather Sweeps Europe as US Searches Spike for 'Météo'",
+      "slug": "unseasonably-warm-weather-sweeps-europe-as-us-searches-spike-for-meteo",
+      "topic": "météo",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "Searches for the French word météo have jumped in the United States as Europe experiences an unexpected warm spell. Forecasts show temperatures climbing toward 30 °C in parts of Belgium and milder conditions in northern France.",
+      "meta_description": "US interest surges in the French term 'météo' as Europe faces unusually warm temperatures, with forecasts of up to 30°C in Belgium and mild conditions in Caen, ",
+      "keywords": [
+        "weather",
+        "météo",
+        "heat wave",
+        "Europe forecast",
+        "US search trends"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSjdzRMOtHVbB1bQdIIJJd3gZkMYucu0McgApzaYGXSsoFNKd8e1XCd0sCwCFo",
+      "related": [
+        {
+          "title": "Météo. La météo du dimanche 27 septembre 2026 à Caen et ses environs",
+          "url": "https://www.ouest-france.fr/meteo/normandie/caen-14000/la-meteo-du-jour-a-caen-11c5a4a8-6704-41ab-b49d-2b142cdd3136",
+          "source": "Ouest-France"
+        },
+        {
+          "title": "Combien de temps va durer cette météo « pas du tout » normale pour la saison ?",
+          "url": "https://www.rtl.be/actu/belgique/meteo/combien-de-temps-va-durer-cette-meteo-pas-du-tout-normale-pour-la-saison/2026-09-26/article/801450",
+          "source": "RTL Info"
+        },
+        {
+          "title": "Jusqu’à 30 degrés la semaine prochaine : les prévisions météo",
+          "url": "https://www.lesoir.be/773295/article/2026-09-27/jusqua-30-degres-la-semaine-prochaine-les-previsions-meteo",
+          "source": "Le Soir"
+        }
+      ],
+      "word_count": 839,
+      "page": "p/unseasonably-warm-weather-sweeps-europe-as-us-searches-spike-for-meteo.html"
+    },
+    {
+      "title": "US Weather Shifts: Clear Skies in Midwest, Showers in South Amid Rising Fog",
+      "slug": "us-weather-shifts-clear-skies-in-midwest-showers-in-south-amid-rising-fog",
+      "topic": "날씨",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "The United States is experiencing a mix of clear skies, rain, and fog across different regions today. These conditions mirror weather patterns reported in Korea during the Chuseok holiday.",
+      "meta_description": "US weather today shows clear skies in the Midwest, rain in the South, and dense fog in the East, mirroring patterns seen in Korea’s Chuseok holiday.",
+      "keywords": [
+        "weather",
+        "US",
+        "Chuseok",
+        "fog",
+        "rain",
+        "forecast"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSWBhNCFNzCX4ZyxYBPZg7gJL7WyQr0UTXiRUBjvDZT1Tt2MVEtz8s33GH8wL4",
+      "related": [
+        {
+          "title": "‘추석 보름달’과 토성 함께 본다…가장 잘 보이는 시간은?",
+          "url": "https://www.radiokorea.com/news/article.php?uid=505172",
+          "source": "라디오코리아"
+        },
+        {
+          "title": "추석 연휴 마지막 날 전국 곳곳 비… 아침엔 짙은 안개 - 조선비즈",
+          "url": "https://biz.chosun.com/topics/topics_social/2026/09/27/FTJD32JXGBDAPKAAHZRMKTTLUA/",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "중부 맑고 남부에는 오늘 비나 소나기",
+          "url": "https://news.kbs.co.kr/news/view.do?ncd=8672065",
+          "source": "KBS 뉴스"
+        }
+      ],
+      "word_count": 980,
+      "page": "p/us-weather-shifts-clear-skies-in-midwest-showers-in-south-amid-rising-fog.html"
+    },
+    {
+      "title": "Trump targets GOP congresswoman Salazar over immigration stance",
+      "slug": "trump-targets-gop-congresswoman-salazar-over-immigration-stance",
+      "topic": "maria elvira salazar",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "President Trump has turned his attention to Florida Republican Maria Elvira Salazar, posting multiple attacks on social media following her public criticism of his immigration enforcement strategies. The exchange highlights deepening fractu",
+      "meta_description": "President Trump has launched a series of public attacks against Florida Republican Maria Elvira Salazar after she criticized his immigration crackdown, marking ",
+      "keywords": [
+        "Maria Elvira Salazar",
+        "Donald Trump",
+        "Immigration Policy",
+        "GOP Conflict",
+        "Florida Politics"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9B3AiuQhAGJe2sbypGtH-pgjDQYxXig2aPyDp1y2CXt7ZUh4kF5OSiyONN_s",
+      "related": [
+        {
+          "title": "Trump posts series of attacks on GOP congresswoman who criticized him on immigration",
+          "url": "https://www.cnn.com/2026/09/26/politics/trump-maria-elvira-salazar-truth-social-posts",
+          "source": "CNN"
+        },
+        {
+          "title": "Trump Promotes Criticism of Republican Who Broke With Him on Immigration",
+          "url": "https://www.nytimes.com/2026/09/26/us/politics/trump-salazar-immigration-criticism.html",
+          "source": "The New York Times"
+        },
+        {
+          "title": "Trump turns on Salazar after Florida Republican challenges his immigration crackdown",
+          "url": "https://www.politico.com/news/2026/09/26/trump-maria-elvira-salazar-immigration-florida-01094098",
+          "source": "Politico"
+        }
+      ],
+      "word_count": 982,
+      "page": "p/trump-targets-gop-congresswoman-salazar-over-immigration-stance.html"
+    },
+    {
+      "title": "Trump Rejects Hormuz Ceasefire, Iran Vows to Continue Negotiations",
+      "slug": "trump-rejects-hormuz-ceasefire-iran-vows-to-continue-negotiations",
+      "topic": "iran hormuz",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "President Trump has rejected a US‑Iran ceasefire proposal concerning the strategic Strait of Hormuz. Iran’s foreign minister responded, insisting that only negotiations can end the standoff.",
+      "meta_description": "US President Donald Trump dismissed a proposed Hormuz ceasefire, prompting Iran's foreign minister to call for negotiations while Tehran vows not to back down, ",
+      "keywords": [
+        "Iran",
+        "Hormuz",
+        "Trump",
+        "Pakistan",
+        "Middle East"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSDAAjLF-uVUulSJzkNPaF9x_r1VqH6IOgw_4bOa2_KnPeM3uBedcXa6B17kiY",
+      "related": [
+        {
+          "title": "Exclusive | Trump Rejects Iran Ceasefire, Expects Renewed Bombing After Midterms",
+          "url": "https://www.wsj.com/world/middle-east/trump-rejects-iran-ceasefire-expects-renewed-bombing-after-midterms-5982ee50",
+          "source": "WSJ"
+        },
+        {
+          "title": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
+          "url": "https://www.bbc.com/news/articles/cmvgyyw2jeego",
+          "source": "BBC"
+        },
+        {
+          "title": "Iran war live: Tehran vows not to back down as Trump rejects Hormuz plan",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/27/iran-war-live-tehran-awaits-official-response-as-trump-rejects-hormuz-plan",
+          "source": "Al Jazeera"
+        }
+      ],
+      "word_count": 802,
+      "page": "p/trump-rejects-hormuz-ceasefire-iran-vows-to-continue-negotiations.html"
+    },
+    {
+      "title": "That 70s Show - Ivonne Vildosola, the Chilean grandmother making T20I…",
+      "slug": "that-70s-show---ivonne-vildosola-the-chilean-grandmother-making-t20i",
+      "topic": "cricinfo",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "Coverage linked to \"cricinfo\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "cricinfo: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "cricinfo",
+        "cricinfo news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSztLFu828EFaDU0y1qUpO6AVCZTUl0Yxq9wsV-p7wkG83SShdCGhviNrTvNw8",
+      "related": [
+        {
+          "title": "That 70s Show - Ivonne Vildosola, the Chilean grandmother making T20I history",
+          "url": "https://www.cricinfo.com/story/ivonne-vildosola-the-grandmother-making-cricket-history-in-chile-1555779",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "England vs Sri Lanka LIVE: Third ODI, The Oval - cricket score, commentary & video highlights",
+          "url": "https://www.bbc.co.uk/sport/cricket/live/c15dwnqeenlt",
+          "source": "BBC"
+        },
+        {
+          "title": "England v Sri Lanka: third and deciding men’s one-day cricket international – live",
+          "url": "https://www.theguardian.com/sport/live/2026/sep/27/england-v-sri-lanka-third-one-day-cricket-international-live-score-updates?page=with:block-6ab8f8318f08e457778156d0",
+          "source": "The Guardian"
+        }
+      ],
+      "word_count": 330,
+      "page": "p/that-70s-show---ivonne-vildosola-the-chilean-grandmother-making-t20i.html"
+    },
+    {
+      "title": "Sri Lanka clinches thriller to level England ODI series 1-1",
+      "slug": "sri-lanka-clinches-thriller-to-level-england-odi-series-1-1",
+      "topic": "england vs sri lanka",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "Sri Lanka edged England in a nail‑biting third ODI to square the series. Wellalage and Mendis powered the chase while England's Jos Buttler fell short despite a fearless innings.",
+      "meta_description": "Sri Lanka level the three‑match ODI series against England after a dramatic win, with standout performances from Wellalage and Mendis and a valiant effort by Jo",
+      "keywords": [
+        "England",
+        "Sri Lanka",
+        "ODI",
+        "cricket",
+        "series"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "20000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT3HUiPJEBM1NiHVNNoUmvbmW8sI6H3MEY2oGVw8uvIUpr96hOfmOUCOwDC3i0",
+      "related": [
+        {
+          "title": "Ball by Ball Commentary & Live Score - ENG vs SL, 3rd ODI",
+          "url": "https://www.cricinfo.com/series/sri-lanka-in-england-2026-1496567/england-vs-sri-lanka-3rd-odi-1496590/ball-by-ball-commentary",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "Wellalage, Mendis star as SL level England series in thriller",
+          "url": "https://www.dawn.com/news/2032752",
+          "source": "Dawn"
+        },
+        {
+          "title": "England vs Sri Lanka: Jos Buttler's bravery in vain as tourists fight back to level series",
+          "url": "https://www.bbc.com/sport/cricket/articles/cw804nd022elo",
+          "source": "BBC"
+        }
+      ],
+      "word_count": 758,
+      "page": "p/sri-lanka-clinches-thriller-to-level-england-odi-series-1-1.html"
+    },
+    {
+      "title": "Springboks and Wallabies clash in high‑stakes test as Rugby Championship heats up",
+      "slug": "springboks-and-wallabies-clash-in-highstakes-test-as-rugby-championship-heats-up",
+      "topic": "south africa vs australia rugby",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "The Springboks welcome the Wallabies for a crucial Rugby Championship test. Early exchanges hint at a fiercely competitive encounter.",
+      "meta_description": "South Africa host Australia in a tightly contested Rugby Championship test, with both sides vying for early points and setting the tone for the series.",
+      "keywords": [
+        "Rugby",
+        "South Africa",
+        "Australia",
+        "Springboks",
+        "Wallabies"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkxReJLkt1dA5GvsNKEi16o8WyY6lSG1tPsX-Kyb3t9XCl7_0n4x0zJ1WWuC8",
+      "related": [
+        {
+          "title": "Australia v South Africa: international men’s rugby union Test – live",
+          "url": "https://www.theguardian.com/sport/live/2026/sep/27/aus-vs-sa-australia-wallabies-v-south-africa-springboks-rugby-union-test-live-updates",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Ball by Ball Commentary & Live Score - SA vs AUS, 2nd ODI",
+          "url": "https://www.cricinfo.com/series/australia-in-south-africa-2026-27-1525634/south-africa-vs-australia-2nd-odi-1525656/ball-by-ball-commentary",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "LIVE: Australia v South Africa - Test Match",
+          "url": "https://rugby365.com/countries/australia/live-australia-v-south-africa-test-match/",
+          "source": "Rugby365"
+        }
+      ],
+      "word_count": 781,
+      "page": "p/springboks-and-wallabies-clash-in-highstakes-test-as-rugby-championship-heats-up.html"
+    },
+    {
+      "title": "Saudi Daily Okaz Expands Digital Reach Amid Media Shifts",
+      "slug": "saudi-daily-okaz-expands-digital-reach-amid-media-shifts",
+      "topic": "صحيفة عكاظ",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "Saudi Arabia’s historic daily, Okaz, is accelerating its digital transformation to meet modern readership demands. The shift reflects broader changes in the kingdom’s media environment.",
+      "meta_description": "Okaz, one of Saudi Arabia’s oldest newspapers, is boosting its online platform and modernising its content to stay relevant in a changing Saudi landscape.",
+      "keywords": [
+        "Okaz newspaper",
+        "Saudi media",
+        "digital journalism",
+        "Arab press",
+        "Saudi Arabia news"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "",
+      "related": [],
+      "word_count": 506,
+      "page": "p/saudi-daily-okaz-expands-digital-reach-amid-media-shifts.html"
+    },
+    {
+      "title": "Pitru Paksha 2026 Observances Extend to Oct 10 Amid Ritual Guidelines",
+      "slug": "pitru-paksha-2026-observances-extend-to-oct-10-amid-ritual-guidelines",
+      "topic": "પિતૃ પક્ષ",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "The Hindu ancestral fortnight of Pitru Paksha 2026 continues until October 10, with thousands gathering for shraddha rites. Authorities and priests have issued a list of five actions to avoid after the ceremonies.",
+      "meta_description": "Pitru Paksha 2026 in Gujarat will run until October 10, with 15 days of shraddha rites, crowd‑controlled rituals and new advice on post‑ritual conduct.",
+      "keywords": [
+        "Pitru Paksha",
+        "Shraddha rituals",
+        "crows",
+        "October 2026",
+        "Gujarat traditions"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRo_uPAppjkieTHODDi9f84QTMOpJoYcVJMTT8Iu-KOMI00lPYI_tuFHXZhOR8",
+      "related": [
+        {
+          "title": "Pitru Paksha 2026 / શ્રાદ્ધ વિધિ પૂર્ણ કર્યા પછી ભૂલથી પણ ન કરતા આ 5 કામ, પિતૃઓ થઈ શકે છે નારાજ!",
+          "url": "https://www.vtvgujarati.com/news-details/pitru-paksha-2026-avoid-these-5-things-immediately-after-performing-shradh-rituals",
+          "source": "VTV Gujarati"
+        },
+        {
+          "title": "10 ઓક્ટોબર સુધી શ્રાદ્ધ પક્ષ રહેશે: આઠમ તિથિનો ક્ષય થતાં શ્રાદ્ધ 15 દિવસ રહેશે ચાંદોદમાં 1 લાખ લોકો તર્પણ-પ...",
+          "url": "https://www.divyabhaskar.co.in/local/gujarat/vadodara/news/shraddha-paksha-will-continue-till-october-10-dbp-139162510.html",
+          "source": "Divya Bhaskar"
+        },
+        {
+          "title": "કાગડા વગર કેમ અધૂરું મનાય છે પિતૃ પક્ષનું શ્રાદ્ધ કર્મ, જાણો કારણ | Pitru Paksha 2026 crow importance shraddh vidhi me kauwe ka kya role hai",
+          "url": "https://gujarati.indianexpress.com/dharma/pitru-paksha-2026-crow-importance-shraddh-vidhi-me-kauwe-ka-kya-role-hai-ag-12580363",
+          "source": "Indian Express - Gujarati"
+        }
+      ],
+      "word_count": 657,
+      "page": "p/pitru-paksha-2026-observances-extend-to-oct-10-amid-ritual-guidelines.html"
+    },
+    {
+      "title": "Pakistan's Hangor-Class Submarine Conducts First Live Weapon Firing",
+      "slug": "pakistans-hangor-class-submarine-conducts-first-live-weapon-firing",
+      "topic": "hangor-class submarine",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "Pakistan’s new Hangor-class submarine has fired its first live weapons in the Arabian Sea, marking a significant milestone in the navy’s modernization. The exercise signals a boost in the country’s maritime deterrence.",
+      "meta_description": "Pakistan Navy’s newly inducted Hangor-class submarine completed its first live weapon firing in the Arabian Sea, demonstrating upgraded combat readiness, mariti",
+      "keywords": [
+        "Hangor submarine",
+        "Pakistan Navy",
+        "Arabian Sea",
+        "military drills",
+        "naval capability"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTNInFEZu_CLSPHOn1WLEccW5K8tXDNBD5U2RFnCEI1YnEy0ltJGmCsiO_NG98",
+      "related": [
+        {
+          "title": "Newly inducted Hangor-class submarine conducts maiden live weapon firing in Arabian Sea: ISPR",
+          "url": "https://www.dawn.com/news/2033036/newly-inducted-hangor-class-submarine-conducts-maiden-live-weapon-firing-in-arabian-sea-ispr",
+          "source": "Dawn"
+        },
+        {
+          "title": "PNS/M Hangor demonstrates combat capability in maiden weapon firing",
+          "url": "https://www.brecorder.com/news/40441456/pnsm-hangor-demonstrates-combat-capability-in-maiden-weapon-firing",
+          "source": "Business Recorder"
+        },
+        {
+          "title": "Newly inducted HANGOR conducts maiden live weapon firing in Arabian Sea: ISPR",
+          "url": "https://tribune.com.pk/story/2631672/newly-inducted-hangor-conducts-maiden-live-weapon-firing-in-arabian-sea-ispr",
+          "source": "The Express Tribune"
+        }
+      ],
+      "word_count": 562,
+      "page": "p/pakistans-hangor-class-submarine-conducts-first-live-weapon-firing.html"
+    },
+    {
+      "title": "Pakistan Chairs Shanghai Cooperation Organisation Summit in Islamabad",
+      "slug": "pakistan-chairs-shanghai-cooperation-organisation-summit-in-islamabad",
+      "topic": "dawn",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "Pakistan will host SCO leaders from September 28 to 30 under its presidency, aiming to boost trade with Central Asian partners. The summit, highlighted by Dawn, marks a key step in Islamabad's diversification strategy.",
+      "meta_description": "Dawn reports Pakistan’s chairmanship of the Shanghai Cooperation Organisation summit in Islamabad, focusing on trade talks with Central Asia and regional cooper",
+      "keywords": [
+        "Pakistan",
+        "Shanghai Cooperation Organisation",
+        "Islamabad",
+        "Central Asia trade",
+        "Dawn"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRvulLDdkn6gwzwOI1rnZ04hZ6S9Irg0LWLqTdXVxFEet8lz-oow7x51F11O8o",
+      "related": [
+        {
+          "title": "SCO members to meet in Islamabad from Sept 28-30 to discuss activities under Pakistan's chairmanship",
+          "url": "https://www.dawn.com/news/2033039",
+          "source": "Dawn"
+        },
+        {
+          "title": "Pakistan Seeks More Trade With Central Asia in Diversity Push",
+          "url": "https://www.arabnews.com/pakistan-economy/pakistan-seeks-more-trade-with-central-asia-in-diversity-push-1856501",
+          "source": "Arab News"
+        },
+        {
+          "title": "Islamabad Hosts Shanghai Cooperation Organization Meetings Under Pakistan's Presidency",
+          "url": "https://www.voiceofemirates.com/en/news/2026/09/27/islamabad-hosts-shanghai-cooperation-organization-meetings-under-pakistans-presidency/",
+          "source": "صوت الإمارات"
+        }
+      ],
+      "word_count": 674,
+      "page": "p/pakistan-chairs-shanghai-cooperation-organisation-summit-in-islamabad.html"
+    },
+    {
+      "title": "Only one Championship player has created more chances than…",
+      "slug": "only-one-championship-player-has-created-more-chances-than",
+      "topic": "finn azaz",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "Coverage linked to \"finn azaz\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "finn azaz: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "finn azaz",
+        "finn azaz news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSaHLm5ZZt_rkFBsDod9x2Rw4O8vcLIFVCECBa53DZiizKE0skqUOA132TGcDY",
+      "related": [
+        {
+          "title": "Only one Championship player has created more chances than Southampton’s Finn Azaz",
+          "url": "https://saintsmarching.com/only-one-championship-player-has-created-more-chances-than-southampton-s-finn-azaz",
+          "source": "Saints Marching"
+        },
+        {
+          "title": "How does Eckert's Spygate case compare?",
+          "url": "https://www.bbc.com/sport/football/articles/cvj6438gpx9yo",
+          "source": "BBC"
+        },
+        {
+          "title": "Rob Edwards in Southampton frame if Tonda Eckert receives long ban",
+          "url": "https://www.telegraph.co.uk/football/2026/09/24/rob-edwards-southampton-frame-if-tonda-eckert-long-ban/",
+          "source": "The Telegraph"
+        }
+      ],
+      "word_count": 328,
+      "page": "p/only-one-championship-player-has-created-more-chances-than.html"
+    },
+    {
+      "title": "Kerala Lottery SM-74 Results Announced: Winner Takes Home Rs 1 Crore",
+      "slug": "kerala-lottery-sm-74-results-announced-winner-takes-home-rs-1-crore",
+      "topic": "sm74",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "The Kerala state government has released the official results for the Samrudhi SM-74 lottery draw held on September 27, 2026. One lucky winner has been identified as the recipient of the top prize of one crore rupees.",
+      "meta_description": "The Samrudhi SM-74 lottery draw results were released on September 27, 2026. This article covers the winning numbers, the Rs 1 crore prize, and how to verify re",
+      "keywords": [
+        "Kerala Lottery",
+        "SM-74",
+        "Samrudhi",
+        "lottery results",
+        "winning numbers"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRJsovFutSZNE-ksdEWte4b5Sj2AN_76RA2MSkboL9yXxcQnoL-by7lYqtViNo",
+      "related": [
+        {
+          "title": "Kerala Lottery Result Today Live: Suvarna Keralam SK-71 Winning Numbers (25/09/2026) – Full List",
+          "url": "https://www.news18.com/india/kerala-lottery-result-today-suvarna-keralam-sk-71-september-25-live-liveblog-10350167.html",
+          "source": "News18"
+        },
+        {
+          "title": "Samrudhi SM 74 Results LIVE(27-09-2026): Kerala Lottery Result Today OUT; Who Won 1st Prize Rs.1 Cr?",
+          "url": "https://www.goodreturns.in/personal-finance/samrudhi-sm-74-results-live-27-09-2026-kerala-lottery-result-today-out-who-won-1st-prize-rs-1-cr-1537577.html",
+          "source": "Goodreturns"
+        },
+        {
+          "title": "Kerala Karunya Plus KN-642 Lottery Result Today (September 24): ₹1 crore jackpot prize in 3 PM draw;...",
+          "url": "https://www.moneycontrol.com/city/kerala-karunya-plus-kn-642-lottery-result-today-september-24-1-crore-jackpot-prize-in-3-pm-draw-here-s-how-to-check-the-winners-article-14037125.html",
+          "source": "Moneycontrol.com"
+        }
+      ],
+      "word_count": 824,
+      "page": "p/kerala-lottery-sm-74-results-announced-winner-takes-home-rs-1-crore.html"
+    },
+    {
+      "title": "Jordan Cox set for England ODI debut as Buttler ruled out",
+      "slug": "jordan-cox-set-for-england-odi-debut-as-buttler-ruled-out",
+      "topic": "jordan cox",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "England's ODI squad has undergone a significant change with the call-up of Jordan Cox following Jos Buttler's injury. The young batsman is set to feature in the decisive third match against Sri Lanka.",
+      "meta_description": "England cricketer Jordan Cox is poised for a significant opportunity after Jos Buttler's injury. The squad changes impact the Sri Lanka series decider.",
+      "keywords": [
+        "Jordan Cox",
+        "Jos Buttler",
+        "England Cricket",
+        "Sri Lanka ODI",
+        "Squad Changes"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT3HUiPJEBM1NiHVNNoUmvbmW8sI6H3MEY2oGVw8uvIUpr96hOfmOUCOwDC3i0",
+      "related": [
+        {
+          "title": "Opportunity knocks for Jordan Cox after Jos Buttler injury",
+          "url": "https://www.cricinfo.com/story/england-opportunity-knocks-jordan-cox-jos-buttler-injury-1555806",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "Changes in England ODI squad before Sri Lanka series decider",
+          "url": "https://www.icc-cricket.com/news/changes-in-england-odi-squad-before-sri-lanka-series-decider",
+          "source": "ICC"
+        },
+        {
+          "title": "Injured Buttler ruled out of England’s decisive third ODI against SL; Lawrence called up",
+          "url": "https://www.ap7am.com/en/136425/injured-buttler-ruled-out-of-englands-decisive-third-odi-against-sl-lawrence-called-up",
+          "source": "AP7AM"
+        }
+      ],
+      "word_count": 940,
+      "page": "p/jordan-cox-set-for-england-odi-debut-as-buttler-ruled-out.html"
+    },
+    {
+      "title": "Joe Root recalls Indian greats as Pakistan cricket faces structural crisis",
+      "slug": "joe-root-recalls-indian-greats-as-pakistan-cricket-faces-structural-crisis",
+      "topic": "joe root",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "Joe Root spoke about the mentorship of Indian legends during his first Test at Headingley. At the same time, Pakistan cricket is under scrutiny for deep‑seated structural problems.",
+      "meta_description": "England captain Joe Root reflects on the influence of Indian legends in his 2002 Headingley debut while Pakistan cricket grapples with systemic challenges, spar",
+      "keywords": [
+        "Joe Root",
+        "India cricket",
+        "Pakistan cricket",
+        "Headingley debut",
+        "cricket governance"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTOtQ-5YS1IK-NtEJbIz7zcKxDHd_D5Z4RT8YU9lxiOQ-7z4Bjk7N2RX5CE2Kw",
+      "related": [
+        {
+          "title": "Pakistan cricket trapped in a house of mirrors",
+          "url": "https://www.journalismpakistan.com/pakistan-cricket-trapped-in-a-house-of-mirrors/",
+          "source": "Journalism Pakistan"
+        },
+        {
+          "title": "‘We have to stop starting all over again’: Mudassar Nazar on Pakistan cricket’s biggest problem",
+          "url": "https://sportstar.thehindu.com/cricket/pakistan-cricket-domestic-system-continuity-first-class-club-cricket/article71479666.ece",
+          "source": "Sportstar"
+        },
+        {
+          "title": "Root reveals Tendulkar, Dravid, Ganguly’s role in his first Test match at Headingley",
+          "url": "https://indianexpress.com/article/sports/cricket/joe-root-sachin-tendulkar-rahul-dravid-sourav-ganguly-first-test-match-headingley-2002-india-england-10893878/",
+          "source": "The Indian Express"
+        }
+      ],
+      "word_count": 732,
+      "page": "p/joe-root-recalls-indian-greats-as-pakistan-cricket-faces-structural-crisis.html"
+    },
+    {
+      "title": "Islamabad High Court Orders Reopening of Motorways After Legal Challenge",
+      "slug": "islamabad-high-court-orders-reopening-of-motorways-after-legal-challenge",
+      "topic": "islamabad high court",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "A legal challenge has forced the Islamabad High Court to order the reopening of the Islamabad‑Peshawar Motorway, which had been closed amid security concerns. The decision follows reports of stranded motorists and police blockades on the GT",
+      "meta_description": "Islamabad High Court has ordered the reopening of the Islamabad‑Peshawar Motorway after a lawyer challenged its closure, easing travel for thousands.",
+      "keywords": [
+        "Islamabad High Court",
+        "Motorway closure",
+        "Peshawar",
+        "GT Road",
+        "PTI march"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQeTc8QK8i6okzvpjcW_tOOrTP0OoySJQfQBh5Gds2Z4HjWagfPfEOGsrEGThU",
+      "related": [
+        {
+          "title": "Lawyer challenges Islamabad-Peshawar Motorway closure in IHC",
+          "url": "https://www.dawn.com/news/2032595",
+          "source": "Dawn"
+        },
+        {
+          "title": "All Closed Motorways To Reopen On Sunday Morning",
+          "url": "https://www.urdupoint.com/en/pakistan/closed-motorways-to-reopen-sunday-morning-2260508.html",
+          "source": "UrduPoint"
+        },
+        {
+          "title": "Licensable picture: People are stranded as police block the GT Road ahead of the Peshawar-Islamabad PTI march.",
+          "url": "https://www.reutersconnect.com/item/people-are-stranded-as-police-block-the-gt-road-ahead-of-the-peshawar-islamabad-pti-march/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMjhRTkFVR0ZINw",
+          "source": "Reuters Connect"
+        }
+      ],
+      "word_count": 675,
+      "page": "p/islamabad-high-court-orders-reopening-of-motorways-after-legal-challenge.html"
+    },
+    {
+      "title": "IND vs WI 2026, 1st ODI: Prasidh Krishna Interview",
+      "slug": "ind-vs-wi-2026-1st-odi-prasidh-krishna-interview",
+      "topic": "prasidh krishna",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "Coverage linked to \"prasidh krishna\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "prasidh krishna: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "prasidh krishna",
+        "prasidh krishna news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_QKRqlnA_zYTd-28MUlqeuCaQwZ-aox3qxA5gpSIBQo07AdF4n6zmC81nyjo",
+      "related": [
+        {
+          "title": "IND vs WI 2026, 1st ODI: Prasidh Krishna Interview",
+          "url": "https://www.bcci.tv/videos/s-ind-vs-wi-2026-1st-odi-muralikrishna-prasidh-krishna-interview-86k3o9",
+          "source": "BCCI"
+        },
+        {
+          "title": "'World Cup in South Africa will be exciting': Prasidh looks ahead at global showpiece",
+          "url": "https://www.ap7am.com/en/136387/world-cup-in-south-africa-will-be-exciting-prasidh-looks-ahead-at-global-showpiece",
+          "source": "AP7AM"
+        },
+        {
+          "title": "1st ODI: Breaks can disrupt rhythm, continuous cricket keeps me going, says Prasidh Krishna",
+          "url": "https://www.thehawk.in/news/sports/1st-odi-breaks-can-disrupt-rhythm-continuous-cricket-keeps-me-going-says-prasidh-krishna",
+          "source": "www.thehawk.in"
+        }
+      ],
+      "word_count": 334,
+      "page": "p/ind-vs-wi-2026-1st-odi-prasidh-krishna-interview.html"
+    },
+    {
+      "title": "Halle Berry embraces natural changes at 60, says age is a part of life",
+      "slug": "halle-berry-embraces-natural-changes-at-60-says-age-is-a-part-of-life",
+      "topic": "halle berry",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "Actress Halle Berry has spoken about embracing the natural changes that come with age, stating that she does not wish to fight them. The 60-year-old shared her perspective in interviews with major media outlets.",
+      "meta_description": "Actress Halle Berry, now 60, has spoken publicly about accepting the visible changes to her face and body, describing them as a natural part of life today.",
+      "keywords": [
+        "Halle Berry",
+        "age",
+        "celebrity",
+        "body image",
+        "public figure"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRnAv3uQkH3bkZEbgnjcUP6fsyJww9h4ttwuGFsE317wKFINdBd8IKRZ4snuYo",
+      "related": [
+        {
+          "title": "‘X-Men’ Star Halle Berry Opens up About Embracing Her Changing Face and Body at 60",
+          "url": "https://www.imdb.com/news/ni66034354/?ref_=ttnw_art_perm",
+          "source": "IMDb"
+        },
+        {
+          "title": "Halle Berry doesn't want to fight age",
+          "url": "https://en.vijesti.me/fun/showbiz/828624/Halle-Berry-doesn%27t-want-to-fight-age.",
+          "source": "vijesti.me"
+        },
+        {
+          "title": "Halle Berry, 60, Reveals the Changes in Herself That She’s ‘Embracing’ with Age, Says It’s a ‘Natural Part of Life’",
+          "url": "https://people.com/halle-berry-reveals-changes-she-is-embracing-with-age-12140407",
+          "source": "People.com"
+        }
+      ],
+      "word_count": 828,
+      "page": "p/halle-berry-embraces-natural-changes-at-60-says-age-is-a-part-of-life.html"
+    },
+    {
+      "title": "Godzilla Minus Zero review – spectacular Japanese action continues…",
+      "slug": "godzilla-minus-zero-review-spectacular-japanese-action-continues",
+      "topic": "godzilla minus zero",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "Coverage linked to \"godzilla minus zero\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "godzilla minus zero: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "godzilla minus zero",
+        "godzilla minus zero news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNl0bpuNUQDGl_Hxz2s25ND0BMbucQZlITEYj1mgloaV-IBDEym5oMm8ua_u0",
+      "related": [
+        {
+          "title": "Godzilla Minus Zero review – spectacular Japanese action continues franchise’s winning streak",
+          "url": "https://www.theguardian.com/film/2026/sep/26/godzilla-minus-zero-review-new-york-film-festival",
+          "source": "The Guardian"
+        },
+        {
+          "title": "‘Godzilla Minus Zero’ Director Champions Franchise’s First R Rating as Sequel Rocks NYFF at World Premiere: ‘Censoring’ the Action ‘Was Not an Option’",
+          "url": "https://variety.com/2026/film/news/godzilla-minus-zero-r-rated-takashi-yamazaki-nyff-1236876643/",
+          "source": "Variety"
+        },
+        {
+          "title": "'Godzilla Minus Zero' Review: Monster Mayhem Rules in Thrilling Sequel",
+          "url": "https://www.hollywoodreporter.com/movies/movie-reviews/godzilla-minus-zero-review-takashi-yamazaki-1236712678/",
+          "source": "The Hollywood Reporter"
+        }
+      ],
+      "word_count": 349,
+      "page": "p/godzilla-minus-zero-review-spectacular-japanese-action-continues.html"
+    },
+    {
+      "title": "Free school meals on the ballot this November: voters to decide on…",
+      "slug": "free-school-meals-on-the-ballot-this-november-voters-to-decide-on",
+      "topic": "ballot",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "Coverage linked to \"ballot\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "ballot: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "ballot",
+        "ballot news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTeKzmkmVwMP5yiJC_A4vp5jNXSIs8sAFb9wq8LSwt66yJDZ_eE1bDvc2GoRiA",
+      "related": [
+        {
+          "title": "Free school meals on the ballot this November: voters to decide on Measure 2",
+          "url": "https://www.kfyrtv.com/2026/09/25/free-school-meals-ballot-this-november-voters-decide-measure-2/",
+          "source": "KFYR-TV"
+        },
+        {
+          "title": "Free school meal ballot measure debated at North Dakota policy summit",
+          "url": "https://northdakotamonitor.com/2026/09/22/free-school-meal-ballot-measure-debated-at-north-dakota-policy-summit/",
+          "source": "North Dakota Monitor"
+        },
+        {
+          "title": "Get Ready to Vote by Getting to Know Your Candidates",
+          "url": "https://www.aarp.org/states/north-dakota/get-ready-to-vote-by-getting-to-know-your-candidates/",
+          "source": "AARP"
+        }
+      ],
+      "word_count": 328,
+      "page": "p/free-school-meals-on-the-ballot-this-november-voters-to-decide-on.html"
+    },
+    {
+      "title": "England's Cricket Setback Highlights Ben Duckett's Legacy",
+      "slug": "englands-cricket-setback-highlights-ben-ducketts-legacy",
+      "topic": "ben duckett",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "England's recent 16‑run defeat to Sri Lanka in the second ODI has sparked renewed interest in former England cricketer Ben Duckett. The match, featuring Kusal Mendis's century, has prompted reflections on Duckett's impact on the national si",
+      "meta_description": "Ben Duckett's career is revisited as England suffers a 16‑run loss to Sri Lanka, with Kusal Mendis scoring a century in the second ODI.",
+      "keywords": [
+        "Ben Duckett",
+        "England cricket",
+        "Sri Lanka ODI",
+        "Kusal Mendis",
+        "cricket commentary"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "5000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7y0am19SlcbEYPfYvgu5jYppYwi3p598WWA1K_Y5y_ZKUyS2yDtJdbRhP7Fs",
+      "related": [
+        {
+          "title": "श्रीलंका ने इंग्लैंड को 16 रन से हराया: दूसरे वनडे में मेंडिस का शतक, वेल्लालागे के 3 विकेट; बटलर की चोट से...",
+          "url": "https://www.bhaskar.com/g/sports/cricket/news/sri-lanka-england-odi-leeds-jos-buttler-injury-match-report-139140436.html",
+          "source": "Dainik Bhaskar"
+        },
+        {
+          "title": "Kusal Mendis ने शतक जड़कर लगाई रिकॉर्ड्स की झड़ी, श्रीलंका ने इंग्‍लैंड दौरे पर दर्ज की पहली जीत",
+          "url": "https://www.jagran.com/cricket/bouncer-kusal-mendis-ton-helps-sri-lanka-beat-england-in-2nd-odi-and-level-the-series-40384733.html",
+          "source": "Jagran"
+        },
+        {
+          "title": "लाइव क्रिकेट स्कोर: इंग्लैंड बनाम श्रीलंका स्कोरकार्ड, आज का मैच | ENG Vs SL Cricket Live Score, Sri Lanka in England, 3 ODI Series, 2026 | ENG - 87/2 (19.5)",
+          "url": "https://www.jansatta.com/khel/cricket/live-score/england-vs-sri-lanka-match-3rd-odi-live-score-full-scorecard-highlights-sri-lanka-in-england-3-odi-series-2026-ensl09272026264922/",
+          "source": "Jansatta"
+        }
+      ],
+      "word_count": 600,
+      "page": "p/englands-cricket-setback-highlights-ben-ducketts-legacy.html"
+    },
+    {
+      "title": "Doble Takes Maiden Race To Pole Victory At Silverstone",
+      "slug": "doble-takes-maiden-race-to-pole-victory-at-silverstone",
+      "topic": "btcc",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "Coverage linked to \"btcc\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "btcc: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "btcc",
+        "btcc news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTK6Lr8vkbs5B1dOT4R8-n-r0KBY0-g6pnX8YFoN_gN_smPOar2Z0m_36Mvt7k",
+      "related": [
+        {
+          "title": "Doble Takes Maiden Race To Pole Victory At Silverstone",
+          "url": "https://btcc.net/doble-takes-maiden-race-to-pole-victory-at-silverstone/",
+          "source": "BTCC"
+        },
+        {
+          "title": "BTCC Silverstone: Doble takes qualifying race victory as series leaders struggle",
+          "url": "https://www.autosport.com/btcc/news/btcc-silverstone-doble-takes-qualifying-race-victory-as-series-leaders-struggle/10859325/",
+          "source": "Autosport"
+        },
+        {
+          "title": "Mikey Doble reigns supreme in Silverstone Qualifying Race",
+          "url": "https://www.touringcartimes.com/2026/09/26/mikey-doble-reigns-supreme-in-silverstone-qualifying-race/",
+          "source": "TouringCarTimes"
+        }
+      ],
+      "word_count": 318,
+      "page": "p/doble-takes-maiden-race-to-pole-victory-at-silverstone.html"
+    },
+    {
+      "title": "Cricketer Tristan Stubbs aims to cement his place in South Africa…",
+      "slug": "cricketer-tristan-stubbs-aims-to-cement-his-place-in-south-africa",
+      "topic": "tristan stubbs",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "Coverage linked to \"tristan stubbs\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "tristan stubbs: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "tristan stubbs",
+        "tristan stubbs news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQARmgK1TUxdJRD9Q0eTHCFOMw-k8QidTyHgTRoV8genO4zRWpZpQhZdN--0ek",
+      "related": [
+        {
+          "title": "Cricketer Tristan Stubbs aims to cement his place in South Africa squads — TimesLIVE",
+          "url": "https://ua.news/en/sport/kriketist-tristan-stabbs-pragne-zakripitisia-u-skladakh-par-timeslive",
+          "source": "UA.NEWS"
+        },
+        {
+          "title": "Stubbs desperate to cement his spot",
+          "url": "https://www.sundaytimes.timeslive.co.za/sport/2026-09-26-stubbs-desperate-to-cement-his-spot/",
+          "source": "TimesLIVE"
+        }
+      ],
+      "word_count": 313,
+      "page": "p/cricketer-tristan-stubbs-aims-to-cement-his-place-in-south-africa.html"
+    },
+    {
+      "title": "Clarke says Kuldeep Yadav lacks opportunities in India squad",
+      "slug": "clarke-says-kuldeep-yadav-lacks-opportunities-in-india-squad",
+      "topic": "kuldeep yadav",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "Michael Clarke, the ex‑Australia captain, has voiced concerns that India are not using left‑arm spinner Kuldeep Yadav enough. The comment comes as the team finishes a tightly contested series against the West Indies.",
+      "meta_description": "Former Australian captain Michael Clarke has criticised India’s selection policy, saying left‑arm spinner Kuldeep Yadav is not being given enough chances during",
+      "keywords": [
+        "Kuldeep Yadav",
+        "Michael Clarke",
+        "India cricket",
+        "West Indies series",
+        "spin bowling"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQulPMCXH8x82SStNxML4g15vs4duInD1nJsjRqPw2VPHMysI2a6bOkkIAMbz0",
+      "related": [
+        {
+          "title": "Michael Clarke says Kuldeep Yadav is not getting enough opportunities",
+          "url": "https://indianexpress.com/article/sports/cricket/michael-clarke-kuldeep-yadav-indian-spinner-10895625/",
+          "source": "The Indian Express"
+        },
+        {
+          "title": "Michael Clarke says Kuldeep Yadav is not getting enough opportunities",
+          "url": "https://www.yardbarker.com/cricket/articles/michael_clarke_says_kuldeep_yadav_is_not_getting_enough_opportunities/s1_17728_44354018",
+          "source": "Yardbarker"
+        },
+        {
+          "title": "India West Indies Cricket",
+          "url": "http://www.idahopress.com/sports/national/india-west-indies-cricket/image_7d584194-b996-550b-ac4f-3532b021ba2a.html",
+          "source": "Idaho Press"
+        }
+      ],
+      "word_count": 707,
+      "page": "p/clarke-says-kuldeep-yadav-lacks-opportunities-in-india-squad.html"
+    },
+    {
+      "title": "Can you eat ultra-processed foods and still be healthy? A dietitian…",
+      "slug": "can-you-eat-ultra-processed-foods-and-still-be-healthy-a-dietitian",
+      "topic": "ultra processed food",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "Coverage linked to \"ultra processed food\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "ultra processed food: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "ultra processed food",
+        "ultra processed food news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSW1RnuHvuEzfz0qBXivZhPWapu0CL2uiCBjyKfu0lnZ70G_grxYC9rY133j2Y",
+      "related": [
+        {
+          "title": "Can you eat ultra-processed foods and still be healthy? A dietitian analysed my weekly shop",
+          "url": "https://www.bbc.co.uk/news/articles/cqn4knlj9v81o",
+          "source": "BBC"
+        },
+        {
+          "title": "Every extra 100 grams of ultra-processed food linked to higher disease risks",
+          "url": "https://medicalxpress.com/news/2026-09-extra-grams-ultra-food-linked.html",
+          "source": "Medical Xpress"
+        },
+        {
+          "title": "Every additional 100g of UPF linked to higher cardiovascular risk: Study",
+          "url": "https://www.connectedtoindia.com/every-additional-100g-of-upf-linked-to-higher-cardiovascular-risk-study/",
+          "source": "Connected to India"
+        }
+      ],
+      "word_count": 343,
+      "page": "p/can-you-eat-ultra-processed-foods-and-still-be-healthy-a-dietitian.html"
+    },
+    {
+      "title": "Brock Bowers Fantasy Week 3 Start or Sit: Back in Practice and Back in…",
+      "slug": "brock-bowers-fantasy-week-3-start-or-sit-back-in-practice-and-back-in",
+      "topic": "brock bowers",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "Coverage linked to \"brock bowers\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "brock bowers: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "brock bowers",
+        "brock bowers news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRyCZrJe9bjluGnVwvrFI7n38W9k229JcsgELXCBcGxvsPadtAsVLd1-xw-UJY",
+      "related": [
+        {
+          "title": "Brock Bowers Fantasy Week 3 Start or Sit: Back in Practice and Back in Lineups",
+          "url": "https://sports.yahoo.com/articles/brock-bowers-fantasy-week-3-094000031.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "Raiders tight end Brock Bowers is questionable to play vs. Saints",
+          "url": "https://www.nfl.com/news/raiders-tight-end-brock-bowers-is-questionable-to-play-vs-saints",
+          "source": "NFL.com"
+        },
+        {
+          "title": "Brock Bowers’ return will make Klint Kubiak’s offense even more dynamic",
+          "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140513/raiders-2026-offense-brock-bowers-return",
+          "source": "Silver And Black Pride"
+        }
+      ],
+      "word_count": 338,
+      "page": "p/brock-bowers-fantasy-week-3-start-or-sit-back-in-practice-and-back-in.html"
+    },
+    {
+      "title": "Bigg Boss Tamil 10: Anandhi's Father Passes Away, Eviction Sparks Shock",
+      "slug": "bigg-boss-tamil-10-anandhis-father-passes-away-eviction-sparks-shock",
+      "topic": "பிக் பாஸ் 10",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "The Bigg Boss Tamil 10 house was rocked when contestant Anandhi’s father suffered a fatal heart attack, leading to her immediate exit. Meanwhile, the show introduced three new participants, adding fresh dynamics to the competition.",
+      "meta_description": "In Bigg Boss Tamil 10, contestant Anandhi’s father died of a heart attack, prompting her sudden exit from the house. The show also welcomes new entrants this we",
+      "keywords": [
+        "Bigg Boss Tamil",
+        "Anandhi",
+        "heart attack",
+        "eviction",
+        "new entrants"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "2000+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRmLZk8In9FaCLbXKe1htiSZkJyihA9V8D8eVePlHjY7nHWsADWT6iFHzsIKh4",
+      "related": [
+        {
+          "title": "பிக் பாஸ் 10: மாரடைப்பால் உயிரிழந்த ஆனந்தியின் தந்தை... அவசரமாக வெளியேற்றம்!",
+          "url": "https://www.dinamani.com/cinema/cinema-news/2026/Sep/27/bigg-boss-10-who-was-evicted-this-week",
+          "source": "DinaMani"
+        },
+        {
+          "title": "BB Tamil 10: தந்தை திடீரென உயிரிழப்பு.. நிகழ்ச்சியிலிருந்து வெளியேறினார் ஆனந்தி!",
+          "url": "https://cinema.vikatan.com/television/biggboss-tamil-10-contestant-anandhis-father-passed-away",
+          "source": "Cinema Vikatan"
+        },
+        {
+          "title": "Bigg Boss Tamil 10 | பிக் பாஸ் வீட்டிற்குள் ‘திருப்புமுனை’.. இந்த வாரம் நுழையும் லட்சுமி பிரியா, சவின்யா மற்றும் ஜாவேத் ஷெரிப்..!",
+          "url": "https://tamil.news18.com/entertainment/bigg-boss-tamil-10-vijay-sethupathi-vanitha-new-twist-nw-kpk-ws-l-2218426.html",
+          "source": "News18 Tamil"
+        }
+      ],
+      "word_count": 594,
+      "page": "p/bigg-boss-tamil-10-anandhis-father-passes-away-eviction-sparks-shock.html"
+    },
+    {
+      "title": "Bavuma leads Proteas in crucial ODI clash against Australia",
+      "slug": "bavuma-leads-proteas-in-crucial-odi-clash-against-australia",
+      "topic": "temba bavuma",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "South Africa’s captain Temba Bavuma is at the center of attention as the Proteas take on Australia in the second one-day international. The match at the Wanderers carries significant weight for the series and includes a notable pink jersey ",
+      "meta_description": "Temba Bavuma anchors South Africa's lineup as the Proteas face Australia in the second ODI at the Wanderers. The match features a special pink jersey tribute.",
+      "keywords": [
+        "Temba Bavuma",
+        "Proteas",
+        "South Africa vs Australia",
+        "ODI cricket",
+        "Wanderers"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR5y153aa2JBin2raQcdFbjXgCgIL-rQHFf0sEUetriml-MOEK3IxtgLfM0lNo",
+      "related": [
+        {
+          "title": "South Africa v Australia: second men’s one-day international – live",
+          "url": "https://www.theguardian.com/sport/live/2026/sep/27/south-africa-v-australia-second-mens-one-day-international-live",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Proteas v Aussies at the Wanderers: ‘No one will step back,’ says Markram",
+          "url": "https://www.citizen.co.za/sport/cricket/proteas-v-aussies-wanderers-no-one-will-step-back-markram/",
+          "source": "The Citizen"
+        },
+        {
+          "title": "Pink Day in South African cricket explained: Why the Proteas wear pink jersey at Johannesburg",
+          "url": "https://sports.yahoo.com/articles/pink-day-south-african-cricket-075026760.html",
+          "source": "Yahoo Sports"
+        }
+      ],
+      "word_count": 842,
+      "page": "p/bavuma-leads-proteas-in-crucial-odi-clash-against-australia.html"
+    },
+    {
+      "title": "\"العنكبوت الكولومبي\" في قبضة الأمن الأمريكي",
+      "slug": "news-1790508529",
+      "topic": "كولومبيا",
+      "date": "2026-09-27",
+      "date_pkt": "2026-09-27 04:26 PM PKT",
+      "excerpt": "Coverage linked to \"كولومبيا\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "كولومبيا: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "كولومبيا",
+        "كولومبيا news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQPLY6tJ7U4HCnamYGC5_0B-r_IYdGq2k6xc2CVzl5XRXmSd6uQqet1tvqoPFs",
+      "related": [
+        {
+          "title": "\"العنكبوت الكولومبي\" في قبضة الأمن الأمريكي",
+          "url": "https://www.aljazeera.net/news/2026/9/27/%D8%A7%D9%84%D8%B9%D9%83%D9%86%D8%A8%D9%88%D8%AA-%D8%A7%D9%84%D9%83%D9%88%D9%84%D9%88%D9%85%D8%A8%D9%8A-%D9%81%D9%8A-%D9%82%D8%A8%D8%B6%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%86",
+          "source": "الجزيرة نت"
+        },
+        {
+          "title": "مهرب مخدرات.. كولومبيا تسلّم \"العنكبوت\" للولايات المتحدة",
+          "url": "https://www.eremnews.com/news/world/l32osms",
+          "source": "إرم نيوز"
+        },
+        {
+          "title": "كولومبيا تسلّم \"سبايدرمان\" إلى أميركا في قضية تهريب كوكايين",
+          "url": "https://www.akhbaralyawm.com/news/579317",
+          "source": "https://www.akhbaralyawm.com/"
+        }
+      ],
+      "word_count": 319,
+      "page": "p/news-1790508529.html"
+    },
     {
       "title": "‘I saved £60k for my grandchildren, but St James’s Place won’t hand it…",
       "slug": "i-saved-60k-for-my-grandchildren-but-st-jamess-place-wont-hand-it",
