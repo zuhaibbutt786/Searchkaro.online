@@ -1,124 +1,38 @@
 {
-  "updated_at": "2026-09-08T17:49:55.992082+00:00",
+  "updated_at": "2026-09-27T10:25:59.118850+00:00",
   "items": [
     {
-      "title": "Fully Funded MS/PhD Scholarships for International Students",
-      "slug": "fully-funded-msphd-scholarships-for-international-students",
-      "url": "https://www.scholars4dev.com/8319/fully-funded-scholarships-international-students/",
-      "summary": "Fully funded scholarships enable students from Pakistan, India and around the world to pursue MS or PhD programmes abroad without tuition costs. These awards typically cover tuition, living expenses, health insurance and travel allowances. Recipients join a global network of scholars, gaining academic and professional exposure. The scholarships are open to high‑achieving graduates seeking advanced research or professional training.",
-      "meta_description": "Explore fully funded MS/PhD scholarships for international students. Find eligibility, benefits, and application tips for candidates from Pakistan, India and beyond.",
+      "title": "University of the People: Free Online MS & PhD Degrees",
+      "slug": "university-of-the-people-free-online-ms-phd-degrees",
+      "url": "https://www.scholars4dev.com/3630/free-online-education-at-university-of-the-people/",
+      "summary": "University of the People offers fully online, tuition‑free MS and PhD degrees that are accessible to students in Pakistan, India, and around the globe. The programs are designed to fit busy schedules, allowing learners to study at their own pace while earning a recognized credential. Admission is open to anyone who meets the basic academic and English proficiency requirements.",
+      "meta_description": "Apply for tuition‑free online MS and PhD programs at University of the People. Open to students in Pakistan, India, and worldwide. Flexible schedule, no tuition fees.",
       "eligibility": [
-        "Citizens of Pakistan, India or any other country with a valid passport",
-        "Completed a bachelor's degree with a minimum GPA (or equivalent) for MS programmes, or a master's degree for PhD programmes",
-        "Proof of English proficiency (e.g., TOEFL, IELTS) as required by the host university"
+        "High school diploma or equivalent with a minimum GPA requirement.",
+        "Proof of English proficiency (TOEFL, IELTS, or equivalent).",
+        "Valid government ID and proof of residency."
       ],
       "benefits": [
-        "Full tuition waiver for the entire duration of the programme",
-        "Monthly stipend covering living costs, health insurance and travel allowances"
+        "Zero tuition fees – only a modest application fee.",
+        "Fully online courses that fit any schedule."
       ],
       "how_to_apply": [
-        "Research universities and programmes that offer fully funded scholarships and shortlist those matching your academic goals",
-        "Prepare required documents – academic transcripts, letters of recommendation, statement of purpose, CV and language test scores",
-        "Submit the scholarship application through the university’s online portal before the announced deadline"
+        "Fill out the online application form on the University of the People website.",
+        "Upload transcripts, English proficiency scores, and identification documents.",
+        "Submit the application and wait for the admission decision via email."
       ],
       "faqs": [
         {
-          "q": "Can students from Pakistan and India apply for these scholarships?",
-          "a": "Yes, the scholarships are open to all international applicants, including students from Pakistan and India, provided they meet the academic and language requirements."
+          "q": "Are there any hidden costs for the program?",
+          "a": "No. The only fee is a small application fee. All course materials and instruction are provided free of charge."
         },
         {
-          "q": "What expenses are covered by a fully funded scholarship?",
-          "a": "Typically the scholarship covers tuition fees, a monthly living stipend, health insurance, and a travel grant for arrival and departure."
+          "q": "Can I study while working?",
+          "a": "Yes. The flexible online format allows you to balance coursework with employment or other commitments."
         }
       ],
       "keywords": [
-        "fully funded scholarships",
-        "MS scholarships",
-        "PhD scholarships",
-        "pakistan",
-        "india"
-      ],
-      "level": "MS/PhD",
-      "region": "Worldwide",
-      "source": "www.scholars4dev.com",
-      "published": "",
-      "page": "p/fully-funded-msphd-scholarships-for-international-students.html"
-    },
-    {
-      "title": "British Chevening Scholarships UK MS PhD",
-      "slug": "british-chevening-scholarships-uk-ms-phd",
-      "url": "https://www.scholars4dev.com/3299/british-chevening-scholarships/",
-      "summary": "The British Chevening Scholarship provides fully funded opportunities for outstanding students from Pakistan, India and around the world to study a Master's or PhD in the United Kingdom. Recipients receive tuition, a living‑cost allowance and access to a global network of leaders. The program values academic excellence, leadership potential and a commitment to return and contribute to your home country. Apply now to boost your academic and professional future.",
-      "meta_description": "Apply for the British Chevening Scholarship to pursue an MS or PhD in the UK. Open to Pakistani and Indian students—check eligibility, benefits, and how to apply.",
-      "eligibility": [
-        "Citizen of Pakistan, India, or another Chevening‑eligible country",
-        "Hold a recognized bachelor's degree (or be in the final year) with a strong academic record",
-        "At least two years of full‑time work experience or equivalent leadership experience"
-      ],
-      "benefits": [
-        "Full tuition fees for your chosen Master's or PhD programme",
-        "Living‑cost allowance and travel support to the UK"
-      ],
-      "how_to_apply": [
-        "Step 1: Verify eligibility and select a Chevening‑approved university programme",
-        "Step 2: Prepare your application, including personal statements, references and required documents",
-        "Step 3: Submit the online application and, if shortlisted, attend the interview"
-      ],
-      "faqs": [
-        {
-          "q": "Where can I find the application deadline for the Chevening Scholarship?",
-          "a": "The exact deadline varies each year; please consult the official Chevening website for the current application timeline."
-        },
-        {
-          "q": "Can I apply for a Chevening Scholarship if I already hold a Master's degree?",
-          "a": "Yes, you may apply for a Chevening Scholarship to pursue a PhD, provided you meet all other eligibility criteria."
-        }
-      ],
-      "keywords": [
-        "British Chevening Scholarships",
-        "UK scholarships",
-        "MS PhD scholarships",
-        "Pakistan",
-        "India"
-      ],
-      "level": "MS/PhD",
-      "region": "Europe",
-      "source": "www.scholars4dev.com",
-      "published": "",
-      "page": "p/british-chevening-scholarships-uk-ms-phd.html"
-    },
-    {
-      "title": "Reach Oxford Scholarships for MS/PhD Students",
-      "slug": "reach-oxford-scholarships-for-msphd-students",
-      "url": "https://www.scholars4dev.com/3648/reach-oxford-undergraduate-scholarships-for-developing-country-students/",
-      "summary": "The Reach Oxford Scholarship is a prestigious award for students from developing countries who want to pursue a Master's or PhD at Oxford University. It provides a fully funded pathway to world‑class education, covering tuition, living costs and related expenses. The program is highly competitive and aims to nurture academic excellence and cultural diversity. Successful scholars are expected to return to their home country and contribute to its development.",
-      "meta_description": "Discover Reach Oxford Scholarships for MS/PhD students from developing nations, including Pakistan and India. Fully funded chance to study at Oxford University.",
-      "eligibility": [
-        "Citizen of a developing country such as Pakistan or India",
-        "Accepted into an Oxford University MS or PhD program",
-        "Strong academic record and commitment to return home after graduation"
-      ],
-      "benefits": [
-        "Full tuition fees covered",
-        "Living allowance, travel and other study‑related costs"
-      ],
-      "how_to_apply": [
-        "Check eligibility and choose an Oxford MS/PhD course",
-        "Apply to Oxford University via the online admissions portal",
-        "Complete the Reach Oxford Scholarship form and submit required documents"
-      ],
-      "faqs": [
-        {
-          "q": "Who can apply for the Reach Oxford Scholarship?",
-          "a": "Students who are citizens of developing countries—including Pakistan and India—who have secured an offer for an Oxford MS or PhD program."
-        },
-        {
-          "q": "What expenses does the scholarship cover?",
-          "a": "The scholarship funds full tuition, a living stipend, travel to and from Oxford, and other essential study‑related costs."
-        }
-      ],
-      "keywords": [
-        "Reach Oxford Scholarships",
+        "University of the People tuition free degrees",
         "Pakistan",
         "India"
       ],
@@ -126,40 +40,40 @@
       "region": "Worldwide",
       "source": "www.scholars4dev.com",
       "published": "",
-      "page": "p/reach-oxford-scholarships-for-msphd-students.html"
+      "page": "p/university-of-the-people-free-online-ms-phd-degrees.html"
     },
     {
-      "title": "TU Delft MS/PhD: Justus & Louise van Effen Scholarships",
-      "slug": "tu-delft-msphd-justus-louise-van-effen-scholarships",
-      "url": "https://www.scholars4dev.com/10809/tu-delft-excellence-scholarships-for-international-students/",
-      "summary": "The Justus & Louise van Effen Excellence Scholarships support outstanding international students pursuing Master's or PhD programs at Delft University of Technology. This prestigious award covers tuition fees for the first year of study. It is a highly competitive opportunity for candidates from Pakistan, India, and other global regions. Applicants must demonstrate academic excellence and leadership potential.",
-      "meta_description": "Secure full funding for your MS or PhD at TU Delft. Apply for Justus & Louise van Effen Scholarships. Ideal for Pakistani & Indian students.",
+      "title": "10+ MS & PhD Scholarships in Canada for International Students",
+      "slug": "10-ms-phd-scholarships-in-canada-for-international-students",
+      "url": "https://www.scholars4dev.com/6179/scholarships-canada-international-students/",
+      "summary": "Canada offers robust funding opportunities for international graduate researchers. This guide highlights over ten prestigious scholarships for MS and PhD candidates. These awards cover tuition, living expenses, and research costs. Ideal for students from Pakistan and India seeking global education.",
+      "meta_description": "Discover 10+ fully funded MS and PhD scholarships in Canada for students from Pakistan and India. Check eligibility, benefits, and application tips now.",
       "eligibility": [
-        "Applying for a full-time Master's or PhD program at TU Delft",
-        "Non-EU/EEA nationals with a strong academic record",
-        "Must not have previously received this specific scholarship"
+        "Non-Canadian citizens with a valid passport",
+        "Holding a relevant undergraduate or master's degree",
+        "Admitted or applying to a Canadian university program"
       ],
       "benefits": [
-        "Full coverage of tuition fees for the first year",
-        "Enhanced CV with a prestigious Dutch scholarship title"
+        "Covers tuition fees and mandatory health insurance",
+        "Provides monthly living stipend and research allowances"
       ],
       "how_to_apply": [
-        "Submit your application for the TU Delft program first",
-        "Complete the separate Justus & Louise van Effen scholarship form",
-        "Upload required documents including transcripts and motivation letter"
+        "Shortlist universities and specific scholarship programs",
+        "Prepare transcripts, LORs, and a strong research proposal",
+        "Submit applications via university portals or official sites"
       ],
       "faqs": [
         {
-          "q": "Is this scholarship available for students from Pakistan and India?",
-          "a": "Yes, it is open to all non-EU/EEA international students, including those from Pakistan and India."
+          "q": "Are these scholarships open to students from Pakistan and India?",
+          "a": "Yes, most listed scholarships are open to all international students, including those from South Asia."
         },
         {
-          "q": "Does the scholarship cover living expenses?",
-          "a": "No, it primarily covers tuition fees. Students must secure separate funding for living costs."
+          "q": "Do I need to apply for the scholarship separately?",
+          "a": "It depends on the award. Some are automatic upon admission, while others require a separate application."
         }
       ],
       "keywords": [
-        "TU Delft scholarships",
+        "Canada scholarships",
         "MS PhD funding",
         "pakistan",
         "india"
@@ -168,86 +82,86 @@
       "region": "Worldwide",
       "source": "www.scholars4dev.com",
       "published": "",
-      "page": "p/tu-delft-msphd-justus-louise-van-effen-scholarships.html"
+      "page": "p/10-ms-phd-scholarships-in-canada-for-international-students.html"
     },
     {
-      "title": "Top 10 Switzerland Scholarships for MS & PhD Students",
-      "slug": "top-10-switzerland-scholarships-for-ms-phd-students",
-      "url": "https://www.scholars4dev.com/8874/scholarships-in-switzerland-for-international-students/",
-      "summary": "Switzerland offers world‑class research facilities and a vibrant academic environment. This guide lists the top 10 fully funded scholarships for master's and doctoral programs, open to international students from Pakistan, India and beyond. Learn about eligibility, benefits, and the simple steps to apply for these prestigious awards.",
-      "meta_description": "Explore the best Switzerland scholarships for MS and PhD studies. Ideal for Pakistani and Indian students seeking fully funded opportunities to study abroad.",
+      "title": "Clarendon Fund Scholarships for MS & PhD at Oxford",
+      "slug": "clarendon-fund-scholarships-for-ms-phd-at-oxford",
+      "url": "https://www.scholars4dev.com/2269/clarendon-scholarships-at-university-of-oxford/",
+      "summary": "The Clarendon Fund Scholarships are prestigious, full-time awards at the University of Oxford supporting postgraduate research and taught degrees. These scholarships cover tuition fees and provide a generous maintenance stipend to support living costs. They are open to students from all countries, including Pakistan and India, who demonstrate exceptional academic potential. Applicants must first secure a place on a relevant Oxford course before being considered for funding.",
+      "meta_description": "Apply for Clarendon Fund Scholarships at Oxford. Full funding for Pakistani & Indian MS/PhD students. Learn eligibility, benefits, and application steps.",
       "eligibility": [
-        "Citizenship of Pakistan, India or any other country with a valid passport",
-        "Accepted admission offer for an MS or PhD program at a Swiss university",
-        "Minimum academic standing (typically a 3.0 GPA or equivalent) and relevant research experience"
+        "Must be a new postgraduate student starting a full-time course at Oxford",
+        "Applicants from any country, including Pakistan and India, are eligible",
+        "Must have already applied for and been offered a place on a relevant Oxford course",
+        "Demonstrates exceptional academic ability and potential for research or professional excellence"
       ],
       "benefits": [
-        "Full tuition waiver, living allowance and health insurance coverage",
-        "Access to cutting‑edge labs, research networks and Swiss cultural immersion"
+        "Covers full tuition fees for the duration of the course",
+        "Provides a maintenance stipend to cover living expenses in Oxford"
       ],
       "how_to_apply": [
-        "Gather required documents: academic transcripts, CV, research proposal, recommendation letters, and language certificates.",
-        "Create an online profile on the scholarship portal, fill in personal details, and upload all documents before the deadline.",
-        "Submit the application and monitor your email for any interview invitations or additional information requests."
+        "Apply for your desired MS or PhD course at Oxford via the graduate admissions portal",
+        "Indicate your interest in Clarendon Fund Scholarships in your application or separate nomination form",
+        "Submit required supporting documents, including transcripts and references, by the course-specific deadline"
       ],
       "faqs": [
         {
-          "q": "Can I apply for more than one Swiss scholarship at the same time?",
-          "a": "Yes, you may apply to multiple scholarships as long as each application meets the specific eligibility criteria and you can manage the required documentation."
+          "q": "Is the Clarendon Fund Scholarship available for Pakistani and Indian students?",
+          "a": "Yes, the scholarship is open to students of all nationalities, including those from Pakistan and India, provided they meet the academic criteria."
         },
         {
-          "q": "Do I need to know German or French to be eligible?",
-          "a": "Language proficiency is not a mandatory eligibility factor for most scholarships, but many programs require proof of English proficiency (e.g., IELTS or TOEFL). Knowing the local language can help with daily life."
+          "q": "Do I need to apply separately for the Clarendon Fund Scholarship?",
+          "a": "You must apply for the Oxford course first. Depending on the specific course, you may need to indicate your interest in the Clarendon Fund in your application or submit a separate nomination form."
         }
       ],
       "keywords": [
-        "Switzerland scholarships for MS PhD",
+        "Clarendon Fund Scholarships",
+        "Oxford University scholarships",
+        "PhD funding UK",
         "Pakistan",
-        "India",
-        "international scholarships Switzerland",
-        "fully funded study abroad"
+        "India"
       ],
       "level": "MS/PhD",
       "region": "Worldwide",
       "source": "www.scholars4dev.com",
       "published": "",
-      "page": "p/top-10-switzerland-scholarships-for-ms-phd-students.html"
+      "page": "p/clarendon-fund-scholarships-for-ms-phd-at-oxford.html"
     },
     {
-      "title": "ARES MS/PhD Scholarships in Belgium",
-      "slug": "ares-msphd-scholarships-in-belgium",
-      "url": "https://www.scholars4dev.com/2489/cud-development-scholarships-for-developing-countries/",
-      "summary": "The ARES Scholarships in Belgium offer fully funded opportunities for students from developing countries to pursue Master's and PhD studies in Belgium. This scholarship program aims to support talented individuals in advancing their education and skills. The scholarships cover a wide range of academic fields and provide comprehensive support for living and research expenses.",
-      "meta_description": "Explore ARES MS/PhD scholarships in Belgium for developing countries. Apply now for fully funded opportunities to study in Belgium.",
+      "title": "Oxford-Weidenfeld and Hoffmann Scholarship and Leadership Programme",
+      "slug": "oxford-weidenfeld-and-hoffmann-scholarship-and-leadership-programme",
+      "url": "https://www.scholars4dev.com/2191/weidenfeld-scholarships-at-university-of-oxford/",
+      "summary": "Oxford-Weidenfeld and Hoffmann Scholarship and Leadership Programme",
+      "meta_description": "Oxford-Weidenfeld and Hoffmann Scholarship and Leadership Programme",
       "eligibility": [
-        "Be a citizen of a developing country",
-        "Hold a bachelor's degree or equivalent",
-        "Meet the English language proficiency requirements"
+        "Open to applicants seeking MS/PhD opportunities",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
       ],
       "benefits": [
-        "Fully funded tuition fees",
-        "Living allowance and health insurance"
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
       ],
       "how_to_apply": [
-        "Step 1: Verify eligibility criteria",
-        "Step 2: Gather required academic and financial documents",
-        "Step 3: Submit the application through the official ARES scholarship portal"
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
       ],
       "faqs": [
         {
-          "q": "Who can apply for the ARES Scholarships?",
-          "a": "Applicants must be citizens of a developing country, hold a recognized bachelor's degree, and meet English language proficiency standards."
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
         },
         {
-          "q": "What does the ARES Scholarship cover?",
-          "a": "The scholarship typically covers tuition fees, a living allowance, health insurance, and sometimes travel costs, providing full financial support for the study period."
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
         }
       ],
       "keywords": [
-        "ARES Scholarships",
-        "Belgium",
-        "Developing Countries",
-        "MS/PhD",
+        "scholarship",
+        "ms/phd",
+        "worldwide",
         "pakistan",
         "india"
       ],
@@ -255,140 +169,269 @@
       "region": "Worldwide",
       "source": "www.scholars4dev.com",
       "published": "",
-      "page": "p/ares-msphd-scholarships-in-belgium.html"
+      "page": "p/oxford-weidenfeld-and-hoffmann-scholarship-and-leadership-programme.html"
     },
     {
-      "title": "Gates Cambridge Scholarships for MS & PhD International Students",
-      "slug": "gates-cambridge-scholarships-for-ms-phd-international-students",
-      "url": "https://www.scholars4dev.com/2043/gates-scholarships-for-international-students-at-university-of-cambridge/",
-      "summary": "The Gates Cambridge Scholarship supports exceptional students from outside the UK in pursuing full-time postgraduate study at the University of Cambridge. It covers full tuition fees and provides a stipend for living expenses, making it one of the most prestigious awards for international researchers. Candidates from Pakistan and India are encouraged to apply if they demonstrate leadership potential and academic excellence. This award is designed to foster a diverse community of future leaders who will make a positive impact on their home countries and the world.",
-      "meta_description": "Discover Gates Cambridge Scholarships for MS and PhD. Learn eligibility, benefits, and how Pakistani and Indian students can apply to Cambridge.",
+      "title": "Radboud Scholarship Programme for International Students",
+      "slug": "radboud-scholarship-programme-for-international-students",
+      "url": "https://www.scholars4dev.com/6127/radboud-university-scholarships-for-international-students/",
+      "summary": "Radboud Scholarship Programme for International Students",
+      "meta_description": "Radboud Scholarship Programme for International Students",
       "eligibility": [
-        "Must be a citizen of a country outside the UK.",
-        "Applying for a full-time postgraduate course (Masters or PhD) at Cambridge.",
-        "Demonstrated academic excellence and potential for leadership.",
-        "Commitment to making a positive impact on your home country or the world."
+        "Open to applicants seeking MS/PhD opportunities",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
       ],
       "benefits": [
-        "Covers full tuition fees for the duration of the course.",
-        "Provides a stipend for living expenses and travel costs.",
-        "Access to exclusive Gates Cambridge community and networking events."
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
       ],
       "how_to_apply": [
-        "First, apply for your chosen postgraduate course at the University of Cambridge.",
-        "Complete the separate Gates Cambridge Scholarship application form.",
-        "Submit required documents including transcripts, references, and a personal statement."
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
       ],
       "faqs": [
         {
-          "q": "Can students from Pakistan and India apply for this scholarship?",
-          "a": "Yes, the Gates Cambridge Scholarship is open to all international students from outside the UK, including those from Pakistan and India, provided they meet the academic and leadership criteria."
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
         },
         {
-          "q": "Does the scholarship cover PhD research costs?",
-          "a": "The scholarship covers tuition fees and provides a stipend for living expenses. Specific research costs may need to be addressed in your course application, but the core financial support is included."
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
         }
       ],
       "keywords": [
-        "Gates Cambridge Scholarship",
+        "scholarship",
+        "ms/phd",
+        "worldwide",
         "pakistan",
-        "india",
-        "cambridge phd scholarship",
-        "ms scholarship uk"
+        "india"
       ],
       "level": "MS/PhD",
       "region": "Worldwide",
       "source": "www.scholars4dev.com",
       "published": "",
-      "page": "p/gates-cambridge-scholarships-for-ms-phd-international-students.html"
+      "page": "p/radboud-scholarship-programme-for-international-students.html"
     },
     {
-      "title": "Commonwealth PhD Scholarships for Pakistan & India Students",
-      "slug": "commonwealth-phd-scholarships-for-pakistan-india-students",
-      "url": "https://www.scholars4dev.com/4900/commonwealth-scholarships-for-developing-commonwealth-countries/",
-      "summary": "The Commonwealth Scholarships fund postgraduate study for citizens of developing Commonwealth countries. These awards support high-caliber students pursuing Master's or PhD degrees at UK universities. The program aims to build leadership capacity and foster international cooperation. It is a prestigious opportunity for students from Pakistan and India to study abroad.",
-      "meta_description": "Secure a Commonwealth PhD scholarship. Learn eligibility, benefits, and how to apply for top UK universities from Pakistan and India.",
+      "title": "UBC International Scholars Program: MS/PhD Scholarships for Pakistani and Indian Students",
+      "slug": "ubc-international-scholars-program-msphd-scholarships-for-pakistani-and-indian-students",
+      "url": "https://www.scholars4dev.com/2333/ilot-scholarships-at-university-of-british-columbia/",
+      "summary": "Experience world-class education at UBC with MS/PhD scholarships for Pakistani and Indian students applying abroad. Apply now and unlock global opportunities.",
+      "meta_description": "",
       "eligibility": [
-        "Citizenship of a developing Commonwealth country, including Pakistan and India.",
-        "Admission to a full-time postgraduate Master's or PhD program at a UK university.",
-        "Demonstrated academic excellence and potential to lead in your field."
+        "Nationals of Pakistan or India",
+        "Hold a valid study permit and visa",
+        "Meet UBC admission requirements for MS/PhD programs"
       ],
       "benefits": [
-        "Full tuition fee coverage for the duration of the course.",
-        "Monthly maintenance grant to cover living expenses in the UK.",
-        "Return airfare between the home country and the UK."
+        "Financial assistance for MS/PhD studies",
+        "Access to UBC's renowned faculty and resources",
+        "Opportunities for research collaborations and global networking"
       ],
       "how_to_apply": [
-        "Secure an unconditional offer from a participating UK university.",
-        "Complete the online application form on the Commonwealth Scholarship Commission website.",
-        "Submit required documents, including transcripts and a personal statement."
+        "Apply for UBC admission to MS/PhD programs",
+        "Submit the International Scholars Program application",
+        "Attach required documents and references"
       ],
       "faqs": [
         {
-          "q": "Are students from Pakistan and India eligible?",
-          "a": "Yes, citizens of Pakistan and India are eligible as both are developing Commonwealth countries."
+          "q": "What are the application deadlines for UBC International Scholars Program?",
+          "a": "Please refer to the UBC admission website for specific application deadlines. We recommend applying well in advance to ensure a smooth application process."
         },
         {
-          "q": "Does the scholarship cover tuition fees?",
-          "a": "Yes, the award typically includes full tuition fees and a maintenance stipend."
+          "q": "What is the stipend amount for the MS/PhD scholarships?",
+          "a": "The stipend amount may vary and is not disclosed publicly. Focus on showcasing your academic excellence, research potential, and commitment to global impact."
         }
       ],
       "keywords": [
-        "Commonwealth PhD Scholarships",
-        "pakistan",
-        "india",
-        "UK study abroad",
-        "postgraduate funding"
-      ],
-      "level": "PhD",
-      "region": "Worldwide",
-      "source": "www.scholars4dev.com",
-      "published": "",
-      "page": "p/commonwealth-phd-scholarships-for-pakistan-india-students.html"
-    },
-    {
-      "title": "ETH Zurich Excellence Masters Scholarships – Study in Switzerland",
-      "slug": "eth-zurich-excellence-masters-scholarships-study-in-switzerland",
-      "url": "https://www.scholars4dev.com/9763/eth-zurich-excellence-masters-scholarship-program/",
-      "summary": "The ETH Zurich Excellence Masters Scholarships offer outstanding international students a chance to pursue a Master's degree at one of Europe's top universities. The award covers tuition fees and provides a living allowance, making Swiss education more accessible. Applicants from Pakistan, India and other countries are encouraged to apply. This scholarship helps you join a vibrant research community and build a global network.",
-      "meta_description": "Explore ETH Zurich Excellence Masters Scholarships for students from Pakistan, India and beyond. Receive tuition waiver and living support for your MS degree.",
-      "eligibility": [
-        "Hold a recognized bachelor's degree with a strong academic record (typically GPA 3.0/4.0 or higher).",
-        "Be a citizen of Pakistan, India, or any other country (global eligibility).",
-        "Demonstrate proficiency in English (IELTS/TOEFL) or German, depending on the program language.",
-        "Apply for a Master's program offered by ETH Zurich and meet its admission criteria."
-      ],
-      "benefits": [
-        "Full tuition waiver for the entire Master's program.",
-        "Monthly living allowance to cover accommodation and daily expenses."
-      ],
-      "how_to_apply": [
-        "Choose an eligible Master's program at ETH Zurich and note the application deadline.",
-        "Prepare required documents: academic transcripts, language test scores, CV, motivation letter, and recommendation letters.",
-        "Submit your program application through the ETH online portal, then apply for the Excellence Scholarship within the same system."
-      ],
-      "faqs": [
-        {
-          "q": "Can students from Pakistan and India apply for the ETH Zurich Excellence Masters Scholarship?",
-          "a": "Yes, the scholarship is open to applicants of any nationality, including students from Pakistan and India."
-        },
-        {
-          "q": "What does the scholarship cover?",
-          "a": "It covers full tuition fees for the Master's program and provides a monthly living allowance for the duration of the study."
-        }
-      ],
-      "keywords": [
-        "ETH Zurich Excellence Masters Scholarships",
+        "UBC International Scholars Program",
+        "MS/PhD scholarships",
         "Pakistan",
         "India",
-        "Swiss scholarships",
-        "study in Switzerland"
+        "abroad scholarships"
       ],
-      "level": "MS",
+      "level": "MS/PhD",
       "region": "Worldwide",
       "source": "www.scholars4dev.com",
       "published": "",
-      "page": "p/eth-zurich-excellence-masters-scholarships-study-in-switzerland.html"
+      "page": "p/ubc-international-scholars-program-msphd-scholarships-for-pakistani-and-indian-students.html"
+    },
+    {
+      "title": "Fully Funded MS/PhD Scholarships for International Students",
+      "slug": "fully-funded-msphd-scholarships-for-international-students",
+      "url": "https://www.scholars4dev.com/8319/fully-funded-scholarships-international-students/",
+      "summary": "This guide highlights top fully funded scholarship programs available to international students, particularly those from Pakistan and India. These opportunities cover tuition fees, living expenses, and health insurance for Master's and PhD studies. We provide a clear overview of eligibility criteria and application steps to help you secure your spot. Focus on strong academic records and research proposals to maximize your chances of success.",
+      "meta_description": "Discover fully funded MS and PhD scholarships for students from Pakistan and India. Learn eligibility, benefits, and how to apply for global opportunities.",
+      "eligibility": [
+        "Hold a relevant undergraduate or master's degree with strong academic performance",
+        "Demonstrate proficiency in English through standardized tests like IELTS or TOEFL",
+        "Submit a compelling statement of purpose and research proposal for PhD applicants"
+      ],
+      "benefits": [
+        "Full coverage of tuition fees and mandatory university charges",
+        "Monthly living stipend and comprehensive health insurance coverage"
+      ],
+      "how_to_apply": [
+        "Research specific university or government scholarship programs that match your field",
+        "Prepare required documents including transcripts, test scores, and recommendation letters",
+        "Submit your online application before the stated deadline and track its status"
+      ],
+      "faqs": [
+        {
+          "q": "Are these scholarships open to students from Pakistan and India?",
+          "a": "Yes, most fully funded international scholarships are open to all nationalities, including those from Pakistan and India, provided you meet the academic requirements."
+        },
+        {
+          "q": "Do I need prior work experience to apply for a PhD?",
+          "a": "No, work experience is rarely required for PhD admissions. Strong academic performance and a solid research proposal are the primary criteria."
+        }
+      ],
+      "keywords": [
+        "fully funded scholarships",
+        "international students",
+        "pakistan",
+        "india",
+        "phd scholarship",
+        "ms scholarship"
+      ],
+      "level": "MS/PhD",
+      "region": "Worldwide",
+      "source": "www.scholars4dev.com",
+      "published": "",
+      "page": "p/fully-funded-msphd-scholarships-for-international-students.html"
+    },
+    {
+      "title": "British Chevening Scholarships in UK for International Students",
+      "slug": "british-chevening-scholarships-in-uk-for-international-students",
+      "url": "https://www.scholars4dev.com/3299/british-chevening-scholarships/",
+      "summary": "British Chevening Scholarships in UK for International Students",
+      "meta_description": "British Chevening Scholarships in UK for International Students",
+      "eligibility": [
+        "Open to applicants seeking MS/PhD opportunities",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "scholarship",
+        "ms/phd",
+        "europe",
+        "pakistan",
+        "india"
+      ],
+      "level": "MS/PhD",
+      "region": "Europe",
+      "source": "www.scholars4dev.com",
+      "published": "",
+      "page": "p/british-chevening-scholarships-in-uk-for-international-students.html"
+    },
+    {
+      "title": "Oxford Scholarships for Developing Country MS/PhD Students in Pakistan and India",
+      "slug": "oxford-scholarships-for-developing-country-msphd-students-in-pakistan-and-india",
+      "url": "https://www.scholars4dev.com/3648/reach-oxford-undergraduate-scholarships-for-developing-country-students/",
+      "summary": "Explore Oxford Scholarships, offering MS/PhD opportunities for Pakistani and Indian students. These scholarships support students from developing countries around the world. Discover benefits, eligibility criteria, and application steps.",
+      "meta_description": "Gain MS/PhD scholarships for Pakistani and Indian students. Oxford funding for developing country students worldwide. Apply now.",
+      "eligibility": [
+        "You are a Pakistani or Indian national.",
+        "You are pursuing or have recently completed your undergraduate studies in Pakistan or India.",
+        "You are a citizen of a developing country"
+      ],
+      "benefits": [
+        "Funding for MS/PhD studies at Oxford University.",
+        "Expenses covered, including tuition fees, living costs, and travel.",
+        "Opportunities for research collaboration and global networking"
+      ],
+      "how_to_apply": [
+        "Step 1: Research available scholarships and apply through the relevant Oxford University portal.",
+        "Step 2: Prepare your application materials, including academic transcripts, research proposal, and letters of recommendation.",
+        "Step 3: Submit your application before the specified deadline.",
+        "Note: Contact the scholarship provider or Oxford University for further assistance"
+      ],
+      "faqs": [
+        {
+          "q": "Are Pakistani and Indian students eligible for these scholarships?",
+          "a": "Yes, Pakistani and Indian students can apply for these scholarships as long as they are pursuing or have recently completed undergraduate studies in Pakistan or India and are citizens of a developing country."
+        },
+        {
+          "q": "What is the scholarship application process like?",
+          "a": "The scholarship application process involves researching available scholarships, applying through the relevant Oxford University portal, preparing application materials, and submitting the application before the specified deadline. For further assistance, contact the scholarship provider or Oxford University."
+        }
+      ],
+      "keywords": [
+        "Oxford Scholarships",
+        "MS/PhD funding",
+        "Developing country students",
+        "Pakistan",
+        "India"
+      ],
+      "level": "MS/PhD",
+      "region": "Worldwide",
+      "source": "www.scholars4dev.com",
+      "published": "",
+      "page": "p/oxford-scholarships-for-developing-country-msphd-students-in-pakistan-and-india.html"
+    },
+    {
+      "title": "Justus & Louise van Effen Excellence Scholarships for International St",
+      "slug": "justus-louise-van-effen-excellence-scholarships-for-international-st",
+      "url": "https://www.scholars4dev.com/10809/tu-delft-excellence-scholarships-for-international-students/",
+      "summary": "Justus & Louise van Effen Excellence Scholarships for International Students at TU Delft",
+      "meta_description": "Justus & Louise van Effen Excellence Scholarships for International Students at TU Delft",
+      "eligibility": [
+        "Open to applicants seeking MS/PhD opportunities",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "scholarship",
+        "ms/phd",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "MS/PhD",
+      "region": "Worldwide",
+      "source": "www.scholars4dev.com",
+      "published": "",
+      "page": "p/justus-louise-van-effen-excellence-scholarships-for-international-st.html"
     }
   ]
 }
