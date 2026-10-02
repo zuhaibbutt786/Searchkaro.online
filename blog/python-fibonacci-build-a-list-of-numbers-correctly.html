@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Python Fibonacci: Build a List of Numbers Correctly | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to generate a Fibonacci list in Python without summing values, and fix common pitfalls." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, python,fibonacci" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/python-fibonacci-build-a-list-of-numbers-correctly.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How can I generate Fibonacci numbers up to a maximum value?", "acceptedAnswer": {"@type": "Answer", "text": "Use a while loop that stops when the next number would exceed the limit."}}, {"@type": "Question", "name": "Can I use recursion for Fibonacci in Python?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, but it is less efficient due to repeated calculations; use memoization or an iterative approach for performance."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-10-02 · Q&A guide</p>
+    <h1>Python Fibonacci: Build a List of Numbers Correctly</h1>
+    <p class="lead">Learn how to generate a Fibonacci list in Python without summing values, and fix common pitfalls.</p>
+    <div class="content">
+<h2>Common Mistake: Mixing Loop and Function Definition</h2>
+<p>In the original code the `fib` function is defined inside the `for` loop that iterates over `numberlist`. This means the function is re‑created on every iteration, and its scope is limited to that loop. It also hides the variable `n` that is passed to the function, causing confusion.</p>
+<h2>Why the Sum Appears: The Function Returns the nth Term</h2>
+<p>The `fib` implementation returns the value of the nth Fibonacci number, not the sum of the first n numbers. When you append `a` to `fibonaccinumbers` and then print `a`, you see the nth term. If you later sum the list, you get the total of all terms, which is unrelated to the original intent.</p>
+<h2>Correct Approach: Define fib Once and Build the List</h2>
+<p>Define the Fibonacci function outside the loop, then iterate over the desired range to fill the list.</p>
+<pre><code>def fib(n):
+    a, b = 0, 1
+    for _ in range(n):
+        a, b = b, a + b
+    return a
+
+fibonacci_numbers = [fib(i) for i in range(20)]
+print(fibonacci_numbers)</code></pre>
+<h2>Optimized Version: Using a Generator</h2>
+<p>A generator can produce Fibonacci numbers lazily, which saves memory for large sequences.</p>
+<pre><code>def fib_gen(limit):
+    a, b = 0, 1
+    for _ in range(limit):
+        yield a
+        a, b = b, a + b
+
+fibonacci_numbers = list(fib_gen(20))
+print(fibonacci_numbers)</code></pre>
+<h2>Putting It All Together</h2>
+<p>Choose the approach that fits your use case: a simple list comprehension for small sequences, or a generator for scalability. Keep the function definition separate from the loop to avoid accidental redefinition and to improve readability.</p>
+<p><strong>Takeaway:</strong> Define the Fibonacci function once, then iterate to build the list.</p>
+<h2>People also ask</h2>
+<h3>How can I generate Fibonacci numbers up to a maximum value?</h3>
+<p>Use a while loop that stops when the next number would exceed the limit.</p>
+<h3>Can I use recursion for Fibonacci in Python?</h3>
+<p>Yes, but it is less efficient due to repeated calculations; use memoization or an iterative approach for performance.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/15305362/python-fibonacci-sequence" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

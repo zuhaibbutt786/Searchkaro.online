@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "title": "How to Retrieve a Missing Remote Git Tag",
+      "slug": "how-to-retrieve-a-missing-remote-git-tag",
+      "date": "2026-10-02",
+      "excerpt": "Learn why a pushed tag may not appear locally and how to fetch it.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Fix PDF.js Unexpected Server Response (0) When Loading Remote PDFs",
+      "slug": "fix-pdfjs-unexpected-server-response-0-when-loading-remote-pdfs",
+      "date": "2026-10-02",
+      "excerpt": "Learn why PDF.js throws an unexpected server response and how to correctly enable CORS or proxy your PDF files.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Python Fibonacci: Build a List of Numbers Correctly",
+      "slug": "python-fibonacci-build-a-list-of-numbers-correctly",
+      "date": "2026-10-02",
+      "excerpt": "Learn how to generate a Fibonacci list in Python without summing values, and fix common pitfalls.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Pull Requests: Git Feature or Tool\u2011Specific?",
+      "slug": "pull-requests-git-feature-or-toolspecific",
+      "date": "2026-10-02",
+      "excerpt": "Pull requests are a workflow concept, not a native Git command. The discussion lives in the tool\u2019s database, not the Git history.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "JavaScript Search Box: Highlight Text on a Page",
+      "slug": "javascript-search-box-highlight-text-on-a-page",
+      "date": "2026-10-02",
+      "excerpt": "Learn how to build a lightweight JavaScript search box that highlights matching words in your HTML content.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Fix 413 Request Entity Too Large in Postman with JBoss AJP",
+      "slug": "fix-413-request-entity-too-large-in-postman-with-jboss-ajp",
+      "date": "2026-10-02",
+      "excerpt": "Learn why Postman can trigger a 413 error on JBoss AJP connections and how to adjust server settings to accept larger payloads.",
+      "source": "stackoverflow"
+    },
+    {
       "title": "Conditional Object Inclusion in Array Declaration \u2013 JavaScript",
       "slug": "conditional-object-inclusion-in-array-declaration-javascript",
       "date": "2026-09-25",

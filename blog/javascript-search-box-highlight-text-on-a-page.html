@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JavaScript Search Box: Highlight Text on a Page | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to build a lightweight JavaScript search box that highlights matching words in your HTML content." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, javascript,search" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/javascript-search-box-highlight-text-on-a-page.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why does the highlight disappear after a page reload?", "acceptedAnswer": {"@type": "Answer", "text": "Because the replacement is only in memory; reloading resets the DOM. Persist the search term or re‑apply on load if needed."}}, {"@type": "Question", "name": "Can I highlight multiple terms at once?", "acceptedAnswer": {"@type": "Answer", "text": "Yes—split the query by spaces, loop over each word, and apply the regex for each, or build a single regex with alternation (word1|word2)."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-10-02 · Q&A guide</p>
+    <h1>JavaScript Search Box: Highlight Text on a Page</h1>
+    <p class="lead">Learn how to build a lightweight JavaScript search box that highlights matching words in your HTML content.</p>
+    <div class="content">
+<h2>Problem Overview</h2>
+<p>You want a single input that lets users find any word on the page and instantly see it highlighted, without server round‑trips or heavy libraries.</p>
+<h2>Core Idea: DOM Walk + Regex</h2>
+<p>The trick is to replace the page’s innerHTML with a version that wraps every match in a &lt;span&gt;. A global, case‑insensitive regular expression is the fastest way to locate all occurrences of the search term.</p>
+<h2>Implementation Steps</h2>
+<p>1. Grab the query from the input.
+2. Build a RegExp: new RegExp(&#x27;(&#x27; + escapeRegExp(query) + &#x27;)&#x27;, &#x27;gi&#x27;).
+3. Replace body.innerHTML with the regex, inserting &lt;span class=&quot;highlight&quot;&gt;$1&lt;/span&gt;.
+4. Add a button listener to trigger the function.
+5. Style .highlight with CSS to make the match obvious.</p>
+<h2>Full Code Example</h2>
+<pre><code>/* CSS */
+.highlight {
+  background: yellow;
+  color: black;
+}
+/* JavaScript */
+function escapeRegExp(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, &#x27;\\$&amp;&#x27;);
+}
+function highlight(text) {
+  if (!text) return;
+  var body = document.body;
+  var regex = new RegExp(&#x27;(&#x27; + escapeRegExp(text) + &#x27;)&#x27;, &#x27;gi&#x27;);
+  body.innerHTML = body.innerHTML.replace(regex, &#x27;&lt;span class=&quot;highlight&quot;&gt;$1&lt;/span&gt;&#x27;);
+}
+
+document.getElementById(&#x27;searchBtn&#x27;).addEventListener(&#x27;click&#x27;, function() {
+  var query = document.getElementById(&#x27;q&#x27;).value.trim();
+  if (query) {
+    highlight(query);
+  } else {
+    alert(&#x27;Please enter a search term.&#x27;);
+  }
+});</code></pre>
+<h2>Common Pitfalls &amp; Enhancements</h2>
+<p>• Replacing innerHTML destroys event listeners; if your page has interactive elements, consider a tree walk instead.
+• The regex approach can mis‑highlight inside tags; for production, use a text‑node walker.
+• Debounce the input for instant search as the user types.
+• Add a clear button to remove all highlights.</p>
+<p><strong>Takeaway:</strong> A simple DOM walk with regex can turn any page into a searchable, highlightable document.</p>
+<h2>People also ask</h2>
+<h3>Why does the highlight disappear after a page reload?</h3>
+<p>Because the replacement is only in memory; reloading resets the DOM. Persist the search term or re‑apply on load if needed.</p>
+<h3>Can I highlight multiple terms at once?</h3>
+<p>Yes—split the query by spaces, loop over each word, and apply the regex for each, or build a single regex with alternation (word1|word2).</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/12498604/create-a-search-box-to-find-text-on-page" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

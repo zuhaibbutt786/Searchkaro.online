@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fix PDF.js Unexpected Server Response (0) When Loading Remote PDFs | LearnWithZuhaib</title>
+  <meta name="description" content="Learn why PDF.js throws an unexpected server response and how to correctly enable CORS or proxy your PDF files." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, javascript,pdf,pdf.js" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/fix-pdfjs-unexpected-server-response-0-when-loading-remote-pdfs.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I use a wildcard `*` for `Access-Control-Allow-Origin`?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, but it allows any site to fetch the PDF. For tighter security, specify the exact origin of your viewer."}}, {"@type": "Question", "name": "What if the PDF server is on HTTPS and my viewer is HTTP?", "acceptedAnswer": {"@type": "Answer", "text": "Mixed content is blocked by browsers. Serve the viewer over HTTPS or use a proxy that also uses HTTPS."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-10-02 · Q&A guide</p>
+    <h1>Fix PDF.js Unexpected Server Response (0) When Loading Remote PDFs</h1>
+    <p class="lead">Learn why PDF.js throws an unexpected server response and how to correctly enable CORS or proxy your PDF files.</p>
+    <div class="content">
+<h2>1. What Causes the 0‑Response Error</h2>
+<p>When PDF.js requests a file, the browser expects a 200 OK response with the PDF binary. If the request fails, the network stack reports status 0. This can happen for network errors, blocked CORS, or an opaque response from a no‑cors fetch.</p>
+<h2>2. Why Setting `mode: &#x27;no-cors&#x27;` Doesn’t Work</h2>
+<p>The `no-cors` mode turns the response into an opaque blob that PDF.js cannot read. The viewer will show the error message and never load the document. PDF.js requires a readable response stream, so you must allow cross‑origin access through proper headers.</p>
+<pre><code>// Example fetch that would fail with no‑cors
+fetch(&#x27;http://100.0.55.10/file.pdf&#x27;, { mode: &#x27;no-cors&#x27; })
+  .then(r =&gt; console.log(r.type)) // &quot;opaque&quot;</code></pre>
+<h2>3. Enable Correct CORS Headers on the PDF Server</h2>
+<p>Configure the server that hosts the PDFs to send the `Access-Control-Allow-Origin` header. For a wildcard origin (any site), use `*`. If you want stricter control, specify your viewer domain. The header must be sent with the 200 OK response.</p>
+<pre><code>// Apache (.htaccess)
+&lt;Files &quot;*.pdf&quot;&gt;
+  Header set Access-Control-Allow-Origin &quot;*&quot;
+&lt;/Files&gt;
+
+// Nginx
+location ~* \.pdf$ {
+  add_header Access-Control-Allow-Origin *;
+}
+
+// Express.js
+app.get(&#x27;/files/:name.pdf&#x27;, (req, res) =&gt; {
+  res.set(&#x27;Access-Control-Allow-Origin&#x27;, &#x27;*&#x27;);
+  res.sendFile(path.join(__dirname, &#x27;pdfs&#x27;, req.params.name + &#x27;.pdf&#x27;));
+});</code></pre>
+<h2>4. Use a Same‑Origin Proxy When You Can’t Modify Headers</h2>
+<p>If you cannot control the remote server, route the PDF through your own backend. The proxy fetches the file, attaches the correct CORS header, and streams it to the viewer. This keeps the browser’s same‑origin policy satisfied.</p>
+<pre><code>// Node.js proxy example
+const express = require(&#x27;express&#x27;);
+const request = require(&#x27;request&#x27;);
+const app = express();
+
+app.get(&#x27;/proxy/:file&#x27;, (req, res) =&gt; {
+  const url = `http://100.0.55.10/pdfFolder/${req.params.file}.pdf`;
+  request({ url, encoding: null })
+    .on(&#x27;response&#x27;, r =&gt; {
+      res.set(&#x27;Content-Type&#x27;, &#x27;application/pdf&#x27;);
+      res.set(&#x27;Access-Control-Allow-Origin&#x27;, &#x27;*&#x27;);
+    })
+    .pipe(res);
+});
+
+app.listen(3000);</code></pre>
+<h2>5. Verify the Fix with Browser DevTools</h2>
+<p>Open the Network tab, reload the viewer, and inspect the PDF request. The status should be 200, the `Content-Type` should be `application/pdf`, and the `Access-Control-Allow-Origin` header must be present. If you still see status 0, double‑check the URL and ensure the server is reachable.</p>
+<p><strong>Takeaway:</strong> To load PDFs from another server, provide proper CORS headers or route the file through a same‑origin proxy; `no-cors` mode blocks PDF.js from accessing the data.</p>
+<h2>People also ask</h2>
+<h3>Can I use a wildcard `*` for `Access-Control-Allow-Origin`?</h3>
+<p>Yes, but it allows any site to fetch the PDF. For tighter security, specify the exact origin of your viewer.</p>
+<h3>What if the PDF server is on HTTPS and my viewer is HTTP?</h3>
+<p>Mixed content is blocked by browsers. Serve the viewer over HTTPS or use a proxy that also uses HTTPS.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/56883808/pdf-js-message-unexpected-server-response-0-while-retrieving-pdf" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>
