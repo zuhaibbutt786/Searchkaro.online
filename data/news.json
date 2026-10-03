@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-02T11:58:28.390203+00:00",
-  "updated_at_pkt": "2026-10-02 04:55 PM PKT",
+  "updated_at": "2026-10-03T11:10:35.827950+00:00",
+  "updated_at_pkt": "2026-10-03 04:08 PM PKT",
   "count": 500,
-  "new_in_this_run": 29,
+  "new_in_this_run": 28,
   "sources": [
     "https://trends.google.com/trending/rss?geo=PK",
     "https://trends.google.com/trending/rss?geo=IN",
@@ -11,6 +11,1116 @@
     "https://trends.google.com/trending/rss?geo=SA"
   ],
   "items": [
+    {
+      "title": "സംസ്ഥാനത്ത് പെട്രോള്‍ വില ലീറ്ററിന് അഞ്ചു രൂപ കൂട്ടി; ഡീസലിനു…",
+      "slug": "news-1791025779",
+      "topic": "പെട്രോള്",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Coverage linked to \"പെട്രോള്\" is circulating in IN. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "പെട്രോള്: coverage and context for readers in IN. Summary of related reports and what to verify next.",
+      "keywords": [
+        "പെട്രോള്",
+        "പെട്രോള് news",
+        "IN",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "2000+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1PjNgdGemmxmAGy7E9POuVjknlS34PQxls_qNyyUFnD4SyYIOz8fVT4SAhyI",
+      "related": [
+        {
+          "title": "സംസ്ഥാനത്ത് പെട്രോള്‍ വില ലീറ്ററിന് അഞ്ചു രൂപ കൂട്ടി; ഡീസലിനു മൂന്നുരൂപയും; വില വര്‍ധിപ്പിച്ച് നയാര",
+          "url": "https://www.manoramanews.com/business/economy/retail/2026/10/03/nayara-energy-fuel-price-hike-kerala-petrol-diesel-rates.html",
+          "source": "Manorama News"
+        },
+        {
+          "title": "രാജ്യത്ത് പെട്രോളിനും ‌ഡീസലിനും വില കൂട്ടി; നയാരയുടെ പുതിയ നിരക്ക് ഇന്നുമുതൽ പ്രാബല്യത്തിൽ",
+          "url": "https://keralakaumudi.com/news-360/national/nayara-petrol-diesel-price-hike-kerala-1810609",
+          "source": "Kerala Kaumudi"
+        },
+        {
+          "title": "പെട്രോളിന് അഞ്ചു രൂപ കൂട്ടി, ഡീസലിന് മൂന്നും; ഇന്ധന വില പുനര്‍ നിര്‍ണയിച്ച് നയാര",
+          "url": "https://www.samakalikamalayalam.com/business-news/nayara-energy-has-raised-petrol-diesel-prices",
+          "source": "Samakalika Malayalam"
+        }
+      ],
+      "word_count": 415,
+      "page": "p/news-1791025779.html"
+    },
+    {
+      "title": "जीवित्पुत्रिका व्रत की पूजा में जरूर पढ़ें मां जितिया और सूर्यदेव की ये…",
+      "slug": "news-1791025765",
+      "topic": "jitiya vrat katha",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Coverage linked to \"jitiya vrat katha\" is circulating in IN. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "jitiya vrat katha: coverage and context for readers in IN. Summary of related reports and what to verify next.",
+      "keywords": [
+        "jitiya vrat katha",
+        "jitiya vrat katha news",
+        "IN",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ-KtlLteGV0AFwb6C00YkdVDB97a5LeMHljgIj9AOZFHUrTiNSbZSbfh2n7uA",
+      "related": [
+        {
+          "title": "जीवित्पुत्रिका व्रत की पूजा में जरूर पढ़ें मां जितिया और सूर्यदेव की ये आरती, संतान की लंबी उम्र और सुख-समृ",
+          "url": "https://www.indiatv.in/religion/festivals-jitiya-vrat-aarti-suryadev-ki-aarti-santan-ka-hoga-mangal-aur-milegi-lambi-umar-aur-sukh-samriddhi-2026-10-02-1246603",
+          "source": "India TV Hindi"
+        },
+        {
+          "title": "Jitiya Vrat 2026: बच्चे को बार-बार लगती है नजर? जितिया व्रत पर करें सरसों के तेल का यह उपाय, जानें सही विधि",
+          "url": "https://www.jagran.com/spiritual/religion-jitiya-vrat-2026-why-mustard-oil-is-used-to-remove-buri-nazar-from-children-know-method-40393076.html",
+          "source": "Jagran"
+        },
+        {
+          "title": "जिउतिया पर्व के नहाय-खाय को ले झमटिया गंगा घाट पर जुटी श्रद्धालुओं की भीड़",
+          "url": "https://www.bhaskar.com/local/bihar/begusarai/bachhwara/news/crowds-of-devotees-gathered-at-jhamatiya-ganga-ghat-for-the-nahay-khaay-of-jiutiya-festival-dbp-139228195.html",
+          "source": "Dainik Bhaskar"
+        }
+      ],
+      "word_count": 405,
+      "page": "p/news-1791025765.html"
+    },
+    {
+      "title": "سالم الدوسري يشارك في تدريبات الهلال الجماعية بعد إنهاء تأهيله",
+      "slug": "news-1791025816",
+      "topic": "نادي الهلال",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Coverage linked to \"نادي الهلال\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "نادي الهلال: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "نادي الهلال",
+        "نادي الهلال news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRKjgwZbhH0cb7ij1ptsOgnnJpPfru2Nxesfsx5FcC88qJJz8PVQf2BS1jWWyw",
+      "related": [
+        {
+          "title": "سالم الدوسري يشارك في تدريبات الهلال الجماعية بعد إنهاء تأهيله",
+          "url": "https://sabq.org/article/qsu66nk",
+          "source": "صحيفة سبق الإلكترونية"
+        },
+        {
+          "title": "التحضيرات مستمرة",
+          "url": "https://arriyadiyah.com/901576/%D8%A7%D9%84%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1%D8%A7%D8%AA-%D9%85%D8%B3%D8%AA%D9%85%D8%B1%D8%A9",
+          "source": "صحيفة الرياضية"
+        },
+        {
+          "title": "الهلال يواصل تحضيراته.. و\"سالم الدوسري\" يشارك في التدريبات الجماعية",
+          "url": "https://alhilal.com/ar/news/alhlal-ywasl-thdhyrath-w-salm-aldwsry-yshark-fy-altdrybat-aljmaayh",
+          "source": "الموقع الرسمي لنادي الهلال السعودي"
+        }
+      ],
+      "word_count": 324,
+      "page": "p/news-1791025816.html"
+    },
+    {
+      "title": "Zimbabwe vs West Indies ODI draws keen interest in Pakistan",
+      "slug": "zimbabwe-vs-west-indies-odi-draws-keen-interest-in-pakistan",
+      "topic": "zimbabwe vs west indies",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Pakistan's cricket followers are flocking to the internet for details on the upcoming Zimbabwe‑West Indies ODI. The match is generating more than 5,000 daily searches, reflecting deep regional enthusiasm.",
+      "meta_description": "A much‑awaited One Day International between Zimbabwe and the West Indies is set to take place, sparking a surge of online searches from cricket fans across Pak",
+      "keywords": [
+        "Zimbabwe cricket",
+        "West Indies cricket",
+        "ODI match",
+        "Pakistan fans",
+        "cricket search trends"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "5000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRADKBSCeUUu5HDL_MCLoJb96C35C6bKN0pmaSZU-R2KjyEYbjz8ZYPPXEDdgA",
+      "related": [
+        {
+          "title": "Playing XI - IND vs PAK Final | Asian Games Men's Cricket Competition Squad",
+          "url": "https://www.cricinfo.com/series/asian-games-men-s-cricket-competition-2026-1552449/india-vs-pakistan-final-1552779/match-playing-xi",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "Match Stats - BAN vs SL 3rd Place Play-off, Best Performances by Batters & Bowlers",
+          "url": "https://www.cricinfo.com/series/asian-games-men-s-cricket-competition-2026-1552449/bangladesh-vs-sri-lanka-3rd-place-play-off-1552778/match-statistics",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "Points Table Standings - BAN vs PAK 1st Semi-Final",
+          "url": "https://www.cricinfo.com/series/asian-games-men-s-cricket-competition-2026-1552449/bangladesh-vs-pakistan-1st-semi-final-1552776/points-table-standings",
+          "source": "Cricinfo"
+        }
+      ],
+      "word_count": 799,
+      "page": "p/zimbabwe-vs-west-indies-odi-draws-keen-interest-in-pakistan.html"
+    },
+    {
+      "title": "Yasir Hussain Thanks Akif Ilyas After Stylist Criticises His Humour",
+      "slug": "yasir-hussain-thanks-akif-ilyas-after-stylist-criticises-his-humour",
+      "topic": "yasir hussain",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Pakistani comedian Yasir Hussain expressed gratitude to fellow comic Akif Ilyas after a stylist publicly questioned his comedic style on television. The exchange has sparked debate among fans and critics alike.",
+      "meta_description": "Pakistani comedian Yasir Hussain publicly thanked fellow comic Akif Ilyas after a stylist criticised his humour on a TV programme, sparking discussion.",
+      "keywords": [
+        "Yasir Hussain",
+        "Akif Ilyas",
+        "Pakistani comedy",
+        "TV criticism",
+        "humour"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTmFbPbgDmzf1L6seI4AAvoL_-StlSPq5ltzRONc3rPZBlnNdSdRn8fhtAr-vo",
+      "related": [
+        {
+          "title": "Yasir Hussain says he owes Akif Ilyas gratitude after stylist calls his humour out on TV",
+          "url": "https://images.dawn.com/news/1195946",
+          "source": "Dawn Images"
+        },
+        {
+          "title": "Yasir Hussain thanks Akif Ilyas despite comedy criticism",
+          "url": "https://minutemirror.com.pk/yasir-hussain-thanks-akif-ilyas-despite-comedy-criticism-638995/",
+          "source": "Minute Mirror"
+        }
+      ],
+      "word_count": 663,
+      "page": "p/yasir-hussain-thanks-akif-ilyas-after-stylist-criticises-his-humour.html"
+    },
+    {
+      "title": "Why is Croatia vs England behind closed doors?",
+      "slug": "why-is-croatia-vs-england-behind-closed-doors",
+      "topic": "england vs croatia",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Coverage linked to \"england vs croatia\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "england vs croatia: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "england vs croatia",
+        "england vs croatia news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTGirq1cNkYGYLzBxivJc-FuiMhKGVLO0TdFkmqPxgo4beKz-q6MCC1RFLYGis",
+      "related": [
+        {
+          "title": "Why is Croatia vs England behind closed doors?",
+          "url": "https://www.bbc.co.uk/sport/football/videos/cq77plj47e2ro",
+          "source": "BBC"
+        },
+        {
+          "title": "Tuchel looking for focus in Croatia",
+          "url": "https://www.englandfootball.com/articles/2026/Oct/02/thomas-tuchel-england-press-conference-croatia-20260210",
+          "source": "England Football | Home"
+        },
+        {
+          "title": "Croatia vs England: UEFA Nations League – Kane, Modric, teams, form",
+          "url": "https://www.aljazeera.com/sports/2026/10/2/croatia-england-uefa-nations-league-kane-modric-teams-form",
+          "source": "Al Jazeera"
+        }
+      ],
+      "word_count": 327,
+      "page": "p/why-is-croatia-vs-england-behind-closed-doors.html"
+    },
+    {
+      "title": "West Indies Tour of India 2026 Draws Massive Online Attention",
+      "slug": "west-indies-tour-of-india-2026-draws-massive-online-attention",
+      "topic": "keemo paul",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Search interest for the West Indies tour of India 2026 has spiked significantly, driven by fan engagement with historical data and player profiles. The surge highlights the high anticipation for the upcoming cricket series between the two t",
+      "meta_description": "Interest in the upcoming West Indies tour of India 2026 has surged, with fans exploring historical ODI records and team previews ahead of the series.",
+      "keywords": [
+        "West Indies tour India 2026",
+        "Keemo Paul",
+        "India West Indies ODI",
+        "Cricket schedule",
+        "Sports news"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "10000+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ5du39ZwtrHlhWxBmwEbl42pcFgF7vPIY7gcsflBFP2Z-LuIyjPQgJ86O-YDI",
+      "related": [
+        {
+          "title": "West Indies Tour of India 2026 - Preview",
+          "url": "https://www.tapmad.com/watch/west-indies-tour-of-india-2026-preview/13405890",
+          "source": "Tapmad"
+        },
+        {
+          "title": "West Indies in India 2026",
+          "url": "https://sports.yahoo.com/articles/west-indies-india-2026-162256285.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "Quiz! Can You Name Every Captain In The History Of India-West Indies Men’s ODIs?",
+          "url": "https://www.wisden.com/quizzes/play-and-win/quiz-can-you-name-every-captain-in-the-history-of-india-west-indies-mens-odis",
+          "source": "Wisden"
+        }
+      ],
+      "word_count": 774,
+      "page": "p/west-indies-tour-of-india-2026-draws-massive-online-attention.html"
+    },
+    {
+      "title": "UnitedHealth and Humana Slash 2027 Medicare Advantage Networks",
+      "slug": "unitedhealth-and-humana-slash-2027-medicare-advantage-networks",
+      "topic": "medicare advantage",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Leading health insurers are reducing provider networks and benefits for upcoming Medicare Advantage plans. Independent analysis suggests the changes contradict insurer claims of stability.",
+      "meta_description": "Major insurers are shrinking Medicare Advantage provider networks for 2027. Data reveals significant benefit reductions despite claims of preservation, impactin",
+      "keywords": [
+        "Medicare Advantage",
+        "UnitedHealth",
+        "Humana",
+        "health insurance",
+        "senior care"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "2000+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQecW_wERffWlRPY-XzRg2L6EYqQeAVLhOxbLOcTxZkzmhBDjQ8ihshZC3htoc",
+      "related": [
+        {
+          "title": "UnitedHealth and Humana cutting Medicare Advantage plans in 2027",
+          "url": "https://finance.yahoo.com/healthcare/articles/unitedhealth-humana-cutting-medicare-advantage-172601329.html",
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "Insurers say their 2027 Medicare Advantage offerings preserve benefits. The data tells a different story",
+          "url": "https://www.healthcaredive.com/news/medicare-advantage-benefit-cuts-2027-unh-hum/831861/",
+          "source": "Healthcare Dive"
+        },
+        {
+          "title": "'The incredible shrinking network': Pittsburgh area Medicare Advantage plans pull back",
+          "url": "https://www.post-gazette.com/business/healthcare-business/2026/10/02/pittsburgh-area-medicare-advantage-plans-upmc-highmark/stories/202610010048",
+          "source": "Pittsburgh Post-Gazette"
+        }
+      ],
+      "word_count": 912,
+      "page": "p/unitedhealth-and-humana-slash-2027-medicare-advantage-networks.html"
+    },
+    {
+      "title": "Trump to host another gala with investors in his meme coin",
+      "slug": "trump-to-host-another-gala-with-investors-in-his-meme-coin",
+      "topic": "coin",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Coverage linked to \"coin\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "coin: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "coin",
+        "coin news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTvaWcDPpe3LVbUH0T0vr4p1AXs8ChuvtduefJZenSvfJPgNq-ow_UnCBweucA",
+      "related": [
+        {
+          "title": "Trump to host another gala with investors in his meme coin",
+          "url": "https://abcnews.com/US/trump-host-gala-investors-meme-coin/story?id=136931120",
+          "source": "ABC News - Breaking News, Latest News and Videos"
+        },
+        {
+          "title": "TRUMP Memecoin Holders Get Another Dinner as Democrats Threaten Crypto Corruption Probes",
+          "url": "https://gizmodo.com/trump-memecoin-holders-get-another-dinner-as-democrats-threaten-crypto-corruption-probes-2000820903",
+          "source": "Gizmodo"
+        },
+        {
+          "title": "TRUMP fragrance, 18K gold watch and dinner with Trump at meme coin event",
+          "url": "https://www.usatoday.com/story/news/politics/2026/10/02/trump-meme-coin-dinner-crypto/92060977007/",
+          "source": "USA Today"
+        }
+      ],
+      "word_count": 334,
+      "page": "p/trump-to-host-another-gala-with-investors-in-his-meme-coin.html"
+    },
+    {
+      "title": "Tom Davis: ‘Beer was 80 per cent of my personality… Now I’m teetotal’",
+      "slug": "tom-davis-beer-was-80-per-cent-of-my-personality-now-im-teetotal",
+      "topic": "tom davis",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Coverage linked to \"tom davis\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "tom davis: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "tom davis",
+        "tom davis news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRPTq88U4B7lTw6RTaqxEWV3rdVt92JiTVmB4CrpM6vewAKF_pk6IA958q4UJM",
+      "related": [
+        {
+          "title": "Tom Davis: ‘Beer was 80 per cent of my personality… Now I’m teetotal’",
+          "url": "https://www.telegraph.co.uk/tv/2026/10/01/tom-davis-interview-the-reluctant-vampire/",
+          "source": "The Telegraph"
+        },
+        {
+          "title": "Tom Davis loves Traitors, but won’t touch the celebrity version",
+          "url": "https://heatworld.com/celebrity/news/tom-davis-the-idea-of-going-on-traitors-is-too-scary/",
+          "source": "Heatworld"
+        }
+      ],
+      "word_count": 319,
+      "page": "p/tom-davis-beer-was-80-per-cent-of-my-personality-now-im-teetotal.html"
+    },
+    {
+      "title": "South Korean golfer Kim wins Asian Games gold and military exemption",
+      "slug": "south-korean-golfer-kim-wins-asian-games-gold-and-military-exemption",
+      "topic": "tom kim",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Coverage linked to \"tom kim\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "tom kim: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "tom kim",
+        "tom kim news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF259PYYvnVmtPZLIemDj89kW8JkyAmJbS-JLitMRwSwGrIUDtdbQ1fUfRJ-w",
+      "related": [
+        {
+          "title": "South Korean golfer Kim wins Asian Games gold and military exemption",
+          "url": "https://www.reuters.com/sports/golf/south-korean-golfer-kim-wins-asian-games-gold-military-exemption-2026-10-03/",
+          "source": "Reuters"
+        },
+        {
+          "title": "A cautionary tale for Tom Kim: This South Korean golf star served in the military and has never been the same",
+          "url": "https://sports.yahoo.com/articles/cautionary-tale-tom-kim-korean-201935715.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "Tom Kim goes from Presidents Cup to Asian Games with a chance to be exempt from military service",
+          "url": "https://apnews.com/article/tom-kim-presidents-cup-asian-games-south-korea-military-d639aa8bdb7141e92ac477905e2d13c8",
+          "source": "AP News"
+        }
+      ],
+      "word_count": 347,
+      "page": "p/south-korean-golfer-kim-wins-asian-games-gold-and-military-exemption.html"
+    },
+    {
+      "title": "SmackDown: Oct. 2, 2026",
+      "slug": "smackdown-oct-2-2026",
+      "topic": "wwe smackdown results",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Coverage linked to \"wwe smackdown results\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "wwe smackdown results: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "wwe smackdown results",
+        "wwe smackdown results news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS6p3EcTrBukMm0CB4zO4AmgBVaP33GNuCnyCMkQXb7_7OGmc_jSwLhoSETAHY",
+      "related": [
+        {
+          "title": "SmackDown: Oct. 2, 2026",
+          "url": "https://www.wwe.com/shows/smackdown/2026-10-02",
+          "source": "WWE"
+        },
+        {
+          "title": "WWE SmackDown Winners, Live Grades, Reaction and Highlights From October 2",
+          "url": "https://bleacherreport.com/articles/25505940-wwe-smackdown-winners-live-grades-reaction-and-highlights-october-2",
+          "source": "Bleacher Report"
+        },
+        {
+          "title": "WWE SmackDown results, grades (Oct. 2): Kevin Owens qualifies for MITB, Randy Orton costs Cody Rhodes",
+          "url": "https://sports.yahoo.com/wrestling/live/wwe-smackdown-live-now-oct-2-results-grades-for-tonights-cody-rhodes-money-in-the-bank-qualifier-201729687.html",
+          "source": "Yahoo Sports"
+        }
+      ],
+      "word_count": 333,
+      "page": "p/smackdown-oct-2-2026.html"
+    },
+    {
+      "title": "Rohit Sharma becomes fastest opener to 10,000 ODI runs",
+      "slug": "rohit-sharma-becomes-fastest-opener-to-10000-odi-runs",
+      "topic": "rohit sharma",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Rohit Sharma broke the record for the quickest 10,000 runs in One Day Internationals, doing so as an opening batsman. The achievement places him in an exclusive group that includes only two other Indian greats.",
+      "meta_description": "India's captain Rohit Sharma set a new ODI record, reaching 10,000 runs faster than any predecessor, joining an elite club alongside Tendulkar and Kohli.",
+      "keywords": [
+        "Rohit Sharma",
+        "ODI runs",
+        "10,000 runs",
+        "cricket",
+        "India"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ydVhn6Iy12_JIzi50Jn6g9vSUylb4J_-dLLD_LcIZypfAz8a2i15s5S-Qv4",
+      "related": [
+        {
+          "title": "Rohit Sharma scripts history in 3rd ODI, becomes fastest batter to reach 10000 runs as opener",
+          "url": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-west-indies/rohit-sharma-scripts-history-in-3rd-odi-becomes-fastest-batter-to-reach-10000-runs-as-opener/articleshow/134655984.cms",
+          "source": "The Times of India"
+        },
+        {
+          "title": "Rohit Sharma enters elite ODI run-club",
+          "url": "https://www.icc-cricket.com/news/rohit-sharma-enters-elite-odi-run-club",
+          "source": "ICC"
+        },
+        {
+          "title": "Only third Indian after Tendulkar, Kohli to attain landmark",
+          "url": "https://www.rediff.com/cricket/commentary/2026/sep/30/only-third-indian-after-tendulkar-kohli-to-attain-landmark/6ceb5300912493b558b68f913a8a99a9",
+          "source": "Rediff"
+        }
+      ],
+      "word_count": 681,
+      "page": "p/rohit-sharma-becomes-fastest-opener-to-10000-odi-runs.html"
+    },
+    {
+      "title": "Man Utd weigh legal action as JJ Gabriel trains in Barcelona",
+      "slug": "man-utd-weigh-legal-action-as-jj-gabriel-trains-in-barcelona",
+      "topic": "j j gabriel",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Manchester United is preparing to take legal action if academy star JJ Gabriel leaves the club. The teenager has been spotted training in Barcelona as interest from European giants intensifies.",
+      "meta_description": "Manchester United is considering legal steps if JJ Gabriel departs, amid reports that the youngster is training in Barcelona while top clubs chase him.",
+      "keywords": [
+        "JJ Gabriel",
+        "Manchester United",
+        "Barcelona",
+        "transfer news",
+        "football"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTFYLNdUlRN5NCOJK-OSgyUFJ1TAH-sVRKrF2UxdFZ0K2jIhL6XArMWw6ne9BM",
+      "related": [
+        {
+          "title": "Man Utd to consider legal action if JJ Gabriel leaves as Bayern Munich, Barcelona and Real Madrid chase youngster - Paper Talk",
+          "url": "https://www.skysports.com/football/transfer-paper-talk/13594537/man-utd-to-consider-legal-action-if-jj-gabriel-leaves-as-bayern-munich-barcelona-and-real-madrid-chase-youngster-paper-talk",
+          "source": "Sky Sports"
+        },
+        {
+          "title": "JJ Gabriel trains in Barcelona as exit looms - Manchester United Academy Notebook",
+          "url": "https://www.manchestereveningnews.co.uk/sport/football/jj-gabriel-trains-barcelona-exit-34692850",
+          "source": "Manchester Evening News"
+        },
+        {
+          "title": "Man Utd wonderkid JJ Gabriel training in Barcelona as Deco breaks silence on starlet's transfer demand",
+          "url": "https://www.goal.com/en-gb/lists/man-utd-jj-gabriel-training-barcelona-deco-transfer/bltff826109324ab19f",
+          "source": "Goal.com"
+        }
+      ],
+      "word_count": 637,
+      "page": "p/man-utd-weigh-legal-action-as-jj-gabriel-trains-in-barcelona.html"
+    },
+    {
+      "title": "KL Rahul named in Karnataka squad as BCCI eyes NZ Test lineup",
+      "slug": "kl-rahul-named-in-karnataka-squad-as-bcci-eyes-nz-test-lineup",
+      "topic": "kl rahul",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "KL Rahul has been named in Karnataka's Ranji Trophy side for the opening match against Andhra. The selection comes as the BCCI reviews his form before the upcoming New Zealand Test series.",
+      "meta_description": "KL Rahul is selected for Karnataka's Ranji Trophy opener while the BCCI evaluates his role ahead of the New Zealand Test series, a development watched closely i",
+      "keywords": [
+        "KL Rahul",
+        "Ranji Trophy",
+        "New Zealand Tests",
+        "BCCI",
+        "Pakistan cricket"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2ifH90gW6DXzyIXsLDHKA1YcE6jKSWdo79Uopk4fnn0aglwFUSe4Bf5TAZ3s",
+      "related": [
+        {
+          "title": "KL Rahul, Prasidh Krishna named in Karnataka's Ranji Trophy opener vs Andhra",
+          "url": "https://www.rediff.com/cricket/report/ranji-trophy-kl-rahul-prasidh-krishna-named-in-karnataka-squad/20261001.htm",
+          "source": "Rediff"
+        },
+        {
+          "title": "Big BCCI Call Before New Zealand Tests: Shubman Gill, KL Rahul, Jasprit Bumrah In Focus With WTC Final Spot On Line",
+          "url": "https://sports.ndtv.com/india-vs-new-zealand-2026/big-bcci-call-before-new-zealand-tests-shubman-gill-kl-rahul-jasprit-bumrah-in-focus-with-wtc-final-spot-on-line-12118877",
+          "source": "NDTV Sports"
+        },
+        {
+          "title": "Three from Mysuru make itto Ranji Trophy squad",
+          "url": "https://starofmysore.com/three-from-mysuru-make-itto-ranji-trophy-squad/",
+          "source": "Star of Mysore"
+        }
+      ],
+      "word_count": 570,
+      "page": "p/kl-rahul-named-in-karnataka-squad-as-bcci-eyes-nz-test-lineup.html"
+    },
+    {
+      "title": "India's Naman Dhir looks to broaden bowling arsenal ahead of next series",
+      "slug": "indias-naman-dhir-looks-to-broaden-bowling-arsenal-ahead-of-next-series",
+      "topic": "naman dhir",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Naman Dhir, the 22‑year‑old Indian all‑rounder, credits senior teammate Ravindra Jadeja for helping him adjust his bowling in the ongoing West Indies series. The young cricketer says he is working to add new variations to his repertoire ahe",
+      "meta_description": "Young Indian all‑rounder Naman Dhir says guidance from senior Ravindra Jadeja and a focus on adaptable bowling are shaping his early international career, as he",
+      "keywords": [
+        "Naman Dhir",
+        "India cricket",
+        "bowling development",
+        "Ravindra Jadeja",
+        "West Indies series"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxhsRT04Om_vFskLoelMP69rRdeJDQqURAdofCJdK7_uruyM8xfBQHUuk6QdE",
+      "related": [
+        {
+          "title": "Dhir eager to expand bowling skills",
+          "url": "https://www.icc-cricket.com/news/dhir-eager-to-expand-bowling-skills",
+          "source": "ICC"
+        },
+        {
+          "title": "Jaddu bhai's advice to bowl according to situation helped me a lot: Naman Dhir",
+          "url": "https://www.ptinews.com/story/sports/jaddu-bhai-s-advice-to-bowl-according-to-situation-helped-me-a-lot-naman-dhir/4124308",
+          "source": "Press Trust of India"
+        },
+        {
+          "title": "IND vs WI: Talking to Jadeja has been very helpful for me this series, says Naman Dhir",
+          "url": "https://sportstar.thehindu.com/cricket/naman-dhir-odi-debut-india-vs-west-indies-ravindra-jadeja-helpful/article71537029.ece",
+          "source": "Sportstar"
+        }
+      ],
+      "word_count": 946,
+      "page": "p/indias-naman-dhir-looks-to-broaden-bowling-arsenal-ahead-of-next-series.html"
+    },
+    {
+      "title": "India faces Malaysia in Asian Games hockey final, eyeing back‑to‑back gold",
+      "slug": "india-faces-malaysia-in-asian-games-hockey-final-eyeing-backtoback-gold",
+      "topic": "ind vs malaysia hockey",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "India's men’s hockey squad takes on Malaysia in the Asian Games final, seeking back‑to‑back gold. The match carries weight for Olympic hopes and national pride.",
+      "meta_description": "India's men’s hockey team meets Malaysia in the Asian Games final, aiming for a historic second consecutive gold and a boost toward Olympic qualification.",
+      "keywords": [
+        "India hockey",
+        "Malaysia hockey",
+        "Asian Games 2026",
+        "men's field hockey",
+        "Olympic qualification"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "5000+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDcGnPgT6-dD4EZWEtPB3MT3kF-nLAvoiP-MsA2xhrdy517gohmBj8WLLVDGk",
+      "related": [
+        {
+          "title": "India vs Malaysia Hockey Final Live Score: India eye Asian Games gold, Olympic ticket against Malaysia",
+          "url": "https://timesofindia.indiatimes.com/sports/asian-games-2026/india-vs-malaysia-hockey-live-score-asian-games-2026-mens-final-ind-vs-mas-gold-medal-match-results/liveblog/134655228.cms",
+          "source": "The Times of India"
+        },
+        {
+          "title": "Preview: Indian men’s hockey team eyes historic back-to-back Asian Games gold in the final against Malaysia",
+          "url": "https://www.hockeyindia.org/news/preview-indian-mens-hockey-team-eyes-historic-back-to-back-asian-games-gold-in-the-final-against-malaysia",
+          "source": "Hockey India"
+        },
+        {
+          "title": "Cannot afford silly mistakes against Pakistan: Harmanpreet after fiery semifinal",
+          "url": "https://www.rediff.com/sports/report/india-cannot-afford-mistakes-against-pakistan-says-harmanpreet/20261001.htm",
+          "source": "Rediff"
+        }
+      ],
+      "word_count": 489,
+      "page": "p/india-faces-malaysia-in-asian-games-hockey-final-eyeing-backtoback-gold.html"
+    },
+    {
+      "title": "IND vs WI 2026, 3rd ODI: Virat Kohli Wicket",
+      "slug": "ind-vs-wi-2026-3rd-odi-virat-kohli-wicket",
+      "topic": "jayden seales",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Coverage linked to \"jayden seales\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "jayden seales: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "jayden seales",
+        "jayden seales news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAGYEsV-JJ1x_sgnk3AG-1efFjwlZlwlP5zP_i54JOomd5Wz6pBwiOnODH9X8",
+      "related": [
+        {
+          "title": "IND vs WI 2026, 3rd ODI: Virat Kohli Wicket",
+          "url": "https://www.bcci.tv/videos/s-ind-vs-wi-2026-3rd-odi-virat-kohli-wicket-6qm8n",
+          "source": "BCCI"
+        },
+        {
+          "title": "Virat Kohli out for golden duck: West Indies pacer Jayden Seales enters elite club with prized scalp",
+          "url": "https://www.moneycontrol.com/sports/cricket/virat-kohli-out-for-golden-duck-west-indies-pacer-jayden-seales-enters-elite-club-with-prized-scalp-article-14043816.html",
+          "source": "Moneycontrol.com"
+        },
+        {
+          "title": "Virat Kohli score today in India vs. West Indies 3rd ODI in New Chandigarh",
+          "url": "https://sports.yahoo.com/articles/virat-kohli-score-today-india-083001147.html",
+          "source": "Yahoo Sports"
+        }
+      ],
+      "word_count": 337,
+      "page": "p/ind-vs-wi-2026-3rd-odi-virat-kohli-wicket.html"
+    },
+    {
+      "title": "ICC announces 2027 World Cup schedule as South Africa co‑hosts qualifiers",
+      "slug": "icc-announces-2027-world-cup-schedule-as-south-africa-cohosts-qualifiers",
+      "topic": "icc",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "The International Cricket Council has unveiled the complete schedule for the 2027 Men's Cricket World Cup, highlighting an India‑Australia clash on October 7. South Africa and Namibia will jointly stage the qualifying tournament later this ",
+      "meta_description": "ICC releases full fixture list for the 2027 Men's Cricket World Cup, with India vs Australia opening on Oct 7, and South Africa teaming with Namibia to co‑host ",
+      "keywords": [
+        "ICC",
+        "2027 Cricket World Cup",
+        "India vs Australia",
+        "South Africa qualifiers",
+        "Namibia co-host"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR8Tw304Uk2C8y3mhx5ezEJ9gorKtVwG4gIy7ymRjz-qfPqyEcUcDUngnpwsNQ",
+      "related": [
+        {
+          "title": "Fixture schedule announced for ICC Men’s Cricket World Cup 2027",
+          "url": "https://www.icc-cricket.com/tournaments/icc-cricket-world-cup-2027/news/fixture-schedule-announced-for-icc-men-s-cricket-world-cup-2027",
+          "source": "ICC"
+        },
+        {
+          "title": "India-Australia clash to kick off group stage of the 2027 World Cup on October 7",
+          "url": "https://www.cricbuzz.com/cricket-news/140361/india-australia-clash-to-kick-off-group-stage-of-the-2027-world-cup-on-october-7-cricbuzzcom",
+          "source": "Cricbuzz"
+        },
+        {
+          "title": "South Africa, Namibia to co-host World Cup Qualifiers from February 26 to March 21",
+          "url": "https://www.cricinfo.com/story/south-africa-namibia-to-co-host-odi-world-cup-qualifiers-from-february-26-to-march-21-1556911",
+          "source": "Cricinfo"
+        }
+      ],
+      "word_count": 686,
+      "page": "p/icc-announces-2027-world-cup-schedule-as-south-africa-cohosts-qualifiers.html"
+    },
+    {
+      "title": "Hot Shot: Rublev picks perfect pass to earn break point in Beijing decider",
+      "slug": "hot-shot-rublev-picks-perfect-pass-to-earn-break-point-in-beijing-decider",
+      "topic": "harriet dart",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Coverage linked to \"harriet dart\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "harriet dart: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "harriet dart",
+        "harriet dart news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSk5ZkWkYHi3AXf4VEJ6IeOfhN04WHzdJEFnNznCDD2-gAk1h29eMojwaF4h34",
+      "related": [
+        {
+          "title": "Hot Shot: Rublev picks perfect pass to earn break point in Beijing decider",
+          "url": "https://www.atptour.com/en/video/hot-shot-rublev-picks-perfect-pass-to-earn-break-point-in-beijing-2026-decider",
+          "source": "ATP Tour"
+        },
+        {
+          "title": "October 4, 2026: Valentin Vacherot vs Arthur Fils: Set 1 Winner Tennis Prediction Market",
+          "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/valentin-vacherot-vs-arthur-fils-set-1-winner-oct-04-2026/",
+          "source": "Robinhood"
+        },
+        {
+          "title": "Griekspoor and Van de Zandschulp out of China Open after first round",
+          "url": "https://www.flashscore.com/news/tennis-beijing-atp-singles-griekspoor-and-van-de-zandschulp-out-of-china-open-after-first-round/bFzUkFcT/",
+          "source": "Flashscore.com"
+        }
+      ],
+      "word_count": 336,
+      "page": "p/hot-shot-rublev-picks-perfect-pass-to-earn-break-point-in-beijing-decider.html"
+    },
+    {
+      "title": "Chesterfield vs Tranmere Rovers: League Two stats & head-to-head",
+      "slug": "chesterfield-vs-tranmere-rovers-league-two-stats-head-to-head",
+      "topic": "chesterfield vs tranmere",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Coverage linked to \"chesterfield vs tranmere\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "chesterfield vs tranmere: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "chesterfield vs tranmere",
+        "chesterfield vs tranmere news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTdkA0fvIGl_dE75Vexy0f2GEGme0bwYS5BaHBgjEnjXf1WOGV2ffcmpB3nJqA",
+      "related": [
+        {
+          "title": "Chesterfield vs Tranmere Rovers: League Two stats & head-to-head",
+          "url": "https://www.bbc.co.uk/sport/football/live/c5kg072n3vyrt",
+          "source": "BBC"
+        },
+        {
+          "title": "Chesterfield vs Tranmere predictions: 7-1 Bet Builder tip, team news and odds",
+          "url": "https://www.racingpost.com/sport/football-tips/efl/chesterfield-vs-tranmere-odds-predictions-betting-tips-team-news-bet-builder-aB30t0Q1nn4D/",
+          "source": "Racing Post"
+        },
+        {
+          "title": "League One & League Two LIVE: Build-up, team news, live text & score updates from EFL",
+          "url": "https://www.bbc.com/sport/football/live/ck1wxy1lle5qt",
+          "source": "BBC"
+        }
+      ],
+      "word_count": 339,
+      "page": "p/chesterfield-vs-tranmere-rovers-league-two-stats-head-to-head.html"
+    },
+    {
+      "title": "Can West Indies quell India's batting might in New Chandigarh's ODI debut?",
+      "slug": "can-west-indies-quell-indias-batting-might-in-new-chandigarhs-odi-debut",
+      "topic": "india vs west indies",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Coverage linked to \"india vs west indies\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "india vs west indies: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "india vs west indies",
+        "india vs west indies news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "20000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfd7jre8HhXHWMT8XguGcJEkxZUVMTZFlMrJy7pbXQ3CNnWmQrGHndLTeFRJQ",
+      "related": [
+        {
+          "title": "Can West Indies quell India's batting might in New Chandigarh's ODI debut?",
+          "url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-3rd-odi-1529229/match-preview",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "West Indies have made 700 runs in two ODIs and lost both, and Gill leads India at home in Mullanpur",
+          "url": "https://www.sportsadda.asia/cricket/news/west-indies-have-made-700-runs-in-two-odis-and-lost-both-and-gill-leads-india-at-home-in-mullanpur/",
+          "source": "SportsAdda"
+        },
+        {
+          "title": "Virat Kohli Eyes Record As India Face West Indies In Guwahati ODI",
+          "url": "https://evrimagaci.org/gpt/virat-kohli-eyes-record-as-india-face-west-indies-in-guwahati-odi-546205",
+          "source": "Evrim Ağacı"
+        }
+      ],
+      "word_count": 352,
+      "page": "p/can-west-indies-quell-indias-batting-might-in-new-chandigarhs-odi-debut.html"
+    },
+    {
+      "title": "Caitlin Clark selected as guest picker for College GameDay",
+      "slug": "caitlin-clark-selected-as-guest-picker-for-college-gameday",
+      "topic": "where is college gameday this week",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Coverage linked to \"where is college gameday this week\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "where is college gameday this week: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "where is college gameday this week",
+        "where is college gameday this week news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSpEigpIQTo27NHK_muEzSaBS99ccCx3lVbgw0BxNTMv9tyccbamUqxnHAdAIE",
+      "related": [
+        {
+          "title": "Caitlin Clark selected as guest picker for College GameDay",
+          "url": "https://www.kcrg.com/2026/10/03/caitlin-clark-selected-guest-picker-college-gameday/",
+          "source": "KCRG"
+        },
+        {
+          "title": "NOTES: ANF Black & Gold Spirit Game vs. No. 5/6 Ohio State",
+          "url": "https://hawkeyesports.com/news/2026/09/28/notes-anf-black-and-gold-spirit-game-vs-no-56-ohio-state",
+          "source": "Iowa Hawkeyes Athletics"
+        },
+        {
+          "title": "2026 'College GameDay' Week 5: Ohio State vs. Iowa",
+          "url": "https://www.espn.com/college-football/story/_/id/50077461/2026-college-gameday-week-5-ohio-state-vs-iowa",
+          "source": "ESPN"
+        }
+      ],
+      "word_count": 347,
+      "page": "p/caitlin-clark-selected-as-guest-picker-for-college-gameday.html"
+    },
+    {
+      "title": "Bulls Eye $100 XRP Surge as Ripple Teases ‘Special Announcement’ in Seoul",
+      "slug": "bulls-eye-100-xrp-surge-as-ripple-teases-special-announcement-in-seoul",
+      "topic": "xrp news",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Coverage linked to \"xrp news\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "xrp news: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "xrp news",
+        "xrp news news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSfTdTe8a1ACOXqkd3W-vqj44C9bzkopNtMO82kqVsTPkJyBP-OOCbnxG1-pX0",
+      "related": [
+        {
+          "title": "Bulls Eye $100 XRP Surge as Ripple Teases ‘Special Announcement’ in Seoul",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/bulls-eye-100-xrp-surge-064340885.html",
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "Hundreds of trillions of dollars crossing international borders every year is an opportunity ahead",
+          "url": "https://www.mk.co.kr/en/stock/12167447",
+          "source": "매일경제"
+        },
+        {
+          "title": "XRP Seoul Program Lists XRP Asia President, Ripple Executive and Korean Banks",
+          "url": "https://www.tokenpost.com/news/business/26530",
+          "source": "TOKENPOST"
+        }
+      ],
+      "word_count": 334,
+      "page": "p/bulls-eye-100-xrp-surge-as-ripple-teases-special-announcement-in-seoul.html"
+    },
+    {
+      "title": "Ball by Ball Commentary & Live Score - IND vs WI, 3rd ODI",
+      "slug": "ball-by-ball-commentary-live-score---ind-vs-wi-3rd-odi",
+      "topic": "ind vs wi",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Coverage linked to \"ind vs wi\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "ind vs wi: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "ind vs wi",
+        "ind vs wi news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "10000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpOssDQg0YPJ6D8Ea909FyCcCToH3_8Pc1lIKQf30tL0P3zeDVx5FF86OHdjk",
+      "related": [
+        {
+          "title": "Ball by Ball Commentary & Live Score - IND vs WI, 3rd ODI",
+          "url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-3rd-odi-1529229/ball-by-ball-commentary",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "IND vs WI 2026, 3rd ODI: Ruturaj Gaikwad Six",
+          "url": "https://www.bcci.tv/videos/s-ind-vs-wi-2026-3rd-odi-ruturaj-gaikwad-six-duzr75",
+          "source": "BCCI"
+        },
+        {
+          "title": "IND vs WI 2026, 3rd ODI: Virat Kohli Wicket",
+          "url": "https://www.bcci.tv/videos/s-ind-vs-wi-2026-3rd-odi-virat-kohli-wicket-6qm8n",
+          "source": "BCCI"
+        }
+      ],
+      "word_count": 329,
+      "page": "p/ball-by-ball-commentary-live-score---ind-vs-wi-3rd-odi.html"
+    },
+    {
+      "title": "Actress Nushrratt Bharuccha Airlifted to Mumbai After Spinal Fracture in Bali",
+      "slug": "actress-nushrratt-bharuccha-airlifted-to-mumbai-after-spinal-fracture-in-bali",
+      "topic": "नुसरत भरूचा",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Actress Nushrratt Bharuccha was rushed to Mumbai on a stretcher after a spinal fracture during a vacation in Bali. The incident has drawn attention to the risks of travel-related injuries among public figures.",
+      "meta_description": "Bollywood actress Nushrratt Bharuccha suffered a spinal fracture during a Bali trip and was air‑ambulanced to Mumbai, sparking concerns about travel safety and ",
+      "keywords": [
+        "Nushrratt Bharuccha",
+        "spinal fracture",
+        "Bali accident",
+        "air ambulance",
+        "Bollywood health"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTR4jSMZFduuDUHJIu1QWcAPdMx_mFH62KFqTZglIBlH9Xpzelj5wMwh4FBs0A",
+      "related": [
+        {
+          "title": "एक्ट्रेस नुसरत भरूचा की रीढ़ की हड्डी में फ़्रैक्चर, एयरलिफ़्ट कर बाली से मुंबई लाई गईं",
+          "url": "https://www.bbc.com/hindi/articles/cvze45686djeo",
+          "source": "BBC"
+        },
+        {
+          "title": "नुसरत भरूचा की रीढ़ की हड्डी में फ्रैक्चर, बाली ट्रिप के दौरान हुआ था हादसा, एयर एंबुलेंस से लाई गईं मुंबई",
+          "url": "https://www.indiatv.in/entertainment/bollywood/nushrratt-bharuccha-suffers-spinal-fracture-accident-occurred-during-bali-trip-brought-to-mumbai-via-air-ambulance-2026-10-03-1246678",
+          "source": "India TV Hindi"
+        },
+        {
+          "title": "स्ट्रेचर पर लेटकर भारत क्यों आईं एक्ट्रेस नुसरत भरूचा? खाने की 1 गलती भी करती है ऐसी हालत",
+          "url": "https://navbharattimes.indiatimes.com/health-wellness/why-nushrratt-bharuccha-airlifted-on-stretcher-and-which-diet-mistake-can-send-you-in-this-condition/articleshow/134655723.cms",
+          "source": "Navbharat Times"
+        }
+      ],
+      "word_count": 539,
+      "page": "p/actress-nushrratt-bharuccha-airlifted-to-mumbai-after-spinal-fracture-in-bali.html"
+    },
+    {
+      "title": "Actor Chad Lowe's Daughter Fiona Dies at 13, Cause of Death Revealed",
+      "slug": "actor-chad-lowes-daughter-fiona-dies-at-13-cause-of-death-revealed",
+      "topic": "fiona lowe daughter of chad lowe",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Actor Chad Lowe and his wife Kim Painter confirmed the death of their 13‑year‑old daughter Fiona. The family released the cause of death and additional details this week.",
+      "meta_description": "Actor Chad Lowe and wife Kim Painter mourn the loss of their 13‑year‑old daughter Fiona, whose cause of death has been disclosed amid new details emerging.",
+      "keywords": [
+        "Chad Lowe",
+        "Fiona Lowe",
+        "cause of death",
+        "celebrity news",
+        "teen tragedy"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQA9kP0oe6c_YdryTBThd4-TNR4gscIoLKasikjrJoyILmbh_65X9KMLK3uNpg",
+      "related": [
+        {
+          "title": "New details released after death of Chad Lowe's teenage daughter",
+          "url": "https://www.foxnews.com/entertainment/new-details-released-death-chad-lowes-teenage-daughter",
+          "source": "Fox News"
+        },
+        {
+          "title": "Chad Lowe's daughter Fiona's cause of death at 13 released",
+          "url": "https://www.usatoday.com/story/entertainment/celebrities/2026/10/01/fiona-lowe-cause-of-death-chad-lowe-daughter/92047245007/",
+          "source": "USA Today"
+        },
+        {
+          "title": "Fiona Lowe, daughter of Chad Lowe and Kim Painter, dies at 13",
+          "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/fiona-lowe-daughter-chad-lowe-kim-painter-dies-13-rcna600652",
+          "source": "NBC News"
+        }
+      ],
+      "word_count": 765,
+      "page": "p/actor-chad-lowes-daughter-fiona-dies-at-13-cause-of-death-revealed.html"
+    },
+    {
+      "title": "79 गेंदों में 188 रन बनाकर प्रिटोरियस ने तोड़ा गेल का 13 साल पुराना रिकॉर्ड",
+      "slug": "79-188-13",
+      "topic": "लुआन ड्रे प्रीटोरियस",
+      "date": "2026-10-03",
+      "date_pkt": "2026-10-03 04:08 PM PKT",
+      "excerpt": "Coverage linked to \"लुआन ड्रे प्रीटोरियस\" is circulating in IN. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "लुआन ड्रे प्रीटोरियस: coverage and context for readers in IN. Summary of related reports and what to verify next.",
+      "keywords": [
+        "लुआन ड्रे प्रीटोरियस",
+        "लुआन ड्रे प्रीटोरियस news",
+        "IN",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTIg_ckCgxOXjl9w9HRbF3i1tGKpZu-boFKOWA9nzKYWIbh1kpqFEZmHkC1zrE",
+      "related": [
+        {
+          "title": "79 गेंदों में 188 रन बनाकर प्रिटोरियस ने तोड़ा गेल का 13 साल पुराना रिकॉर्ड",
+          "url": "https://www.cricinfo.com/hindi/story/lhuan-dre-pretorius-188-breaks-chris-gayle-record-for-highest-t20-score-1556996",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "13 छक्के, 15 चौके और 188 रन... वैभव सूर्यवंशी के टीममेट ने उड़ाया गर्दा, टूट गया क्रिस गेल का महारिकॉर्ड",
+          "url": "https://www.aajtak.in/sports/cricket/story/lhuan-dre-pretorius-creates-history-188-runs-highest-t20-score-breaks-chris-gayle-175-record-vaibhav-sooryavanshi-tspoa-dskc-2659736-2026-10-03",
+          "source": "Aaj Tak"
+        },
+        {
+          "title": "साउथ अफ्रीकी प्लेयर ने टी-20 में गेल का रिकॉर्ड तोड़ा: प्रिटोरियस ने 188 रन बनाए, 79 गेंदों में 15 चौके और ...",
+          "url": "https://www.bhaskar.com/g/sports/news/luan-dre-pretorius-t20-record-bloemfontein-titans-cricket-news-139231274.html",
+          "source": "Dainik Bhaskar"
+        }
+      ],
+      "word_count": 438,
+      "page": "p/79-188-13.html"
+    },
     {
       "title": "متحدث الأوقاف لـ«الشروق»: توجيهات الرئيس السيسي بشأن فتح باب الحوار مع…",
       "slug": "news-1790942296",
@@ -18729,1126 +19839,6 @@
       ],
       "word_count": 770,
       "page": "p/understanding-the-surge-in-horoscope-searches-in-india.html"
-    },
-    {
-      "title": "Uk Rental Market Mortgage Rates: why this search is trending today",
-      "slug": "uk-rental-market-mortgage-rates-why-this-search-is-trending-today",
-      "topic": "uk rental market mortgage rates",
-      "date": "2026-09-14",
-      "date_pkt": "2026-09-14 04:52 PM PKT",
-      "excerpt": "People are searching for uk rental market mortgage rates in GB. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"uk rental market mortgage rates\" in GB. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "uk rental market mortgage rates",
-        "uk rental market mortgage rates news",
-        "google trends",
-        "GB",
-        "trending today"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkQvDLrbV55Uj4yifWxgUS-BNOMe15GxZlovsBrDvZ0ZSfc7OR9vR6-0r6kcU",
-      "related": [
-        {
-          "title": "Rent rises set to speed up in gloomy forecast for tenants",
-          "url": "https://www.bbc.co.uk/news/articles/c4gqjv476qeo",
-          "source": "BBC"
-        },
-        {
-          "title": "Rental supply falls for first time in three years, Zoopla reveals",
-          "url": "https://thenegotiator.co.uk/news/rental-market/rental-supply-falls-for-first-time-in-three-years-zoopla-reveals/",
-          "source": "The Negotiator"
-        },
-        {
-          "title": "Landlord investment slump pushes rents higher – Zoopla",
-          "url": "https://www.property118.com/landlord-investment-slump-pushes-rents-higher-zoopla/",
-          "source": "Property118"
-        }
-      ],
-      "word_count": 601,
-      "page": "p/uk-rental-market-mortgage-rates-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Retirement: why this search is trending today",
-      "slug": "retirement-why-this-search-is-trending-today",
-      "topic": "retirement",
-      "date": "2026-09-14",
-      "date_pkt": "2026-09-14 04:52 PM PKT",
-      "excerpt": "People are searching for retirement in GB. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"retirement\" in GB. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "retirement",
-        "retirement news",
-        "google trends",
-        "GB",
-        "trending today"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdWmV06sCFxKkjltNMkQYZc_g1arahrvr-5GwPhXzI1d8nlKBmCWS5PFaglF4",
-      "related": [
-        {
-          "title": "Magic Johnson Called Mark Walter a Mentor. Their Business Ties Now Face Scrutiny",
-          "url": "https://www.bloomberg.com/news/features/2026-09-13/magic-johnson-s-business-deals-with-dodgers-owner-mark-walter-draws-scrutiny",
-          "source": "Bloomberg"
-        },
-        {
-          "title": "The Insurance Business Is Getting Hotter. Some People Will Get Burned.",
-          "url": "https://www.barrons.com/articles/insurance-business-hotter-dodgers-lakers-26b3ba7a",
-          "source": "Barron's"
-        },
-        {
-          "title": "Mark Walter’s Financial Empire Was Fueled By Retirement Savers",
-          "url": "https://www.wsj.com/finance/mark-walters-financial-empire-was-fueled-by-retirement-savers-6584e330",
-          "source": "WSJ"
-        }
-      ],
-      "word_count": 586,
-      "page": "p/retirement-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Oracle Layoffs: why this search is trending today",
-      "slug": "oracle-layoffs-why-this-search-is-trending-today",
-      "topic": "oracle layoffs",
-      "date": "2026-09-14",
-      "date_pkt": "2026-09-14 04:52 PM PKT",
-      "excerpt": "People are searching for oracle layoffs in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"oracle layoffs\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "oracle layoffs",
-        "oracle layoffs news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQlVRoT7vmUAz49ij5jcsNmI_S2hjkj1SGJXjJvTAcqswn9EnfsLZWtX4tujJY",
-      "related": [
-        {
-          "title": "Oracle to Spend an Additional $700 Million on More Job Cuts",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-11/oracle-boosts-layoffs-plan-by-700-million",
-          "source": "Bloomberg"
-        },
-        {
-          "title": "Oracle’s AI transformation gets more expensive as layoffs continue",
-          "url": "https://www.calcalistech.com/ctechnews/article/lr4q3x1fx",
-          "source": "CTech"
-        },
-        {
-          "title": "Oracle to Spend an Additional $700 Million on More Job Cuts",
-          "url": "https://finance.yahoo.com/technology/ai/articles/oracle-spend-additional-700-million-211329828.html",
-          "source": "Yahoo Finance"
-        }
-      ],
-      "word_count": 589,
-      "page": "p/oracle-layoffs-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Oppo Unveils Find X10 Series: Launch Date, Colors, and Specs",
-      "slug": "oppo-unveils-find-x10-series-launch-date-colors-and-specs",
-      "topic": "oppo find x10 series launch date",
-      "date": "2026-09-14",
-      "date_pkt": "2026-09-14 04:52 PM PKT",
-      "excerpt": "Oppo has announced the release details for its flagship Find X10 series, including launch date, color palette, and storage options. The lineup promises a new 200‑megapixel camera setup and competitive pricing.",
-      "meta_description": "Find out the Oppo Find X10 series launch date, colors, and storage options in this detailed update for tech enthusiasts worldwide and see how it stacks against ",
-      "keywords": [
-        "Oppo Find X10",
-        "launch date",
-        "Oppo Find X10 series",
-        "Oppo camera",
-        "smartphone launch"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL9Q6zhNqFlo9IJBdHP76qLEZblIvHLyCoZ2W98OnYRmM4DZZsBoBhv_sXY-U",
-      "related": [
-        {
-          "title": "Oppo Find X10 series launch date, colors and storage options revealed - GSMArena.com news",
-          "url": "https://www.gsmarena.com/oppo_find_x10_series_launch_date_colors_and_storage_options_revealed-news-74599.php",
-          "source": "GSMArena.com"
-        },
-        {
-          "title": "Hours before the iPhone 18 Pro Max goes live, the Oppo Find X10 Pro Max makes the boldest camera claim",
-          "url": "https://www.phonearena.com/news/hours-before-the-iphone-18-pro-max-goes-live-the-oppo-find-x10-pro-max-makes-the-boldest-camera-claim_id183145",
-          "source": "PhoneArena"
-        },
-        {
-          "title": "The first phone with a trio of 200 megapixel cameras.",
-          "url": "https://www.theverge.com/gadgets/994545/the-first-phone-with-a-trio-of-200-megapixel-cameras",
-          "source": "The Verge"
-        }
-      ],
-      "word_count": 644,
-      "page": "p/oppo-unveils-find-x10-series-launch-date-colors-and-specs.html"
-    },
-    {
-      "title": "Nicola Thorp: why this search is trending today",
-      "slug": "nicola-thorp-why-this-search-is-trending-today",
-      "topic": "nicola thorp",
-      "date": "2026-09-14",
-      "date_pkt": "2026-09-14 04:52 PM PKT",
-      "excerpt": "People are searching for nicola thorp in GB. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"nicola thorp\" in GB. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "nicola thorp",
-        "nicola thorp news",
-        "google trends",
-        "GB",
-        "trending today"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRIGrPDMs3KxGZ6lcoyrAmHi2kiS6b1QQ1WAdzfefms1hBVAyp60bJ0KchFAbo",
-      "related": [
-        {
-          "title": "Former Coronation Street star Nicola Thorp announces baby news",
-          "url": "https://www.digitalspy.com/soaps/coronation-street/a73698434/coronation-street-nicola-thorp-baby-news/",
-          "source": "Digital Spy"
-        },
-        {
-          "title": "Nicola Thorp announces pregnancy in adorable Instagram post",
-          "url": "https://metro.co.uk/2026/09/13/nicola-thorp-announces-pregnancy-adorable-instagram-post-29598218/",
-          "source": "Metro.co.uk"
-        },
-        {
-          "title": "Corrie star reveals she's pregnant with her second child in sweet post",
-          "url": "https://www.thesun.ie/tv/17607092/corrie-star-pregnant-second-child-nicola-thorp/",
-          "source": "The Irish Sun"
-        }
-      ],
-      "word_count": 591,
-      "page": "p/nicola-thorp-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Mta: why this search is trending today",
-      "slug": "mta-why-this-search-is-trending-today",
-      "topic": "mta",
-      "date": "2026-09-14",
-      "date_pkt": "2026-09-14 04:52 PM PKT",
-      "excerpt": "People are searching for mta in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"mta\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "mta",
-        "mta news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKm5svPt0sbZEM90ztbjvm-wuV9c--D82P2XG9suqyBUT0CrDjw5QLXthXZvs",
-      "related": [
-        {
-          "title": "MTA Flips the Switch from Electric Buses Back to Natural Gas",
-          "url": "https://www.thecityreporter.nyc/2026/09/10/new-mta-gas-buses-electric-climate-emissions/",
-          "source": "The City Reporter"
-        },
-        {
-          "title": "MTA to purchase biggest fleet upgrade in over a decade",
-          "url": "https://www.planetizen.com/news/2026/09/138406-mta-purchase-biggest-fleet-upgrade-over-decade",
-          "source": "Planetizen"
-        },
-        {
-          "title": "New York’s MTA Seeks Manufacturers for 650 New CNG Buses",
-          "url": "https://bus-news.com/new-york-mta-seeks-manufacturers-for-650-new-cng-buses/",
-          "source": "Bus-News"
-        }
-      ],
-      "word_count": 586,
-      "page": "p/mta-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Michael J Fox: why this search is trending today",
-      "slug": "michael-j-fox-why-this-search-is-trending-today",
-      "topic": "michael j fox",
-      "date": "2026-09-14",
-      "date_pkt": "2026-09-14 04:52 PM PKT",
-      "excerpt": "People are searching for michael j fox in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"michael j fox\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "michael j fox",
-        "michael j fox news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbb0-ThYhCwnYBEJV2yYANBg_Xq-vI683mLFsTf7PDlHVLL3jge6fgC9DZJj4",
-      "related": [
-        {
-          "title": "Michael J. Fox Says His Parkinson’s Has ‘Gotten Harder Over the Years,’ But ‘We’re Getting Close’ to a Cure (Exclusive)",
-          "url": "https://people.com/michael-j-fox-bringing-everything-i-got-to-find-parkinsons-cure-exclusive-12111262",
-          "source": "People.com"
-        },
-        {
-          "title": "10 celebrities who have been candid about living with Parkinson’s",
-          "url": "https://ew.com/stars-opening-up-about-parkinsons-diagnosis-12113364",
-          "source": "Entertainment Weekly"
-        },
-        {
-          "title": "2 Hollywood stars buddy up for Parkinson’s ‘Friend’ campaign for MJFF",
-          "url": "https://parkinsonsnewstoday.com/news/2-hollywood-stars-partner-new-friend-campaign-parkinsons-awareness/",
-          "source": "Parkinson's News Today"
-        }
-      ],
-      "word_count": 611,
-      "page": "p/michael-j-fox-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Mahershala Ali explains Marvel gratitude amid Blade uncertainty",
-      "slug": "mahershala-ali-explains-marvel-gratitude-amid-blade-uncertainty",
-      "topic": "mahershala ali",
-      "date": "2026-09-14",
-      "date_pkt": "2026-09-14 04:52 PM PKT",
-      "excerpt": "Mahershala Ali has revealed that Marvel financed a year of training for his upcoming Blade role, a gesture he appreciates despite ongoing doubts about the film’s release. The actor’s comments have sparked widespread curiosity, especially in",
-      "meta_description": "Actor Mahershala Ali says he is grateful to Marvel for funding his Blade training, even as the future of the franchise remains uncertain, sparking interest.",
-      "keywords": [
-        "Mahershala Ali",
-        "Marvel",
-        "Blade movie",
-        "training funding",
-        "MCU role"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQkdjDK0FTa6hmP4Qq325YiyIUxxNFfMpCwsk-IWbdiuzmVCKkLqZUWsIp8Poc",
-      "related": [
-        {
-          "title": "Blade Star Mahershala Ali Is \"Done\" With MCU Role - But Reveals One Surprising Reason He's Grateful To Marvel",
-          "url": "https://www.imdb.com/it/news/ni66014194/?ref_=int_nwr_8",
-          "source": "IMDb"
-        },
-        {
-          "title": "'They Helped Pay For Our Movie, So Thank You': Marvel's Blade Might Be Scrapped, But Mahershala Ali Says He's Grateful He Got a Year of Free Training",
-          "url": "https://pk.ign.com/blade-marvel/261077/they-helped-pay-for-our-movie-so-thank-you-marvels-blade-might-be-scrapped-but-mahershala-ali-says-h",
-          "source": "IGN Pakistan"
-        },
-        {
-          "title": "Mahershala Ali Says Marvel Basically Paid for His New Movie by Funding His Blade Training",
-          "url": "https://www.comicbasics.com/mahershala-ali-says-marvel-basically-paid-for-his-new-movie-by-funding-his-blade-training/",
-          "source": "Comic Basics"
-        }
-      ],
-      "word_count": 847,
-      "page": "p/mahershala-ali-explains-marvel-gratitude-amid-blade-uncertainty.html"
-    },
-    {
-      "title": "Jemima Goldsmith marries businessman Cameron O'Reilly at 52",
-      "slug": "jemima-goldsmith-marries-businessman-cameron-oreilly-at-52",
-      "topic": "jemima goldsmith",
-      "date": "2026-09-14",
-      "date_pkt": "2026-09-14 04:52 PM PKT",
-      "excerpt": "Jemima Goldsmith, the former wife of former Pakistani prime minister Imran Khan, has married Irish businessman Cameron O'Reilly. The ceremony, reported in Pakistani media, has drawn attention to her personal life after more than two decades",
-      "meta_description": "Jemima Goldsmith, former spouse of Pakistan’s Imran Khan, has married Irish entrepreneur Cameron O'Reilly, sparking renewed interest across South Asian media.",
-      "keywords": [
-        "Jemima Goldsmith",
-        "Cameron O'Reilly",
-        "Imran Khan",
-        "Pakistan celebrity news",
-        "high-profile marriage"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRNWVwzUADABcMjIC6Ho54uH5kZmUdHm7KSDiqLHa7AtHUkKvMLSed9ICaWy3U",
-      "related": [
-        {
-          "title": "Jemima Goldsmith marries multimillionaire Cameron O'Reilly: report",
-          "url": "https://www.geo.tv/latest/682000-jemima-goldsmith-marries-multimillionaire-cameron-oreilly-report",
-          "source": "Geo News"
-        },
-        {
-          "title": "Imran Khan's ex-wife Jemima Goldsmith's family confirms her marriage at 52 to Cameron O'Reilly: See pic | Hindustan Times",
-          "url": "https://www.hindustantimes.com/lifestyle/relationships/imran-khans-ex-wife-jemima-goldsmiths-family-confirms-her-marriage-at-52-to-millionaire-cameron-oreilly-see-pic-101789378356697.html",
-          "source": "Hindustan Times"
-        },
-        {
-          "title": "Jemima Goldsmith gets married again 22 years after Imran Khan split",
-          "url": "https://www.thenews.com.pk/latest/1416143-jemima-goldsmith-gets-married-again-22-years-after-imran-khan-split",
-          "source": "The News International"
-        }
-      ],
-      "word_count": 1081,
-      "page": "p/jemima-goldsmith-marries-businessman-cameron-oreilly-at-52.html"
-    },
-    {
-      "title": "Iren Stock: why this search is trending today",
-      "slug": "iren-stock-why-this-search-is-trending-today",
-      "topic": "iren stock",
-      "date": "2026-09-14",
-      "date_pkt": "2026-09-14 04:52 PM PKT",
-      "excerpt": "People are searching for iren stock in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"iren stock\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "iren stock",
-        "iren stock news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRSQnXQJyaCuRW24vH6KSI8zzBOcz1IF-J7WGC91mHN68kaOz6H7nBS0pYS57A",
-      "related": [
-        {
-          "title": "JPMorgan upgrades IREN stock rating on neocloud growth outlook",
-          "url": "https://www.investing.com/news/analyst-ratings/jpmorgan-upgrades-iren-stock-rating-on-neocloud-growth-outlook-93CH-4899145",
-          "source": "Investing.com"
-        },
-        {
-          "title": "IREN Ltd: Is the Uptrend Still in Its Verification Phase — What's the Key Evidence?",
-          "url": "https://www.moomoo.com/news/post/76115716/iren-ltd-is-the-uptrend-still-in-its-verification-phase",
-          "source": "Moomoo"
-        },
-        {
-          "title": "IREN (NasdaqGS:IREN) Stock Looks Overvalued While Its Growth Story Stays Strong",
-          "url": "https://simplywall.st/stocks/us/software/nasdaq-iren/iren/news/iren-nasdaqgsiren-stock-looks-overvalued-while-its-growth-st",
-          "source": "Simply Wall Street"
-        }
-      ],
-      "word_count": 595,
-      "page": "p/iren-stock-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "India's stock markets observe holiday for Ganesh Chaturthi",
-      "slug": "indias-stock-markets-observe-holiday-for-ganesh-chaturthi",
-      "topic": "స్టాక్",
-      "date": "2026-09-14",
-      "date_pkt": "2026-09-14 04:52 PM PKT",
-      "excerpt": "India’s major stock exchanges will shut for Ganesh Chaturthi, creating a three‑day break for traders. The pause affects both domestic and international investors who follow the Indian market.",
-      "meta_description": "The Indian stock exchanges will be closed on the day of Ganesh Chaturthi, giving investors a brief pause in trading as the country celebrates the festival. Find",
-      "keywords": [
-        "stock market holiday",
-        "Ganesh Chaturthi",
-        "India trading calendar",
-        "stock market closure",
-        "financial news India"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTqaRKvWLkbZ8EqgMoDQ0HH4-MDZUY2XvOqiJIT6xZ-RSIRIQrIvRpUb25tAMg",
-      "related": [
-        {
-          "title": "ఈ రోజు స్టాక్ మార్కెట్లకు సెలవు.. రాబోయే సెలవుల పూర్తి జాబితాను తెలుసుకోండి..",
-          "url": "https://telugu.goodreturns.in/market-update/stock-market-holiday-nse-bse-closed-today-for-ganesh-chaturthi-check-next-market-holiday-057763.html",
-          "source": "Goodreturns"
-        },
-        {
-          "title": "వినాయక చవితి సందర్భంగా రేపు మూతపడనున్న స్టాక్ మార్కెట్స్. వరుసగా 3 రోజుల పాటు సెలవు.",
-          "url": "https://telugu.economictimes.com/market/news/stock-market-holiday-tomorrow-indian-stock-exchanges-nse-bse-closed-tomorrow-for-ganesh-chaturthi/articleshow/134174675.cms",
-          "source": "The Economic Times Telugu"
-        },
-        {
-          "title": "వినాయక చవితి సందర్భంగా రేపు మూతపడనున్న స్టాక్ మార్కెట్స్",
-          "url": "https://telugu.getlokalapp.com/telangana-news/stock-markets-to-be-closed-tomorrow-on-the-occasion-of-vinayaka-chavithi-17225962",
-          "source": "Lokal Telugu"
-        }
-      ],
-      "word_count": 872,
-      "page": "p/indias-stock-markets-observe-holiday-for-ganesh-chaturthi.html"
-    },
-    {
-      "title": "Hugging Face Incident: why this search is trending today",
-      "slug": "hugging-face-incident-why-this-search-is-trending-today",
-      "topic": "hugging face incident",
-      "date": "2026-09-14",
-      "date_pkt": "2026-09-14 04:52 PM PKT",
-      "excerpt": "People are searching for hugging face incident in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"hugging face incident\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "hugging face incident",
-        "hugging face incident news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS-TGdIFzQ4Vikv6OH8Kv_tmDYAdKwfPBS-IBO-djDK3Sms_mplKhGDqDfq4H0",
-      "related": [
-        {
-          "title": "The OpenAI-Hugging Face hack was just the beginning, experts say: \"Even more powerful\" AI is coming",
-          "url": "https://www.cbsnews.com/news/openai-hugging-face-hack-ai-risks/",
-          "source": "CBS News"
-        },
-        {
-          "title": "Exclusive | Cyberattack by Rogue AI Swarm Stokes Fears of Out-of-Control Agents",
-          "url": "https://www.wsj.com/tech/ai/cyberattack-by-rogue-ai-swarm-stokes-fears-of-out-of-control-agents-473a0352",
-          "source": "WSJ"
-        },
-        {
-          "title": "Scoop: OpenAI faces GOP-led Senate investigation into Hugging Face breach",
-          "url": "https://www.axios.com/2026/09/10/openai-hugging-face-senate-investigation-hawley",
-          "source": "Axios"
-        }
-      ],
-      "word_count": 603,
-      "page": "p/hugging-face-incident-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Goog Stock: why this search is trending today",
-      "slug": "goog-stock-why-this-search-is-trending-today",
-      "topic": "goog stock",
-      "date": "2026-09-14",
-      "date_pkt": "2026-09-14 04:52 PM PKT",
-      "excerpt": "People are searching for goog stock in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"goog stock\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "goog stock",
-        "goog stock news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTpAOIvEutLn6HG-mGfpYSPv7ySqxD_T3CdIXUnqkDxuaT2qOXMhd1HyXkHB1E",
-      "related": [
-        {
-          "title": "Alphabet's cloud growth outpaces Meta despite M...",
-          "url": "https://pluang.com/en/news-feed/alphabet-vs-meta-saham-magnificent-seven-yang-lebih-baik",
-          "source": "Pluang"
-        },
-        {
-          "title": "Alphabet vs. Meta Platforms: Which \"Magnificent Seven\" Titan Has More Room to Run in September?",
-          "url": "https://www.theglobeandmail.com/investing/markets/stocks/META/pressreleases/4485238/alphabet-vs-meta-platforms-which-magnificent-seven-titan-has-more-room-to-run-in-september/",
-          "source": "The Globe and Mail"
-        },
-        {
-          "title": "Alphabet vs. Meta: One Magnificent Seven Stock Is the Better Buy",
-          "url": "https://247wallst.com/investing/2026/09/11/alphabet-vs-meta-one-magnificent-seven-stock-is-the-better-buy/",
-          "source": "24/7 Wall St."
-        }
-      ],
-      "word_count": 596,
-      "page": "p/goog-stock-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Egypt’s dollar rate climbs toward historic highs",
-      "slug": "egypts-dollar-rate-climbs-toward-historic-highs",
-      "topic": "سعر الصرف",
-      "date": "2026-09-14",
-      "date_pkt": "2026-09-14 04:52 PM PKT",
-      "excerpt": "The Egyptian pound is weakening against the US dollar, pushing official rates close to historic peaks. Consumers and businesses are watching the shift closely as it affects prices and financial planning.",
-      "meta_description": "Explore why the سعر الصرف in Egypt is surging, what the latest dollar‑to‑pound figures mean for consumers, and how banks are responding to the trend.",
-      "keywords": [
-        "سعر الصرف",
-        "exchange rate Egypt",
-        "dollar to pound",
-        "currency markets",
-        "Egyptian banks"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1w598uhsx5Ssco4Z0ShwFtp5KbL64YiTbnQmoUZqCGuhYCArJ1Y417h6q-aA",
-      "related": [
-        {
-          "title": "سعر الدولار في مصر يسجل قفزة جديدة قرب مستوى قياسي",
-          "url": "https://www.alarabiya.net/aswaq/special-stories/2026/09/14/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-%D9%8A%D8%B3%D8%AC%D9%84-%D9%82%D9%81%D8%B2%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%82%D8%B1%D8%A8-%D9%85%D8%B3%D8%AA%D9%88%D9%89-%D9%82%D9%8A%D8%A7%D8%B3%D9%8A",
-          "source": "العربية"
-        },
-        {
-          "title": "سعر الدولار مقابل الجنيه اليوم الأحد.. استقرار في البنوك المصرية",
-          "url": "https://www.alyaum.com/articles/6682349/%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%85%D8%A7%D9%84-%D9%88%D8%A3%D8%B9%D9%85%D8%A7%D9%84/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%AC%D9%86%D9%8A%D9%87-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%AD%D8%AF-%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9",
-          "source": "صحيفة اليوم السعودية"
-        },
-        {
-          "title": "14 سبتمبر 2026.. الدولار يواصل الارتفاع ويسجل 51.60 جنيه للبيع فى البنك الأهلي",
-          "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=14092026&id=b00e104c-8df0-4370-8df8-59ab5acb78e7",
-          "source": "بوابة الشروق"
-        }
-      ],
-      "word_count": 623,
-      "page": "p/egypts-dollar-rate-climbs-toward-historic-highs.html"
-    },
-    {
-      "title": "Dominik Szoboszlai's impact ahead of Liverpool's League Cup tie",
-      "slug": "dominik-szoboszlais-impact-ahead-of-liverpools-league-cup-tie",
-      "topic": "dominik szoboszlai",
-      "date": "2026-09-14",
-      "date_pkt": "2026-09-14 04:52 PM PKT",
-      "excerpt": "Liverpool's upcoming cup match against Tottenham has put Hungarian midfielder Dominik Szoboszlai in the spotlight, with fans searching for his role and fitness. The club's press conference and squad updates are driving the surge in interest",
-      "meta_description": "Dominik Szoboszlai’s role in Liverpool’s upcoming EFL Cup clash against Tottenham draws UK interest as fans seek updates on his performance and fitness.",
-      "keywords": [
-        "Dominik Szoboszlai",
-        "Liverpool",
-        "EFL Cup",
-        "Tottenham Hotspur",
-        "Andoni Iraola"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "5000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQruVhkOS02vLHjsyJfV16irlt_zkOVrb9JUvSsNGo0VTidrpQoyetmADFrt5I",
-      "related": [
-        {
-          "title": "Liverpool press conference: Andoni Iraola to speak before EFL Cup game with Tottenham Hotspur",
-          "url": "https://www.bbc.com/sport/football/live/ckddv539g30dt",
-          "source": "BBC"
-        },
-        {
-          "title": "Fitness latest: Joe Gomez to return, update on Conor Bradley",
-          "url": "https://www.liverpoolfc.com/news/fitness-latest-joe-gomez-return-update-conor-bradley",
-          "source": "Liverpool FC"
-        },
-        {
-          "title": "Liverpool vs Tottenham Hotspur: League Cup stats & head-to-head",
-          "url": "https://www.bbc.co.uk/sport/football/live/cx980d6p7l20t",
-          "source": "BBC"
-        }
-      ],
-      "word_count": 546,
-      "page": "p/dominik-szoboszlais-impact-ahead-of-liverpools-league-cup-tie.html"
-    },
-    {
-      "title": "Disha Salian: why this search is trending today",
-      "slug": "disha-salian-why-this-search-is-trending-today",
-      "topic": "disha salian",
-      "date": "2026-09-14",
-      "date_pkt": "2026-09-14 04:52 PM PKT",
-      "excerpt": "People are searching for disha salian in IN. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"disha salian\" in IN. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "disha salian",
-        "disha salian news",
-        "google trends",
-        "IN",
-        "trending today"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSF11g0kCvck3kbkvteBHMRHovULI5A9MbCuBz9aHkDqWPvw0Yo7_dz7MEWZGc",
-      "related": [
-        {
-          "title": "Aaditya Thackeray, Dino Morea In CBI FIR In Sushant Singh's Ex-Manager Case",
-          "url": "https://www.ndtv.com/india-news/cbi-files-fir-in-sushant-singh-rajputs-ex-manager-disha-salians-death-case-12043806",
-          "source": "NDTV"
-        },
-        {
-          "title": "CBI names Uddhav, Aaditya Thackeray in Sushant Singh Rajput’s former manager death case",
-          "url": "https://scroll.in/latest/1095732/cbi-names-uddhav-aaditya-thackeray-in-sushant-singh-rajputs-former-manager-death-case",
-          "source": "Scroll.in"
-        },
-        {
-          "title": "Aaditya Thackeray, Rhea Chakraborty named in Disha Salian's death case: Key details from CBI FIR",
-          "url": "https://timesofindia.indiatimes.com/india/aaditya-thackeray-rhea-chakroborty-named-in-disha-salians-death-case-key-details-from-cbi-fir/articleshow/134236979.cms",
-          "source": "The Times of India"
-        }
-      ],
-      "word_count": 604,
-      "page": "p/disha-salian-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Bilawal Bhutto Zardari Rejects Terrorism Link Claims",
-      "slug": "bilawal-bhutto-zardari-rejects-terrorism-link-claims",
-      "topic": "bilawal bhutto zardari",
-      "date": "2026-09-14",
-      "date_pkt": "2026-09-14 04:52 PM PKT",
-      "excerpt": "Bilawal Bhutto Zardari publicly rejected Indian media reports that linked Pakistan to terrorist activities. The response has amplified discussions about media responsibility and regional diplomatic tensions.",
-      "meta_description": "Bilawal Bhutto Zardari dismissed recent Indian media allegations that Pakistan supports terrorism, sparking a wider debate across South Asian politics.",
-      "keywords": [
-        "Bilawal Bhutto Zardari",
-        "Pakistan India relations",
-        "terrorism allegations",
-        "South Asian politics",
-        "media narratives"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTQuQFFEPIbiEWKVGdij8xg8Te_JZws1sBjqO0lw65MLEMHk4fH3VY8HR1A3Bo",
-      "related": [
-        {
-          "title": "'India started a war based on a lie and lost miserably': Bilawal reacts to Indian media's attempt to link Pakistan to terrorism",
-          "url": "https://www.dawn.com/news/2029840",
-          "source": "Dawn"
-        },
-        {
-          "title": "Malaysian PM Calls Gaza War \"Israeli Terrorism\", Dodges Pak Terror Question",
-          "url": "https://www.ndtv.com/india-news/malaysian-pm-calls-gaza-war-israel-terrorism-dodges-pakistan-terror-question-12037214",
-          "source": "NDTV"
-        },
-        {
-          "title": "Malaysian PM rejects Indian media attempt to link Pakistan to terrorism",
-          "url": "https://www.geo.tv/latest/681917-malaysian-pm-rejects-indian-media-attempt-to-link-pakistan-to-terrorism",
-          "source": "Geo News"
-        }
-      ],
-      "word_count": 815,
-      "page": "p/bilawal-bhutto-zardari-rejects-terrorism-link-claims.html"
-    },
-    {
-      "title": "Bbc News N I: why this search is trending today",
-      "slug": "bbc-news-n-i-why-this-search-is-trending-today",
-      "topic": "bbc news n i",
-      "date": "2026-09-14",
-      "date_pkt": "2026-09-14 04:52 PM PKT",
-      "excerpt": "People are searching for bbc news n i in GB. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"bbc news n i\" in GB. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "bbc news n i",
-        "bbc news n i news",
-        "google trends",
-        "GB",
-        "trending today"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "10000+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPpAVxzXEj5wPclO5SpNsOTr2m90rsmBu5mroedgTplkBUMzA0qfmmqY48gkw",
-      "related": [
-        {
-          "title": "First ministers of Wales, Scotland and Northern Ireland to meet in Cardiff",
-          "url": "https://www.bbc.co.uk/news/articles/c62enegxyl9o",
-          "source": "BBC"
-        },
-        {
-          "title": "Independence trigger already met, Gilruth says amid Plaid and Sinn Fein meet",
-          "url": "https://www.independent.co.uk/news/uk/home-news/andy-burnham-scottish-john-swinney-first-minister-sinn-fein-b3049693.html",
-          "source": "The Independent"
-        },
-        {
-          "title": "SNP, Plaid Cymru and Sinn Fein sign pact to break up United Kingdom",
-          "url": "https://www.telegraph.co.uk/politics/2026/09/14/snp-plaid-cymru-sinn-fein-sign-pact-break-up-united-kingdom/",
-          "source": "The Telegraph"
-        }
-      ],
-      "word_count": 605,
-      "page": "p/bbc-news-n-i-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Aishwarya Rai’s recent comments spark discussion across Pakistan",
-      "slug": "aishwarya-rais-recent-comments-spark-discussion-across-pakistan",
-      "topic": "aishwarya rai",
-      "date": "2026-09-14",
-      "date_pkt": "2026-09-14 04:52 PM PKT",
-      "excerpt": "Aishwarya Rai has recently spoken about choosing to stay with her parents despite her fame, and reports of her owning homes in BRICS countries have surfaced. These topics are driving a surge in searches from Pakistan.",
-      "meta_description": "Aishwarya Rai’s remarks about living with her parents and her property holdings in BRICS nations have drawn significant attention in Pakistan, prompting widespr",
-      "keywords": [
-        "Aishwarya Rai",
-        "Pakistan trends",
-        "celebrity family",
-        "property ownership",
-        "Indian cinema"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT6cRzo1E_yeO5eR8gnaF56Sc-lowRrF7-eIQySGDbl5RQWhwHCzdUD8bZRb80",
-      "related": [
-        {
-          "title": "‘Moving away from your family is not a statement of independence’: When Aishwarya Rai Bachchan defended l",
-          "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/moving-away-from-your-family-is-not-a-statement-of-independence-when-aishwarya-rai-bachchan-defended-living-with-her-parents-despite-global-fame-and-a-successful-career/articleshow/134233545.cms",
-          "source": "The Times of India"
-        },
-        {
-          "title": "When Aishwarya Rai spoke about choosing to live with her parents as successful woman",
-          "url": "https://morungexpress.com/when-aishwarya-rai-spoke-about-choosing-to-live-with-her-parents-as-successful-woman",
-          "source": "MorungExpress"
-        },
-        {
-          "title": "From Shah Rukh Khan, Aishwarya Rai To R Madhavan: Indian Celebrities Who Own Properties In BRICS Nations",
-          "url": "https://www.ndtv.com/lifestyle/from-shah-rukh-khan-aishwarya-rai-to-r-madhavan-indian-celebrities-who-own-properties-in-brics-nations-12032335",
-          "source": "NDTV"
-        }
-      ],
-      "word_count": 530,
-      "page": "p/aishwarya-rais-recent-comments-spark-discussion-across-pakistan.html"
-    },
-    {
-      "title": "ಪಡಿತರ: why this search is trending today",
-      "slug": "why-this-search-is-trending-today",
-      "topic": "ಪಡಿತರ",
-      "date": "2026-09-13",
-      "date_pkt": "2026-09-13 04:07 PM PKT",
-      "excerpt": "People are searching for ಪಡಿತರ in IN. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"ಪಡಿತರ\" in IN. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "ಪಡಿತರ",
-        "ಪಡಿತರ news",
-        "google trends",
-        "IN",
-        "trending today"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRC3v_hk-X_u-iTAfyKTZ-TWxHvLzMUoDv-dJj45VcEcVSrKa9ebwMMFTyA0Ck",
-      "related": [
-        {
-          "title": "ರೇಷನ್‌ ಕಾರ್ಡ್‌ ಇ ಕೆವೈಸಿ ಎಲ್ಲರಿಗೂ ಜಾತಿ ಪ್ರಮಾಣ ಪತ್ರ ಕಡ್ಡಾಯವಲ್ಲ! 3 ದಾಖಲೆ ಇದ್ದರೆ ಸಾಕು ಎಂದು ಆಹಾರ ಇಲಾಖೆ",
-          "url": "https://vijaykarnataka.com/news/chamarajnagara/caste-certificate-not-mandatory-for-everyone-for-ration-card-e-kyc-food-department-states-3-documents-are-sufficient/articleshow/134183405.cms",
-          "source": "Vijay Karnataka"
-        },
-        {
-          "title": "Ration Card e-KYC: ಮೊಬೈಲ್ ಅಪ್ಲಿಕೇಶನ್‌ ಮೂಲಕ ಮನೆಯಲ್ಲಿಯೇ ಪೂರ್ಣಗೊಳಿಸಿ",
-          "url": "https://www.prajavani.net/miscellaneous/government-schemes/ration-card-ekyc-mobile-app-process-deadline-4251363",
-          "source": "Prajavani"
-        },
-        {
-          "title": "Anna Bhagya: ಈ ತಿಂಗಳೊಳಗೆ ಕೆವೈಸಿ ಮುಗಿಸಿದರೆ ರೇಷನ್‌ ಕಾರ್ಡ್‌ದಾರರಿಗೆ ಡಬಲ್‌ ಆಫರ್, ಇದು ಅನ್ನಭಾಗ್ಯದ ಮಹತ್ವದ ಅಪ್ಟೇಟ್!",
-          "url": "https://kannada.news18.com/news/chikkamagaluru/chikkamagaluru-annabhagya-rice-for-2-months-distributed-together-in-september-chikkamagaluru-mnc-abn-local18-ws-b-2488454.html",
-          "source": "News18 Kannada"
-        }
-      ],
-      "word_count": 649,
-      "page": "p/why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "محمد بن راشد آل مكتوم: why this search is trending today",
-      "slug": "why-this-search-is-trending-today-20260913",
-      "topic": "محمد بن راشد آل مكتوم",
-      "date": "2026-09-13",
-      "date_pkt": "2026-09-13 04:07 PM PKT",
-      "excerpt": "People are searching for محمد بن راشد آل مكتوم in SA. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"محمد بن راشد آل مكتوم\" in SA. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "محمد بن راشد آل مكتوم",
-        "محمد بن راشد آل مكتوم news",
-        "google trends",
-        "SA",
-        "trending today"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTFngyupz9oLZxbvTfIlYov_fbg5oDHJl6M7w9Mx3yCrd9S5x9UYGIj88R45io",
-      "related": [
-        {
-          "title": "محمد بن راشد لـ \"مكتوم بن محمد\": وجودك بجانبي يعطيني قدراً عظيماً من التفاؤل بمستقبل دبي ومكانها ومكانتها",
-          "url": "https://www.albayan.ae/news/uae/1551537",
-          "source": "البيان"
-        },
-        {
-          "title": "\"رفيق الدرب وتاج الرأس والعضيد\".. هكذا رد محمد بن زايد على رسالة محمد بن راشد",
-          "url": "https://arabic.cnn.com/middle-east/article/2026/09/07/mohammed-bin-zayed-responds-mohammed-bin-rashed-message",
-          "source": "CNN Arabic"
-        },
-        {
-          "title": "يوم عادي",
-          "url": "https://www.emaratalyoum.com/opinion/2026-09-09-1.2081100",
-          "source": "الإمارات اليوم"
-        }
-      ],
-      "word_count": 608,
-      "page": "p/why-this-search-is-trending-today-20260913.html"
-    },
-    {
-      "title": "Zoo's 'Child Predator Tour' Ticket Naming Sparks Public Outcry in Britain",
-      "slug": "zoos-child-predator-tour-ticket-naming-sparks-public-outcry-in-britain",
-      "topic": "predator tour",
-      "date": "2026-09-13",
-      "date_pkt": "2026-09-13 04:07 PM PKT",
-      "excerpt": "A leading UK zoo listed a family‑friendly experience as a “child predator tour,” prompting widespread criticism. The incident has driven a sharp rise in online searches as the public debates appropriate terminology for wildlife education.",
-      "meta_description": "A British zoo's use of the phrase “predator tour” on child‑focused tickets has drawn criticism and a surge in searches, highlighting concerns over language and ",
-      "keywords": [
-        "predator tour",
-        "zoo ticket controversy",
-        "British zoo marketing",
-        "public reaction",
-        "animal exhibit naming"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTVnqJLfV8YbOZhVSfjvhg3be2wR0WqxIcqma-Ghi0TYjK9AhuygVq2gL05Ud0",
-      "related": [
-        {
-          "title": "Zoo advertises tickets for 'child predator tour'",
-          "url": "https://www.bbc.com/news/articles/c1j4z27n8xyo",
-          "source": "BBC"
-        },
-        {
-          "title": "The hilarious signs that sent out a VERY wrong message – including zoo’s ‘child predator tour’ blunder",
-          "url": "https://www.thesun.co.uk/news/40361652/hilarious-signs-wrong-messages-zoo-child-predator-blunder/",
-          "source": "The Sun"
-        },
-        {
-          "title": "One of Britain's largest zoos mocked for labelling tickets as ‘child predator tour’",
-          "url": "https://www.gbnews.com/news/chester-zoo-mocked-for-labelling-tickets-as-child-predator-tour",
-          "source": "GB News"
-        }
-      ],
-      "word_count": 1070,
-      "page": "p/zoos-child-predator-tour-ticket-naming-sparks-public-outcry-in-britain.html"
-    },
-    {
-      "title": "Weather Nyc: why this search is trending today",
-      "slug": "weather-nyc-why-this-search-is-trending-today",
-      "topic": "weather nyc",
-      "date": "2026-09-13",
-      "date_pkt": "2026-09-13 04:07 PM PKT",
-      "excerpt": "People are searching for weather nyc in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"weather nyc\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "weather nyc",
-        "weather nyc news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQp-st6soxvfsNCNaBG1dGU25FR_u_ii5lsmHOtOKtqoLyyz4VHogWJTIE5C78",
-      "related": [
-        {
-          "title": "Flood Watch issued for NYC as heavy rain set to move in overnight",
-          "url": "https://abc7ny.com/post/flood-watch-issued-nyc-heavy-rain-set-move-overnight/19824471/",
-          "source": "ABC7 New York"
-        },
-        {
-          "title": "New York City warns of possible flash floods as thunderstorms develop along East Coast",
-          "url": "https://www.nbcnews.com/weather/storms/new-york-city-possible-flash-floods-thunderstorms-east-coast-rcna597449",
-          "source": "NBC News"
-        },
-        {
-          "title": "NY, NJ under flood watch ahead of incoming thunderstorms",
-          "url": "https://pix11.com/weather/ny-nj-under-flood-watch-ahead-of-incoming-thunderstorms/",
-          "source": "PIX11"
-        }
-      ],
-      "word_count": 595,
-      "page": "p/weather-nyc-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Unc Football: why this search is trending today",
-      "slug": "unc-football-why-this-search-is-trending-today",
-      "topic": "unc football",
-      "date": "2026-09-13",
-      "date_pkt": "2026-09-13 04:07 PM PKT",
-      "excerpt": "People are searching for unc football in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"unc football\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "unc football",
-        "unc football news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "20000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTkmHMn1SePK-kfcddxPXbwd7jwHHaLK2UENoOzLAUgdugwMAypuZ6m7fTBE3E",
-      "related": [
-        {
-          "title": "Defense leads Belichick, UNC to blowout victory over ETSU in home opener",
-          "url": "https://www.wral.com/sports/northcarolina-vs-east-tennessee-state-home-opener-kenan-stadium-bill-belichick-september-2026/",
-          "source": "WRAL"
-        },
-        {
-          "title": "Carolina Welcomes East Tennessee State In Home Opener Saturday",
-          "url": "https://goheels.com/news/2026/9/11/football-carolina-welcomes-east-tennessee-state-in-home-opener-saturday",
-          "source": "University of North Carolina Athletics"
-        },
-        {
-          "title": "UNC football dances past ETSU in the rain. Observations from the Tar Heels’ win",
-          "url": "https://www.newsobserver.com/sports/college/acc/unc/article317068318.html",
-          "source": "Raleigh News & Observer"
-        }
-      ],
-      "word_count": 597,
-      "page": "p/unc-football-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Tensions rise in the Strait of Hormuz after commercial ship attack",
-      "slug": "tensions-rise-in-the-strait-of-hormuz-after-commercial-ship-attack",
-      "topic": "strait of hormuz",
-      "date": "2026-09-13",
-      "date_pkt": "2026-09-13 04:07 PM PKT",
-      "excerpt": "A commercial ship was struck in the Strait of Hormuz, resulting in one death and multiple injuries. The incident has revived concerns about the safety of a key oil transit route.",
-      "meta_description": "A commercial vessel was hit in the Strait of Hormuz, killing one crew member and wounding several, raising worries about shipping safety and oil supplies.",
-      "keywords": [
-        "Strait of Hormuz",
-        "shipping",
-        "oil supply",
-        "maritime security",
-        "global trade"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTU4ZCHuH0dUgeoXiNaAxeGyeO5Gdr1Jnqoug2n7KgTlu0f2tYLEK1i67V-s24",
-      "related": [
-        {
-          "title": "Iran war live: Commercial ship attacked in Hormuz, killing 1, wounding 4",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/9/13/iran-war-live-saudi-arabia-and-houthis-trade-strikes-over-bab-al-mandeb",
-          "source": "Al Jazeera"
-        },
-        {
-          "title": "New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies",
-          "url": "https://www.reuters.com/business/energy/new-report-attack-strait-hormuz-shipping-fans-fears-threats-oil-supplies-2026-09-13/",
-          "source": "Reuters"
-        },
-        {
-          "title": "Iran authorities say 1 killed, 3 injured as merchant vessel struck in Hormuz",
-          "url": "https://www.dawn.com/news/2029620/iran-authorities-say-1-killed-3-injured-as-merchant-vessel-struck-in-hormuz",
-          "source": "Dawn"
-        }
-      ],
-      "word_count": 826,
-      "page": "p/tensions-rise-in-the-strait-of-hormuz-after-commercial-ship-attack.html"
-    },
-    {
-      "title": "Sierra Leone vs Kenya: Africa Continental Cup 2026 Match Overview",
-      "slug": "sierra-leone-vs-kenya-africa-continental-cup-2026-match-overview",
-      "topic": "sierra leone vs kenya",
-      "date": "2026-09-13",
-      "date_pkt": "2026-09-13 04:07 PM PKT",
-      "excerpt": "Kenya opened its innings strongly against Sierra Leone in the Africa Continental Cup 2026, prompting a surge of interest across South Asia. The match is drawing attention for its live streaming options and its impact on tournament standings",
-      "meta_description": "Explore the Sierra Leone vs Kenya clash in the Africa Continental Cup 2026, including live scores, streaming options, and why the match is trending in Pakistan.",
-      "keywords": [
-        "Sierra Leone cricket",
-        "Kenya cricket",
-        "Africa Continental Cup",
-        "2026 cricket tournament",
-        "live cricket scores"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRO6716msGF7Jak3t4boLeVk_zefuZB1JglfKkFkoWjMTRUDdFxisVr8P5tpW4",
-      "related": [
-        {
-          "title": "Sierra Leone vs Kenya, 11th Match, Africa Continental Cup 2026 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, news, and more in USA & Canada",
-          "url": "https://www.cricbuzz.com/live-cricket-scores/171573/sle-vs-ken-11th-match-africa-continental-cup-2026",
-          "source": "Cricbuzz"
-        },
-        {
-          "title": "Live Score: KEN 97/0 (6.0), Sierra Leone vs Kenya Match 11, 13 September 2026",
-          "url": "https://thesportstak.com/cricket/match/srl-vs-ken-match-11-africa-continental-cup-13-september-2026-274631/live",
-          "source": "SportsTak"
-        },
-        {
-          "title": "Sierra Leone vs Kenya and Rwanda vs Botswana Match Predictions – Africa Continental Cup 2026",
-          "url": "https://www.cricketworld.com/match-predictions-africa-continental-cup-2026-match-11-sierra-leone-vs-kenya-and-match-12-rwanda-vs-botswana-september-13th/113250.htm",
-          "source": "Cricket World"
-        }
-      ],
-      "word_count": 881,
-      "page": "p/sierra-leone-vs-kenya-africa-continental-cup-2026-match-overview.html"
-    },
-    {
-      "title": "Shubhranshu Ray: Social Media Claims About Missing Daughter-in‑Law Spark Global Attention",
-      "slug": "shubhranshu-ray-social-media-claims-about-missing-daughter-inlaw-spark-global-attention",
-      "topic": "শুভ্রাংশু রায়",
-      "date": "2026-09-13",
-      "date_pkt": "2026-09-13 04:07 PM PKT",
-      "excerpt": "Shubhranshu Ray has become a focal point in the search for a missing woman linked to a recent Nepal disaster. His social media posts claiming her safety have drawn international attention and raised questions about the reliability of online",
-      "meta_description": "Shubhranshu Ray, a relative of a missing woman in Nepal, has posted videos claiming her safety, sparking widespread online discussion.",
-      "keywords": [
-        "Shubhranshu Ray",
-        "missing daughter-in-law",
-        "Nepal disaster",
-        "social media speculation",
-        "family search"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSAmzwKZDAByvQfOyVwqoHPWAKBYiocSzKok12g5Ss6CRdVOcDZiSIbBg2FGaU",
-      "related": [
-        {
-          "title": "নেপাল বিপর্যয়ের ১৭ দিন পার! চিনে অক্ষত স্ত্রী শর্মিষ্ঠা? ভিডিও পোস্ট মুকুল পুত্র শুভ্রাংশুর",
-          "url": "https://www.sangbadpratidin.in/bengal/is-subhranshu-roys-wife-sharmistha-roy-safe-in-china-after-the-nepal-flash-flood/pid/1336265/",
-          "source": "Sangbad Pratidin"
-        },
-        {
-          "title": "চিনে সুরক্ষিত রয়েছেন নিখোঁজ মুকুল রায়ের পুত্রবধূ? নয়া ভিডিয়ো শেয়ার করে দাবি শুভ্রাংশুর",
-          "url": "https://eisamay.com/west-bengal-news/kolkata-news/sharmistha-roy-missing-in-nepal-flash-flood-mukul-roys-daughter-in-law-safe-in-china-claimed-by-subhrangshu-roy/200541867.cms",
-          "source": "Ei Samay"
-        },
-        {
-          "title": "এখনও জীবিত রয়েছেন নেপালে নিখোঁজ মুকুল রায়ের পুত্রবধূ? রয়েছেন চীনে! 'সূত্র' মিলতেই আশায় বুক বাঁধছে গোটা পরিবার",
-          "url": "https://www.aajkaal.in/west-bengal/subhrangsu-roys-wife-missing-after-nepal-floods-she-is-in-china-check-latest-update-513316",
-          "source": "Aajkaal"
-        }
-      ],
-      "word_count": 684,
-      "page": "p/shubhranshu-ray-social-media-claims-about-missing-daughter-inlaw-spark-global-attention.html"
-    },
-    {
-      "title": "Sheffield United Vs Wolves: why this search is trending today",
-      "slug": "sheffield-united-vs-wolves-why-this-search-is-trending-today",
-      "topic": "sheffield united vs wolves",
-      "date": "2026-09-13",
-      "date_pkt": "2026-09-13 04:07 PM PKT",
-      "excerpt": "People are searching for sheffield united vs wolves in SA. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"sheffield united vs wolves\" in SA. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "sheffield united vs wolves",
-        "sheffield united vs wolves news",
-        "google trends",
-        "SA",
-        "trending today"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQh5us_UDZ9hZlHaWGriz2DhVVr3nvd9O1wT_QVrDJ9HjKEVt0dya31WQdVq5k",
-      "related": [
-        {
-          "title": "Sheffield United predicted XI v Wolves: Selection dilemmas, a ‘lively’ pick and ‘focal point’ verdict",
-          "url": "https://www.thestar.co.uk/sport/football/sheffield-united/sheffield-united-predicted-xi-v-wolves-selection-dilemmas-a-lively-pick-and-focal-point-verdict-9022876",
-          "source": "The Star"
-        },
-        {
-          "title": "talkSPORT tips – Best football bets and expert advice for Sunday 13th September",
-          "url": "https://talksport.com/football/4574892/talksport-tips-best-football-bets-sunday-13th-september/",
-          "source": "talkSPORT"
-        },
-        {
-          "title": "Gallery | Sheff United vs Wolves | Men's First-Team | Latest News",
-          "url": "https://www.wolves.co.uk/news/mens-first-team/20260913-gallery-sheff-united-vs-wolves/",
-          "source": "Wolverhampton Wanderers FC"
-        }
-      ],
-      "word_count": 607,
-      "page": "p/sheffield-united-vs-wolves-why-this-search-is-trending-today.html"
     }
   ]
 }
