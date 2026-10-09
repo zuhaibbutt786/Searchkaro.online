@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>No CSS Parent Selector: Workarounds for Styling &lt;li&gt; with Active &lt;a&gt; | LearnWithZuhaib</title>
+  <meta name="description" content="CSS lacks a parent selector, but you can use :has() or restructure markup to style a parent &lt;li&gt; when its child &lt;a&gt; is active." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, css,css-selectors" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/no-css-parent-selector-workarounds-for-styling-li-with-active-a.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does :has() affect performance?", "acceptedAnswer": {"@type": "Answer", "text": "It can add a minor cost, but modern engines optimize it well. Test in your target browsers."}}, {"@type": "Question", "name": "Is there a pure CSS way to style the <li> without changing markup?", "acceptedAnswer": {"@type": "Answer", "text": "Not with current standards; you must alter the markup or use JavaScript."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-10-09 · Q&A guide</p>
+    <h1>No CSS Parent Selector: Workarounds for Styling &lt;li&gt; with Active &lt;a&gt;</h1>
+    <p class="lead">CSS lacks a parent selector, but you can use :has() or restructure markup to style a parent &lt;li&gt; when its child &lt;a&gt; is active.</p>
+    <div class="content">
+<h2>Why CSS Can’t Target Parents</h2>
+<p>CSS selectors travel from the root down the DOM tree. A selector can match an element only if it can be reached by following child or sibling relationships from the root. This design intentionally avoids back‑references to ancestors, keeping the cascade predictable and performant.</p>
+<p>Because of this, a selector like li&gt;a.active can’t be written to style the li based on its child’s state. The language simply doesn’t expose a parent‑matching syntax in Level 2 or Level 3 specifications.</p>
+<h2>Modern Solution: :has() Pseudo‑Class</h2>
+<p>The CSS Selectors Level 4 draft introduces the relational pseudo‑class :has(), which allows ancestor matching. In browsers that support it, you can write:</p>
+<p>```
+li:has(&gt; a.active) {
+  background: #f0f0f0;
+}
+```</p>
+<p>This selector matches any &lt;li&gt; that contains a direct child &lt;a&gt; with the class active. As of 2026, :has() is supported in Chrome, Edge, and Safari, but Firefox still lacks implementation. Use a feature‑test or a polyfill if you need cross‑browser coverage.</p>
+<h2>Practical Workaround with Sibling Selectors</h2>
+<p>When :has() isn’t available, you can restructure the markup or rely on the fact that the &lt;a&gt; is the only child of the &lt;li&gt;. The following trick uses the adjacent sibling combinator and the :first-child pseudo‑class to apply styles to the &lt;li&gt; when its child &lt;a&gt; is active:</p>
+<p>```
+li &gt; a.active {
+  /* style the link itself */
+}
+li &gt; a.active:first-child {
+  /* this rule targets the &lt;a&gt;, not the &lt;li&gt; */
+}
+li &gt; a.active:first-child {
+  /* cannot style &lt;li&gt; directly */
+}
+```</p>
+<p>Because CSS can’t affect the parent, the most reliable method is to move the active class to the &lt;li&gt; in the markup or to add a wrapper element that can be styled. If you can’t change the CMS output, consider adding a data‑attribute via a server‑side template or a small JavaScript snippet that toggles the class on the &lt;li&gt;.</p>
+<h2>When JavaScript Is Needed</h2>
+<p>If you must keep the active class on the &lt;a&gt; and need to style its parent, a tiny script is the simplest solution:</p>
+<p>```
+document.querySelectorAll(&#x27;a.active&#x27;).forEach(a =&gt; {
+  a.parentElement.classList.add(&#x27;active&#x27;);
+});
+```</p>
+<p>This code runs once on page load and mirrors the active state onto the &lt;li&gt;. It’s lightweight, works in all browsers, and keeps the CMS untouched.</p>
+<h2>Conclusion</h2>
+<p>CSS alone cannot target a parent element based on a child’s state in current stable specifications. The :has() pseudo‑class offers a future‑proof solution where supported, while server‑side tweaks or JavaScript remain the practical workarounds today.</p>
+<p><strong>Takeaway:</strong> Use :has() for future support, otherwise move the active class to the &lt;li&gt; or use a small script.</p>
+<h2>People also ask</h2>
+<h3>Does :has() affect performance?</h3>
+<p>It can add a minor cost, but modern engines optimize it well. Test in your target browsers.</p>
+<h3>Is there a pure CSS way to style the &lt;li&gt; without changing markup?</h3>
+<p>Not with current standards; you must alter the markup or use JavaScript.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/1014861/is-there-a-css-parent-selector" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>
