@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-08T12:54:09.482719+00:00",
-  "updated_at_pkt": "2026-10-08 05:51 PM PKT",
+  "updated_at": "2026-10-09T12:39:43.642986+00:00",
+  "updated_at_pkt": "2026-10-09 05:36 PM PKT",
   "count": 500,
-  "new_in_this_run": 27,
+  "new_in_this_run": 28,
   "sources": [
     "https://trends.google.com/trending/rss?geo=PK",
     "https://trends.google.com/trending/rss?geo=IN",
@@ -11,6 +11,1126 @@
     "https://trends.google.com/trending/rss?geo=SA"
   ],
   "items": [
+    {
+      "title": "مجلس الأمن الدولي يناقش الوضع في اليمن اليوم",
+      "slug": "news-1791549575",
+      "topic": "المشهد اليمني",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Coverage linked to \"المشهد اليمني\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "المشهد اليمني: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "المشهد اليمني",
+        "المشهد اليمني news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRgPnLlv4_RT1CkGfrujj9zB0lsXyrGIg2BVG2xQm6HBhLmPg3BRTanDf55btc",
+      "related": [
+        {
+          "title": "مجلس الأمن الدولي يناقش الوضع في اليمن اليوم",
+          "url": "https://www.jordanzad.com/index.php?page=article&id=766230",
+          "source": "زاد الاردن"
+        },
+        {
+          "title": "مكاسب الجيش اليمني تحاصر الحوثيين أمام مجلس الأمن اليوم",
+          "url": "https://www.alwatan.com.sa/article/1186928",
+          "source": "جريدة الوطن السعودية"
+        },
+        {
+          "title": "مجلس الأمن يبحث اليوم تطورات الأوضاع في اليمن وتصاعد الهجمات على السعودية",
+          "url": "https://www.nile.eg/%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A3%D9%85%D9%86-%D9%8A%D8%A8%D8%AD%D8%AB-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%AA%D8%B7%D9%88%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D9%88%D8%B6%D8%A7%D8%B9-%D9%81-3",
+          "source": "قناة النيل للأخبار"
+        }
+      ],
+      "word_count": 329,
+      "page": "p/news-1791549575.html"
+    },
+    {
+      "title": "جدول مباريات اليوم الجمعة 9 أكتوبر 2026 .. القنوات الناقلة والمعلقين",
+      "slug": "9-2026",
+      "topic": "مباريات اليوم الدوري السعودي",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Coverage linked to \"مباريات اليوم الدوري السعودي\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "مباريات اليوم الدوري السعودي: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "مباريات اليوم الدوري السعودي",
+        "مباريات اليوم الدوري السعودي news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMNtKzc5Hz9eaCYeuVw1_zyxK_q6GeNU_ITQWoCc-EM8mTgRb4BFi6jSw-dCI",
+      "related": [
+        {
+          "title": "جدول مباريات اليوم الجمعة 9 أكتوبر 2026 .. القنوات الناقلة والمعلقين",
+          "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D8%A9-9-%D8%A7%D9%94%D9%83%D8%AA%D9%88%D8%A8%D8%B1-2026-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%82%D9%8A%D9%86/blt46021b718796df64",
+          "source": "Kooora"
+        },
+        {
+          "title": "الدوري السعودي يعود على وقع «الهيمنة الخليجية»... ورونالدو تحت الأنظار",
+          "url": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/5327579-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%8A%D8%B9%D9%88%D8%AF-%D8%B9%D9%84%D9%89-%D9%88%D9%82%D8%B9-%D8%A7%D9%84%D9%87%D9%8A%D9%85%D9%86%D8%A9-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC%D9%8A%D8%A9-%D9%88%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88-%D8%AA%D8%AD%D8%AA-%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D8%A7%D8%B1",
+          "source": "الشرق الأوسط"
+        },
+        {
+          "title": "الهلال والاتحاد في لقاء الصدارة.. النصر يلتقي الدرعية.. والقادسية يواجه الخلود",
+          "url": "https://www.al-jazirah.com/2026/20261009/sp6.htm",
+          "source": "جريدة الجزيرة"
+        }
+      ],
+      "word_count": 338,
+      "page": "p/9-2026.html"
+    },
+    {
+      "title": "The Social Reckoning review – Aaron Sorkin’s jittery sequel with…",
+      "slug": "the-social-reckoning-review-aaron-sorkins-jittery-sequel-with",
+      "topic": "social reckoning",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Coverage linked to \"social reckoning\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "social reckoning: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "social reckoning",
+        "social reckoning news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq0Dh6TvSZcH589Tjd0VYIIHNjdfkpFEhiP5UuQst82FVHzt2c3lWaFJMqUNs",
+      "related": [
+        {
+          "title": "The Social Reckoning review – Aaron Sorkin’s jittery sequel with all-new evil puppet Zuckerberg",
+          "url": "https://www.theguardian.com/film/2026/oct/07/the-social-reckoning-review-aaron-sorkin-jeremy-strong-mikey-madison",
+          "source": "The Guardian"
+        },
+        {
+          "title": "The Social Reckoning Review: Aaron Sorkin's Sequel Falls Short Of The Social Network",
+          "url": "https://www.ndtv.com/entertainment/the-social-reckoning-review-aaron-sorkins-sequel-falls-short-of-the-social-network-12161253",
+          "source": "NDTV"
+        },
+        {
+          "title": "The Social Reckoning is a true American horror story",
+          "url": "https://theconversation.com/the-social-reckoning-is-a-true-american-horror-story-293900",
+          "source": "The Conversation"
+        }
+      ],
+      "word_count": 335,
+      "page": "p/the-social-reckoning-review-aaron-sorkins-jittery-sequel-with.html"
+    },
+    {
+      "title": "The Mansion Tax",
+      "slug": "the-mansion-tax",
+      "topic": "mansion tax",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Coverage linked to \"mansion tax\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "mansion tax: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "mansion tax",
+        "mansion tax news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQWRuOSQ7zjPZ7SgOPMX7jqGweQOYAnW9pDldpMaRT7AHRCX9z5cG-KFLGuSy4",
+      "related": [
+        {
+          "title": "The Mansion Tax",
+          "url": "https://rockawaytimes.com/the-mansion-tax-2/",
+          "source": "The Rockaway Times"
+        },
+        {
+          "title": "NYC Luxury Home Tax",
+          "url": "https://www.bdtonline.com/news/nation_world/nyc-luxury-home-tax/image_800fa3a4-dc78-5da1-943e-73096de0a346.html",
+          "source": "Bluefield Daily Telegraph"
+        },
+        {
+          "title": "LA’s ‘mansion tax’ backfires spectacularly as thousands of homes and jobs vanish",
+          "url": "https://nypost.com/2026/10/03/real-estate/la-mansion-tax-blocked-9100-homes-killed-16650-jobs-and-cost-452m-report/",
+          "source": "New York Post"
+        }
+      ],
+      "word_count": 321,
+      "page": "p/the-mansion-tax.html"
+    },
+    {
+      "title": "Star Trek: Enterprise buzz stalls as new series plans falter",
+      "slug": "star-trek-enterprise-buzz-stalls-as-new-series-plans-falter",
+      "topic": "star trek: enterprise",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "The UK audience is following the fate of a proposed Star Trek: United series, which appears to have been shelved. Meanwhile, actor Scott Bakula is moving on to a new detective drama on CBS.",
+      "meta_description": "Fans of Star Trek: Enterprise in the UK watch as plans for a new series called Star Trek: United collapse, while actor Scott Bakula shifts focus to a CBS drama.",
+      "keywords": [
+        "Star Trek",
+        "Enterprise",
+        "Scott Bakula",
+        "CBS",
+        "United"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQzzIGc0s_KJRCGcYztqg2PrF3tztFPEfiq1IjYwdJmmEO37FE3GKtBLJZI1jg",
+      "related": [
+        {
+          "title": "Scott Bakula To Headline Detective Drama In Works At CBS From Dean Devlin’s Electric Entertainment",
+          "url": "https://deadline.com/2026/10/scott-bakula-detective-drama-development-cbs-dean-devlin-1237149665/",
+          "source": "Deadline"
+        },
+        {
+          "title": "Scott Bakula Eyeing CBS Return 5 Years After ‘NCIS: New Orleans’ Cancellation",
+          "url": "https://www.tvinsider.com/1295835/scott-bakula-cbs-detective-drama/",
+          "source": "TV Insider"
+        },
+        {
+          "title": "Scott Bakula’s ‘Star Trek: United’ Looks Dead As Archer Team Moves To CBS Cop Show",
+          "url": "https://cosmicbook.news/bakula-star-trek-united-dead-cbs-cop-show",
+          "source": "Cosmic Book News"
+        }
+      ],
+      "word_count": 406,
+      "page": "p/star-trek-enterprise-buzz-stalls-as-new-series-plans-falter.html"
+    },
+    {
+      "title": "Scottish Transport Secretary Flynn faces scrutiny over ferry gas leak",
+      "slug": "scottish-transport-secretary-flynn-faces-scrutiny-over-ferry-gas-leak",
+      "topic": "stephen flynn ferry gas leak",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Stephen Flynn, Scotland's transport secretary, was found to have been emailed about a ferry gas leak before publicly denying any prior knowledge. The revelation has led to a heated parliamentary committee hearing.",
+      "meta_description": "Scotland's transport secretary Stephen Flynn is under pressure after emails reveal he was briefed on a ferry gas leak before denying knowledge, prompting a form",
+      "keywords": [
+        "Stephen Flynn",
+        "ferry gas leak",
+        "Scottish government",
+        "transport committee",
+        "public safety"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQXfLWFnHF89Nq9-7EBduB5aucxJrH-vBsDibxeEODuDJ794xfWqAsEgYNgUHo",
+      "related": [
+        {
+          "title": "Stephen Flynn was emailed over ferry gas leak before he denied knowing about it",
+          "url": "https://www.bbc.co.uk/news/articles/cq5yn75jr75ro",
+          "source": "BBC"
+        },
+        {
+          "title": "Stephen Flynn sent briefing on ferry gas leak before committee appearance",
+          "url": "https://www.thetimes.com/uk/scotland/article/stephen-flynn-was-briefed-on-ferry-gas-leak-before-committee-apperance-kqrcldhnz",
+          "source": "The Times"
+        },
+        {
+          "title": "Swinney on the spot: A solemn FM brings his serious face to MSP grilling",
+          "url": "https://www.holyrood.com/comment/view,swinney-on-the-spot-a-solemn-fm-brings-his-serious-face-to-msp-grilling",
+          "source": "Holyrood Website"
+        }
+      ],
+      "word_count": 670,
+      "page": "p/scottish-transport-secretary-flynn-faces-scrutiny-over-ferry-gas-leak.html"
+    },
+    {
+      "title": "Red Magic 12 Pro+ design and RGB cooling revealed ahead of Pakistan launch",
+      "slug": "red-magic-12-pro-design-and-rgb-cooling-revealed-ahead-of-pakistan-launch",
+      "topic": "red magic 12 pro",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Red Magic's upcoming 12 Pro+ gaming phone has been revealed with new colour options and an industry‑first RGB water‑cooling system. Reservations in Pakistan start on October 6 ahead of the October 15 launch.",
+      "meta_description": "Red Magic 12 Pro+ gaming phone's design, RGB water‑cooling and reservation details unveiled ahead of its October 15 launch, sparking interest among Pakistani ga",
+      "keywords": [
+        "Red Magic 12 Pro",
+        "gaming smartphone",
+        "RGB water cooling",
+        "Pakistan launch",
+        "reservations"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRnEqTg57h9-LPT1Ih0Vo8YHD0CqY-uCCUe81VWhWKpSp9s876oEkLnslBTrb4",
+      "related": [
+        {
+          "title": "RedMagic 12 Pro+ design and color options revealed ahead of launch - GSMArena.com news",
+          "url": "https://www.gsmarena.com/redmagic_12_pro_design_and_color_options_revealed_ahead_of_launch-news-74954.php",
+          "source": "GSMArena.com"
+        },
+        {
+          "title": "Red Magic 12 Pro+ reservations open ahead of October 15 launch",
+          "url": "https://www.gizmochina.com/2026/10/06/redmagic-12-pro-plus-reservations-open-ahead-of-october-15-launch/",
+          "source": "Gizmochina"
+        },
+        {
+          "title": "Red Magic 12 Pro+: Industry-first RGB water-cooling teased",
+          "url": "https://www.fonearena.com/blog/494543/red-magic-12-pro-plus-rgb-water-cooling-teaser.html",
+          "source": "FoneArena.com"
+        }
+      ],
+      "word_count": 723,
+      "page": "p/red-magic-12-pro-design-and-rgb-cooling-revealed-ahead-of-pakistan-launch.html"
+    },
+    {
+      "title": "Polar Vortex and El Niño Drive Winter Weather Concerns",
+      "slug": "polar-vortex-and-el-nino-drive-winter-weather-concerns",
+      "topic": "polar vortex",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "A combination of the polar vortex and El Niño is shaping this winter's forecast, prompting warnings for severe cold in the UK. Residents in major cities are being urged to prepare for potential disruptions.",
+      "meta_description": "Meteorologists link the polar vortex and El Niño to severe winter conditions. Londoners are advised to stockpile food as cold fronts intensify across Europe.",
+      "keywords": [
+        "polar vortex",
+        "El Niño",
+        "winter weather",
+        "UK weather",
+        "climate impact"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRyaShzHyX4s7PV0hIADReABSZ61qYYbodJdjImiJX2tIYPzmvAevRlLMrM_g0",
+      "related": [
+        {
+          "title": "Will El Niño and the polar vortex bring snow to the UK this winter?",
+          "url": "https://www.bbc.com/weather/articles/c6pqg9j7d2w7o",
+          "source": "BBC"
+        },
+        {
+          "title": "Londoners advised to stockpile food as fears grow over polar vortex",
+          "url": "https://www.standard.co.uk/news/london/london-el-nino-polar-vortex-advice-british-gas-stockpile-food-b1299412.html",
+          "source": "London Evening Standard"
+        },
+        {
+          "title": "What El Niño Means For The Construction Industry",
+          "url": "https://www.fixradio.co.uk/news/latest-news/what-el-nino-means-for-the-construction-industry/",
+          "source": "Fix Radio"
+        }
+      ],
+      "word_count": 894,
+      "page": "p/polar-vortex-and-el-nino-drive-winter-weather-concerns.html"
+    },
+    {
+      "title": "Pakistan to host Sri Lanka in rare home T20Is as new squad takes centre stage",
+      "slug": "pakistan-to-host-sri-lanka-in-rare-home-t20is-as-new-squad-takes-centre-stage",
+      "topic": "pak बनाम sl",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Pakistan will host Sri Lanka in a series of home T20Is, marking a rare opportunity for the hosts to play on familiar turf. The match will feature a new‑look Pakistani squad that omits several key players.",
+      "meta_description": "Pakistan will host Sri Lanka in a series of rare home T20Is, featuring a new-look squad without star players, as the teams prepare for a high‑stakes clash.",
+      "keywords": [
+        "Pakistan T20I",
+        "Sri Lanka cricket",
+        "new-look Pakistan squad",
+        "T20I series",
+        "international cricket"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSabB6XELT-otb9B9eYxlWe0xs_UPLi25dBhw02eWaSpMnh0gJDQxdPxFBLeE",
+      "related": [
+        {
+          "title": "Experimental Pakistan host transitional Sri Lanka in rare home T20Is this season",
+          "url": "https://www.cricinfo.com/series/sri-lanka-in-pakistan-2026-27-1550703/pakistan-vs-sri-lanka-1st-t20i-1550708/match-preview",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "Sahibzada-led Pakistan set to take on Sri Lanka in T20I challenge from Friday",
+          "url": "https://www.pcb.com.pk/press-release-detail/sahibzada-led-pakistan-set-to-take-on-sri-lanka-in-t20i-challenge-from-friday.html",
+          "source": "(PCB) Official Website"
+        },
+        {
+          "title": "No Babar Azam, no Shaheen Afridi: Farhan backs Pakistan’s new-look T20I squad",
+          "url": "https://www.thedailystar.net/sports/cricket/news/no-babar-azam-no-shaheen-afridi-farhan-backs-pakistans-new-look-t20i-squad-4293866",
+          "source": "The Daily Star"
+        }
+      ],
+      "word_count": 565,
+      "page": "p/pakistan-to-host-sri-lanka-in-rare-home-t20is-as-new-squad-takes-centre-stage.html"
+    },
+    {
+      "title": "Pakistan to Host Sri Lanka in Rare Home T20I Series with New Squad",
+      "slug": "pakistan-to-host-sri-lanka-in-rare-home-t20i-series-with-new-squad",
+      "topic": "pak vs sl",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Pakistan will open a home T20I series against Sri Lanka this year, fielding a fresh lineup led by captain Sahibzada. The matches come as both teams look to rebuild and test new talent.",
+      "meta_description": "Pakistan will host Sri Lanka in a home T20I series this year, with a squad led by Sahibzada. The series signals a new phase for both sides.",
+      "keywords": [
+        "Pakistan cricket",
+        "Sri Lanka cricket",
+        "T20I series",
+        "Sahibzada",
+        "Pakistan squad"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "2000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSabB6XELT-otb9B9eYxlWe0xs_UPLi25dBhw02eWaSpMnh0gJDQxdPxFBLeE",
+      "related": [
+        {
+          "title": "Experimental Pakistan host transitional Sri Lanka in rare home T20Is this season",
+          "url": "https://www.cricinfo.com/series/sri-lanka-in-pakistan-2026-27-1550703/pakistan-vs-sri-lanka-1st-t20i-1550708/match-preview",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "Sahibzada-led Pakistan set to take on Sri Lanka in T20I challenge from Friday",
+          "url": "https://www.pcb.com.pk/press-release-detail/sahibzada-led-pakistan-set-to-take-on-sri-lanka-in-t20i-challenge-from-friday.html",
+          "source": "(PCB) Official Website"
+        },
+        {
+          "title": "No Babar Azam, no Shaheen Afridi: Farhan backs Pakistan’s new-look T20I squad",
+          "url": "https://www.thedailystar.net/sports/cricket/news/no-babar-azam-no-shaheen-afridi-farhan-backs-pakistans-new-look-t20i-squad-4293866",
+          "source": "The Daily Star"
+        }
+      ],
+      "word_count": 530,
+      "page": "p/pakistan-to-host-sri-lanka-in-rare-home-t20i-series-with-new-squad.html"
+    },
+    {
+      "title": "Pakistan Set to Face Sri Lanka in U19 Asia Cup 2026 Group Stage",
+      "slug": "pakistan-set-to-face-sri-lanka-in-u19-asia-cup-2026-group-stage",
+      "topic": "pakistan vs sri lanka",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Pakistan's under‑19 side is gearing up for a crucial clash against Sri Lanka in the ACC Asia Cup 2026. The match, part of the group stage, could set the tone for Pakistan’s campaign.",
+      "meta_description": "Pakistan will play Sri Lanka in the ACC Men's U19 Asia Cup 2026, with the match scheduled for a key group stage fixture that could shape the tournament.",
+      "keywords": [
+        "Pakistan U19 cricket",
+        "Sri Lanka U19 cricket",
+        "ACC Asia Cup 2026",
+        "India Pakistan cricket",
+        "cricket schedule"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "5000+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTeluXK07etOKA73-9gAeqnSasH15ylJudC4oFPZwsR2Fz7P1C0Od5qByXn1Ik",
+      "related": [
+        {
+          "title": "ACC Men's U19 Asia Cup 2026 schedule, live scores and results",
+          "url": "https://www.cricbuzz.com/cricket-series/13333/acc-mens-u19-asia-cup-2026/matches",
+          "source": "Cricbuzz"
+        },
+        {
+          "title": "Under-19 Asia Cup 2026: Full men’s schedule, fixtures, dates and match timings",
+          "url": "https://sportstar.thehindu.com/cricket/acc-mens-u19-asia-cup-2026-schedule-india-vs-pakistan-match-date-stadium-venue-timings-ist/article71562750.ece",
+          "source": "Sportstar"
+        },
+        {
+          "title": "Virender Sehwag And Rahul Dravid's Sons Likely To Play In Major India vs Pakistan Clash In November",
+          "url": "https://sports.ndtv.com/cricket/virender-sehwag-and-rahul-dravids-sons-likely-to-play-in-major-india-vs-pakistan-clash-in-november-12161719",
+          "source": "NDTV Sports"
+        }
+      ],
+      "word_count": 772,
+      "page": "p/pakistan-set-to-face-sri-lanka-in-u19-asia-cup-2026-group-stage.html"
+    },
+    {
+      "title": "Michael Kearns, 90210 actor and AIDS activist, dies at 76",
+      "slug": "michael-kearns-90210-actor-and-aids-activist-dies-at-76",
+      "topic": "michael kearns 90210",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Michael Kearns, a pioneering gay actor and AIDS activist, has died at the age of 76. His passing comes six days before he was scheduled to return to the Celebration Theatre.",
+      "meta_description": "Michael Kearns, known for 90210 and directing Jerker, has died at 76. The actor and activist passed away just days before a planned return to the stage.",
+      "keywords": [
+        "Michael Kearns",
+        "90210",
+        "AIDS activism",
+        "Hollywood",
+        "Celebration Theatre"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTDawZiUxfwGH7U1kwcHw72ZXgPfg4x3yehsSa4JR7scF7vz2QvZhofjsHObKI",
+      "related": [
+        {
+          "title": "Michael Kearns, one of Hollywood’s first out gay actors, dies at 76",
+          "url": "https://www.latimes.com/entertainment-arts/story/2026-10-08/michael-kearns-death-gay-actor-aids-activist-76",
+          "source": "Los Angeles Times"
+        },
+        {
+          "title": "Michael Kearns has died six days before his planned return to the Celebration Theatre",
+          "url": "https://www.losangelesblade.com/2026/10/07/michael-kearns-has-died-six-days-before-his-planned-return-to-the-celebration-theatre/",
+          "source": "Los Angeles Blade"
+        },
+        {
+          "title": "Michael Kearns, Actor, Activist and ‘Jerker’ Director, Dies at 76",
+          "url": "https://www.hollywoodreporter.com/news/general-news/michael-kearns-dead-jerker-director-gay-activist-1236724870/",
+          "source": "The Hollywood Reporter"
+        }
+      ],
+      "word_count": 748,
+      "page": "p/michael-kearns-90210-actor-and-aids-activist-dies-at-76.html"
+    },
+    {
+      "title": "Lorenzo Musetti eyes breakthrough as ATP Shanghai draws spark US betting interest",
+      "slug": "lorenzo-musetti-eyes-breakthrough-as-atp-shanghai-draws-spark-us-betting-interest",
+      "topic": "lorenzo musetti",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Lorenzo Musetti steps onto the Shanghai stage amid growing US interest. Analysts and bettors weigh his chances as the tournament kicks off.",
+      "meta_description": "Italian rising star Lorenzo Musetti draws attention in the ATP Shanghai Open, with US fans tracking predictions and betting markets ahead of his first-round mat",
+      "keywords": [
+        "Lorenzo Musetti",
+        "ATP Shanghai",
+        "tennis predictions",
+        "US tennis fans",
+        "sports betting"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRtxBS-T0PUH8_kLoz5e-t_GmtugQrGI3xeq8TyieruCBtReHCKa3005_t0RI",
+      "related": [
+        {
+          "title": "ATP Shanghai Day 1 Predictions Including Holger Rune vs Daniel Altmaier",
+          "url": "https://lastwordonsports.com/tennis/2026/10/06/atp-shanghai-day-1-predictions-rune-altmaier/",
+          "source": "Last Word On Sports"
+        },
+        {
+          "title": "Shanghai R1 previews and predictions: Rune vs. Altmaier, Fery vs. Cilic",
+          "url": "https://tenngrand.com/shanghai-tennis-previews-picks-predictions-rune-vs-altmaier-fery-cilic/",
+          "source": "The Grandstand"
+        },
+        {
+          "title": "October 10, 2026: Dalibor Svrcina vs Tomas Martin Etcheverry Round of 64 match Tennis Prediction Market",
+          "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/dalibor-svrcina-vs-tomas-martin-etcheverry-round-of-64-match-oct-10-2026/",
+          "source": "Robinhood"
+        }
+      ],
+      "word_count": 612,
+      "page": "p/lorenzo-musetti-eyes-breakthrough-as-atp-shanghai-draws-spark-us-betting-interest.html"
+    },
+    {
+      "title": "Judas Priest bassist Ian Hill announces retirement from band",
+      "slug": "judas-priest-bassist-ian-hill-announces-retirement-from-band",
+      "topic": "ian hill",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "The legendary Judas Priest bassist has stepped down after decades of service. The band has confirmed that Uriah Heep's Dave Rimmer will take over his role.",
+      "meta_description": "Ian Hill, the long-serving bassist of Judas Priest, has announced his retirement. Uriah Heep's Dave Rimmer is set to join the band as his successor.",
+      "keywords": [
+        "Ian Hill",
+        "Judas Priest",
+        "retirement",
+        "Dave Rimmer",
+        "heavy metal"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnRshaRbfC0AZuqSng-pHdUiu_UkFVgQtSUNEeB_yG2b6jNHSIuBYFqxpI4rQ",
+      "related": [
+        {
+          "title": "Judas Priest Bassist Ian Hill Announces His Retirement",
+          "url": "https://ultimateclassicrock.com/judas-priest-ian-hill-retires/",
+          "source": "Ultimate Classic Rock"
+        },
+        {
+          "title": "JUDAS PRIEST's IAN HILL Announces His Retirement; URIAH HEEP's DAVE RIMMER To Step In",
+          "url": "https://blabbermouth.net/news/judas-priests-ian-hill-announces-his-retirement-uriah-heeps-dave-rimmer-to-step-in",
+          "source": "BLABBERMOUTH.NET"
+        },
+        {
+          "title": "Ian Hill Announces His Retirement From Judas Priest, Names Successor: 'I Love You All, and Thank You for the Life You've Let Me Live'",
+          "url": "https://www.ultimate-guitar.com/news/general_music_news/ian-hill-announces-his-retirement-from-judas-priest-names-successor-i-love-you-all-and-thank-you-for-the-life-youve-let-me-live",
+          "source": "Ultimate Guitar"
+        }
+      ],
+      "word_count": 965,
+      "page": "p/judas-priest-bassist-ian-hill-announces-retirement-from-band.html"
+    },
+    {
+      "title": "Jana Sena Party Prepares for Andhra Pradesh Local Elections",
+      "slug": "jana-sena-party-prepares-for-andhra-pradesh-local-elections",
+      "topic": "జనసేన పార్టీ",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Actor‑politician Pawan Kalyan’s Jana Sena Party is mobilising for the upcoming local body polls in Andhra Pradesh. The party has set up special committees and pledged 34% reservations for backward classes.",
+      "meta_description": "The Jana Sena Party, led by actor‑turned‑politician Pawan Kalyan, is gearing up for Andhra Pradesh local body elections, forming special committees and pledging",
+      "keywords": [
+        "Jana Sena Party",
+        "Pawan Kalyan",
+        "Andhra Pradesh elections",
+        "BC reservations",
+        "local body elections"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQHT7oFXZ4KnmCEYnLSim27u798a5NeRLyTS15bwbs5pgKXBYbIt2MRsI42KTU",
+      "related": [
+        {
+          "title": "Pawan Kalyan: ఏపీ స్థానిక ఎన్నికలకు జనసేన సిద్ధం.. పవన్ కల్యాణ్ మాస్టర్ ప్లాన్ ఇదే!",
+          "url": "https://telugu.news18.com/news/andhra-pradesh/pawan-kalyan-focuses-on-ap-local-body-elections-janasena-forms-special-committees-osk-ws-n-3243180.html",
+          "source": "News18 Telugu"
+        },
+        {
+          "title": "34 శాతం బీసీ రిజర్వేషన్లకు కట్టుబడి ఉన్నాం",
+          "url": "https://www.eenadu.net/telugu-news/andhra-pradesh/general/1799/126182329",
+          "source": "Eenadu"
+        },
+        {
+          "title": "స్థానిక ఎన్నికల వేళ పవన్ బిగ్ డెసిషన్, ఏరి కోరి ఎంపిక..!!",
+          "url": "https://telugu.oneindia.com/news/andhra-pradesh/janasena-chief-pawan-kalyan-appoints-ad-hoc-committees-to-monitor-ground-situation-for-local-body-el-509913.html",
+          "source": "Oneindia Telugu"
+        }
+      ],
+      "word_count": 556,
+      "page": "p/jana-sena-party-prepares-for-andhra-pradesh-local-elections.html"
+    },
+    {
+      "title": "Jailer 2 Overseas Advance Bookings Cross Rs 11 Crore",
+      "slug": "jailer-2-overseas-advance-bookings-cross-rs-11-crore",
+      "topic": "jailer 2 overseas advance booking",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "The highly anticipated sequel to Jailer has generated significant buzz in international markets, with advance collections surpassing the 11 crore rupee mark. Early morning screenings in Kerala signal strong initial demand for the film.",
+      "meta_description": "Rajinikanth's Jailer 2 has crossed Rs 11 crore in overseas advance bookings. The film is set for a major Kerala opening with early morning shows.",
+      "keywords": [
+        "Jailer 2",
+        "Rajinikanth",
+        "overseas box office",
+        "advance booking",
+        "Nelson"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRB4ulamKtKNmYYn4tfKN2qBFcAHRTYhv82pQHcDXhOmE0SAD--u4PM28eoxH0",
+      "related": [
+        {
+          "title": "Rajinikanth's Jailer 2 Sets The Stage For A Big Kerala Opening With 6 am Shows",
+          "url": "https://www.ndtv.com/entertainment/rajinikanth-s-jailer-2-sets-the-stage-for-a-big-kerala-opening-with-6-am-shows-12161384",
+          "source": "NDTV"
+        },
+        {
+          "title": "Jailer 2 Trailer Out: Apeksha Porwal Makes Her Tamil Debut Alongside Rajinikanth",
+          "url": "https://www.femina.in/beauty-pageants/miss-diva/jailer-2-trailer-out-apeksha-porwal-makes-her-tamil-debut-alongside-rajinikanth/articleshow/156292153.cms",
+          "source": "Femina India"
+        },
+        {
+          "title": "'Jailer 2' advance box office collection overseas: Rajinikanth and Nelson’s film crosses Rs 11 crore in a",
+          "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jailer-2-advance-box-office-collection-overseas-rajinikanth-and-nelsons-film-crosses-rs-11-crore-in-advance-booking-with-week-to-go-for-film-release/articleshow/134827611.cms",
+          "source": "The Times of India"
+        }
+      ],
+      "word_count": 592,
+      "page": "p/jailer-2-overseas-advance-bookings-cross-rs-11-crore.html"
+    },
+    {
+      "title": "Indian OTT Releases Spotlight Malayalam Film Pradhama Drishtya Kuttakkar",
+      "slug": "indian-ott-releases-spotlight-malayalam-film-pradhama-drishtya-kuttakkar",
+      "topic": "pradhama drishtiya kuttakkar",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Pradhama Drishtya Kuttakkar, a Malayalam thriller, has been released on major OTT platforms alongside other regional titles. The film’s debut is generating discussion among South Indian audiences and critics.",
+      "meta_description": "The Malayalam thriller Pradhama Drishtya Kuttakkar joins a slate of new Indian titles debuting on OTT platforms this week, attracting regional viewers and criti",
+      "keywords": [
+        "Pradhama Drishtya Kuttakkar",
+        "Malayalam OTT",
+        "South Indian cinema",
+        "new releases",
+        "streaming platforms"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQNQNNekv_8JEeGK7JbHd_V9OrPNzSsvg7USjyf4HexNLKZoVnOlE9sPGrAXQ0",
+      "related": [
+        {
+          "title": "Pradhama Drishtya Kuttakkar, Epic and more: South Cinema's top OTT releases this week",
+          "url": "https://www.cinemaexpress.com/malayalam/news/2026/Oct/09/pradhama-drishtya-kuttakkar-epic-and-more-south-cinemas-top-ott-releases-this-week",
+          "source": "Cinema Express"
+        },
+        {
+          "title": "Mandaadi Movie Review: Soori Turns A Terrific Tornado For This Coastal Sports Drama & Boat Racing Turns The Hero Of The Film!",
+          "url": "https://www.imdb.com/news/ni66053948/?ref_=nmnw_art_perm",
+          "source": "IMDb"
+        },
+        {
+          "title": "Malayalam, Telugu OTT Releases This Weekend: Eyes To Epic: First Semester; Movies, Series To Watch",
+          "url": "https://www.ndtvprofit.com/lifestyle/malayalam-telugu-ott-releases-this-weekend-eyes-to-epic-first-semester-movies-series-to-watch-12160841",
+          "source": "NDTV Profit"
+        }
+      ],
+      "word_count": 701,
+      "page": "p/indian-ott-releases-spotlight-malayalam-film-pradhama-drishtya-kuttakkar.html"
+    },
+    {
+      "title": "Gromit finally gets a voice … and it’s Martin Freeman",
+      "slug": "gromit-finally-gets-a-voice-and-its-martin-freeman",
+      "topic": "martin freeman voices gromit autobiography",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Coverage linked to \"martin freeman voices gromit autobiography\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "martin freeman voices gromit autobiography: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "martin freeman voices gromit autobiography",
+        "martin freeman voices gromit autobiography news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTd768HUp9Rukg4Rxvmi6MlVZxskWx1O4J6EZ6nrKxSZxe0Igy5vQK8bfg3gLg",
+      "related": [
+        {
+          "title": "Gromit finally gets a voice … and it’s Martin Freeman",
+          "url": "https://www.theguardian.com/film/2026/oct/09/gromit-autobiography-martin-freeman-voice",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Gromit Speaks: Martin Freeman to Voice Beloved but Mute Dog in Audiobook Edition of Autobiography",
+          "url": "https://www.imdb.com/es-es/news/ni66054116/?ref_=nwc_art_perm",
+          "source": "IMDb"
+        },
+        {
+          "title": "Martin Freeman lends voice to Gromit for audiobook edition of his autobiography",
+          "url": "https://www.belfasttelegraph.co.uk/entertainment/news/martin-freeman-lends-voice-to-gromit-for-audiobook-edition-of-his-autobiography/a/162835260.html",
+          "source": "Belfast Telegraph"
+        }
+      ],
+      "word_count": 349,
+      "page": "p/gromit-finally-gets-a-voice-and-its-martin-freeman.html"
+    },
+    {
+      "title": "Google Unveils Playground, a New AI‑Driven Game Platform",
+      "slug": "google-unveils-playground-a-new-aidriven-game-platform",
+      "topic": "google playground",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Google has launched Playground, an experimental AI‑powered gaming platform that allows developers to design custom games with real‑time editing. The move has attracted attention from South African developers and gamers eager to explore new ",
+      "meta_description": "Google’s new Playground platform lets developers create AI‑powered games, sparking interest among South African gamers and developers.",
+      "keywords": [
+        "Google Playground",
+        "AI gaming platform",
+        "Unity",
+        "South Africa gaming",
+        "developer tools"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRlSLcD2sIlomPvC1Vso795cJBQurg7fP1JOJIX_oQfPBcVHW3wG6QOao2VFyw",
+      "related": [
+        {
+          "title": "Introducing Playground: Create and play custom games",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+          "source": "blog.google"
+        },
+        {
+          "title": "Unity's New AI Thing Is A Soulless Joke",
+          "url": "https://aftermath.site/unity-spark-ai-google/",
+          "source": "Aftermath"
+        },
+        {
+          "title": "Unity Advances 2% as CEO Eyes Console Reach for Google-Built Game Platform; Roblox Barely Budges, Take-Two Treads Water",
+          "url": "https://247wallst.com/investing/2026/10/08/unity-advances-2-as-ceo-eyes-console-reach-for-google-built-game-platform-roblox-barely-budges-take-two-treads-water/",
+          "source": "24/7 Wall St."
+        }
+      ],
+      "word_count": 527,
+      "page": "p/google-unveils-playground-a-new-aidriven-game-platform.html"
+    },
+    {
+      "title": "Ginebra faces Rain or Shine in high‑stakes Governors’ Cup clash",
+      "slug": "ginebra-faces-rain-or-shine-in-highstakes-governors-cup-clash",
+      "topic": "ginebra vs rain or shine",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Barangay Ginebra San Miguel will take on Rain or Shine Elasto Painters in a pivotal Governors’ Cup match. The game also marks the debut of import Jordan Murphy for Ginebra.",
+      "meta_description": "Barangay Ginebra San Miguel meets Rain or Shine Elasto Painters in a crucial PBA Governors’ Cup game, with newcomer Jordan Murphy set to debut as the Kings figh",
+      "keywords": [
+        "Ginebra",
+        "Rain or Shine",
+        "PBA Governors Cup",
+        "Jordan Murphy",
+        "Philippines basketball"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQDogaHhE4M6jueVn2DrreTTK_gpnssLwA0xMRXKqqng7hmzS7PxmIn3mQjSJM",
+      "related": [
+        {
+          "title": "ROS, Ginebra in mouthwatering duel",
+          "url": "https://mb.com.ph/2026/10/08/ros-ginebra-in-mouthwatering-duel",
+          "source": "Manila Bulletin"
+        },
+        {
+          "title": "Jordan Murphy set for Ginebra debut against Rain or Shine",
+          "url": "https://tiebreakertimes.com.ph/tbt/jordan-murphy-set-for-ginebra-debut-against-rain-or-shine/386069",
+          "source": "Tiebreaker Times"
+        },
+        {
+          "title": "Ginebra Kings Face Survival Test Against Rain or Shine in PBA Governors’ Cup Clash",
+          "url": "https://tribune.net.ph/2026/10/08/slumping-kings-in-survival-mode",
+          "source": "Daily Tribune"
+        }
+      ],
+      "word_count": 616,
+      "page": "p/ginebra-faces-rain-or-shine-in-highstakes-governors-cup-clash.html"
+    },
+    {
+      "title": "Dhruv Rathee addresses Bengaluru crowd amid anti‑election chief protests",
+      "slug": "dhruv-rathee-addresses-bengaluru-crowd-amid-antielection-chief-protests",
+      "topic": "dhruv rathee",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Dhruv Rathee addressed a gathering in Bengaluru's Freedom Park as protesters demanded the resignation of the election chief. A related march to Jantar Mantar is scheduled for October 10.",
+      "meta_description": "YouTuber Dhruv Rathee spoke at Freedom Park in Bengaluru as thousands rallied against the election chief, while a separate march to Jantar Mantar is planned for",
+      "keywords": [
+        "Dhruv Rathee",
+        "Bengaluru protests",
+        "Indian elections",
+        "Freedom Park",
+        "Jantar Mantar march"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRjowKPTASznIyRd-IakjxJrh8IndVkp_Wj8l3RLbbEUoanAh37qdJEn6yzb34",
+      "related": [
+        {
+          "title": "Thousands protest in India’s Bengaluru as ‘Cockroach’ movement demands election chief resign",
+          "url": "https://www.nbcnews.com/world/asia/thousands-protest-india-cockroach-movement-election-chief-resignation-rcna602436",
+          "source": "NBC News"
+        },
+        {
+          "title": "Watch | 'Vote chor, gaddi chhor': YouTuber Dhruv Rathee speaks at Freedom Park in Bengaluru",
+          "url": "https://timesofindia.indiatimes.com/short-videos/briefs/watch-vote-chor-gaddi-chhor-youtuber-dhruv-rathee-speaks-at-freedom-park-in-bengaluru/videoshow/134824396.cms",
+          "source": "The Times of India"
+        },
+        {
+          "title": "Will march to Jantar Mantar on Oct 10 against SIR: CJP's Abhijit Dipke",
+          "url": "https://m.economictimes.com/news/politics-and-nation/will-march-to-jantar-mantar-on-oct-10-against-sir-cjps-abhijit-dipke/articleshow/134794609.cms",
+          "source": "The Economic Times"
+        }
+      ],
+      "word_count": 561,
+      "page": "p/dhruv-rathee-addresses-bengaluru-crowd-amid-antielection-chief-protests.html"
+    },
+    {
+      "title": "David Warner under scrutiny after South Africa broadcaster’s ‘fluke’ claim",
+      "slug": "david-warner-under-scrutiny-after-south-africa-broadcasters-fluke-claim",
+      "topic": "david warner",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "South African media has revived the 2018 ball‑tampering controversy, focusing on David Warner's involvement. The renewed debate is stirring strong reactions across cricket‑loving nations.",
+      "meta_description": "Australian batsman David Warner is back in the spotlight as South African broadcaster questions the 2018 ball‑tampering incident, reigniting debate over the sca",
+      "keywords": [
+        "David Warner",
+        "ball tampering",
+        "South Africa cricket",
+        "Australia cricket",
+        "sports scandal"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSM_OobudRI3Um9W-WFpeZB1a6HWKJTrpehDcN_kcP9SN_pUn0yuqLZUpOt4h8",
+      "related": [
+        {
+          "title": "Sandpapergate: South Africa broadcaster on the 'fluke' which rumbled Australia",
+          "url": "https://www.bbc.com/sport/cricket/articles/c3qjn05lr4n7o",
+          "source": "BBC"
+        },
+        {
+          "title": "What’s left to say about Australia’s ball-tampering? The answer is everything | Geoff Lemon",
+          "url": "https://www.theguardian.com/sport/blog/2026/oct/07/australia-south-africa-test-sandpaper-ball-tampering-truth",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Weird times in Johannesburg: what the Test after the ball-tampering scandal was like",
+          "url": "https://www.cricinfo.com/story/i-was-there-playing-in-johannesburg-after-the-2018-ball-tampering-scandal-1555313",
+          "source": "Cricinfo"
+        }
+      ],
+      "word_count": 681,
+      "page": "p/david-warner-under-scrutiny-after-south-africa-broadcasters-fluke-claim.html"
+    },
+    {
+      "title": "Colombia Confirms Arrival of Intense El Niño, Brings Heavy Rains",
+      "slug": "colombia-confirms-arrival-of-intense-el-nino-brings-heavy-rains",
+      "topic": "el niño",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Colombia's meteorological agency announced the start of a powerful El Niño phase, sparking intense downpours across the country. The development is prompting caution in Pakistan as similar climate shifts could affect local weather.",
+      "meta_description": "Colombia has officially declared the onset of El Niño, a climate pattern bringing unusually strong rains, gusts and whirlwinds, while Pakistan watches for relat",
+      "keywords": [
+        "El Niño",
+        "Colombia weather",
+        "heavy rains",
+        "climate impact",
+        "Pakistan"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT2PKo_Qcz4doU1353uOya4xzUF-4fi1A5ihSuGBZP4UCN6hj3LaUrSRIKVG5c",
+      "related": [
+        {
+          "title": "Colombia declara oficialmente la llegada del fenómeno de El Niño",
+          "url": "https://www.readingeagle.com/2026/10/08/colombia-declara-oficialmente-la-llegada-del-fenmeno-de-el-nio/",
+          "source": "Reading Eagle"
+        },
+        {
+          "title": "¿Por qué, si estamos en El Niño, hay ‘súper aguaceros’, vendavales y hasta remolinos en el cielo? | El Colombiano",
+          "url": "https://www.elcolombiano.com/antioquia/ventarrones-aguaceros-y-remolinos-por-que-pleno-nino-IP42093597",
+          "source": "El Colombiano"
+        },
+        {
+          "title": "Llegó El Niño y viene muy intenso…",
+          "url": "https://www.elnuevosiglo.com.co/editorial/llego-el-nino-y-viene-muy-intenso",
+          "source": "El Nuevo Siglo"
+        }
+      ],
+      "word_count": 657,
+      "page": "p/colombia-confirms-arrival-of-intense-el-nino-brings-heavy-rains.html"
+    },
+    {
+      "title": "Chicago Marathon 2026 Faces Heat Concerns Amid Climate Shift",
+      "slug": "chicago-marathon-2026-faces-heat-concerns-amid-climate-shift",
+      "topic": "chicago marathon 2026",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Runners in the 2026 Chicago Marathon will confront unusually high temperatures as climate change pushes race‑day heat upward. Organizers have expanded the Abbott Health & Fitness Expo and introduced new safety measures to protect participan",
+      "meta_description": "The 2026 Chicago Marathon is set for Sunday with temperatures expected to soar, prompting organizers to adjust the Abbott Health & Fitness Expo and address clim",
+      "keywords": [
+        "Chicago Marathon",
+        "2026",
+        "heat",
+        "climate change",
+        "Abbott Expo"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPBWlOvOX78nZ-IT9hduL8iyOBCs-jBkEfk7Hl6-M07kXKfAQCOlppe9LRMvY",
+      "related": [
+        {
+          "title": "Kyra Marcano: Hello, Chicago marathoners. What are you running through?",
+          "url": "https://www.chicagotribune.com/2026/10/09/opinion-chicago-marathon-running-through/",
+          "source": "Chicago Tribune"
+        },
+        {
+          "title": "Marathon conditions becoming less ideal as climate change warms race days, including Sunday",
+          "url": "https://www.chicagotribune.com/2026/10/07/chicago-marathon-climate-change-heat/",
+          "source": "Chicago Tribune"
+        },
+        {
+          "title": "Abbott Health & Fitness Expo for 2026 Chicago Marathon begins: Hours, packet pick-up, location",
+          "url": "https://www.nbcchicago.com/news/sports/chicago-marathon/abbott-health-and-fitness-expo-chicago-marathon-2026-packet-pickup/3999512/",
+          "source": "NBC 5 Chicago"
+        }
+      ],
+      "word_count": 507,
+      "page": "p/chicago-marathon-2026-faces-heat-concerns-amid-climate-shift.html"
+    },
+    {
+      "title": "Australia's Nic Maddinson dismissed for a duck on comeback after ten years",
+      "slug": "australias-nic-maddinson-dismissed-for-a-duck-on-comeback-after-ten-years",
+      "topic": "క్రికెట్",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Nic Maddinson faced 33 balls without scoring in his first test for Australia after a ten‑year gap. The dismissal also marked a new low for an Australian opening batsman.",
+      "meta_description": "Australian opener Nic Maddinson was out for a 33‑ball duck in his first test after a decade, highlighting a rare record and his return from cancer.",
+      "keywords": [
+        "cricket",
+        "Nic Maddinson",
+        "Australia",
+        "South Africa",
+        "test debut"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "2000+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMR7VrnKxnr18Br4wtYyHb7dyO01HXfg7Pc-YfKJJq2EHbxn4FVK-MjOJYimo",
+      "related": [
+        {
+          "title": "SA vs AUS: పదేళ్ల తర్వాత రీఎంట్రీ.. డకౌట్‌తో ఆసీస్ ఓపెనర్ చెత్త రికార్డు",
+          "url": "https://www.eenadu.net/telugu-news/sports/nic-maddinson-33-ball-duck-makes-unwanted-history/0401/126183280",
+          "source": "Eenadu"
+        },
+        {
+          "title": "Nic Maddinson | క్యాన్సర్‌ను జయించి 9 ఏళ్లకు పునరాగమనం.. 33 బంతులాడి డకౌట్..!",
+          "url": "https://www.ntnews.com/sports/nic-maddinson-falls-for-zero-in-comeback-test-2532444",
+          "source": "Namasthe Telangana"
+        },
+        {
+          "title": "10ఏళ్ల తర్వాత జట్టులోకి- కట్​చేస్తే 33 బంతుల్లో డకౌట్- కెరీర్​లోనే చెత్త రికార్డ్",
+          "url": "https://www.etvbharat.com/te/sports/australia-batter-nic-maddinson-33-balls-duck-out-vs-south-africa-2026-ten26100904047",
+          "source": "ETV Bharat"
+        }
+      ],
+      "word_count": 915,
+      "page": "p/australias-nic-maddinson-dismissed-for-a-duck-on-comeback-after-ten-years.html"
+    },
+    {
+      "title": "Australia captain Cummins readies for fallout from Khawaja's autobiography",
+      "slug": "australia-captain-cummins-readies-for-fallout-from-khawajas-autobiography",
+      "topic": "pat cummins",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Pat Cummins, Australia’s cricket captain, says he is not worried about possible revelations in Usman Khawaja’s new book. The autobiography could reignite the Sandpapergate saga, but Cummins stays focused on the team’s performance.",
+      "meta_description": "Australian cricket skipper Pat Cummins says he remains unfazed as Usman Khawaja's forthcoming autobiography could revive the Sandpapergate controversy, promptin",
+      "keywords": [
+        "Pat Cummins",
+        "Usman Khawaja",
+        "Australia cricket",
+        "autobiography",
+        "Sandpapergate"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTq5PzpGd9xQNpI3QTHRZDG4dC1qgXFKAtNN08_XbYzgQmBa6BFoSdnS8Xv5WI",
+      "related": [
+        {
+          "title": "Cummins unfazed by potential revelations from Khawaja's autobiography",
+          "url": "https://www.cricinfo.com/story/pat-cummins-unfazed-by-potential-revelations-from-usman-khawaja-s-autobiography-1557655",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "South Africa vs Australia: Pat Cummins speaks to Usman Khawaja about autobiography",
+          "url": "https://www.bbc.com/sport/cricket/articles/cr4g1z3913z1o",
+          "source": "BBC"
+        },
+        {
+          "title": "Australia skipper nonplussed over forthcoming book that might add to Sandpapergate fallout",
+          "url": "https://www.reuters.com/sports/cricket/australia-skipper-nonplussed-over-forthcoming-book-that-might-add-sandpapergate-2026-10-08/",
+          "source": "Reuters"
+        }
+      ],
+      "word_count": 614,
+      "page": "p/australia-captain-cummins-readies-for-fallout-from-khawajas-autobiography.html"
+    },
+    {
+      "title": "Arne Slot takes up UEFA observer role after Liverpool exit",
+      "slug": "arne-slot-takes-up-uefa-observer-role-after-liverpool-exit",
+      "topic": "arne slot post liverpool job",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Dutch manager Arne Slot has officially taken on a new role within UEFA following his recent exit from Liverpool. The appointment places him in a technical observer capacity, signaling a continued presence in high-level football administrati",
+      "meta_description": "Arne Slot has joined the UEFA Technical Observer Group following his departure from Liverpool. The move marks a significant step in his post-managerial career.",
+      "keywords": [
+        "Arne Slot",
+        "Liverpool FC",
+        "UEFA",
+        "Football Management",
+        "English Premier League"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ97we52vwTWsl8lQh67wjoZdE6Yda-NQ-P5fWFZhmx6O7agMPk6vrQpJwwK2k",
+      "related": [
+        {
+          "title": "Arne Slot Joins UEFA Technical Observer Group After Liverpool Exit",
+          "url": "https://suaragarut.id/en/arne-slot-uefa-technical-observer",
+          "source": "SuaraGarut.ID"
+        },
+        {
+          "title": "Arne Slot lands new job four months after Liverpool exit as decision confirmed",
+          "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/arne-slot-next-job-liverpool-34739418",
+          "source": "Liverpool Echo"
+        },
+        {
+          "title": "Arne Slot’s return to former club not ruled out by CEO",
+          "url": "https://www.daveockop.com/latest-news/arne-slots-return-to-former-club-not-ruled-out-by-ceo/",
+          "source": "DaveOCKOP"
+        }
+      ],
+      "word_count": 720,
+      "page": "p/arne-slot-takes-up-uefa-observer-role-after-liverpool-exit.html"
+    },
+    {
+      "title": "Al Ahly Media Warns Fans Against Overconfidence Ahead of Cairo Derby",
+      "slug": "al-ahly-media-warns-fans-against-overconfidence-ahead-of-cairo-derby",
+      "topic": "الاهلي",
+      "date": "2026-10-09",
+      "date_pkt": "2026-10-09 05:36 PM PKT",
+      "excerpt": "Al Ahly's media team has issued a cautionary message to supporters ahead of the highly anticipated match against Zamalek. The club emphasizes that current conditions are more complex than they appear, urging fans to avoid excessive optimism",
+      "meta_description": "Al Ahly's official channel urges Egyptian football fans to lower expectations before the upcoming Cairo Derby, citing internal complexities and transfer rumors.",
+      "keywords": [
+        "Al Ahly",
+        "Cairo Derby",
+        "Egyptian Football",
+        "Zamalek",
+        "Sports News"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlZBS7vs8gmFmge9hrtW9F2cTywEUz9wFvr30_wM5PU9whOjhImR38ksgjJyk",
+      "related": [
+        {
+          "title": "\"الأمور ليست كما تبدو\".. قناة الأهلي تحذر الجماهير من رفع مستوى التوقعات قبل القمة",
+          "url": "https://www.yallakora.com/egyptian-league/3031/news/568593/-%D8%A7%D9%84%D8%A3%D9%85%D9%88%D8%B1-%D9%84%D9%8A%D8%B3%D8%AA-%D9%83%D9%85%D8%A7-%D8%AA%D8%A8%D8%AF%D9%88-%D9%82%D9%86%D8%A7%D8%A9-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D8%AA%D8%AD%D8%B0%D8%B1-%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D9%85%D9%86-%D8%B1%D9%81%D8%B9-%D9%85%D8%B3%D8%AA%D9%88%D9%89-%D8%A7%D9%84%D8%AA%D9%88%D9%82%D8%B9%D8%A7%D8%AA-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D9%82%D9%85%D8%A9",
+          "source": "يلاكورة"
+        },
+        {
+          "title": "إعلامى ينفى تلك الاقاويل عن الزمالك .. ويكشف أول الراحلين عن الاهلى",
+          "url": "https://www.zamalektoday.com/index.php?go=news&more=187005",
+          "source": "الزمالك اليوم"
+        },
+        {
+          "title": "رهان مخيف.. معتمد جمال يجهّز مفاجأة مثيرة للأهلي المصري",
+          "url": "https://www.eremnews.com/sports/vsvgskn",
+          "source": "إرم نيوز"
+        }
+      ],
+      "word_count": 754,
+      "page": "p/al-ahly-media-warns-fans-against-overconfidence-ahead-of-cairo-derby.html"
+    },
     {
       "title": "فيدان: اتفاق مكة للدفاع ولن نرسل قوات للهجوم على دول أخرى",
       "slug": "news-1791464030",
@@ -18660,1126 +19780,6 @@
       ],
       "word_count": 594,
       "page": "p/kazakhstan-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Irvine Man Arrested in Fatal Long Beach Hit‑And‑Run",
-      "slug": "irvine-man-arrested-in-fatal-long-beach-hitandrun",
-      "topic": "irvine",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "A driver from Irvine was arrested after a hit‑and‑run on Long Beach’s Pacific Coast Highway killed a man in a wheelchair. The incident has sparked national discussion on road safety and driver accountability.",
-      "meta_description": "A driver from Irvine was arrested after a hit‑and‑run on Long Beach’s Pacific Coast Highway killed a wheelchair‑bound man. The case has drawn national attention",
-      "keywords": [
-        "Irvine",
-        "hit-and-run",
-        "Long Beach",
-        "wheelchair",
-        "California"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSHhFVtGAZhDxBGvILNrjVZABS17bYyMf0c2-jJrSZIsSHswiPI6EiSgQTQWVU",
-      "related": [
-        {
-          "title": "Hit-and-run driver arrested for killing man who was crossing PCH in a wheelchair, police say",
-          "url": "https://lbpost.com/news/crime/man-with-wheelchair-killed-in-hit-and-run-crash-on-pch-long-beach-police-say/",
-          "source": "Long Beach Post"
-        },
-        {
-          "title": "Arrest made after man in wheelchair killed in hit-and-run in Long Beach, officials say",
-          "url": "https://www.latimes.com/california/story/2026-09-18/arrest-made-after-man-in-wheelchair-killed-in-hit-and-run-in-long-beach-officials-say",
-          "source": "Los Angeles Times"
-        },
-        {
-          "title": "Irvine Man Arrested In Fatal Long Beach PCH Hit-And-Run: Reports",
-          "url": "https://patch.com/california/longbeach-ca/irvine-man-arrested-fatal-long-beach-pch-hit-run-reports",
-          "source": "Patch"
-        }
-      ],
-      "word_count": 523,
-      "page": "p/irvine-man-arrested-in-fatal-long-beach-hitandrun.html"
-    },
-    {
-      "title": "Helen Jenner: why this search is trending today",
-      "slug": "helen-jenner-why-this-search-is-trending-today",
-      "topic": "helen jenner",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "People are searching for helen jenner in GB. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"helen jenner\" in GB. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "helen jenner",
-        "helen jenner news",
-        "google trends",
-        "GB",
-        "trending today"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSEZa_H-OIO8G-OpLuZRLA3jSdwEhjF5yyYK4_XQDEFE77FR56CmxlNC8ZEVSY",
-      "related": [
-        {
-          "title": "Helen Jenner announced by Nigel Farage as new leader of Reform in Wales",
-          "url": "https://www.bbc.co.uk/news/articles/cjly4p95y3zko",
-          "source": "BBC"
-        },
-        {
-          "title": "Richard Tice accuses Sarah Cooper-Lesadd of 'lying about her beliefs' before switching from Reform UK to Plaid Cymru",
-          "url": "https://www.bbc.com/news/articles/cvx2zd24e1e4o",
-          "source": "BBC"
-        },
-        {
-          "title": "New Welsh Reform leader named after Dan Thomas arrested",
-          "url": "https://www.independent.co.uk/news/uk/politics/reform-uk-wales-helen-jenner-dan-thomas-b3053553.html",
-          "source": "The Independent"
-        }
-      ],
-      "word_count": 598,
-      "page": "p/helen-jenner-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Granit Xhaka: why this search is trending today",
-      "slug": "granit-xhaka-why-this-search-is-trending-today",
-      "topic": "granit xhaka",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "People are searching for granit xhaka in GB. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"granit xhaka\" in GB. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "granit xhaka",
-        "granit xhaka news",
-        "google trends",
-        "GB",
-        "trending today"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSTQy3zGP594qk-_F3dW0G0VWdI-GFOjoLBrsGGIuE6WB7JVrRLiC3Wcur9iqA",
-      "related": [
-        {
-          "title": "Granit Xhaka admits to receiving fake Covid vaccination certificate in 2022",
-          "url": "https://www.theguardian.com/football/2026/sep/21/granit-xhaka-admits-receiving-fake-covid-vaccination-certificate",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Granit Xhaka admits he faked Covid vaccine",
-          "url": "https://www.telegraph.co.uk/football/2026/09/21/granit-xhaka-admits-he-faked-covid-vaccine/",
-          "source": "The Telegraph"
-        },
-        {
-          "title": "National Team Training Camp Without Granit Xhaka",
-          "url": "https://www.bluewin.ch/en/sport/football/national-team-training-camp-without-granit-xhaka-li.3607411",
-          "source": "bluewin.ch"
-        }
-      ],
-      "word_count": 584,
-      "page": "p/granit-xhaka-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Giorgia Meloni’s school proposals spark debate in Italy and abroad",
-      "slug": "giorgia-melonis-school-proposals-spark-debate-in-italy-and-abroad",
-      "topic": "giorgia meloni",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "The Italian government under Giorgia Meloni is preparing legislation to cap the number of foreign‑born pupils per class and to prohibit the wearing of burqas in schools. The proposals have triggered discussion in Italy and are currently tre",
-      "meta_description": "Italian Prime Minister Giorgia Meloni is proposing new school rules that would limit foreign student numbers and ban burqas in classrooms, sparking debate in It",
-      "keywords": [
-        "Giorgia Meloni",
-        "Italian education policy",
-        "school segregation",
-        "foreign student caps",
-        "burqa ban"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQPgpI7CGHGibrlw5WXc-ssGEZH5sUrhJr--3s_rYP6-TM_9i0_pRgKTMceBgk",
-      "related": [
-        {
-          "title": "Se per Meloni il problema della scuola sono i bambini",
-          "url": "https://www.repubblica.it/commenti/2026/09/21/news/tetto_studenti_stranieri_commento_cuzzocrea-425598252/",
-          "source": "la Repubblica"
-        },
-        {
-          "title": "Segregazione scolastica: curare i sintomi non basta (di V. Romania)",
-          "url": "https://www.huffingtonpost.it/blog/2026/09/21/news/segregazione_scolastica_curare_i_sintomi_non_basta-22755622/",
-          "source": "HuffPost Italia"
-        },
-        {
-          "title": "Meloni: A breve norma per tetto a numero studenti stranieri in classe e divieto di burqa a scuola",
-          "url": "https://stream24.ilsole24ore.com/video/italia/meloni-breve-norma-tetto-numero-studenti-stranieri-classe-e-divieto-burqa-scuola/AJxz1lJB",
-          "source": "Il Sole 24 ORE"
-        }
-      ],
-      "word_count": 668,
-      "page": "p/giorgia-melonis-school-proposals-spark-debate-in-italy-and-abroad.html"
-    },
-    {
-      "title": "Giants Vs Rams: why this search is trending today",
-      "slug": "giants-vs-rams-why-this-search-is-trending-today",
-      "topic": "giants vs rams",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "People are searching for giants vs rams in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"giants vs rams\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "giants vs rams",
-        "giants vs rams news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQtNv4hKF1eKwBlC2aVNBc6fhC6h4ixyKOt7Kx2_dIQZ52p-3Em1B1MlEKxeZA",
-      "related": [
-        {
-          "title": "Are Giants for real? New York has prime chance to prove they’re legit vs. Rams",
-          "url": "https://www.nytimes.com/athletic/7611622/2026/09/21/new-york-giants-rams-monday-night-football-jaxson-dart/",
-          "source": "The New York Times"
-        },
-        {
-          "title": "What channel is Rams vs. Giants for 'Monday Night Football'?",
-          "url": "https://sports.yahoo.com/articles/channel-rams-vs-giants-monday-110747444.html",
-          "source": "Yahoo Sports"
-        },
-        {
-          "title": "Top Rams News: Previews and predictions for Rams home opener vs. Giants on Monday Night Football in Week 2",
-          "url": "https://www.therams.com/news/top-rams-news-previews-and-predictions-for-rams-home-opener-vs-giants-on-monday-night-football-in-week-2-2026",
-          "source": "Rams"
-        }
-      ],
-      "word_count": 610,
-      "page": "p/giants-vs-rams-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Fat Bear Week: why this search is trending today",
-      "slug": "fat-bear-week-why-this-search-is-trending-today",
-      "topic": "fat bear week",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "People are searching for fat bear week in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"fat bear week\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "fat bear week",
-        "fat bear week news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTi5M9LdX4UPRo6L9Hq2DQuYfsK5Cy1s20wig9pjrMbwHqWXIgj2H_oXsDSoPc",
-      "related": [
-        {
-          "title": "Get your brackets ready for Fat Bear Week",
-          "url": "https://www.cnn.com/2026/09/20/travel/video/get-your-brackets-ready-forfatbearweek",
-          "source": "CNN"
-        },
-        {
-          "title": "Fat Bear Week is about to begin. Here are the chunky contenders.",
-          "url": "https://www.washingtonpost.com/travel/2026/09/18/fat-bear-week-lineup-has-been-revealed/",
-          "source": "The Washington Post"
-        },
-        {
-          "title": "Fat Bear Week has returned – and the salmon are swimming for their lives",
-          "url": "https://www.theguardian.com/us-news/2026/sep/18/fat-bear-week-2026",
-          "source": "The Guardian"
-        }
-      ],
-      "word_count": 597,
-      "page": "p/fat-bear-week-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Dubai mourns death of Sheikh Ahmed bin Rashid Al Maktoum",
-      "slug": "dubai-mourns-death-of-sheikh-ahmed-bin-rashid-al-maktoum",
-      "topic": "dubai",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "Sheikh Ahmed bin Rashid Al Maktoum has died, prompting Dubai to observe a ten‑day mourning period. The ruler’s passing is drawing attention to his contributions to horse racing and the broader community.",
-      "meta_description": "Dubai announces a ten‑day mourning period after the death of Sheikh Ahmed bin Rashid Al Maktoum, a key figure in the emirate's horse‑racing community.",
-      "keywords": [
-        "Sheikh Ahmed bin Rashid",
-        "Dubai mourning",
-        "UAE royalty",
-        "horse racing",
-        "Middle East news"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT57RxWLEDFNBlqZgfr91WaK_fkfiGTeGwrKhCQqMoW1nWN-lJ-FJPu-wPV-HM",
-      "related": [
-        {
-          "title": "Sheikh Ahmed bin Rashid Al Maktoum, owner of Mtoto and Addeybb, dies as Dubai declares ten days of mourning",
-          "url": "https://www.racingpost.com/news/international/uae/sheikh-ahmed-bin-rashid-al-maktoum-owner-of-mtoto-and-addeybb-dies-as-dubai-declares-ten-days-of-mourning-abMp96I8Aicu/",
-          "source": "Racing Post"
-        },
-        {
-          "title": "Sheikh Ahmed bin Rashid dies as Dubai declares 10-day mourning",
-          "url": "https://gulfbusiness.com/en/2026/news/sheikh-ahmed-bin-rashid-dies-as-dubai-declares-10-day-mourning/",
-          "source": "Gulf Business"
-        },
-        {
-          "title": "Dubai in Mourning as Sheikh Ahmed bin Rashid Al Maktoum Dies at 76",
-          "url": "https://www.thoroughbreddailynews.com/dubai-in-mourning-as-sheikh-ahmed-bin-rashid-al-maktoum-dies-at-76/",
-          "source": "Thoroughbred Daily News"
-        }
-      ],
-      "word_count": 621,
-      "page": "p/dubai-mourns-death-of-sheikh-ahmed-bin-rashid-al-maktoum.html"
-    },
-    {
-      "title": "Btc Usd: why this search is trending today",
-      "slug": "btc-usd-why-this-search-is-trending-today",
-      "topic": "btc usd",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "People are searching for btc usd in GB. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"btc usd\" in GB. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "btc usd",
-        "btc usd news",
-        "google trends",
-        "GB",
-        "trending today"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTtNftjLtbcYboJ0YTatlNrhw1mDpcP7eU82G1Uh6HOtfgEliEbbdkbrqW99qc",
-      "related": [
-        {
-          "title": "Technical outlook: US100, USD/CHF, BTC/USD [Video]",
-          "url": "https://www.fxstreet.com/analysis/us100-usd-chf-btc-usd-video-202609210927",
-          "source": "FXStreet"
-        },
-        {
-          "title": "Bitcoin hits highest level since January at $85,000, as the market debates whether the 'crypto winter' is over",
-          "url": "https://www.cnbc.com/2026/09/21/bitcoin-price-crypto-rally.html",
-          "source": "CNBC"
-        },
-        {
-          "title": "Bitcoin hits $85,000 as short squeeze forces out $648 million of bearish bets",
-          "url": "https://www.coindesk.com/markets/2026/09/21/bitcoin-hits-usd85-000-as-short-squeeze-forces-out-usd648-million-of-bearish-bets",
-          "source": "CoinDesk"
-        }
-      ],
-      "word_count": 597,
-      "page": "p/btc-usd-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Belfast International Airport: why this search is trending today",
-      "slug": "belfast-international-airport-why-this-search-is-trending-today",
-      "topic": "belfast international airport",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "People are searching for belfast international airport in GB. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"belfast international airport\" in GB. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "belfast international airport",
-        "belfast international airport news",
-        "google trends",
-        "GB",
-        "trending today"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQsuQsq-SagbW0SLBNcVQuipDewm7vJVlPi5tSp2GWrBVxfQkuU5du9A4tCnGM",
-      "related": [
-        {
-          "title": "Air traffic control issue causes UK flight disruption for second time this month - live updates",
-          "url": "https://www.bbc.co.uk/news/live/cq4g5r4e949jt",
-          "source": "BBC"
-        },
-        {
-          "title": "Air traffic control latest: Airlines criticise NATS after second major incident in two weeks",
-          "url": "https://news.sky.com/story/latest-updates-air-traffic-control-issue-delays-flights-in-northern-england-and-scotland-13588620",
-          "source": "Sky News"
-        },
-        {
-          "title": "Air traffic control failure ‘fixed’ after flight disruption in Scotland, Northern Ireland and northern England – business live",
-          "url": "https://www.theguardian.com/business/live/2026/sep/21/asian-shares-rise-optimism-us-chinese-talks-trade-ai-oil-falls-live-updates",
-          "source": "The Guardian"
-        }
-      ],
-      "word_count": 609,
-      "page": "p/belfast-international-airport-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Antigua & Barbuda Falcons clinch first Caribbean Premier League title",
-      "slug": "antigua-barbuda-falcons-clinch-first-caribbean-premier-league-title",
-      "topic": "antigua & barbuda falcons",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "The Antigua & Barbuda Falcons captured their first CPL crown after a close showdown with the Jamaica Kingsmen. A disciplined bowling effort helped seal the victory.",
-      "meta_description": "Antigua & Barbuda Falcons secured their maiden Caribbean Premier League championship in 2026, edging Jamaica Kingsmen in a tightly contested final with a spell",
-      "keywords": [
-        "Antigua & Barbuda Falcons",
-        "CPL 2026",
-        "Caribbean Premier League",
-        "cricket final",
-        "Moqim"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgCklyCgIgw-F9fCZu5qE4waxVsVoplK6Fkl3fbIQC631X_NYw6sqrL6P8WUw",
-      "related": [
-        {
-          "title": "ABF vs JKM, Final, Caribbean Premier League 2026 - Commentary",
-          "url": "https://m.cricbuzz.com/live-cricket-scores/154711/jkm-vs-abf-final-caribbean-premier-league-2026",
-          "source": "Cricbuzz"
-        },
-        {
-          "title": "Moqim four-for sets up Antigua and Barbuda Falcons' maiden CPL title win",
-          "url": "https://www.cricinfo.com/series/caribbean-premier-league-2026-1534175/antigua-and-barbuda-falcons-vs-jamaica-kingsmen-final-1534217/match-report",
-          "source": "Cricinfo"
-        },
-        {
-          "title": "Jamaica Kingsmen v Antigua & Barbuda Falcons CPL Final Tips: Falcons to finish the job",
-          "url": "https://betting.betfair.com/cricket/caribbean-premier-league/jamaica-kingsmen-v-antigua-barbuda-falcons-cpl-final-tips-falcons-to-finish-the-job-200926-194.html",
-          "source": "Betfair"
-        }
-      ],
-      "word_count": 921,
-      "page": "p/antigua-barbuda-falcons-clinch-first-caribbean-premier-league-title.html"
-    },
-    {
-      "title": "Adam Sandler: why this search is trending today",
-      "slug": "adam-sandler-why-this-search-is-trending-today",
-      "topic": "adam sandler",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "People are searching for adam sandler in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"adam sandler\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "adam sandler",
-        "adam sandler news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQktY3wispwsWakQtEBuWixELl8baQdf15XiP_SYiUl2lnjz8V-0YZvQvOGHD0",
-      "related": [
-        {
-          "title": "How an Adam Sandler film re-ignited my will to live as a cancer survivor",
-          "url": "https://www.jpost.com/opinion/article-908909",
-          "source": "The Jerusalem Post"
-        },
-        {
-          "title": "New film featuring Sandler’s daughter released on Netflix — Jerusalem Post",
-          "url": "https://ua.news/en/culture/novii-film-iz-donkoiu-sendlera-viishov-na-netflix-jerusalem-post",
-          "source": "UA.NEWS"
-        },
-        {
-          "title": "Review: Hard topic treated with earnestness, heart in ‘Don’t Say Good Luck’ -",
-          "url": "https://www.dominionpost.com/2026/09/17/review-hard-topic-treated-with-earnestness-heart-in-dont-say-good-luck/",
-          "source": "www.dominionpost.com"
-        }
-      ],
-      "word_count": 600,
-      "page": "p/adam-sandler-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "عروض اليوم الوطني: why this search is trending today",
-      "slug": "why-this-search-is-trending-today-20260920",
-      "topic": "عروض اليوم الوطني",
-      "date": "2026-09-20",
-      "date_pkt": "2026-09-20 03:41 PM PKT",
-      "excerpt": "People are searching for عروض اليوم الوطني in SA. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"عروض اليوم الوطني\" in SA. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "عروض اليوم الوطني",
-        "عروض اليوم الوطني news",
-        "google trends",
-        "SA",
-        "trending today"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSGvidcIg79OD23zdThYoLZqZvLQvj6UhuDfAXbTwVdkJQ3f6vZQfgaiZ1W6Y",
-      "related": [
-        {
-          "title": "عروض اليوم الوطني للرحلات الداخلية من 169 ريال | طيران ناس",
-          "url": "https://www.flynas.com/ar/flights-national-day-domestic-offer",
-          "source": "Flynas"
-        },
-        {
-          "title": "الخطوط السعودية تطلق عرضاً للسفر الداخلي بأسعار تبدأ من 196 ريالاً",
-          "url": "https://maaal.com/news/details/%D8%A7%D9%84%D8%AE%D8%B7%D9%88%D8%B7-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%B7%D9%84%D9%82-%D8%B9%D8%B1%D8%B6%D8%A7-a/",
-          "source": "صحيفة مال"
-        },
-        {
-          "title": "«دخونك عود» يطلق عرضًا وطنيًا بمناسبة اليوم الوطني السعودي الـ96",
-          "url": "https://shahdnow.sa/358945/",
-          "source": "شاهد الآن"
-        }
-      ],
-      "word_count": 596,
-      "page": "p/why-this-search-is-trending-today-20260920.html"
-    },
-    {
-      "title": "Wolves Vs West Brom: why this search is trending today",
-      "slug": "wolves-vs-west-brom-why-this-search-is-trending-today",
-      "topic": "wolves vs west brom",
-      "date": "2026-09-20",
-      "date_pkt": "2026-09-20 03:41 PM PKT",
-      "excerpt": "People are searching for wolves vs west brom in GB. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"wolves vs west brom\" in GB. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "wolves vs west brom",
-        "wolves vs west brom news",
-        "google trends",
-        "GB",
-        "trending today"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTIEisO-D2VtS00zssPpYLOCKipnMFGf80yQClF5SuYKeokSg1DSkJHbDR0d-4",
-      "related": [
-        {
-          "title": "Wolverhampton Wanderers v West Bromwich Albion: Championship stats & head-to-head",
-          "url": "https://www.bbc.co.uk/sport/football/live/ckq63v8pjj9lt",
-          "source": "BBC"
-        },
-        {
-          "title": "Live Blog | Wolves vs West Brom | Men's First-Team | Latest News",
-          "url": "https://www.wolves.co.uk/news/mens-first-team/20260918-live-blog-wolves-vs-west-brom/",
-          "source": "Wolverhampton Wanderers FC"
-        },
-        {
-          "title": "Wolves vs West Brom LIVE! Championship match updates, score, stream and free highlights",
-          "url": "https://www.skysports.com/football/live-blog/11095/13589589/wolves-vs-west-brom-live-championship-match-updates-score-stream-and-free-highlights",
-          "source": "Sky Sports"
-        }
-      ],
-      "word_count": 605,
-      "page": "p/wolves-vs-west-brom-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "West Indies Squad Set for 2026 India T20I Series",
-      "slug": "west-indies-squad-set-for-2026-india-t20i-series",
-      "topic": "west indies cricket team",
-      "date": "2026-09-20",
-      "date_pkt": "2026-09-20 03:41 PM PKT",
-      "excerpt": "Pakistan fans are watching the West Indies cricket team’s upcoming tour of India with interest, especially after the selection of Kamil Pooran for the T20I squad. The series promises a mix of seasoned players and fresh talent.",
-      "meta_description": "The West Indies cricket team has announced its squad for the 2026 T20I series in India, featuring new talent and a mix of experienced players.",
-      "keywords": [
-        "West Indies cricket team",
-        "India T20I series 2026",
-        "Kamil Pooran",
-        "Shai Hope",
-        "cricket squad selection"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSiGOTSrpYEgDLCY5qnh8CpJpjgrpLs4S-KlQEcUtefKFRpIF2vNucs4_yrcqM",
-      "related": [
-        {
-          "title": "Kamil Pooran earns maiden T20I call-up for WI tour of India; Holder rested",
-          "url": "https://www.cricinfo.com/story/ind-vs-wi-kamil-pooran-earns-maiden-t20i-call-up-for-west-indies-tour-of-india-1555049",
-          "source": "Cricinfo"
-        },
-        {
-          "title": "West Indies squad for India T20I series 2026: Shai Hope to lead, Kamil Pooran makes the cut",
-          "url": "https://www.olympics.com/en/news/west-indies-t20-cricket-squad-team-india-2026-series",
-          "source": "Olympics"
-        },
-        {
-          "title": "West Indies unveil ODI and T20I squads for India tour",
-          "url": "https://www.icc-cricket.com/tournaments/icc-cricket-world-cup-2027/news/west-indies-unveil-odi-and-t20i-squads-for-india-tour",
-          "source": "ICC"
-        }
-      ],
-      "word_count": 933,
-      "page": "p/west-indies-squad-set-for-2026-india-t20i-series.html"
-    },
-    {
-      "title": "Ufc: why this search is trending today",
-      "slug": "ufc-why-this-search-is-trending-today",
-      "topic": "ufc",
-      "date": "2026-09-20",
-      "date_pkt": "2026-09-20 03:41 PM PKT",
-      "excerpt": "People are searching for ufc in PK. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"ufc\" in PK. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "ufc",
-        "ufc news",
-        "google trends",
-        "PK",
-        "trending today"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQWXg-q4jJfOQcWJkQUXSgsF-4bwSVQOXUVKWmMTzxVlQdaIF5lqMr8JBY03Us",
-      "related": [
-        {
-          "title": "UFC 331 results: Van dominates Pantoja to retain men's flyweight title",
-          "url": "https://www.espn.in/mma/story/_/id/49953092/ufc-331-live-results-analysis-joshua-van-vs-alexandre-pantoja-2",
-          "source": "ESPN India"
-        },
-        {
-          "title": "Official Scorecards | Crypto.com UFC 331: Van vs Pantoja 2",
-          "url": "https://www.ufc.com/news/cryptocom-ufc-331-van-vs-pantoja-2-official-scorecards",
-          "source": "UFC.com"
-        },
-        {
-          "title": "Dana White doubles 'Mobland Bonus' to help Sean Sharaf pay off $688,000 debt after UFC 331",
-          "url": "https://bloodyelbow.com/2026/09/20/dana-white-doubles-mobland-bonus-to-help-sean-sharaf-pay-off-688000-debt-after-ufc-331/",
-          "source": "Bloody Elbow"
-        }
-      ],
-      "word_count": 593,
-      "page": "p/ufc-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "TikTok faces new legal setbacks in US privacy cases",
-      "slug": "tiktok-faces-new-legal-setbacks-in-us-privacy-cases",
-      "topic": "tiktok",
-      "date": "2026-09-20",
-      "date_pkt": "2026-09-20 03:41 PM PKT",
-      "excerpt": "Recent court rulings have limited TikTok's proposed settlements over privacy violations. The decisions are prompting users and regulators worldwide to watch the platform closely.",
-      "meta_description": "TikTok is under fresh scrutiny as US courts reject parts of its privacy settlement, sparking global interest and raising questions about future regulation.",
-      "keywords": [
-        "TikTok",
-        "privacy settlement",
-        "US courts",
-        "child data",
-        "regulation"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT8b7MwLVnZ1wzZpnYYTAHD5bPHd9L1o7j9IghwC0my2pFMQjgerE4ip33yiMQ",
-      "related": [
-        {
-          "title": "US judge signals rejection of part of TikTok privacy settlement",
-          "url": "https://www.reuters.com/legal/government/us-judge-signals-rejection-part-tiktok-privacy-settlement-2026-09-19/",
-          "source": "Reuters"
-        },
-        {
-          "title": "California Court Blocks Part of TikTok’s $400 Million Settlement",
-          "url": "https://finance.yahoo.com/media-advertising/articles/california-court-blocks-part-tiktok-055403540.html",
-          "source": "Yahoo Finance"
-        },
-        {
-          "title": "DOJ's $100m bid to lift TikTok child privacy order faces rejection",
-          "url": "https://ppc.land/dojs-100m-bid-to-lift-tiktok-child-privacy-order-faces-rejection/",
-          "source": "PPC Land"
-        }
-      ],
-      "word_count": 759,
-      "page": "p/tiktok-faces-new-legal-setbacks-in-us-privacy-cases.html"
-    },
-    {
-      "title": "The Scandal Netflix: why this search is trending today",
-      "slug": "the-scandal-netflix-why-this-search-is-trending-today",
-      "topic": "the scandal netflix",
-      "date": "2026-09-20",
-      "date_pkt": "2026-09-20 03:41 PM PKT",
-      "excerpt": "People are searching for the scandal netflix in IN. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"the scandal netflix\" in IN. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "the scandal netflix",
-        "the scandal netflix news",
-        "google trends",
-        "IN",
-        "trending today"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRLrDVjzo4RnbPPD5J80iFUY0lQ2yrhV0na9WC2hNalZFjVLKuZMLwN6D1wj_A",
-      "related": [
-        {
-          "title": "The Scandal (2026)",
-          "url": "https://www.imdb.com/title/tt36347588/mediaviewer/rm3494117122/",
-          "source": "IMDb"
-        },
-        {
-          "title": "Breaking Down the Devastating Ending of 'The Scandal'",
-          "url": "https://time.com/article/2026/09/18/breaking-down-the-ending-of-the-scandal/",
-          "source": "Time Magazine"
-        },
-        {
-          "title": "Son Ye-jin wants to try Indian Ayurvedic massage, Ji Chang-wook talks about their series 'The Scandal'",
-          "url": "https://www.telegraphindia.com/entertainment/son-ye-jin-wants-to-try-indian-ayurvedic-massage-ji-chang-wook-talks-about-the-scandal/cid/2180515",
-          "source": "Telegraph India"
-        }
-      ],
-      "word_count": 592,
-      "page": "p/the-scandal-netflix-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "The Blame: why this search is trending today",
-      "slug": "the-blame-why-this-search-is-trending-today",
-      "topic": "the blame",
-      "date": "2026-09-20",
-      "date_pkt": "2026-09-20 03:41 PM PKT",
-      "excerpt": "People are searching for the blame in GB. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"the blame\" in GB. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "the blame",
-        "the blame news",
-        "google trends",
-        "GB",
-        "trending today"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE1lQtuU_L0DMYEFo4Kf8TRXWFu9-uayqnHQHovE5h2MErqChK3Jjx4VP9ZXE",
-      "related": [
-        {
-          "title": "The Blame Episode 1 Recap & Ending Explained: Who Killed Sophie Madsen?",
-          "url": "https://www.esquire.com/uk/culture/tv/a73790862/the-blame-episode-1-recap-and-ending-explained/",
-          "source": "Esquire"
-        },
-        {
-          "title": "The Blame: Michelle Keegan and Douglas Booth interview",
-          "url": "https://www.stylist.co.uk/entertainment/michelle-keegan-douglas-booth-the-blame-interview/1111602",
-          "source": "Stylist"
-        },
-        {
-          "title": "Michelle Keegan jokes what ITV's The Blame wouldn't have needed if filmed in Manchester",
-          "url": "https://www.manchestereveningnews.co.uk/news/tv/michelle-keegan-jokes-what-itvs-34632342",
-          "source": "Manchester Evening News"
-        }
-      ],
-      "word_count": 593,
-      "page": "p/the-blame-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Saudi National Day: why this search is trending today",
-      "slug": "saudi-national-day-why-this-search-is-trending-today",
-      "topic": "saudi national day",
-      "date": "2026-09-20",
-      "date_pkt": "2026-09-20 03:41 PM PKT",
-      "excerpt": "People are searching for saudi national day in SA. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"saudi national day\" in SA. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "saudi national day",
-        "saudi national day news",
-        "google trends",
-        "SA",
-        "trending today"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTJ7btEZE9AGYwgUznPrjb3BXOQS-Bcvq6QknibKmw_yegmq-jlMtj9GAyERf8",
-      "related": [
-        {
-          "title": "Northern Borders Region Gears Up for Saudi National Day with Diverse Celebrations",
-          "url": "https://www.spa.gov.sa/en/N2680724",
-          "source": "وكالة الأنباء السعودية"
-        },
-        {
-          "title": "Saudi National Day celebrations to feature airshows, naval displays and fireworks across Kingdom",
-          "url": "https://saudigazette.com.sa/article/664689",
-          "source": "Saudi Gazette"
-        },
-        {
-          "title": "Trendyol puts Saudi sellers center stage for Saudi National Day",
-          "url": "https://www.zawya.com/en/press-release/companies-news/trendyol-puts-saudi-sellers-center-stage-for-saudi-national-day-958552",
-          "source": "Zawya"
-        }
-      ],
-      "word_count": 599,
-      "page": "p/saudi-national-day-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Samsung One Ui 9: why this search is trending today",
-      "slug": "samsung-one-ui-9-why-this-search-is-trending-today",
-      "topic": "samsung one ui 9",
-      "date": "2026-09-20",
-      "date_pkt": "2026-09-20 03:41 PM PKT",
-      "excerpt": "People are searching for samsung one ui 9 in GB. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"samsung one ui 9\" in GB. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "samsung one ui 9",
-        "samsung one ui 9 news",
-        "google trends",
-        "GB",
-        "trending today"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRCkFj8ma6GXMuCrQLpz2xcVyEuCnPU4AZvHbJwPCYZoDHxPb_E9LfKg6V8UQg",
-      "related": [
-        {
-          "title": "Samsung releases stable One UI 9.0 update for Galaxy S26 series",
-          "url": "https://www.sammobile.com/news/galaxy-s26-stable-one-ui-9-0-update-released/",
-          "source": "SamMobile"
-        },
-        {
-          "title": "Samsung Confirms Free Feature Upgrade For Millions Of Galaxy Phones",
-          "url": "https://www.forbes.com/sites/jaymcgregor/2026/09/19/samsung-one-ui-9-official-rollout-galaxy-s26-11-new-features-2026/",
-          "source": "Forbes"
-        },
-        {
-          "title": "Galaxy S25 and older models finally have a One UI 9 rollout date",
-          "url": "https://www.androidauthority.com/samsung-galaxy-s25-z-fold-7-flip-7-one-ui-9-rollout-date-3712314/",
-          "source": "Android Authority"
-        }
-      ],
-      "word_count": 602,
-      "page": "p/samsung-one-ui-9-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Rohit Shetty Announces Release Date for Golmaal 5",
-      "slug": "rohit-shetty-announces-release-date-for-golmaal-5",
-      "topic": "golmaal 5",
-      "date": "2026-09-20",
-      "date_pkt": "2026-09-20 03:41 PM PKT",
-      "excerpt": "Golmaal 5, the fifth installment of Rohit Shetty’s popular comedy franchise, has announced a release date that has fans eager for more laughs. The film reunites the original cast and promises a fresh storyline.",
-      "meta_description": "Rohit Shetty’s upcoming comedy, Golmaal 5, has secured a release date, sparking excitement among fans worldwide. Find out what to expect for viewers.",
-      "keywords": [
-        "Golmaal 5",
-        "Rohit Shetty",
-        "Ajay Devgn",
-        "Tusshar Kapoor",
-        "Bollywood comedy"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQz8y5tubVd7wk2FvVCjAnZSs2S-Ksb8Sw7F0E0tmoYsgd13-6KSg4bHv5U-uc",
-      "related": [
-        {
-          "title": "Check out the motion poster of ‘Golmaal 5’ | Ajay Devgn, Tusshar Kapoor, Sharman Joshi, Kunal Kemmu, Shreyas Talpade",
-          "url": "https://www.bollywoodhungama.com/videos/movie-promos/check-out-the-motion-poster-of-golmaal-5-ajay-devgn-tusshar-kapoor-sharman-joshi-kunal-kemmu-shreyas-talpade/",
-          "source": "Bollywood Hungama"
-        },
-        {
-          "title": "ENTERTAINMENT BUZZ",
-          "url": "https://theshillongtimes.com/2026/09/20/entertainment-buzz-522/",
-          "source": "The Shillong Times"
-        },
-        {
-          "title": "‘Golmaal 5’: Rohit Shetty’s multistarrer comedy gets release date",
-          "url": "https://www.thehindu.com/entertainment/movies/golmaal-5-rohit-shettys-multistarrer-comedy-gets-release-date-ajay-devgn-arshad-warsi/article71483896.ece",
-          "source": "The Hindu"
-        }
-      ],
-      "word_count": 595,
-      "page": "p/rohit-shetty-announces-release-date-for-golmaal-5.html"
-    },
-    {
-      "title": "Riyadh Saudi Arabia: why this search is trending today",
-      "slug": "riyadh-saudi-arabia-why-this-search-is-trending-today",
-      "topic": "riyadh saudi arabia",
-      "date": "2026-09-20",
-      "date_pkt": "2026-09-20 03:41 PM PKT",
-      "excerpt": "People are searching for riyadh saudi arabia in IN. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"riyadh saudi arabia\" in IN. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "riyadh saudi arabia",
-        "riyadh saudi arabia news",
-        "google trends",
-        "IN",
-        "trending today"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzIX4wFgmXhqXGn2NMsRBISb6yKu_h6zYrITJ79O64Va0imeSyVMTUcHE-vyM",
-      "related": [
-        {
-          "title": "Saudi-led coalition says defence intercepted Houthi missile fired at Riyadh",
-          "url": "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh",
-          "source": "Al Jazeera"
-        },
-        {
-          "title": "Video: Smoke, Fire At Riyadh Airport As Houthis Fire \"Ballistic Missiles\"",
-          "url": "https://www.ndtv.com/world-news/after-fire-near-riyadh-airport-houthis-say-they-targeted-sensitive-sites-12070048",
-          "source": "NDTV"
-        },
-        {
-          "title": "‘Major problems’ at Riyadh airport, with flights cancelled, delayed: Flightradar24",
-          "url": "https://www.thehindu.com/news/international/disruptions-at-riyadh-airport-flights-cancelled-delayed-aramco-fuel-tank-fire/article71484937.ece",
-          "source": "The Hindu"
-        }
-      ],
-      "word_count": 595,
-      "page": "p/riyadh-saudi-arabia-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "New York: why this search is trending today",
-      "slug": "new-york-why-this-search-is-trending-today",
-      "topic": "new york",
-      "date": "2026-09-20",
-      "date_pkt": "2026-09-20 03:41 PM PKT",
-      "excerpt": "People are searching for new york in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"new york\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "new york",
-        "new york news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0JtPlwciPxoek7riFz2rwyC2X7ZOSwndJop-XcWMX948GHqS4YQTpbDSCe1U",
-      "related": [
-        {
-          "title": "Opinion | Please Stand Clear of the Accidental Art Museum",
-          "url": "https://www.nytimes.com/2026/09/19/opinion/mta-art-nyc-subway.html",
-          "source": "The New York Times"
-        },
-        {
-          "title": "NYC deploys robotoilets. The public bathrooms have a strict 10-minute time limit.",
-          "url": "https://gothamist.com/news/nyc-deploys-robotoilets-the-public-bathrooms-have-a-strict-10-minute-time-limit",
-          "source": "Gothamist"
-        },
-        {
-          "title": "Mayor Mamdani Brings 17 New Public Bathrooms to Neighborhoods Across New York City",
-          "url": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-brings-17-new-public-bathrooms-to-neighborhoods-ac",
-          "source": "NYC.gov"
-        }
-      ],
-      "word_count": 595,
-      "page": "p/new-york-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "NBEMS NEET PG 2026 result: date, download steps and details",
-      "slug": "nbems-neet-pg-2026-result-date-download-steps-and-details",
-      "topic": "nbems neet pg result",
-      "date": "2026-09-20",
-      "date_pkt": "2026-09-20 03:41 PM PKT",
-      "excerpt": "The National Board of Examinations is preparing to publish the NBEMS NEET PG 2026 result. Candidates can expect a clear timeline for downloading their scores and the next steps toward counseling.",
-      "meta_description": "The NBEMS NEET PG result for 2026 is set to be released soon. Learn the expected date, how to download the scorecard, and what follows after the announcement.",
-      "keywords": [
-        "NBEMS",
-        "NEET PG",
-        "2026 result",
-        "medical entrance",
-        "India"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSpQ_0a5HI1jPt41pcWRrrAX7MKrEENp7FZiPhgtWyCoAricod6Vlks9nbdINE",
-      "related": [
-        {
-          "title": "NEET PG 2026 answer key, response sheet to be released soon: Check marking scheme and steps to download",
-          "url": "https://timesofindia.indiatimes.com/education/news/neet-pg-2026-answer-key-response-sheet-to-be-released-soon-check-marking-scheme-and-steps-to-download/articleshow/134350540.cms",
-          "source": "The Times of India"
-        },
-        {
-          "title": "NEET PG 2026 Result Live Updates; When will NBEMS NEET PG Result be declared?",
-          "url": "https://www.shiksha.com/news/medicine-health-sciences-neet-pg-2026-result-natboard-edu-in-live-updates-blogId-242239",
-          "source": "Shiksha.com"
-        },
-        {
-          "title": "NEET PG Answer Key 2026 Live: Provisional Key, Response Sheet Expected Soon; Check Latest Updates",
-          "url": "https://www.ndtv.com/education/neet-pg-answer-key-2026-live-provisional-key-response-sheet-expected-soon-check-latest-updates-12071337",
-          "source": "NDTV"
-        }
-      ],
-      "word_count": 745,
-      "page": "p/nbems-neet-pg-2026-result-date-download-steps-and-details.html"
-    },
-    {
-      "title": "Liverpool Echo: why this search is trending today",
-      "slug": "liverpool-echo-why-this-search-is-trending-today",
-      "topic": "liverpool echo",
-      "date": "2026-09-20",
-      "date_pkt": "2026-09-20 03:41 PM PKT",
-      "excerpt": "People are searching for liverpool echo in GB. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"liverpool echo\" in GB. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "liverpool echo",
-        "liverpool echo news",
-        "google trends",
-        "GB",
-        "trending today"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQk5gaP0xW2-HUdShvIk0e-d2q6026A8esJpkpZUvyXAImv25qEnDtWiGiQeYA",
-      "related": [
-        {
-          "title": "Liverpool city centre street closed after police incident - live updates",
-          "url": "https://www.liverpoolecho.co.uk/news/liverpool-news/liverpool-city-centre-police-live-34643992",
-          "source": "Liverpool Echo"
-        },
-        {
-          "title": "Three men stabbed outside city centre LGBTQ nightclub in early hours as cops launch manhunt",
-          "url": "https://www.thesun.co.uk/news/40435955/three-men-stabbed-city-centre-lgbtq-nightclub-cops-manhunt/",
-          "source": "The Sun"
-        },
-        {
-          "title": "Breaking news",
-          "url": "https://www.facebook.com/theliverpoolecho/posts/breaking-news/1439665794926359/",
-          "source": "Facebook"
-        }
-      ],
-      "word_count": 585,
-      "page": "p/liverpool-echo-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Laura Kuenssberg: why this search is trending today",
-      "slug": "laura-kuenssberg-why-this-search-is-trending-today",
-      "topic": "laura kuenssberg",
-      "date": "2026-09-20",
-      "date_pkt": "2026-09-20 03:41 PM PKT",
-      "excerpt": "People are searching for laura kuenssberg in GB. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"laura kuenssberg\" in GB. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "laura kuenssberg",
-        "laura kuenssberg news",
-        "google trends",
-        "GB",
-        "trending today"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_9Nt3BuOhHw0OAOt62wmexTzPJanKZx-jpxH0cLQgaVAH9eKv9CT1jr1cRS0",
-      "related": [
-        {
-          "title": "Lib Dem leader says UK should join EU migration pact to curb small boat crossings",
-          "url": "https://www.bbc.co.uk/news/live/c32l8r2kzg8et",
-          "source": "BBC"
-        },
-        {
-          "title": "'Major deterrent' needed for small boats, says Ed Davey",
-          "url": "https://www.bbc.com/news/articles/cm74kw59e2j1o",
-          "source": "BBC"
-        },
-        {
-          "title": "Lib Dems' Ed Davey questioned on Brexit, bin strikes, and small boats on BBC local radio",
-          "url": "https://www.bbc.co.uk/news/live/cv2dwrj45rnlt",
-          "source": "BBC"
-        }
-      ],
-      "word_count": 596,
-      "page": "p/laura-kuenssberg-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Kauai: why this search is trending today",
-      "slug": "kauai-why-this-search-is-trending-today",
-      "topic": "kauai",
-      "date": "2026-09-20",
-      "date_pkt": "2026-09-20 03:41 PM PKT",
-      "excerpt": "People are searching for kauai in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"kauai\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "kauai",
-        "kauai news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSSFT3pMc8-t44Dz1E-iZHq5mImzeGeFy13I86KeLZUMbxqC2_09eaIFINWqOY",
-      "related": [
-        {
-          "title": "Kauaʻi has been seeing green after Hurricane Lowell knocked down thousands of avocado trees",
-          "url": "https://kauainownews.com/2026/09/19/kaua%CA%BBi-has-been-seeing-green-after-hurricane-lowell-knocked-down-thousands-of-avocados-trees/",
-          "source": "Kauai Now"
-        },
-        {
-          "title": "Visitors, hosts clash over vacation rental cancellations on Kauai following Hurricane Lowell",
-          "url": "https://www.hawaiinewsnow.com/2026/09/18/visitors-hosts-clash-over-vacation-rental-cancellations-kauai-following-hurricane-lowell/",
-          "source": "Hawaii News Now"
-        },
-        {
-          "title": "Major travel destination closes all state parks indefinitely after ‘unreal’ storm damage",
-          "url": "https://www.mlive.com/news/2026/09/major-travel-destination-closes-all-state-parks-indefinitely-after-unreal-hurricane-damage.html",
-          "source": "MLive.com"
-        }
-      ],
-      "word_count": 593,
-      "page": "p/kauai-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Japan: why this search is trending today",
-      "slug": "japan-why-this-search-is-trending-today",
-      "topic": "japan",
-      "date": "2026-09-20",
-      "date_pkt": "2026-09-20 03:41 PM PKT",
-      "excerpt": "People are searching for japan in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"japan\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "japan",
-        "japan news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQiLjWUTNNY0yTr3KWcVtNdHWy6x4bCuOQ-k-mAds7op7P97K7VFtm971TDDAE",
-      "related": [
-        {
-          "title": "North Korea launches projectile toward the sea",
-          "url": "https://apnews.com/article/north-south-korea-launch-ad020d996b61dedd358cc689db614fdb",
-          "source": "AP News"
-        },
-        {
-          "title": "North Korea test-launches ballistic missile, South Korea says",
-          "url": "https://www.yahoo.com/news/world/articles/north-korea-test-launches-ballistic-095940874.html",
-          "source": "Yahoo"
-        },
-        {
-          "title": "Korean Peninsula Update, September 16, 2026",
-          "url": "https://understandingwar.org/research/china-taiwan/korean-peninsula-update-september-16-2026/",
-          "source": "Institute for the Study of War"
-        }
-      ],
-      "word_count": 579,
-      "page": "p/japan-why-this-search-is-trending-today.html"
     }
   ]
 }
