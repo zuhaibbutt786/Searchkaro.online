@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-09T12:39:43.642986+00:00",
-  "updated_at_pkt": "2026-10-09 05:36 PM PKT",
+  "updated_at": "2026-10-10T11:58:33.118364+00:00",
+  "updated_at_pkt": "2026-10-10 04:56 PM PKT",
   "count": 500,
-  "new_in_this_run": 28,
+  "new_in_this_run": 30,
   "sources": [
     "https://trends.google.com/trending/rss?geo=PK",
     "https://trends.google.com/trending/rss?geo=IN",
@@ -11,6 +11,1174 @@
     "https://trends.google.com/trending/rss?geo=SA"
   ],
   "items": [
+    {
+      "title": "‘Harry Potter’ Star Confirms Massive Update for HBO Series",
+      "slug": "harry-potter-star-confirms-massive-update-for-hbo-series",
+      "topic": "now tv",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Coverage linked to \"now tv\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "now tv: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "now tv",
+        "now tv news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQPtEdzwR8HOLhordFmp2cI0BjuVo9kmtwvyEjQecZBUA9mDbjDd0pm2UwzhRU",
+      "related": [
+        {
+          "title": "‘Harry Potter’ Star Confirms Massive Update for HBO Series",
+          "url": "https://collider.com/harry-potter-hbo-series-10-hours-runtime-johnny-flynn/",
+          "source": "Collider"
+        },
+        {
+          "title": "HBO’s Harry Potter reboot is now TV-14: a darker bet on older fans",
+          "url": "https://en.softonic.com/articles/hbos-harry-potter-reboot-is-now-tv-14-a-darker-bet-on-older-fans",
+          "source": "Softonic"
+        },
+        {
+          "title": "10 things we want to see in season one of HBO's 'Harry Potter' show",
+          "url": "https://www.businessinsider.com/harry-potter-missing-details-from-books-want-in-tv-show",
+          "source": "Business Insider"
+        }
+      ],
+      "word_count": 335,
+      "page": "p/harry-potter-star-confirms-massive-update-for-hbo-series.html"
+    },
+    {
+      "title": "जिस धर्मेंद्र कश्यप के लिए बदल दी थी मेनका-वरुण गांधी की सीट, वही BJP…",
+      "slug": "bjp",
+      "topic": "धर्मेंद्र कश्यप",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Coverage linked to \"धर्मेंद्र कश्यप\" is circulating in IN. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "धर्मेंद्र कश्यप: coverage and context for readers in IN. Summary of related reports and what to verify next.",
+      "keywords": [
+        "धर्मेंद्र कश्यप",
+        "धर्मेंद्र कश्यप news",
+        "IN",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQCsKRiNjolSlR9XE5RBmfzUWoYVY7bgm73yjPpPUQBb8i7U47ZgjSp2Z6m8YE",
+      "related": [
+        {
+          "title": "जिस धर्मेंद्र कश्यप के लिए बदल दी थी मेनका-वरुण गांधी की सीट, वही BJP से क्यों हुए बागी",
+          "url": "https://www.aajtak.in/elections/assembly-chunav/story/dharmendra-kashyap-bjp-seat-change-menaka-varun-gandhi-rebel-joins-sp-ruhelkhand-politics-ntcpkb-dskc-2663932-2026-10-07",
+          "source": "Aaj Tak"
+        },
+        {
+          "title": "पूर्व सांसद कश्यप ने सपा में जाने का किया ऐलान: फेसबुक पर इस्तीफा किया शेयर, बोले बेटी लड़ेगी बिथरी चैनपुर ...",
+          "url": "https://www.bhaskar.com/local/uttar-pradesh/bareilly/news/dharmendra-kashyap-resigns-bjp-joins-sp-bareilly-bithri-chainpur-139300874.html",
+          "source": "Dainik Bhaskar"
+        },
+        {
+          "title": "यूपी में भाजपा को झटका: 'टाटा-बाय-बाय' के बाद अब इस्तीफे का एलान, पूर्व सांसद धर्मेंद्र कश्यप ने निकाली भड़ास",
+          "url": "https://www.amarujala.com/uttar-pradesh/bareilly/former-mp-dharmendra-kashyap-resigns-from-bjp-alleges-neglect-of-backward-community-2026-10-09",
+          "source": "Amar Ujala"
+        }
+      ],
+      "word_count": 429,
+      "page": "p/bjp.html"
+    },
+    {
+      "title": "ریاض: what readers need to know",
+      "slug": "what-readers-need-to-know-20261010",
+      "topic": "ریاض",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Coverage linked to \"ریاض\" is circulating in PK. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "ریاض: coverage and context for readers in PK. Summary of related reports and what to verify next.",
+      "keywords": [
+        "ریاض",
+        "ریاض news",
+        "PK",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "",
+      "related": [],
+      "word_count": 300,
+      "page": "p/what-readers-need-to-know-20261010.html"
+    },
+    {
+      "title": "التربية تتيح للطلبة الاطلاع على المناهج الدراسية الجديدة عبر بوابتها…",
+      "slug": "news-1791633509",
+      "topic": "منهج",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Coverage linked to \"منهج\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "منهج: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "منهج",
+        "منهج news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1WlNP91YM6N4sKDqLdiKTGaaqSIuwerkXT8uAooWS8DHHleYzmYjD7fjuI70",
+      "related": [
+        {
+          "title": "التربية تتيح للطلبة الاطلاع على المناهج الدراسية الجديدة عبر بوابتها الإلكترونية » وكالة الغد برس",
+          "url": "https://alghadpress.com/121584-.html",
+          "source": "alghadpress.com"
+        },
+        {
+          "title": "التربية تتيح مناهج جديدة للصفين الأول الابتدائي والرابع الإعدادي",
+          "url": "https://964media.com/724109/",
+          "source": "شبكة 964"
+        },
+        {
+          "title": "وزارة التربية: اكتمال طباعة كتب الصفوف الأولية بنسبة 100%",
+          "url": "https://www.alrasheedmedia.com/2026/10/08/706462/",
+          "source": "قناة الرشيد الفضائية"
+        }
+      ],
+      "word_count": 326,
+      "page": "p/news-1791633509.html"
+    },
+    {
+      "title": "أرتيتا: رغم أزمة سيتي لا يزال الدوري الإنجليزي الأفضل في العالم",
+      "slug": "news-1791633502",
+      "topic": "آرسنال ضد ليدز",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Coverage linked to \"آرسنال ضد ليدز\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "آرسنال ضد ليدز: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "آرسنال ضد ليدز",
+        "آرسنال ضد ليدز news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "2000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSKafZkJO9UhljIAEJen1gU2Y6TEFYGmZRvNVlznAvOgThcg-Th9_mGTeQfKcI",
+      "related": [
+        {
+          "title": "أرتيتا: رغم أزمة سيتي لا يزال الدوري الإنجليزي الأفضل في العالم",
+          "url": "https://www.alarabiya.net/sport/2026/10/09/%D8%A7%D8%B1%D8%AA%D9%8A%D8%AA%D8%A7-%D8%B1%D8%BA%D9%85-%D8%A7%D8%B2%D9%85%D8%A9-%D8%B3%D9%8A%D8%AA%D9%8A-%D9%84%D8%A7-%D9%8A%D8%B2%D8%A7%D9%84-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-%D8%A7%D9%84%D8%A7%D9%81%D8%B6%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85",
+          "source": "العربية"
+        },
+        {
+          "title": "\"ضميري مرتاح\".. أرتيتا يرد على سؤال محرج بشأن مانشستر سيتي",
+          "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B6%D9%85%D9%8A%D8%B1%D9%8A-%D9%85%D8%B1%D8%AA%D8%A7%D8%AD--%D8%A7%D9%94%D8%B1%D8%AA%D9%8A%D8%AA%D8%A7-%D9%8A%D8%B1%D8%AF-%D8%B9%D9%84%D9%89-%D8%B3%D9%88%D9%94%D8%A7%D9%84-%D9%85%D8%AD%D8%B1%D8%AC-%D8%A8%D8%B4%D8%A7%D9%94%D9%86-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D8%B3%D9%8A%D8%AA%D9%8A/blt42b99dc2ef2be283",
+          "source": "Kooora"
+        },
+        {
+          "title": "ساكا يقود هجوم أرسنال أمام ليدز يونايتد في الدوري الإنجليزي",
+          "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=10102026&id=e491ddcf-32e2-41dd-b831-4643a77c0d22",
+          "source": "بوابة الشروق"
+        }
+      ],
+      "word_count": 332,
+      "page": "p/news-1791633502.html"
+    },
+    {
+      "title": "psim vs persija jakarta: what readers need to know",
+      "slug": "psim-vs-persija-jakarta-what-readers-need-to-know",
+      "topic": "psim vs persija jakarta",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Coverage linked to \"psim vs persija jakarta\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "psim vs persija jakarta: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "psim vs persija jakarta",
+        "psim vs persija jakarta news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "",
+      "related": [],
+      "word_count": 318,
+      "page": "p/psim-vs-persija-jakarta-what-readers-need-to-know.html"
+    },
+    {
+      "title": "World Economic Forum Calls for Administrative Redesign in Pakistan",
+      "slug": "world-economic-forum-calls-for-administrative-redesign-in-pakistan",
+      "topic": "world economic forum",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "The World Economic Forum has issued a report urging Pakistan to restructure its administrative units to cope with fast‑growing populations. The proposal has ignited both support and criticism across the political spectrum.",
+      "meta_description": "The World Economic Forum proposes sweeping administrative reforms for Pakistan to manage rapid population growth, sparking debate over governance and national u",
+      "keywords": [
+        "World Economic Forum",
+        "Pakistan reform",
+        "administrative redesign",
+        "population growth",
+        "governance"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQyZQkeAgKY8-N1T3e0pFsxLgBnGxdLWgtlY16c4UPJFR9Zj1R_iueIiNskQKs",
+      "related": [
+        {
+          "title": "What Pakistan reveals about administrative reform for fast-growing populations",
+          "url": "https://www.weforum.org/stories/geographies-in-depth/pakistan-administrative-reform-fast-growing-populations/",
+          "source": "The World Economic Forum"
+        },
+        {
+          "title": "World Economic Forum presents case for ‘administrative redesign’ in Pakistan",
+          "url": "https://www.dawn.com/news/2036101",
+          "source": "Dawn"
+        },
+        {
+          "title": "A selfish ploy to break up Pakistan",
+          "url": "https://www.economist.com/leaders/2026/10/08/a-selfish-ploy-to-break-up-pakistan",
+          "source": "The Economist"
+        }
+      ],
+      "word_count": 549,
+      "page": "p/world-economic-forum-calls-for-administrative-redesign-in-pakistan.html"
+    },
+    {
+      "title": "World Dairy Expo 2026 Highlights Innovations in Milk Production",
+      "slug": "world-dairy-expo-2026-highlights-innovations-in-milk-production",
+      "topic": "world dairy expo",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "The World Dairy Expo 2026 drew thousands of visitors to showcase the latest in dairy technology and sustainability. A field trip by Wisconsin children offered a unique glimpse into the industry.",
+      "meta_description": "The World Dairy Expo 2026 showcased new technologies and sustainable practices, drawing farmers, scientists and industry leaders worldwide, including a notable ",
+      "keywords": [
+        "World Dairy Expo",
+        "milk production",
+        "sustainable farming",
+        "agri-tech",
+        "industry trends"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSLvTkr4S4IQX_FR76PNh9SylbnnGk7ZR4cweCzYsIEdYdgbhA5jZrlmzODyK4",
+      "related": [
+        {
+          "title": "3 takeaways from World Dairy Expo 2026",
+          "url": "https://www.farmprogress.com/livestock-and-dairy/3-takeaways-from-world-dairy-expo-2026",
+          "source": "Farm Progress"
+        },
+        {
+          "title": "Skimming the cream",
+          "url": "https://hpj.com/2026/10/09/skimming-the-cream/",
+          "source": "High Plains Journal"
+        },
+        {
+          "title": "Wisconsin Kids take a Field Trip for a Firsthand Look at World Dairy Expo",
+          "url": "https://www.q106.com/2026/10/04/wisconsin-kids-take-a-field-trip-for-a-firsthand-look-at-world-dairy-expo/",
+          "source": "Madison's Country Q106"
+        }
+      ],
+      "word_count": 424,
+      "page": "p/world-dairy-expo-2026-highlights-innovations-in-milk-production.html"
+    },
+    {
+      "title": "Why millions of seniors are getting checks from the government",
+      "slug": "why-millions-of-seniors-are-getting-checks-from-the-government",
+      "topic": "social security extra deposit 90",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Coverage linked to \"social security extra deposit 90\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "social security extra deposit 90: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "social security extra deposit 90",
+        "social security extra deposit 90 news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTuHT_ZVCnTwX5-SQDAV7HD6W1vIut049ihGsp9vzZyp0nKMXO0Bnh5l4g5LmM",
+      "related": [
+        {
+          "title": "Why millions of seniors are getting checks from the government",
+          "url": "https://www.foxbusiness.com/politics/seniors-medicare-rebate-checks-eligibility",
+          "source": "Fox Business"
+        },
+        {
+          "title": "Here's why you might be getting a $90 check from Social Security",
+          "url": "https://www.axios.com/2026/10/10/medicare-rebate-90-check-social-security",
+          "source": "Axios"
+        },
+        {
+          "title": "Why did I get $90 payment from Social Security? What to know about Medicare reimbursements",
+          "url": "https://www.al.com/news/2026/10/why-did-i-get-90-payment-from-social-security-what-to-know-about-medicare-reimbursements.html",
+          "source": "AL.com"
+        }
+      ],
+      "word_count": 350,
+      "page": "p/why-millions-of-seniors-are-getting-checks-from-the-government.html"
+    },
+    {
+      "title": "WWE SmackDown Highlights Vision's Rise Ahead of Money in the Bank",
+      "slug": "wwe-smackdown-highlights-visions-rise-ahead-of-money-in-the-bank",
+      "topic": "wwe smackdown",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "The October 9 SmackDown episode featured The Vision's strong showing and a fiery segment with CM Punk, Sami Zayn and Kevin Owens. Charlotte Flair's championship struggles added further intrigue ahead of Money in the Bank.",
+      "meta_description": "WWE SmackDown on Oct 9, 2026 saw The Vision dominate, a heated exchange between CM Punk, Sami Zayn and Kevin Owens, and Charlotte Flair's title woes, setting th",
+      "keywords": [
+        "WWE",
+        "SmackDown",
+        "Money in the Bank",
+        "CM Punk",
+        "Charlotte Flair"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRGiAZtXrDvmI_msDsetOu_y1mxYykrQZ2jdYDJsXWrTtFC5sBQIxhm62vhRB0",
+      "related": [
+        {
+          "title": "SmackDown results, Oct. 9, 2026: The Vision stand tall on the eve of Money in the Bank",
+          "url": "https://www.wwe.com/shows/smackdown/2026-10-09",
+          "source": "WWE"
+        },
+        {
+          "title": "CM Punk, Sami Zayn & Kevin Owens Trade Barbs in SmackDown Segment Fans Can’t Ignore",
+          "url": "https://sports.yahoo.com/articles/cm-punk-sami-zayn-kevin-011958731.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "WWE SmackDown preview (Oct. 9, 2026): Charlotte Flair sucks at winning championships in WWE",
+          "url": "https://www.cagesideseats.com/wwe/480476/wwe-smackdown-preview-oct-9-2026-flair-paxley-vs-fatal-influence-cm-punk-return-mitb-go-home",
+          "source": "Cageside Seats"
+        }
+      ],
+      "word_count": 1028,
+      "page": "p/wwe-smackdown-highlights-visions-rise-ahead-of-money-in-the-bank.html"
+    },
+    {
+      "title": "Trump takes suit against Hillary Clinton over 2016 election to Supreme…",
+      "slug": "trump-takes-suit-against-hillary-clinton-over-2016-election-to-supreme",
+      "topic": "lawsuit",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Coverage linked to \"lawsuit\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "lawsuit: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "lawsuit",
+        "lawsuit news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA6WD82UeROJ4MUssYlXRwmG_kjGbOBuPTbizh4ywnk3Djvmv4eLNRMyAokP4",
+      "related": [
+        {
+          "title": "Trump takes suit against Hillary Clinton over 2016 election to Supreme Court",
+          "url": "https://www.reuters.com/world/trump-takes-suit-against-hillary-clinton-over-2016-election-supreme-court-2026-10-09/",
+          "source": "Reuters"
+        },
+        {
+          "title": "Trump asks Supreme Court to revive his 2016 election lawsuit against Hillary Clinton",
+          "url": "https://www.cnn.com/2026/10/09/politics/trump-supreme-court-hillary-clinton-lawsuit",
+          "source": "CNN"
+        },
+        {
+          "title": "Trump asks Supreme Court to look at 2016 election lawsuit against Clinton: Report",
+          "url": "https://thehill.com/homenews/administration/6140233-trump-supreme-court-clinton-lawsuit-appeal/",
+          "source": "The Hill"
+        }
+      ],
+      "word_count": 329,
+      "page": "p/trump-takes-suit-against-hillary-clinton-over-2016-election-to-supreme.html"
+    },
+    {
+      "title": "Tottenham set to face Manchester United with injury‑hit squad",
+      "slug": "tottenham-set-to-face-manchester-united-with-injuryhit-squad",
+      "topic": "tottenham",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Tottenham travel to a crucial showdown with Manchester United while both clubs grapple with key injuries. United’s uncertainty over Benjamin Sesko’s return adds another layer of intrigue for American viewers.",
+      "meta_description": "Tottenham host Manchester United with an injury‑hit squad as United await Benjamin Sesko’s return, setting up a high‑stakes Premier League clash for US fans.",
+      "keywords": [
+        "Tottenham",
+        "Manchester United",
+        "Premier League",
+        "lineup",
+        "injury update"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTTiunKovcSpOcTRr-n5vyE3DOOQcfMDV_lpLbTPZ_Eojq3d6WiADEc6LNICTU",
+      "related": [
+        {
+          "title": "Team news for United v Spurs",
+          "url": "https://www.manutd.com/en/news/team-news-for-united-v-spurs-10-October",
+          "source": "Manchester United Website"
+        },
+        {
+          "title": "Projected lineup for last-place Tottenham vs. Manchester United",
+          "url": "https://www.usatoday.com/story/sports/soccer/epl/2026/10/10/tottenham-lineup-vs-manchester-united-today/92153043007/",
+          "source": "USA Today"
+        },
+        {
+          "title": "Michael Carrick: No timeline for Benjamin Sesko's Man United return",
+          "url": "https://www.espn.com/soccer/story/_/id/50142759/man-united-injury-news-benjamin-sesko-michael-carrick",
+          "source": "ESPN"
+        }
+      ],
+      "word_count": 922,
+      "page": "p/tottenham-set-to-face-manchester-united-with-injuryhit-squad.html"
+    },
+    {
+      "title": "Skydance expected to seek opportunities to move TNT sports programming…",
+      "slug": "skydance-expected-to-seek-opportunities-to-move-tnt-sports-programming",
+      "topic": "tnt",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Coverage linked to \"tnt\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "tnt: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "tnt",
+        "tnt news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT62Kh26fedozvUOxyxoxCaeIu0p7DW2n76ZT2J6bBDhxaTKFHEkP7GMBReUPQ",
+      "related": [
+        {
+          "title": "Skydance expected to seek opportunities to move TNT sports programming to CBS",
+          "url": "https://awfulannouncing.com/paramount-skydance/seek-opportunities-move-tnt-sports-programming-cbs.html",
+          "source": "Awful Announcing"
+        },
+        {
+          "title": "CBS Sports-TNT Sports merger expected to trigger layoffs in potential ‘bloodbath’ shakeup",
+          "url": "https://nypost.com/2026/10/09/sports/cbs-sports-tnt-sports-merger-expected-to-be-bloodbath/",
+          "source": "New York Post"
+        },
+        {
+          "title": "Cut Day at TNT Sports",
+          "url": "https://puck.news/skydance-has-too-many-sports-rights-what-goes/",
+          "source": "Puck"
+        }
+      ],
+      "word_count": 323,
+      "page": "p/skydance-expected-to-seek-opportunities-to-move-tnt-sports-programming.html"
+    },
+    {
+      "title": "Rosja transportuje broń nad Polską. Samolot wylądował w Moskwie",
+      "slug": "rosja-transportuje-bron-nad-polska-samolot-wyladowa-w-moskwie",
+      "topic": "pl",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Coverage linked to \"pl\" is circulating in IN. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "pl: coverage and context for readers in IN. Summary of related reports and what to verify next.",
+      "keywords": [
+        "pl",
+        "pl news",
+        "IN",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEwj26ZY4YD_dc5Zj96xM9x8Pa5cKaeFVlVf2xVpJwDAB8via5RgInBS07y30",
+      "related": [
+        {
+          "title": "Rosja transportuje broń nad Polską. Samolot wylądował w Moskwie",
+          "url": "https://defence24.pl/polityka-obronna/rosja-transportuje-bron-nad-polska-samolot-wyladowal-w-moskwie",
+          "source": "Defence24"
+        },
+        {
+          "title": "Samoloty z rosyjską bronią latają nad Polską. Ukraińcy piszą, co to oznacza",
+          "url": "https://forsal.pl/kraj/bezpieczenstwo/artykuly/11327061,samoloty-z-rosyjska-bronia-lataja-nad-polska-ukraincy-pisza-co-to-oznacza.html",
+          "source": "Forsal.pl"
+        },
+        {
+          "title": "Rosja buduje sieć logistyczną w Afryce. Łączy Sahel z portami nad Atlantykiem",
+          "url": "https://xyz.pl/rosja-buduje-siec-logistyczna-w-afryce-laczy-sahel-z-portami-nad-atlantykiem/",
+          "source": "XYZ"
+        }
+      ],
+      "word_count": 324,
+      "page": "p/rosja-transportuje-bron-nad-polska-samolot-wyladowa-w-moskwie.html"
+    },
+    {
+      "title": "Remnants of Isaias to bring soaking rain to the eastern U.S. this weekend",
+      "slug": "remnants-of-isaias-to-bring-soaking-rain-to-the-eastern-us-this-weekend",
+      "topic": "asheville weather",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Coverage linked to \"asheville weather\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "asheville weather: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "asheville weather",
+        "asheville weather news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxDZ7XShHPpLcqCN0H62FO0_vP9dbPB--ifcjKXz76v7XzaRNMLy0lfyQDcoE",
+      "related": [
+        {
+          "title": "Remnants of Isaias to bring soaking rain to the eastern U.S. this weekend",
+          "url": "https://www.nbcnewyork.com/news/local/remnants-of-isaias-to-bring-soaking-rain-to-the-eastern-u-s-this-weekend/6557913/",
+          "source": "NBC 4 New York"
+        },
+        {
+          "title": "Wet weekend from the remnants of Isaias, flash flood and tornado threat in North Carolina",
+          "url": "https://www.wxii12.com/article/wet-weekend-isaias-flash-flood-tornado-north-carolina-storm-saturday/74098052",
+          "source": "WXII"
+        },
+        {
+          "title": "Tracking Isaias: Storm makes landfall, expected to bring heavy rain, chance of severe storms to Midlands",
+          "url": "https://www.wltx.com/article/weather/hurricane/hurricane-isaias-could-bring-rain-and-wind-this-weekend-forecast-weather-impact-alert-midlands-south-carolina/101-5cf896b5-fade-439b-a3f6-801586cccba5",
+          "source": "WLTX"
+        }
+      ],
+      "word_count": 343,
+      "page": "p/remnants-of-isaias-to-bring-soaking-rain-to-the-eastern-us-this-weekend.html"
+    },
+    {
+      "title": "Rayo Vallecano prepares to host Athletic Bilbao in decisive LaLiga clash",
+      "slug": "rayo-vallecano-prepares-to-host-athletic-bilbao-in-decisive-laliga-clash",
+      "topic": "rayo vs athletic",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "The LaLiga encounter between Rayo Vallecano and Athletic Bilbao returns to the Vallecas neighbourhood. Both sides are gearing up for a tightly contested match.",
+      "meta_description": "Rayo Vallecano and Athletic Bilbao meet at Vallecas as LaLiga action returns to the neighbourhood, sparking interest among South African fans.",
+      "keywords": [
+        "Rayo Vallecano",
+        "Athletic Bilbao",
+        "LaLiga",
+        "Vallecas stadium",
+        "South Africa football fans"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTn27DHh-uSS8I0PKyahOJ9d5PW7fDNqT5thc6ax4w63_RBeBSgk4n80QbxjyA",
+      "related": [
+        {
+          "title": "Rayo - Athletic | El juego vuelve por fin al barrio: previa, análisis, pronóstico y predicción",
+          "url": "https://www.marca.com/futbol/primera-division/2026/10/09/rayo-athletic-juego-vuelve-barrio-previa-analisis-pronostico-prediccion.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Un reto de aúpa",
+          "url": "https://www.mundodeportivo.com/futbol/athletic-bilbao/20261010/1004236583/reto-aupa.html",
+          "source": "Mundo Deportivo"
+        },
+        {
+          "title": "Terzic avisa del peligro del Rayo antes de visitar Vallecas: «Es uno de los campos más difíciles de LaLiga»",
+          "url": "https://unionrayo.es/rueda-prensa-terciz-previa-rayo-vallecano-athletic-laliga/",
+          "source": "Unión Rayo"
+        }
+      ],
+      "word_count": 753,
+      "page": "p/rayo-vallecano-prepares-to-host-athletic-bilbao-in-decisive-laliga-clash.html"
+    },
+    {
+      "title": "Pakistani drama 'Gulbahar' sparks backlash over second‑marriage plot",
+      "slug": "pakistani-drama-gulbahar-sparks-backlash-over-secondmarriage-plot",
+      "topic": "gulbahar",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "The popular TV series Gulbahar has ignited a wave of criticism after a second‑marriage twist was introduced. Audiences and commentators say the plot undermines the show's earlier portrayal of women.",
+      "meta_description": "Viewers in Pakistan criticize the drama Gulbahar for its second‑marriage storyline, saying it misrepresents women and fuels disappointment among audiences.",
+      "keywords": [
+        "Gulbahar",
+        "Pakistani drama",
+        "second marriage",
+        "viewer backlash",
+        "women representation"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQm71D1v5D0dSDmY2sqO1163WutZ4eup2JExVNUW1L1HtPkb_y--Gte5zqkr2M",
+      "related": [
+        {
+          "title": "The women of Gulbahar are not okay",
+          "url": "https://images.dawn.com/news/1195980/the-women-of-gulbahar-are-not-okay",
+          "source": "Dawn Images"
+        },
+        {
+          "title": "Gulbahar’s Clichéd Second Marriage Plot Leaves Viewers Disappointed",
+          "url": "https://www.brandsynario.com/entertainment/gulbahars-cliched-second-marriage-plot-leaves-viewers-disappointed/",
+          "source": "Brandsynario"
+        },
+        {
+          "title": "Gulbahar’s second marriage twist sparks backlash",
+          "url": "https://minutemirror.com.pk/gulbahars-second-marriage-twist-sparks-backlash-641893/",
+          "source": "Minute Mirror"
+        }
+      ],
+      "word_count": 616,
+      "page": "p/pakistani-drama-gulbahar-sparks-backlash-over-secondmarriage-plot.html"
+    },
+    {
+      "title": "Mertens Upsets Swiatek to Reach China Open Semifinals",
+      "slug": "mertens-upsets-swiatek-to-reach-china-open-semifinals",
+      "topic": "elise mertens",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Elise Mertens secured a significant victory over Iga Swiatek in Beijing, advancing to the semifinals of the China Open. The win marks her third consecutive match against a Grand Slam champion.",
+      "meta_description": "Belgian player Elise Mertens defeated world No. 1 Iga Swiatek in the China Open quarterfinals, continuing a remarkable winning streak against top-ranked players",
+      "keywords": [
+        "Elise Mertens",
+        "Iga Swiatek",
+        "China Open",
+        "WTA Tennis",
+        "Beijing"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt7P53Nq46vaF9B6UsOXI1ENQgBbRBglOS0NSEYzJa1D2zVoJQI8Z0v77wgiY",
+      "related": [
+        {
+          "title": "Elise Mertens beats Iga Swiatek to reach China Open semis",
+          "url": "https://www.espn.com/tennis/story/_/id/50141092/elise-mertens-beats-iga-swiatek-reach-china-open-semis",
+          "source": "ESPN"
+        },
+        {
+          "title": "Mertens beats Swiatek in Beijing for third straight win over a Grand Slam champion",
+          "url": "https://www.wtatennis.com/news/4589506/mertens-giant-killing-run-continues-with-swiatek-upset-in-beijing-quarterfinals",
+          "source": "WTA Tennis"
+        },
+        {
+          "title": "Elise Mertens joins Coco Gauff as just second player to pull this off vs. Iga Swiatek",
+          "url": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/170400/elise-mertens-joins-coco-gauff-as-just-second-player-to-pull-this-off-vs-iga-swiatek/",
+          "source": "Tennis World USA"
+        }
+      ],
+      "word_count": 772,
+      "page": "p/mertens-upsets-swiatek-to-reach-china-open-semifinals.html"
+    },
+    {
+      "title": "Maresca backs Man City appeal after Premier League verdict",
+      "slug": "maresca-backs-man-city-appeal-after-premier-league-verdict",
+      "topic": "premier league",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Manchester City manager Enzo Maresca has stated that he has complete trust in the club's leadership despite a recent guilty verdict. The manager confirmed that the owners are confident the club will succeed in its appeal against the charges",
+      "meta_description": "Manchester City manager Enzo Maresca expresses full trust in the club's hierarchy following a guilty verdict on Premier League charges, signaling a strong appea",
+      "keywords": [
+        "Premier League",
+        "Manchester City",
+        "Enzo Maresca",
+        "Football",
+        "Legal Charges"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ4fSFD4CsFV-9LypFe5IewpJ4wdXppJ6lxsfivAoWJTQ-f_cFMTHAffKRUu8w",
+      "related": [
+        {
+          "title": "Manager Maresca says he has complete trust in Man City despite bombshell verdict",
+          "url": "https://www.arabnews.com/football/manager-maresca-says-he-has-complete-trust-in-man-city-despite-bombshell-verdict-3005482",
+          "source": "Arab News"
+        },
+        {
+          "title": "Premier League news conferences: Mikel Arteta, Andoni Iraola, Michael Carrick and Xabi Alonso",
+          "url": "https://www.bbc.com/sport/football/live/ck4g1pj57qz0t",
+          "source": "BBC"
+        },
+        {
+          "title": "Man City charges: Enzo Maresca says owners 'convinced' club will win appeal against guilty verdict as he 'trusts' hierarchy",
+          "url": "https://www.skysports.com/football/news/13596454/man-city-charges-enzo-maresca-says-owners-convinced-club-will-win-appeal-against-guilty-verdict-as-he-trusts-hierarchy",
+          "source": "Sky Sports"
+        }
+      ],
+      "word_count": 874,
+      "page": "p/maresca-backs-man-city-appeal-after-premier-league-verdict.html"
+    },
+    {
+      "title": "Manchester City Held Settlement Talks With the Premier League",
+      "slug": "manchester-city-held-settlement-talks-with-the-premier-league",
+      "topic": "talksport",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Coverage linked to \"talksport\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "talksport: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "talksport",
+        "talksport news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRlTdTQsJFaFeTreS5_AfNPCaMU5xcwvaBMKQ2FTjxU5GOZ77zkczZeIjElJOo",
+      "related": [
+        {
+          "title": "Manchester City Held Settlement Talks With the Premier League",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-09/manchester-city-held-settlement-talks-with-the-premier-league",
+          "source": "Bloomberg.com"
+        },
+        {
+          "title": "Fear stalks the corridors at Man City as staff brace for hostile rival fans",
+          "url": "https://www.telegraph.co.uk/football/2026/10/08/worry-and-unease-has-taken-root-inside-manchester-city/",
+          "source": "The Telegraph"
+        },
+        {
+          "title": "Manchester City charges: Premier League clubs fear political interference in appeal after Andy Burnham comments",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c6y93qq5175wo",
+          "source": "BBC"
+        }
+      ],
+      "word_count": 330,
+      "page": "p/manchester-city-held-settlement-talks-with-the-premier-league.html"
+    },
+    {
+      "title": "Lebanon welcomes Trump's move to lift 41-year US flight ban, and other…",
+      "slug": "lebanon-welcomes-trumps-move-to-lift-41-year-us-flight-ban-and-other",
+      "topic": "flight",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Coverage linked to \"flight\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "flight: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "flight",
+        "flight news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN88Dba_Nb3EZhuHT9QYL6vD-nEUztW8KEQTePCfit0S_5Eb9qTAMH357qO0w",
+      "related": [
+        {
+          "title": "Lebanon welcomes Trump's move to lift 41-year US flight ban, and other Mideast developments",
+          "url": "https://apnews.com/article/lebanon-flights-saudi-sudan-october-10-2026-a5f40b5e0ab08ae8128db5ed749114d8",
+          "source": "AP News"
+        },
+        {
+          "title": "Lebanese president hails Trump's decision to revoke 41-year-old restrictions on direct US flights",
+          "url": "https://www.timesofisrael.com/liveblog_entry/lebanese-president-hails-trumps-decision-to-revoke-41-year-old-restrictions-on-direct-us-flights/",
+          "source": "The Times of Israel"
+        },
+        {
+          "title": "Lebanon welcomes Trump's move to lift 41-year US flight ban, and other Mideast developments",
+          "url": "https://www.bozemandailychronicle.com/wire/news/lebanon-welcomes-trumps-move-to-lift-41-year-us-flight-ban-and-other-mideast-developments/article_eb082249-0aca-5c5a-b286-38966b6cfeaa.html",
+          "source": "Bozeman Daily Chronicle"
+        }
+      ],
+      "word_count": 344,
+      "page": "p/lebanon-welcomes-trumps-move-to-lift-41-year-us-flight-ban-and-other.html"
+    },
+    {
+      "title": "India to Face West Indies in 3rd T20I After Historic Loss",
+      "slug": "india-to-face-west-indies-in-3rd-t20i-after-historic-loss",
+      "topic": "ट्वेन्टी ट्वेन्टी",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "India's team departs for Indore after a historic loss to West Indies. Fans are eager to see the new lineup and secure tickets for the upcoming match.",
+      "meta_description": "India's cricket team heads to Indore for the third T20I against West Indies, following a historic defeat. Fans await squad changes and ticket sales.",
+      "keywords": [
+        "India cricket",
+        "West Indies",
+        "T20I",
+        "Indore",
+        "ticket sales"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRWjilrU5RDTZ9yxsr7xjRNS5SeEAh21UZsHwhJvYgLI3qLc1WdC_Gc4CFPXuI",
+      "related": [
+        {
+          "title": "IND vs WI, 3rd T20 Playing-11: बुरी हार के बाद भारत बदलेगा टीम, इस ऑलराउंडर की जगह दिल्ली के गेंदबाज की होगी एंट्री!",
+          "url": "https://www.jagran.com/cricket/headlines-india-vs-west-indies-probable-playing-11-for-3rd-t20-prince-yadav-shivam-dube-40400437.html",
+          "source": "Jagran"
+        },
+        {
+          "title": "इंदौर T20: 1 घंटा 53 मिनट में टिकट खत्म: वेबसाइट्स पर डॉलर में बिक रहीं, 2 टिकट ₹9,953 में; पुलिस ने 22 प्ल...",
+          "url": "https://www.bhaskar.com/g/local/mp/indore/news/indore-india-west-indies-cricket-match-ticket-scam-black-marketing-139309394.html",
+          "source": "Dainik Bhaskar"
+        },
+        {
+          "title": "ऐतिहासिक हार के बाद इंदौर रवाना हुई टीम इंडिया, एयरपोर्ट पर जुटा फैंस का हुजूम, अब किस तारीख को होगा मैच?",
+          "url": "https://www.livehindustan.com/cricket/team-india-leaves-for-indore-after-a-historic-defeat-when-is-3rd-t20i-match-vs-wi-201791622933482.html",
+          "source": "Hindustan"
+        }
+      ],
+      "word_count": 528,
+      "page": "p/india-to-face-west-indies-in-3rd-t20i-after-historic-loss.html"
+    },
+    {
+      "title": "Gimnasia La Plata - Atl. Tucuman 1-1",
+      "slug": "gimnasia-la-plata---atl-tucuman-1-1",
+      "topic": "flashscore",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Coverage linked to \"flashscore\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "flashscore: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "flashscore",
+        "flashscore news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT4vtirHlvBxMo4lntPSy7-UQMScw3bVSPIO26Y_P4YJY38hYWOTivcyLH76U",
+      "related": [
+        {
+          "title": "Gimnasia La Plata - Atl. Tucuman 1-1",
+          "url": "https://www.flashscore.co.uk/match/football/atletico-tucuman-KpqpxWko/gimnasia-l-p-jiDN9Zaj/h2h/overall/?mid=QsUQBLcc",
+          "source": "Flashscore UK"
+        },
+        {
+          "title": "Gimnasia LP vs Tucumán match lineup | Argentine Primera División · 10 Oct 2026",
+          "url": "https://www.ysscores.com/en/lineup/5116041/Club-de-Gimnasia-y-Esgrima-La-Plata-vs-Club-Atl%C3%A9tico-Tucum%C3%A1n",
+          "source": "YSscores"
+        },
+        {
+          "title": "Gimnasia La Plata vs Atlético Tucumán Prediction, Betting Tips, Lineups & Odds | 09 Oct 2026",
+          "url": "https://www.sportsgambler.com/betting-tips/football/gimnasia-la-plata-vs-atletico-tucuman-prediction-lineups-odds-2026-10-09/",
+          "source": "Sportsgambler"
+        }
+      ],
+      "word_count": 324,
+      "page": "p/gimnasia-la-plata---atl-tucuman-1-1.html"
+    },
+    {
+      "title": "Former Doctor Who boss admits show \"never recovered\" from one key decision",
+      "slug": "former-doctor-who-boss-admits-show-never-recovered-from-one-key-decision",
+      "topic": "russell t davies",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Coverage linked to \"russell t davies\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "russell t davies: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "russell t davies",
+        "russell t davies news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRJapteTTvmrll1uu-lsunLaoOp9Px7grDaAclz7CFNX8rbsHACzQ41jg1W-_0",
+      "related": [
+        {
+          "title": "Former Doctor Who boss admits show \"never recovered\" from one key decision",
+          "url": "https://www.radiotimes.com/tv/sci-fi/doctor-who-never-recovered-decision-newsupdate/",
+          "source": "Radio Times"
+        },
+        {
+          "title": "‘Goodbye Whoniverse. God, that was fun!’: Russell T Davies on writing the end of Doctor Who",
+          "url": "https://www.theguardian.com/media/2026/oct/03/russell-t-davies-memoir-the-queerest-of-folk-extract",
+          "source": "The Guardian"
+        },
+        {
+          "title": "RTD Reveals Cancelled Doctor Who Series Plans Including Rogue’s Return and Dalek Epic",
+          "url": "https://www.doctorwhotv.co.uk/rtd-cancelled-doctor-who-series-16-107466.htm",
+          "source": "Doctor Who TV"
+        }
+      ],
+      "word_count": 346,
+      "page": "p/former-doctor-who-boss-admits-show-never-recovered-from-one-key-decision.html"
+    },
+    {
+      "title": "Delhi Police Offer Abhijeet Dipke Return for Grandmother's Last Rites",
+      "slug": "delhi-police-offer-abhijeet-dipke-return-for-grandmothers-last-rites",
+      "topic": "abhijeet dipke grandmother",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Abhijeet Dipke was informed of his grandmother's passing while in detention in Delhi. Authorities have indicated he may be permitted to return home for the funeral.",
+      "meta_description": "Abhijeet Dipke, detained in Delhi, was informed of his grandmother's death. Police stated he can fly back to Maharashtra for last rites, sparking public concern",
+      "keywords": [
+        "Abhijeet Dipke",
+        "Delhi Police",
+        "grandmother death",
+        "CJP protest",
+        "last rites"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR_xD9sHXGq8Rwk6kypIKoJzwlfob6lsnLC1mpOvNeKQ0G9ccG6CnJ2dL44_uk",
+      "related": [
+        {
+          "title": "Offered To Help Abhijeet Dipke Return For Grandmother's Last Rites: Cops",
+          "url": "https://www.ndtv.com/india-news/abhijeet-dipkes-grandmother-dies-cjp-protest-offered-to-help-abhijeet-dipke-return-for-grandmothers-last-rites-cops-12166232",
+          "source": "NDTV"
+        },
+        {
+          "title": "Abhijeet Dipke informed of grandmother’s death in detention; Delhi Police says he can fly back for last r",
+          "url": "https://timesofindia.indiatimes.com/city/delhi/abhijeet-dipke-informed-of-grandmothers-death-in-detention-delhi-police-says-he-can-fly-back-for-last-rites/articleshow/134851299.cms",
+          "source": "The Times of India"
+        },
+        {
+          "title": "Abhijeet Dipke’s grandmother Savitribai Shankarrao Dipke passes away",
+          "url": "https://www.thehindu.com/news/national/maharashtra/abhijeet-dipkes-grandmother-savitribai-shankarrao-dipke-passes-away/article71567700.ece",
+          "source": "The Hindu"
+        }
+      ],
+      "word_count": 833,
+      "page": "p/delhi-police-offer-abhijeet-dipke-return-for-grandmothers-last-rites.html"
+    },
+    {
+      "title": "DMK strengthens hold as Vijay, Maragatham Kumaravel win Nadu by‑elections",
+      "slug": "dmk-strengthens-hold-as-vijay-maragatham-kumaravel-win-nadu-byelections",
+      "topic": "அரசியல் கட்சி",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "DMK candidates Vijay and Maragatham Kumaravel won recent by‑elections in Tamil Nadu, drawing praise from senior party figures. Their victories are seen as a barometer for the state's political climate ahead of the 2027 assembly polls.",
+      "meta_description": "In Tamil Nadu by‑elections, DMK candidates Vijay and Maragatham Kumaravel secured victories, prompting emotional reactions and comments from party leaders, whil",
+      "keywords": [
+        "Tamil Nadu by-election",
+        "DMK",
+        "Vijay",
+        "Maragatham Kumaravel",
+        "MK Stalin"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "10000+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQHIWxWxFay4DOaRsex4cKtZ6rRkjkx3qavtf23ZzYJklnWlNTE0qGnlXhhod8",
+      "related": [
+        {
+          "title": "“தனிப்பட்ட இந்த விஜய்யின் வெற்றியோ, தவெகவின் வெற்றியோ அல்ல” - முதல்வர் விஜய் நெகிழ்ச்சி!",
+          "url": "https://www.nakkheeran.in/24-by-7-news/tvk-leader-2vijay-expresses-emotion-over-the-by-election-victory-12660895",
+          "source": "Nakkheeran"
+        },
+        {
+          "title": "மதுராந்தகத்தில் வென்ற மரகதம் குமரவேல் பேசியது என்ன?",
+          "url": "https://www.bbc.com/tamil/watch/c6vgx4175095o",
+          "source": "BBC"
+        },
+        {
+          "title": "இடைத்தேர்தல்: ஒரே வரியில் சொல்வதென்றால்... மு.க. ஸ்டாலின்",
+          "url": "https://www.dinamani.com/tamilnadu/2026/Oct/10/to-sum-up-the-by-election-in-a-single-sentence-mk-stalin",
+          "source": "DinaMani"
+        }
+      ],
+      "word_count": 849,
+      "page": "p/dmk-strengthens-hold-as-vijay-maragatham-kumaravel-win-nadu-byelections.html"
+    },
+    {
+      "title": "College football Week 6 sees matchups as SEC and Big Ten battle",
+      "slug": "college-football-week-6-sees-matchups-as-sec-and-big-ten-battle",
+      "topic": "football games today",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "College football fans are watching a slate of intense matchups this week, as top teams from the SEC and Big Ten face off. The games include high‑profile clashes such as Alabama versus Georgia and UCLA against Oregon.",
+      "meta_description": "This week’s college football schedule features key SEC and Big Ten clashes, with top teams like Alabama, Georgia and UCLA facing rivals in high‑profile games.",
+      "keywords": [
+        "college football",
+        "SEC",
+        "Big Ten",
+        "Week 6",
+        "matchups"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuBC19pCgw9S0GXZvroRriUwvvnYQYjBpemLyY3k9rsBLFjdkurSp8f46UQC8",
+      "related": [
+        {
+          "title": "Connelly Week 6 preview: Things get real with SEC, Big Ten showdowns",
+          "url": "https://www.espn.com/college-football/story/_/id/50133135/connelly-week-6-preview-sec-big-ten-alabama-georgia",
+          "source": "ESPN"
+        },
+        {
+          "title": "Week 6’s top 10 college football games: Georgia-Alabama, UCLA-Oregon and Indiana-Nebraska",
+          "url": "https://www.nytimes.com/athletic/7671760/2026/10/09/college-football-top-games-week-6/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "Jeff$ Bet$ for Week 6 of the CFB Season!",
+          "url": "https://www.audacy.com/929espn/sports/jeff-bet-week-6-cfb",
+          "source": "Audacy"
+        }
+      ],
+      "word_count": 599,
+      "page": "p/college-football-week-6-sees-matchups-as-sec-and-big-ten-battle.html"
+    },
+    {
+      "title": "Arsenal host Leeds United in Premier League clash at Emirates",
+      "slug": "arsenal-host-leeds-united-in-premier-league-clash-at-emirates",
+      "topic": "arsenal vs leeds",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Arsenal and Leeds United meet at the Emirates Stadium in a highly anticipated Premier League encounter. Live coverage, injury updates and player comments shape the narrative for viewers in Pakistan.",
+      "meta_description": "Arsenal face Leeds United at the Emirates Stadium in a Premier League match that has captured the attention of fans in Pakistan, with live updates and injury ne",
+      "keywords": [
+        "Arsenal",
+        "Leeds United",
+        "Premier League",
+        "Emirates Stadium",
+        "Pakistan football fans"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "2000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyp6oLG7lboeCVtypPHQ3hJsfAVP_oe2V37f7JpmCbc_OTsL8Q8JUSJHDOzuk",
+      "related": [
+        {
+          "title": "Arsenal vs Leeds LIVE! Premier League match updates, news and score",
+          "url": "https://www.skysports.com/football/live-blog/13592663/arsenal-vs-leeds-live-premier-league-match-updates-news-and-score",
+          "source": "Sky Sports"
+        },
+        {
+          "title": "Injury latest on Havertz, Tzolis, Rice, Konsa and White",
+          "url": "https://www.arsenal.com/news/injury-latest-on-havertz-tzolis-rice-konsa-and-white-a5Pwa1R5zpMU",
+          "source": "Arsenal.com"
+        },
+        {
+          "title": "'Definitely revenge' - Gabriel Gudmundsson on Arsenal clash at The Emirates",
+          "url": "https://onefootball.com/en/news/definitely-revenge-gabriel-gudmundsson-on-arsenal-clash-at-the-emirates-43588757",
+          "source": "OneFootball"
+        }
+      ],
+      "word_count": 955,
+      "page": "p/arsenal-host-leeds-united-in-premier-league-clash-at-emirates.html"
+    },
+    {
+      "title": "Arsenal bid to close gap on City, lowly Spurs head to Manchester United…",
+      "slug": "arsenal-bid-to-close-gap-on-city-lowly-spurs-head-to-manchester-united",
+      "topic": "epl",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Coverage linked to \"epl\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "epl: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "epl",
+        "epl news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "2000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-QveeSvyWsf85yYr63lZkfi2Bb-ZRJ-V0Wo8YadgVir4RSsGDm6G8ISOS3Ic",
+      "related": [
+        {
+          "title": "Arsenal bid to close gap on City, lowly Spurs head to Manchester United – matchday live",
+          "url": "https://www.theguardian.com/football/live/2026/oct/10/arsenal-bid-to-close-gap-on-city-lowly-spurs-head-to-manchester-united-matchday-live",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Follow Saturday's Premier League games live",
+          "url": "https://www.bbc.com/sport/football/articles/crkgwe39l3g9o",
+          "source": "BBC"
+        },
+        {
+          "title": "Premier League Predictions: Man City at Liverpool, Man Utd Host Tottenham",
+          "url": "https://www.si.com/soccer/premier-league-predictions-man-city-liverpool-man-utd-tottenham-gameweek-6",
+          "source": "Sports Illustrated"
+        }
+      ],
+      "word_count": 325,
+      "page": "p/arsenal-bid-to-close-gap-on-city-lowly-spurs-head-to-manchester-united.html"
+    },
+    {
+      "title": "AP: స్థానిక ఎన్నికలు.. ఎస్ఈసీ కీలక ప్రకటన",
+      "slug": "ap",
+      "topic": "ఆంధ్రప్రదేశ్ రాష్ట్ర ఎన్నికల సంఘం",
+      "date": "2026-10-10",
+      "date_pkt": "2026-10-10 04:56 PM PKT",
+      "excerpt": "Coverage linked to \"ఆంధ్రప్రదేశ్ రాష్ట్ర ఎన్నికల సంఘం\" is circulating in IN. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "ఆంధ్రప్రదేశ్ రాష్ట్ర ఎన్నికల సంఘం: coverage and context for readers in IN. Summary of related reports and what to verify next.",
+      "keywords": [
+        "ఆంధ్రప్రదేశ్ రాష్ట్ర ఎన్నికల సంఘం",
+        "ఆంధ్రప్రదేశ్ రాష్ట్ర ఎన్నికల సంఘం news",
+        "IN",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT9n_odhfBBKX_xT_60vC4_7vDAH--cD6JIqBVJuTiWyYhKu_spLoo0-O-Yylw",
+      "related": [
+        {
+          "title": "AP: స్థానిక ఎన్నికలు.. ఎస్ఈసీ కీలక ప్రకటన",
+          "url": "https://www.sakshi.com/telugu-news/andhra-pradesh/sec-key-statement-ap-local-body-elections-2026-2928188",
+          "source": "Sakshi"
+        },
+        {
+          "title": "స్థానిక సంస్థల ఎన్నికలకు ముందస్తు ఏర్పాట్లు : జిల్లా కలెక్టర్‌",
+          "url": "https://www.eenadu.net/telugu-news/districts/vizianagaram-news/12/126183928",
+          "source": "Eenadu"
+        },
+        {
+          "title": "Local’ elections ‘స్థానిక’ సమారానికి సై",
+          "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/vizianagaram/ready-for-the-local-elections-1565865.html",
+          "source": "Andhrajyothy"
+        }
+      ],
+      "word_count": 403,
+      "page": "p/ap.html"
+    },
     {
       "title": "مجلس الأمن الدولي يناقش الوضع في اليمن اليوم",
       "slug": "news-1791549575",
@@ -18580,1206 +19748,6 @@
       ],
       "word_count": 600,
       "page": "p/sensex-index-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Premier League Manchester Derby Var Error: why this search is trending today",
-      "slug": "premier-league-manchester-derby-var-error-why-this-search-is-trending-today",
-      "topic": "premier league manchester derby var error",
-      "date": "2026-09-22",
-      "date_pkt": "2026-09-22 03:59 PM PKT",
-      "excerpt": "People are searching for premier league manchester derby var error in GB. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"premier league manchester derby var error\" in GB. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "premier league manchester derby var error",
-        "premier league manchester derby var error news",
-        "google trends",
-        "GB",
-        "trending today"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcThEvoui3rUyoFkoH4B8N788Lq02riZ12Is7prcbo47Wgi3zzjlrHlfXo3CCXc",
-      "related": [
-        {
-          "title": "Ref Watch & Premier League weekend reaction LIVE! Dermot Gallagher assesses the big refereeing decisions",
-          "url": "https://www.skysports.com/football/live-blog/13576553/ref-watch-and-premier-league-weekend-reaction-live-dermot-gallagher-assesses-the-big-refereeing-decisions",
-          "source": "Sky Sports"
-        },
-        {
-          "title": "In Manchester, Premier League superiority is now separated by Haaland’s cutting edge",
-          "url": "https://www.theguardian.com/football/2026/sep/14/haalands-cutting-edge-separates-the-manchester-clubs",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Manchester United 0-1 City: Two-minute highlights",
-          "url": "https://www.mancity.com/citytv/mens/manchester-united-premier-league-2-minute-highlights-september-2026-63924902",
-          "source": "Manchester City FC"
-        }
-      ],
-      "word_count": 615,
-      "page": "p/premier-league-manchester-derby-var-error-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Pakistan‑Afghanistan border clashes raise civilian safety concerns",
-      "slug": "pakistanafghanistan-border-clashes-raise-civilian-safety-concerns",
-      "topic": "afghanistan",
-      "date": "2026-09-22",
-      "date_pkt": "2026-09-22 03:59 PM PKT",
-      "excerpt": "Recent cross‑border attacks have intensified tensions between Pakistan and the Islamic Emirate of Afghanistan. International observers warn that civilian populations are bearing the brunt of the violence.",
-      "meta_description": "Escalating strikes along the Pakistan‑Afghanistan border have left civilians at risk, prompting UN reports and Taliban warnings as both sides trade accusations.",
-      "keywords": [
-        "Afghanistan",
-        "Pakistan",
-        "border conflict",
-        "Taliban",
-        "civilian casualties"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDHz6oub0HruwYEkzykeQnjSU_Zd7SDZCT5bFUP5i1gdsLUK0It4viezNk-H8",
-      "related": [
-        {
-          "title": "Islamic Emirate: We Will Respond to Pakistan’s Attacks on Paktika, Kunar",
-          "url": "https://tolonews.com/afghanistan-200919",
-          "source": "TOLOnews"
-        },
-        {
-          "title": "Pakistan says it killed 28 militants, Afghan Taliban and UN report three civilian deaths",
-          "url": "https://www.reuters.com/world/asia-pacific/least-three-killed-pakistani-airstrike-afghanistan-tolo-news-reports-2026-09-21/",
-          "source": "Reuters"
-        },
-        {
-          "title": "Pakistan carries out 'calibrated’ airstrikes against terrorist targets in border region with Afghanistan",
-          "url": "https://www.dawn.com/news/2031589",
-          "source": "Dawn"
-        }
-      ],
-      "word_count": 607,
-      "page": "p/pakistanafghanistan-border-clashes-raise-civilian-safety-concerns.html"
-    },
-    {
-      "title": "Pakistan: why this search is trending today",
-      "slug": "pakistan-why-this-search-is-trending-today",
-      "topic": "pakistan",
-      "date": "2026-09-22",
-      "date_pkt": "2026-09-22 03:59 PM PKT",
-      "excerpt": "People are searching for pakistan in SA. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"pakistan\" in SA. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "pakistan",
-        "pakistan news",
-        "google trends",
-        "SA",
-        "trending today"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTU6tCM4aEeQeP3L19SduRaCyfu6EbtwSvAtcGD8ibq-1iVbGvsWT8vdfPR1cM",
-      "related": [
-        {
-          "title": "Pakistan launches one-stop investor portal as it seeks foreign capital",
-          "url": "https://www.arabnews.pk/pakistan/pakistan-launches-one-stop-investor-portal-as-it-seeks-foreign-capital-3001971",
-          "source": "Arab News PK"
-        },
-        {
-          "title": "SIFC sharpens investor focus with new facilitation framework",
-          "url": "https://mettisglobal.news/SIFC-sharpens-investor-focus-with-new-facilitation-framework-63538",
-          "source": "Mettis Global"
-        },
-        {
-          "title": "SIFC develops $40bn investment pipeline across sectors",
-          "url": "https://profit.pakistantoday.com.pk/2026/09/22/sifc-lines-up-dollar40-billion-investment-pipeline-across-energy-infrastructure-it",
-          "source": "Profit by Pakistan Today"
-        }
-      ],
-      "word_count": 583,
-      "page": "p/pakistan-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Pakistan police and security forces respond to rising militant attacks",
-      "slug": "pakistan-police-and-security-forces-respond-to-rising-militant-attacks",
-      "topic": "پولیس",
-      "date": "2026-09-22",
-      "date_pkt": "2026-09-22 03:59 PM PKT",
-      "excerpt": "Searches for پولیس have spiked as Pakistan confronts a series of militant attacks. This article explains the recent incidents, why the public is looking for information, and what may happen next.",
-      "meta_description": "An explainer on why searches for پولیس surge in Pakistan, covering recent clashes, police involvement, and the broader security context driving public interest.",
-      "keywords": [
-        "پولیس",
-        "Pakistan security",
-        "militant attacks",
-        "Khyber Pakhtunkhwa",
-        "Taliban Pakistan"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5qWEQrza_pSE1dW8z7Myo9tuPyf8PC6kplSfvwrABTAcicDLlytfDPiVhXsg",
-      "related": [
-        {
-          "title": "ادعای پاکستان درباره حمله کوهات",
-          "url": "https://tolonews.com/index.php/fa/afghanistan-200904",
-          "source": "TOLOnews"
-        },
-        {
-          "title": "شش نظامی پاکستانی در درگیری با افراد مسلح در خیبرپختونخوا کشته شدند",
-          "url": "https://www.afintl.com/202609203536",
-          "source": "Afghanistan International"
-        },
-        {
-          "title": "ارتش پاکستان: 8 شبه‌نظامی مرتبط با طالبان پاکستان کشته شدند",
-          "url": "https://www.aa.com.tr/fa/%D8%AC%D9%87%D8%A7%D9%86/%D8%A7%D8%B1%D8%AA%D8%B4-%D9%BE%D8%A7%DA%A9%D8%B3%D8%AA%D8%A7%D9%86-8-%D8%B4%D8%A8%D9%87-%D9%86%D8%B8%D8%A7%D9%85%DB%8C-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%A7-%D8%B7%D8%A7%D9%84%D8%A8%D8%A7%D9%86-%D9%BE%D8%A7%DA%A9%D8%B3%D8%AA%D8%A7%D9%86-%DA%A9%D8%B4%D8%AA%D9%87-%D8%B4%D8%AF%D9%86%D8%AF/4063072",
-          "source": "Anadolu Ajansı"
-        }
-      ],
-      "word_count": 755,
-      "page": "p/pakistan-police-and-security-forces-respond-to-rising-militant-attacks.html"
-    },
-    {
-      "title": "Melissa Mccarthy: why this search is trending today",
-      "slug": "melissa-mccarthy-why-this-search-is-trending-today",
-      "topic": "melissa mccarthy",
-      "date": "2026-09-22",
-      "date_pkt": "2026-09-22 03:59 PM PKT",
-      "excerpt": "People are searching for melissa mccarthy in GB. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"melissa mccarthy\" in GB. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "melissa mccarthy",
-        "melissa mccarthy news",
-        "google trends",
-        "GB",
-        "trending today"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSKI3nsFOMArXPWf6yZnS_6Tm7lZpGcN5I8iov3_EsYguYGuTqCObcU5dyetpw",
-      "related": [
-        {
-          "title": "Melissa McCarthy Says Gilmore Girls Was ‘Hard’ in Rare Comments About Her First Major Acting Role",
-          "url": "https://people.com/melissa-mccarthy-says-gilmore-girls-was-hard-12132029",
-          "source": "People.com"
-        },
-        {
-          "title": "Melissa McCarthy Makes Rare Remarks About Filming 'Gilmore Girls,' Explains Why It Was 'Really Hard'",
-          "url": "https://www.justjared.com/2026/09/21/melissa-mccarthy-makes-rare-remarks-about-filming-gilmore-girls-explains-why-it-was-really-hard/",
-          "source": "Just Jared"
-        },
-        {
-          "title": "Gilmore Girls Was ‘Really Hard’ for Melissa McCarthy for One Reason",
-          "url": "https://www.yahoo.com/entertainment/tv/articles/gilmore-girls-really-hard-melissa-044839492.html",
-          "source": "Yahoo"
-        }
-      ],
-      "word_count": 600,
-      "page": "p/melissa-mccarthy-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Lucas Museum Of Narrative Art: why this search is trending today",
-      "slug": "lucas-museum-of-narrative-art-why-this-search-is-trending-today",
-      "topic": "lucas museum of narrative art",
-      "date": "2026-09-22",
-      "date_pkt": "2026-09-22 03:59 PM PKT",
-      "excerpt": "People are searching for lucas museum of narrative art in GB. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"lucas museum of narrative art\" in GB. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "lucas museum of narrative art",
-        "lucas museum of narrative art news",
-        "google trends",
-        "GB",
-        "trending today"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRDqBqU87yaqjagV6HanU9_VbCN5p8LFi1b_gPjWKK7Dpl_szWeWECByzS71ls",
-      "related": [
-        {
-          "title": "Making sense of George Lucas’s new billion-dollar galaxy",
-          "url": "https://www.economist.com/culture/2026/09/21/making-sense-of-george-lucass-new-billion-dollar-galaxy",
-          "source": "The Economist"
-        },
-        {
-          "title": "Review | Is George Lucas’s colossal pet project the end of the art museum as we know it?",
-          "url": "https://www.washingtonpost.com/entertainment/art/2026/09/21/is-george-lucass-new-museum-end-art-museum-we-know-it/",
-          "source": "The Washington Post"
-        },
-        {
-          "title": "Inside Lucas Museum's star-studded gala with Oprah, Kim Kardashian, Gavin Newsom and Mark Hamill",
-          "url": "https://www.latimes.com/entertainment-arts/story/2026-09-20/lucas-museum-opening-party-stars-guests",
-          "source": "Los Angeles Times"
-        }
-      ],
-      "word_count": 620,
-      "page": "p/lucas-museum-of-narrative-art-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Gold prices hover amid geopolitical uncertainty and local demand",
-      "slug": "gold-prices-hover-amid-geopolitical-uncertainty-and-local-demand",
-      "topic": "gold",
-      "date": "2026-09-22",
-      "date_pkt": "2026-09-22 03:59 PM PKT",
-      "excerpt": "Gold prices are moving sideways as investors watch both local jewelry rates and international market signals. The article explains why searches are spiking in Pakistan and what could move the metal in the near term.",
-      "meta_description": "An explainer on today’s gold price movements, why Pakistani users are searching, and what global factors could shape the market in the coming weeks ahead.",
-      "keywords": [
-        "gold price",
-        "Pakistan gold market",
-        "XAU/USD",
-        "geopolitical impact",
-        "gold investment"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8WVZguqZMY-4axbe1usxr2zxOIKs_vMZFLoj9RKn5N5WR6wU1I_jh7BxBgmU",
-      "related": [
-        {
-          "title": "Gold rate today (September 21, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from Malabar Gold",
-          "url": "https://m.economictimes.com/wealth/invest/gold-rate-today-september-21-2026-check-24k-22k-20k-and-18k-gold-jewellery-prices-from-malabar-gold-diamonds-joyalukkas-kalyan-jewellers-tanishq-ibja-in-delhi-mumbai-hyderabad-more-cities/articleshow/134382388.cms",
-          "source": "The Economic Times"
-        },
-        {
-          "title": "Gold Price Forecast: XAU/USD lacks a clear directional impetus, with eyes on geopolitics",
-          "url": "https://www.fxstreet.com/analysis/gold-price-forecast-xau-usd-lacks-a-clear-directional-impetus-with-eyes-on-geopolitics-202609220353",
-          "source": "FXStreet"
-        },
-        {
-          "title": "News by CNBC TV18 on TradingView, 2026-09-21 — cnbctv:657fd3c5c094b:0",
-          "url": "https://www.tradingview.com/news/cnbctv:657fd3c5c094b:0/",
-          "source": "TradingView"
-        }
-      ],
-      "word_count": 912,
-      "page": "p/gold-prices-hover-amid-geopolitical-uncertainty-and-local-demand.html"
-    },
-    {
-      "title": "Former Fox News producer Jennifer Eckhart found dead at 36",
-      "slug": "former-fox-news-producer-jennifer-eckhart-found-dead-at-36",
-      "topic": "jennifer eckhart",
-      "date": "2026-09-22",
-      "date_pkt": "2026-09-22 03:59 PM PKT",
-      "excerpt": "A former Fox News producer, Jennifer Eckhart, was found dead at 36, with authorities confirming suicide. The case has reignited conversation about mental health support in high‑pressure newsrooms.",
-      "meta_description": "Jennifer Eckhart, a former Fox News producer, was confirmed dead by suicide at age 36, prompting discussions on media workplace pressures and mental health.",
-      "keywords": [
-        "Jennifer Eckhart",
-        "Fox News",
-        "media industry",
-        "UK news",
-        "suicide awareness"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSp-GQblQ_qIXMuhnuIJFyaeB5lqmLSPBnjXB155LxcYIS0gy8ApH32-zj98YE",
-      "related": [
-        {
-          "title": "Former Fox News producer who sued anchor over alleged assault is found dead",
-          "url": "https://www.independent.co.uk/news/world/americas/jennifer-eckhart-fox-death-b3053803.html",
-          "source": "The Independent"
-        },
-        {
-          "title": "Former Fox News Staffer Jennifer Eckhart Dies by Suicide at 36, Authorities Confirm",
-          "url": "https://people.com/former-fox-news-staffer-jennifer-eckhart-dead-36-12131957",
-          "source": "People.com"
-        },
-        {
-          "title": "Former Fox News Producer Jennifer Eckhart Dead at 36",
-          "url": "https://www.tmz.com/2026/09/21/jennifer-eckhart-dead/",
-          "source": "TMZ"
-        }
-      ],
-      "word_count": 798,
-      "page": "p/former-fox-news-producer-jennifer-eckhart-found-dead-at-36.html"
-    },
-    {
-      "title": "Eng Vs Sl: why this search is trending today",
-      "slug": "eng-vs-sl-why-this-search-is-trending-today",
-      "topic": "eng vs sl",
-      "date": "2026-09-22",
-      "date_pkt": "2026-09-22 03:59 PM PKT",
-      "excerpt": "People are searching for eng vs sl in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"eng vs sl\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "eng vs sl",
-        "eng vs sl news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Tvk7Mjm1oRk7OjakZuWsooY1iXkrsO1i5YqNpExYQoPe7aNoTGM8oJ_jkww",
-      "related": [
-        {
-          "title": "ENG vs SL 2026, ENG vs SL 1st ODI Match Preview - Sri Lanka seek ODI revival in bruising England tour",
-          "url": "https://www.cricinfo.com/series/sri-lanka-in-england-2026-1496567/england-vs-sri-lanka-1st-odi-1496588/match-preview",
-          "source": "Cricinfo"
-        },
-        {
-          "title": "England v Sri Lanka: first men’s one-day cricket international – live",
-          "url": "https://www.theguardian.com/sport/live/2026/sep/22/england-v-sri-lanka-first-one-day-cricket-international-live-score-updates",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Rehan Ahmed gets England opportunity in Adil Rashid’s absence",
-          "url": "https://www.the-independent.com/sport/cricket/adil-rashid-england-harry-brook-rehan-ahmed-b3053675.html",
-          "source": "The Independent"
-        }
-      ],
-      "word_count": 605,
-      "page": "p/eng-vs-sl-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Deportación: why this search is trending today",
-      "slug": "deportacin-why-this-search-is-trending-today",
-      "topic": "deportación",
-      "date": "2026-09-22",
-      "date_pkt": "2026-09-22 03:59 PM PKT",
-      "excerpt": "People are searching for deportación in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"deportación\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "deportación",
-        "deportación news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRYLV2gV2SUAuPnQNvtGyYCyha0wNrNCjU7nf_tMKoz0oRaFJcZLwLCM_U7K0Y",
-      "related": [
-        {
-          "title": "Exclusiva AP: el ICE oculta ubicación de miles de detenidos con orden final de deportación",
-          "url": "https://apnews.com/article/ice-detenidos-ubicacion-ocultamiento-eeuu-inmigrantes-b6ac873d192e3946bb9483916eb0ff65",
-          "source": "AP News"
-        },
-        {
-          "title": "ICE deja de reportar la ubicación de los migrantes detenidos en el país",
-          "url": "https://www.telemundo.com/noticias/edicion-noticias-telemundo/inmigracion/video/ice-deja-de-reportar-la-ubicacion-de-los-migrantes-detenidos-en-el-pais-tmvo13226136",
-          "source": "Telemundo"
-        },
-        {
-          "title": "ICE hace desaparecer de su localizador a miles de arrestados en su custodia con órdenes definitivas de expulsión",
-          "url": "https://www.univision.com/noticias/inmigracion/ice-hace-desaparecer-a-miles-de-arrestados-en-su-custodia-con-ordenes-definitivas-de-expulsion",
-          "source": "Univision"
-        }
-      ],
-      "word_count": 598,
-      "page": "p/deportacin-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Daylight Savings 2026: why this search is trending today",
-      "slug": "daylight-savings-2026-why-this-search-is-trending-today",
-      "topic": "daylight savings 2026",
-      "date": "2026-09-22",
-      "date_pkt": "2026-09-22 03:59 PM PKT",
-      "excerpt": "People are searching for daylight savings 2026 in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"daylight savings 2026\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "daylight savings 2026",
-        "daylight savings 2026 news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "10000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR-i3zQRoI6VzR5uc4uCM2QjyIjLsTsH887yfdW_06HdzsajhDfDDgotdaT3XI",
-      "related": [
-        {
-          "title": "Ski resort industry urges lawmakers to reject daylight saving legislation that would “lock the clock”",
-          "url": "https://coloradosun.com/2026/09/21/ski-resort-industry-urges-lawmakers-to-reject-daylight-saving-bill/",
-          "source": "The Colorado Sun"
-        },
-        {
-          "title": "Spring forward no more as Congress paves the way to make daylight saving time permanent",
-          "url": "https://www.fox29.com/news/daylight-saving-time-2026-will-our-clocks-still-fall-back-year",
-          "source": "FOX 29 Philadelphia"
-        },
-        {
-          "title": "US set to fall back to standard time as Congress stays idle on bill preventing it",
-          "url": "https://thenationaldesk.com/news/americas-news-now/us-set-to-fall-back-to-standard-time-as-congress-senate-stays-idle-on-house-bill-preventing-it-daylight-saving",
-          "source": "National News Desk"
-        }
-      ],
-      "word_count": 613,
-      "page": "p/daylight-savings-2026-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Clima: why this search is trending today",
-      "slug": "clima-why-this-search-is-trending-today",
-      "topic": "clima",
-      "date": "2026-09-22",
-      "date_pkt": "2026-09-22 03:59 PM PKT",
-      "excerpt": "People are searching for clima in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"clima\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "clima",
-        "clima news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "10000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRZBAA7CY6L6kKaW6zAWIorGrDFTFamXe9k2p5m-Qe2HDh6KVczomtmR4SlNsQ",
-      "related": [
-        {
-          "title": "Clima en Estados Unidos: tormentas y riesgo de inundaciones este martes 22 de septiembre",
-          "url": "https://www.univision.com/noticias/meteorologia/clima-en-estados-unidos-tormentas-y-riesgo-de-inundaciones-este-martes-22-de-septiembre",
-          "source": "Univision"
-        },
-        {
-          "title": "Tras la alerta de tornado, lluvia excesiva y tormentas severas en Appalachia y el Atlántico Medio; riesgo de inundaciones también en el Suroeste",
-          "url": "https://voz.us/es/sociedad/260921/39275/alerta-tornado-lluvia-excesiva-tormentas-severas-appalachia-atlantico-medio-riesgo-inundaciones-tambien-suroeste.html",
-          "source": "voz.us"
-        },
-        {
-          "title": "Pide TxDOT a conductores extremar precauciones por lluvias en Texas",
-          "url": "https://netnoticias.mx/el-paso/pide-txdot-a-conductores-extremar-precauciones-por-lluvias-en-texas",
-          "source": "Net Noticias"
-        }
-      ],
-      "word_count": 600,
-      "page": "p/clima-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Claude: why this search is trending today",
-      "slug": "claude-why-this-search-is-trending-today",
-      "topic": "claude",
-      "date": "2026-09-22",
-      "date_pkt": "2026-09-22 03:59 PM PKT",
-      "excerpt": "People are searching for claude in GB. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"claude\" in GB. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "claude",
-        "claude news",
-        "google trends",
-        "GB",
-        "trending today"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDMc1vUftUvQ4Bcy4E_UnwL9gdJa1pSYItKRlk32Uw0pQ_XvG2rhw4xrO-UUA",
-      "related": [
-        {
-          "title": "Claude down latest update: Users report outage as Mythos 5.1, Fable 5.1 and Opus 5 face errors",
-          "url": "https://www.moneycontrol.com/world/claude-down-latest-update-users-report-outage-as-mythos-5-1-fable-5-1-and-opus-5-face-errors-article-14034936.html",
-          "source": "Moneycontrol.com"
-        },
-        {
-          "title": "Claude Elevated Errors for Multiple Models Now Resolved",
-          "url": "https://www.technobezz.com/news/claude-service-incident-9f8629b4",
-          "source": "Technobezz"
-        },
-        {
-          "title": "Anthropic Resolves Outage Affecting Multiple Claude AI Models",
-          "url": "https://suaragarut.id/en/anthropic-resolves-claude-ai-outage",
-          "source": "SuaraGarut.ID"
-        }
-      ],
-      "word_count": 588,
-      "page": "p/claude-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Buffalo Sabres: why this search is trending today",
-      "slug": "buffalo-sabres-why-this-search-is-trending-today",
-      "topic": "buffalo sabres",
-      "date": "2026-09-22",
-      "date_pkt": "2026-09-22 03:59 PM PKT",
-      "excerpt": "People are searching for buffalo sabres in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"buffalo sabres\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "buffalo sabres",
-        "buffalo sabres news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQcQDT28WwYJanBIL-aJqme3hsR47aCcsCQw6bhdDmdDg8GJYP6Er246SojGbw",
-      "related": [
-        {
-          "title": "Sabres at Penguins | How to watch, lineup notes, and storylines",
-          "url": "https://www.nhl.com/sabres/news/sabres-penguins-preseason-rosters-how-to-watch",
-          "source": "NHL.com"
-        },
-        {
-          "title": "Pens Points: Preseason Positives",
-          "url": "https://sports.yahoo.com/articles/pens-points-preseason-positives-100000156.html",
-          "source": "Yahoo Sports"
-        },
-        {
-          "title": "NHL Preseason Updates, Score: Penguins vs. Sabres, 7:08 p.m.",
-          "url": "https://www.dkpittsburghsports.com/team/penguins/feed/topic/penguins-sabres-preseason-nhl-score-update-news-tlh",
-          "source": "DK Pittsburgh Sports"
-        }
-      ],
-      "word_count": 585,
-      "page": "p/buffalo-sabres-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Ahmed Bin Rashid Al Maktoum: why this search is trending today",
-      "slug": "ahmed-bin-rashid-al-maktoum-why-this-search-is-trending-today",
-      "topic": "ahmed bin rashid al maktoum",
-      "date": "2026-09-22",
-      "date_pkt": "2026-09-22 03:59 PM PKT",
-      "excerpt": "People are searching for ahmed bin rashid al maktoum in PK. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"ahmed bin rashid al maktoum\" in PK. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "ahmed bin rashid al maktoum",
-        "ahmed bin rashid al maktoum news",
-        "google trends",
-        "PK",
-        "trending today"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR0tf4pJR9M5eEV001aTn3GfzDBPnBeshZBxygTbHhq0j48JwnicWgqKETCT0g",
-      "related": [
-        {
-          "title": "Sheikh Ahmed bin Rashid Al Maktoum, brother of Dubai ruler, passes away at 76",
-          "url": "https://www.dawn.com/news/2031620",
-          "source": "Dawn"
-        },
-        {
-          "title": "Sheikh Ahmed bin Rashid dies as Dubai declares 10-day mourning",
-          "url": "https://gulfbusiness.com/en/2026/news/sheikh-ahmed-bin-rashid-dies-as-dubai-declares-10-day-mourning/",
-          "source": "Gulf Business"
-        },
-        {
-          "title": "Funeral prayer for Sheikh Ahmed bin Rashid to be held on Tuesday",
-          "url": "https://gulfnews.com/uae/funeral-prayer-for-sheikh-ahmed-bin-rashid-to-be-held-on-tuesday-1.500682934",
-          "source": "Gulf News"
-        }
-      ],
-      "word_count": 610,
-      "page": "p/ahmed-bin-rashid-al-maktoum-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "صندوق الاستثمارات العامة: why this search is trending today",
-      "slug": "why-this-search-is-trending-today-20260921",
-      "topic": "صندوق الاستثمارات العامة",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "People are searching for صندوق الاستثمارات العامة in SA. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"صندوق الاستثمارات العامة\" in SA. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "صندوق الاستثمارات العامة",
-        "صندوق الاستثمارات العامة news",
-        "google trends",
-        "SA",
-        "trending today"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRHclidVM4_vrr3vYe1foQL_pb1pZmAXgS8AnWAA6aQKu-i_m3jmFmklw7yKXI",
-      "related": [
-        {
-          "title": "صندوق الاستثمارات العامة يطلق شركة \"توريد\" لتقديم منتجات تمويل سلاسل الإمداد في السعودية",
-          "url": "https://www.pif.gov.sa/ar/news-and-insights/press-releases/2026/pif-launches-tawrid-to-provide-supply-chain-financing-products-in-saudi-arabia/",
-          "source": "Public Investment Fund"
-        },
-        {
-          "title": "صندوق الاستثمارات العامة يطلق «توريد» لتمويل سلاسل الإمداد رقمياً",
-          "url": "https://sabq.org/article/65gspwi",
-          "source": "صحيفة سبق الإلكترونية"
-        },
-        {
-          "title": "السيادي السعودي يطلق منصة \"توريد\" لتمويل سلاسل الإمداد في المملكة",
-          "url": "https://asharqbusiness.com/companies/148374/%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%8A%D8%B7%D9%84%D9%82-%D9%85%D9%86%D8%B5%D8%A9-%D9%84%D8%AA%D9%85%D9%88%D9%8A%D9%84-%D8%B3%D9%84%D8%A7%D8%B3%D9%84-%D8%A7%D9%84%D8%A5%D9%85%D8%AF%D8%A7%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9/",
-          "source": "الشرق بلومبرغ"
-        }
-      ],
-      "word_count": 598,
-      "page": "p/why-this-search-is-trending-today-20260921.html"
-    },
-    {
-      "title": "Why maps are sparking debate worldwide",
-      "slug": "why-maps-are-sparking-debate-worldwide",
-      "topic": "map",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "A surge in map‑related searches reflects growing public interest in how maps influence political perception. The trend highlights calls for more transparent and inclusive cartography.",
-      "meta_description": "Searches for map have surged as people examine how cartographic choices shape political narratives, prompting discussion about bias and representation.",
-      "keywords": [
-        "map bias",
-        "cartography",
-        "geopolitics",
-        "decolonizing maps",
-        "Pakistan"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSLiKChPoWngkc0Q1wCsbgPV1a1ZwbCrSlgZ3z6-KDnQ8SI54YYB94b6gkVwR4",
-      "related": [
-        {
-          "title": "This truth emerges as political situations change fast: Maps show us our world, but not neutrally",
-          "url": "https://apnews.com/article/map-names-un-africa-size-trump-80554c1b7dc7ad138eebe5a2801ba725",
-          "source": "AP News"
-        },
-        {
-          "title": "‘A map is never neutral’: meet the cartographers who took on centuries of western bias",
-          "url": "https://www.theguardian.com/science/ng-interactive/2026/sep/18/map-cartographers-western-bias-mercator-equal-earth",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Decolonizing perceptions about Africa",
-          "url": "https://www.dw.com/en/decolonizing-perceptions-about-africa/a-79331178",
-          "source": "DW.com"
-        }
-      ],
-      "word_count": 826,
-      "page": "p/why-maps-are-sparking-debate-worldwide.html"
-    },
-    {
-      "title": "Tornado Warning News: why this search is trending today",
-      "slug": "tornado-warning-news-why-this-search-is-trending-today",
-      "topic": "tornado warning news",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "People are searching for tornado warning news in IN. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"tornado warning news\" in IN. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "tornado warning news",
-        "tornado warning news news",
-        "google trends",
-        "IN",
-        "trending today"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "2000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSgcvHOJUriyLLXVgrIxZvf-29i2figJGPOYlFVVG0URxVa_gdYaoU1BXVK4no",
-      "related": [
-        {
-          "title": "Ohio flash-flood threat persists as tornado warning ends",
-          "url": "https://timesofindia.indiatimes.com/world/us/ohio-flash-flood-threat-persists-as-tornado-warning-ends/articleshow/134383312.cms",
-          "source": "The Times of India"
-        },
-        {
-          "title": "Rain and Storms throughout the morning",
-          "url": "https://www.fox19.com/2026/09/21/rain-storms-throughout-morning/",
-          "source": "FOX19 | Cincinnati"
-        },
-        {
-          "title": "Impact day: Monday morning storms brings fall feel to Cincinnati",
-          "url": "https://www.wlwt.com/article/cincinnati-weather-forecast-morning-storms-fall-feel-front/73817941",
-          "source": "WLWT"
-        }
-      ],
-      "word_count": 590,
-      "page": "p/tornado-warning-news-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Stephen Fleming: why this search is trending today",
-      "slug": "stephen-fleming-why-this-search-is-trending-today",
-      "topic": "stephen fleming",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "People are searching for stephen fleming in IN. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"stephen fleming\" in IN. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "stephen fleming",
-        "stephen fleming news",
-        "google trends",
-        "IN",
-        "trending today"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQauayBGMGiMgD6M9o-xtiXKSmsyCIcv-W0NRoOVOgw_4Lr4wtqU4cpGG4LVgs",
-      "related": [
-        {
-          "title": "Fleming targets No. 1 Test ranking alongside focus on 'identity'",
-          "url": "https://www.cricinfo.com/story/stephen-fleming-targets-no1-test-ranking-focus-england-team-identity-1555045",
-          "source": "Cricinfo"
-        },
-        {
-          "title": "'Beat the Aussies' - new England coach Fleming's key aim",
-          "url": "https://www.bbc.com/sport/cricket/articles/c6d08r79rvlgo",
-          "source": "BBC"
-        },
-        {
-          "title": "Fleming sets sights on World Test Championship with England",
-          "url": "https://www.icc-cricket.com/news/fleming-sets-sights-on-world-test-championship-with-england",
-          "source": "ICC"
-        }
-      ],
-      "word_count": 585,
-      "page": "p/stephen-fleming-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Sheikh Ahmed Bin Rashid Al Maktoum: why this search is trending today",
-      "slug": "sheikh-ahmed-bin-rashid-al-maktoum-why-this-search-is-trending-today",
-      "topic": "sheikh ahmed bin rashid al maktoum",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "People are searching for sheikh ahmed bin rashid al maktoum in IN. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"sheikh ahmed bin rashid al maktoum\" in IN. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "sheikh ahmed bin rashid al maktoum",
-        "sheikh ahmed bin rashid al maktoum news",
-        "google trends",
-        "IN",
-        "trending today"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSiqV4Xwtol8kGjzLld6XM0bfgKi6W4Ylf46VjZgGfSthdYwVEbaWnD6tIQE3I",
-      "related": [
-        {
-          "title": "Sheikh Ahmed bin Rashid dies as Dubai declares 10-day mourning",
-          "url": "https://gulfbusiness.com/en/2026/news/sheikh-ahmed-bin-rashid-dies-as-dubai-declares-10-day-mourning/",
-          "source": "Gulf Business"
-        },
-        {
-          "title": "Dubai announces 10 days of mourning after death of Sheikh Ahmed bin Rashid",
-          "url": "https://www.thenationalnews.com/news/uae/2026/09/21/dubai-announces-10-day-mourning-after-death-of-sheikh-ahmed-bin-rashid/",
-          "source": "The National"
-        },
-        {
-          "title": "Sheikh Ahmed bin Rashid Al Maktoum, owner of Mtoto and Addeybb, dies as Dubai declares ten days of mourning",
-          "url": "https://www.racingpost.com/news/international/uae/sheikh-ahmed-bin-rashid-al-maktoum-owner-of-mtoto-and-addeybb-dies-as-dubai-declares-ten-days-of-mourning-abMp96I8Aicu/",
-          "source": "Racing Post"
-        }
-      ],
-      "word_count": 622,
-      "page": "p/sheikh-ahmed-bin-rashid-al-maktoum-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Saudi searches rise for موارد as resource reuse expands",
-      "slug": "saudi-searches-rise-for-as-resource-reuse-expands",
-      "topic": "موارد",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "Searches for the Arabic term موارد have surged in Saudi Arabia after government announcements about reusing construction waste in road projects. The trend reflects public curiosity about resource efficiency and new policy directions.",
-      "meta_description": "In Saudi Arabia, interest in موارد is growing as officials highlight the potential to recycle millions of cubic meters of construction waste for road paving, pr",
-      "keywords": [
-        "موارد",
-        "resource management",
-        "construction waste",
-        "road paving",
-        "Saudi Arabia"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR11N8bsWTC9p7W77cZme_dHmSATGqP61aQ44hMhSkuQp1qpfj_n-yspXPav3I",
-      "related": [
-        {
-          "title": "إن إتقان موارد التردد يمهد الطريق للتقنيات الاستراتيجية.",
-          "url": "https://www.vietnam.vn/ar/lam-chu-tai-nguyen-tan-so-mo-duong-cho-cong-nghe-chien-luoc",
-          "source": "Vietnam.vn"
-        },
-        {
-          "title": "وزيرة الإسكان: الدراسات أثبتت إمكانية إعادة استخدام نحو 1.8 مليون متر مكعب من المخلفات في أعمال رصف الطرق",
-          "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=20092026&id=82413678-e573-43b5-aed8-5adf4860fce5",
-          "source": "بوابة الشروق"
-        },
-        {
-          "title": "الإسكان: 1.8 مليون متر مكعب مخلفات قابلة لإعادة الاستخدام في رصف الطرق",
-          "url": "https://www.osoulmisrmagazine.com/448469",
-          "source": "أصول مصر"
-        }
-      ],
-      "word_count": 614,
-      "page": "p/saudi-searches-rise-for-as-resource-reuse-expands.html"
-    },
-    {
-      "title": "Psx: why this search is trending today",
-      "slug": "psx-why-this-search-is-trending-today",
-      "topic": "psx",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "People are searching for psx in PK. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"psx\" in PK. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "psx",
-        "psx news",
-        "google trends",
-        "PK",
-        "trending today"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQOXQJap8CEBb-LaQX1kddC2xEYncBbETP0ez4lGMn0Y1tnWZSM9EdL18GaiHI",
-      "related": [
-        {
-          "title": "PSX extends trading suspension of five companies for another 60 days",
-          "url": "https://profit.pakistantoday.com.pk/2026/09/21/psx-extends-trading-suspension-of-five-companies-for-another-60-days",
-          "source": "Profit by Pakistan Today"
-        },
-        {
-          "title": "PSX: Buying continues, KSE-100 up over 500 points",
-          "url": "https://www.brecorder.com/news/40440469/psx-buying-continues-kse-100-up-over-450-points",
-          "source": "Business Recorder"
-        },
-        {
-          "title": "Stocks settle above 170,000 on renewed buying",
-          "url": "https://www.dawn.com/news/2030985",
-          "source": "Dawn"
-        }
-      ],
-      "word_count": 583,
-      "page": "p/psx-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Pelican knocks on NOAA door in Florida, prompting rescue effort",
-      "slug": "pelican-knocks-on-noaa-door-in-florida-prompting-rescue-effort",
-      "topic": "pelican",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "A pelican in Florida sought help by tapping on a NOAA office, leading to a swift rescue operation. The incident has highlighted the role of agencies in wildlife emergencies.",
-      "meta_description": "A pelican in Florida knocked on a NOAA office door, sparking a coordinated rescue that has drawn nationwide attention and online searches.",
-      "keywords": [
-        "pelican",
-        "NOAA",
-        "Florida wildlife rescue",
-        "bird rehabilitation",
-        "coastal conservation"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRwRUYUqTI-FAaBz_9EmBTPZ6R4VdSbRykmEfP0oXrrf5D-oiE0w1pzLNbzozY",
-      "related": [
-        {
-          "title": "Scientists heard a knock at the door. It was a pelican in need of help.",
-          "url": "https://www.washingtonpost.com/lifestyle/2026/09/20/scientists-heard-knock-door-it-was-pelican-need-help/",
-          "source": "The Washington Post"
-        },
-        {
-          "title": "Knocking for Help: A Pelican’s Unlikely Rescue",
-          "url": "https://www.fisheries.noaa.gov/feature-story/knocking-help-pelicans-unlikely-rescue",
-          "source": "NOAA Fisheries (.gov)"
-        },
-        {
-          "title": "A pelican in Florida was in need of help, so it knocked on NOAA’s door",
-          "url": "https://www.wesh.com/article/pelican-florida-needing-help-knocks-on-noaa-door/73761648",
-          "source": "WESH"
-        }
-      ],
-      "word_count": 584,
-      "page": "p/pelican-knocks-on-noaa-door-in-florida-prompting-rescue-effort.html"
-    },
-    {
-      "title": "Pakistan-China border pact raises tensions with India",
-      "slug": "pakistan-china-border-pact-raises-tensions-with-india",
-      "topic": "pakistan india",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "A newly formed Pakistan‑China border commission has sparked a diplomatic flare‑up with India. Observers are watching how the pact may reshape security and trade in the region.",
-      "meta_description": "India’s displeasure over the newly‑activated Pakistan‑China border commission highlights shifting regional dynamics, prompting heightened scrutiny of Pakistan I",
-      "keywords": [
-        "Pakistan",
-        "India",
-        "China",
-        "border commission",
-        "South Asia"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRhAU__1MpcMQ8IZqofIGOq6TkCP-tDP4CRW-dJQyeu79YwcQbnmkR-l2LYW50",
-      "related": [
-        {
-          "title": "Why India is irked by a new Pakistan-China border pact",
-          "url": "https://www.bbc.com/news/articles/cqe9e4vjx1e5o",
-          "source": "BBC"
-        },
-        {
-          "title": "Islamabad, Beijing activate joint border commission",
-          "url": "https://www.dawn.com/news/2030508",
-          "source": "Dawn"
-        },
-        {
-          "title": "Pakistan, China reaffirm consensus at inaugural Boundary Joint Commission meeting",
-          "url": "https://asianews.network/pakistan-china-reaffirm-consensus-at-inaugural-boundary-joint-commission-meeting/",
-          "source": "Asia News Network"
-        }
-      ],
-      "word_count": 714,
-      "page": "p/pakistan-china-border-pact-raises-tensions-with-india.html"
-    },
-    {
-      "title": "Nws: why this search is trending today",
-      "slug": "nws-why-this-search-is-trending-today",
-      "topic": "nws",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "People are searching for nws in US. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"nws\" in US. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "nws",
-        "nws news",
-        "google trends",
-        "US",
-        "trending today"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhZe5qBAwBmVs7Na-HTEAM5-4kgXYs_Q82LUQ3zwt7nC4X7MMj-VLlujov6L8",
-      "related": [
-        {
-          "title": "Severe thunderstorm warning issued for 2 counties in Charlotte region: What to know",
-          "url": "https://www.wbtv.com/2026/09/18/severe-thunderstorm-warning-issued-2-counties-charlotte-region-what-know/",
-          "source": "WBTV"
-        },
-        {
-          "title": "UPDATE: Thunderstorms with penny-sized hail and damaging winds in Anderson County Sunday",
-          "url": "https://www.thestate.com/news/weather-news/article317317154.html",
-          "source": "The State"
-        },
-        {
-          "title": "UPDATE: Prepare for thunderstorms in McDowell Mountains and Eastern McDowell early Sunday evening",
-          "url": "https://www.charlotteobserver.com/news/weather-news/article317315943.html",
-          "source": "Charlotte Observer"
-        }
-      ],
-      "word_count": 592,
-      "page": "p/nws-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "NOAA releases new fall weather map for all U.S. states",
-      "slug": "noaa-releases-new-fall-weather-map-for-all-us-states",
-      "topic": "noaa",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "The National Oceanic and Atmospheric Administration unveiled a detailed fall weather map for the United States. The graphic highlights regional temperature shifts and precipitation expectations as summer ends.",
-      "meta_description": "NOAA has published an updated map showing expected temperature and precipitation trends for the upcoming fall season across every U.S. state, helping residents ",
-      "keywords": [
-        "NOAA",
-        "fall weather",
-        "U.S. climate",
-        "weather map",
-        "seasonal forecast"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQV32Cp9Yv6AUDZrEAwcxLYEyPQhUIAJjmXLHuQBu30hztb1xDyRCpmvmrn-nY",
-      "related": [
-        {
-          "title": "FOX56 Weather Authority | Brian's Fall Outlook",
-          "url": "https://fox56.com/news/local/fox56-weather-authority-brians-fall-outlook",
-          "source": "fox56.com"
-        },
-        {
-          "title": "New NOAA Map Shows Fall Weather in Every US State",
-          "url": "https://www.mensjournal.com/news/new-noaa-map-shows-fall-weather-in-every-us-state",
-          "source": "Men's Journal"
-        },
-        {
-          "title": "Summer is saying goodbye to the U.S.: Here’s what fall will bring",
-          "url": "https://www.marca.com/en/lifestyle/2026/09/21/summer-is-saying-goodbye-to-the-u-s-here-s-what-fall-will-bring.html",
-          "source": "MARCA"
-        }
-      ],
-      "word_count": 872,
-      "page": "p/noaa-releases-new-fall-weather-map-for-all-us-states.html"
-    },
-    {
-      "title": "Maps: why this search is trending today",
-      "slug": "maps-why-this-search-is-trending-today",
-      "topic": "maps",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "People are searching for maps in SA. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"maps\" in SA. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "maps",
-        "maps news",
-        "google trends",
-        "SA",
-        "trending today"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSey-y4D46FpRWs2FkYWMq4uGWsONSQcs5iePV4iclfh5TVFsFLTCp9sJL-LZ4",
-      "related": [
-        {
-          "title": "Winter 2026/2027 Snowfall Explorer: See the Latest Forecast for Your State and Region",
-          "url": "https://www.severe-weather.eu/long-range-2/winter-2026-2027-snowfall-explorer-september-forecast-update-state-region-breakdown-united-states-canada-europe-fa/",
-          "source": "Severe Weather Europe"
-        },
-        {
-          "title": "Map Shows US States Facing Coldest Weather This Winter",
-          "url": "https://www.mensjournal.com/news/map-shows-us-states-facing-coldest-weather-this-winter-research",
-          "source": "Men's Journal"
-        },
-        {
-          "title": "National Weather Service Reveals Winter Outlook for Every US Region",
-          "url": "https://www.aol.com/articles/national-weather-reveals-winter-outlook-172940000.html",
-          "source": "AOL.com"
-        }
-      ],
-      "word_count": 589,
-      "page": "p/maps-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Maaz Sadaqat draws attention across Pakistan amid cricket buzz",
-      "slug": "maaz-sadaqat-draws-attention-across-pakistan-amid-cricket-buzz",
-      "topic": "maaz sadaqat",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "Search interest in Maaz Sadaqat has risen sharply as cricket fans seek information about his involvement in recent games. The spike reflects a broader pattern of local personalities gaining visibility during the tournament season.",
-      "meta_description": "Maaz Sadaqat is trending in Pakistan as cricket fans discuss his role in recent matches, prompting a surge in online searches and local media coverage.",
-      "keywords": [
-        "Maaz Sadaqat",
-        "Pakistan cricket",
-        "online trends",
-        "social media",
-        "sports personalities"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQMNN93l2JAhlp275NG_RUgpmfovabnndcT0486rGZvbVZtfT1EZm6zbUwlevY",
-      "related": [
-        {
-          "title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
-          "url": "https://www.cricbuzz.com/player-match-performance/match/154711/player/22816/batting",
-          "source": "Cricbuzz"
-        },
-        {
-          "title": "BT vs JAK Cricket Scorecard, Eliminator at Bridgetown, September 16, 2026",
-          "url": "https://www.cricinfo.com/series/caribbean-premier-league-2026-1534175/barbados-tridents-vs-jamaica-kingsmen-eliminator-1534214/full-scorecard",
-          "source": "Cricinfo"
-        },
-        {
-          "title": "Jamaica Kingsmen hunt redemption against Barbados in CPL play-off showdown",
-          "url": "https://www.jamaicaobserver.com/2026/09/16/jamaica-kingsmen-hunt-redemption-barbados-cpl-play-off-showdown/",
-          "source": "Jamaica Observer"
-        }
-      ],
-      "word_count": 756,
-      "page": "p/maaz-sadaqat-draws-attention-across-pakistan-amid-cricket-buzz.html"
-    },
-    {
-      "title": "Lauren Boebert: why this search is trending today",
-      "slug": "lauren-boebert-why-this-search-is-trending-today",
-      "topic": "lauren boebert",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "People are searching for lauren boebert in IN. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"lauren boebert\" in IN. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "lauren boebert",
-        "lauren boebert news",
-        "google trends",
-        "IN",
-        "trending today"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR5v3lSvwdR6fLQxnOJbZjZlL-Y8iqGM0reTrT-uo04f7SHdiOQYf8eSl4FMxA",
-      "related": [
-        {
-          "title": "Lauren Boebert Addresses Claims She Had Affairs with 3 Staffers, Paid $200,000 to Keep One from Speaking Out",
-          "url": "https://people.com/lauren-boebert-addresses-claims-she-had-affairs-with-3-staffers-12129713",
-          "source": "People.com"
-        },
-        {
-          "title": "US lawmaker who asked why colleagues were ‘so horny’ accused of sex with staffers",
-          "url": "https://www.stuff.co.nz/world-news/361036188/us-lawmaker-who-asked-why-colleagues-were-so-horny-accused-sex-staffers",
-          "source": "Stuff"
-        },
-        {
-          "title": "Lauren Boebert Rejects Ethics Complaint Accusing Her of Affairs With Staff",
-          "url": "https://www.tmz.com/2026/09/19/lauren-boebert-rejects-complaint-accusing-her-of-sexual-relationships-with-staff/",
-          "source": "TMZ"
-        }
-      ],
-      "word_count": 601,
-      "page": "p/lauren-boebert-why-this-search-is-trending-today.html"
-    },
-    {
-      "title": "Kazakhstan: why this search is trending today",
-      "slug": "kazakhstan-why-this-search-is-trending-today",
-      "topic": "kazakhstan",
-      "date": "2026-09-21",
-      "date_pkt": "2026-09-21 05:03 PM PKT",
-      "excerpt": "People are searching for kazakhstan in GB. Here is a structured overview and how to verify the story.",
-      "meta_description": "What to know about trending search \"kazakhstan\" in GB. Context, related headlines, and how to verify updates.",
-      "keywords": [
-        "kazakhstan",
-        "kazakhstan news",
-        "google trends",
-        "GB",
-        "trending today"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTLAY80pKCnOV4wM875WGmvl8rCcWw24JoWVTqKdg__M0E2iVbKufYcwR-xgGQ",
-      "related": [
-        {
-          "title": "Kazakhstan’s Oil Logistics Trap: Higher Prices, Limited Gains",
-          "url": "https://timesca.com/kazakhstans-oil-logistics-trap-higher-prices-limited-gains/",
-          "source": "The Times Of Central Asia"
-        },
-        {
-          "title": "Kazakhstan sees oil output at 96 mln T in 2028, IFX cites ministry",
-          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_R4N44P00M:0-kazakhstan-sees-oil-output-at-96-mln-t-in-2028-ifx-cites-ministry/",
-          "source": "TradingView"
-        },
-        {
-          "title": "Export Constraints Curb Kazakhstan's Ability to Offset the Global Oil Shortage",
-          "url": "https://oilprice.com/Energy/Crude-Oil/Export-Constraints-Curb-Kazakhstans-Ability-to-Offset-the-Global-Oil-Shortage.html",
-          "source": "Crude Oil Prices Today | OilPrice.com"
-        }
-      ],
-      "word_count": 594,
-      "page": "p/kazakhstan-why-this-search-is-trending-today.html"
     }
   ]
 }
