@@ -1,291 +1,210 @@
 {
-  "updated_at": "2026-10-04T11:02:38.396460+00:00",
+  "updated_at": "2026-10-11T11:19:52.148577+00:00",
   "items": [
     {
-      "title": "Solutions Architect for Automotive Job at Canonical (Worldwide)",
-      "slug": "solutions-architect-for-automotive-job-at-canonical-worldwide",
-      "url": "https://jobicy.com/jobs/154514-solutions-architect-for-automotive",
-      "summary": "Canonical is seeking a Solutions Architect for Automotive to drive innovation in the global enterprise market. You will leverage the Ubuntu platform to support breakthrough initiatives in the automotive sector. This role offers the chance to work with cutting-edge open source technologies. It is a remote-friendly position suitable for candidates in Pakistan, India, and Europe.",
-      "meta_description": "Apply for the Solutions Architect for Automotive role at Canonical. Work on Ubuntu open source solutions globally. Ideal for experts in Pakistan, India, and worldwide.",
+      "title": "Recruiting Coordinator (Contract) | TRM Labs Remote Job",
+      "slug": "recruiting-coordinator-contract-trm-labs-remote-job",
+      "url": "https://jobicy.com/jobs/155046-recruiting-coordinator-contract",
+      "summary": "TRM Labs is seeking a contract Recruiting Coordinator to support talent acquisition for its AI-powered intelligence platforms. This remote, worldwide role involves coordinating with candidates and hiring managers to build a safer world through technology. The position is ideal for professionals in Pakistan, India, or Europe seeking experience in the cybersecurity and AI sectors.",
+      "meta_description": "Apply for the Recruiting Coordinator contract role at TRM Labs. Remote, worldwide opportunity in AI-driven security. Ideal for Pakistan, India, and global candidates.",
       "eligibility": [
-        "Proven experience as a Solutions Architect or similar technical role in the automotive or enterprise IT sector.",
-        "Deep understanding of Ubuntu Linux, open source ecosystems, and cloud-native technologies.",
-        "Strong ability to communicate complex technical concepts to non-technical stakeholders and clients."
+        "Proven experience in recruitment, talent acquisition, or HR coordination.",
+        "Strong communication skills and ability to work independently in a remote environment.",
+        "Familiarity with tech-sector hiring processes and candidate relationship management."
       ],
       "benefits": [
-        "Work with a leading global provider of open source software and operating systems.",
-        "Contribute to high-impact enterprise initiatives using the widely adopted Ubuntu platform."
+        "Fully remote, worldwide contract position with flexible working hours.",
+        "Opportunity to work with cutting-edge AI and cybersecurity technologies."
       ],
       "how_to_apply": [
-        "Prepare your resume highlighting relevant automotive and Ubuntu/Linux experience.",
-        "Submit your application through the official Canonical careers portal.",
-        "Complete any requested technical assessments or interviews as part of the hiring process."
+        "Prepare your resume highlighting relevant recruitment or HR experience.",
+        "Submit your application via the official TRM Labs careers portal.",
+        "Complete any required pre-screening assessments or interviews as scheduled."
       ],
       "faqs": [
         {
-          "q": "Is this Solutions Architect for Automotive job open to candidates in Pakistan and India?",
-          "a": "Yes, the role is listed as Worldwide, making it accessible to qualified candidates in Pakistan, India, and other regions."
+          "q": "Is this job available for candidates in Pakistan and India?",
+          "a": "Yes, the role is open worldwide, including candidates based in Pakistan, India, and Europe."
         },
         {
-          "q": "What is the primary technology stack for this role?",
-          "a": "The role focuses on Canonical's Ubuntu platform and open source software solutions tailored for the automotive industry."
+          "q": "What is the employment type for this position?",
+          "a": "This is a contract-based role, not a full-time permanent employee position."
         }
       ],
       "keywords": [
-        "Solutions Architect for Automotive",
-        "Canonical jobs",
+        "Recruiting Coordinator",
+        "TRM Labs jobs",
+        "remote HR jobs",
+        "cybersecurity recruitment",
         "pakistan",
-        "india",
-        "ubuntu developer",
-        "remote jobs"
+        "india"
+      ],
+      "level": "",
+      "region": "Remote / Worldwide",
+      "source": "jobicy.com",
+      "published": "Sun, 11 Oct 2026 06:14:32 +0000",
+      "page": "p/recruiting-coordinator-contract-trm-labs-remote-job.html"
+    },
+    {
+      "title": "Head of Marketing - Argentina/Uruguay (MS/PhD preferred)",
+      "slug": "head-of-marketing---argentinauruguay-msphd-preferred",
+      "url": "https://jobicy.com/jobs/155040-head-of-marketing-argentina-uruguay",
+      "summary": "Join our global mission at Halter, where we empower farmers and graziers with productive and sustainable solutions. Apply for the Head of Marketing role in Argentina and Uruguay (MS/PhD preferred).",
+      "meta_description": "",
+      "eligibility": [
+        "MS or PhD degree in Agriculture, Business, or related field",
+        "Experience in marketing and sales in the agriculture or livestock industry",
+        "Excellent communication, negotiation, and leadership skills",
+        "Familiarity with the Argentina and Uruguayan markets",
+        "Fluency in Spanish (both written and spoken)"
+      ],
+      "benefits": [
+        "Competitive salary",
+        "Expenses for relocation and accommodation",
+        "Health insurance",
+        "Continuing education opportunities",
+        "Access to innovative Halter technologies and solutions"
+      ],
+      "how_to_apply": [
+        "Step 1: Review the job description and ensure you meet the eligibility criteria",
+        "Step 2: Prepare your CV and cover letter highlighting your relevant experience and skills",
+        "Step 3: Submit your application through our careers page.",
+        "Note: Due to the nature of the role, we strongly encourage applications from candidates with relevant experience in the agriculture and livestock industry in Argentina and Uruguayan markets."
+      ],
+      "faqs": [
+        {
+          "q": "What is the job location for this Head of Marketing role?",
+          "a": "The job location for this Head of Marketing role is in Argentina and Uruguay."
+        },
+        {
+          "q": "What is the expected salary for this position?",
+          "a": "The competitive salary for the Head of Marketing role will be discussed during the recruitment process."
+        },
+        {
+          "q": "Are relocation and accommodation expenses covered?",
+          "a": "Yes, expenses for relocation and accommodation will be covered for selected candidates."
+        }
+      ],
+      "keywords": [
+        "Head of Marketing",
+        "Argentina",
+        "Uruguay",
+        "MS/PhD",
+        "farming",
+        "sustainability",
+        "Halter"
       ],
       "level": "",
       "region": "Worldwide",
       "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:45:40 +0000",
-      "page": "p/solutions-architect-for-automotive-job-at-canonical-worldwide.html"
+      "published": "Sun, 11 Oct 2026 06:14:31 +0000",
+      "page": "p/head-of-marketing---argentinauruguay-msphd-preferred.html"
     },
     {
-      "title": "Open Source Enterprise Solutions Sales Manager - North America (MS/PhD/Job Role)",
-      "slug": "open-source-enterprise-solutions-sales-manager---north-america-msphdjob-role",
-      "url": "https://jobicy.com/jobs/154513-open-source-enterprise-sales-manager-north-america",
-      "summary": "Join our dynamic team as we seek an experienced Open Source Enterprise Solutions Sales Manager with a Master's (MS) or Doctoral (PhD) degree or relevant job role experience to lead our direct sales efforts in North America. This is an excellent opportunity for professionals in Pakistan, India, and Europe to contribute to our global expansion.",
+      "title": "Senior Software Engineer, Data Product (MS/PhD preferred)",
+      "slug": "senior-software-engineer-data-product-msphd-preferred",
+      "url": "https://jobicy.com/jobs/155044-senior-software-engineer-data-product",
+      "summary": "Join TRM Labs, a global leader in AI-powered intelligence solutions, as a Senior Software Engineer, Data Product. Our platforms assist public and private sector agencies in investigating and disrupting crime. With a MS or PhD (preferred), you'll drive innovation and make a significant impact in Pakistan, India, and beyond.",
       "meta_description": "",
       "eligibility": [
-        "MS/PhD or relevant job role experience",
-        "Experience in enterprise software sales",
-        "Excellent communication and negotiation skills",
-        "Proven track record of revenue generation",
-        "Fluency in English (written and spoken)",
-        "Preferably knowledge of the Pakistan, India, or Europe market"
+        "MS or PhD (preferred)",
+        "Experience in software development and AI technologies",
+        "Excellent problem-solving skills",
+        "Comfortable working in a fast-paced, international environment",
+        "Fluent in English"
       ],
       "benefits": [
         "Competitive salary",
-        "Commission-based rewards",
         "Health insurance",
+        "Vacation days",
         "Continuing education support",
-        "Global career growth opportunities"
+        "Global networking opportunities"
       ],
       "how_to_apply": [
-        "Step 1: Review the job description and ensure you meet the eligibility criteria.",
-        "Step 2: Prepare your CV and cover letter highlighting your relevant experience and motivation.",
-        "Step 3: Submit your application through our official website, following the instructions provided.",
-        "Note: Due to the high volume of applications, we regret that only shortlisted candidates will be contacted."
+        "Step 1: Review job requirements in the description.",
+        "Step 2: Prepare your resume highlighting relevant skills and experiences.",
+        "Step 3: Submit your application via our careers page, along with a cover letter explaining your interest in TRM Labs and how you meet the job requirements."
       ],
       "faqs": [
         {
           "q": "What is the job location?",
-          "a": "The job location is in North America."
+          "a": "This position is based in our global headquarters, with opportunities for remote work for the right candidate."
         },
         {
-          "q": "What are the eligibility criteria?",
-          "a": "To be eligible, you must have a Master's (MS) or Doctoral (PhD) degree or relevant job role experience, excellent communication and negotiation skills, a proven track record of revenue generation, fluency in English (written and spoken), and preferably knowledge of the Pakistan, India, or Europe market."
-        },
-        {
-          "q": "What is the job description?",
-          "a": "The Open Source Enterprise Solutions Sales Manager role involves leading the direct sales team in North America, achieving revenue targets, and contributing to the global growth of our company. The ideal candidate should have a strong understanding of the Pakistan, India, or Europe market."
+          "q": "What is the company culture?",
+          "a": "TRM Labs fosters a dynamic, inclusive, and collaborative environment where innovation and growth are valued."
         }
       ],
       "keywords": [
-        "Open Source Enterprise Solutions Sales Manager",
-        "North America",
-        "MS/PhD",
-        "Job Role",
+        "Senior Software Engineer",
+        "Data Product",
+        "AI",
+        "Crime Investigation",
+        "Public Sector",
         "Pakistan",
         "India"
       ],
       "level": "",
       "region": "Worldwide",
       "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:45:39 +0000",
-      "page": "p/open-source-enterprise-solutions-sales-manager---north-america-msphdjob-role.html"
+      "published": "Sun, 11 Oct 2026 06:14:31 +0000",
+      "page": "p/senior-software-engineer-data-product-msphd-preferred.html"
     },
     {
-      "title": "Director, Partnerships – US-Based",
-      "slug": "director-partnerships-us-based",
-      "url": "https://jobicy.com/jobs/154508-director-partnerships-us-based",
-      "summary": "About Toptal Toptal is a global network of top talent in business, design, and technology that enables companies to scale their teams, on-demand. With $200+ million in annual revenue and...",
-      "meta_description": "About Toptal Toptal is a global network of top talent in business, design, and technology that enables companies to scale their teams, on-demand. With $200",
-      "eligibility": [
-        "Relevant degree or experience for the role",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "job",
-        "job",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Worldwide",
-      "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:45:38 +0000",
-      "page": "p/director-partnerships-us-based.html"
-    },
-    {
-      "title": "Forward Deployed Engineer – Software Engineer – Sweden",
-      "slug": "forward-deployed-engineer-software-engineer-sweden",
-      "url": "https://jobicy.com/jobs/154511-forward-deployed-engineer-software-engineer-sweden",
-      "summary": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we...",
-      "meta_description": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first ",
-      "eligibility": [
-        "Relevant degree or experience for the role",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "job",
-        "job",
-        "europe",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Europe",
-      "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:45:38 +0000",
-      "page": "p/forward-deployed-engineer-software-engineer-sweden.html"
-    },
-    {
-      "title": "Solutions Engineer LATAM: Veriff Remote Job",
-      "slug": "solutions-engineer-latam-veriff-remote-job",
-      "url": "https://jobicy.com/jobs/154512-solutions-engineer-latam",
-      "summary": "Veriff seeks a commercially minded Solutions Engineer to join the LATAM team. You will partner with Sales to drive new business and accelerate revenue growth. This role requires strong technical skills and fluency in Spanish. It is an excellent opportunity for remote professionals in Pakistan, India, and globally.",
-      "meta_description": "Apply for Veriff Solutions Engineer LATAM role. Drive revenue with Sales. Remote job for Pakistan, India, and global candidates. Spanish preferred.",
-      "eligibility": [
-        "Proven experience as a Solutions Engineer, Pre-Sales, or similar technical sales role.",
-        "Fluency in Spanish is mandatory; English proficiency is required.",
-        "Strong ability to explain complex identity verification technology to non-technical stakeholders."
-      ],
-      "benefits": [
-        "Fully remote position with flexible working hours.",
-        "Competitive salary and equity package.",
-        "Opportunity to work with a global team in a high-growth fintech sector."
-      ],
-      "how_to_apply": [
-        "Prepare your resume highlighting technical sales and LATAM market experience.",
-        "Submit your application via the official Veriff careers page.",
-        "Complete the initial screening and technical assessment if shortlisted."
-      ],
-      "faqs": [
-        {
-          "q": "Is this job open to candidates in Pakistan and India?",
-          "a": "Yes, Veriff operates globally and this remote role is open to qualified candidates in Pakistan, India, and other regions, provided you meet the language and time zone requirements."
-        },
-        {
-          "q": "What is the primary responsibility of this Solutions Engineer?",
-          "a": "The primary responsibility is to support the Sales team by demonstrating Veriff’s technology, addressing technical queries, and helping close new business deals in the LATAM region."
-        }
-      ],
-      "keywords": [
-        "Solutions Engineer job",
-        "Veriff careers",
-        "pakistan",
-        "india",
-        "remote tech jobs",
-        "LATAM sales engineer"
-      ],
-      "level": "",
-      "region": "Remote / Worldwide",
-      "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:45:38 +0000",
-      "page": "p/solutions-engineer-latam-veriff-remote-job.html"
-    },
-    {
-      "title": "Psychiatrist Collaborative Physician (MD) - Join the Revolution in Mental Healthcare",
-      "slug": "psychiatrist-collaborative-physician-md---join-the-revolution-in-mental-healthcare",
-      "url": "https://jobicy.com/jobs/154505-psychiatrist-collaborative-physician-md",
-      "summary": "UpLift and BetterHelp are redefining access to mental healthcare. Join our team as a Psychiatrist Collaborative Physician (MD) and help provide quality mental health support to individuals in Pakistan, India, and globally. By working together with primary care physicians, you can improve mental wellbeing and provide comprehensive healthcare services.",
+      "title": "Senior Software Engineer, Backend | Product Engineering (MS/PhD preferred)",
+      "slug": "senior-software-engineer-backend-product-engineering-msphd-preferred",
+      "url": "https://jobicy.com/jobs/155038-senior-software-engineer-backend-product-engineering",
+      "summary": "Join TRM Labs, a global leader in AI-powered intelligence solutions, as a Senior Software Engineer, Backend in our Product Engineering team. With a MS or PhD in Computer Science or related field, you will help public and private sector agencies combat crime and protect public safety. Apply now for a fulfilling career in Pakistan, India, and globally.",
       "meta_description": "",
       "eligibility": [
-        "Must hold a valid MD degree in Psychiatry or equivalent.",
-        "Experience in collaborative care models is a plus.",
-        "Fluency in English is required."
+        "Must have a MS or PhD in Computer Science or related field.",
+        "Experience in AI, machine learning, and software engineering is preferred.",
+        "Fluency in English is required for effective communication.",
+        "Applicants should be legally authorized to work in the relevant country (Pakistan or India).",
+        "Experience in the security or law enforcement sector is a plus."
       ],
       "benefits": [
-        "Opportunity to work with a dynamic team of mental health professionals.",
-        "Remote work options available.",
-        "Continuing education and professional development support."
+        "Competitive salary and benefits.",
+        "Opportunity to work on cutting-edge AI technologies.",
+        "Global career growth and development.",
+        "Collaborative work environment with diverse team.",
+        "Access to industry events and conferences."
       ],
       "how_to_apply": [
-        "Step 1: Review and accept our terms and conditions.",
-        "Step 2: Upload your CV/resume and cover letter.",
-        "Step 3: Submit your application and await further communication from our HR team."
+        "Visit our website and navigate to the job posting.",
+        "Upload your resume and cover letter in PDF format.",
+        "Submit your application and wait for a response from our HR team.",
+        "If shortlisted, you may be invited for a video interview or in-person interview.",
+        "After successful recruitment, join our global team and contribute to a safer world."
       ],
       "faqs": [
         {
-          "q": "What is the role of a Psychiatrist Collaborative Physician (MD) at UpLift and BetterHelp?",
-          "a": "As a Psychiatrist Collaborative Physician (MD), you will join a team of mental health professionals to provide quality mental health support to individuals in Pakistan, India, and globally. You will collaborate with primary care physicians to improve mental wellbeing and offer comprehensive healthcare services."
-        },
-        {
-          "q": "What are the eligibility requirements for the Psychiatrist Collaborative Physician (MD) role?",
-          "a": "To be eligible for the Psychiatrist Collaborative Physician (MD) role, you must hold a valid MD degree in Psychiatry or equivalent. Experience in collaborative care models is a plus, and fluency in English is required."
-        },
-        {
-          "q": "What benefits can I expect as a Psychiatrist Collaborative Physician (MD)?",
-          "a": "As a Psychiatrist Collaborative Physician (MD) at UpLift and BetterHelp, you will have access to the following benefits: opportunity to work with a dynamic team of mental health professionals, remote work options, and continuing education and professional development support."
+          "q": "How can I apply for the job?",
+          "a": "Visit our website, upload your resume and cover letter, and submit your application. Our HR team will review your application and contact you if needed."
         }
       ],
       "keywords": [
-        "Psychiatrist Collaborative Physician (MD)",
-        "mental healthcare",
-        "UpLift",
-        "BetterHelp",
-        "Pakistan",
-        "India"
+        "Senior Software Engineer",
+        "Backend",
+        "Product Engineering",
+        "AI-powered intelligence",
+        "Public and private sector agencies",
+        "Crime investigation",
+        "Illicit activity",
+        "Public Safety"
       ],
       "level": "",
       "region": "Worldwide",
       "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:35:59 +0000",
-      "page": "p/psychiatrist-collaborative-physician-md---join-the-revolution-in-mental-healthcare.html"
+      "published": "Sun, 11 Oct 2026 06:14:30 +0000",
+      "page": "p/senior-software-engineer-backend-product-engineering-msphd-preferred.html"
     },
     {
-      "title": "Large Enterprise Account Executive",
-      "slug": "large-enterprise-account-executive",
-      "url": "https://jobicy.com/jobs/154497-large-enterprise-account-executive",
-      "summary": "Dandy is transforming the massive and antiquated dental industry—an industry worth over $400B. Backed by some of the world’s leading venture capital firms, we’re on an ambitious mission to simplify...",
-      "meta_description": "Dandy is transforming the massive and antiquated dental industry—an industry worth over $400B. Backed by some of the world’s leading venture capital firms,",
+      "title": "Customer Success Junior",
+      "slug": "customer-success-junior",
+      "url": "https://jobicy.com/jobs/155041-customer-success-junior",
+      "summary": "Company Overview Pattern (Nasdaq: PTRN) is a leader in accelerating brands on global ecommerce marketplaces, leveraging proprietary technology and AI. Utilizing more than 91 trillion data points, Pattern optimizes and...",
+      "meta_description": "Company Overview Pattern (Nasdaq: PTRN) is a leader in accelerating brands on global ecommerce marketplaces, leveraging proprietary technology and AI. Util",
       "eligibility": [
         "Relevant degree or experience for the role",
         "Valid passport and academic documents as required",
@@ -320,198 +239,63 @@
       "level": "",
       "region": "Worldwide",
       "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:35:58 +0000",
-      "page": "p/large-enterprise-account-executive.html"
+      "published": "Sun, 11 Oct 2026 06:14:30 +0000",
+      "page": "p/customer-success-junior.html"
     },
     {
-      "title": "Online Mental Health Counselor",
-      "slug": "online-mental-health-counselor",
-      "url": "https://jobicy.com/jobs/154503-online-mental-health-counselor",
-      "summary": "BetterHelp is one of the world’s largest online therapy platforms, connecting licensed therapists with clients looking for mental health support. With BetterHelp, you can grow your caseload without spending your...",
-      "meta_description": "BetterHelp is one of the world’s largest online therapy platforms, connecting licensed therapists with clients looking for mental health support. With Bett",
-      "eligibility": [
-        "Relevant degree or experience for the role",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "job",
-        "job",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Worldwide",
-      "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:35:58 +0000",
-      "page": "p/online-mental-health-counselor.html"
-    },
-    {
-      "title": "Online Mental Health Social Worker",
-      "slug": "online-mental-health-social-worker",
-      "url": "https://jobicy.com/jobs/154504-online-mental-health-social-worker",
-      "summary": "BetterHelp is one of the world’s largest online therapy platforms, connecting licensed therapists with clients looking for mental health support. With BetterHelp, you can grow your caseload without spending your...",
-      "meta_description": "BetterHelp is one of the world’s largest online therapy platforms, connecting licensed therapists with clients looking for mental health support. With Bett",
-      "eligibility": [
-        "Relevant degree or experience for the role",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "job",
-        "job",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Worldwide",
-      "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:35:58 +0000",
-      "page": "p/online-mental-health-social-worker.html"
-    },
-    {
-      "title": "Engineering Manager, Core DevOps",
-      "slug": "engineering-manager-core-devops",
-      "url": "https://jobicy.com/jobs/154498-engineering-manager-core-devops",
-      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50...",
-      "meta_description": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational effici",
-      "eligibility": [
-        "Relevant degree or experience for the role",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "job",
-        "job",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Worldwide",
-      "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:35:57 +0000",
-      "page": "p/engineering-manager-core-devops.html"
-    },
-    {
-      "title": "Platform Engineer (MS/PhD preferred)",
-      "slug": "platform-engineer-msphd-preferred",
-      "url": "https://jobicy.com/jobs/154501-platform-engineer-2",
-      "summary": "Join the extraordinary team at Catawiki, where you'll build and maintain our platforms as a Platform Engineer. MS or PhD preferred, candidates from Pakistan, India, and Europe are encouraged to apply.",
+      "title": "Product Manager (MS/PhD preferred)",
+      "slug": "product-manager-msphd-preferred",
+      "url": "https://jobicy.com/jobs/155043-product-manager-5",
+      "summary": "Join DocSend, a growing deal execution platform, as a Product Manager. Shape the future of deal management for enterprises worldwide. Ideal candidates from Pakistan and India with MS/PhD preferred.",
       "meta_description": "",
       "eligibility": [
-        "MS or PhD in Computer Science or a related field",
-        "Experience with software development methodologies and best practices",
-        "Experience with cloud computing platforms (AWS, Azure, etc.)",
-        "Experience with containerization technologies (Docker, Kubernetes)",
-        "Experience with test-driven development and continuous integration/deployment",
-        "Fluency in English (verbal and written)"
+        "Bachelor's degree or higher in Engineering, Computer Science, Business, or related fields",
+        "Proven experience as a Product Manager or related role",
+        "Experience with deal management or related fields is a plus",
+        "Fluency in English (written and spoken)",
+        "Ability to work in a fast-paced environment"
       ],
       "benefits": [
         "Competitive salary",
         "Health insurance",
-        "Annual bonus",
-        "Vacation days",
-        "Career development opportunities"
+        "Yearly performance-based bonuses",
+        "Flexible work arrangements",
+        "Opportunity to work with a global team"
       ],
       "how_to_apply": [
-        "1. Review the job description and ensure you meet the eligibility criteria.",
-        "2. Apply via our website with your CV and cover letter.",
-        "3. If shortlisted, we'll invite you for an interview and possibly a second interview."
+        "Visit our website to apply",
+        "Upload your resume and cover letter",
+        "Submit your application and join our global team!"
       ],
       "faqs": [
         {
-          "q": "What is the salary range for this position?",
-          "a": "Salaries for our employees are competitive and commensurate with experience. For specific details, kindly get in touch with our HR department."
+          "q": "What is DocSend's working language?",
+          "a": "DocSend primarily communicates in English. Fluency in English (written and spoken) is required for the Product Manager role."
         },
         {
-          "q": "Does the job offer remote work?",
-          "a": "Yes, we offer remote work option for eligible candidates. Please ensure you meet the eligibility criteria before applying."
-        },
-        {
-          "q": "What is the working environment like?",
-          "a": "Our team is a diverse group of professionals working together to build and maintain our platforms. You'll be part of an international team, collaborating on exceptional objects. We foster a dynamic and supportive working environment."
+          "q": "Do you offer relocation assistance?",
+          "a": "DocSend does not offer specific relocation assistance. However, we provide flexible work arrangements to support candidates in finding suitable living arrangements."
         }
       ],
       "keywords": [
-        "Platform Engineer",
-        "MS or PhD",
-        "Catawiki",
-        "exceptional objects",
+        "Product Manager",
+        "DocSend",
+        "deal execution platform",
         "Pakistan",
         "India"
       ],
       "level": "",
       "region": "Worldwide",
       "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:35:57 +0000",
-      "page": "p/platform-engineer-msphd-preferred.html"
+      "published": "Sun, 11 Oct 2026 06:14:30 +0000",
+      "page": "p/product-manager-msphd-preferred.html"
     },
     {
-      "title": "Licensed Marriage & Family Therapist",
-      "slug": "licensed-marriage-family-therapist",
-      "url": "https://jobicy.com/jobs/154502-licensed-marriage-family-therapist",
-      "summary": "BetterHelp is one of the world’s largest online therapy platforms, connecting licensed therapists with clients looking for mental health support. With BetterHelp, you can grow your caseload without spending your...",
-      "meta_description": "BetterHelp is one of the world’s largest online therapy platforms, connecting licensed therapists with clients looking for mental health support. With Bett",
+      "title": "Lifecycle & Email Marketing Manager",
+      "slug": "lifecycle-email-marketing-manager",
+      "url": "https://jobicy.com/jobs/155037-lifecycle-email-marketing-manager",
+      "summary": "Lifecycle & Email Marketing Manager Fresh Prints‘ email channel is our oldest and highest-potential channel — and the one we’ve leveraged the least. We’ve built a strong technical foundation, but...",
+      "meta_description": "Lifecycle & Email Marketing Manager Fresh Prints‘ email channel is our oldest and highest-potential channel — and the one we’ve leveraged the least. We’ve ",
       "eligibility": [
         "Relevant degree or experience for the role",
         "Valid passport and academic documents as required",
@@ -546,614 +330,763 @@
       "level": "",
       "region": "Worldwide",
       "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:35:57 +0000",
-      "page": "p/licensed-marriage-family-therapist.html"
+      "published": "Sun, 11 Oct 2026 06:14:29 +0000",
+      "page": "p/lifecycle-email-marketing-manager.html"
     },
     {
-      "title": "Open Source Enterprise Sales / Alliances",
-      "slug": "open-source-enterprise-sales-alliances",
-      "url": "https://jobicy.com/jobs/154506-open-source-enterprise-sales-alliances",
-      "summary": "This is a general track role, hiring for opportunities across all levels of seniority in our Sales and Alliances teams. Apply here if you believe you possess outstanding revenue generating...",
-      "meta_description": "This is a general track role, hiring for opportunities across all levels of seniority in our Sales and Alliances teams. Apply here if you believe you posse",
-      "eligibility": [
-        "Relevant degree or experience for the role",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "job",
-        "job",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Worldwide",
-      "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:35:57 +0000",
-      "page": "p/open-source-enterprise-sales-alliances.html"
-    },
-    {
-      "title": "3D & LiDAR Data Annotation Analyst",
-      "slug": "3d-lidar-data-annotation-analyst",
-      "url": "https://jobicy.com/jobs/154499-3d-lidar-data-annotation-analyst",
-      "summary": "About the Role We’re building high-quality ground-truth datasets used to train and validate perception models for autonomous and operator-assisted machines working in complex, real-world environments. As a Data Annotation Analyst,...",
-      "meta_description": "About the Role We’re building high-quality ground-truth datasets used to train and validate perception models for autonomous and operator-assisted machines",
-      "eligibility": [
-        "Relevant degree or experience for the role",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "job",
-        "job",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Worldwide",
-      "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:35:56 +0000",
-      "page": "p/3d-lidar-data-annotation-analyst.html"
-    },
-    {
-      "title": "Senior ML Operations (MLOps) Engineer",
-      "slug": "senior-ml-operations-mlops-engineer",
-      "url": "https://jobicy.com/jobs/154500-senior-ml-operations-mlops-engineer",
-      "summary": "Join the Sleep Fitness MovementAt Eight Sleep, we’re on a mission to fuel human potential through optimal sleep. As the world’s first sleep fitness company, we’re redefining what it means...",
-      "meta_description": "Join the Sleep Fitness MovementAt Eight Sleep, we’re on a mission to fuel human potential through optimal sleep. As the world’s first sleep fitness company",
-      "eligibility": [
-        "Relevant degree or experience for the role",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "job",
-        "job",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Worldwide",
-      "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:35:56 +0000",
-      "page": "p/senior-ml-operations-mlops-engineer.html"
-    },
-    {
-      "title": "Executive Assistant to the CEO",
-      "slug": "executive-assistant-to-the-ceo",
-      "url": "https://jobicy.com/jobs/154495-executive-assistant-to-the-ceo-2",
-      "summary": "Executive Assistant to the CEO Collibra is seeking an experienced Executive Assistant to support our Chief Executive Officer in making the best use of his time across a global business....",
-      "meta_description": "Executive Assistant to the CEO Collibra is seeking an experienced Executive Assistant to support our Chief Executive Officer in making the best use of his ",
-      "eligibility": [
-        "Relevant degree or experience for the role",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "job",
-        "job",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Worldwide",
-      "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:30:46 +0000",
-      "page": "p/executive-assistant-to-the-ceo.html"
-    },
-    {
-      "title": "Executive Assistant III",
-      "slug": "executive-assistant-iii",
-      "url": "https://jobicy.com/jobs/154490-executive-assistant-iii",
-      "summary": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters...",
-      "meta_description": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoff",
-      "eligibility": [
-        "Relevant degree or experience for the role",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "job",
-        "job",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Worldwide",
-      "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:30:43 +0000",
-      "page": "p/executive-assistant-iii.html"
-    },
-    {
-      "title": "Executive Assistant – Finance",
-      "slug": "executive-assistant-finance",
-      "url": "https://jobicy.com/jobs/154491-executive-assistant-finance",
-      "summary": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we...",
-      "meta_description": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first ",
-      "eligibility": [
-        "Relevant degree or experience for the role",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "job",
-        "job",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Worldwide",
-      "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:30:43 +0000",
-      "page": "p/executive-assistant-finance.html"
-    },
-    {
-      "title": "Executive Assistant to the Chief Revenue Officer (CRO)",
-      "slug": "executive-assistant-to-the-chief-revenue-officer-cro",
-      "url": "https://jobicy.com/jobs/154492-executive-assistant-to-the-chief-revenue-officer-cro",
-      "summary": "A Little About Us EDB provides a data and AI platform that enables organizations to harness the full power of Postgres for transactional, analytical, and AI workloads across any cloud,...",
-      "meta_description": "A Little About Us EDB provides a data and AI platform that enables organizations to harness the full power of Postgres for transactional, analytical, and A",
-      "eligibility": [
-        "Relevant degree or experience for the role",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "job",
-        "job",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Worldwide",
-      "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:30:43 +0000",
-      "page": "p/executive-assistant-to-the-chief-revenue-officer-cro.html"
-    },
-    {
-      "title": "Executive Assistant / Corporate Administrator",
-      "slug": "executive-assistant-corporate-administrator",
-      "url": "https://jobicy.com/jobs/154489-executive-assistant-corporate-administrator-2",
-      "summary": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives...",
-      "meta_description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is ver",
-      "eligibility": [
-        "Relevant degree or experience for the role",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "job",
-        "job",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Worldwide",
-      "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:30:42 +0000",
-      "page": "p/executive-assistant-corporate-administrator.html"
-    },
-    {
-      "title": "Executive Assistant",
-      "slug": "executive-assistant",
-      "url": "https://jobicy.com/jobs/154494-executive-assistant-2",
-      "summary": "About Solace Healthcare in the U.S. is fundamentally broken. The system is so complex that 88% of U.S. adults do not have the health literacy necessary to navigate it without...",
-      "meta_description": "About Solace Healthcare in the U.S. is fundamentally broken. The system is so complex that 88% of U.S. adults do not have the health literacy necessary to ",
-      "eligibility": [
-        "Relevant degree or experience for the role",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "job",
-        "job",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Worldwide",
-      "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:30:42 +0000",
-      "page": "p/executive-assistant.html"
-    },
-    {
-      "title": "Executive Assistant – Revenue Job at ElevenLabs (Remote)",
-      "slug": "executive-assistant-revenue-job-at-elevenlabs-remote",
-      "url": "https://jobicy.com/jobs/154496-executive-assistant-revenue",
-      "summary": "ElevenLabs is hiring an Executive Assistant to support its Revenue team within a fast-growing AI research company. This remote position offers the chance to work with cutting-edge voice technology. Ideal for organized professionals seeking a global remote career in the AI sector.",
-      "meta_description": "Apply for the Executive Assistant – Revenue role at ElevenLabs. Remote AI voice startup job for candidates in Pakistan, India, and Europe. View requirements now.",
-      "eligibility": [
-        "Proven experience in executive assistance or operations support roles.",
-        "Strong organizational skills and ability to manage multiple stakeholders.",
-        "Excellent written and verbal communication skills in English."
-      ],
-      "benefits": [
-        "Fully remote work environment with flexible hours.",
-        "Opportunity to work with a leading AI voice technology company."
-      ],
-      "how_to_apply": [
-        "Visit the official ElevenLabs careers page.",
-        "Search for 'Executive Assistant – Revenue' in the job listings.",
-        "Submit your application with an updated resume and cover letter."
-      ],
-      "faqs": [
-        {
-          "q": "Is this Executive Assistant role remote?",
-          "a": "Yes, the position is listed as Worldwide, indicating a remote-first work arrangement suitable for candidates in Pakistan, India, and Europe."
-        },
-        {
-          "q": "What kind of company is ElevenLabs?",
-          "a": "ElevenLabs is an AI research and product company known for developing human-like AI voice models, launched in early 2023."
-        }
-      ],
-      "keywords": [
-        "Executive Assistant job",
-        "ElevenLabs careers",
-        "remote AI jobs",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Remote / Worldwide",
-      "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:30:42 +0000",
-      "page": "p/executive-assistant-revenue-job-at-elevenlabs-remote.html"
-    },
-    {
-      "title": "Ads Quality Rater - Spanish (Argentina) - Award-Winning Company",
-      "slug": "ads-quality-rater---spanish-argentina---award-winning-company",
-      "url": "https://jobicy.com/jobs/152200-ads-quality-rater-spanish-argentina",
-      "summary": "Join Welo Data, an award-winning company specializing in localization and data\r\r\r\r\ntransformation. Apply now for an exciting opportunity as an Ads Quality Rater in Spanish (Argentina)\r\r\r\r\nwith expertise in MS or PhD or job role keyword when applicable.",
+      "title": "Get Paid to Test Instagram+ (Brazil & Mexico) - Test Tester (MS/PhD preferred)",
+      "slug": "get-paid-to-test-instagram-brazil-mexico---test-tester-msphd-preferred",
+      "url": "https://jobicy.com/jobs/155039-get-paid-to-test-instagram-brazil-mexico",
+      "summary": "Join Testlio, where you can make a difference as a Test Tester for Instagram+ app testing. Apply your MS/PhD knowledge to improve digital products for global brands. Position is open for candidates in Pakistan, India, and worldwide.",
       "meta_description": "",
       "eligibility": [
-        "Must be a native Spanish speaker with excellent English skills.",
-        "Minimum 2 years of experience in MS or PhD or job role keyword relevant fields.",
-        "Valid ID and residence permit for Argentina or ability to work remotely from Argentina."
+        "MS/PhD degree preferred",
+        "Experience in app testing",
+        "Fluent in English",
+        "Available to test on weekdays (Brazil & Mexico time)",
+        "Must be aged 18+"
       ],
       "benefits": [
-        "Global remote work opportunity with a dynamic team.",
-        "Competitive salary based on experience.",
-        "Opportunity for growth and advancement within the company."
+        "Earn money for testing",
+        "Help global brands improve their apps",
+        "Work from anywhere in Pakistan, India, or worldwide",
+        "Opportunity for MS/PhD students",
+        "Various app testing projects available"
       ],
       "how_to_apply": [
-        "1. Review job requirements and ensure you meet the eligibility criteria.",
-        "2. Prepare your CV and cover letter highlighting your relevant experience.",
-        "3. Submit your application through our website with a link provided in the job description.",
-        "4. Prepare for a video interview with our HR team."
+        "Visit Testlio website",
+        "Create a free account",
+        "Complete your profile and application",
+        "Wait for app testing opportunities",
+        "Earn rewards for your valuable feedback"
       ],
       "faqs": [
         {
-          "q": "What is the job role?",
-          "a": "As an Ads Quality Rater in Spanish (Argentina), you will be responsible for assessing the ad quality of Google Ads campaigns. Your role will include reviewing ads, analyzing ad copy, and providing feedback to improve ad performance. You will also collaborate with the global Welo Data team to ensure high-quality ads for our clients."
+          "q": "What are the testing requirements?",
+          "a": "You need a MS/PhD degree preferred, experience in app testing, fluency in English, and availability to test on weekdays (Brazil & Mexico time) while being aged 18+."
+        },
+        {
+          "q": "Do I need to be a software developer?",
+          "a": "No, you don't need to be a software developer. Our Test Tester role focuses on providing valuable feedback for app testing."
+        }
+      ],
+      "keywords": [
+        "Instagram+ app testing",
+        "paid app testing jobs",
+        "app testing jobs in Pakistan",
+        "app testing jobs in India",
+        "MS/PhD preferred",
+        "Testlio"
+      ],
+      "level": "",
+      "region": "Worldwide",
+      "source": "jobicy.com",
+      "published": "Sun, 11 Oct 2026 06:14:29 +0000",
+      "page": "p/get-paid-to-test-instagram-brazil-mexico---test-tester-msphd-preferred.html"
+    },
+    {
+      "title": "Senior Intelligence Analyst: Environmental Crimes (Global)",
+      "slug": "senior-intelligence-analyst-environmental-crimes-global",
+      "url": "https://jobicy.com/jobs/155032-senior-staff-intelligence-analyst-environmental-crimes",
+      "summary": "TRM Labs is seeking a Senior or Staff Intelligence Analyst to leverage AI-powered solutions for investigating environmental crimes. This role involves tracing illicit activity and building cases for public and private sector agencies. The position supports a mission to build a safer world by disrupting complex criminal networks.",
+      "meta_description": "Join TRM Labs as a Senior Intelligence Analyst. Use AI to disrupt environmental crimes. Remote role for experts in Pakistan, India, and globally.",
+      "eligibility": [
+        "Proven experience in intelligence analysis, investigative journalism, or law enforcement.",
+        "Strong background in environmental crimes, financial forensics, or supply chain investigations.",
+        "Advanced proficiency in data analysis tools and AI-driven intelligence platforms."
+      ],
+      "benefits": [
+        "Work remotely from anywhere in the world, including Pakistan and India.",
+        "Contribute to high-impact anti-crime initiatives using cutting-edge AI technology."
+      ],
+      "how_to_apply": [
+        "Prepare a tailored resume highlighting intelligence analysis and investigative experience.",
+        "Submit your application via the official TRM Labs careers portal.",
+        "Complete any required technical assessments or case studies during the interview process."
+      ],
+      "faqs": [
+        {
+          "q": "Is this position open to candidates in Pakistan and India?",
+          "a": "Yes, the role is worldwide and open to qualified candidates in Pakistan, India, and other regions."
+        },
+        {
+          "q": "Does TRM Labs require a specific degree?",
+          "a": "While a degree in relevant fields is preferred, strong practical experience in intelligence analysis is often the primary requirement."
+        }
+      ],
+      "keywords": [
+        "Intelligence Analyst",
+        "Environmental Crimes",
+        "TRM Labs",
+        "Remote Job",
+        "Pakistan",
+        "India"
+      ],
+      "level": "",
+      "region": "Worldwide",
+      "source": "jobicy.com",
+      "published": "Sun, 11 Oct 2026 06:09:53 +0000",
+      "page": "p/senior-intelligence-analyst-environmental-crimes-global.html"
+    },
+    {
+      "title": "Helpdesk Technician Tier 1",
+      "slug": "helpdesk-technician-tier-1",
+      "url": "https://jobicy.com/jobs/155036-helpdesk-technician-tier-1",
+      "summary": "About Nebius: Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from...",
+      "meta_description": "About Nebius: Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports d",
+      "eligibility": [
+        "Relevant degree or experience for the role",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "job",
+        "job",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Worldwide",
+      "source": "jobicy.com",
+      "published": "Sun, 11 Oct 2026 06:09:53 +0000",
+      "page": "p/helpdesk-technician-tier-1.html"
+    },
+    {
+      "title": "Engineering Manager/Network Team Lead",
+      "slug": "engineering-managernetwork-team-lead",
+      "url": "https://jobicy.com/jobs/155029-engineering-manager-network-team-lead",
+      "summary": "About Nebius: Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from...",
+      "meta_description": "About Nebius: Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports d",
+      "eligibility": [
+        "Relevant degree or experience for the role",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "job",
+        "job",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Worldwide",
+      "source": "jobicy.com",
+      "published": "Sun, 11 Oct 2026 06:09:52 +0000",
+      "page": "p/engineering-managernetwork-team-lead.html"
+    },
+    {
+      "title": "Country Manager, Australia & New Zealand",
+      "slug": "country-manager-australia-new-zealand",
+      "url": "https://jobicy.com/jobs/155027-country-manager-australia-new-zealand",
+      "summary": "1Password is growing. We’ve surpassed $400M in ARR and we’re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and teaming up...",
+      "meta_description": "1Password is growing. We’ve surpassed $400M in ARR and we’re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and t",
+      "eligibility": [
+        "Relevant degree or experience for the role",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "job",
+        "job",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Worldwide",
+      "source": "jobicy.com",
+      "published": "Sun, 11 Oct 2026 06:09:51 +0000",
+      "page": "p/country-manager-australia-new-zealand.html"
+    },
+    {
+      "title": "Compliance Analyst / Senior Compliance Analyst (Special Investigations",
+      "slug": "compliance-analyst-senior-compliance-analyst-special-investigations",
+      "url": "https://jobicy.com/jobs/155031-compliance-analyst-senior-compliance-analyst-special-investigations",
+      "summary": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual’s freedom. OKX is a leading crypto exchange, and the...",
+      "meta_description": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual’s freedom. OKX is a leading crypto ",
+      "eligibility": [
+        "Relevant degree or experience for the role",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "job",
+        "job",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Worldwide",
+      "source": "jobicy.com",
+      "published": "Sun, 11 Oct 2026 06:09:51 +0000",
+      "page": "p/compliance-analyst-senior-compliance-analyst-special-investigations.html"
+    },
+    {
+      "title": "Forward Deployed Engineer",
+      "slug": "forward-deployed-engineer",
+      "url": "https://jobicy.com/jobs/155033-forward-deployed-engineer-6",
+      "summary": "Forward Deployed Engineer Sydney or Melbourne (Hybrid) About Nash Nash is building the digital logistics infrastructure that powers delivery for some of the world’s largest retailers, tech platforms, and delivery...",
+      "meta_description": "Forward Deployed Engineer Sydney or Melbourne (Hybrid) About Nash Nash is building the digital logistics infrastructure that powers delivery for some of th",
+      "eligibility": [
+        "Relevant degree or experience for the role",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "job",
+        "job",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Worldwide",
+      "source": "jobicy.com",
+      "published": "Sun, 11 Oct 2026 06:09:50 +0000",
+      "page": "p/forward-deployed-engineer.html"
+    },
+    {
+      "title": "Part-Time Virtual Travel Assistant & Affiliate Recruiter Management",
+      "slug": "part-time-virtual-travel-assistant-affiliate-recruiter-management",
+      "url": "https://jobicy.com/jobs/155035-part-time-virtual-travel-assistant-affiliate-recruiter-management-2",
+      "summary": "We seek a detail-oriented and proactive Virtual Assistant & Affiliate Recruiter to manage reviews across various Online Travel Agencies (OTAs) and our market exposure. Responsibilities: 1. Travel Booking & Management:...",
+      "meta_description": "We seek a detail-oriented and proactive Virtual Assistant & Affiliate Recruiter to manage reviews across various Online Travel Agencies (OTAs) and our mark",
+      "eligibility": [
+        "Relevant degree or experience for the role",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "job",
+        "job",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Worldwide",
+      "source": "jobicy.com",
+      "published": "Sun, 11 Oct 2026 06:09:50 +0000",
+      "page": "p/part-time-virtual-travel-assistant-affiliate-recruiter-management.html"
+    },
+    {
+      "title": "Junior Customer Success Manager (API)",
+      "slug": "junior-customer-success-manager-api",
+      "url": "https://jobicy.com/jobs/155030-junior-customer-success-manager-api-2",
+      "summary": "Join Vonage and help us innovate cloud communications for businesses worldwide! About Vonage API Vonage API is a global leader in Communications Platform as a Service (CPaaS), enabling businesses to...",
+      "meta_description": "Join Vonage and help us innovate cloud communications for businesses worldwide! About Vonage API Vonage API is a global leader in Communications Platform a",
+      "eligibility": [
+        "Relevant degree or experience for the role",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "job",
+        "job",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Worldwide",
+      "source": "jobicy.com",
+      "published": "Sun, 11 Oct 2026 06:09:49 +0000",
+      "page": "p/junior-customer-success-manager-api.html"
+    },
+    {
+      "title": "Amazing Project Planners (Construction) – Philippines",
+      "slug": "amazing-project-planners-construction-philippines",
+      "url": "https://jobicy.com/jobs/155028-amazing-project-planners-construction-philippines",
+      "summary": "Compensation Additional Information",
+      "meta_description": "Compensation Additional Information",
+      "eligibility": [
+        "Relevant degree or experience for the role",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "job",
+        "job",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Worldwide",
+      "source": "jobicy.com",
+      "published": "Sun, 11 Oct 2026 06:09:48 +0000",
+      "page": "p/amazing-project-planners-construction-philippines.html"
+    },
+    {
+      "title": "Regional Sales Operations Manager – EMEA",
+      "slug": "regional-sales-operations-manager-emea",
+      "url": "https://jobicy.com/jobs/155022-regional-sales-operations-manager-emea",
+      "summary": "Role Description We are looking for a data-driven, systems-thinking Sales Operations Manager to own the operating infrastructure that powers our go-to-market engine. In this highly visible Individual Contributor role, you...",
+      "meta_description": "Role Description We are looking for a data-driven, systems-thinking Sales Operations Manager to own the operating infrastructure that powers our go-to-mark",
+      "eligibility": [
+        "Relevant degree or experience for the role",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "job",
+        "job",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Worldwide",
+      "source": "jobicy.com",
+      "published": "Sun, 11 Oct 2026 06:06:24 +0000",
+      "page": "p/regional-sales-operations-manager-emea.html"
+    },
+    {
+      "title": "Senior Infrastructure Software Engineer",
+      "slug": "senior-infrastructure-software-engineer",
+      "url": "https://jobicy.com/jobs/155024-senior-infrastructure-software-engineer",
+      "summary": "Role Description As an Infrastructure Engineer, your role will be crucial in shaping and constructing the robust systems that not only support our current flagship products but also lay the...",
+      "meta_description": "Role Description As an Infrastructure Engineer, your role will be crucial in shaping and constructing the robust systems that not only support our current ",
+      "eligibility": [
+        "Relevant degree or experience for the role",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "job",
+        "job",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Worldwide",
+      "source": "jobicy.com",
+      "published": "Sun, 11 Oct 2026 06:06:23 +0000",
+      "page": "p/senior-infrastructure-software-engineer.html"
+    },
+    {
+      "title": "Head of Growth & Product",
+      "slug": "head-of-growth-product",
+      "url": "https://jobicy.com/jobs/155026-head-of-growth-product",
+      "summary": "This role is part of our Advanced Shipping Manager (ASM) team, one of our brands at saas.group. Advanced Shipping Manager gives e-commerce merchants real-time, rules-based shipping rates and accurate delivery...",
+      "meta_description": "This role is part of our Advanced Shipping Manager (ASM) team, one of our brands at saas.group. Advanced Shipping Manager gives e-commerce merchants real-t",
+      "eligibility": [
+        "Relevant degree or experience for the role",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "job",
+        "job",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Worldwide",
+      "source": "jobicy.com",
+      "published": "Sun, 11 Oct 2026 06:06:23 +0000",
+      "page": "p/head-of-growth-product.html"
+    },
+    {
+      "title": "Solutions Consultant, Digital Assets",
+      "slug": "solutions-consultant-digital-assets",
+      "url": "https://jobicy.com/jobs/155020-solutions-consultant-digital-assets",
+      "summary": "About the Company Born from groundbreaking research at Columbia University and Yale University, CertiK is a leading Web3 security company focused on securing blockchain protocols, smart contracts, and decentralized applications...",
+      "meta_description": "About the Company Born from groundbreaking research at Columbia University and Yale University, CertiK is a leading Web3 security company focused on securi",
+      "eligibility": [
+        "Relevant degree or experience for the role",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "job",
+        "job",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Worldwide",
+      "source": "jobicy.com",
+      "published": "Sun, 11 Oct 2026 06:06:21 +0000",
+      "page": "p/solutions-consultant-digital-assets.html"
+    },
+    {
+      "title": "Strategic Customer Success Manager",
+      "slug": "strategic-customer-success-manager",
+      "url": "https://jobicy.com/jobs/155017-strategic-customer-success-manager-8",
+      "summary": "Do work that matters. At AlertMedia, we’re the leading Risk Intelligence and Response company helping organizations protect their people and businesses. Our mission is simple but critical: to save lives...",
+      "meta_description": "Do work that matters. At AlertMedia, we’re the leading Risk Intelligence and Response company helping organizations protect their people and businesses. Ou",
+      "eligibility": [
+        "Relevant degree or experience for the role",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "job",
+        "job",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Worldwide",
+      "source": "jobicy.com",
+      "published": "Sun, 11 Oct 2026 06:06:20 +0000",
+      "page": "p/strategic-customer-success-manager.html"
+    },
+    {
+      "title": "EDI Mapping Specialist – with e-invoicing (f/m/d)",
+      "slug": "edi-mapping-specialist-with-e-invoicing-fmd",
+      "url": "https://jobicy.com/jobs/155018-edi-mapping-specialist-with-e-invoicing-f-m-d-3",
+      "summary": "Company Description ecosio is a fast-growing, innovative service company and a leading provider of B2B integration, specialising in electronic data interchange (EDI), Web EDI and e-invoicing. ecosio is part of...",
+      "meta_description": "Company Description ecosio is a fast-growing, innovative service company and a leading provider of B2B integration, specialising in electronic data interch",
+      "eligibility": [
+        "Relevant degree or experience for the role",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "job",
+        "job",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Worldwide",
+      "source": "jobicy.com",
+      "published": "Sun, 11 Oct 2026 06:06:20 +0000",
+      "page": "p/edi-mapping-specialist-with-e-invoicing-fmd.html"
+    },
+    {
+      "title": "AI Lead / Engineering Manager (MS or PhD preferred)",
+      "slug": "ai-lead-engineering-manager-ms-or-phd-preferred",
+      "url": "https://jobicy.com/jobs/155019-ai-lead-engineering-manager",
+      "summary": "Join our growing Usersnap team as an AI Lead/Engineering Manager, where you'll drive the development of AI-powered capabilities for our SaaS product. This role is part of our saas.group portfolio and offers opportunities for growth in South Asia, including Pakistan and India.",
+      "meta_description": "",
+      "eligibility": [
+        "Bachelor's degree in Computer Science or related field",
+        "5+ years of experience in software engineering leadership",
+        "Preferably a Master's or PhD in Computer Science or related field (non-mandatory)"
+      ],
+      "benefits": [
+        "Competitive salary",
+        "Global growth opportunities",
+        "Health insurance",
+        "Annual performance-based bonuses",
+        "Continuous learning and development programs"
+      ],
+      "how_to_apply": [
+        "Step 1: Review the job description and ensure you meet the eligibility criteria.",
+        "Step 2: Prepare your CV and cover letter highlighting your experience and skills.",
+        "Step 3: Submit your application via our careers page, including your application documents."
+      ],
+      "faqs": [
+        {
+          "q": "What is the job location?",
+          "a": "The job is based remotely with travel required for team meetings. Candidates from Pakistan, India, and South Asia are encouraged to apply."
+        },
+        {
+          "q": "Are there opportunities for career growth?",
+          "a": "Yes, as part of saas.group, you'll have access to global growth opportunities, competitive salary, and continuous learning and development programs."
         },
         {
           "q": "What is the expected work experience?",
-          "a": "We are looking for candidates with a minimum of 2 years of experience in MS or PhD or job role keyword relevant fields."
-        },
-        {
-          "q": "What are the working hours?",
-          "a": "As a remote worker, you will have flexibility in choosing your working hours within a daily target completion."
-        },
-        {
-          "q": "What is the salary?",
-          "a": "The salary is competitive and based on experience. We offer a fair and transparent salary structure."
+          "a": "We are looking for candidates with a Bachelor's degree in Computer Science or related field and 5+ years of experience in software engineering leadership."
         }
       ],
       "keywords": [
-        "Ads Quality Rater",
-        "Spanish",
-        "Google Ads",
-        "ad quality",
-        "ad copy",
-        "remote work",
-        "flexible working hours",
-        "competitive salary",
-        "Welo Data",
-        "global team",
-        "advertising",
-        "digital marketing"
+        "AI Lead",
+        "Engineering Manager",
+        "MS or PhD preferred",
+        "south Asia",
+        "Pakistan",
+        "India"
       ],
       "level": "",
       "region": "Worldwide",
       "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 05:05:05 +0000",
-      "page": "p/ads-quality-rater---spanish-argentina---award-winning-company.html"
+      "published": "Sun, 11 Oct 2026 06:06:20 +0000",
+      "page": "p/ai-lead-engineering-manager-ms-or-phd-preferred.html"
     },
     {
-      "title": "Sr. Software Engineer II / Tech lead, Agentic Platform (Poland, Remote",
-      "slug": "sr-software-engineer-ii-tech-lead-agentic-platform-poland-remote",
-      "url": "https://jobicy.com/jobs/154396-sr-software-engineer-ii-tech-lead-agentic-platform-poland-remote-b2b",
-      "summary": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of...",
-      "meta_description": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical op",
-      "eligibility": [
-        "Relevant degree or experience for the role",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "job",
-        "job",
-        "europe",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Europe",
-      "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 04:44:12 +0000",
-      "page": "p/sr-software-engineer-ii-tech-lead-agentic-platform-poland-remote.html"
-    },
-    {
-      "title": "Software Engineer I, Agentic Platform EMEA (Poland, Remote, B2B)",
-      "slug": "software-engineer-i-agentic-platform-emea-poland-remote-b2b",
-      "url": "https://jobicy.com/jobs/154346-software-engineer-i-agentic-platform-emea-poland-remote-b2b",
-      "summary": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of...",
-      "meta_description": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical op",
-      "eligibility": [
-        "See official page for eligibility"
-      ],
-      "benefits": [
-        "See official page for benefits or salary"
-      ],
-      "how_to_apply": [
-        "Apply on the official website"
-      ],
-      "faqs": [
-        {
-          "q": "Who can apply?",
-          "a": "Check nationality and degree rules on the official listing."
-        }
-      ],
-      "keywords": [
-        "job",
-        "europe",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Europe",
-      "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 04:44:11 +0000",
-      "page": "p/software-engineer-i-agentic-platform-emea-poland-remote-b2b.html"
-    },
-    {
-      "title": "SEO & Analytics Strategist",
-      "slug": "seo-analytics-strategist",
-      "url": "https://jobicy.com/jobs/152488-seo-analytics-strategist",
-      "summary": "Location: Remote — United States (Open to applicants located anywhere in the United States.) Fueled is a leading digital strategy, design, and engineering agency. We are a 300+ person team...",
-      "meta_description": "Location: Remote — United States (Open to applicants located anywhere in the United States.) Fueled is a leading digital strategy, design, and engineering ",
-      "eligibility": [
-        "See official page for eligibility"
-      ],
-      "benefits": [
-        "See official page for benefits or salary"
-      ],
-      "how_to_apply": [
-        "Apply on the official website"
-      ],
-      "faqs": [
-        {
-          "q": "Who can apply?",
-          "a": "Check nationality and degree rules on the official listing."
-        }
-      ],
-      "keywords": [
-        "job",
-        "remote / worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Remote / Worldwide",
-      "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 04:40:08 +0000",
-      "page": "p/seo-analytics-strategist.html"
-    },
-    {
-      "title": "Head of AEO & SEO",
-      "slug": "head-of-aeo-seo",
-      "url": "https://jobicy.com/jobs/152487-head-of-aeo-seo",
-      "summary": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies – from the world’s largest enterprises to the most ambitious startups – use Stripe...",
-      "meta_description": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies – from the world’s largest enterprises to the m",
+      "title": "Staff Security Engineer, Incident Response",
+      "slug": "staff-security-engineer-incident-response",
+      "url": "https://jobicy.com/jobs/155021-staff-security-engineer-incident-response",
+      "summary": "RDQ327R180 Staff Security Engineer, Incident Response The Incident Response team’s mission is to respond to security threats, incidents and investigations to protect our customers, employees and enterprise data in a...",
+      "meta_description": "RDQ327R180 Staff Security Engineer, Incident Response The Incident Response team’s mission is to respond to security threats, incidents and investigations ",
       "eligibility": [
         "See official page for eligibility"
       ],
@@ -1178,15 +1111,15 @@
       "level": "",
       "region": "Worldwide",
       "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 04:40:07 +0000",
-      "page": "p/head-of-aeo-seo.html"
+      "published": "Sun, 11 Oct 2026 06:06:20 +0000",
+      "page": "p/staff-security-engineer-incident-response.html"
     },
     {
-      "title": "Account Executive, Commercial",
-      "slug": "account-executive-commercial",
-      "url": "https://jobicy.com/jobs/152466-account-executive-commercial",
-      "summary": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of...",
-      "meta_description": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical op",
+      "title": "Tax Manager, EMEA",
+      "slug": "tax-manager-emea",
+      "url": "https://jobicy.com/jobs/155023-tax-manager-emea",
+      "summary": "Hims & Hers is the leading health and wellness platform, on a mission to help the world feel great through the power of better health. We are redefining healthcare by...",
+      "meta_description": "Hims & Hers is the leading health and wellness platform, on a mission to help the world feel great through the power of better health. We are redefining he",
       "eligibility": [
         "See official page for eligibility"
       ],
@@ -1211,15 +1144,15 @@
       "level": "",
       "region": "Worldwide",
       "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 04:35:43 +0000",
-      "page": "p/account-executive-commercial.html"
+      "published": "Sun, 11 Oct 2026 06:06:20 +0000",
+      "page": "p/tax-manager-emea.html"
     },
     {
-      "title": "Account Executive, Mid Market (Northeast)",
-      "slug": "account-executive-mid-market-northeast",
-      "url": "https://jobicy.com/jobs/152481-account-executive-mid-market-northeast",
-      "summary": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of...",
-      "meta_description": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical op",
+      "title": "Senior Tax Accountant, EMEA",
+      "slug": "senior-tax-accountant-emea",
+      "url": "https://jobicy.com/jobs/155025-senior-tax-accountant-emea",
+      "summary": "Hims & Hers is the leading health and wellness platform, on a mission to help the world feel great through the power of better health. We are redefining healthcare by...",
+      "meta_description": "Hims & Hers is the leading health and wellness platform, on a mission to help the world feel great through the power of better health. We are redefining he",
       "eligibility": [
         "See official page for eligibility"
       ],
@@ -1244,15 +1177,15 @@
       "level": "",
       "region": "Worldwide",
       "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 04:35:42 +0000",
-      "page": "p/account-executive-mid-market-northeast.html"
+      "published": "Sun, 11 Oct 2026 06:06:20 +0000",
+      "page": "p/senior-tax-accountant-emea.html"
     },
     {
-      "title": "Account Executive, Mid Market (Midwest)",
-      "slug": "account-executive-mid-market-midwest",
-      "url": "https://jobicy.com/jobs/152479-account-executive-mid-market-midwest",
-      "summary": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of...",
-      "meta_description": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical op",
+      "title": "Credit Model Validation Manager (Machine Learning & NPV Models)",
+      "slug": "credit-model-validation-manager-machine-learning-npv-models",
+      "url": "https://jobicy.com/jobs/155010-credit-model-validation-manager-machine-learning-npv-models",
+      "summary": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as a prepaid card, our...",
+      "meta_description": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as ",
       "eligibility": [
         "See official page for eligibility"
       ],
@@ -1277,15 +1210,15 @@
       "level": "",
       "region": "Worldwide",
       "source": "jobicy.com",
-      "published": "Sun, 04 Oct 2026 04:35:41 +0000",
-      "page": "p/account-executive-mid-market-midwest.html"
+      "published": "Sun, 11 Oct 2026 06:04:10 +0000",
+      "page": "p/credit-model-validation-manager-machine-learning-npv-models.html"
     },
     {
-      "title": "Toptal: Senior Integration Engineer for Enterprise API & Integration P",
-      "slug": "toptal-senior-integration-engineer-for-enterprise-api-integration-p",
-      "url": "https://weworkremotely.com/remote-jobs/toptal-senior-integration-engineer-for-enterprise-api-integration-products",
-      "summary": "Headquarters: Summary We are looking for a Senior Integration Engineer to build and operate integration products connecting Salesforce, SAP, and a carrier data lake. This role combines hands-on integration development with end-to-end production ownership, including API design, data mapping, testing, monitoring, troubleshooting, and recovery. General information This role focuses on building reliable, maintainable integrations rather than creating new point-to-point integration debt. You will wor",
-      "meta_description": "Headquarters: Summary We are looking for a Senior Integration Engineer to build and operate integration products connecting Salesforce, SAP, and a carrier ",
+      "title": "Senior Data Scientist – Personalization & Predictions",
+      "slug": "senior-data-scientist-personalization-predictions",
+      "url": "https://jobicy.com/jobs/155015-senior-data-scientist-personalization-predictions",
+      "summary": "Bloomreach is building the world’s premier agentic platform for personalization.We’re revolutionizing how businesses connect with their customers, building and deploying AI agents to personalize the entire customer journey. We’re taking...",
+      "meta_description": "Bloomreach is building the world’s premier agentic platform for personalization.We’re revolutionizing how businesses connect with their customers, building",
       "eligibility": [
         "See official page for eligibility"
       ],
@@ -1309,16 +1242,49 @@
       ],
       "level": "",
       "region": "Worldwide",
-      "source": "weworkremotely.com",
-      "published": "Fri, 18 Sep 2026 17:01:08 +0000",
-      "page": "p/toptal-senior-integration-engineer-for-enterprise-api-integration-p.html"
+      "source": "jobicy.com",
+      "published": "Sun, 11 Oct 2026 06:04:10 +0000",
+      "page": "p/senior-data-scientist-personalization-predictions.html"
     },
     {
-      "title": "Collibra: CPS Account Program Manager",
-      "slug": "collibra-cps-account-program-manager",
-      "url": "https://weworkremotely.com/remote-jobs/collibra-cps-account-program-manager",
-      "summary": "Headquarters: Remote, USA Joining Collibra’s CPS Account Program Manager team The Account Program Manager (APM) serves as the strategic partner and relationship manager for Collibra Public Sector’s Federal customers. This role is integral to ensuring customer satisfaction, driving adoption, and delivering value from Collibra’s solutions while collaborating closely with our Services and other GTM teams to create a seamless and resilient customer journey. This role directly influences retention, a",
-      "meta_description": "Headquarters: Remote, USA Joining Collibra’s CPS Account Program Manager team The Account Program Manager (APM) serves as the strategic partner and relatio",
+      "title": "Credit Risk Oversight Manager",
+      "slug": "credit-risk-oversight-manager",
+      "url": "https://jobicy.com/jobs/155016-credit-risk-oversight-manager",
+      "summary": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as a prepaid card, our...",
+      "meta_description": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as ",
+      "eligibility": [
+        "See official page for eligibility"
+      ],
+      "benefits": [
+        "See official page for benefits or salary"
+      ],
+      "how_to_apply": [
+        "Apply on the official website"
+      ],
+      "faqs": [
+        {
+          "q": "Who can apply?",
+          "a": "Check nationality and degree rules on the official listing."
+        }
+      ],
+      "keywords": [
+        "job",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Worldwide",
+      "source": "jobicy.com",
+      "published": "Sun, 11 Oct 2026 06:04:09 +0000",
+      "page": "p/credit-risk-oversight-manager.html"
+    },
+    {
+      "title": "ZoomInfo Technologies LLC: Director, Applied AI",
+      "slug": "zoominfo-technologies-llc-director-applied-ai",
+      "url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-director-applied-ai",
+      "summary": "Headquarters: Bethesda, Maryland, United States; Remote-US-MA; Remote-US-MD; Remote-US-WA; Vancouver, Washington, United States; Waltham, Massachusetts, United States ZoomInfo is where careers accelerate. We move fast, think boldly, and empower you to do the best work of your life. You’ll be surrounded by teammates who care deeply, challenge each other, and celebrate wins. With tools that amplify your impact and a culture that backs your ambition, you won’t just contribute. You’ll make things ha",
+      "meta_description": "Headquarters: Bethesda, Maryland, United States; Remote-US-MA; Remote-US-MD; Remote-US-WA; Vancouver, Washington, United States; Waltham, Massachusetts, Un",
       "eligibility": [
         "See official page for eligibility"
       ],
@@ -1343,81 +1309,15 @@
       "level": "",
       "region": "Remote / Worldwide",
       "source": "weworkremotely.com",
-      "published": "Fri, 18 Sep 2026 07:30:46 +0000",
-      "page": "p/collibra-cps-account-program-manager.html"
+      "published": "Tue, 29 Sep 2026 07:30:41 +0000",
+      "page": "p/zoominfo-technologies-llc-director-applied-ai.html"
     },
     {
-      "title": "Twikey: Senior Java Developer",
-      "slug": "twikey-senior-java-developer",
-      "url": "https://weworkremotely.com/remote-jobs/twikey-senior-java-developer",
-      "summary": "Headquarters: Ghent - Belgium URL: https://www.twikey.com/jobs Are you a driven back-end developer who doesn't wait for instructions, but is already thinking two steps ahead? Who experiments with new technologies and smart solutions alongside the job? Then we want to talk to you. Straight forward but clear: Twikey isn't looking for someone to just execute. We're looking for someone who thinks, does and keeps going when the going gets tough. Because fintech is evolving at breakneck speed. That ca",
-      "meta_description": "Headquarters: Ghent - Belgium URL: https://www.twikey.com/jobs Are you a driven back-end developer who doesn't wait for instructions, but is already thinki",
-      "eligibility": [
-        "See official page for eligibility"
-      ],
-      "benefits": [
-        "See official page for benefits or salary"
-      ],
-      "how_to_apply": [
-        "Apply on the official website"
-      ],
-      "faqs": [
-        {
-          "q": "Who can apply?",
-          "a": "Check nationality and degree rules on the official listing."
-        }
-      ],
-      "keywords": [
-        "job",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Worldwide",
-      "source": "weworkremotely.com",
-      "published": "Thu, 17 Sep 2026 10:51:23 +0000",
-      "page": "p/twikey-senior-java-developer.html"
-    },
-    {
-      "title": "Sticker Mule: AI agent engineer",
-      "slug": "sticker-mule-ai-agent-engineer",
-      "url": "https://weworkremotely.com/remote-jobs/sticker-mule-ai-agent-engineer",
-      "summary": "Headquarters: New York, NY URL: https://www.stickermule.com Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and AI in one stack. We're hiring an engineer to build, run and manage a team of AI agents to help us innovate faster, improve performance, and better serve customers. Work performed Identify where agents can help and build them accordingly. Work with department leads to assess AI needs. Help connect agents to appropriate ",
-      "meta_description": "Headquarters: New York, NY URL: https://www.stickermule.com Sticker Mule is building the most lucrative commerce platform on the Internet by combining soft",
-      "eligibility": [
-        "See official page for eligibility"
-      ],
-      "benefits": [
-        "See official page for benefits or salary"
-      ],
-      "how_to_apply": [
-        "Apply on the official website"
-      ],
-      "faqs": [
-        {
-          "q": "Who can apply?",
-          "a": "Check nationality and degree rules on the official listing."
-        }
-      ],
-      "keywords": [
-        "job",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Worldwide",
-      "source": "weworkremotely.com",
-      "published": "Wed, 16 Sep 2026 12:24:17 +0000",
-      "page": "p/sticker-mule-ai-agent-engineer.html"
-    },
-    {
-      "title": "AccuLynx: Senior Software Engineer",
-      "slug": "acculynx-senior-software-engineer",
-      "url": "https://weworkremotely.com/remote-jobs/acculynx-senior-software-engineer",
-      "summary": "Headquarters: Beloit, WI URL: http://acculynx.com Senior Software Engineer AccuLynx is a fast-growing SaaS provider of business management software for roofing contractors. With more than 10 years in the business and impressive year-over-year revenue growth, we have quickly established ourselves as the leading software product in this multi-billion dollar industry. AccuLynx is actively looking for smart and passionate Senior Software Engineers to join our growing Engineering team! We are headqua",
-      "meta_description": "Headquarters: Beloit, WI URL: http://acculynx.com Senior Software Engineer AccuLynx is a fast-growing SaaS provider of business management software for roo",
+      "title": "Postscript: Client Strategist",
+      "slug": "postscript-client-strategist",
+      "url": "https://weworkremotely.com/remote-jobs/postscript-client-strategist",
+      "summary": "Headquarters: Remote, USA Postscript is the AI messaging platform trusted by 20,000+ Shopify brands — including Brooklinen, Ruggable, True Classic, and Dr. Squatch. With a mission to make SMS your number one revenue driving channel, we built the best-in-class SMS marketing platform and launched revenue-driving AI features not available on any other platform. And we're just getting started. Backed by Greylock and Y Combinator, fully remote since 2018. As a Client Strategist , you will be working ",
+      "meta_description": "Headquarters: Remote, USA Postscript is the AI messaging platform trusted by 20,000+ Shopify brands — including Brooklinen, Ruggable, True Classic, and Dr.",
       "eligibility": [
         "See official page for eligibility"
       ],
@@ -1442,15 +1342,15 @@
       "level": "",
       "region": "Remote / Worldwide",
       "source": "weworkremotely.com",
-      "published": "Tue, 15 Sep 2026 14:12:47 +0000",
-      "page": "p/acculynx-senior-software-engineer.html"
+      "published": "Tue, 29 Sep 2026 07:30:41 +0000",
+      "page": "p/postscript-client-strategist.html"
     },
     {
-      "title": "Toptal: Senior Data Engineer – AWS Data Lake & Pipeline Architecture",
-      "slug": "toptal-senior-data-engineer-aws-data-lake-pipeline-architecture",
-      "url": "https://weworkremotely.com/remote-jobs/toptal-senior-data-engineer-aws-data-lake-pipeline-architecture",
-      "summary": "Headquarters: Summary We are seeking a Data Engineer to support the development of a Data Intelligence Platform. This role focuses on data modeling, data services, data pipelines, and cloud-based data infrastructure for reporting, analytics, and data science. General information This Data Engineer will support data-related operations across a broader Data Intelligence Platform team. The work includes building and consuming web services, integrating search technologies, supporting personalization",
-      "meta_description": "Headquarters: Summary We are seeking a Data Engineer to support the development of a Data Intelligence Platform. This role focuses on data modeling, data s",
+      "title": "Air Apps: Framer Website Designer",
+      "slug": "air-apps-framer-website-designer",
+      "url": "https://weworkremotely.com/remote-jobs/air-apps-framer-website-designer-1",
+      "summary": "Headquarters: Helsinki URL: http://airapps.com Framer Website Designer (Onsite – Presidio, San Francisco) About Air Apps At Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live. Born in Lisbon, Portugal in 2018 and now with offices in both Lisbon and San Francisco, we’ve ",
+      "meta_description": "Headquarters: Helsinki URL: http://airapps.com Framer Website Designer (Onsite – Presidio, San Francisco) About Air Apps At Air Apps, we believe in thinkin",
       "eligibility": [
         "See official page for eligibility"
       ],
@@ -1475,15 +1375,15 @@
       "level": "",
       "region": "Worldwide",
       "source": "weworkremotely.com",
-      "published": "Tue, 15 Sep 2026 12:53:09 +0000",
-      "page": "p/toptal-senior-data-engineer-aws-data-lake-pipeline-architecture.html"
+      "published": "Mon, 28 Sep 2026 22:12:46 +0000",
+      "page": "p/air-apps-framer-website-designer.html"
     },
     {
-      "title": "Proxify AB: Senior Backend Developer (Node.js / Nest.js)",
-      "slug": "proxify-ab-senior-backend-developer-nodejs-nestjs",
-      "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-backend-developer-node-js-nest-js-3",
-      "summary": "Headquarters: Sweden URL: http://career.proxify.io The Role: We are looking for a Senior Backend (Node.js / Nest.js) Developer to join our fast-growing network. You’ll be responsible for building modern and scalable web applications, working closely with backend developers and designers to create intuitive user experiences. This is a long-term, full-time remote role with opportunities to work on innovative projects that make a difference. What we’re looking for: 5+ years with Node.js and 3+ past",
-      "meta_description": "Headquarters: Sweden URL: http://career.proxify.io The Role: We are looking for a Senior Backend (Node.js / Nest.js) Developer to join our fast-growing net",
+      "title": "Wisevu: Web Development Project Manager",
+      "slug": "wisevu-web-development-project-manager",
+      "url": "https://weworkremotely.com/remote-jobs/wisevu-web-development-project-manager",
+      "summary": "Headquarters: Bosnia And Herzegovina URL: http://wisevu.com Description Wisevu™, along with our sister agencies Homevu™ and charitymarketing.com ™, has been providing industry-leading digital marketing services to medical practices, home service companies, and charities for over 17 years. Our multi-industry focus and diverse marketing approach create a dynamic and engaging work environment, supported by cutting-edge tools and collaboration with a highly skilled and experienced team of profession",
+      "meta_description": "Headquarters: Bosnia And Herzegovina URL: http://wisevu.com Description Wisevu™, along with our sister agencies Homevu™ and charitymarketing.com ™, has bee",
       "eligibility": [
         "See official page for eligibility"
       ],
@@ -1501,88 +1401,22 @@
       ],
       "keywords": [
         "job",
-        "europe",
+        "worldwide",
         "pakistan",
         "india"
       ],
       "level": "",
-      "region": "Europe",
+      "region": "Worldwide",
       "source": "weworkremotely.com",
-      "published": "Tue, 15 Sep 2026 09:06:31 +0000",
-      "page": "p/proxify-ab-senior-backend-developer-nodejs-nestjs.html"
+      "published": "Mon, 28 Sep 2026 22:12:45 +0000",
+      "page": "p/wisevu-web-development-project-manager.html"
     },
     {
-      "title": "Proxify AB: Senior Backend Developer (Python)",
-      "slug": "proxify-ab-senior-backend-developer-python",
-      "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-backend-developer-python-10",
-      "summary": "Headquarters: Sweden URL: http://career.proxify.io The Role: We are looking for a Senior Python Developer for one of our clients. You are a perfect candidate if you are growth-oriented, you love what you do, and you enjoy working on new ideas to develop exciting products. What we are looking for: 5+ years of experience building products with Python and Django. High proficiency in SQL with experience using databases like PostgreSQL. Experience scaling cloud infrastructures with Docker or Kubernet",
-      "meta_description": "Headquarters: Sweden URL: http://career.proxify.io The Role: We are looking for a Senior Python Developer for one of our clients. You are a perfect candida",
-      "eligibility": [
-        "See official page for eligibility"
-      ],
-      "benefits": [
-        "See official page for benefits or salary"
-      ],
-      "how_to_apply": [
-        "Apply on the official website"
-      ],
-      "faqs": [
-        {
-          "q": "Who can apply?",
-          "a": "Check nationality and degree rules on the official listing."
-        }
-      ],
-      "keywords": [
-        "job",
-        "europe",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Europe",
-      "source": "weworkremotely.com",
-      "published": "Tue, 15 Sep 2026 09:01:36 +0000",
-      "page": "p/proxify-ab-senior-backend-developer-python.html"
-    },
-    {
-      "title": "Proxify AB: Senior Fullstack Developer (React.js / Node.js)",
-      "slug": "proxify-ab-senior-fullstack-developer-reactjs-nodejs",
-      "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-react-js-node-js-4",
-      "summary": "Headquarters: Sweden URL: http://career.proxify.io The Role: We are looking for a Senior Fullstack Developer skilled in React.js and Node.js for one of our clients. You are a perfect candidate if you are growth-oriented, you love what you do, and you enjoy working on new ideas to develop exciting products. What we are looking for: 5+ years experience as a Fullstack Developer. Backend experience with: Node.js Microservices architecture Database experience with: SQL MongoDB Intermediate-advanced E",
-      "meta_description": "Headquarters: Sweden URL: http://career.proxify.io The Role: We are looking for a Senior Fullstack Developer skilled in React.js and Node.js for one of our",
-      "eligibility": [
-        "See official page for eligibility"
-      ],
-      "benefits": [
-        "See official page for benefits or salary"
-      ],
-      "how_to_apply": [
-        "Apply on the official website"
-      ],
-      "faqs": [
-        {
-          "q": "Who can apply?",
-          "a": "Check nationality and degree rules on the official listing."
-        }
-      ],
-      "keywords": [
-        "job",
-        "europe",
-        "pakistan",
-        "india"
-      ],
-      "level": "",
-      "region": "Europe",
-      "source": "weworkremotely.com",
-      "published": "Tue, 15 Sep 2026 08:51:45 +0000",
-      "page": "p/proxify-ab-senior-fullstack-developer-reactjs-nodejs.html"
-    },
-    {
-      "title": "Reddit: Backend Engineer, IAM",
-      "slug": "reddit-backend-engineer-iam",
-      "url": "https://weworkremotely.com/remote-jobs/reddit-backend-engineer-iam",
-      "summary": "Headquarters: Remote - United States Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . This is ",
-      "meta_description": "Headquarters: Remote - United States Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open",
+      "title": "Dremio: Software Engineer - Developer Experience",
+      "slug": "dremio-software-engineer---developer-experience",
+      "url": "https://weworkremotely.com/remote-jobs/dremio-software-engineer-developer-experience",
+      "summary": "Headquarters: Portugal - Remote Be Part of Building the Future Dremio is the unified lakehouse platform for self-service analytics and AI, serving hundreds of global enterprises, including Maersk, Amazon, Regeneron, NetApp, and S&P Global. Customers rely on Dremio for cloud, hybrid, and on-prem lakehouses to power their data mesh, data warehouse migration, data virtualization, and unified data access use cases. Based on open source technologies, including Apache Iceberg and Apache Arrow, Dremio ",
+      "meta_description": "Headquarters: Portugal - Remote Be Part of Building the Future Dremio is the unified lakehouse platform for self-service analytics and AI, serving hundreds",
       "eligibility": [
         "See official page for eligibility"
       ],
@@ -1607,8 +1441,173 @@
       "level": "",
       "region": "Remote / Worldwide",
       "source": "weworkremotely.com",
-      "published": "Mon, 14 Sep 2026 07:31:07 +0000",
-      "page": "p/reddit-backend-engineer-iam.html"
+      "published": "Mon, 28 Sep 2026 07:31:05 +0000",
+      "page": "p/dremio-software-engineer---developer-experience.html"
+    },
+    {
+      "title": "Dremio: Senior Staff Software Engineer - Query Execution",
+      "slug": "dremio-senior-staff-software-engineer---query-execution",
+      "url": "https://weworkremotely.com/remote-jobs/dremio-senior-staff-software-engineer-query-execution",
+      "summary": "Headquarters: Portugal - Remote Be Part of Building the Future Dremio is the unified lakehouse platform for self-service analytics and AI, serving hundreds of global enterprises, including Maersk, Amazon, Regeneron, NetApp, and S&P Global. Customers rely on Dremio for cloud, hybrid, and on-prem lakehouses to power their data mesh, data warehouse migration, data virtualization, and unified data access use cases. Based on open source technologies, including Apache Iceberg and Apache Arrow, Dremio ",
+      "meta_description": "Headquarters: Portugal - Remote Be Part of Building the Future Dremio is the unified lakehouse platform for self-service analytics and AI, serving hundreds",
+      "eligibility": [
+        "See official page for eligibility"
+      ],
+      "benefits": [
+        "See official page for benefits or salary"
+      ],
+      "how_to_apply": [
+        "Apply on the official website"
+      ],
+      "faqs": [
+        {
+          "q": "Who can apply?",
+          "a": "Check nationality and degree rules on the official listing."
+        }
+      ],
+      "keywords": [
+        "job",
+        "remote / worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Remote / Worldwide",
+      "source": "weworkremotely.com",
+      "published": "Mon, 28 Sep 2026 07:31:05 +0000",
+      "page": "p/dremio-senior-staff-software-engineer---query-execution.html"
+    },
+    {
+      "title": "Toptal: Salesforce Platform Lead for Global Industrial Company",
+      "slug": "toptal-salesforce-platform-lead-for-global-industrial-company",
+      "url": "https://weworkremotely.com/remote-jobs/toptal-salesforce-platform-lead-for-global-industrial-company",
+      "summary": "Headquarters: We are looking for a Salesforce Platform Lead for a global company. Their goal is to own the Salesforce platform as a product, improving release health, security, engineering standards, reusable patterns, and AI-assisted delivery. General Information Location: Remote. Talents from the USA or Canada. French/English bilingual candidates are preferred for the Montreal hub. Overlap: 6hs with East Coast time zone, USA Commitment: full-time Length: 12+ month Required Skills: 6–10 years o",
+      "meta_description": "Headquarters: We are looking for a Salesforce Platform Lead for a global company. Their goal is to own the Salesforce platform as a product, improving rele",
+      "eligibility": [
+        "See official page for eligibility"
+      ],
+      "benefits": [
+        "See official page for benefits or salary"
+      ],
+      "how_to_apply": [
+        "Apply on the official website"
+      ],
+      "faqs": [
+        {
+          "q": "Who can apply?",
+          "a": "Check nationality and degree rules on the official listing."
+        }
+      ],
+      "keywords": [
+        "job",
+        "remote / worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Remote / Worldwide",
+      "source": "weworkremotely.com",
+      "published": "Thu, 24 Sep 2026 14:45:20 +0000",
+      "page": "p/toptal-salesforce-platform-lead-for-global-industrial-company.html"
+    },
+    {
+      "title": "STEUART NUTRITION: Software Developer AI Coding",
+      "slug": "steuart-nutrition-software-developer-ai-coding",
+      "url": "https://weworkremotely.com/remote-jobs/steuart-nutrition-software-developer-ai-coding",
+      "summary": "Headquarters: Minnesota URL: https://www.steuartnutrition.com/ About us Steuart Nutrition is a GMP-certified contract manufacturer making powders, liquids, capsules and stick packs for growing wellness brands. We run on Extreme Ownership, clear communication and fast turnaround, and we want a developer who works the same way. The role We're hiring a remote developer to own the customization of our training app. You'll learn the platform quickly, then build what our teams need to train and onboar",
+      "meta_description": "Headquarters: Minnesota URL: https://www.steuartnutrition.com/ About us Steuart Nutrition is a GMP-certified contract manufacturer making powders, liquids,",
+      "eligibility": [
+        "See official page for eligibility"
+      ],
+      "benefits": [
+        "See official page for benefits or salary"
+      ],
+      "how_to_apply": [
+        "Apply on the official website"
+      ],
+      "faqs": [
+        {
+          "q": "Who can apply?",
+          "a": "Check nationality and degree rules on the official listing."
+        }
+      ],
+      "keywords": [
+        "job",
+        "remote / worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Remote / Worldwide",
+      "source": "weworkremotely.com",
+      "published": "Wed, 23 Sep 2026 15:03:18 +0000",
+      "page": "p/steuart-nutrition-software-developer-ai-coding.html"
+    },
+    {
+      "title": "Glean: Application Security Engineer",
+      "slug": "glean-application-security-engineer",
+      "url": "https://weworkremotely.com/remote-jobs/glean-application-security-engineer",
+      "summary": "Headquarters: United States, Remote About Glean: Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most advanced enterprise search has evolved into a full-scale Work AI ecosystem, powering intelligent Search, an AI Assistant, and scalable AI agents on one secure, open platform. With over 100 enterprise SaaS connectors, flexible LLM choice, and robust APIs, Glean gives organizations the infrastructure to govern, scale, and customize AI across the",
+      "meta_description": "Headquarters: United States, Remote About Glean: Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most ",
+      "eligibility": [
+        "See official page for eligibility"
+      ],
+      "benefits": [
+        "See official page for benefits or salary"
+      ],
+      "how_to_apply": [
+        "Apply on the official website"
+      ],
+      "faqs": [
+        {
+          "q": "Who can apply?",
+          "a": "Check nationality and degree rules on the official listing."
+        }
+      ],
+      "keywords": [
+        "job",
+        "remote / worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Remote / Worldwide",
+      "source": "weworkremotely.com",
+      "published": "Wed, 23 Sep 2026 07:31:13 +0000",
+      "page": "p/glean-application-security-engineer.html"
+    },
+    {
+      "title": "Adventure Travel 365: Senior Full-Stack Developer - Marketplace Web & ",
+      "slug": "adventure-travel-365-senior-full-stack-developer---marketplace-web",
+      "url": "https://weworkremotely.com/remote-jobs/adventure-travel-365-senior-full-stack-developer-marketplace-web-mobile-platform",
+      "summary": "Headquarters: Phoenix, Arizona URL: https://adventuretravel365.com/ Senior Full-Stack Developer - Marketplace Web & Mobile Platform We have a big idea, and we’re looking for a top-notch Senior Full-Stack Developer to help us bring it to life. We’re building a new contractor referral and services marketplace, think Thumbtack or Angi , where clients can easily find and connect with contractors and service providers. The vision includes both an interactive web platform and mobile app, with everythi",
+      "meta_description": "Headquarters: Phoenix, Arizona URL: https://adventuretravel365.com/ Senior Full-Stack Developer - Marketplace Web & Mobile Platform We have a big idea, and",
+      "eligibility": [
+        "See official page for eligibility"
+      ],
+      "benefits": [
+        "See official page for benefits or salary"
+      ],
+      "how_to_apply": [
+        "Apply on the official website"
+      ],
+      "faqs": [
+        {
+          "q": "Who can apply?",
+          "a": "Check nationality and degree rules on the official listing."
+        }
+      ],
+      "keywords": [
+        "job",
+        "remote / worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "",
+      "region": "Remote / Worldwide",
+      "source": "weworkremotely.com",
+      "published": "Mon, 21 Sep 2026 10:14:35 +0000",
+      "page": "p/adventure-travel-365-senior-full-stack-developer---marketplace-web.html"
     }
   ]
 }
