@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-13T13:40:45.949461+00:00",
-  "updated_at_pkt": "2026-10-13 06:37 PM PKT",
+  "updated_at": "2026-10-14T11:17:15.360615+00:00",
+  "updated_at_pkt": "2026-10-14 04:14 PM PKT",
   "count": 500,
-  "new_in_this_run": 27,
+  "new_in_this_run": 28,
   "sources": [
     "https://trends.google.com/trending/rss?geo=PK",
     "https://trends.google.com/trending/rss?geo=IN",
@@ -11,6 +11,1126 @@
     "https://trends.google.com/trending/rss?geo=SA"
   ],
   "items": [
+    {
+      "title": "مع تصاعد القتال في اليمن.. الصليب الأحمر يحذر من تفاقم أزمة المستشفيات",
+      "slug": "news-1791976621",
+      "topic": "اليمن",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Coverage linked to \"اليمن\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "اليمن: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "اليمن",
+        "اليمن news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMRk86DD-bT7G1oDM0G-LkM_UDNkDfNPciYpfVb4hFPIpHG8LPexRm0iFKtG0",
+      "related": [
+        {
+          "title": "مع تصاعد القتال في اليمن.. الصليب الأحمر يحذر من تفاقم أزمة المستشفيات",
+          "url": "https://www.eremnews.com/news/arab-world/pfs0yun",
+          "source": "إرم نيوز"
+        },
+        {
+          "title": "رغم الحرب... تدفُّق مستمر للمهاجرين الأفارقة إلى اليمن",
+          "url": "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A/5329119-%D8%B1%D8%BA%D9%85-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%AA%D8%AF%D9%81%D9%91%D9%8F%D9%82-%D9%85%D8%B3%D8%AA%D9%85%D8%B1-%D9%84%D9%84%D9%85%D9%87%D8%A7%D8%AC%D8%B1%D9%8A%D9%86-%D8%A7%D9%84%D8%A3%D9%81%D8%A7%D8%B1%D9%82%D8%A9-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%8A%D9%85%D9%86",
+          "source": "الشرق الأوسط"
+        },
+        {
+          "title": "رغم الحرب.. وصول 134 ألف مهاجر غير نظامي إلى اليمن خلال 9 شهور",
+          "url": "https://www.aa.com.tr/ar/%D8%A7%D9%84%D8%AF%D9%88%D9%84-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9/%D8%B1%D8%BA%D9%85-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D9%88%D8%B5%D9%88%D9%84-134-%D8%A3%D9%84%D9%81-%D9%85%D9%87%D8%A7%D8%AC%D8%B1-%D8%BA%D9%8A%D8%B1-%D9%86%D8%B8%D8%A7%D9%85%D9%8A-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D8%AE%D9%84%D8%A7%D9%84-9-%D8%B4%D9%87%D9%88%D8%B1/4087267",
+          "source": "Anadolu Ajansı"
+        }
+      ],
+      "word_count": 327,
+      "page": "p/news-1791976621.html"
+    },
+    {
+      "title": "سعر الريال يسجل مكاسب جديدة مقابل الجنيه المصري اليوم الثلاثاء",
+      "slug": "news-1791976622",
+      "topic": "سعر الريال مقابل الجنيه",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Coverage linked to \"سعر الريال مقابل الجنيه\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "سعر الريال مقابل الجنيه: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "سعر الريال مقابل الجنيه",
+        "سعر الريال مقابل الجنيه news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxzfgZuEBpmRw_RxkCnIjiBcYVBJoSJpTfNO-YJy3rfLYUEoNK3caOQlH1CtY",
+      "related": [
+        {
+          "title": "سعر الريال يسجل مكاسب جديدة مقابل الجنيه المصري اليوم الثلاثاء",
+          "url": "https://www.alyaum.com/articles/6686704/%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%85%D8%A7%D9%84-%D9%88%D8%A3%D8%B9%D9%85%D8%A7%D9%84/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D9%8A%D8%B3%D8%AC%D9%84-%D9%85%D9%83%D8%A7%D8%B3%D8%A8-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%AC%D9%86%D9%8A%D9%87-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A7%D8%A1",
+          "source": "alyaum"
+        },
+        {
+          "title": "سعر الريال السعودى أمام الجنيه اليوم الإثنين 12-10-2026",
+          "url": "https://www.youm7.com/story/2026/10/12/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%89-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D9%86%D9%8A%D9%87-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A5%D8%AB%D9%86%D9%8A%D9%86-12-10-2026/7576331",
+          "source": "اليوم السابع"
+        },
+        {
+          "title": "سعر الريال السعودي اليوم في البنوك.. ارتفاع يصل إلى 10 قروش أمام الجنيه",
+          "url": "https://twaslnews1.twaslnews.com/5997764/",
+          "source": "شبكة تواصل الإخبارية"
+        }
+      ],
+      "word_count": 341,
+      "page": "p/news-1791976622.html"
+    },
+    {
+      "title": "سعر الدولار في مصر يتجاوز 53 جنيهاً.. قفزة قياسية جديدة",
+      "slug": "53",
+      "topic": "سعر الدولار مقابل الجنيه",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Coverage linked to \"سعر الدولار مقابل الجنيه\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "سعر الدولار مقابل الجنيه: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "سعر الدولار مقابل الجنيه",
+        "سعر الدولار مقابل الجنيه news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNFFtPxPYiE50FD5c3inEb7lz24S8hFV_ohw-ZXVl8h8sNycReiv6r9zNFZ_Y",
+      "related": [
+        {
+          "title": "سعر الدولار في مصر يتجاوز 53 جنيهاً.. قفزة قياسية جديدة",
+          "url": "https://www.alarabiya.net/aswaq/egypt-economy/2026/10/14/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-%D9%8A%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-53-%D8%AC%D9%86%D9%8A%D9%87%D8%A7-%D9%82%D9%81%D8%B2%D8%A9-%D9%82%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9",
+          "source": "العربية"
+        },
+        {
+          "title": "تحركات جديدة فى سعر الدولار أمام الجنيه بالبنوك الآن.. بنك الإسكندرية الأعلى",
+          "url": "https://www.youm7.com/story/2026/10/13/%D8%AA%D8%AD%D8%B1%D9%83%D8%A7%D8%AA-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%81%D9%89-%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D9%86%D9%8A%D9%87-%D8%A8%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83-%D8%A7%D9%84%D8%A2%D9%86-%D8%A8%D9%86%D9%83/7577928",
+          "source": "اليوم السابع"
+        },
+        {
+          "title": "سعر الدولار مقابل الجنيه اليوم الأربعاء.. استقرار في البنوك المصرية",
+          "url": "https://www.alyaum.com/articles/6686874/%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%85%D8%A7%D9%84-%D9%88%D8%A3%D8%B9%D9%85%D8%A7%D9%84/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%AC%D9%86%D9%8A%D9%87-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D8%A7%D8%A1-%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9",
+          "source": "alyaum"
+        }
+      ],
+      "word_count": 338,
+      "page": "p/53.html"
+    },
+    {
+      "title": "Visa returns as title sponsor for 2026 MAMA Awards, BTS tops nominations",
+      "slug": "visa-returns-as-title-sponsor-for-2026-mama-awards-bts-tops-nominations",
+      "topic": "mama awards",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Visa has returned as the title sponsor for the 2026 MAMA Awards, with BTS topping the nomination list. The ceremony, featuring acts like Blackpink and TXT, will open presale tickets on 13 October.",
+      "meta_description": "Visa resumes title sponsorship of the 2026 MAMA Awards as BTS leads the nominee list, with Blackpink, TXT and K‑pop acts confirmed; presale tickets open Oct 13.",
+      "keywords": [
+        "MAMA Awards",
+        "Visa sponsorship",
+        "BTS nominations",
+        "K-pop",
+        "Pakistan"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcStH2sW5fYomw04v8wz4guAG-Q_SvJU1pAZNB0SQC9dHWbH5an0N2i4kHE4jfQ",
+      "related": [
+        {
+          "title": "BTS, Blackpink, TXT among MAMA Awards nominees",
+          "url": "https://www.upi.com/Entertainment_News/Music/2026/10/12/korea-mama-awards-nominees-mnet/5051791811247/",
+          "source": "upi"
+        },
+        {
+          "title": "BTS leads nominations for 2026 MAMA Awards; BIGBANG, TXT, aespa, IVE, ATEEZ earn multiple nods",
+          "url": "https://www.pinkvilla.com/entertainment/bts-leads-nominations-for-2026-mama-awards-bigbang-txt-aespa-ive-ateez-earn-multiple-nods-1405887",
+          "source": "Pinkvilla"
+        },
+        {
+          "title": "Visa returns as title sponsor for 2026 MAMA AWARDS; Visa Presale registration begins 13 October",
+          "url": "https://www.aninews.in/news/business/visa-returns-as-title-sponsor-for-2026-mama-awards-visa-presale-registration-begins-13-october20261013103900",
+          "source": "ANI News"
+        }
+      ],
+      "word_count": 677,
+      "page": "p/visa-returns-as-title-sponsor-for-2026-mama-awards-bts-tops-nominations.html"
+    },
+    {
+      "title": "Search continues for missing fishing vessel off Lewis, one dead",
+      "slug": "search-continues-for-missing-fishing-vessel-off-lewis-one-dead",
+      "topic": "overdue fishing vessel western isles",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "A small fishing boat disappeared off the coast of Lewis in the Western Isles. Rescue crews have recovered one body while two crew members are still unaccounted for.",
+      "meta_description": "A three‑man fishing boat vanished off the Western Isles. One crew member has been found dead, two remain missing as rescue teams intensify the search.",
+      "keywords": [
+        "fishing vessel",
+        "Western Isles",
+        "Lewis",
+        "search operation",
+        "maritime safety"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbqtJSgOp1G5QKqpj68wuBzOrfubAViTC-TkQs2YvZY4PaJZfp9zn6lCtzz8",
+      "related": [
+        {
+          "title": "One man dead and two missing as search goes on for fishing boat off Lewis",
+          "url": "https://www.bbc.co.uk/news/articles/c3vgx720r577o",
+          "source": "BBC"
+        },
+        {
+          "title": "Major search for fishing boat with three-man crew missing off Western Isles",
+          "url": "https://www.bbc.com/news/articles/c3vgx720r577o",
+          "source": "BBC"
+        },
+        {
+          "title": "One dead and two missing after fishing vessel disappears off Scotland",
+          "url": "https://news.sky.com/story/one-man-dead-and-two-missing-after-fishing-vessel-goes-missing-off-scotland-13599156",
+          "source": "Sky News"
+        }
+      ],
+      "word_count": 713,
+      "page": "p/search-continues-for-missing-fishing-vessel-off-lewis-one-dead.html"
+    },
+    {
+      "title": "Saif Ali Khan Joins Instagram, Sparking Viral KBC Ghee Memes",
+      "slug": "saif-ali-khan-joins-instagram-sparking-viral-kbc-ghee-memes",
+      "topic": "saif ali khan",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Saif Ali Khan has officially joined Instagram, a move that quickly became a viral topic among fans. The debut is being widely linked to his memorable appearance on the game show KBC.",
+      "meta_description": "Bollywood actor Saif Ali Khan made his Instagram debut, prompting fans to link the move to his famous KBC ghee win and share nostalgic memes.",
+      "keywords": [
+        "Saif Ali Khan",
+        "Instagram debut",
+        "KBC ghee",
+        "Bollywood news",
+        "Pataudi Library"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQeqsHt8Vh3_ESmZEsR7Y1zphPveprFm_AJkAO4icKxF3wCyMgZT5MCtKKuHYM",
+      "related": [
+        {
+          "title": "Saif Ali Khan’s Instagram Debut Sparks Viral KBC Ghee Jokes",
+          "url": "https://indiawest.com/fans-welcome-saif-to-instagram-with-jokes-about-his-ghee-moment/",
+          "source": "IndiaWest"
+        },
+        {
+          "title": "Saif Ali Khan finally joins Instagram, fans link his debut to KBC ghee win",
+          "url": "https://www.telegraphindia.com/entertainment/saif-ali-khan-finally-joins-instagram-fans-link-his-debut-to-kbc-ghee-win/cid/2184368",
+          "source": "Telegraph India"
+        },
+        {
+          "title": "Saif Ali Khan goes public on Instagram with a Pataudi Library post",
+          "url": "https://www.buzzincontent.com/news/saif-ali-khan-goes-public-on-instagram-with-a-pataudi-library-post-12674433",
+          "source": "Buzzincontent"
+        }
+      ],
+      "word_count": 874,
+      "page": "p/saif-ali-khan-joins-instagram-sparking-viral-kbc-ghee-memes.html"
+    },
+    {
+      "title": "Russell Brand trial: Prosecution alleges 'ruthless' conduct as rape case proceeds",
+      "slug": "russell-brand-trial-prosecution-alleges-ruthless-conduct-as-rape-case-proceeds",
+      "topic": "russell brand",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "The trial of comedian Russell Brand has attracted intense media attention as prosecutors accuse him of being ruthless and calculated during the alleged rape. The case continues to unfold in London's courtroom.",
+      "meta_description": "In a high‑profile case, prosecutors claim Russell Brand was ruthless and calculated during alleged rape, as the trial proceeds in London.",
+      "keywords": [
+        "Russell Brand",
+        "rape trial",
+        "UK court",
+        "prosecution",
+        "sexual assault"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "5000+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSmQftj206FiCsTl4xDE1DDsJz4atpN0fiTnvoy9o929tmiTTuGlNjXUePUmTE",
+      "related": [
+        {
+          "title": "Russell Brand: Prosecutors allege Brand was 'ruthless' as rape trial begins - live updates",
+          "url": "https://www.bbc.co.uk/news/live/c52e9xd9mvk2t",
+          "source": "BBC"
+        },
+        {
+          "title": "Russell Brand was ‘ruthless and calculated’, prosecutors tell jury as rape and sexual assault trial begins – live",
+          "url": "https://www.theguardian.com/uk-news/live/2026/oct/14/russell-brand-trial-latest-news-updates",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Russell Brand trial live: Comedian 'pranced around room' before raping woman, court told",
+          "url": "https://news.sky.com/story/russell-brand-trial-updates-what-is-he-accused-of-rape-sexual-assault-indecent-live-court-prosecution-defence-jury-13592674",
+          "source": "Sky News"
+        }
+      ],
+      "word_count": 649,
+      "page": "p/russell-brand-trial-prosecution-alleges-ruthless-conduct-as-rape-case-proceeds.html"
+    },
+    {
+      "title": "Pakistani captain Farhan breaks Abhishek Sharma's T20I record",
+      "slug": "pakistani-captain-farhan-breaks-abhishek-sharmas-t20i-record",
+      "topic": "अभिषेक शर्मा",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Sahibzada Farhan of Pakistan eclipsed Abhishek Sharma's record of consecutive half‑centuries in a bilateral T20I series. The feat came as Pakistan faced Sri Lanka in a tightly contested three‑match set‑up.",
+      "meta_description": "Pakistani captain Sahibzada Farhan broke Indian cricketer Abhishek Sharma's T20I half‑century streak, setting a new world record in a three‑match series against",
+      "keywords": [
+        "Abhishek Sharma",
+        "Sahibzada Farhan",
+        "T20I record",
+        "Pakistan cricket",
+        "Sri Lanka series"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "10000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJyZbNXbjEdD3BEGOepatcIp7_WhP-Rbaji_jCAFcsWD3q4vGaPY8m2kyAfM",
+      "related": [
+        {
+          "title": "PAK vs SL: व‍िराट कोहली की बराबरी, अभ‍िषेक शर्मा को पछाड़ा, इस पाकिस्तानी बैटर ने बनाया टी20 का बड़ा र‍िकॉर्ड",
+          "url": "https://www.aajtak.in/sports/cricket/story/sahibzada-farhan-breaks-abhishek-record-kohli-club-pakistan-vs-sri-lanka-t20i-series-tspok-dskc-2670148-2026-10-14",
+          "source": "AajTak"
+        },
+        {
+          "title": "पाकिस्तानी कप्तान ने अभिषेक शर्मा का रिकॉर्ड किया ध्वस्त, 3 मैचों की T20I सीरीज में रच दिया नया इतिहास",
+          "url": "https://www.indiatv.in/sports/cricket/sahibzada-farhan-is-the-first-captain-in-the-world-to-score-half-centuries-in-all-three-matches-of-a-bilateral-t20i-series-2026-10-14-1248672",
+          "source": "India TV Hindi"
+        },
+        {
+          "title": "श्रीलंका ने पाकिस्तान को क्लीन स्वीप से रोका: तीसरे टी-20 में 8 विकेट से हराया, मेंडिस की फिफ्टी, शनाका को ...",
+          "url": "https://www.bhaskar.com/g/sports/cricket/news/sri-lanka-beat-pakistan-t20-rawalpindi-mendis-shanaka-match-report-139354302.html",
+          "source": "Dainik Bhaskar"
+        }
+      ],
+      "word_count": 747,
+      "page": "p/pakistani-captain-farhan-breaks-abhishek-sharmas-t20i-record.html"
+    },
+    {
+      "title": "Pakistan Captain Sahibzada Farhan Breaks Abhishek Sharma's T20 Record",
+      "slug": "pakistan-captain-sahibzada-farhan-breaks-abhishek-sharmas-t20-record",
+      "topic": "అభిషేక్ శర్మ",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Pakistan captain Sahibzada Farhan has broken a rare world record previously held by Indian cricketer Abhishek Sharma. This achievement highlights the competitive nature of modern T20 cricket across the subcontinent.",
+      "meta_description": "Sahibzada Farhan has surpassed Abhishek Sharma's world record in T20 cricket. The Pakistan captain's recent performance marks a significant milestone in interna",
+      "keywords": [
+        "Sahibzada Farhan",
+        "Abhishek Sharma",
+        "T20 cricket record",
+        "Pakistan cricket",
+        "sports news"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "2000+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSDIe2ZfMyf1VmZJxeRcQMM-0aSalBRTrQA5DfYD8A7EXoj2lZKAJzjJNYm_Rs",
+      "related": [
+        {
+          "title": "పాకిస్తాన్‌ కెప్టెన్‌ ప్రపంచ రికార్డు",
+          "url": "https://www.sakshi.com/telugu-news/sports/pak-vs-sl-t20is-sahibzada-farhan-breaks-abhishek-sharma-world-record-2931848",
+          "source": "Sakshi"
+        },
+        {
+          "title": "పాక్ కెప్టెన్ ఫర్హాన్ ప్రపంచ రికార్డ్.. అభిషేక్ శ‌ర్మ అరుదైన రికార్డు బ్రేక్!",
+          "url": "https://www.ap7am.com/tn/883424/pakistan-captain-farhan-world-record-abhishek-sharma-rare-record-broken",
+          "source": "AP7AM"
+        },
+        {
+          "title": "Sahibzada Farhan: టీ20ల్లో ప్రపంచ రికార్డు సృష్టించిన పాక్ క్రికెటర్",
+          "url": "https://vaartha.com/sports/sahibzada-farhan-surpassed-abhishek-sharmas-record-by-scoring-238-runs-in-the-t20-series/790900/",
+          "source": "Vaartha Telugu"
+        }
+      ],
+      "word_count": 963,
+      "page": "p/pakistan-captain-sahibzada-farhan-breaks-abhishek-sharmas-t20-record.html"
+    },
+    {
+      "title": "Oregon Ducks Coach Dan Lanning Reviews Offense After Raiola Benching",
+      "slug": "oregon-ducks-coach-dan-lanning-reviews-offense-after-raiola-benching",
+      "topic": "dan lanning",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Oregon Ducks head coach Dan Lanning announced a full offensive review following the benching of quarterback Dylan Raiola. The move signals possible staff adjustments as the team seeks consistency on the field.",
+      "meta_description": "Oregon Ducks head coach Dan Lanning says he will review the entire offense after benching quarterback Dylan Raiola, hinting at staff changes and a shifting stra",
+      "keywords": [
+        "Dan Lanning",
+        "Oregon Ducks",
+        "college football",
+        "Dylan Raiola",
+        "team strategy"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSj6qKS3plVLdHY0XEk9WIoxRsGxMP_erDkgcB1NdNTrvfhUsL1yAzS1FFnz6E",
+      "related": [
+        {
+          "title": "Ducks' Dylan Raiola benched as Lanning vows to review offense",
+          "url": "https://www.espn.com/college-football/story/_/id/50151899/ducks-raiola-benched-lanning-vows-review-whole-offense",
+          "source": "ESPN"
+        },
+        {
+          "title": "Lanning admits changes coming but won't say what",
+          "url": "https://www.oregonlive.com/ducks/2026/10/dan-lanning-says-oregon-making-staff-changes-but-keeps-details-secret.html",
+          "source": "OregonLive.com"
+        },
+        {
+          "title": "Tom Fornelli's College Football Power Ratings: Oregon presents a conundrum",
+          "url": "https://www.cbssports.com/college-football/news/oregon-college-football-power-ratings-tom-fornelli/",
+          "source": "CBS Sports"
+        }
+      ],
+      "word_count": 875,
+      "page": "p/oregon-ducks-coach-dan-lanning-reviews-offense-after-raiola-benching.html"
+    },
+    {
+      "title": "Ohio Gov. Mike DeWine signs order letting state's 2022 athletes play in…",
+      "slug": "ohio-gov-mike-dewine-signs-order-letting-states-2022-athletes-play-in",
+      "topic": "associated press",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Coverage linked to \"associated press\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "associated press: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "associated press",
+        "associated press news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT7MvFiXQV5LXX3wEuHVCpFMr4R1N9Bub56FlG0gntMJyVUvasMhmeqLte7bTc",
+      "related": [
+        {
+          "title": "Ohio Gov. Mike DeWine signs order letting state's 2022 athletes play in 2026-27",
+          "url": "https://www.espn.com/college-sports/story/_/id/50177542/ohio-gov-dewine-signs-order-2022-athletes-play-2026-27",
+          "source": "ESPN"
+        },
+        {
+          "title": "DeWine signs executive order addressing college athlete eligibility in Ohio, NCAA pushes back",
+          "url": "https://www.cleveland.com/osu/2026/10/dewine-signs-executive-order-addressing-college-athlete-eligibility.html",
+          "source": "Cleveland.com"
+        },
+        {
+          "title": "UC's MJ Collins, Xavier's Filip Borovicanin eligible per Gov. DeWine",
+          "url": "https://www.cincinnati.com/story/sports/college/university-of-cincinnati/2026/10/13/cincinnati-xavier-basketball-player-eligible-gov-mike-dewine-executive-order/92190417007/",
+          "source": "Cincinnati Enquirer"
+        }
+      ],
+      "word_count": 337,
+      "page": "p/ohio-gov-mike-dewine-signs-order-letting-states-2022-athletes-play-in.html"
+    },
+    {
+      "title": "Naga Munchetty has savage reaction to colleague's explicit joke and…",
+      "slug": "naga-munchetty-has-savage-reaction-to-colleagues-explicit-joke-and",
+      "topic": "bbc breakfast",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Coverage linked to \"bbc breakfast\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "bbc breakfast: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "bbc breakfast",
+        "bbc breakfast news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBjVTbLDU25vjLgE6fzmOGhIWXrmAp8tFwFjdmb2_l_MvGxwyHeJCtTGKUTq8",
+      "related": [
+        {
+          "title": "Naga Munchetty has savage reaction to colleague's explicit joke and 'salary' dig",
+          "url": "https://www.standard.co.uk/showbiz/naga-munchetty-bbc-breakfast-b1300479.html",
+          "source": "London Evening Standard"
+        },
+        {
+          "title": "Awkward moment BBC host's joke falls flat - as Naga Munchetty goes silent",
+          "url": "https://www.thesun.co.uk/tv/40632491/awkward-moment-bbc-joke-falls-flat-naga-munchetty/",
+          "source": "The Sun"
+        },
+        {
+          "title": "EU says ‘no indication’ intelligence sharing with Ukraine has stopped as Russian attacks leave 600,000 without power – Europe live",
+          "url": "https://www.theguardian.com/world/live/2026/oct/14/russia-ukraine-war-latest-updates-zelenskyy-europe",
+          "source": "The Guardian"
+        }
+      ],
+      "word_count": 345,
+      "page": "p/naga-munchetty-has-savage-reaction-to-colleagues-explicit-joke-and.html"
+    },
+    {
+      "title": "N.Y. Weather: After warm temps, cold front brings winds and rain to…",
+      "slug": "ny-weather-after-warm-temps-cold-front-brings-winds-and-rain-to",
+      "topic": "new york weather",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Coverage linked to \"new york weather\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "new york weather: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "new york weather",
+        "new york weather news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQckEvsl-hCpc66GIQLLb9pNaH4tQLl86x3yKEH9eDdU7CAIqekN3-aY4ItBhM",
+      "related": [
+        {
+          "title": "N.Y. Weather: After warm temps, cold front brings winds and rain to Staten Island",
+          "url": "https://www.silive.com/weather/2026/10/ny-weather-after-warm-temps-cold-front-brings-winds-and-rain-to-staten-island.html",
+          "source": "SILive.com"
+        },
+        {
+          "title": "Weather forecast: Will this warmth hold?",
+          "url": "https://www.rochesterfirst.com/weather/weather-forecasts/weather-forecast-back-to-the-70s-this-afternoon-2/",
+          "source": "RochesterFirst"
+        },
+        {
+          "title": "N.Y. Weather: Showers to end for Staten Island, warm weather ahead this week",
+          "url": "https://www.silive.com/weather/2026/10/ny-weather-showers-to-end-for-staten-island-warm-weather-ahead-this-week.html",
+          "source": "SILive.com"
+        }
+      ],
+      "word_count": 337,
+      "page": "p/ny-weather-after-warm-temps-cold-front-brings-winds-and-rain-to.html"
+    },
+    {
+      "title": "Meerut Court Hands Death Penalty to Muskan and Sahil in Blue Drum Murder Case",
+      "slug": "meerut-court-hands-death-penalty-to-muskan-and-sahil-in-blue-drum-murder-case",
+      "topic": "blue drum case",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "In a landmark ruling, the Meerut court sentenced Muskan and Sahil to death for the murder of Saurabh Rajput. The verdict has reignited discussions on capital punishment across India.",
+      "meta_description": "Court in Meerut sentences Muskan and Sahil to death in the Blue Drum murder case involving Saurabh Rajput, sparking debate over capital punishment in India.",
+      "keywords": [
+        "Blue Drum case",
+        "Meerut",
+        "death penalty",
+        "Saurabh Rajput murder",
+        "Indian courts"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyvTU1qt4roxBjsUVv_Xzimv6Xxad0nJedomA20rXwmXajZaQGMGFy_DGI7p0",
+      "related": [
+        {
+          "title": "Blue Drum Verdict Case Live Updates: उम्रकैद या फांसी? 4 बजे आएगा मुस्कान-साहिल की सजा पर फैसला",
+          "url": "https://www.aajtak.in/uttar-pradesh/story/blue-drum-verdict-case-live-updates-muskan-and-sahil-sentencing-big-decision-life-imprisonment-meerut-news-lcly-rpti-2670192-2026-10-14",
+          "source": "AajTak"
+        },
+        {
+          "title": "नीले ड्रम में सौरभ का शव, पत्नी मुस्कान खामोश रही: कोर्ट के बाहर प्रेमी साहिल पीटा गया; 589 दिन, 126 तारीखे...",
+          "url": "https://www.bhaskar.com/g/local/uttar-pradesh/meerut/news/meerut-blue-drum-murder-case-verdict-sahil-muskan-photos-139350579.html",
+          "source": "Dainik Bhaskar"
+        },
+        {
+          "title": "सौरभ राजपूत हत्याकांड: मुस्कान और प्रेमी साहिल को कोर्ट ने सुनाई मौत की सजा",
+          "url": "https://www.jagran.com/uttar-pradesh/meerut-city-blue-drum-case-meerut-death-penalty-for-muskan-and-sahil-in-saurabh-murder-40404878.html",
+          "source": "Jagran"
+        }
+      ],
+      "word_count": 477,
+      "page": "p/meerut-court-hands-death-penalty-to-muskan-and-sahil-in-blue-drum-murder-case.html"
+    },
+    {
+      "title": "Kendal Grey Returns to WWE NXT After Clearance Amid Mixed Reactions",
+      "slug": "kendal-grey-returns-to-wwe-nxt-after-clearance-amid-mixed-reactions",
+      "topic": "kendal grey",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Kendal Grey has been medically cleared to resume wrestling on WWE’s NXT brand after a brief hiatus. His controversial therapy‑style video segments have sparked debate among critics and viewers alike.",
+      "meta_description": "Wrestler Kendal Grey is cleared for in‑ring competition on WWE NXT, while his recent therapy vignettes draw criticism from analyst Dave Meltzer and intrigue fro",
+      "keywords": [
+        "Kendal Grey",
+        "WWE NXT",
+        "therapy segments",
+        "in-ring clearance",
+        "Dave Meltzer"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTehJqeK-gVfTFcneM94L5OMv3eRvgsMSmTGt7tsaphi2Lz4jm_jOBX6Yq58jw",
+      "related": [
+        {
+          "title": "Backstage Report On Kendal Grey's WWE NXT Therapy Vignettes",
+          "url": "https://sports.yahoo.com/articles/backstage-report-kendal-greys-wwe-203419931.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "Kendal Grey Cleared For In-Ring Action",
+          "url": "https://www.fightful.com/wrestling/kendal-grey-cleared-for-in-ring-action/",
+          "source": "Fightful"
+        },
+        {
+          "title": "Dave Meltzer Critiques Kendal Grey Therapy Segments on WWE NXT TV, Calls It ‘Bad Material’",
+          "url": "https://411mania.com/wrestling/dave-meltzer-critiques-kendal-grey-therapy-segments-wwe-nxt-tv/",
+          "source": "411Mania."
+        }
+      ],
+      "word_count": 674,
+      "page": "p/kendal-grey-returns-to-wwe-nxt-after-clearance-amid-mixed-reactions.html"
+    },
+    {
+      "title": "Hottest 2026 Midterm Races—Democrat Up By Double Digits In North…",
+      "slug": "hottest-2026-midterm-racesdemocrat-up-by-double-digits-in-north",
+      "topic": "midterm elections 2026",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Coverage linked to \"midterm elections 2026\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "midterm elections 2026: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "midterm elections 2026",
+        "midterm elections 2026 news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSKvKdzlVzJPnOFE_fDTgvAbuZ2SfG2qIkQFKjDU2-5F12FHeJsI2PSToC1Uvg",
+      "related": [
+        {
+          "title": "Hottest 2026 Midterm Races—Democrat Up By Double Digits In North Carolina Senate Race (Updated Daily)",
+          "url": "https://www.forbes.com/sites/saradorn/2026/10/13/hottest-2026-midterm-races-democrat-roy-cooper-has-double-digit-lead-over-former-rnc-chair-michael-whatley-updated-daily/",
+          "source": "Forbes"
+        },
+        {
+          "title": "Cooper up big on Whatley as Trump approval sinks, WRAL/WSOC Poll shows",
+          "url": "https://www.wral.com/news/nccapitol/wral-nc-us-senate-poll-cooper-whatley-tillis-trump-stein-approval-midterm-october-2026/",
+          "source": "WRAL"
+        },
+        {
+          "title": "Cooper holds 14-point lead in North Carolina Senate race poll",
+          "url": "https://thehill.com/homenews/campaign/6145587-roy-cooper-leads-nc-senate-poll/",
+          "source": "The Hill"
+        }
+      ],
+      "word_count": 341,
+      "page": "p/hottest-2026-midterm-racesdemocrat-up-by-double-digits-in-north.html"
+    },
+    {
+      "title": "Frankfurt-Delhi Air India Flight Diverted To Jaipur After Hijack Alert:…",
+      "slug": "frankfurt-delhi-air-india-flight-diverted-to-jaipur-after-hijack-alert",
+      "topic": "air india",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Coverage linked to \"air india\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "air india: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "air india",
+        "air india news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQCUVK3pgrVpI5ASnvG13jdjIck0Wt42XDbRXrCmLnTpIjBZ1jcWo9kXtytAyc",
+      "related": [
+        {
+          "title": "Frankfurt-Delhi Air India Flight Diverted To Jaipur After Hijack Alert: Report",
+          "url": "https://www.ndtv.com/india-news/frankfurt-delhi-air-india-flight-ai-2030-dreamliner-diverted-to-jaipur-after-bomb-threat-12182848",
+          "source": "NDTV"
+        },
+        {
+          "title": "Air India plane diverted after hijacking alert during flight from Frankfurt to Delhi",
+          "url": "https://www.independent.co.uk/asia/india/air-india-flight-hijack-frankfurt-delhi-b3066368.html",
+          "source": "The Independent"
+        },
+        {
+          "title": "Bomb threat in Air India Frankfurt-Delhi flight: Pilot pressed hijack code; plane diverted to Jaipur",
+          "url": "https://timesofindia.indiatimes.com/india/air-india-frankfurt-delhi-flight-diverted-to-jaipur-after-bomb-threat/articleshow/134933627.cms",
+          "source": "The Times of India"
+        }
+      ],
+      "word_count": 340,
+      "page": "p/frankfurt-delhi-air-india-flight-diverted-to-jaipur-after-hijack-alert.html"
+    },
+    {
+      "title": "Finn Russell hints at retirement decision before 2027 World Cup",
+      "slug": "finn-russell-hints-at-retirement-decision-before-2027-world-cup",
+      "topic": "finn russell",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Scotland international Finn Russell has made his retirement intentions clear, stating he will decide on his future before the 2027 Rugby World Cup. His comments have intensified discussions about the next generation of Scottish fly-halves.",
+      "meta_description": "Scotland fly-half Finn Russell has addressed his future, keeping retirement options open ahead of the 2027 Rugby World Cup. The move sparks debate over his succ",
+      "keywords": [
+        "Finn Russell",
+        "Scotland Rugby",
+        "2027 World Cup",
+        "Retirement",
+        "Fly-half"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDbjaqAYPOTyHIzBhdtVUulcbowldlA09eTrBtxlV8Ioc6i15LK4QsDmBXGf8",
+      "related": [
+        {
+          "title": "Finn Russell makes retirement decision ahead of 2027 Rugby World Cup",
+          "url": "https://www.ruck.co.uk/rugby-news/finn-russell-makes-retirement-decision-ahead-of-2027-rugby-world-cup",
+          "source": "Ruck.co.uk"
+        },
+        {
+          "title": "Finn Russell Keeps Retirement Options Open Before 2027 World Cup",
+          "url": "https://suaragarut.id/en/finn-russell-retirement-2027-world-cup",
+          "source": "SuaraGarut.ID"
+        },
+        {
+          "title": "Russell’s successor in Scotland has long been a topic of conversation",
+          "url": "https://www.oxfordmail.co.uk/news/26635377.russells-successor-scotland-long-topic-conversation/",
+          "source": "Oxford Mail"
+        }
+      ],
+      "word_count": 1104,
+      "page": "p/finn-russell-hints-at-retirement-decision-before-2027-world-cup.html"
+    },
+    {
+      "title": "ECINet Review Sparks Scrutiny Over Voter Deletion Requests in Maharashtra",
+      "slug": "ecinet-review-sparks-scrutiny-over-voter-deletion-requests-in-maharashtra",
+      "topic": "ecinet",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "A review of ECINet has uncovered over 25,000 voter deletion requests in Maharashtra, raising concerns about the integrity of the electoral roll. Activists demand greater scrutiny and a cap on Form‑7 applications to safeguard voter rights.",
+      "meta_description": "ECINet review highlights 25,000 voter deletion requests in Maharashtra, prompting activists to call for transparency and a cap on Form‑7 applications.",
+      "keywords": [
+        "ECINet",
+        "voter deletion",
+        "Form-7",
+        "Maharashtra elections",
+        "activists"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "2000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRTBwhdcKSq6LEVl9QuY1OEH9fhJv_aIxn-LlMDJFvq7pPUUhKapYjgwAYqoL0",
+      "related": [
+        {
+          "title": "Activists seek scrutiny of 25k voter deletion requests in Maharashtra",
+          "url": "https://timesofindia.indiatimes.com/city/pune/activists-seek-thorough-scrutiny-of-25661-voter-deletion-requests-in-maharashtra/articleshow/134925912.cms",
+          "source": "The Times of India"
+        },
+        {
+          "title": "Home visits for flagged voters, ECINet review and Form 7 cap — SIR changes since ECI controversy broke | HT Explainers",
+          "url": "https://www.hindustantimes.com/ht-explainers/home-visits-for-flagged-voters-ecinet-review-and-form-7-cap-sir-changes-since-eci-controversy-broke-101791951501429.html",
+          "source": "Hindustan Times"
+        },
+        {
+          "title": "ECI receives 5.43 lakh Form-7 applications from Telangana",
+          "url": "https://telanganatoday.com/eci-receives-5-43-lakh-form-7-applications-from-telangana",
+          "source": "Telangana Today"
+        }
+      ],
+      "word_count": 707,
+      "page": "p/ecinet-review-sparks-scrutiny-over-voter-deletion-requests-in-maharashtra.html"
+    },
+    {
+      "title": "Death penalty debate intensifies as Buffalo shooter seeks jury change",
+      "slug": "death-penalty-debate-intensifies-as-buffalo-shooter-seeks-jury-change",
+      "topic": "capital punishment",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "A Buffalo supermarket gunman has filed a last‑minute motion to dismiss his case, arguing that the prospective jury would lack sufficient Black representation. The move has drawn attention to the death penalty and jury selection process, iss",
+      "meta_description": "The Buffalo supermarket shooting case puts capital punishment in the spotlight as the accused files a last‑minute motion over jury composition, igniting debate.",
+      "keywords": [
+        "capital punishment",
+        "death penalty",
+        "jury selection",
+        "Buffalo shooting",
+        "Pakistan"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "2000+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT34HqmJCbisNUyYE9lEDuScaSOZuw48YeBB9zqX10RPHNMPIcMeZYPRQ5VW9A",
+      "related": [
+        {
+          "title": "Tops mass shooter files last-minute motion to dismiss, says there would be too few Black jurors",
+          "url": "https://www.wivb.com/news/buffalo-supermarket-mass-shooting-tops/tops-mass-shooter-files-last-minute-motion-to-dismiss-says-there-would-be-too-few-black-jurors/",
+          "source": "WIVB News 4"
+        },
+        {
+          "title": "Jury Selection Begins For Buffalo Tops Supermarket Shooting",
+          "url": "https://www.wicz.com/news/jury-selection-begins-for-buffalo-tops-supermarket-shooting/video_26d2817d-5df3-5b03-931e-9c74c994134d.html",
+          "source": "wicz.com"
+        },
+        {
+          "title": "Death penalty, pretrial exposure dominate first day of Gendron jury selection",
+          "url": "https://www.waer.org/2026-10-13/death-penalty-pretrial-exposure-dominate-first-day-of-gendron-jury-selection",
+          "source": "WAER"
+        }
+      ],
+      "word_count": 675,
+      "page": "p/death-penalty-debate-intensifies-as-buffalo-shooter-seeks-jury-change.html"
+    },
+    {
+      "title": "CoreWeave Imploded 20% Over 6 Months: This Analyst Predicts It Will…",
+      "slug": "coreweave-imploded-20-over-6-months-this-analyst-predicts-it-will",
+      "topic": "crwv stock",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Coverage linked to \"crwv stock\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "crwv stock: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "crwv stock",
+        "crwv stock news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS2VAT7Om8ybN-ys7u1_D7zmINqPTeP9__5l8Kf5j9xoA0hrJpqMI6yVCSP_VU",
+      "related": [
+        {
+          "title": "CoreWeave Imploded 20% Over 6 Months: This Analyst Predicts It Will Triple in Price Over the Coming Year",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-imploded-20-over-6-124543034.html",
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "What Could Surprise CoreWeave Stock Investors On The Upside?",
+          "url": "https://www.trefis.com/stock/crwv/articles/618169/what-could-surprise-coreweave-stock-investors-on-the-upside/2026-10-09",
+          "source": "Trefis"
+        },
+        {
+          "title": "Prediction: CoreWeave Could Be One of the Most Explosive AI Stocks of the Decade",
+          "url": "https://247wallst.com/investing/2026/10/13/prediction-coreweave-could-be-one-of-the-most-explosive-ai-stocks-of-the-decade/",
+          "source": "24/7 Wall St."
+        }
+      ],
+      "word_count": 340,
+      "page": "p/coreweave-imploded-20-over-6-months-this-analyst-predicts-it-will.html"
+    },
+    {
+      "title": "Cold front delivers dry, cooler air to Central Florida this week",
+      "slug": "cold-front-delivers-dry-cooler-air-to-central-florida-this-week",
+      "topic": "weather this week",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Central Florida is experiencing a marked shift in weather patterns as a cold front sweeps through the region. The arrival of cooler air masses has reduced humidity levels, providing a welcome pause in the recent cycle of heavy rainfall.",
+      "meta_description": "A significant cold front is moving through Central Florida, bringing lower humidity and a break from persistent rain, offering residents a distinct taste of ear",
+      "keywords": [
+        "Florida weather",
+        "cold front",
+        "Central Florida",
+        "humidity drop",
+        "autumn forecast"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTJvcUPhtnRT-yT_zl5eYdt29TleytRl-3_kvu4JhktNx38jO7XL3MZS2I7zVg",
+      "related": [
+        {
+          "title": "Cold front brings break from rain, lower humidity to Central Florida",
+          "url": "https://www.clickorlando.com/weather/2026/10/12/cold-front-brings-a-break-from-the-rain-and-lower-humidity-to-central-florida/",
+          "source": "WKMG"
+        },
+        {
+          "title": "Cooler, less humid weather brings a taste of fall to Central Florida",
+          "url": "https://www.wesh.com/article/cooler-less-humid-weather-taste-of-fall-central-florida/74105806",
+          "source": "WESH"
+        },
+        {
+          "title": "When does Florida actually get cold? A cold front is on the way",
+          "url": "https://www.yahoo.com/news/weather-news/articles/does-florida-actually-cold-cold-173206366.html",
+          "source": "Yahoo"
+        }
+      ],
+      "word_count": 776,
+      "page": "p/cold-front-delivers-dry-cooler-air-to-central-florida-this-week.html"
+    },
+    {
+      "title": "Cabinet Clears Rs 52,878 Cr Sale of IDBI Bank to Fairfax, Marks Major FDI",
+      "slug": "cabinet-clears-rs-52878-cr-sale-of-idbi-bank-to-fairfax-marks-major-fdi",
+      "topic": "idbi bank",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "The Union Cabinet has approved the sale of a majority stake in IDBI Bank to Fairfax Financial Holdings for about Rs 52,878 crore. The move includes a comprehensive restructuring plan and comes as the government pauses other PSU stake sales ",
+      "meta_description": "India's cabinet approves a Rs 52,878 crore sale of IDBI Bank to Fairfax, the largest foreign direct investment in the country's banking sector, alongside a stra",
+      "keywords": [
+        "IDBI Bank",
+        "Fairfax",
+        "FDI",
+        "Cabinet approval",
+        "PSU stake sale"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRvxlbYApQcb_rhp1B66Vf1t7PGaWVPAEuDesgJkqx56gcmTy4_CSsNrlxE4rg",
+      "related": [
+        {
+          "title": "Cabinet approves Rs 52,878 crore IDBI Bank sale to Fairfax arm in India’s largest financial-sector FDI",
+          "url": "https://m.economictimes.com/industry/banking/finance/banking/cabinet-approves-idbi-bank-sale-to-fairfax-arm-in-indias-largest-financial-sector-fdi/articleshow/134939852.cms",
+          "source": "The Economic Times"
+        },
+        {
+          "title": "Cabinet approves strategic restructuring of IDBI Bank",
+          "url": "https://indianexpress.com/article/business/cabinet-lic-strategic-restructuring-idbi-bank-10921472/",
+          "source": "The Indian Express"
+        },
+        {
+          "title": "Video | Market Volatility Hits PSU OFS Pipeline: Govt Puts Stake Sales On Hold",
+          "url": "https://www.ndtv.com/video/market-rout-puts-centre-s-psu-stake-sales-on-hold-1172896",
+          "source": "NDTV"
+        }
+      ],
+      "word_count": 634,
+      "page": "p/cabinet-clears-rs-52878-cr-sale-of-idbi-bank-to-fairfax-marks-major-fdi.html"
+    },
+    {
+      "title": "Batukamma Festival Celebrated with Floral Worship Across Telangana",
+      "slug": "batukamma-festival-celebrated-with-floral-worship-across-telangana",
+      "topic": "బతుకమ్మ",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Thousands of women and girls line streets in Telangana to celebrate Batukamma, a festival that turns everyday flowers into sacred offerings. The event, steeped in myth and community spirit, highlights the region’s cultural heritage.",
+      "meta_description": "The annual Batukamma festival draws thousands to Telangana, where women gather to worship flowers and honor the goddess Gouramma. The tradition, rooted in local",
+      "keywords": [
+        "Batukamma",
+        "Telangana",
+        "flower festival",
+        "Gouramma",
+        "traditional celebrations"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuVsP7UgttmkRUECGrT7H4wc5CUrpJHqa1ArpO5c6DDwxISuJBePj60wBqFFM",
+      "related": [
+        {
+          "title": "మధుర జ్ఞాపకం.. బతుకమ్మ సంబరం",
+          "url": "https://www.eenadu.net/telugu-news/districts/mahbubnagar-news/532/126186253",
+          "source": "Eenadu"
+        },
+        {
+          "title": "బతుకమ్మలో పూల మధ్య పెట్టే గౌరమ్మ కథ తెలుసా?",
+          "url": "https://tv9telugu.com/photo-gallery/bathukamma-gouramma-story-why-turmeric-idol-is-key-to-the-festival-1933507.html",
+          "source": "TV9 Telugu"
+        },
+        {
+          "title": "Batukamma 2026: బతుకమ్మ వేడుకల్లో పూలను పూజించడం వెనుక ఉన్న అసలు కారణం ఇదే!",
+          "url": "https://telugu.samayam.com/religion/festivals/batukamma-2026-why-are-flowers-worshipped-know-the-story-and-significance/articleshow/134906132.cms",
+          "source": "Samayam Telugu"
+        }
+      ],
+      "word_count": 570,
+      "page": "p/batukamma-festival-celebrated-with-floral-worship-across-telangana.html"
+    },
+    {
+      "title": "Annabel Sutherland enters top five of ICC Women’s ODI bowling rankings",
+      "slug": "annabel-sutherland-enters-top-five-of-icc-womens-odi-bowling-rankings",
+      "topic": "annabel sutherland",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Australia's all‑rounder Annabel Sutherland has broken into the top five of the ICC women's ODI bowling rankings. The move reflects a rapid rise for the 23‑year‑old and adds fresh intrigue for fans in Pakistan.",
+      "meta_description": "Australia's Annabel Sutherland climbs to fourth place in the ICC women's ODI bowling rankings, joining Megan Schutt and reshaping the global contest as Pakistan",
+      "keywords": [
+        "Annabel Sutherland",
+        "women's cricket",
+        "ODI rankings",
+        "Australia",
+        "Pakistan"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSzPwhv7DHfV0wogyrmtkUMpGZ5_O6kB3O9luP_i2kv8G_c4DjzQ-CWxNDdYQ8",
+      "related": [
+        {
+          "title": "Sutherland and Schutt climb to fourth and fifth in ODI bowlers' rankings",
+          "url": "https://www.cricinfo.com/story/annabel-sutherland-megan-schutt-climb-to-fourth-and-fifth-in-women-s-odi-bowlers-rankings-1558282",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "LITCHFIELD CLOSES IN ON TOP THREE AS MOSTARY MAKES CAREER-BEST GAINS IN ICC WOMEN’S ODI RANKINGS",
+          "url": "https://www.icc-cricket.com/media-releases/litchfield-closes-in-on-top-three-as-mostary-makes-career-best-gains-in-icc-women-s-odi-rankings",
+          "source": "ICC"
+        },
+        {
+          "title": "Sobhana, Joty gain ground before final Australia ODI",
+          "url": "https://www.daily-sun.com/sports/903277/sobhana-joty-gain-ground-before-final-australia-odi",
+          "source": "www.daily-sun.com"
+        }
+      ],
+      "word_count": 784,
+      "page": "p/annabel-sutherland-enters-top-five-of-icc-womens-odi-bowling-rankings.html"
+    },
+    {
+      "title": "Afghan Authorities Suspend BBC Radio Operations Amid Repeated Violations",
+      "slug": "afghan-authorities-suspend-bbc-radio-operations-amid-repeated-violations",
+      "topic": "بی بی سی",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Afghan ministries announced the suspension of BBC radio activities nationwide after repeated breaches of local regulations. The decision also includes the shutdown of BBC Dari FM by the Taliban authority.",
+      "meta_description": "Afghan officials have halted BBC radio broadcasts, citing repeated violations. The move affects BBC Dari FM and other services, raising concerns across Pakistan",
+      "keywords": [
+        "BBC",
+        "Afghanistan",
+        "media suspension",
+        "Taliban",
+        "Pakistan news"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTbRexkmmCSPyy0pwQBAoUpgSYR1q0Px4y9arm_9T5gUqcG3Rwi9tCmMT5hiGA",
+      "related": [
+        {
+          "title": "توقف فعالیت رادیو بی بی سی در افغانستان",
+          "url": "https://www.irib-news.ir/fa/news/5938654/%D8%AA%D9%88%D9%82%D9%81-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%B1%D8%A7%D8%AF%DB%8C%D9%88-%D8%A8%DB%8C-%D8%A8%DB%8C-%D8%B3%DB%8C-%D8%AF%D8%B1-%D8%A7%D9%81%D8%BA%D8%A7%D9%86%D8%B3%D8%AA%D8%A7%D9%86",
+          "source": "خبرگزاری صدا و سیما"
+        },
+        {
+          "title": "وزارت اطلاعات و فرهنگ می‌گوید که فعالیت‌های شبکۀ رسانه‌ای #بی_بی_سی در سراسر کشور به دلیل تخطی‌های مکرر متوقف شده است. خبیب غفران، سخن‌گوی این وزارت، اعلام کرده است که فعالیت‌های این رسانه در حال حاضر در تمام #افغانستان به حالت تعلیق درآمده است. #bbc",
+          "url": "https://www.facebook.com/sarienews/posts/%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D9%88-%D9%81%D8%B1%D9%87%D9%86%DA%AF-%D9%85%DB%8C%DA%AF%D9%88%DB%8C%D8%AF-%DA%A9%D9%87-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%D9%87%D8%A7%DB%8C-%D8%B4%D8%A8%DA%A9%DB%80-%D8%B1%D8%B3%D8%A7%D9%86%D9%87%D8%A7%DB%8C-%D8%A8%DB%8C_%D8%A8%DB%8C_%D8%B3%DB%8C-%D8%AF%D8%B1-%D8%B3%D8%B1%D8%A7%D8%B3%D8%B1-%DA%A9%D8%B4%D9%88%D8%B1-%D8%A8%D9%87/1494355832715123/",
+          "source": "Facebook"
+        },
+        {
+          "title": "بی‌بی‌سی دری: اداره طالبان نشرات اف‌ام این رسانه را تعلیق کرد",
+          "url": "https://atlaspress.news/bbc-dari-fm-suspension/",
+          "source": "خبرگزاری اطلس"
+        }
+      ],
+      "word_count": 691,
+      "page": "p/afghan-authorities-suspend-bbc-radio-operations-amid-repeated-violations.html"
+    },
+    {
+      "title": "Actor RJ Mitte, Star of 'Breaking Bad', Dies at 34",
+      "slug": "actor-rj-mitte-star-of-breaking-bad-dies-at-34",
+      "topic": "وفاة الممثل rj mitte",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "RJ Mitte, famed for his role in the hit series Breaking Bad, died at 34. Fans and colleagues worldwide are mourning the loss of the actor and disability advocate.",
+      "meta_description": "RJ Mitte, the actor best known for playing Walter White Jr. in Breaking Bad, has died at age 34, prompting tributes across the entertainment world and raising a",
+      "keywords": [
+        "RJ Mitte",
+        "Breaking Bad",
+        "actor death",
+        "South Africa",
+        "entertainment news"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQL6UdAgLucFERHE3M0wGDjhAgE5I1jsZVUGyx2fnHk1p5UeNKdBCQ3TLhunrE",
+      "related": [
+        {
+          "title": "خلف بريق الشهرة.. ممثلون أنهوا حياتهم في سن مبكرة",
+          "url": "https://www.alarabiya.net/last-page/2026/10/14/%D8%AE%D9%84%D9%81-%D8%A8%D8%B1%D9%8A%D9%82-%D8%A7%D9%84%D8%B4%D9%87%D8%B1%D8%A9-%D9%85%D9%85%D8%AB%D9%84%D9%88%D9%86-%D8%A7%D9%86%D9%87%D9%88%D8%A7-%D8%AD%D9%8A%D8%A7%D8%AA%D9%87%D9%85-%D9%81%D9%8A-%D8%B3%D9%86-%D9%85%D8%A8%D9%83%D8%B1%D8%A9",
+          "source": "العربية"
+        },
+        {
+          "title": "وفاة الممثل آر جيه ميت نجم «بريكنغ باد» عن عمر 34 عاماً",
+          "url": "https://aawsat.com/%D9%8A%D9%88%D9%85%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%B4%D8%B1%D9%82/5328947-%D9%88%D9%81%D8%A7%D8%A9-%D8%A7%D9%84%D9%85%D9%85%D8%AB%D9%84-%D8%A2%D8%B1-%D8%AC%D9%8A%D9%87-%D9%85%D9%8A%D8%AA-%D9%86%D8%AC%D9%85-%D8%A8%D8%B1%D9%8A%D9%83%D9%86%D8%BA-%D8%A8%D8%A7%D8%AF-%D8%B9%D9%86-%D8%B9%D9%85%D8%B1-34-%D8%B9%D8%A7%D9%85%D8%A7%D9%8B",
+          "source": "الشرق الأوسط"
+        },
+        {
+          "title": "وفاة آر جي ميتي نجم مسلسل \"Breaking Bad\" عن عمر يناهز 34 عاما",
+          "url": "https://arabic.cnn.com/entertainment/article/2026/10/13/https-editioncnncom-2026-10-12-entertainment-rj-mitte-death",
+          "source": "CNN Arabic"
+        }
+      ],
+      "word_count": 712,
+      "page": "p/actor-rj-mitte-star-of-breaking-bad-dies-at-34.html"
+    },
+    {
+      "title": "A fond farewell to a few BTCC favourites",
+      "slug": "a-fond-farewell-to-a-few-btcc-favourites",
+      "topic": "british touring car championship",
+      "date": "2026-10-14",
+      "date_pkt": "2026-10-14 04:14 PM PKT",
+      "excerpt": "Coverage linked to \"british touring car championship\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "british touring car championship: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "british touring car championship",
+        "british touring car championship news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRFD-9PAWxQrRIMvqCL0FNuUc7Yc1m4gg5uUS6LvL6G62ZqRNTze0UgzP_jD-8",
+      "related": [
+        {
+          "title": "A fond farewell to a few BTCC favourites",
+          "url": "https://www.autosport.com/btcc/news/a-fond-farewell-to-a-few-btcc-favourites/10865006/",
+          "source": "Autosport"
+        },
+        {
+          "title": "Chilton Ends BTCC Career as Sutton and Doble Secure Titles",
+          "url": "https://suaragarut.id/en/chilton-ends-btcc-career-sutton-doble",
+          "source": "SuaraGarut.ID"
+        },
+        {
+          "title": "BTCC stalwart Chilton announces retirement",
+          "url": "https://racer.com/2026/10/09/btcc-stalwart-chilton-announces-retirement",
+          "source": "RACER - Racing News"
+        }
+      ],
+      "word_count": 331,
+      "page": "p/a-fond-farewell-to-a-few-btcc-favourites.html"
+    },
     {
       "title": "وزير الخارجية المصري يشدد لنظيره الإيراني على ضرورة وقف الهجمات ضد المملكة",
       "slug": "news-1791898839",
@@ -18612,1116 +19732,6 @@
       ],
       "word_count": 328,
       "page": "p/free-school-meals-on-the-ballot-this-november-voters-to-decide-on.html"
-    },
-    {
-      "title": "England's Cricket Setback Highlights Ben Duckett's Legacy",
-      "slug": "englands-cricket-setback-highlights-ben-ducketts-legacy",
-      "topic": "ben duckett",
-      "date": "2026-09-27",
-      "date_pkt": "2026-09-27 04:26 PM PKT",
-      "excerpt": "England's recent 16‑run defeat to Sri Lanka in the second ODI has sparked renewed interest in former England cricketer Ben Duckett. The match, featuring Kusal Mendis's century, has prompted reflections on Duckett's impact on the national si",
-      "meta_description": "Ben Duckett's career is revisited as England suffers a 16‑run loss to Sri Lanka, with Kusal Mendis scoring a century in the second ODI.",
-      "keywords": [
-        "Ben Duckett",
-        "England cricket",
-        "Sri Lanka ODI",
-        "Kusal Mendis",
-        "cricket commentary"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "5000+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7y0am19SlcbEYPfYvgu5jYppYwi3p598WWA1K_Y5y_ZKUyS2yDtJdbRhP7Fs",
-      "related": [
-        {
-          "title": "श्रीलंका ने इंग्लैंड को 16 रन से हराया: दूसरे वनडे में मेंडिस का शतक, वेल्लालागे के 3 विकेट; बटलर की चोट से...",
-          "url": "https://www.bhaskar.com/g/sports/cricket/news/sri-lanka-england-odi-leeds-jos-buttler-injury-match-report-139140436.html",
-          "source": "Dainik Bhaskar"
-        },
-        {
-          "title": "Kusal Mendis ने शतक जड़कर लगाई रिकॉर्ड्स की झड़ी, श्रीलंका ने इंग्‍लैंड दौरे पर दर्ज की पहली जीत",
-          "url": "https://www.jagran.com/cricket/bouncer-kusal-mendis-ton-helps-sri-lanka-beat-england-in-2nd-odi-and-level-the-series-40384733.html",
-          "source": "Jagran"
-        },
-        {
-          "title": "लाइव क्रिकेट स्कोर: इंग्लैंड बनाम श्रीलंका स्कोरकार्ड, आज का मैच | ENG Vs SL Cricket Live Score, Sri Lanka in England, 3 ODI Series, 2026 | ENG - 87/2 (19.5)",
-          "url": "https://www.jansatta.com/khel/cricket/live-score/england-vs-sri-lanka-match-3rd-odi-live-score-full-scorecard-highlights-sri-lanka-in-england-3-odi-series-2026-ensl09272026264922/",
-          "source": "Jansatta"
-        }
-      ],
-      "word_count": 600,
-      "page": "p/englands-cricket-setback-highlights-ben-ducketts-legacy.html"
-    },
-    {
-      "title": "Doble Takes Maiden Race To Pole Victory At Silverstone",
-      "slug": "doble-takes-maiden-race-to-pole-victory-at-silverstone",
-      "topic": "btcc",
-      "date": "2026-09-27",
-      "date_pkt": "2026-09-27 04:26 PM PKT",
-      "excerpt": "Coverage linked to \"btcc\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "btcc: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "btcc",
-        "btcc news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTK6Lr8vkbs5B1dOT4R8-n-r0KBY0-g6pnX8YFoN_gN_smPOar2Z0m_36Mvt7k",
-      "related": [
-        {
-          "title": "Doble Takes Maiden Race To Pole Victory At Silverstone",
-          "url": "https://btcc.net/doble-takes-maiden-race-to-pole-victory-at-silverstone/",
-          "source": "BTCC"
-        },
-        {
-          "title": "BTCC Silverstone: Doble takes qualifying race victory as series leaders struggle",
-          "url": "https://www.autosport.com/btcc/news/btcc-silverstone-doble-takes-qualifying-race-victory-as-series-leaders-struggle/10859325/",
-          "source": "Autosport"
-        },
-        {
-          "title": "Mikey Doble reigns supreme in Silverstone Qualifying Race",
-          "url": "https://www.touringcartimes.com/2026/09/26/mikey-doble-reigns-supreme-in-silverstone-qualifying-race/",
-          "source": "TouringCarTimes"
-        }
-      ],
-      "word_count": 318,
-      "page": "p/doble-takes-maiden-race-to-pole-victory-at-silverstone.html"
-    },
-    {
-      "title": "Cricketer Tristan Stubbs aims to cement his place in South Africa…",
-      "slug": "cricketer-tristan-stubbs-aims-to-cement-his-place-in-south-africa",
-      "topic": "tristan stubbs",
-      "date": "2026-09-27",
-      "date_pkt": "2026-09-27 04:26 PM PKT",
-      "excerpt": "Coverage linked to \"tristan stubbs\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "tristan stubbs: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "tristan stubbs",
-        "tristan stubbs news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQARmgK1TUxdJRD9Q0eTHCFOMw-k8QidTyHgTRoV8genO4zRWpZpQhZdN--0ek",
-      "related": [
-        {
-          "title": "Cricketer Tristan Stubbs aims to cement his place in South Africa squads — TimesLIVE",
-          "url": "https://ua.news/en/sport/kriketist-tristan-stabbs-pragne-zakripitisia-u-skladakh-par-timeslive",
-          "source": "UA.NEWS"
-        },
-        {
-          "title": "Stubbs desperate to cement his spot",
-          "url": "https://www.sundaytimes.timeslive.co.za/sport/2026-09-26-stubbs-desperate-to-cement-his-spot/",
-          "source": "TimesLIVE"
-        }
-      ],
-      "word_count": 313,
-      "page": "p/cricketer-tristan-stubbs-aims-to-cement-his-place-in-south-africa.html"
-    },
-    {
-      "title": "Clarke says Kuldeep Yadav lacks opportunities in India squad",
-      "slug": "clarke-says-kuldeep-yadav-lacks-opportunities-in-india-squad",
-      "topic": "kuldeep yadav",
-      "date": "2026-09-27",
-      "date_pkt": "2026-09-27 04:26 PM PKT",
-      "excerpt": "Michael Clarke, the ex‑Australia captain, has voiced concerns that India are not using left‑arm spinner Kuldeep Yadav enough. The comment comes as the team finishes a tightly contested series against the West Indies.",
-      "meta_description": "Former Australian captain Michael Clarke has criticised India’s selection policy, saying left‑arm spinner Kuldeep Yadav is not being given enough chances during",
-      "keywords": [
-        "Kuldeep Yadav",
-        "Michael Clarke",
-        "India cricket",
-        "West Indies series",
-        "spin bowling"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQulPMCXH8x82SStNxML4g15vs4duInD1nJsjRqPw2VPHMysI2a6bOkkIAMbz0",
-      "related": [
-        {
-          "title": "Michael Clarke says Kuldeep Yadav is not getting enough opportunities",
-          "url": "https://indianexpress.com/article/sports/cricket/michael-clarke-kuldeep-yadav-indian-spinner-10895625/",
-          "source": "The Indian Express"
-        },
-        {
-          "title": "Michael Clarke says Kuldeep Yadav is not getting enough opportunities",
-          "url": "https://www.yardbarker.com/cricket/articles/michael_clarke_says_kuldeep_yadav_is_not_getting_enough_opportunities/s1_17728_44354018",
-          "source": "Yardbarker"
-        },
-        {
-          "title": "India West Indies Cricket",
-          "url": "http://www.idahopress.com/sports/national/india-west-indies-cricket/image_7d584194-b996-550b-ac4f-3532b021ba2a.html",
-          "source": "Idaho Press"
-        }
-      ],
-      "word_count": 707,
-      "page": "p/clarke-says-kuldeep-yadav-lacks-opportunities-in-india-squad.html"
-    },
-    {
-      "title": "Can you eat ultra-processed foods and still be healthy? A dietitian…",
-      "slug": "can-you-eat-ultra-processed-foods-and-still-be-healthy-a-dietitian",
-      "topic": "ultra processed food",
-      "date": "2026-09-27",
-      "date_pkt": "2026-09-27 04:26 PM PKT",
-      "excerpt": "Coverage linked to \"ultra processed food\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "ultra processed food: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "ultra processed food",
-        "ultra processed food news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSW1RnuHvuEzfz0qBXivZhPWapu0CL2uiCBjyKfu0lnZ70G_grxYC9rY133j2Y",
-      "related": [
-        {
-          "title": "Can you eat ultra-processed foods and still be healthy? A dietitian analysed my weekly shop",
-          "url": "https://www.bbc.co.uk/news/articles/cqn4knlj9v81o",
-          "source": "BBC"
-        },
-        {
-          "title": "Every extra 100 grams of ultra-processed food linked to higher disease risks",
-          "url": "https://medicalxpress.com/news/2026-09-extra-grams-ultra-food-linked.html",
-          "source": "Medical Xpress"
-        },
-        {
-          "title": "Every additional 100g of UPF linked to higher cardiovascular risk: Study",
-          "url": "https://www.connectedtoindia.com/every-additional-100g-of-upf-linked-to-higher-cardiovascular-risk-study/",
-          "source": "Connected to India"
-        }
-      ],
-      "word_count": 343,
-      "page": "p/can-you-eat-ultra-processed-foods-and-still-be-healthy-a-dietitian.html"
-    },
-    {
-      "title": "Brock Bowers Fantasy Week 3 Start or Sit: Back in Practice and Back in…",
-      "slug": "brock-bowers-fantasy-week-3-start-or-sit-back-in-practice-and-back-in",
-      "topic": "brock bowers",
-      "date": "2026-09-27",
-      "date_pkt": "2026-09-27 04:26 PM PKT",
-      "excerpt": "Coverage linked to \"brock bowers\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "brock bowers: coverage and context for readers in US. Summary of related reports and what to verify next.",
-      "keywords": [
-        "brock bowers",
-        "brock bowers news",
-        "US",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRyCZrJe9bjluGnVwvrFI7n38W9k229JcsgELXCBcGxvsPadtAsVLd1-xw-UJY",
-      "related": [
-        {
-          "title": "Brock Bowers Fantasy Week 3 Start or Sit: Back in Practice and Back in Lineups",
-          "url": "https://sports.yahoo.com/articles/brock-bowers-fantasy-week-3-094000031.html",
-          "source": "Yahoo Sports"
-        },
-        {
-          "title": "Raiders tight end Brock Bowers is questionable to play vs. Saints",
-          "url": "https://www.nfl.com/news/raiders-tight-end-brock-bowers-is-questionable-to-play-vs-saints",
-          "source": "NFL.com"
-        },
-        {
-          "title": "Brock Bowers’ return will make Klint Kubiak’s offense even more dynamic",
-          "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140513/raiders-2026-offense-brock-bowers-return",
-          "source": "Silver And Black Pride"
-        }
-      ],
-      "word_count": 338,
-      "page": "p/brock-bowers-fantasy-week-3-start-or-sit-back-in-practice-and-back-in.html"
-    },
-    {
-      "title": "Bigg Boss Tamil 10: Anandhi's Father Passes Away, Eviction Sparks Shock",
-      "slug": "bigg-boss-tamil-10-anandhis-father-passes-away-eviction-sparks-shock",
-      "topic": "பிக் பாஸ் 10",
-      "date": "2026-09-27",
-      "date_pkt": "2026-09-27 04:26 PM PKT",
-      "excerpt": "The Bigg Boss Tamil 10 house was rocked when contestant Anandhi’s father suffered a fatal heart attack, leading to her immediate exit. Meanwhile, the show introduced three new participants, adding fresh dynamics to the competition.",
-      "meta_description": "In Bigg Boss Tamil 10, contestant Anandhi’s father died of a heart attack, prompting her sudden exit from the house. The show also welcomes new entrants this we",
-      "keywords": [
-        "Bigg Boss Tamil",
-        "Anandhi",
-        "heart attack",
-        "eviction",
-        "new entrants"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "2000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRmLZk8In9FaCLbXKe1htiSZkJyihA9V8D8eVePlHjY7nHWsADWT6iFHzsIKh4",
-      "related": [
-        {
-          "title": "பிக் பாஸ் 10: மாரடைப்பால் உயிரிழந்த ஆனந்தியின் தந்தை... அவசரமாக வெளியேற்றம்!",
-          "url": "https://www.dinamani.com/cinema/cinema-news/2026/Sep/27/bigg-boss-10-who-was-evicted-this-week",
-          "source": "DinaMani"
-        },
-        {
-          "title": "BB Tamil 10: தந்தை திடீரென உயிரிழப்பு.. நிகழ்ச்சியிலிருந்து வெளியேறினார் ஆனந்தி!",
-          "url": "https://cinema.vikatan.com/television/biggboss-tamil-10-contestant-anandhis-father-passed-away",
-          "source": "Cinema Vikatan"
-        },
-        {
-          "title": "Bigg Boss Tamil 10 | பிக் பாஸ் வீட்டிற்குள் ‘திருப்புமுனை’.. இந்த வாரம் நுழையும் லட்சுமி பிரியா, சவின்யா மற்றும் ஜாவேத் ஷெரிப்..!",
-          "url": "https://tamil.news18.com/entertainment/bigg-boss-tamil-10-vijay-sethupathi-vanitha-new-twist-nw-kpk-ws-l-2218426.html",
-          "source": "News18 Tamil"
-        }
-      ],
-      "word_count": 594,
-      "page": "p/bigg-boss-tamil-10-anandhis-father-passes-away-eviction-sparks-shock.html"
-    },
-    {
-      "title": "Bavuma leads Proteas in crucial ODI clash against Australia",
-      "slug": "bavuma-leads-proteas-in-crucial-odi-clash-against-australia",
-      "topic": "temba bavuma",
-      "date": "2026-09-27",
-      "date_pkt": "2026-09-27 04:26 PM PKT",
-      "excerpt": "South Africa’s captain Temba Bavuma is at the center of attention as the Proteas take on Australia in the second one-day international. The match at the Wanderers carries significant weight for the series and includes a notable pink jersey ",
-      "meta_description": "Temba Bavuma anchors South Africa's lineup as the Proteas face Australia in the second ODI at the Wanderers. The match features a special pink jersey tribute.",
-      "keywords": [
-        "Temba Bavuma",
-        "Proteas",
-        "South Africa vs Australia",
-        "ODI cricket",
-        "Wanderers"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR5y153aa2JBin2raQcdFbjXgCgIL-rQHFf0sEUetriml-MOEK3IxtgLfM0lNo",
-      "related": [
-        {
-          "title": "South Africa v Australia: second men’s one-day international – live",
-          "url": "https://www.theguardian.com/sport/live/2026/sep/27/south-africa-v-australia-second-mens-one-day-international-live",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Proteas v Aussies at the Wanderers: ‘No one will step back,’ says Markram",
-          "url": "https://www.citizen.co.za/sport/cricket/proteas-v-aussies-wanderers-no-one-will-step-back-markram/",
-          "source": "The Citizen"
-        },
-        {
-          "title": "Pink Day in South African cricket explained: Why the Proteas wear pink jersey at Johannesburg",
-          "url": "https://sports.yahoo.com/articles/pink-day-south-african-cricket-075026760.html",
-          "source": "Yahoo Sports"
-        }
-      ],
-      "word_count": 842,
-      "page": "p/bavuma-leads-proteas-in-crucial-odi-clash-against-australia.html"
-    },
-    {
-      "title": "\"العنكبوت الكولومبي\" في قبضة الأمن الأمريكي",
-      "slug": "news-1790508529",
-      "topic": "كولومبيا",
-      "date": "2026-09-27",
-      "date_pkt": "2026-09-27 04:26 PM PKT",
-      "excerpt": "Coverage linked to \"كولومبيا\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "كولومبيا: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "كولومبيا",
-        "كولومبيا news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQPLY6tJ7U4HCnamYGC5_0B-r_IYdGq2k6xc2CVzl5XRXmSd6uQqet1tvqoPFs",
-      "related": [
-        {
-          "title": "\"العنكبوت الكولومبي\" في قبضة الأمن الأمريكي",
-          "url": "https://www.aljazeera.net/news/2026/9/27/%D8%A7%D9%84%D8%B9%D9%83%D9%86%D8%A8%D9%88%D8%AA-%D8%A7%D9%84%D9%83%D9%88%D9%84%D9%88%D9%85%D8%A8%D9%8A-%D9%81%D9%8A-%D9%82%D8%A8%D8%B6%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%86",
-          "source": "الجزيرة نت"
-        },
-        {
-          "title": "مهرب مخدرات.. كولومبيا تسلّم \"العنكبوت\" للولايات المتحدة",
-          "url": "https://www.eremnews.com/news/world/l32osms",
-          "source": "إرم نيوز"
-        },
-        {
-          "title": "كولومبيا تسلّم \"سبايدرمان\" إلى أميركا في قضية تهريب كوكايين",
-          "url": "https://www.akhbaralyawm.com/news/579317",
-          "source": "https://www.akhbaralyawm.com/"
-        }
-      ],
-      "word_count": 319,
-      "page": "p/news-1790508529.html"
-    },
-    {
-      "title": "‘I saved £60k for my grandchildren, but St James’s Place won’t hand it…",
-      "slug": "i-saved-60k-for-my-grandchildren-but-st-jamess-place-wont-hand-it",
-      "topic": "st james's place",
-      "date": "2026-09-26",
-      "date_pkt": "2026-09-26 03:51 PM PKT",
-      "excerpt": "Coverage linked to \"st james's place\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "st james's place: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "st james's place",
-        "st james's place news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQbHpJufD5IcZ3jZvXjXlbMQHX0PMbcgm0VAGj0dZHf7z-ylsshAryhZAiPKwo",
-      "related": [
-        {
-          "title": "‘I saved £60k for my grandchildren, but St James’s Place won’t hand it over’",
-          "url": "https://www.thetimes.com/money/ask-times-money/article/sjp-savings-grandchildren-advice-you-money-matters-8ldsgvplj",
-          "source": "The Times"
-        },
-        {
-          "title": "St James’s Place faces ‘very considerable’ damages claim as law firm heads towards action",
-          "url": "https://www.fnlondon.com/articles/st-jamess-place-faces-very-considerable-damages-claim-as-law-firm-heads-towards-action-a74789fc",
-          "source": "Financial News London"
-        },
-        {
-          "title": "Paying the ‘good daughter penalty’? How to protect your pension",
-          "url": "https://www.ii.co.uk/analysis-commentary/paying-good-daughter-penalty-how-protect-your-pension-ii540301",
-          "source": "Interactive Investor"
-        }
-      ],
-      "word_count": 350,
-      "page": "p/i-saved-60k-for-my-grandchildren-but-st-jamess-place-wont-hand-it.html"
-    },
-    {
-      "title": "നിലവിളക്ക് വിവാദത്തിലും അന്ന് മതവാദികൾ മമ്മൂട്ടിക്കെതിരെ; എന്നും…",
-      "slug": "news-1790419974",
-      "topic": "മമ്മൂട്ടി",
-      "date": "2026-09-26",
-      "date_pkt": "2026-09-26 03:51 PM PKT",
-      "excerpt": "Coverage linked to \"മമ്മൂട്ടി\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "മമ്മൂട്ടി: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "മമ്മൂട്ടി",
-        "മമ്മൂട്ടി news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRpO2aEZXJzCBEPi7-nnhGvI2VFlMYZRoh5Y-yHuEsO0r5gGCiYCOjd5iz5SQM",
-      "related": [
-        {
-          "title": "നിലവിളക്ക് വിവാദത്തിലും അന്ന് മതവാദികൾ മമ്മൂട്ടിക്കെതിരെ; എന്നും സ്വന്തം നിലപാടിൽ ഉറച്ച് നിന്ന മമ്മൂട്ടി",
-          "url": "https://malayalam.filmibeat.com/features/mammootty-always-took-strong-stand-against-polarizing-views-fans-support-him-145045.html",
-          "source": "Filmibeat Malayalam"
-        },
-        {
-          "title": "'മമ്മൂട്ടിക്ക് സിപിഐഎമ്മിനെ ഇഷ്ടപ്പെടുന്നില്ല, ആർഎസ്എസിന്റെ തിണ്ണ നിരങ്ങുന്നുവെന്ന്', മീഡിയാ വണ്ണിന് മറുപടി",
-          "url": "https://malayalam.oneindia.com/news/kerala/mammootty-doesn-t-like-the-cpm-anymore-and-is-cosying-up-to-the-rss-claims-media-one-channel-cpm-599147.html",
-          "source": "Oneindia Malayalam"
-        },
-        {
-          "title": "'മമ്മൂട്ടി ആ​ഗ്രഹിക്കുന്നത് വലിയ പുരസ്കാരങ്ങൾ, ബീഫെന്ന് ഉച്ചരിക്കാതിരിക്കാൻ മീനെന്ന് പറഞ്ഞ ദുൽഖർ, സൂക്ഷ്മത'",
-          "url": "https://malayalam.filmibeat.com/features/mammootty-wants-big-awards-nishad-rawther-criticises-actor-s-politics-praises-dulquer-s-caution-145015.html",
-          "source": "Filmibeat Malayalam"
-        }
-      ],
-      "word_count": 433,
-      "page": "p/news-1790419974.html"
-    },
-    {
-      "title": "وسط انسحاب واسع.. 3 دول عربية فقط بقيت خلال خطاب نتنياهو.. من هي؟",
-      "slug": "3",
-      "topic": "نتنياهو",
-      "date": "2026-09-26",
-      "date_pkt": "2026-09-26 03:51 PM PKT",
-      "excerpt": "Coverage linked to \"نتنياهو\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "نتنياهو: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "نتنياهو",
-        "نتنياهو news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ2QirEa2FkTYZSrrdKUqtnDgc-UNNrh74JjnHH8og6RIL7XSx3s6eh9uM590E",
-      "related": [
-        {
-          "title": "وسط انسحاب واسع.. 3 دول عربية فقط بقيت خلال خطاب نتنياهو.. من هي؟",
-          "url": "https://sabq.org/article/728cclo",
-          "source": "صحيفة سبق الإلكترونية"
-        },
-        {
-          "title": "\"إهانة نتنياهو في الأمم المتحدة تشي بأن أيامه باتت معدودة\"- مقال في الإندبندنت",
-          "url": "https://www.bbc.com/arabic/articles/cqzezzwwkerwo",
-          "source": "BBC"
-        },
-        {
-          "title": "نيتانياهو يخطب وحيدا",
-          "url": "https://www.alarabiya.net/politics/2026/09/26/%D9%86%D9%8A%D8%AA%D8%A7%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%8A%D8%AE%D8%B7%D8%A8-%D9%88%D8%AD%D9%8A%D8%AF%D8%A7",
-          "source": "العربية"
-        }
-      ],
-      "word_count": 321,
-      "page": "p/3.html"
-    },
-    {
-      "title": "قبل أيام من هجوم 7 أكتوبر.. تقرير يتحدث عن زيارة سرية وتحذير مصري لإسرائيل",
-      "slug": "7",
-      "topic": "إسرائيل",
-      "date": "2026-09-26",
-      "date_pkt": "2026-09-26 03:51 PM PKT",
-      "excerpt": "Coverage linked to \"إسرائيل\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "إسرائيل: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "إسرائيل",
-        "إسرائيل news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRH01BrK056x27vMhn7vBJOWIe9--Bkaq6WXgiKgY2JfefKY98_dtqZLCYVfag",
-      "related": [
-        {
-          "title": "قبل أيام من هجوم 7 أكتوبر.. تقرير يتحدث عن زيارة سرية وتحذير مصري لإسرائيل",
-          "url": "https://arabic.euronews.com/2026/09/26/israel-warnings-before-october-7-netanyahu-know",
-          "source": "Euronews"
-        },
-        {
-          "title": "قبيل 7 أكتوبر.. هذا ما نقله رئيس المخابرات المصرية لإسرائيل في زيارة سرية",
-          "url": "https://arabi21.com/story/1791402/%D9%82%D8%A8%D9%8A%D9%84-7-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1-%D9%87%D8%B0%D8%A7-%D9%85%D8%A7-%D9%86%D9%82%D9%84%D9%87-%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%AE%D8%A7%D8%A8%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9-%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%81%D9%8A-%D8%B2%D9%8A%D8%A7%D8%B1%D8%A9-%D8%B3%D8%B1%D9%8A%D8%A9",
-          "source": "عربي21"
-        },
-        {
-          "title": "قبل أيام من هجوم \"7 أكتوبر\".. رئيس مخابرات دولة عربية زار إسرائيل وهذا ما حذر منه",
-          "url": "https://www.lebanon24.com/news/world-news/1576085/%D9%82%D8%A8%D9%84-%D8%A3%D9%8A%D8%A7%D9%85-%D9%85%D9%86-%D9%87%D8%AC%D9%88%D9%85-7-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1-%D8%B1%D8%A6%D9%8A%D8%B3-%D9%85%D8%AE%D8%A7%D8%A8%D8%B1%D8%A7%D8%AA-%D8%AF%D9%88%D9%84%D8%A9-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%B2%D8%A7%D8%B1-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%88%D9%87%D8%B0%D8%A7-%D9%85%D8%A7",
-          "source": "Lebanon 24"
-        }
-      ],
-      "word_count": 334,
-      "page": "p/7.html"
-    },
-    {
-      "title": "روسيا تحذر واشنطن.. تجارب ترمب تهدد وقف «النووي»",
-      "slug": "news-1790419980",
-      "topic": "معاهدة",
-      "date": "2026-09-26",
-      "date_pkt": "2026-09-26 03:51 PM PKT",
-      "excerpt": "Coverage linked to \"معاهدة\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "معاهدة: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "معاهدة",
-        "معاهدة news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT7Fl6YbDUUm8gejh8ceJYO4beuIbhR0gQ3sSgv2pNmaYvp2SaSXW6-JnGtmFo",
-      "related": [
-        {
-          "title": "روسيا تحذر واشنطن.. تجارب ترمب تهدد وقف «النووي»",
-          "url": "https://www.okaz.com.sa/politics/na/2267661",
-          "source": "عكاظ"
-        },
-        {
-          "title": "من سيكسر الصمت النووي؟ - النيلين",
-          "url": "https://www.alnilin.com/13484823.htm",
-          "source": "النيلين"
-        },
-        {
-          "title": "موسكو تحذر من عودة التجارب النووية وتدرس قمة محتملة بين بوتين وترامب",
-          "url": "https://www.almasryalyoum.com/news/details/4367524",
-          "source": "المصري اليوم"
-        }
-      ],
-      "word_count": 316,
-      "page": "p/news-1790419980.html"
-    },
-    {
-      "title": "إيران تعرض على الولايات المتحدة اتفاقاً لإعادة فتح مضيق هرمز خلال سبعة أيام",
-      "slug": "news-1790419972",
-      "topic": "مضيق هرمز",
-      "date": "2026-09-26",
-      "date_pkt": "2026-09-26 03:51 PM PKT",
-      "excerpt": "Coverage linked to \"مضيق هرمز\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "مضيق هرمز: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "مضيق هرمز",
-        "مضيق هرمز news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS4fwuimh9oW7pbyTmVMbEbeBFZovn2qk5RDdqF-WliKRseGucpZtWsc6L0Oy0",
-      "related": [
-        {
-          "title": "إيران تعرض على الولايات المتحدة اتفاقاً لإعادة فتح مضيق هرمز خلال سبعة أيام",
-          "url": "https://www.bbc.com/arabic/articles/c8dx55lxe7r9o",
-          "source": "BBC"
-        },
-        {
-          "title": "إيران تعرض مجددا \"خطة الـ7 أيام\".. وتوجه \"رسالة\" لأمريكا وإسرائيل",
-          "url": "https://arabic.cnn.com/middle-east/article/2026/09/26/irans-foreign-minister-says-choice-over-seven-day-plan-to-reopen-strait-of-hormuz-rests-with-the",
-          "source": "CNN Arabic"
-        },
-        {
-          "title": "طهران تنتظر رد واشنطن على عرضها.. وبزشكيان يؤكد \"سنلتزم\"",
-          "url": "https://www.alarabiya.net/iran/2026/09/26/%D8%B7%D9%87%D8%B1%D8%A7%D9%86-%D8%AA%D9%86%D8%AA%D8%B8%D8%B1-%D8%B1%D8%AF-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D8%B9%D9%84%D9%89-%D8%B9%D8%B1%D8%B6%D9%87%D8%A7-%D9%88%D8%A8%D8%B2%D8%B4%D9%83%D9%8A%D8%A7%D9%86-%D9%8A%D8%A4%D9%83%D8%AF-%D8%B3%D9%86%D9%84%D8%AA%D8%B2%D9%85",
-          "source": "العربية"
-        }
-      ],
-      "word_count": 328,
-      "page": "p/news-1790419972.html"
-    },
-    {
-      "title": "أمين الفتوى يحذر من الشماتة في الموت: هكذا تعرف أهل الشر",
-      "slug": "news-1790419977",
-      "topic": "موت",
-      "date": "2026-09-26",
-      "date_pkt": "2026-09-26 03:51 PM PKT",
-      "excerpt": "Coverage linked to \"موت\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "موت: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "موت",
-        "موت news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRamfPAIoVOODqzV1mnllVamUwD3T0PEJ5MJAmoTFo38cXdFESQWKyEvtXeHO8",
-      "related": [
-        {
-          "title": "أمين الفتوى يحذر من الشماتة في الموت: هكذا تعرف أهل الشر",
-          "url": "https://www.masrawy.com/islameyat/others-islamic_ppl_news/details/2026/9/26/3053987/%D8%A3%D9%85%D9%8A%D9%86-%D8%A7%D9%84%D9%81%D8%AA%D9%88%D9%89-%D9%8A%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D8%AA%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%88%D8%AA-%D9%87%D9%83%D8%B0%D8%A7-%D8%AA%D8%B9%D8%B1%D9%81-%D8%A3%D9%87%D9%84-%D8%A7%D9%84%D8%B4%D8%B1",
-          "source": "Masrawy"
-        },
-        {
-          "title": "دار الإفتاء عن الشماتة في الموت: لا يجوز شرعًا الفرح بمصائب الآخرين",
-          "url": "https://www.elbalad.news/7120377",
-          "source": "صدى البلد"
-        },
-        {
-          "title": "الموت يغيب الممثل الكوميدي عبد السلام سليمان في دهوك",
-          "url": "https://shafaq.com/ar/%D9%83%D9%88%D8%B1%D8%AF%D8%B3%D9%80%D9%80%D8%AA%D8%A7%D9%86%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D9%85%D9%88%D8%AA-%D9%8A%D8%BA%D9%8A%D8%A8-%D8%A7%D9%84%D9%85%D9%85%D8%AB%D9%84-%D8%A7%D9%84%D9%83%D9%88%D9%85%D9%8A%D8%AF%D9%8A-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85-%D8%B3%D9%84%D9%8A%D9%85%D8%A7%D9%86-%D9%81%D9%8A-%D8%AF%D9%87%D9%88%D9%83",
-          "source": "شفق نيوز"
-        }
-      ],
-      "word_count": 325,
-      "page": "p/news-1790419977.html"
-    },
-    {
-      "title": "What Policybazaar’s Rs 34,000 crore wipeout reveals about the ills of…",
-      "slug": "what-policybazaars-rs-34000-crore-wipeout-reveals-about-the-ills-of",
-      "topic": "policy bazaar",
-      "date": "2026-09-26",
-      "date_pkt": "2026-09-26 03:51 PM PKT",
-      "excerpt": "Coverage linked to \"policy bazaar\" is circulating in IN. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "policy bazaar: coverage and context for readers in IN. Summary of related reports and what to verify next.",
-      "keywords": [
-        "policy bazaar",
-        "policy bazaar news",
-        "IN",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRgxiO9qu-4rL6YfXw6cgv0lwHUhGIcsO8TYIhsZSbmHx3P2V-nExrscAkcdXg",
-      "related": [
-        {
-          "title": "What Policybazaar’s Rs 34,000 crore wipeout reveals about the ills of insurance",
-          "url": "https://the-ken.com/the-collection/what-policybazaars-rs-34000-crore-wipeout-reveals-about-the-ills-of-insurance/",
-          "source": "The Ken"
-        },
-        {
-          "title": "Will Insurance Premiums Get Cheaper? 5 Proposed Changes Buyers Should Know",
-          "url": "https://www.ndtv.com/business-news/will-insurance-premiums-get-cheaper-5-proposed-irdai-changes-buyers-should-know-12096665",
-          "source": "NDTV"
-        },
-        {
-          "title": "Distribution dilemma for insurers as IRDAI moves to cap product-wise commissions",
-          "url": "https://www.telegraphindia.com/business/irdai-commission-caps-insurers-face-distribution-squeeze-under-proposed-payout-limits-prnt/cid/2181553",
-          "source": "Telegraph India"
-        }
-      ],
-      "word_count": 334,
-      "page": "p/what-policybazaars-rs-34000-crore-wipeout-reveals-about-the-ills-of.html"
-    },
-    {
-      "title": "Trump cancels nearly $1bn in funding approved by Congress",
-      "slug": "trump-cancels-nearly-1bn-in-funding-approved-by-congress",
-      "topic": "trump administration rescinds congressional spending",
-      "date": "2026-09-26",
-      "date_pkt": "2026-09-26 03:51 PM PKT",
-      "excerpt": "Coverage linked to \"trump administration rescinds congressional spending\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "trump administration rescinds congressional spending: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "trump administration rescinds congressional spending",
-        "trump administration rescinds congressional spending news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSBjMLlE_ura_CMM3YZZLKvoB9kITRFdklG6UUv1DTgf5PhVEqD-O4PLKJ58-Q",
-      "related": [
-        {
-          "title": "Trump cancels nearly $1bn in funding approved by Congress",
-          "url": "https://www.theguardian.com/us-news/2026/sep/25/trump-cancels-congress-funding",
-          "source": "The Guardian"
-        },
-        {
-          "title": "White House orders over $800M in funds rescinded; Collins calls it 'clear violation' of law",
-          "url": "https://abcnews.com/Politics/white-house-orders-800m-funds-rescinded-collins-calls/story?id=136772703",
-          "source": "ABC News - Breaking News, Latest News and Videos"
-        },
-        {
-          "title": "Trump seeks to withhold $800 million in Congress-approved funds",
-          "url": "https://www.reuters.com/legal/government/trump-seeks-withhold-800-million-congress-approved-funds-2026-09-26/",
-          "source": "Reuters"
-        }
-      ],
-      "word_count": 352,
-      "page": "p/trump-cancels-nearly-1bn-in-funding-approved-by-congress.html"
-    },
-    {
-      "title": "Stock market: లాభాలతో ముగిసిన స్టాక్‌ మార్కెట్ సూచీలు",
-      "slug": "stock-market",
-      "topic": "మార్కెట్",
-      "date": "2026-09-26",
-      "date_pkt": "2026-09-26 03:51 PM PKT",
-      "excerpt": "Coverage linked to \"మార్కెట్\" is circulating in IN. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "మార్కెట్: coverage and context for readers in IN. Summary of related reports and what to verify next.",
-      "keywords": [
-        "మార్కెట్",
-        "మార్కెట్ news",
-        "IN",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYyymo9rvOXcpgpQ84mxzTBLrV2J6wr_jMI5c_kdW9J4J_DNCoUocCTO4ldmM",
-      "related": [
-        {
-          "title": "Stock market: లాభాలతో ముగిసిన స్టాక్‌ మార్కెట్ సూచీలు",
-          "url": "https://www.eenadu.net/telugu-news/business/sensex-rises-315-points-on-september-25th/0101/126173574",
-          "source": "Eenadu"
-        },
-        {
-          "title": "కరోనా భయం రిపీట్.. వరుసగా 7 వారాలు పతనమైన నిఫ్టీ.. ఇన్వెస్టర్లు చేయకూడని 3 తప్పులివే!",
-          "url": "https://telugu.economictimes.com/market/news/why-is-nifty-falling-like-covid-crash-three-mistakes-retail-investors-must-avoid/articleshow/134498046.cms",
-          "source": "The Economic Times Telugu"
-        },
-        {
-          "title": "సెన్సెక్స్‌కు 300 పాయింట్ల లాభం",
-          "url": "https://prajasakti.com/te-IN/business-news/share-market/sensex-gains-300-points",
-          "source": "Prajasakti"
-        }
-      ],
-      "word_count": 370,
-      "page": "p/stock-market.html"
-    },
-    {
-      "title": "Sebastien Pocognoli may require patience to deliver on Scotland shake-up",
-      "slug": "sebastien-pocognoli-may-require-patience-to-deliver-on-scotland-shake-up",
-      "topic": "scotland national football team",
-      "date": "2026-09-26",
-      "date_pkt": "2026-09-26 03:51 PM PKT",
-      "excerpt": "Coverage linked to \"scotland national football team\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "scotland national football team: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "scotland national football team",
-        "scotland national football team news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKLMH-qb9oJo_jkgj1gpN5PD3pLIzOffiLTeSsaEghbHxURIX2yeiPapssW5U",
-      "related": [
-        {
-          "title": "Sebastien Pocognoli may require patience to deliver on Scotland shake-up",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cvkgw6g1kdg8o",
-          "source": "BBC"
-        },
-        {
-          "title": "Scotland will 'learn on the job' under Pocognoli - Robertson",
-          "url": "https://www.bbc.com/sport/football/live/cqrk3pgxemrjt",
-          "source": "BBC"
-        },
-        {
-          "title": "Pocognoli deserves time but Scottish FA must also prove its credentials",
-          "url": "https://www.theguardian.com/football/2026/sep/25/sebastien-pocognoli-scotland-scottish-fa-slovenia",
-          "source": "The Guardian"
-        }
-      ],
-      "word_count": 337,
-      "page": "p/sebastien-pocognoli-may-require-patience-to-deliver-on-scotland-shake-up.html"
-    },
-    {
-      "title": "Russia strikes at heart of Ukraine’s digital economy with attacks on…",
-      "slug": "russia-strikes-at-heart-of-ukraines-digital-economy-with-attacks-on",
-      "topic": "russia attacks ukraine internet infrastructure",
-      "date": "2026-09-26",
-      "date_pkt": "2026-09-26 03:51 PM PKT",
-      "excerpt": "Coverage linked to \"russia attacks ukraine internet infrastructure\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "russia attacks ukraine internet infrastructure: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "russia attacks ukraine internet infrastructure",
-        "russia attacks ukraine internet infrastructure news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhmn05cKdrOFoChX_f3sPMTkXCnnR620UKVTALGGKO2Dw3zcT42ehpyOxvSi8",
-      "related": [
-        {
-          "title": "Russia strikes at heart of Ukraine’s digital economy with attacks on ISPs and datacentres",
-          "url": "https://www.theguardian.com/world/2026/sep/26/russia-strikes-ukraine-digital-economy-attacks-isps-datacentres",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
-          "url": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o",
-          "source": "BBC"
-        },
-        {
-          "title": "Russia attacks internet service facility in Kyiv: network disruptions possible",
-          "url": "https://www.pravda.com.ua/eng/news/2026/09/23/8054712/",
-          "source": "Українська правда"
-        }
-      ],
-      "word_count": 350,
-      "page": "p/russia-strikes-at-heart-of-ukraines-digital-economy-with-attacks-on.html"
-    },
-    {
-      "title": "Real Sociedad-Real Madrid: a por un nuevo triunfo a domicilio",
-      "slug": "real-sociedad-real-madrid-a-por-un-nuevo-triunfo-a-domicilio",
-      "topic": "real sociedad - real madrid c. f. femenino",
-      "date": "2026-09-26",
-      "date_pkt": "2026-09-26 03:51 PM PKT",
-      "excerpt": "Coverage linked to \"real sociedad - real madrid c. f. femenino\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "real sociedad - real madrid c. f. femenino: coverage and context for readers in US. Summary of related reports and what to verify next.",
-      "keywords": [
-        "real sociedad - real madrid c. f. femenino",
-        "real sociedad - real madrid c. f. femenino news",
-        "US",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkYyZhhscjL0LPUtKk5AA0d7Fb8rItsTwT_EXC-fc8Yzkk2GmLxJIe_fbnWkM",
-      "related": [
-        {
-          "title": "Real Sociedad-Real Madrid: a por un nuevo triunfo a domicilio",
-          "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/previas/real-sociedad-real-madrid-a-por-un-nuevo-triunfo-a-domicilio-25-09-2026",
-          "source": "Real Madrid CF | Web Oficial"
-        },
-        {
-          "title": "De vuelta a casa",
-          "url": "https://www.realsociedad.eus/es/noticias/detalle/de-vuelta-a-casa-4",
-          "source": "Real Sociedad"
-        },
-        {
-          "title": "Una Real en crisis antes del Tourmalet",
-          "url": "https://as.com/futbol/femenino/una-real-en-crisis-antes-del-tourmalet-f202609-n/",
-          "source": "Diario AS"
-        }
-      ],
-      "word_count": 348,
-      "page": "p/real-sociedad-real-madrid-a-por-un-nuevo-triunfo-a-domicilio.html"
-    },
-    {
-      "title": "Real Sociedad hosts Real Madrid in Liga F showdown",
-      "slug": "real-sociedad-hosts-real-madrid-in-liga-f-showdown",
-      "topic": "sociedad vs real madrid",
-      "date": "2026-09-26",
-      "date_pkt": "2026-09-26 03:51 PM PKT",
-      "excerpt": "Real Sociedad welcomes Real Madrid for a live Liga F encounter, with minute‑by‑minute coverage and detailed statistics. The hosts also grapple with a pre‑match crisis that could influence the outcome.",
-      "meta_description": "Real Sociedad hosts Real Madrid in a live Liga F clash, with minute‑by‑minute updates, home advantage and a pre‑match crisis for the hosts ahead of the match.",
-      "keywords": [
-        "Real Sociedad",
-        "Real Madrid",
-        "Liga F",
-        "women's football",
-        "India"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTjJwrN7fh3axUI05qTCxI30CaCrrdnvBm6-UNAfCR4n0utB6j-bVofIrVf8i8",
-      "related": [
-        {
-          "title": "Real Sociedad vs Real Madrid: Resultado EN VIVO, minuto a minuto y estadísticas de la Liga F",
-          "url": "https://www.365scores.com/es/news/real-sociedad-vs-real-madrid-estadistica/",
-          "source": "365Scores"
-        },
-        {
-          "title": "De vuelta a casa",
-          "url": "https://www.realsociedad.eus/es/noticias/detalle/de-vuelta-a-casa-4",
-          "source": "Real Sociedad"
-        },
-        {
-          "title": "Una Real en crisis antes del Tourmalet",
-          "url": "https://as.com/futbol/femenino/una-real-en-crisis-antes-del-tourmalet-f202609-n/",
-          "source": "Diario AS"
-        }
-      ],
-      "word_count": 507,
-      "page": "p/real-sociedad-hosts-real-madrid-in-liga-f-showdown.html"
-    },
-    {
-      "title": "Pakistan, Saudi Arabia and Turkey deepen military ties under Makkah pact",
-      "slug": "pakistan-saudi-arabia-and-turkey-deepen-military-ties-under-makkah-pact",
-      "topic": "makkah defence alliance military cooperation",
-      "date": "2026-09-26",
-      "date_pkt": "2026-09-26 03:51 PM PKT",
-      "excerpt": "Military chiefs from Pakistan, Saudi Arabia and Turkey gathered in Riyadh to chart deeper cooperation under the Makkah defence pact. The talks hint at joint action against the Houthi insurgency and a possible broader Muslim‑world security f",
-      "meta_description": "Pakistan, Saudi Arabia and Turkey meet to expand the Makkah defence alliance, discussing joint support for Riyadh and potential wider Muslim‑world cooperation.",
-      "keywords": [
-        "Makkah defence pact",
-        "Pakistan Saudi Turkey",
-        "military cooperation",
-        "Middle East security",
-        "Houthi conflict"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTW1wRVbmXRTKc0A50nH1Nt0WrKSAmkmU1jd0YvdhBXiH8Qz-TcFFDjHr8biqw",
-      "related": [
-        {
-          "title": "Pakistani, Saudi, Turkish military chiefs meet to discuss ways to assist Riyadh under Makkah defence pact",
-          "url": "https://www.dawn.com/news/2032546",
-          "source": "Dawn"
-        },
-        {
-          "title": "Pakistan, Turkiye edge closer towards joining Saudi war against Houthis",
-          "url": "https://www.aljazeera.com/news/2026/9/25/pakistan-turkiye-edge-closer-towards-joining-saudi-war-against-houthis",
-          "source": "Al Jazeera"
-        },
-        {
-          "title": "Pact with Saudi and Pakistan could expand to Muslim world, Iran, Turkish speaker says",
-          "url": "https://www.reuters.com/world/middle-east/pact-with-saudi-pakistan-could-expand-muslim-world-iran-turkish-speaker-says-2026-09-25/",
-          "source": "Reuters"
-        }
-      ],
-      "word_count": 767,
-      "page": "p/pakistan-saudi-arabia-and-turkey-deepen-military-ties-under-makkah-pact.html"
-    },
-    {
-      "title": "Pakistan unveils Rs16bn bank-funded remittance reward scheme",
-      "slug": "pakistan-unveils-rs16bn-bank-funded-remittance-reward-scheme",
-      "topic": "remittance",
-      "date": "2026-09-26",
-      "date_pkt": "2026-09-26 03:51 PM PKT",
-      "excerpt": "Pakistan has introduced a new bank-funded incentive program worth Rs16 billion to encourage diaspora workers to send money home. The scheme offers significant cash prizes to individuals in the UAE and other countries.",
-      "meta_description": "Pakistan launches a Rs16bn bank-funded scheme to boost remittances, offering prizes up to Dh212 million to workers abroad. SBP cites improved external accounts.",
-      "keywords": [
-        "remittance",
-        "Pakistan",
-        "SBP",
-        "banking",
-        "economy"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTG9uEKgOsUey6547hdl6QqbxPdDb4zLamVp1Qk3o9XDpkzdhFu1VHe8fkqmb8",
-      "related": [
-        {
-          "title": "Rs16bn bank-funded remittance reward scheme unveiled",
-          "url": "https://www.dawn.com/news/2032695",
-          "source": "Dawn"
-        },
-        {
-          "title": "Pakistanis in UAE, other countries can win up to Dh212 million for sending remittances",
-          "url": "https://www.khaleejtimes.com/uae/pakistani-uae-countries-win-up-to-dh212-million-prizes-remittances",
-          "source": "Khaleej Times"
-        },
-        {
-          "title": "Improved external account shows economic resilience: SBP Governor",
-          "url": "https://www.brecorder.com/news/40441309/improved-external-account-shows-economic-resilience-sbp-governor",
-          "source": "Business Recorder"
-        }
-      ],
-      "word_count": 837,
-      "page": "p/pakistan-unveils-rs16bn-bank-funded-remittance-reward-scheme.html"
-    },
-    {
-      "title": "Pakistan prepares for tough ASEAN Cup opener against Thailand",
-      "slug": "pakistan-prepares-for-tough-asean-cup-opener-against-thailand",
-      "topic": "pak vs thailand",
-      "date": "2026-09-26",
-      "date_pkt": "2026-09-26 03:51 PM PKT",
-      "excerpt": "Pakistan faces a demanding test as Thailand awaits in the FIFA ASEAN Cup opener. Coach and players stress preparation ahead of the high‑profile clash.",
-      "meta_description": "Pakistan's national football team gears up for a challenging FIFA ASEAN Cup opener versus Thailand, with key players Solano and Abdullah ready to lead the side.",
-      "keywords": [
-        "Pakistan football",
-        "Thailand",
-        "ASEAN Cup 2026",
-        "Solano",
-        "Abdullah"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQoZbKXlZ4K2wgkw6Jxt1dDe4NFSrXQY-omSuitMlfo1yY_IR3yhMEnqrDL5_M",
-      "related": [
-        {
-          "title": "Watch Pakistan vs Thailand live",
-          "url": "https://www.tapmad.com/watch/fifa-asean-cup-2026-live/1179311",
-          "source": "Tapmad"
-        },
-        {
-          "title": "Pakistan look forward to ‘big test’ as Thailand looms in FIFA Asean Cup opener",
-          "url": "https://www.dawn.com/news/2032753/pakistan-look-forward-to-big-test-as-thailand-looms-in-fifa-asean-cup-opener",
-          "source": "Dawn"
-        },
-        {
-          "title": "Solano, Abdullah ready for Pakistan’s FIFA ASEAN Cup challenge",
-          "url": "https://www.nation.com.pk/26-Sep-2026/solano-abdullah-ready-pakistan-s-fifa-asean-cup-challenge",
-          "source": "The Nation (Pakistan )"
-        }
-      ],
-      "word_count": 460,
-      "page": "p/pakistan-prepares-for-tough-asean-cup-opener-against-thailand.html"
-    },
-    {
-      "title": "PSNI Deploys Extra Officers Ahead of Drumcree Ruling, Abuse Probe Calls",
-      "slug": "psni-deploys-extra-officers-ahead-of-drumcree-ruling-abuse-probe-calls",
-      "topic": "police service of northern ireland",
-      "date": "2026-09-26",
-      "date_pkt": "2026-09-26 03:51 PM PKT",
-      "excerpt": "The PSNI has moved to increase its officer presence ahead of a court decision on Drumcree parades. At the same time, an anti‑child‑trafficking advocate is urging the force to investigate possible misconduct by a senior official abroad.",
-      "meta_description": "The Police Service of Northern Ireland is drafting extra officers before a key Drumcree ruling while facing calls to probe alleged abuse by Donaldson in develop",
-      "keywords": [
-        "PSNI",
-        "Police Service of Northern Ireland",
-        "Drumcree ruling",
-        "Donaldson abuse allegations",
-        "Northern Ireland policing"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8DuGhIR_-1ovnTu9spZQTUUZswT8eTzUf2b7MugvHVflurf1ldHgy3BhbHdk",
-      "related": [
-        {
-          "title": "Police Federation welcomes ‘sensible precautionary measure’ as PSNI drafts in extra officers ahead of Drumcree ruling",
-          "url": "https://www.irishnews.com/news/northern-ireland/police-federation-welcomes-sensible-precautionary-measure-as-psni-drafts-in-extra-officers-ahead-of-drumcree-ruling-MK27O3E72JGA3AXQAFKHVKQRKQ/",
-          "source": "The Irish News"
-        },
-        {
-          "title": "‘PSNI should investigate possible abuse by Donaldson in developing countries,’ insists anti-child trafficking advocate",
-          "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/psni-should-investigate-possible-abuse-by-donaldson-in-developing-countries-insists-anti-child-trafficking-advocate/a/161952272.html",
-          "source": "Belfast Telegraph"
-        }
-      ],
-      "word_count": 889,
-      "page": "p/psni-deploys-extra-officers-ahead-of-drumcree-ruling-abuse-probe-calls.html"
-    },
-    {
-      "title": "NA ŻYWO: Chwalińska — Fernandez w Singapurze. Relacja i wynik live",
-      "slug": "na-zywo-chwalinska-fernandez-w-singapurze-relacja-i-wynik-live",
-      "topic": "maja chwalińska",
-      "date": "2026-09-26",
-      "date_pkt": "2026-09-26 03:51 PM PKT",
-      "excerpt": "Coverage linked to \"maja chwalińska\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "maja chwalińska: coverage and context for readers in US. Summary of related reports and what to verify next.",
-      "keywords": [
-        "maja chwalińska",
-        "maja chwalińska news",
-        "US",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-PN3VRtZtCXlXrZa6qF6MRmCv3oVpMO7XpFUXkVQCAOI8blx-wEZzKJqeTz8",
-      "related": [
-        {
-          "title": "NA ŻYWO: Chwalińska — Fernandez w Singapurze. Relacja i wynik live",
-          "url": "https://przegladsportowy.onet.pl/tenis/leylah-fernandez-maja-chwalinska-relacja-na-zywo/rb4rggv",
-          "source": "Przegląd Sportowy"
-        },
-        {
-          "title": "Tak w Kanadzie piszą o Chwalińskiej przed półfinałem. Od razu to przypomnieli Tenis",
-          "url": "https://www.sport.pl/tenis/7,64987,33045575,tak-w-kanadzie-pisza-o-chwalinskiej-przed-polfinalem-od-razu.html",
-          "source": "Sport.pl"
-        },
-        {
-          "title": "Bez jednego półfinału. Walkower w Singapurze. Wiadomość dla Chwalińskiej",
-          "url": "https://sport.interia.pl/tenis/news-bez-jednego-polfinalu-walkower-w-singapurze-wiadomosc-dla-ch,nId,23549319",
-          "source": "Interia Sport"
-        }
-      ],
-      "word_count": 330,
-      "page": "p/na-zywo-chwalinska-fernandez-w-singapurze-relacja-i-wynik-live.html"
     }
   ]
 }
