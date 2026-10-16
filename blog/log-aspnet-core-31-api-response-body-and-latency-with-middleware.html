@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Log ASP.NET Core 3.1 API Response Body and Latency with Middleware | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to capture the full response body, execution time, and error details in an ASP.NET Core 3.1 API using a lightweight middleware and NLog." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, c#,asp.net-core,middleware" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/log-aspnet-core-31-api-response-body-and-latency-with-middleware.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I use this middleware with minimal APIs?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the same pattern applies. Register the middleware before the endpoint mapping in Program.cs."}}, {"@type": "Question", "name": "Will this affect performance?", "acceptedAnswer": {"@type": "Answer", "text": "The overhead is minimal; the main cost is the extra MemoryStream allocation and copy, which is negligible for typical payload sizes."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-10-16 · Q&A guide</p>
+    <h1>Log ASP.NET Core 3.1 API Response Body and Latency with Middleware</h1>
+    <p class="lead">Learn how to capture the full response body, execution time, and error details in an ASP.NET Core 3.1 API using a lightweight middleware and NLog.</p>
+    <div class="content">
+<h2>Why Log the Response Body?</h2>
+<p>When third‑party vendors consume your API, they often need to audit the exact payload returned. Logging the response also helps debug mismatches between expected and actual data, and provides a record for compliance. However, it must be done carefully to avoid leaking sensitive information.</p>
+<h2>Middleware Basics for Logging</h2>
+<p>A middleware sits in the request pipeline and can inspect or modify the HttpContext before and after the next component executes. By wrapping the response stream, you can capture everything that is written to the client without altering the controller logic.</p>
+<h2>Replacing the Response Stream</h2>
+<p>The response body is a write‑only stream. To read it, replace it with a MemoryStream, let the pipeline write into it, then copy the buffer back to the original stream. The following snippet shows the core of that logic.</p>
+<pre><code>// Swap the original stream
+var originalBody = context.Response.Body;
+var buffer = new MemoryStream();
+context.Response.Body = buffer;
+
+await _next(context);
+
+buffer.Seek(0, SeekOrigin.Begin);
+var responseBody = await new StreamReader(buffer).ReadToEndAsync();
+buffer.Seek(0, SeekOrigin.Begin);
+await buffer.CopyToAsync(originalBody);
+context.Response.Body = originalBody;</code></pre>
+<h2>Measuring Latency and Logging</h2>
+<p>Wrap the next delegate call in a Stopwatch to capture elapsed time. Combine the captured body, status code, and timing into a single log entry. NLog’s layout renderer can then format the message as needed.</p>
+<pre><code>var sw = Stopwatch.StartNew();
+await _next(context);
+sw.Stop();
+_logger.LogInformation(&quot;{Method} {Path} responded {StatusCode} in {Elapsed} ms. Body: {Body}&quot;,
+    context.Request.Method,
+    context.Request.Path,
+    context.Response.StatusCode,
+    sw.ElapsedMilliseconds,
+    responseBody);</code></pre>
+<h2>Security &amp; Best Practices</h2>
+<p>Never log raw authentication tokens, passwords, or PII. Use a whitelist of safe headers and trim or redact known sensitive fields before logging. Consider adding a configuration flag to enable or disable response logging in production. For telemetry, ASP.NET Core’s built‑in Application Insights can capture request and response details automatically, but it also respects sampling and redaction settings.</p>
+<p><strong>Takeaway:</strong> By swapping the response stream and measuring elapsed time, you can safely log API responses while keeping sensitive data protected.</p>
+<h2>People also ask</h2>
+<h3>Can I use this middleware with minimal APIs?</h3>
+<p>Yes, the same pattern applies. Register the middleware before the endpoint mapping in Program.cs.</p>
+<h3>Will this affect performance?</h3>
+<p>The overhead is minimal; the main cost is the extra MemoryStream allocation and copy, which is negligible for typical payload sizes.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/63495482/logging-response-body-in-asp-net-core-3-1-api" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

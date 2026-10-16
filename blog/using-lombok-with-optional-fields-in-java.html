@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Using Lombok with Optional Fields in Java | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to keep Lombok’s builder while exposing Optional getters without changing field types." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, java,option-type,lombok" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/using-lombok-with-optional-fields-in-java.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I need @Getter(AccessLevel.NONE) on the field?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, otherwise Lombok will generate a conflicting getter."}}, {"@type": "Question", "name": "Can I keep @Value and @Builder together?", "acceptedAnswer": {"@type": "Answer", "text": "Absolutely; Lombok supports both on the same class."}}, {"@type": "Question", "name": "What if I want the builder to accept Optional?", "acceptedAnswer": {"@type": "Answer", "text": "Write a custom builder method that accepts Optional and assigns its value to the field."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-10-16 · Q&A guide</p>
+    <h1>Using Lombok with Optional Fields in Java</h1>
+    <p class="lead">Learn how to keep Lombok’s builder while exposing Optional getters without changing field types.</p>
+    <div class="content">
+<h2>Why Lombok Generates a Getter</h2>
+<p>The @Value annotation automatically creates getters for every field. If the field type is String, the generated getter returns a String. When you want to expose an Optional, Lombok will only do that if the field itself is Optional, which forces the builder to accept Optional values.</p>
+<h2>Suppressing the Default Getter</h2>
+<p>Lombok allows you to disable the automatically generated getter for a single field. Apply @Getter(AccessLevel.NONE) to the field you want to customize. The rest of the class still benefits from Lombok’s convenience annotations.</p>
+<pre><code>@Value
+public class Address {
+    @NotNull String userId;
+    @NotNull String line1;
+
+    @Getter(AccessLevel.NONE)
+    String line2;
+
+    // custom getter below
+}</code></pre>
+<h2>Custom Optional Getter</h2>
+<p>Write a normal method that returns Optional&lt;String&gt;. Lombok will not override it because the default getter was suppressed. The method can simply wrap the underlying String field.</p>
+<pre><code>public Optional&lt;String&gt; getLine2() {
+    return Optional.ofNullable(line2);
+}</code></pre>
+<h2>Builder Behavior</h2>
+<p>The @Builder annotation still creates a builder that accepts a raw String for line2. This matches the field type, so the builder remains simple and type‑safe. If you need a builder that accepts Optional, you would have to write a custom builder method, but that is rarely necessary.</p>
+<h2>Full Practical Example</h2>
+<p>Below is a minimal, compile‑ready snippet that demonstrates the pattern.</p>
+<pre><code>@Value
+@Builder
+public class Address {
+    @NotNull String userId;
+    @NotNull String line1;
+
+    @Getter(AccessLevel.NONE)
+    String line2;
+
+    public Optional&lt;String&gt; getLine2() {
+        return Optional.ofNullable(line2);
+    }
+}</code></pre>
+<p><strong>Takeaway:</strong> Suppress Lombok’s getter for a field and write a custom Optional‑returning method to keep the builder simple.</p>
+<h2>People also ask</h2>
+<h3>Do I need @Getter(AccessLevel.NONE) on the field?</h3>
+<p>Yes, otherwise Lombok will generate a conflicting getter.</p>
+<h3>Can I keep @Value and @Builder together?</h3>
+<p>Absolutely; Lombok supports both on the same class.</p>
+<h3>What if I want the builder to accept Optional?</h3>
+<p>Write a custom builder method that accepts Optional and assigns its value to the field.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/31670785/optional-in-lombok" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

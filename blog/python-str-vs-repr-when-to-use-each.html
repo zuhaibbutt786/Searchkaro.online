@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Python __str__ vs __repr__: When to Use Each | LearnWithZuhaib</title>
+  <meta name="description" content="Discover the distinct roles of __str__ and __repr__ in Python, and learn when to implement each for clear debugging and user output." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, python,magic-methods,repr" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/python-str-vs-repr-when-to-use-each.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can __repr__ return a human‑readable string?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, but it should still be unambiguous and ideally eval‑able."}}, {"@type": "Question", "name": "What happens if I define only __repr__?", "acceptedAnswer": {"@type": "Answer", "text": "print() will display the __repr__ string, so debugging output will also be user‑friendly."}}, {"@type": "Question", "name": "Is __repr__ always called in the REPL?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the interactive prompt uses __repr__ to display the last expression’s value."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-10-16 · Q&A guide</p>
+    <h1>Python __str__ vs __repr__: When to Use Each</h1>
+    <p class="lead">Discover the distinct roles of __str__ and __repr__ in Python, and learn when to implement each for clear debugging and user output.</p>
+    <div class="content">
+<h2>What Magic Methods Are</h2>
+<p>Python’s special methods let objects control their string representation. Two of the most common are __repr__ and __str__, each called by built‑in functions or interactive prompts.</p>
+<h2>__repr__ – the developer’s view</h2>
+<p>The goal of __repr__ is to provide an unambiguous, machine‑readable representation. Ideally it returns a string that could be used with eval() to recreate the object, or at least contains enough detail to identify the instance.</p>
+<pre><code>class Point:
+    def __init__(self, x, y):
+        self.x, self.y = x, y
+    def __repr__(self):
+        return f&quot;Point({self.x!r}, {self.y!r})&quot;
+
+p = Point(3, 4)
+print(repr(p))  # Point(3, 4)</code></pre>
+<h2>__str__ – the user’s view</h2>
+<p>When an object is printed or converted to a string for display, __str__ is used. It should be concise and friendly, prioritizing readability over precision.</p>
+<pre><code>class Point:
+    def __str__(self):
+        return f&quot;({self.x}, {self.y})&quot;
+
+print(p)  # (3, 4)</code></pre>
+<h2>Fallback Behavior</h2>
+<p>If __str__ is missing, Python falls back to __repr__. If both are absent, the default representation includes the object’s memory address, which is rarely useful to end users.</p>
+<h2>When to Implement Each</h2>
+<p>Implement __repr__ on every class that benefits from debugging clarity. Implement __str__ only when you need a nicer display for users, such as in command‑line tools or logs.</p>
+<p><strong>Takeaway:</strong> Use __repr__ for debugging and __str__ for user‑friendly output.</p>
+<h2>People also ask</h2>
+<h3>Can __repr__ return a human‑readable string?</h3>
+<p>Yes, but it should still be unambiguous and ideally eval‑able.</p>
+<h3>What happens if I define only __repr__?</h3>
+<p>print() will display the __repr__ string, so debugging output will also be user‑friendly.</p>
+<h3>Is __repr__ always called in the REPL?</h3>
+<p>Yes, the interactive prompt uses __repr__ to display the last expression’s value.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/1436703/what-is-the-difference-between-str-and-repr" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

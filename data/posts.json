@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "title": "Python __str__ vs __repr__: When to Use Each",
+      "slug": "python-str-vs-repr-when-to-use-each",
+      "date": "2026-10-16",
+      "excerpt": "Discover the distinct roles of __str__ and __repr__ in Python, and learn when to implement each for clear debugging and user output.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Using Lombok with Optional Fields in Java",
+      "slug": "using-lombok-with-optional-fields-in-java",
+      "date": "2026-10-16",
+      "excerpt": "Learn how to keep Lombok\u2019s builder while exposing Optional getters without changing field types.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Bootstrap 4: Set Image Height Without Stretching",
+      "slug": "bootstrap-4-set-image-height-without-stretching",
+      "date": "2026-10-16",
+      "excerpt": "Learn how to set a fixed height on a Bootstrap 4 card image while keeping its aspect ratio intact.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Log ASP.NET Core 3.1 API Response Body and Latency with Middleware",
+      "slug": "log-aspnet-core-31-api-response-body-and-latency-with-middleware",
+      "date": "2026-10-16",
+      "excerpt": "Learn how to capture the full response body, execution time, and error details in an ASP.NET Core 3.1 API using a lightweight middleware and NLog.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Fix GCC \u201cunrecognized command line option -L \u2026\u201d and libmpfr errors",
+      "slug": "fix-gcc-unrecognized-command-line-option--l-and-libmpfr-errors",
+      "date": "2026-10-16",
+      "excerpt": "Learn why GCC reports a bogus -L option, how to correctly expose MPFR/GMP libraries, and the proper way to resolve runtime linker failures.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Bulk Update Stacked Column Labels to Series Names in Excel",
+      "slug": "bulk-update-stacked-column-labels-to-series-names-in-excel",
+      "date": "2026-10-16",
+      "excerpt": "Replace hundreds of value labels with series names in a stacked column chart using VBA or manual selection.",
+      "source": "stackoverflow"
+    },
+    {
       "title": "How to Retrieve a Missing Remote Git Tag",
       "slug": "how-to-retrieve-a-missing-remote-git-tag",
       "date": "2026-10-02",

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap 4: Set Image Height Without Stretching | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to set a fixed height on a Bootstrap 4 card image while keeping its aspect ratio intact." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, html,css,twitter-bootstrap,bootstrap-4" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/bootstrap-4-set-image-height-without-stretching.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I use object-fit with Bootstrap 4?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Bootstrap 4 doesn’t set object-fit, so you can add it freely to any image."}}, {"@type": "Question", "name": "What if my browser doesn’t support object-fit?", "acceptedAnswer": {"@type": "Answer", "text": "Wrap the image in a container with fixed height and use width: 100%; height: auto; as a fallback."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-10-16 · Q&A guide</p>
+    <h1>Bootstrap 4: Set Image Height Without Stretching</h1>
+    <p class="lead">Learn how to set a fixed height on a Bootstrap 4 card image while keeping its aspect ratio intact.</p>
+    <div class="content">
+<h2>Why the image stretches</h2>
+<p>The native &lt;img&gt; height attribute forces the element to that pixel value, ignoring the image’s natural aspect ratio. Bootstrap’s .card-img-top class sets width: 100% by default, so the image expands horizontally to fill the column, resulting in distortion.</p>
+<h2>Using object‑fit to preserve ratio</h2>
+<p>The CSS property object‑fit controls how an image scales inside its container. Setting object‑fit: cover makes the image fill the height while cropping excess width, and object‑fit: contain keeps the whole image visible without cropping.</p>
+<pre><code>.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}</code></pre>
+<h2>Applying the CSS to .card-img-top</h2>
+<p>Remove the height attribute from the &lt;img&gt; tag. Add the CSS block above to your stylesheet or a &lt;style&gt; tag. The image will now respect the 200px height, keep its ratio, and stay responsive.</p>
+<pre><code>&lt;img class=&quot;card-img-top&quot; src=&quot;https://placeimg.com/640/480/animals&quot; alt=&quot;Card image cap&quot;&gt;</code></pre>
+<h2>Responsive fallback for older browsers</h2>
+<p>object‑fit is unsupported in IE11. Wrap the image in a container with fixed height and overflow hidden, then set the image to width: 100%; height: auto;. This preserves the aspect ratio while keeping the container height.</p>
+<pre><code>.card-img-wrapper {
+  height: 200px;
+  overflow: hidden;
+}
+.card-img-wrapper img {
+  width: 100%;
+  height: auto;
+}</code></pre>
+<h2>Complete example</h2>
+<p>Combining the above, the final markup and CSS look like this:</p>
+<pre><code>&lt;link href=&quot;https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+&lt;style&gt;
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+&lt;/style&gt;
+
+&lt;div class=&quot;col-md-6&quot;&gt;
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;img class=&quot;card-img-top&quot; src=&quot;https://placeimg.com/640/480/animals&quot; alt=&quot;Card image cap&quot;&gt;
+    &lt;div class=&quot;card-block text-center&quot;&gt;
+      &lt;p class=&quot;card-text&quot;&gt;Text goes here&lt;/p&gt;
+      &lt;p class=&quot;card-subtitle&quot;&gt;More text goes here&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<p><strong>Takeaway:</strong> Apply object-fit: cover to .card-img-top and remove the height attribute to keep images responsive.</p>
+<h2>People also ask</h2>
+<h3>Can I use object-fit with Bootstrap 4?</h3>
+<p>Yes, Bootstrap 4 doesn’t set object-fit, so you can add it freely to any image.</p>
+<h3>What if my browser doesn’t support object-fit?</h3>
+<p>Wrap the image in a container with fixed height and use width: 100%; height: auto; as a fallback.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/48391984/bootstrap-4-responsive-image-with-set-height" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>
