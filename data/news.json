@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-15T10:57:08.209424+00:00",
-  "updated_at_pkt": "2026-10-15 03:53 PM PKT",
+  "updated_at": "2026-10-16T10:47:59.664023+00:00",
+  "updated_at_pkt": "2026-10-16 03:45 PM PKT",
   "count": 500,
-  "new_in_this_run": 28,
+  "new_in_this_run": 25,
   "sources": [
     "https://trends.google.com/trending/rss?geo=PK",
     "https://trends.google.com/trending/rss?geo=IN",
@@ -11,6 +11,1006 @@
     "https://trends.google.com/trending/rss?geo=SA"
   ],
   "items": [
+    {
+      "title": "सऊदी अरब में 20 अक्टूबर तक एअर इंडिया की सभी उड़ानें रद्द... रियाद,…",
+      "slug": "20",
+      "topic": "एअर इंडिया",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "Coverage linked to \"एअर इंडिया\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "एअर इंडिया: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "एअर इंडिया",
+        "एअर इंडिया news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTXeH2icO7PBsyquJgKGrdDI4uNPOJEqxJsUfhGgnTQBR4o6Bpl0q-m5DyO7Yc",
+      "related": [
+        {
+          "title": "सऊदी अरब में 20 अक्टूबर तक एअर इंडिया की सभी उड़ानें रद्द... रियाद, जेद्दा और दम्माम जाने वालों की बढ़ी मुश्किलें",
+          "url": "https://www.aajtak.in/world/story/air-india-flights-saudi-arabia-riyadh-dammam-jeddah-cancelled-october-20-ntc-agkp-dskc-2672130-2026-10-16",
+          "source": "Aaj Tak"
+        },
+        {
+          "title": "Houthi Attack On Saudi Arabia: मक्का के बाद मदीना पर मिसाइल अटैक, क्या हूतियों ने तोड़ा वादा?",
+          "url": "https://navbharattimes.indiatimes.com/video/news/missile-attack-on-medina-following-the-one-on-mecca-have-the-houthis-broken-their-promise/videoshow/134973905.cms",
+          "source": "Navbharat Times"
+        },
+        {
+          "title": "कौन है आरामको का मालिक, हमलों से कितना उठा रहे नुकसान?",
+          "url": "https://www.abplive.com/gk/missile-attack-on-saudi-oil-company-aramco-who-owns-aramco-and-how-much-loss-is-it-incurring-from-houthi-attacks-3202121",
+          "source": "ABP News"
+        }
+      ],
+      "word_count": 392,
+      "page": "p/20.html"
+    },
+    {
+      "title": "هكذا أثقلت العلاوات فاتورة الرواتب وعمقت الأزمة المالية للسلطة…",
+      "slug": "news-1792147678",
+      "topic": "مصرف",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "Coverage linked to \"مصرف\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "مصرف: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "مصرف",
+        "مصرف news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSZqMEb63Y5xMHuTp1wJt13mKVtpbxTC11MOtHHV_a-4PH-slMolqidphuiyi4",
+      "related": [
+        {
+          "title": "هكذا أثقلت العلاوات فاتورة الرواتب وعمقت الأزمة المالية للسلطة الفلسطينية عبر السنوات",
+          "url": "https://www.sadanews.ps/business/342773.html",
+          "source": "وكالة صدى نيوز"
+        },
+        {
+          "title": "سلطة النقد الفلسطينية تحذر من أزمة مصرفية وتطالب صندوق النقد الدولي بالتدخل",
+          "url": "https://www.i24news.tv/ar/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%81%D8%AA%D8%B5%D8%A7%D8%AF/artc-bdde5e1a",
+          "source": "i24NEWS"
+        },
+        {
+          "title": "الدين العام الفلسطيني يسجل ارتفاعًا جديدًا ليبلغ 15.5 مليار شيكل",
+          "url": "https://yaffaps.com/ar/page-135670.html",
+          "source": "شبكة يافا الإخبارية"
+        }
+      ],
+      "word_count": 331,
+      "page": "p/news-1792147678.html"
+    },
+    {
+      "title": "West Indies chief decries finances as team eyes crucial T20 decider",
+      "slug": "west-indies-chief-decries-finances-as-team-eyes-crucial-t20-decider",
+      "topic": "வெஸ்ட் இண்டீஸ் கிரிக்கெட் அணி",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "The West Indies cricket board says matches against India are not profitable and slams ICC revenue sharing. Meanwhile, a bowler credits slower deliveries for a surprise win in Hyderabad as the teams prepare for the fifth T20.",
+      "meta_description": "West Indies cricket officials warn of financial strain after a series against India, while bowler Keemo Paul credits slower balls for a Hyderabad win and select",
+      "keywords": [
+        "West Indies cricket",
+        "ICC revenue",
+        "India series",
+        "Keemo Paul",
+        "T20 selection"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRkK6IiAN3Q1dmVxHfYQGkpC7bYFDdHufOeFyUTOgnvb9i2zmNtLZr1SxFjQPg",
+      "related": [
+        {
+          "title": "\"இந்தியாவுடன் விளையாடுவதால் ஒரு பைசா கூட லாபமில்லை\".. கொந்தளித்த வெஸ்ட் இண்டீஸ் நிர்வாக அதிகாரி",
+          "url": "https://tamil.mykhel.com/cricket/west-indies-cricket-ceo-says-playing-with-india-not-giving-them-any-money-and-slams-icc-revenue-126253.html",
+          "source": "myKhel tamil"
+        },
+        {
+          "title": "இந்திய அணியை வீழ்த்தியது எப்படி? ரகசியம் பகிர்ந்த மே.இ.தீவுகள் பந்துவீச்சாளர்!",
+          "url": "https://www.dinamani.com/sports/cricket/2026/Oct/15/slower-balls-helped-us-in-hyderabad-wi-pacer-keemo-paul-2",
+          "source": "Dinamani"
+        },
+        {
+          "title": "IND vs WI: 5வது டி20யில் இந்திய அணியின் பிளேயிங் லெவன்.. 2 மாற்றம் செய்ய வாய்ப்பு",
+          "url": "https://tamil.mykhel.com/cricket/ind-vs-wi-5th-t20-india-playing-xi-2-changes-might-happen-in-bengaluru-126257.html",
+          "source": "myKhel tamil"
+        }
+      ],
+      "word_count": 881,
+      "page": "p/west-indies-chief-decries-finances-as-team-eyes-crucial-t20-decider.html"
+    },
+    {
+      "title": "Wales wing Rees-Zammit beats sprinter in charity race, calls for artificial pitch ban",
+      "slug": "wales-wing-rees-zammit-beats-sprinter-in-charity-race-calls-for-artificial-pitch-ban",
+      "topic": "louis rees-zammit",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "Louis Rees-Zammit surprised a national sprinter and a world champion in a short‑distance charity race. He later demanded the removal of artificial pitches after a painful injury at Saracens.",
+      "meta_description": "Wales rugby star Louis Rees-Zammit stunned a Team GB sprinter and a world sprint champion in a charity race, then urged the Rugby Premiership to scrap artificia",
+      "keywords": [
+        "Louis Rees-Zammit",
+        "rugby sprint race",
+        "artificial pitch ban",
+        "Saracens injury",
+        "GB athletics"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwbIeelQgbhqofoY8vtK64I9lzuXa7RoS6AksQlKt4Ip6FxWhRrC45qOdLgzM",
+      "related": [
+        {
+          "title": "Louis Rees-Zammit races Team GB sprinter and stuns him",
+          "url": "https://www.ruck.co.uk/wales-rugby-news/louis-rees-zammit-races-team-gb-sprinter-and-stuns-him",
+          "source": "Ruck.co.uk"
+        },
+        {
+          "title": "Louis Rees-Zammit races world sprint champion and stuns team-mates with result",
+          "url": "https://www.walesonline.co.uk/sport/rugby/rugby-news/louis-rees-zammit-races-world-34771789",
+          "source": "Wales Online"
+        },
+        {
+          "title": "Louis Rees-Zammit demands end to artificial Prem pitches after leg burns at Saracens | Prem Rugby",
+          "url": "https://www.theguardian.com/sport/2026/oct/13/rugby-union-louis-rees-zammit-end-to-artificial-prem-pitches-leg-burns-at-saracens",
+          "source": "The Guardian"
+        }
+      ],
+      "word_count": 849,
+      "page": "p/wales-wing-rees-zammit-beats-sprinter-in-charity-race-calls-for-artificial-pitch-ban.html"
+    },
+    {
+      "title": "Viral engagement video sparks debate over 45-year age gap in India",
+      "slug": "viral-engagement-video-sparks-debate-over-45-year-age-gap-in-india",
+      "topic": "ಮದುವೆ",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "An engagement video featuring a 30-year-old woman and a 75-year-old man has captured widespread attention on Indian social media. The clip has ignited discussions regarding personal choice and societal expectations in modern relationships.",
+      "meta_description": "A 30-year-old woman's engagement to a 75-year-old man has gone viral in India, prompting public debate on marriage norms and age differences.",
+      "keywords": [
+        "marriage",
+        "age gap",
+        "viral video",
+        "Indian social media",
+        "relationship norms"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSaE0N9KI2zwKQ62BprBso0gPxg8trEoZkQ2SngD-dUGisXEvmvIEZyFS3GWaw",
+      "related": [
+        {
+          "title": "Anupama Parameswaran: ಮದುವೆ-ಮಕ್ಕಳ ಪ್ಲಾನಿಂಗ್, ಬ್ರೇಕಪ್ ಬೆನ್ನಲ್ಲೇ ಗುಡ್​ನ್ಯೂಸ್ ಕೊಡ್ತಾರಾ ಅನುಪಮಾ?",
+          "url": "https://kannada.news18.com/news/entertainment/anupama-parameswaran-speaks-about-having-a-baby-dvp-2508941.html",
+          "source": "News18 Kannada"
+        },
+        {
+          "title": "75ರ ವೃದ್ಧನ ಕೈಹಿಡಿಯಲು ಸಜ್ಜಾದ 30ರ ಯುವತಿ! ವಿಚಿತ್ರ ಪ್ರೇಮಿಗಳ ನಿಶ್ಚಿತಾರ್ಥ ವಿಡಿಯೋ ವೈರಲ್‌; ವಧು ಹೇಳೋದೇನು?",
+          "url": "https://vijaykarnataka.com/news/india/30-year-old-woman-set-to-marry-75-year-old-man-love-knows-no-age-engagement-video-goes-viral/articleshow/134989010.cms",
+          "source": "Vijay Karnataka"
+        },
+        {
+          "title": "ಆಕೆಗೆ 30, ಆತನಿಗೆ 75: ತನಗಿಂತ 45 ವರ್ಷದ ಹಿರಿಯ ವ್ಯಕ್ತಿಯೊಂದಿಗೆ ಲವ್ ನಲ್ಲಿ ಬಿದ್ದ ಯುವತಿ, ನವರಾತ್ರಿ ಬಳಿಕ ಮದುವೆ ನಿರೀಕ್ಷೆ! Video",
+          "url": "https://www.kannadaprabha.com/nation/2026/Oct/16/she-is-30-he-is-75-up-womans-love-story-with-man-45-years-older-goes-viral-wedding-expected-after-navratri",
+          "source": "Kannada Prabha Online"
+        }
+      ],
+      "word_count": 721,
+      "page": "p/viral-engagement-video-sparks-debate-over-45-year-age-gap-in-india.html"
+    },
+    {
+      "title": "Trump administration sues California over alleged non‑citizen voter data",
+      "slug": "trump-administration-sues-california-over-alleged-noncitizen-voter-data",
+      "topic": "gobierno",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "The Trump administration has taken legal action against California for not releasing a USB drive with alleged non‑citizen voter information. The Department of Justice also warns of a separate suit over ballot mailing practices.",
+      "meta_description": "The Trump government has filed a lawsuit against California for refusing to open a USB drive containing data on suspected non‑citizen voters, while the DOJ thre",
+      "keywords": [
+        "Trump",
+        "California",
+        "voter fraud",
+        "USB data",
+        "DOJ lawsuit"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRylUEBAceQ73jeiR2KaYsgDEUa8dlAsH2CTiB2RkVG1_fybdeW49Iw7dw96Fo",
+      "related": [
+        {
+          "title": "Gobierno de Trump demanda a California por no abrir una memoria USB con datos de presuntos votantes no ciudadanos",
+          "url": "https://cnnespanol.cnn.com/2026/10/15/eeuu/gobierno-demanda-california-memoria-usb-no-ciudadanos-trax",
+          "source": "CNN en Español"
+        },
+        {
+          "title": "Departamento de Justicia amenaza con demandar a California por enviar boletas a no ciudadanos",
+          "url": "https://www.latimes.com/espanol/california/articulo/2026-10-15/departamento-de-justicia-amenaza-con-demandar-california-por-enviar-boletas-no-ciudadanos",
+          "source": "Los Angeles Times"
+        },
+        {
+          "title": "Destino 2026: Los datos del voto anticipado y regresa el tema del presunto fraude electoral en California",
+          "url": "https://www.univision.com/shows/la-voz-de-la-manana/destino-2026-los-datos-del-voto-adelantado-y-regresa-el-tema-del-presunto-fraude-electoral-en-california-video",
+          "source": "Univision"
+        }
+      ],
+      "word_count": 728,
+      "page": "p/trump-administration-sues-california-over-alleged-noncitizen-voter-data.html"
+    },
+    {
+      "title": "Tommy Paul in Focus as ATP Shanghai Masters Intensifies",
+      "slug": "tommy-paul-in-focus-as-atp-shanghai-masters-intensifies",
+      "topic": "tommy paul",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "Search interest for American tennis star Tommy Paul has surged in India, coinciding with the critical stages of the ATP Shanghai Masters. The tournament is seeing high-profile matchups as players race for top rankings.",
+      "meta_description": "Tommy Paul is trending in India as the ATP Shanghai Masters heats up, with top players like Jodar and Ruud vying for semi-final spots in the 2026 season.",
+      "keywords": [
+        "Tommy Paul",
+        "ATP Shanghai",
+        "Tennis",
+        "Shanghai Masters",
+        "ATP Tour"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo4Jrt8PGtmOlhSlMUxKrFh2ItpeP8dbZ1DKtvKtTpCB01OmQ14iMIU-WC-sM",
+      "related": [
+        {
+          "title": "Why Jodar's result in Shanghai will have massive implications",
+          "url": "https://www.atptour.com/en/news/jodar-pif-atp-live-race-to-turin-shanghai-2026-update",
+          "source": "ATP Tour"
+        },
+        {
+          "title": "Licensable picture: ATP Masters 1000 - Shanghai Masters",
+          "url": "https://www.reutersconnect.com/item/atp-masters-1000-shanghai-masters/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQUcwTUZVVzA",
+          "source": "Reuters Connect"
+        },
+        {
+          "title": "Tennis | ATP Shanghai 2026 | Casper Ruud and Daniil Medvedev target Shanghai semi-final berth",
+          "url": "https://britwatchsports.com/tennis-atp-shanghai-2026-casper-ruud-and-daniil-medvedev-target-shanghai-semi-final-berth/",
+          "source": "Britwatch Sports"
+        }
+      ],
+      "word_count": 800,
+      "page": "p/tommy-paul-in-focus-as-atp-shanghai-masters-intensifies.html"
+    },
+    {
+      "title": "Tamil Nadu Chief Minister Vijay postpones Thrissur Navratri visit amid bad weather",
+      "slug": "tamil-nadu-chief-minister-vijay-postpones-thrissur-navratri-visit-amid-bad-weather",
+      "topic": "വിജയ്",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "Tamil Nadu Chief Minister Vijay was set to attend the Kalyan Jewellers Navratri event in Thrissur, but heavy rain forced a cancellation. Officials say he will be present tomorrow.",
+      "meta_description": "Tamil Nadu CM Vijay delays his scheduled appearance at Kalyan Jewellers' Navratri celebrations in Thrissur due to severe weather, with a new date set for tomorr",
+      "keywords": [
+        "Vijay",
+        "Tamil Nadu",
+        "Thrissur",
+        "Navratri",
+        "Kalyan Jewellers"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS5k6XXs7zFHhcHSXqyhM57My0Eqj_LukbYUGA_tYJ9VXDF_CjqU4UgH_4MZyU",
+      "related": [
+        {
+          "title": "കല്യാൺ ജ്വല്ലേഴ്സിന്റെ നവരാത്രി ആഘോഷം: തമിഴ്നാട് മുഖ്യമന്ത്രി വിജയ് ഇന്ന് തൃശൂരിൽ",
+          "url": "https://www.manoramaonline.com/business/business-news/2026/10/16/tamil-nadu-cm-vijay-thrissur-kalyan-jewellers-navratri-visit.html",
+          "source": "Manorama Online"
+        },
+        {
+          "title": "മോശം കാലാവസ്ഥ: വിജയ് തൃശ്ശൂരിലേക്ക് എത്തില്ല, സന്ദർശനം റദ്ദാക്കി മടങ്ങി",
+          "url": "https://www.mathrubhumi.com/movies-music/news/tamil-nadu-cm-vijay-cancels-thrissur-visit-wuhcskt8",
+          "source": "Mathrubhumi"
+        },
+        {
+          "title": "വിജയ് നാളെ തൃശൂരിൽ; കല്യാൺ നവരാത്രി ആഘോഷങ്ങളിൽ പങ്കെടുക്കും | Madhyamam",
+          "url": "https://www.madhyamam.com/entertainment/celebrities/tamil-nadu-cm-vijay-to-visit-thrissur-for-kalyan-navratri-celebrations-1563533",
+          "source": "Madhyamam"
+        }
+      ],
+      "word_count": 864,
+      "page": "p/tamil-nadu-chief-minister-vijay-postpones-thrissur-navratri-visit-amid-bad-weather.html"
+    },
+    {
+      "title": "Tamil Daily Horoscopes Draw Massive Reader Interest on Oct 16, 2026",
+      "slug": "tamil-daily-horoscopes-draw-massive-reader-interest-on-oct-16-2026",
+      "topic": "இராசி",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "Major Tamil dailies released today's horoscopes for all twelve zodiac signs, reflecting a surge in readership. The articles underscore astrology's role in everyday decision‑making in India.",
+      "meta_description": "On October 16, 2026, leading Tamil newspapers published detailed daily horoscopes for all zodiac signs, highlighting the enduring popularity of astrology across",
+      "keywords": [
+        "horoscope",
+        "Tamil astrology",
+        "daily rasi",
+        "India",
+        "cultural trends"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRno4CbQ_QfcxXny4k-WrrzASoD2haUT0eBDL2U6i4ZCRKf7_XRwz5gai5ZKNo",
+      "related": [
+        {
+          "title": "மேஷம் முதல் மீனம் வரை: இன்றைய ராசிபலன் 16 அக்டோபர் 2026",
+          "url": "https://www.hindutamil.in/news/astrology/daily-horoscope/daily-horoscope-271",
+          "source": "Hindu Tamil Thisai"
+        },
+        {
+          "title": "நம்பிக்கையுடன் செயல்படுவது நாளை இனிமையாக்கும்: இன்றைய ராசிபலன் - அக்., 16, 2026",
+          "url": "https://www.dailythanthi.com/astrology/today-rasi-palan/today-rasi-palan-in-tamil-october-16-2026",
+          "source": "Daily Thanthi"
+        },
+        {
+          "title": "இன்றைய ராசிப்பலன் - 16.10.2026",
+          "url": "https://www.nakkheeran.in/360-news/today-rasi-palan-16102026-12680257",
+          "source": "Nakkheeran"
+        }
+      ],
+      "word_count": 494,
+      "page": "p/tamil-daily-horoscopes-draw-massive-reader-interest-on-oct-16-2026.html"
+    },
+    {
+      "title": "Sarah Platt verdict announced as Coronation Street drama unfolds",
+      "slug": "sarah-platt-verdict-announced-as-coronation-street-drama-unfolds",
+      "topic": "kit green sarah platt coronation street",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "Sarah Platt’s trial verdict has been announced, sending shockwaves through the Coronation Street community. Viewers can expect new twists as the story moves forward.",
+      "meta_description": "The long‑running soap Coronation Street reaches a pivotal moment as Sarah Platt’s trial verdict is revealed, sparking fresh drama for the residents of Weatherfi",
+      "keywords": [
+        "Coronation Street",
+        "Sarah Platt",
+        "trial verdict",
+        "Weatherfield drama",
+        "British soap"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQBqD_NW8w_nd78Jfv2dSdU2LL-C62p4-30ZTrZfw3pVd2QAtcMAqM2pWeu3nE",
+      "related": [
+        {
+          "title": "7 Coronation Street spoilers for tonight as Gail speaks out on Sarah's trial",
+          "url": "https://www.digitalspy.com/soaps/coronation-street/a74151255/coronation-street-spoilers-gail-speaks-out-sarah-trial/",
+          "source": "Digital Spy"
+        },
+        {
+          "title": "6 Coronation Street spoilers next week: Sarah Platt receives her verdict",
+          "url": "https://www.radiotimes.com/tv/soaps/coronation-street/coronation-street-spoilers-next-week-sarah-platt-verdict-ross-wilkes-twisted-move/",
+          "source": "Radio Times"
+        },
+        {
+          "title": "NEXT WEEK ON THE COBBLES: Sarah’s verdict is in, Ross causes trouble in the Dobbs house and Debbie fears she is losing Ronnie.",
+          "url": "https://www.itv.com/coronationstreet/articles/previews-18oct-24oct26",
+          "source": "ITVX"
+        }
+      ],
+      "word_count": 868,
+      "page": "p/sarah-platt-verdict-announced-as-coronation-street-drama-unfolds.html"
+    },
+    {
+      "title": "Salah Leads Trabzonspor to Major Conference League Victory",
+      "slug": "salah-leads-trabzonspor-to-major-conference-league-victory",
+      "topic": "حسام حسن",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "Mohamed Salah has cemented his status as a pivotal figure for Trabzonspor after leading the team to a significant victory in the Conference League. The Egyptian international set a new personal record in the match against Kuopion, drawing h",
+      "meta_description": "Mohamed Salah drives Trabzonspor to a decisive win in the Conference League, setting a new personal record while manager Risse praises his unique leadership.",
+      "keywords": [
+        "Mohamed Salah",
+        "Trabzonspor",
+        "Conference League",
+        "Hossam Hassan",
+        "Football News"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "5000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTOwECMbm2Cxp8Hyh9e36GupCvXMaMPhHGbPR7LxTt6wbLoHlmnQ5EyVFl8eSI",
+      "related": [
+        {
+          "title": "صلاح يقود طرابزون لفوز كبير في \"المؤتمر\"",
+          "url": "https://www.alarabiya.net/sport/2026/10/15/%D8%B5%D9%84%D8%A7%D8%AD-%D9%8A%D9%82%D9%88%D8%AF-%D8%B7%D8%B1%D8%A7%D8%A8%D8%B2%D9%88%D9%86-%D9%84%D9%81%D9%88%D8%B2-%D9%83%D8%A8%D9%8A%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%A4%D8%AA%D9%85%D8%B10",
+          "source": "العربية"
+        },
+        {
+          "title": "ما الرقم \"التاريخي\" الذي حققه صلاح في مباراة طرابزون سبور وكووبيون؟",
+          "url": "https://arabic.cnn.com/sport/article/2026/10/16/salah-match-trabzonspor-kuopion",
+          "source": "CNN Arabic"
+        },
+        {
+          "title": "ريس يتغنى بمحمد صلاح: لا يوجد أحد مثله.. وسيقودنا للقب المؤتمر",
+          "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B1%D9%8A%D8%B3-%D9%8A%D8%AA%D8%BA%D9%86%D9%89-%D8%A8%D9%85%D8%AD%D9%85%D8%AF-%D8%B5%D9%84%D8%A7%D8%AD-%D9%84%D8%A7-%D9%8A%D9%88%D8%AC%D8%AF-%D8%A7%D9%94%D8%AD%D8%AF-%D9%85%D8%AB%D9%84%D9%87--%D9%88%D8%B3%D9%8A%D9%82%D9%88%D8%AF%D9%86%D8%A7-%D9%84%D9%84%D9%82%D8%A8-%D8%A7%D9%84%D9%85%D9%88%D9%94%D8%AA%D9%85%D8%B1/bltd53ed656bddbf058",
+          "source": "Kooora"
+        }
+      ],
+      "word_count": 860,
+      "page": "p/salah-leads-trabzonspor-to-major-conference-league-victory.html"
+    },
+    {
+      "title": "Pope Leo’s Lung Cancer Surgery Leaves Future of Papacy Uncertain",
+      "slug": "pope-leos-lung-cancer-surgery-leaves-future-of-papacy-uncertain",
+      "topic": "pope leo lung cancer",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "The pontiff has resumed eating, celebrating Mass and walking after a successful operation, yet his upcoming trip to Pakistan is still undecided. Faithful worldwide are watching his recovery closely.",
+      "meta_description": "Pope Leo recovers after lung cancer surgery at the Vatican’s “hospital of the popes,” but his planned Islamabad visit remains uncertain, raising concerns across",
+      "keywords": [
+        "Pope Leo",
+        "lung cancer",
+        "Vatican",
+        "surgery",
+        "papacy"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_zL5Efm6CuRk6E8dpJkFwR7WdRHjd51q2JYjbLaAN4WxdulPm_jzaLdQ9Jss",
+      "related": [
+        {
+          "title": "Pope Leo is eating, celebrating Mass and walking after cancer surgery, but trip is in question",
+          "url": "https://apnews.com/article/vatican-pope-leo-surgery-lung-cancer-08a4aca4e5a6002a1cb9a4ca1ba372cc",
+          "source": "AP News"
+        },
+        {
+          "title": "‘A bolt from the blue’: Shock cancer diagnosis raises uncertainty for Leo’s papacy",
+          "url": "https://www.cnn.com/2026/10/14/europe/pope-leos-diagnosis-raises-questions-about-his-papacy-intl",
+          "source": "CNN"
+        },
+        {
+          "title": "What is the 'hospital of the popes' where Pope Leo is recovering from surgery?",
+          "url": "https://www.dawn.com/news/2037368",
+          "source": "Dawn"
+        }
+      ],
+      "word_count": 551,
+      "page": "p/pope-leos-lung-cancer-surgery-leaves-future-of-papacy-uncertain.html"
+    },
+    {
+      "title": "Police clash with Imran Khan supporters amid protests in Khyber",
+      "slug": "police-clash-with-imran-khan-supporters-amid-protests-in-khyber",
+      "topic": "protest",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "Police and supporters of former Prime Minister Imran Khan clashed in the Khyber region, sparking fears of wider unrest. Authorities say the situation is under control, but tensions remain high.",
+      "meta_description": "Police clash with supporters of former Prime Minister Imran Khan in Khyber, raising concerns over escalating protests in northwestern Pakistan.",
+      "keywords": [
+        "protest",
+        "Khyber",
+        "Imran Khan",
+        "police",
+        "Pakistan"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRnMUhD7hqFfvUFLyq8H-dHJriL7_L9yFgX1HLP1uEtN55BgNWgCbNvl7lp7V4",
+      "related": [
+        {
+          "title": "Police on high alert as Peshawar CCPO visits Bara",
+          "url": "https://www.dawn.com/news/2037173",
+          "source": "Dawn"
+        },
+        {
+          "title": "Police clash with Imran Khan supporters in northwestern Pakistan",
+          "url": "https://www.reuters.com/world/asia-pacific/pakistan-police-fire-tear-gas-rounds-imran-khan-backers-party-says-2026-10-13/",
+          "source": "Reuters"
+        },
+        {
+          "title": "Police claim situation in Khyber under control",
+          "url": "https://tribune.com.pk/story/2634751/police-claim-situation-in-khyber-under-control",
+          "source": "The Express Tribune"
+        }
+      ],
+      "word_count": 764,
+      "page": "p/police-clash-with-imran-khan-supporters-amid-protests-in-khyber.html"
+    },
+    {
+      "title": "Petrol price cut, diesel hike announced as OGRA issues Friday changes",
+      "slug": "petrol-price-cut-diesel-hike-announced-as-ogra-issues-friday-changes",
+      "topic": "پٹرولیم",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "The Oil and Gas Regulatory Authority (OGRA) has lowered petrol prices by Rs 3.63 per litre and raised diesel by Rs 0.31 per litre effective Friday. The move is part of the government's effort to balance consumer affordability with fiscal ne",
+      "meta_description": "Pakistan's OGRA announced a Rs 3.63 per litre cut in petrol and a Rs 0.31 per litre rise in diesel for Friday, aiming to ease commuter costs while modestly boos",
+      "keywords": [
+        "petrol price",
+        "diesel price",
+        "OGRA",
+        "Pakistan fuel policy",
+        "energy market"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSE8_01JXeUgGmOVg5kjLrIlnv4Z_7jw8ZoAmpx4c0m3MdGvDS_LMKQbJGo1ck",
+      "related": [
+        {
+          "title": "اوگرا کا جمعہ کیلئے پٹرولیم مصنوعات کی ایکس ڈپو قیمتوں میں ردوبدل کا نوٹیفکیشن جاری",
+          "url": "https://urdu.app.com.pk/urdu/%D8%A7%D9%88%DA%AF%D8%B1%D8%A7-%DA%A9%D8%A7-%D8%AC%D9%85%D8%B9%DB%81-%DA%A9%DB%8C%D9%84%D8%A6%DB%92-%D9%BE%D9%B9%D8%B1%D9%88%D9%84%DB%8C%D9%85-%D9%85%D8%B5%D9%86%D9%88%D8%B9%D8%A7%D8%AA-%DA%A9%DB%8C-2/",
+          "source": "| Associated Press Of Pakistan"
+        },
+        {
+          "title": "پیٹرول 3 روپے 63 پیسے فی لیٹر سستا، ڈیزل 31 پیسے مہنگا",
+          "url": "https://urdu.brecorder.com/news/40292632",
+          "source": "Brecorder Urdu"
+        },
+        {
+          "title": "حکومت نے پیٹرول سستا، ڈیزل مہنگا کرنے کا اعلان کردیا",
+          "url": "https://www.geonewsurdu.tv/latest/443990-",
+          "source": "geonewsurdu.tv"
+        }
+      ],
+      "word_count": 743,
+      "page": "p/petrol-price-cut-diesel-hike-announced-as-ogra-issues-friday-changes.html"
+    },
+    {
+      "title": "Peshawar school roof collapse kills 35, raises safety concerns",
+      "slug": "peshawar-school-roof-collapse-kills-35-raises-safety-concerns",
+      "topic": "school building",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "A roof collapse at a school in Peshawar has left at least 35 dead and more than 50 injured. The tragedy has sparked nationwide debate over the condition of school facilities.",
+      "meta_description": "A roof collapse at a Peshawar school has killed at least 35 people and injured over 50, prompting calls for reforms in school building safety across Pakistan.",
+      "keywords": [
+        "Peshawar",
+        "school roof collapse",
+        "building safety",
+        "Pakistan education",
+        "infrastructure"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS_B6UZd_Kuc3D_l2lP0ihoR353f-xwxWOxnZGVThoaY-jvwgLpfrpc-AtB1Ws",
+      "related": [
+        {
+          "title": "Teacher, 30 students killed in Peshawar school roof collapse",
+          "url": "https://www.dawn.com/news/2037299",
+          "source": "Dawn"
+        },
+        {
+          "title": "School roof collapse in Pakistan kills at least 35 and injures more than 50",
+          "url": "https://apnews.com/article/pakistan-school-roof-collapse-peshawar-c0be44527f22b43ea16a1f10d4b43e54",
+          "source": "AP News"
+        },
+        {
+          "title": "Classrooms of neglect",
+          "url": "https://tribune.com.pk/story/2635074/classrooms-of-neglect",
+          "source": "The Express Tribune"
+        }
+      ],
+      "word_count": 467,
+      "page": "p/peshawar-school-roof-collapse-kills-35-raises-safety-concerns.html"
+    },
+    {
+      "title": "Pakistan to Chair World Bank and IMF Boards in 2027",
+      "slug": "pakistan-to-chair-world-bank-and-imf-boards-in-2027",
+      "topic": "world bank group",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "Pakistan is set to take over the chairmanship of both the World Bank and IMF Boards in 2027, a position it has not held in more than 70 years. The appointment coincides with the Borrowers’ Platform launching its first Governing Council meet",
+      "meta_description": "Pakistan will chair the World Bank and IMF Boards in 2027, its first such role in over seven decades, highlighting a rise in its global financial influence.",
+      "keywords": [
+        "Pakistan",
+        "World Bank",
+        "IMF",
+        "global finance",
+        "borrowers platform"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRuOlHIH-fEAth94ZGAhtuEwSGeVaMA0FWg9g_4WLLwyt0ye2ke_x2B772_VWU",
+      "related": [
+        {
+          "title": "Pakistan to assume IMF, World Bank board chairmanship for first time in over 7 decades",
+          "url": "https://www.dawn.com/news/2037553",
+          "source": "Dawn"
+        },
+        {
+          "title": "Pakistan to chair World Bank, IMF Boards in 2027",
+          "url": "https://www.brecorder.com/news/40444517",
+          "source": "Business Recorder"
+        },
+        {
+          "title": "Borrowers’ Platform enters new phase with first Governing Council meeting in Bangkok",
+          "url": "https://unctad.org/news/borrowers-platform-enters-new-phase-first-governing-council-meeting-bangkok",
+          "source": "UN Trade and Development (UNCTAD)"
+        }
+      ],
+      "word_count": 716,
+      "page": "p/pakistan-to-chair-world-bank-and-imf-boards-in-2027.html"
+    },
+    {
+      "title": "New York Weather Forecast Highlights Partly Cloudy Conditions",
+      "slug": "new-york-weather-forecast-highlights-partly-cloudy-conditions",
+      "topic": "clima",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "New York City is experiencing typical mid-October weather with partly cloudy skies and mild temperatures. Local forecasts indicate stable conditions for the upcoming weekend.",
+      "meta_description": "New York residents face partly cloudy skies and stable temperatures this week, with forecasts for October 15 and 16 showing typical autumn weather patterns.",
+      "keywords": [
+        "New York weather",
+        "October forecast",
+        "autumn climate",
+        "NYC temperature",
+        "weather update"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "10000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcThMWgQH7gyVRJwPgj6mvNTGSaDHykzq5oA0Xn8juIIx8VCzHMqYzo-PjDK9xI",
+      "related": [
+        {
+          "title": "Pronóstico del clima en Nueva York para este viernes 16 de octubre",
+          "url": "https://eldiariony.com/2026/10/16/pronostico-del-clima-en-nueva-york-para-este-viernes-16-de-octubre/",
+          "source": "El Diario NY"
+        },
+        {
+          "title": "New York tuvo una jornada de cielo parcialmente nublado durante este jueves 15 de octubre",
+          "url": "https://tn.com.ar/estados-unidos/clima/2026/10/15/como-estara-el-clima-en-new-york-este-jueves-15-de-octubre/",
+          "source": "TN"
+        },
+        {
+          "title": "Clima hoy en New York, Estados Unidos: el pronóstico del tiempo para este jueves 15 octubre de 2026",
+          "url": "https://www.clarin.com/estados-unidos/clima/clima-hoy-new-york-estados-unidos-pronostico-tiempo-jueves-15-octubre-2026_0_mC6e1D9rgl.html",
+          "source": "Clarin.com"
+        }
+      ],
+      "word_count": 729,
+      "page": "p/new-york-weather-forecast-highlights-partly-cloudy-conditions.html"
+    },
+    {
+      "title": "NCA AT 11: A Regime’s Illusion of Continuity",
+      "slug": "nca-at-11-a-regimes-illusion-of-continuity",
+      "topic": "nca",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "Coverage linked to \"nca\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "nca: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "nca",
+        "nca news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqMy_GQr2fMLIAV4HaZprw250Hb6gEPCEReJm4CWNm-7xkQIsdNqX5dE55f-Y",
+      "related": [
+        {
+          "title": "NCA AT 11: A Regime’s Illusion of Continuity",
+          "url": "https://english.shannews.org/archives/30362",
+          "source": "Shan Herald Agency for News"
+        },
+        {
+          "title": "Opportune Moment to Launch Peace Process",
+          "url": "https://www.gnlm.com.mm/opportune-moment-to-launch-peace-process/",
+          "source": "Global New Light Of Myanmar"
+        },
+        {
+          "title": "Myanmar marks 11th anniversary of Nationwide Ceasefire Agreement",
+          "url": "https://elevenmyanmar.com/news/myanmar-marks-11th-anniversary-of-nationwide-ceasefire-agreement",
+          "source": "elevenmyanmar.com"
+        }
+      ],
+      "word_count": 322,
+      "page": "p/nca-at-11-a-regimes-illusion-of-continuity.html"
+    },
+    {
+      "title": "Israeli Army Publishes Docs Linking Yahya al‑Sinwar to Oct 7 Attack",
+      "slug": "israeli-army-publishes-docs-linking-yahya-alsinwar-to-oct-7-attack",
+      "topic": "يحيى السنوار",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "The Israeli Defense Forces published files attributed to Hamas leader Yahya al‑Sinwar, claiming they reveal his role in the Oct 7 operation. A personal note from his son was also released, adding a human angle to the controversy.",
+      "meta_description": "Israeli forces released documents they say were written by Hamas commander Yahya al‑Sinwar, detailing the planning of the Oct 7 assault, sparking debate ahead o",
+      "keywords": [
+        "Yahya al‑Sinwar",
+        "Oct 7 attack",
+        "Israeli army documents",
+        "Hamas engineer",
+        "Middle East conflict"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTLHIjjO5GJjFCWxVRgclYzbuI-xJkRIOqPyUBiLJvBtu5Dv_Jr90MYyKM8hJ8",
+      "related": [
+        {
+          "title": "\"بث الرعب في تل أبيب\".. الجيش الإسرائيلي يكشف وثائق منسوبة للسنوار عن هجوم 7 أكتوبر",
+          "url": "https://arabic.euronews.com/2026/10/16/israeli-army-publishes-sinwar-documents-oct-7",
+          "source": "Euronews.com"
+        },
+        {
+          "title": "الجيش الإسرائيلي ينشر رسالة نجل يحيى السنوار",
+          "url": "https://www.eremnews.com/news/arab-world/vjbh56t",
+          "source": "إرم نيوز"
+        },
+        {
+          "title": "الذكرى السنوية الثانية لاستشهاد قائد “حماس” يحيى السنوار… مهندس هجوم السابع من أكتوبر",
+          "url": "https://www.alquds.co.uk/%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%89-%D8%A7%D9%84%D8%B3%D9%86%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9-%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D9%87%D8%A7%D8%AF-%D9%82%D8%A7%D8%A6%D8%AF/",
+          "source": "القدس العربي"
+        }
+      ],
+      "word_count": 671,
+      "page": "p/israeli-army-publishes-docs-linking-yahya-alsinwar-to-oct-7-attack.html"
+    },
+    {
+      "title": "Grand Theft Auto VI Launch Trailer",
+      "slug": "grand-theft-auto-vi-launch-trailer",
+      "topic": "grand theft auto vi launch trailer",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "Coverage linked to \"grand theft auto vi launch trailer\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "grand theft auto vi launch trailer: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "grand theft auto vi launch trailer",
+        "grand theft auto vi launch trailer news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "5000+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR07ooftuCY2wq75iIh82tTWmD1cXAC0XRDEqsop84SROtog8TAOkBL5FzZxF4",
+      "related": [
+        {
+          "title": "Grand Theft Auto VI Launch Trailer",
+          "url": "https://www.rockstargames.com/VI/launch-trailer",
+          "source": "Rockstar Games"
+        },
+        {
+          "title": "'GTA 6': Every trailer released so far",
+          "url": "https://mashable.com/entertainment/gta-grand-theft-auto-6-all-trailers",
+          "source": "Mashable"
+        },
+        {
+          "title": "Justice Composed the Score for Grand Theft Auto VI",
+          "url": "https://pitchfork.com/story/justice-composed-the-score-for-grand-theft-auto-vi/",
+          "source": "Pitchfork"
+        }
+      ],
+      "word_count": 338,
+      "page": "p/grand-theft-auto-vi-launch-trailer.html"
+    },
+    {
+      "title": "FIFA faces calls to scrap Trump peace prize amid political backlash",
+      "slug": "fifa-faces-calls-to-scrap-trump-peace-prize-amid-political-backlash",
+      "topic": "fifa peace prize",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "FIFA’s newly created Peace Prize, first awarded to former US President Donald Trump, has sparked a political firestorm. Senior FIFA figures are urging the governing body to either scrap the award or strip it of political connotations.",
+      "meta_description": "FIFA is reviewing the future of its Peace Prize after former US President Donald Trump received the inaugural award, prompting senior officials to urge its remo",
+      "keywords": [
+        "FIFA",
+        "Peace Prize",
+        "Donald Trump",
+        "Gianni Infantino",
+        "sports politics"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS1-tjQ4ThZ8H-QbJz732GpEWJWPVPxIk6xN_ujzu9x0l4OKKRv1gSmIPIjz-E",
+      "related": [
+        {
+          "title": "Infantino told by top Fifa figures to scrap or depoliticise peace prize after Trump furore",
+          "url": "https://www.theguardian.com/football/2026/oct/16/gianni-infantino-fifa-peace-prize-scrap-politicians-donald-trump",
+          "source": "The Guardian"
+        },
+        {
+          "title": "FIFA to review future of Peace Prize first awarded to Donald Trump",
+          "url": "https://www.usatoday.com/story/sports/soccer/2026/10/15/fifa-peace-prize-future-review-donald-trump/92265542007/",
+          "source": "USA Today"
+        },
+        {
+          "title": "FIFA panel to probe Trump peace prize, decide whether to scrap award",
+          "url": "https://www.palmbeachpost.com/story/news/trump/2026/10/15/fifa-panel-to-probe-trump-peace-prize-decide-whether-to-scrap-award/92266172007/",
+          "source": "The Palm Beach Post"
+        }
+      ],
+      "word_count": 847,
+      "page": "p/fifa-faces-calls-to-scrap-trump-peace-prize-amid-political-backlash.html"
+    },
+    {
+      "title": "Explosion at Intel's Kiryat Gat Plant Leaves Workers Dead, Sends Shares Tumbling",
+      "slug": "explosion-at-intels-kiryat-gat-plant-leaves-workers-dead-sends-shares-tumbling",
+      "topic": "explosion",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "A blast at Intel's Kiryat Gat plant in Israel resulted in worker fatalities and raised safety concerns. The incident triggered a swift sell‑off of Intel shares on U.S. exchanges.",
+      "meta_description": "An explosion at Intel's Kiryat Gat manufacturing facility in Israel killed at least one worker, prompted safety investigations and drove a sharp drop in Intel's",
+      "keywords": [
+        "Intel",
+        "explosion",
+        "Kiryat Gat",
+        "stock market",
+        "US investors"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSrrk2VGqV1GBdsGvhLp_6cwk0RGOt8JqVWxDcUbWya3ZE8bsvTKubGwOzgxD0",
+      "related": [
+        {
+          "title": "Intel factory accident kills two workers in Israel",
+          "url": "https://www.oregonlive.com/silicon-forest/2026/10/intel-accident-kills-two-workers-in-israel.html",
+          "source": "OregonLive.com"
+        },
+        {
+          "title": "Worker dies after explosion at Intel’s Kiryat Gat plant",
+          "url": "https://www.calcalistech.com/ctechnews/article/914lhis9l",
+          "source": "CTech"
+        },
+        {
+          "title": "Why Intel Stock Hit the Skids on Wednesday",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-intel-stock-hit-skids-183252417.html",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "word_count": 734,
+      "page": "p/explosion-at-intels-kiryat-gat-plant-leaves-workers-dead-sends-shares-tumbling.html"
+    },
+    {
+      "title": "British father fined after toddler's death in Cyprus hotel fall",
+      "slug": "british-father-fined-after-toddlers-death-in-cyprus-hotel-fall",
+      "topic": "king evelthon beach hotel and resort",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "A British father has been fined for causing the death of his two-year-old son in a fall at a Cyprus hotel. The case highlights ongoing concerns regarding safety measures for young children in resort accommodations.",
+      "meta_description": "A British man has been fined for causing the death of his two-year-old son at a Cyprus resort. The incident has sparked debate over hotel safety standards for y",
+      "keywords": [
+        "Cyprus hotel fall",
+        "Joshua Foster",
+        "child safety",
+        "British father",
+        "hotel liability"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTQ_UoACEfR2ggQsjNnNKiZjRct7EOC7aqkscyp5NT0gOTCoSdo2XR2790RjRE",
+      "related": [
+        {
+          "title": "Dad fined after son, 2, died in Cyprus hotel fall",
+          "url": "https://www.bbc.co.uk/news/articles/cvj6j1klez88o",
+          "source": "BBC"
+        },
+        {
+          "title": "British father fined for causing death of his two-year-old son in Cyprus",
+          "url": "https://news.sky.com/story/british-father-fined-for-causing-death-of-his-two-year-old-son-in-cyprus-13599857",
+          "source": "Sky News"
+        },
+        {
+          "title": "Joshua Foster: British father avoids jail for causing son's death in Cyprus hotel fall",
+          "url": "https://www.independent.co.uk/news/world/europe/joshua-foster-cyprus-son-sentence-b3067977.html",
+          "source": "The Independent"
+        }
+      ],
+      "word_count": 859,
+      "page": "p/british-father-fined-after-toddlers-death-in-cyprus-hotel-fall.html"
+    },
+    {
+      "title": "Alfredo Adame es condenado tras perder demanda contra periodista, ¿irá…",
+      "slug": "alfredo-adame-es-condenado-tras-perder-demanda-contra-periodista-ira",
+      "topic": "condenado",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "Coverage linked to \"condenado\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "condenado: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "condenado",
+        "condenado news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSczFTXkktSvPjvYLrl6lHd4Krw5JS4-cEzRYKL0wMyNvUIlG8cFdHyvDSq4KY",
+      "related": [
+        {
+          "title": "Alfredo Adame es condenado tras perder demanda contra periodista, ¿irá a prisión?: él rompe el silencio",
+          "url": "https://www.univision.com/famosos/alfredo-adame-condena-demanda-periodista-gustavo-adolfo-infante",
+          "source": "Univision"
+        },
+        {
+          "title": "Alfredo Adame es declarado culpable por discriminación: ¿Cuál es la sentencia que debe cumplir?",
+          "url": "https://www.elfinanciero.com.mx/espectaculos/2026/10/15/cual-es-la-sentencia-de-alfredo-adame-por-discriminacion-en-caso-contra-gustavo-adolfo-infante/",
+          "source": "El Financiero"
+        },
+        {
+          "title": "Alfredo Adame, la justicia tarda, pero llega",
+          "url": "https://www.tabascohoy.com/alfredo-adame-la-justicia-tarda-pero-llega/",
+          "source": "Tabasco HOY"
+        }
+      ],
+      "word_count": 329,
+      "page": "p/alfredo-adame-es-condenado-tras-perder-demanda-contra-periodista-ira.html"
+    },
+    {
+      "title": "\"Compellingly Nutty\": Tom Hardy and Gary Oldman's \"Powerful\" Crime…",
+      "slug": "compellingly-nutty-tom-hardy-and-gary-oldmans-powerful-crime",
+      "topic": "gary oldman",
+      "date": "2026-10-16",
+      "date_pkt": "2026-10-16 03:45 PM PKT",
+      "excerpt": "Coverage linked to \"gary oldman\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "gary oldman: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "gary oldman",
+        "gary oldman news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTO8Rg8b01a0LfBx4VYjLzMCPms58gJCBhUwX1a4I9rw7B3h0xnDlBizJwIzxU",
+      "related": [
+        {
+          "title": "\"Compellingly Nutty\": Tom Hardy and Gary Oldman's \"Powerful\" Crime Thriller is Streaming Now",
+          "url": "https://www.esquire.com/uk/culture/film/a74121334/tom-hardy-gary-oldman-lawless/",
+          "source": "Esquire"
+        },
+        {
+          "title": "'Tom Hardy & Gary Oldman are incredible': This 'gritty' crime thriller is your next unmissable watch",
+          "url": "https://www.cosmopolitan.com/uk/entertainment/a74129591/tom-hardy-gary-oldman-lawless-crime-thriller/",
+          "source": "Cosmopolitan"
+        },
+        {
+          "title": "Tom Hardy and Gary Oldman's crime thriller is streaming again",
+          "url": "https://www.geo.tv/latest/686359-tom-hardy-and-gary-oldmans-crime-thriller-is-streaming-again",
+          "source": "Geo News"
+        }
+      ],
+      "word_count": 336,
+      "page": "p/compellingly-nutty-tom-hardy-and-gary-oldmans-powerful-crime.html"
+    },
     {
       "title": "سعر الدولار في مصر يرتفع مجدداً.. ماذا يحدث للجنيه؟",
       "slug": "news-1792061817",
@@ -18757,996 +19757,6 @@
       ],
       "word_count": 424,
       "page": "p/australia-to-face-brazil-in-friendly-match-as-nations-prepare-for-world-cup.html"
-    },
-    {
-      "title": "Argentina's Friendly Squad Shaken by Juan Foyth Injury and Club Commitments",
-      "slug": "argentinas-friendly-squad-shaken-by-juan-foyth-injury-and-club-commitments",
-      "topic": "friendlies",
-      "date": "2026-09-29",
-      "date_pkt": "2026-09-29 05:10 PM PKT",
-      "excerpt": "Argentina's national team has been hit by a spate of injuries ahead of its scheduled friendlies, with defender Juan Foyth ruled out of the latest call‑up. The setback comes as Villarreal awaits medical clearance for midfielder Comesana, add",
-      "meta_description": "Argentina's squad faces setbacks before friendlies as defender Juan Foyth withdraws with injury, while Villarreal awaits clearance for teammate Comesana.",
-      "keywords": [
-        "Juan Foyth",
-        "Argentina",
-        "football friendlies",
-        "injury",
-        "Villarreal"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT90y8anuPgTuPEykRFbs1tthezTykJ_PdDVBzhdJsYIH63fox6m7B87aTuDA",
-      "related": [
-        {
-          "title": "Juan Foyth Is Out of the Argentina National Team Call-up and Will Stay at His Club",
-          "url": "https://www.beinsports.com/en-us/soccer/friendlies/articles/juan-foyth-is-out-of-the-argentina-national-team-call-up-and-will-stay-at-his-club-2026-09-29",
-          "source": "beIN SPORTS"
-        },
-        {
-          "title": "🚨 Alarm at River and Argentina over injury",
-          "url": "https://sports.yahoo.com/articles/alarm-river-argentina-over-injury-225900666.html",
-          "source": "Yahoo Sports"
-        },
-        {
-          "title": "Foyth returns to the group and Villarreal still has Comesana pending",
-          "url": "https://www.comuniate.com/en/noticias/38186/foyth-returns-to-the-group-and-villarreal-still-has-comesana-pending",
-          "source": "Comuniate"
-        }
-      ],
-      "word_count": 797,
-      "page": "p/argentinas-friendly-squad-shaken-by-juan-foyth-injury-and-club-commitments.html"
-    },
-    {
-      "title": "Andy Burnham to address Labour conference in Liverpool this afternoon",
-      "slug": "andy-burnham-to-address-labour-conference-in-liverpool-this-afternoon",
-      "topic": "what time is andy burnham speech today",
-      "date": "2026-09-29",
-      "date_pkt": "2026-09-29 05:10 PM PKT",
-      "excerpt": "Andy Burnham will speak at the Labour Party conference in Liverpool later today. The speech is slated for the afternoon session, drawing attention from party members and the media.",
-      "meta_description": "Andy Burnham's speech at the Labour Party conference in Liverpool is scheduled for this afternoon, with details on the exact time, key policy points and its sig",
-      "keywords": [
-        "Andy Burnham",
-        "Labour conference",
-        "Liverpool",
-        "speech time",
-        "UK politics"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSqp9a8hOO7T69qKSRagWYwmMZgPdK1GF00Y2hNlnQBlX6mro5PUT19W873Tws",
-      "related": [
-        {
-          "title": "Campaigners welcome Miliband’s claim Palestine Action ban not meant to criminalise ‘grannies’ – UK politics live",
-          "url": "https://www.theguardian.com/politics/live/2026/sep/29/andy-burnham-labour-conference-liverpool-speech-triple-lock-pension-angela-rayner-lucy-powell-bridget-phillipson-uk-politics-latest-news-updates",
-          "source": "The Guardian"
-        },
-        {
-          "title": "The UK is acting with international partners to protect the two-state solution: UK statement at the UN Security Council",
-          "url": "https://www.gov.uk/government/speeches/the-uk-is-acting-with-international-partners-to-protect-the-two-state-solution-uk-statement-at-the-un-security-council",
-          "source": "GOV.UK"
-        },
-        {
-          "title": "Miliband accosted by pro-Palestine activists in Pizza Express",
-          "url": "https://www.telegraph.co.uk/news/2026/09/28/miliband-accosted-by-pro-palestine-activists-pizza-express/",
-          "source": "The Telegraph"
-        }
-      ],
-      "word_count": 835,
-      "page": "p/andy-burnham-to-address-labour-conference-in-liverpool-this-afternoon.html"
-    },
-    {
-      "title": "Alonso confirms Aston Martin stay until 2027 in F1 contract extension",
-      "slug": "alonso-confirms-aston-martin-stay-until-2027-in-f1-contract-extension",
-      "topic": "fernando alonso",
-      "date": "2026-09-29",
-      "date_pkt": "2026-09-29 05:10 PM PKT",
-      "excerpt": "Two-time Formula 1 world champion Fernando Alonso has secured his future with Aston Martin, extending his deal to remain in the sport through the 2027 season. The announcement confirms the team's driver lineup alongside Lance Stroll for the",
-      "meta_description": "Fernando Alonso has extended his contract with Aston Martin, confirming he will race in Formula 1 through the 2027 season. The two-time world champion remains a",
-      "keywords": [
-        "Fernando Alonso",
-        "Aston Martin",
-        "Formula 1",
-        "contract extension",
-        "2027 season"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTfW5U5CDYCrIOF3JOhgdb2cnEoWWECL6G8SLuIY7cRhtUaW-m5vW6nA1vUDOM",
-      "related": [
-        {
-          "title": "Fernando Alonso says 'I still feel as fast as anybody' as he confirms he will stay in F1 in 2027 with Aston Martin",
-          "url": "https://www.bbc.co.uk/sport/formula1/articles/cde0gz51g36o",
-          "source": "BBC"
-        },
-        {
-          "title": "Fernando Alonso will race on in Formula 1 with Aston Martin into the 2027 season having extended his contract.",
-          "url": "https://www.skysports.com/f1/news/13571663/fernando-alonso-aston-martin-confirm-unchanged-line-up-for-2027-f1-season-with-spaniard-and-lance-stroll-extending-contracts",
-          "source": "Sky Sports"
-        },
-        {
-          "title": "Lance Stroll and Fernando Alonso commit to Aston Martin Aramco as 2027 driver line-up is confirmed",
-          "url": "https://www.astonmartinf1.com/en-GB/news/announcement/lance-stroll-and-fernando-alonso-commit-to-aston-martin-aramco",
-          "source": "Aston Martin F1"
-        }
-      ],
-      "word_count": 911,
-      "page": "p/alonso-confirms-aston-martin-stay-until-2027-in-f1-contract-extension.html"
-    },
-    {
-      "title": "4th Quarter-Final, Nisshin, September 29, 2026, Asian Games Men's…",
-      "slug": "4th-quarter-final-nisshin-september-29-2026-asian-games-mens",
-      "topic": "bangladesh vs malaysia",
-      "date": "2026-09-29",
-      "date_pkt": "2026-09-29 05:10 PM PKT",
-      "excerpt": "Coverage linked to \"bangladesh vs malaysia\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "bangladesh vs malaysia: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "bangladesh vs malaysia",
-        "bangladesh vs malaysia news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "20000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR9D_hzp3AsaPnPQ7oUiFSh0NkBITTwfNEaR4KHvtwZyRpAzFCb5x7gqH36XnY",
-      "related": [
-        {
-          "title": "4th Quarter-Final, Nisshin, September 29, 2026, Asian Games Men's Cricket Competition",
-          "url": "https://www.cricinfo.com/series/asian-games-men-s-cricket-competition-2026-1552449/bangladesh-vs-malaysia-4th-quarter-final-1552775/live-cricket-score",
-          "source": "Cricinfo"
-        },
-        {
-          "title": "Tigers ready despite rain-hit preparations in Japan",
-          "url": "http://www.daily-sun.com/sports/900344/tigers-ready-despite-rain-hit-preparations-in-japan",
-          "source": "www.daily-sun.com"
-        },
-        {
-          "title": "‘Waited three years’: Malaysian cricketer says after Bangladesh washout",
-          "url": "https://www.newagebd.net/post/cricket/315835/waited-three-years-malaysian-cricketer-says-after-bangladesh-washout",
-          "source": "New Age BD"
-        }
-      ],
-      "word_count": 335,
-      "page": "p/4th-quarter-final-nisshin-september-29-2026-asian-games-mens.html"
-    },
-    {
-      "title": "திருமண தேதியை அறிவித்த அய்யனார் துணை நாயகி மதுமிதா!",
-      "slug": "news-1790600379",
-      "topic": "மதுமிதா",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "Coverage linked to \"மதுமிதா\" is circulating in IN. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "மதுமிதா: coverage and context for readers in IN. Summary of related reports and what to verify next.",
-      "keywords": [
-        "மதுமிதா",
-        "மதுமிதா news",
-        "IN",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "2000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQbqHwaUqZrZBaVjat0E_glevwWYFFVFIYDkGriGJqkU1ktOvcVxC_68twSc6s",
-      "related": [
-        {
-          "title": "திருமண தேதியை அறிவித்த அய்யனார் துணை நாயகி மதுமிதா!",
-          "url": "https://www.dinamani.com/cinema/cinema-news/2026/Sep/28/ayyanar-thunai-actress-madhumitha-announces-wedding-date",
-          "source": "DinaMani"
-        },
-        {
-          "title": "Madhumitha : காதலனோடு சேர்ந்து கல்யாண தேதியை அறிவித்த அய்யனார் துணை ஹீரோயின் மதுமிதா - குவியும் வாழ்த்து",
-          "url": "https://tamil.asianetnews.com/gallery/television/ayyanar-thunai-serial-heroine-madhumitha-announced-her-marriage-date-f7zv89x",
-          "source": "Asianet News Tamil"
-        },
-        {
-          "title": "காதலனை அறிமுகம் செய்த அய்யனார் துணை நடிகை மதுமிதா!",
-          "url": "https://www.dinamani.com/cinema/cinema-news/2026/Sep/24/ethirneechal-ayyanar-thunai-serial-actress-madhumitha-introduce-her-lover-with-insta-fans",
-          "source": "DinaMani"
-        }
-      ],
-      "word_count": 378,
-      "page": "p/news-1790600379.html"
-    },
-    {
-      "title": "توقعات مباراة كوريا الجنوبية ضد أوروغواي: الفريق الضيف مصمم على وقف تراجعه.",
-      "slug": "news-1790600453",
-      "topic": "كوريا الجنوبية ضد أوروغواي",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "Coverage linked to \"كوريا الجنوبية ضد أوروغواي\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "كوريا الجنوبية ضد أوروغواي: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "كوريا الجنوبية ضد أوروغواي",
-        "كوريا الجنوبية ضد أوروغواي news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "2000+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFVCH5ozknZ4nggBDpvvZc9uvh9Z6k1zMta-yfDGmAfdDydnW9gLCuoAHk9D4",
-      "related": [
-        {
-          "title": "توقعات مباراة كوريا الجنوبية ضد أوروغواي: الفريق الضيف مصمم على وقف تراجعه.",
-          "url": "https://www.vietnam.vn/ar/nhan-dinh-han-quoc-vs-uruguay-khach-quyet-chan-da-sa-sut",
-          "source": "Vietnam.vn"
-        },
-        {
-          "title": "القنوات الناقلة لمباراة أوروجواي ضد كوريا الجنوبية الودية",
-          "url": "https://www.365scores.com/ar/news/magazine/%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A3%D9%88%D8%B1%D9%88%D8%AC%D9%88%D8%A7%D9%8A-%D8%B6%D8%AF-%D9%83-2/",
-          "source": "365Scores"
-        },
-        {
-          "title": "موعد مباراة كوريا الجنوبية ضد أوروجواي والقناة الناقلة",
-          "url": "https://www.youlyou.com/62461",
-          "source": "https://www.youlyou.com/"
-        }
-      ],
-      "word_count": 337,
-      "page": "p/news-1790600453.html"
-    },
-    {
-      "title": "Xbox Series X now runs PlayStation 5 games, raising questions",
-      "slug": "xbox-series-x-now-runs-playstation-5-games-raising-questions",
-      "topic": "playstation 5",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "A new emulator port allows Xbox Series X to play PlayStation 5 games, sparking debate over cross‑platform compatibility. The move could influence buying decisions for UK gamers.",
-      "meta_description": "Xbox Series X has been shown to run PlayStation 5 titles via an experimental emulator, a development that could reshape console competition in the UK.",
-      "keywords": [
-        "PlayStation 5",
-        "Xbox Series X",
-        "emulation",
-        "gaming",
-        "console crossover"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQgsw9ZdUWmiXHs3OZGAlM8k1_qZ3pF6RcfqY-xfnQHoPb373rLQQ9_RErO_7E",
-      "related": [
-        {
-          "title": "The Xbox Series X Can Now Play PlayStation 5 Games - Here's How",
-          "url": "https://www.bgr.com/2266507/xbox-series-x-can-play-playstation-5-games-ps5x/",
-          "source": "BGR"
-        },
-        {
-          "title": "Xbox Series X Gets Experimental PS5 Emulator Port, Quake II Already Running",
-          "url": "https://www.techpowerup.com/352873/xbox-series-x-gets-experimental-ps5-emulator-port-quake-ii-already-running",
-          "source": "TechPowerUp"
-        },
-        {
-          "title": "PS5 Emulation Reaches Another Milestone as Xbox Series X Now Runs PS5 Games",
-          "url": "https://www.pcquest.com/gaming/ps5-emulation-reaches-another-milestone-as-xbox-series-x-now-runs-ps5-games-12559618",
-          "source": "PCQuest"
-        }
-      ],
-      "word_count": 467,
-      "page": "p/xbox-series-x-now-runs-playstation-5-games-raising-questions.html"
-    },
-    {
-      "title": "Treasury Secretary Bessent hires Wall Street economist David Zervos",
-      "slug": "treasury-secretary-bessent-hires-wall-street-economist-david-zervos",
-      "topic": "david zervos",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "Treasury Secretary Scott Bessent announced the hiring of Wall Street economist David Zervos as a senior adviser. The move is expected to add market insight to the Treasury's policy team.",
-      "meta_description": "U.S. Treasury Secretary Scott Bessent has appointed Wall Street economist David Zervos as a senior adviser, bringing market expertise to the department as it sh",
-      "keywords": [
-        "David Zervos",
-        "U.S. Treasury",
-        "Scott Bessent",
-        "economic policy",
-        "Wall Street"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQfaCB-6Px7bzVSDCQOQb-7IqdwwVRttLtf1P-mZ-PTrAPR9tQjY7IE6H7mKtA",
-      "related": [
-        {
-          "title": "Treasury Secretary Scott Bessent hires Wall Street economist David Zervos",
-          "url": "https://www.cnbc.com/2026/09/28/david-zervos-treasury-department-scott-bessent.html",
-          "source": "CNBC"
-        },
-        {
-          "title": "Bessent appoints David Zervos as US Treasury adviser — CNBC",
-          "url": "https://ua.news/en/money/bessent-priznachiv-devida-zervosa-radnikom-minfinu-ssha-cnbc",
-          "source": "UA.NEWS"
-        },
-        {
-          "title": "Treasury Secretary Bessent Hires David Zervos as Counselor",
-          "url": "https://www.tokenpost.com/news/people/24886",
-          "source": "www.tokenpost.com"
-        }
-      ],
-      "word_count": 563,
-      "page": "p/treasury-secretary-bessent-hires-wall-street-economist-david-zervos.html"
-    },
-    {
-      "title": "Three dead, including child, in Channel crossing attempt",
-      "slug": "three-dead-including-child-in-channel-crossing-attempt",
-      "topic": "english channel",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "Coverage linked to \"english channel\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "english channel: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "english channel",
-        "english channel news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "2000+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSjQN-LQfIQdTB8X8hEZF9C4ytwoesVcBwC7Ag5U0ZPxRsQQDwyaMx9kUX8uk",
-      "related": [
-        {
-          "title": "Three dead, including child, in Channel crossing attempt",
-          "url": "https://www.bbc.co.uk/news/articles/c6vgy71rle35o",
-          "source": "BBC"
-        },
-        {
-          "title": "Child among three migrants killed after dinghy capsizes in Channel",
-          "url": "https://www.telegraph.co.uk/news/2026/09/28/three-migrants-dead-after-dinghy-capsizes-in-channel/",
-          "source": "The Telegraph"
-        },
-        {
-          "title": "Two women and a child die attempting to cross English Channel",
-          "url": "https://news.sky.com/story/two-women-and-a-child-die-attempting-to-cross-english-channel-13592605",
-          "source": "Sky News"
-        }
-      ],
-      "word_count": 326,
-      "page": "p/three-dead-including-child-in-channel-crossing-attempt.html"
-    },
-    {
-      "title": "Taylor Swift sets new MTV VMA record, Madonna also wins",
-      "slug": "taylor-swift-sets-new-mtv-vma-record-madonna-also-wins",
-      "topic": "taylor swift",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "Taylor Swift broke the MTV VMA win record at the ceremony, while Madonna added another trophy to her collection. The artist dedicated her award to Dolly Parton, prompting a wave of reactions in Pakistan.",
-      "meta_description": "Taylor Swift became the most awarded artist in MTV Video Music Awards history, breaking the record as Madonna also took home a trophy, sparking excitement acros",
-      "keywords": [
-        "Taylor Swift",
-        "MTV VMAs",
-        "record",
-        "Madonna",
-        "Pakistan"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQkVfFkMtgsKe8hB16Lme1pm4aK5qb6G3UNX_ZHiIC9s6VJYYO9IoKYGEX-4MY",
-      "related": [
-        {
-          "title": "Taylor Swift breaks record for most MTV VMAs as Madonna also wins",
-          "url": "https://www.bbc.com/news/articles/c8ly403p1rwpo",
-          "source": "BBC"
-        },
-        {
-          "title": "Taylor Swift sets record for most VMA wins",
-          "url": "https://images.dawn.com/news/1195916",
-          "source": "Dawn Images"
-        },
-        {
-          "title": "Taylor Swift makes VMAs history and dedicates award to Dolly Parton",
-          "url": "https://www.reuters.com/business/media-telecom/madonna-sabrina-carpenter-lisa-win-mtvs-video-music-awards-2026-09-28/",
-          "source": "Reuters"
-        }
-      ],
-      "word_count": 686,
-      "page": "p/taylor-swift-sets-new-mtv-vma-record-madonna-also-wins.html"
-    },
-    {
-      "title": "South Korea Host Uruguay in Friendly as Kang‑in Shines",
-      "slug": "south-korea-host-uruguay-in-friendly-as-kangin-shines",
-      "topic": "south korea vs uruguay",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "South Korea welcomed Uruguay for a friendly match, drawing crowds eager to see the Korean star Will Lee Kang‑in in action. The game saw a dramatic goal by Uruguay’s De Arasqueta, adding excitement to the encounter.",
-      "meta_description": "South Korea host Uruguay in a friendly match, with star forward Will Lee Kang‑in showcasing his skills and Uruguay’s De Arasqueta scoring a dramatic goal.",
-      "keywords": [
-        "South Korea",
-        "Uruguay",
-        "Will Lee Kang‑in",
-        "De Arasqueta",
-        "friendly match"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRCHfO-nHYLFxvxjFDHQIZnZDYzbWxqbbR7B05AoX4r9N1bnrMxvkIuqhf2eYU",
-      "related": [
-        {
-          "title": "LIVE: Korea vs. Uruguay",
-          "url": "https://www.koreajoongangdaily.com/sports/live-korea-vs-uruguay/12895107",
-          "source": "Korea JoongAng Daily"
-        },
-        {
-          "title": "[Photo] De Arasqueta, this is a killer goal",
-          "url": "https://www.starnewskorea.com/en/sports/2026/09/28/2026092821154214931",
-          "source": "스타뉴스"
-        },
-        {
-          "title": "Will Lee Kang-in (Atletico Madrid), who is showing his best skills, show off his skills on the natio..",
-          "url": "https://www.mk.co.kr/en/sports/12163053",
-          "source": "매일경제"
-        }
-      ],
-      "word_count": 601,
-      "page": "p/south-korea-host-uruguay-in-friendly-as-kangin-shines.html"
-    },
-    {
-      "title": "Shehzad Poonawalla Allegedly Removed From Show After On-Set Clash",
-      "slug": "shehzad-poonawalla-allegedly-removed-from-show-after-on-set-clash",
-      "topic": "shehzad poonawalla",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "A heated on-set incident involving physical aggression has led to the alleged ousting of Shehzad Poonawalla from the second season of a trending Indian web series. The clash, which reportedly involved torn clothing and physical pushing, dre",
-      "meta_description": "Shehzad Poonawalla faces removal from a popular Indian web series following a physical altercation with co-star Siwet Tomar, prompting intervention from cast me",
-      "keywords": [
-        "Shehzad Poonawalla",
-        "Siwet Tomar",
-        "Rise and Fall 2",
-        "Swara Bhasker",
-        "Indian Entertainment"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "2000+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRTuNafex-YiRWlTSogSn9VO7UygtPVIR70hPqC6spc0lscvi64yH8slVDUrk8",
-      "related": [
-        {
-          "title": "सहवाग के शो में हिंसा, शहजाद पूनावाला संग हुई मारपीट! जमीन पर धकेला, कुर्ता पकड़कर घसीटा, फाड़े कपड़े, Video",
-          "url": "https://www.aajtak.in/entertainment/ott/story/shehzad-poonawalla-thrashed-by-siwet-tomar-clothes-torn-aggression-big-fight-swara-bhasker-rise-and-fall-tmovh-dskc-2655351-2026-09-28",
-          "source": "Aaj Tak"
-        },
-        {
-          "title": "शहजाद पूनावाला को सिवेत ने गिराकर पटका और मारा पंच, बचाने दौड़ीं स्वरा भास्कर, Rise and Fall 2 से आउट!",
-          "url": "https://navbharattimes.indiatimes.com/entertainment/web-series/latest/rise-and-fall-2-siwet-tomar-punch-shehzad-poonawalla-during-a-heated-moment-allegedly-ousted-from-the-show/articleshow/134536909.cms",
-          "source": "Navbharat Times"
-        },
-        {
-          "title": "स्वरा भास्कर: 'भाई ने उनको इग्नोर मारा', अभिनेत्री को लेकर ये क्या बोल गए शहजाद पूनावाला, फहाद पर भी कसा तंज",
-          "url": "https://www.amarujala.com/entertainment/rise-and-fall-2-shehzad-poonawalla-swara-bhasker-fight-over-political-career-2026-09-27",
-          "source": "Amar Ujala"
-        }
-      ],
-      "word_count": 792,
-      "page": "p/shehzad-poonawalla-allegedly-removed-from-show-after-on-set-clash.html"
-    },
-    {
-      "title": "Robokidz Eduventures IPO Surges, Investors Gain 90% on First Day",
-      "slug": "robokidz-eduventures-ipo-surges-investors-gain-90-on-first-day",
-      "topic": "निवेशक",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "Robokidz Eduventures saw its shares soar 90% on the first trading day after listing at ₹201.40. The rally, followed by a 10% upper circuit, highlights strong investor enthusiasm in India’s equity market.",
-      "meta_description": "Robokidz Eduventures IPO opens at ₹201.40, delivering a 90% gain to investors on day one, sparking a surge in the Indian equity market. amid a 10% upper circuit",
-      "keywords": [
-        "Robokidz Eduventures",
-        "IPO",
-        "Indian stock market",
-        "investor gains",
-        "upper circuit"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "5000+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWvkhm02buAFmGstlkSRHB3GyHr0xtz_r0lBooioxV-CrsaIbYjuKE5nBQlzs",
-      "related": [
-        {
-          "title": "201.40 रुपये पर लिस्ट हुआ IPO, पहले दिन ही निवेशकों को 90% का फायदा",
-          "url": "https://www.livehindustan.com/business/share-market/robokidz-eduventures-ipo-listed-at-201-40-rupee-investors-gains-90-percent-201790569432894.html",
-          "source": "Hindustan"
-        },
-        {
-          "title": "Robokidz Eduventures IPO: रोबोकिड्स एडुवेंचर्स की गजब शुरुआत! 90% प्रीमियम पर लिस्टिंग के बाद लगा 10% अपर सर्किट",
-          "url": "https://www.jagran.com/business/share-market-robokidz-eduventures-ipo-listing-share-price-double-on-debut-40387529.html",
-          "source": "Jagran"
-        },
-        {
-          "title": "विवेकानंद कॉट्सपिन की स्टॉक मार्केट में मामूली बढ़त के साथ शुरुआत, बाद में खरीदारी के सपोर्ट से लगा अपर सर्किट",
-          "url": "https://www.yugwarta.com/Encyc/2026/9/28/IPO-Listing-Vivekanand-Cotspin.html",
-          "source": "युगवार्ता"
-        }
-      ],
-      "word_count": 415,
-      "page": "p/robokidz-eduventures-ipo-surges-investors-gain-90-on-first-day.html"
-    },
-    {
-      "title": "Paul emerges as a roadblock to homeland security efforts",
-      "slug": "paul-emerges-as-a-roadblock-to-homeland-security-efforts",
-      "topic": "rand paul homeland security committee",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "Coverage linked to \"rand paul homeland security committee\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "rand paul homeland security committee: coverage and context for readers in US. Summary of related reports and what to verify next.",
-      "keywords": [
-        "rand paul homeland security committee",
-        "rand paul homeland security committee news",
-        "US",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcThpcZL1_f608UOxallXCMWCl0yLjxhvqi3mhLqoaNHzS_-7qv5UZVYWSAsPPw",
-      "related": [
-        {
-          "title": "Paul emerges as a roadblock to homeland security efforts",
-          "url": "https://www.politico.com/news/2026/09/28/rand-paul-senate-roadblock-homeland-security-01093700",
-          "source": "Politico"
-        }
-      ],
-      "word_count": 315,
-      "page": "p/paul-emerges-as-a-roadblock-to-homeland-security-efforts.html"
-    },
-    {
-      "title": "Pakistan intensifies counterterrorism after deadly Khyber Pakhtunkhwa attacks",
-      "slug": "pakistan-intensifies-counterterrorism-after-deadly-khyber-pakhtunkhwa-attacks",
-      "topic": "counterterrorism",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "At least 19 people were killed in a series of attacks in Khyber Pakhtunkhwa, sparking a renewed security push. Prime Minister Shehbaz Tarar reaffirmed the government's resolve while opposition voices highlighted systemic flaws.",
-      "meta_description": "Pakistan ramps up counterterrorism measures as 19 people die in Khyber Pakhtunkhwa attacks, prompting Prime Minister Shehbaz Tarar’s pledge and political critic",
-      "keywords": [
-        "counterterrorism",
-        "Pakistan",
-        "Khyber Pakhtunkhwa",
-        "terror attacks",
-        "security"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT1IwNbagyohofMDJFptF9hay8_ymu5U8Sramen7fafobQVuI5guR6lYHAz5f4",
-      "related": [
-        {
-          "title": "Tarar reaffirms resolve to eliminate scourge of terrorism",
-          "url": "https://www.radio.gov.pk/28-09-2026/tarar-reaffirms-resolve-to-eliminate-scourge-of-terrorism",
-          "source": "RADIO PAKISTAN"
-        },
-        {
-          "title": "At least 19 killed in Khyber Pakhtunkhwa over past 24 hours",
-          "url": "https://omidradio.com/en/2026/09/26/at-least-19-killed-in-khyber-pakhtunkhwa-over-past-24-hours/",
-          "source": "امید رادیو"
-        },
-        {
-          "title": "Tallal Chaudhry slams KP govt’s 'flaws' in leadership, resources, authority",
-          "url": "https://www.dawn.com/news/2033266/tallal-chaudhry-slams-kp-govts-flaws-in-leadership-resources-authority",
-          "source": "Dawn"
-        }
-      ],
-      "word_count": 728,
-      "page": "p/pakistan-intensifies-counterterrorism-after-deadly-khyber-pakhtunkhwa-attacks.html"
-    },
-    {
-      "title": "Pakistan Launches New Cybercrime Agency to Tackle Online Fraud",
-      "slug": "pakistan-launches-new-cybercrime-agency-to-tackle-online-fraud",
-      "topic": "national cyber crimes investigation agency",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "Pakistan has created a new agency to tackle cybercrime, focusing on financial fraud and online harassment. The move follows a government directive to strengthen digital law enforcement.",
-      "meta_description": "Pakistan has established a National Cyber Crime Investigation Agency to curb online financial fraud and harassment, amid a drive for stronger cyber law enforcem",
-      "keywords": [
-        "cybercrime",
-        "Pakistan",
-        "online fraud",
-        "National Cyber Crime Investigation Agency",
-        "digital security"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQqxmn-ViXALo2YE2MpaNhkjE3YgidA5uEBlOYeWqEwuulGcSLeGb437MVV0Us",
-      "related": [
-        {
-          "title": "Mohsin Naqvi orders intensified crackdown on cybercrime",
-          "url": "https://tribune.com.pk/story/2631696/mohsin-naqvi-orders-intensified-crackdown-on-cybercrime",
-          "source": "The Express Tribune"
-        },
-        {
-          "title": "NCCIA told to intensify action against online financial fraud",
-          "url": "https://mettisglobal.news/NCCIA-told-to-intensify-action-against-online-financial-fraud-63768",
-          "source": "Mettis Global"
-        },
-        {
-          "title": "Pakistan orders intensified crackdown on online harassment, financial fraud",
-          "url": "https://www.arabnews.pk/pakistan/pakistan-orders-intensified-crackdown-on-online-harassment-financial-fraud-3002492",
-          "source": "Arab News PK"
-        }
-      ],
-      "word_count": 549,
-      "page": "p/pakistan-launches-new-cybercrime-agency-to-tackle-online-fraud.html"
-    },
-    {
-      "title": "Medvedev Advances to Hangzhou Semifinals After Victory Over Wong",
-      "slug": "medvedev-advances-to-hangzhou-semifinals-after-victory-over-wong",
-      "topic": "daniil medvedev",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "Daniil Medvedev moved into the last four of the Hangzhou Open after beating Yuta Wong. His win positions him for a possible semifinal showdown with fellow Russian Roman Safiullin.",
-      "meta_description": "World No.2 Daniil Medvedev defeats Yuta Wong to reach the semifinals of the 2026 ATP Hangzhou Open, setting up a potential clash with Roman Safiullin and boosti",
-      "keywords": [
-        "Daniil Medvedev",
-        "Hangzhou Open",
-        "ATP Tour",
-        "Roman Safiullin",
-        "tennis semifinals"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSZaTk3aPWpn-MUsLoBQI5pX_GOgiYpf9PZYpY-_D35y-m5ZOn9uqvKVqRiV2s",
-      "related": [
-        {
-          "title": "Highlights: Medvedev overcomes Wong to reach last four in Hangzhou 2026",
-          "url": "https://www.atptour.com/en/video/highlights-medvedev-overcomes-wong-to-reach-last-four-in-hangzhou-2026",
-          "source": "ATP Tour"
-        },
-        {
-          "title": "ATP Hangzhou Semifinal Predictions Including Daniil Medvedev vs Roman Safiullin",
-          "url": "https://lastwordonsports.com/tennis/2026/09/27/atp-hangzhou-semifinal-predictions-medvedev-safiullin/",
-          "source": "Last Word On Sports"
-        },
-        {
-          "title": "Medvedev Pushes into Hangzhou Semis",
-          "url": "https://tennisnow.com/medvedev-pushes-into-hangzhou-semis/",
-          "source": "Tennis Now"
-        }
-      ],
-      "word_count": 652,
-      "page": "p/medvedev-advances-to-hangzhou-semifinals-after-victory-over-wong.html"
-    },
-    {
-      "title": "Map Shows Where America Is Bracing For Heavy Snow This Winter",
-      "slug": "map-shows-where-america-is-bracing-for-heavy-snow-this-winter",
-      "topic": "2026 winter forecast heavy snow regions",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "Coverage linked to \"2026 winter forecast heavy snow regions\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "2026 winter forecast heavy snow regions: coverage and context for readers in US. Summary of related reports and what to verify next.",
-      "keywords": [
-        "2026 winter forecast heavy snow regions",
-        "2026 winter forecast heavy snow regions news",
-        "US",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "2000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQF1UwKQF0zMB6awmVgKBdlMOSInr8XLNzLggJYJ7N0Y9YeZxvPtakMPRDhFvg",
-      "related": [
-        {
-          "title": "Map Shows Where America Is Bracing For Heavy Snow This Winter",
-          "url": "https://www.autoblog.com/news/map-shows-where-america-is-bracing-for-heavy-snow-this-winter",
-          "source": "Autoblog"
-        },
-        {
-          "title": "As nor'easter exits, what can we expect this winter? Check predictions",
-          "url": "https://www.delawareonline.com/story/weather/2026/09/27/after-the-noreaster-heres-the-winter-predictions/91918990007/",
-          "source": "The News Journal"
-        },
-        {
-          "title": "NWS, Farmers' Almanac winter forecasts for KY conflict. What each says",
-          "url": "https://www.courier-journal.com/story/weather/local/winter/2026/09/23/kentucky-winter-forecast-nws-farmers-almanac/91904164007/",
-          "source": "The Courier-Journal"
-        }
-      ],
-      "word_count": 353,
-      "page": "p/map-shows-where-america-is-bracing-for-heavy-snow-this-winter.html"
-    },
-    {
-      "title": "Mahathir Mohamad's wife dies after century of public service",
-      "slug": "mahathir-mohamads-wife-dies-after-century-of-public-service",
-      "topic": "مهاتير محمد",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "The wife of Malaysia's longest-serving Prime Minister has died, prompting national mourning. Authorities are preparing a formal state funeral to honor her life and contributions.",
-      "meta_description": "The wife of Malaysia's longest-serving Prime Minister, Mahathir Mohamad, has passed away. The nation prepares for a formal funeral to honor her century of dedic",
-      "keywords": [
-        "Mahathir Mohamad",
-        "Malaysia",
-        "Prime Minister",
-        "Funeral",
-        "Political News"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlRMPX1MKk__juWEEL_awAngLzvqlS6nYBph4wg1_027D8r_mgFNvJB1BGKnI",
-      "related": [
-        {
-          "title": "وفاة زوجة مهاتير محمد أطول رؤساء وزراء ماليزيا بقاء في المنصب",
-          "url": "https://www.alarabiya.net/last-page/2026/09/28/%D9%88%D9%81%D8%A7%D8%A9-%D8%B2%D9%88%D8%AC%D8%A9-%D9%85%D9%87%D8%A7%D8%AA%D9%8A%D8%B1-%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D8%B7%D9%88%D9%84-%D8%B1%D8%A4%D8%B3%D8%A7%D8%A1-%D9%88%D8%B2%D8%B1%D8%A7%D8%A1-%D9%85%D8%A7%D9%84%D9%8A%D8%B2%D9%8A%D8%A7-%D8%A8%D9%82%D8%A7%D8%A1-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B5%D8%A8",
-          "source": "العربية"
-        },
-        {
-          "title": "بعد 100 عام من العطاء.. وفاة زوجة مهاتير محمد وماليزيا تستعد لجنازة رسمية",
-          "url": "https://www.youm7.com/story/2026/9/28/%D8%A8%D8%B9%D8%AF-100-%D8%B9%D8%A7%D9%85-%D9%85%D9%86-%D8%A7%D9%84%D8%B9%D8%B7%D8%A7%D8%A1-%D9%88%D9%81%D8%A7%D8%A9-%D8%B2%D9%88%D8%AC%D8%A9-%D9%85%D9%87%D8%A7%D8%AA%D9%8A%D8%B1-%D9%85%D8%AD%D9%85%D8%AF-%D9%88%D9%85%D8%A7%D9%84%D9%8A%D8%B2%D9%8A%D8%A7/7560623",
-          "source": "اليوم السابع"
-        },
-        {
-          "title": "وفاة زوجة مهاتير محمد أطول رؤساء وزراء ماليزيا بقاء في المنصب",
-          "url": "http://alwatan.kuwait.tt/articledetails.aspx?id=833526&yearquarter=20263",
-          "source": "جـريـدة الوطن"
-        }
-      ],
-      "word_count": 699,
-      "page": "p/mahathir-mohamads-wife-dies-after-century-of-public-service.html"
-    },
-    {
-      "title": "LPG cylinder prices surge across Indian cities amid supply concerns",
-      "slug": "lpg-cylinder-prices-surge-across-indian-cities-amid-supply-concerns",
-      "topic": "তরলীকৃত পেট্রোলিয়াম গ্যাস",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "LPG cylinder rates have jumped in major Indian cities, prompting concerns over household fuel affordability. Consumers are scrambling for the lowest prices as discounts disappear.",
-      "meta_description": "India sees sharp rise in LPG cylinder rates as distributors report higher costs, with discounts fading and consumers in Kolkata, Delhi and Bangalore facing high",
-      "keywords": [
-        "LPG",
-        "cylinder price",
-        "India",
-        "energy",
-        "inflation"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRpXlkErG9ULAT_gMyrEcgG8fzzV0Bmme5q55yQoJxfRmcCarmlmtgTbZ1Jk-o",
-      "related": [
-        {
-          "title": "LPG Cylinder Price: আজ কোথায় সবচেয়ে সস্তায় গ্যাস সিলিন্ডার পাওয়া যাচ্ছে, আপনার শহরে LPG-র লেটেস্ট রেট দেখে নিন",
-          "url": "https://bengali.news18.com/photogallery/business/check-latest-gas-cylinder-rates-in-your-city-dc-2909922.html",
-          "source": "News18 Bengali"
-        },
-        {
-          "title": "পশ্চিম এশিয়ায় সংঘাতের আঁচ পড়ল তেলের বাজারেও! মাসের শেষে কলকাতা-সহ অন্য শহরে ঘরোয়া এলপিজি সিলিণ্ডারের দর কত?",
-          "url": "https://www.aajkaal.in/gallery/lpg-cyclinder-price-hike-check-lpg-cng-png-rates-in-kolkata-delhi-bangalore-and-other-cities-on-28-september-515230",
-          "source": "Aajkaal"
-        },
-        {
-          "title": "এলপিজি সংকটে ২,০০০ টাকা ছাড়িয়েছে ১২ কেজির সিলিন্ডার",
-          "url": "https://thedhakadiary.com/news/27045",
-          "source": "ঢাকা ডায়েরি"
-        }
-      ],
-      "word_count": 599,
-      "page": "p/lpg-cylinder-prices-surge-across-indian-cities-amid-supply-concerns.html"
-    },
-    {
-      "title": "Kyle MacLachlan Reflects on David Lynch Legacy and New Projects",
-      "slug": "kyle-maclachlan-reflects-on-david-lynch-legacy-and-new-projects",
-      "topic": "kyle maclachlan",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "Actor Kyle MacLachlan has opened up about his enduring collaboration with director David Lynch, while also addressing recent personal changes. The interview also hints at new film projects that could shape his career.",
-      "meta_description": "Actor Kyle MacLachlan discusses his long‑time partnership with David Lynch, his personal life changes, and upcoming film projects in recent interviews.",
-      "keywords": [
-        "Kyle MacLachlan",
-        "David Lynch",
-        "Laura Dern",
-        "Lara Flynn Boyle",
-        "film career"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQKselr7KZMMH21O2uJIZMAhWueT_rJZFyfEIEa2_DLtTmAW-cO9ooTStN1OwU",
-      "related": [
-        {
-          "title": "Kyle MacLachlan: David Lynch’s Singular Weirdo Is Secretly a Normie",
-          "url": "https://www.nytimes.com/2026/09/27/movies/kyle-maclachlan-memoir-david-lynch-twin-peaks-sex-and-the-city.html",
-          "source": "The New York Times"
-        },
-        {
-          "title": "Kyle MacLachlan: I still feel lost without David Lynch",
-          "url": "https://www.thetimes.com/magazines/the-sunday-times-magazine/article/kyle-maclachlan-interview-xrfz3rvmd",
-          "source": "The Times"
-        },
-        {
-          "title": "Where Kyle MacLachlan Stands With Ex Laura Dern After Leaving Her to Date Costar Lara Flynn Boyle",
-          "url": "https://www.eonline.com/news/1436312/kyle-maclachlan-speaks-on-laura-dern-breakup-dating-lara-flynn-boyle",
-          "source": "E! News"
-        }
-      ],
-      "word_count": 561,
-      "page": "p/kyle-maclachlan-reflects-on-david-lynch-legacy-and-new-projects.html"
-    },
-    {
-      "title": "Kerala CM V.D. Satheesan Faces Media Backlash Over Security and Flight Row",
-      "slug": "kerala-cm-vd-satheesan-faces-media-backlash-over-security-and-flight-row",
-      "topic": "മുഖ്യമന്ത്രി",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "Kerala Chief Minister V.D. Satheesan has become the center of a political storm following reports of enhanced security measures and a heated exchange with journalists. The incident has intensified public interest in his leadership style and",
-      "meta_description": "Kerala Chief Minister V.D. Satheesan faces scrutiny as police boost his security and he confronts reporters over a flight controversy, sparking public debate.",
-      "keywords": [
-        "V.D. Satheesan",
-        "Kerala Chief Minister",
-        "Security Protocol",
-        "Media Confrontation",
-        "Flight Controversy"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRDrcBiVqRmp0IlexMZYMVW22J6H28rpfTzSBfAfI79LwU9XjGmYLRgFNpDDSA",
-      "related": [
-        {
-          "title": "തിക്കും തിരക്കും 'ഭീഷണി'; മുഖ്യമന്ത്രിയുടെ 'സുരക്ഷ' കൂട്ടും",
-          "url": "https://www.samakalikamalayalam.com/news/kerala/kerala-police-enhance-security-chief-minister-vd-satheesan",
-          "source": "Samakalika Malayalam"
-        },
-        {
-          "title": "'ഞാൻ നിങ്ങളെ കാണുന്നില്ല, ദയവായി മാറി നിൽക്ക്'; മാധ്യമങ്ങളോട് ക്ഷുഭിതനായി മുഖ്യമന്ത്രി വി.ഡി. സതീശൻ",
-          "url": "https://www.asianetnews.com/kerala-news/chief-minister-v-d-satheesan-gets-angry-with-the-media-articleshow-1hw2n0b",
-          "source": "Asianet News Malayalam"
-        },
-        {
-          "title": "‘ഞാന്‍ നിങ്ങളെ കാണുന്നില്ല, ദയവായി മാറിനില്‍ക്കൂ’; വിമാന വിവാദത്തില്‍ പ്രതികരിക്കാതെ മുഖ്യമന്ത്രി",
-          "url": "https://www.manoramaonline.com/news/latest-news/2026/09/25/chief-minister-v-d-satheesan-skips-media-on-flight-controversy.html",
-          "source": "Manorama Online"
-        }
-      ],
-      "word_count": 964,
-      "page": "p/kerala-cm-vd-satheesan-faces-media-backlash-over-security-and-flight-row.html"
-    },
-    {
-      "title": "Kelvin Wave Threatens West Coast as El Niño Raises Sea Levels",
-      "slug": "kelvin-wave-threatens-west-coast-as-el-nino-raises-sea-levels",
-      "topic": "kelvin wave",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "A massive Kelvin wave is moving toward California, raising concerns about higher tides and storm surges. The phenomenon arrives as El Niño lifts baseline sea levels, prompting warnings from U.S. agencies.",
-      "meta_description": "Scientists warn a slow‑moving planetary Kelvin wave is heading for California, compounding El Niño‑driven sea‑level rise and prompting coastal alerts.",
-      "keywords": [
-        "Kelvin wave",
-        "El Niño",
-        "sea level rise",
-        "California coast",
-        "climate monitoring"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQQy-vZDmZS9JRTf0_BZLOmPMp5XGc0dCZMgCRQNsmnLtwnLwWlzyXgD8kJvss",
-      "related": [
-        {
-          "title": "Concern mounts over slow-moving, planetary-scale ‘kelvin’ wave heading for California",
-          "url": "https://www.theguardian.com/us-news/2026/sep/28/california-kelvin-wave",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Letter to the Editor: El Niño to Increase Baseline Sea Levels",
-          "url": "https://outlooknewspapers.com/lacanadaoutlook/letter-to-the-editor-el-ni-o-to-increase-baseline-sea-levels/article_007c42dd-4b8b-41ea-9d1a-f0fe9b3774f7.html",
-          "source": "Outlook Newspapers"
-        },
-        {
-          "title": "How not to embarrass yourself talking about El Niño",
-          "url": "https://lamaterial.com/p/how-not-to-embarrass-yourself-talking-about-el-nino",
-          "source": "L.A. Material"
-        }
-      ],
-      "word_count": 644,
-      "page": "p/kelvin-wave-threatens-west-coast-as-el-nino-raises-sea-levels.html"
-    },
-    {
-      "title": "Kahbub Mountains: New Front in Yemen Conflict",
-      "slug": "kahbub-mountains-new-front-in-yemen-conflict",
-      "topic": "كهبوب",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "Recent military shifts in Yemen highlight the strategic importance of the Kahbub mountain range. Analysts suggest this terrain could alter the trajectory of the ongoing conflict.",
-      "meta_description": "The Kahbub mountains are emerging as a critical strategic point in the Yemen conflict, influencing the balance of power between Houthi forces and government-ali",
-      "keywords": [
-        "Kahbub",
-        "Yemen Conflict",
-        "Houthi Forces",
-        "Strategic Terrain",
-        "Military Analysis"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm5uIuDJyytFbO24UjsBbhCBL3CNwOZK8xkteN3QgfINOD5ir6FScVAmu7EjI",
-      "related": [
-        {
-          "title": "باب المندب.. هل تقلب جبال كهبوب المعركة ضد الحوثيين؟",
-          "url": "https://www.skynewsarabia.com/middle-east/1894765-%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%86%D8%AF%D8%A8-%D8%AA%D9%82%D9%84%D8%A8-%D8%AC%D8%A8%D8%A7%D9%84-%D9%83%D9%87%D8%A8%D9%88%D8%A8-%D8%A7%D9%84%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%B6%D8%AF-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%8A%D9%86",
-          "source": "سكاي نيوز عربية"
-        },
-        {
-          "title": "من البحر الأحمر إلى تعز ومأرب.. كيف يوسّع الحوثيون نفوذهم؟",
-          "url": "https://arabic.cnn.com/middle-east/article/2026/09/23/yemen-houthis-areas-contole-map-infographic",
-          "source": "CNN Arabic"
-        },
-        {
-          "title": "من جمود الجبهات إلى تماس متحرك.. ماذا تغيّر في خريطة السيطرة العسكرية باليمن؟",
-          "url": "https://www.aljazeera.net/news/2026/9/24/%D9%85%D9%86-%D8%AC%D9%85%D9%88%D8%AF-%D8%A7%D9%84%D8%AC%D8%A8%D9%87%D8%A7%D8%AA-%D8%A5%D9%84%D9%89-%D8%AA%D9%85%D8%A7%D8%B3-%D9%85%D8%AA%D8%AD%D8%B1%D9%83-%D9%85%D8%A7%D8%B0%D8%A7",
-          "source": "الجزيرة نت"
-        }
-      ],
-      "word_count": 643,
-      "page": "p/kahbub-mountains-new-front-in-yemen-conflict.html"
-    },
-    {
-      "title": "Japan vs Venezuela: Friendlies stats & head-to-head",
-      "slug": "japan-vs-venezuela-friendlies-stats-head-to-head",
-      "topic": "japan vs venezuela",
-      "date": "2026-09-28",
-      "date_pkt": "2026-09-28 05:58 PM PKT",
-      "excerpt": "Coverage linked to \"japan vs venezuela\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "japan vs venezuela: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "japan vs venezuela",
-        "japan vs venezuela news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "5000+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRRwOvZeQ1RCOectFBbNzb90RO0iFo7744EKusCTrxY7EliGaxoFxKykWOMiEA",
-      "related": [
-        {
-          "title": "Japan vs Venezuela: Friendlies stats & head-to-head",
-          "url": "https://www.bbc.com/sport/football/live/ckx2zjnnrlezt",
-          "source": "BBC"
-        },
-        {
-          "title": "Preview: Japan vs Venezuela - prediction, team news, lineups",
-          "url": "https://www.sportsmole.co.uk/football/japan/preview/japan-vs-venezuela-prediction-team-news-lineups_605849.html",
-          "source": "Sports Mole"
-        },
-        {
-          "title": "Aramburu and Yangel Herrera face Kubo’s Japan in Hiroshima friendly today",
-          "url": "https://onefootball.com/en/news/aramburu-and-yangel-herrera-face-kubos-japan-in-hiroshima-friendly-today-43530050",
-          "source": "OneFootball"
-        }
-      ],
-      "word_count": 329,
-      "page": "p/japan-vs-venezuela-friendlies-stats-head-to-head.html"
     }
   ]
 }
