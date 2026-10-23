@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T11:14:17.955507+00:00",
-  "updated_at_pkt": "2026-10-22 04:11 PM PKT",
+  "updated_at": "2026-10-23T11:06:08.714824+00:00",
+  "updated_at_pkt": "2026-10-23 04:03 PM PKT",
   "count": 500,
-  "new_in_this_run": 28,
+  "new_in_this_run": 30,
   "sources": [
     "https://trends.google.com/trending/rss?geo=PK",
     "https://trends.google.com/trending/rss?geo=IN",
@@ -11,6 +11,1206 @@
     "https://trends.google.com/trending/rss?geo=SA"
   ],
   "items": [
+    {
+      "title": "‘ഇന്നലത്തെ കുറിപ്പ് ഭീഷണിപ്പെടുത്തലിന്റെ ഭാഗം; ദിവ്യ തുറന്നു പറഞ്ഞാൽ പല…",
+      "slug": "news-1792753486",
+      "topic": "manorama news",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Coverage linked to \"manorama news\" is circulating in IN. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "manorama news: coverage and context for readers in IN. Summary of related reports and what to verify next.",
+      "keywords": [
+        "manorama news",
+        "manorama news news",
+        "IN",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRczZPFvlG6SWQR5TzPc_33YPdknnHWDFP3GN0-KZ913qUd9igqyicRfMkNxpI",
+      "related": [
+        {
+          "title": "‘ഇന്നലത്തെ കുറിപ്പ് ഭീഷണിപ്പെടുത്തലിന്റെ ഭാഗം; ദിവ്യ തുറന്നു പറഞ്ഞാൽ പല സിപിഎം നേതാക്കളും കുടുങ്ങും’",
+          "url": "https://www.manoramaonline.com/news/latest-news/2026/10/23/pp-divya-vigilance-probe-carton-india-muhammed-shammas-ksu-interview.html",
+          "source": "Manorama Online"
+        },
+        {
+          "title": "കണ്ണൂര്‍ ജില്ലാ പഞ്ചായത്തിലെ ക്രമക്കേട്; പി പി ദിവ്യക്കെതിരെ വിജിലൻസ് അന്വേഷണം",
+          "url": "https://www.asianetnews.com/kerala-news/vigilance-probe-against-cpm-leader-p-p-divya-over-irregularities-in-kannur-district-panchayat-articleshow-es2c5yc",
+          "source": "Asianet News Malayalam"
+        },
+        {
+          "title": "ജില്ലാ പഞ്ചായത്ത് പ്രസിഡന്റായിരുന്ന കാലത്തെ ക്രമക്കേടുകള്‍: പി.പി ദിവ്യയ്‌ക്കെതിരെ വിജിലന്‍സ് അന്വേഷണം",
+          "url": "https://www.suprabhaatham.com/details/474819/vigilance-probe-pp-divya-district-panchayat-irregularities",
+          "source": "Suprabhaatham"
+        }
+      ],
+      "word_count": 405,
+      "page": "p/news-1792753486.html"
+    },
+    {
+      "title": "রিয়াদ বিমানবন্দরে হামলায় নিহত এক বাংলাদেশির মরদেহ দেশে পৌঁছেছে",
+      "slug": "news-1792753555",
+      "topic": "শামা ওবায়েদ",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Coverage linked to \"শামা ওবায়েদ\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "শামা ওবায়েদ: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "শামা ওবায়েদ",
+        "শামা ওবায়েদ news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRwTNXlBGnQBeEE5cK9L-sXNyIEhbGGYNItstykKS4bGJInzEhClCwbvmo6jGo",
+      "related": [
+        {
+          "title": "রিয়াদ বিমানবন্দরে হামলায় নিহত এক বাংলাদেশির মরদেহ দেশে পৌঁছেছে",
+          "url": "https://bn.dailynewnation.com/news/184175/",
+          "source": "The New Nation Bangla"
+        },
+        {
+          "title": "আটকে পড়া প্রবাসীদের সৌদি ভিসা ও আকামার মেয়াদ বাড়াতে সরকার কাজ করছে: পররাষ্ট্র প্রতিমন্ত্রী",
+          "url": "https://bangla.thedailystar.net/news/bangladesh/news-3973501",
+          "source": "দ্য ডেইলি স্টার বাংলা"
+        },
+        {
+          "title": "‘আব্বু আমাকে ব্যবসায়ী বানাতে চেয়েছিল, তা আর হলো না’",
+          "url": "https://www.jagonews24.com/national/news/1171127",
+          "source": "Jagonews24"
+        }
+      ],
+      "word_count": 399,
+      "page": "p/news-1792753555.html"
+    },
+    {
+      "title": "منذ رباعية 2022.. برناوي الوحيد في الفيصلي.. و4 في النصر",
+      "slug": "2022-4",
+      "topic": "النصر والفيصلي",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Coverage linked to \"النصر والفيصلي\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "النصر والفيصلي: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "النصر والفيصلي",
+        "النصر والفيصلي news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZjclLt7gDIDBlrBc6oB-sPJdmXbL-2r8aqVhSim7mls9QvPI9TWMfF1BHypA",
+      "related": [
+        {
+          "title": "منذ رباعية 2022.. برناوي الوحيد في الفيصلي.. و4 في النصر",
+          "url": "https://www.alarabiya.net/sport/2026/10/22/%D9%85%D9%86%D8%B0-%D8%B1%D8%A8%D8%A7%D8%B9%D9%8A%D8%A9-2022-%D8%A7%D9%84%D9%88%D8%AD%D9%8A%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D9%81%D9%8A%D8%B5%D9%84%D9%8A-%D9%884-%D9%81%D9%8A-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-",
+          "source": "العربية"
+        },
+        {
+          "title": "الفيصلي «جاهز» للنصر... وتوسعة الملعب تحفز الجماهير",
+          "url": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/5332456-%D8%A7%D9%84%D9%81%D9%8A%D8%B5%D9%84%D9%8A-%D8%AC%D8%A7%D9%87%D8%B2-%D9%84%D9%84%D9%86%D8%B5%D8%B1-%D9%88%D8%AA%D9%88%D8%B3%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D8%B9%D8%A8-%D8%AA%D8%AD%D9%81%D8%B2-%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1",
+          "source": "الشرق الأوسط"
+        },
+        {
+          "title": "النصر يواجه الفيصلي بقائمة نيوم",
+          "url": "https://arriyadiyah.com/903048/%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D9%8A%D9%88%D8%A7%D8%AC%D9%87-%D8%A7%D9%84%D9%81%D9%8A%D8%B5%D9%84%D9%8A-%D8%A8%D9%82%D8%A7%D8%A6%D9%85%D8%A9-%D9%86%D9%8A%D9%88%D9%85",
+          "source": "صحيفة الرياضية"
+        }
+      ],
+      "word_count": 319,
+      "page": "p/2022-4.html"
+    },
+    {
+      "title": "الجنيه المصري يهبط إلى أدنى مستوى في تاريخه أمام الدولار عند 54.95 جنيه…",
+      "slug": "5495",
+      "topic": "سعر الدولار اليوم مقابل الجنيه المصري",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Coverage linked to \"سعر الدولار اليوم مقابل الجنيه المصري\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "سعر الدولار اليوم مقابل الجنيه المصري: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "سعر الدولار اليوم مقابل الجنيه المصري",
+        "سعر الدولار اليوم مقابل الجنيه المصري news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "2000+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS2ZMgs7L7wY1hze8JKfU8_4MrCyimnVhD0VfjhMQvKXMzoyWe4Ti_l7bxF5UA",
+      "related": [
+        {
+          "title": "الجنيه المصري يهبط إلى أدنى مستوى في تاريخه أمام الدولار عند 54.95 جنيه للبيع",
+          "url": "https://sabq.org/article/33lhr7i",
+          "source": "صحيفة سبق الإلكترونية"
+        },
+        {
+          "title": "قفزة مفاجئة للدولار في مصر.. العملة الأمريكية تكسر حاجز 55 جنيهاً",
+          "url": "https://www.okaz.com.sa/economy/na/2271959",
+          "source": "عكاظ"
+        },
+        {
+          "title": "الدولار يتجاوز 55 جنيهاً في مصر.. والجنيه يسجل أدنى مستوى تاريخي",
+          "url": "https://www.alarabiya.net/aswaq/egypt-economy/2026/10/22/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-%D9%8A%D8%B9%D9%88%D8%AF-%D9%84%D9%84%D8%A7%D8%B1%D8%AA%D9%81%D8%A7%D8%B9-%D9%85%D9%83%D8%B3%D8%A8-%D9%82%D9%8A%D8%A7%D8%B3%D9%8A-%D8%AC%D8%AF%D9%8A%D8%AF",
+          "source": "العربية"
+        }
+      ],
+      "word_count": 354,
+      "page": "p/5495.html"
+    },
+    {
+      "title": "أزهري يوضح كيف حث الإسلام على احترام الآخرين",
+      "slug": "news-1792753558",
+      "topic": "خطبة الجمعة اليوم",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Coverage linked to \"خطبة الجمعة اليوم\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "خطبة الجمعة اليوم: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "خطبة الجمعة اليوم",
+        "خطبة الجمعة اليوم news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9_bT9vFq9UN7dajLXv_kj5Kp1gj7NdOQc4zy7Eu1o9zjJ6ujz2pmE6LOTUco",
+      "related": [
+        {
+          "title": "أزهري يوضح كيف حث الإسلام على احترام الآخرين",
+          "url": "https://www.masrawy.com/news/news_egypt/details/2026/10/23/3067268/-%D8%A3%D8%B2%D9%87%D8%B1%D9%8A-%D9%8A%D9%88%D8%B6%D8%AD-%D9%83%D9%8A%D9%81-%D8%AD%D8%AB-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85-%D8%B9%D9%84%D9%89-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%85-%D8%A7%D9%84%D8%A2%D8%AE%D8%B1%D9%8A%D9%86",
+          "source": "Masrawy"
+        },
+        {
+          "title": "موضوع خطبة الجمعة اليوم.. أئمة الأوقاف يتحدثون عن قيمة يجب الالتزام بها في الحياة اليومية",
+          "url": "https://www.mobtada.com/egypt/1662150/%D9%85%D9%88%D8%B6%D9%88%D8%B9-%D8%AE%D8%B7%D8%A8%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A3%D8%A6%D9%85%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%82%D8%A7%D9%81-%D9%8A%D8%AA%D8%AD%D8%AF%D8%AB%D9%88%D9%86-%D8%B9%D9%86-%D9%82%D9%8A%D9%85%D8%A9-%D9%8A%D8%AC%D8%A8-%D8%A7%D9%84%D8%A7%D9%84%D8%AA%D8%B2%D8%A7%D9%85-%D8%A8%D9%87%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9",
+          "source": "مبتدا"
+        },
+        {
+          "title": "خطبة الجمعة الثانية من جمادى الأول 1448.. الكلمة الطيبة واحترام الخصوصية أبرز رسائل الأوقاف",
+          "url": "https://www.cairo24.com/2516229",
+          "source": "القاهرة 24"
+        }
+      ],
+      "word_count": 338,
+      "page": "p/news-1792753558.html"
+    },
+    {
+      "title": "TFRD announces reduced evacuation zone, end to shelter-in-place order…",
+      "slug": "tfrd-announces-reduced-evacuation-zone-end-to-shelter-in-place-order",
+      "topic": "wtol school closings",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Coverage linked to \"wtol school closings\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "wtol school closings: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "wtol school closings",
+        "wtol school closings news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQorVXE6gQXZi074u3lu3eA6E1zTRcJu0yTvgvAzjKkiIPRttDHY33BDYq3O6I",
+      "related": [
+        {
+          "title": "TFRD announces reduced evacuation zone, end to shelter-in-place order after chemical release",
+          "url": "https://www.13abc.com/2026/10/21/hazmat-crews-responding-hazardous-materials-leak-north-toledo/",
+          "source": "WTVG"
+        },
+        {
+          "title": "Toledo neighbors report health symptoms after chemical leak",
+          "url": "https://www.wtol.com/article/news/local/toledo-neighbors-reporting-health-symptoms-after-chemical-leak/512-0cc608e9-a440-4fb6-bf6b-8220495bea34",
+          "source": "WTOL"
+        },
+        {
+          "title": "‘Error’ caused Toledo chemical leak, EPA says, triggering evacuations and calls to stay inside",
+          "url": "https://www.cnn.com/2026/10/21/us/live-news/toledo-chemical-tank-explosion-ohio",
+          "source": "CNN"
+        }
+      ],
+      "word_count": 336,
+      "page": "p/tfrd-announces-reduced-evacuation-zone-end-to-shelter-in-place-order.html"
+    },
+    {
+      "title": "Saturn’s Sade Sati to Impact Kumbh Sign in Late 2026, Experts Warn",
+      "slug": "saturns-sade-sati-to-impact-kumbh-sign-in-late-2026-experts-warn",
+      "topic": "कुंभ",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Astrologers warn that the Saturn Sade Sati period will begin affecting Kumbh natives in November 2026. The phase is expected to shape decisions in work and personal life.",
+      "meta_description": "Astrologers say Saturn’s Sade Sati will affect those born under the Kumbh (Aquarius) sign during November‑December 2026, influencing career and health across In",
+      "keywords": [
+        "Kumbh",
+        "Saturn",
+        "Sade Sati",
+        "2026",
+        "India"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsG-ealQzoopHxe8DgGRma9aLBkwDlZwa81nWkFhjLdvtgawtetlW6qkw7pds",
+      "related": [
+        {
+          "title": "कुंभ राशि से उतर रही साढ़ेसाती, नवंबर-दिसंबर में कैसा रहेगा शनि का प्रभाव?",
+          "url": "https://www.livehindustan.com/astrology/kumbh-rashi-ke-liye-november-aur-december-2026-mahina-kaisa-rahega-shani-sadesati-ka-kaisa-rahega-prabhav-201792725045769.html",
+          "source": "Hindustan"
+        },
+        {
+          "title": "2027 में मेष सहित इन राशि के लोगों पर होगी शनि की नजर, बिजनेस-नौकरी में लापरवाही पड़ेगी भारी",
+          "url": "https://www.amarujala.com/photo-gallery/astrology/predictions/shani-sade-sati-2027-rashi-name-and-impact-know-shani-sade-sati-rashifal-in-hindi-2026-10-23",
+          "source": "Amar Ujala"
+        },
+        {
+          "title": "Shani Sadhe Sati 2027: साल 2027 में किन राशियों को मिलेगी शनि की साढ़े साती और ढैय्या से राहत, किन्हें करना होगा और इंतजार",
+          "url": "https://www.prabhatkhabar.com/rashifal/shani-sadhe-sati-2027-effect-and-relief-on-this-rashi-and-start-good-for-singh-kumbh",
+          "source": "Prabhat Khabar"
+        }
+      ],
+      "word_count": 698,
+      "page": "p/saturns-sade-sati-to-impact-kumbh-sign-in-late-2026-experts-warn.html"
+    },
+    {
+      "title": "Sam Altman Outlines Three AI Endgames, Sparks Debate Over GPU Power",
+      "slug": "sam-altman-outlines-three-ai-endgames-sparks-debate-over-gpu-power",
+      "topic": "sam altman",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Sam Altman has presented three scenarios for the future of artificial intelligence, sparking debate over the role of GPUs and global regulation. Experts weigh the implications for the tech industry and national security.",
+      "meta_description": "Sam Altman has outlined three possible futures for AI, raising concerns about GPU dominance and global oversight. The tech community reacts to his proposals.",
+      "keywords": [
+        "Sam Altman",
+        "AI safety",
+        "GPU dominance",
+        "OpenAI",
+        "technology policy"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT1TezCs6tdy5qgt-o3okCwk8sSrv3VWViDUpm9l11hJowRA2kcr-IrDbEwXMY",
+      "related": [
+        {
+          "title": "Sam Altman Reportedly Laid Out Three Endgames For AI, And One Ends With Rivals’ GPUs ‘Melted’",
+          "url": "https://www.forbes.com/sites/anishasircar/2026/10/22/sam-altman-reportedly-laid-out-three-endgames-for-ai-and-one-ends-with-rivals-gpus-melted/",
+          "source": "Forbes"
+        },
+        {
+          "title": "Sam Altman's Three Paths to AI's Endgame: From Global Watchdog to 'Terrible' GPU Takeover",
+          "url": "https://www.inkl.com/news/sam-altmans-three-paths-to-ais-endgame-from-global-watchdog-to-terrible-gpu-takeover",
+          "source": "inkl"
+        },
+        {
+          "title": "Sam Altman’s three endings for the AI safety race",
+          "url": "https://www.therundown.ai/articles/sam-altman-three-endings-for-the-ai-safety-race",
+          "source": "The Rundown AI"
+        }
+      ],
+      "word_count": 675,
+      "page": "p/sam-altman-outlines-three-ai-endgames-sparks-debate-over-gpu-power.html"
+    },
+    {
+      "title": "Qatar boosts digital business through e-commerce licence",
+      "slug": "qatar-boosts-digital-business-through-e-commerce-licence",
+      "topic": "qatar",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Coverage linked to \"qatar\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "qatar: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "qatar",
+        "qatar news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTidwQ7EyNo8jeqS2Sb_4PMI8LChodcsA9LA5ZxIySEi7-8qbtNLBssNIqDsHc",
+      "related": [
+        {
+          "title": "Qatar boosts digital business through e-commerce licence",
+          "url": "https://thepeninsulaqatar.com/article/23/10/2026/qatar-boosts-digital-business-through-e-commerce-licence",
+          "source": "The Peninsula Qatar"
+        },
+        {
+          "title": "FIFA Intercontinental Cup final to take place in Al Rayyan on 16th December",
+          "url": "https://www.psg.fr/en/content/fifa-intercontinental-cup-final-to-take-place-in-al-rayyan-on-16th-december-psg-fifa-intercontinental-cup-qatar-2026-2027/",
+          "source": "Paris Saint-Germain"
+        },
+        {
+          "title": "Qatar to host final three matches of FIFA Intercontinental Cup for third consecutive year",
+          "url": "https://thepeninsulaqatar.com/article/22/10/2026/qatar-to-host-final-three-matches-of-fifa-intercontinental-cup-for-third-consecutive-year",
+          "source": "The Peninsula Qatar"
+        }
+      ],
+      "word_count": 331,
+      "page": "p/qatar-boosts-digital-business-through-e-commerce-licence.html"
+    },
+    {
+      "title": "Prabhas Birthday Sparks Excitement for Upcoming Blockbusters",
+      "slug": "prabhas-birthday-sparks-excitement-for-upcoming-blockbusters",
+      "topic": "ప్రభాస్",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Prabhas marked his birthday with a wave of fan messages and a surprise teaser for the sequel Kalki 2. The celebrations also highlighted a slate of high‑budget films expected to boost the box office.",
+      "meta_description": "Actor Prabhas celebrates his birthday amid fan wishes and a surprise teaser for Kalki 2, as his upcoming films promise strong box‑office performance worldwide.",
+      "keywords": [
+        "Prabhas",
+        "birthday",
+        "upcoming movies",
+        "Kalki 2",
+        "Telugu cinema"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTXYu2WgyGDrvGOCUnQaxuB_LxAOFth6rVE_15SHEEYDy4RW6n4Dd5l609xl8Y",
+      "related": [
+        {
+          "title": "Prabhas Movies: ప్రభాస్‌ బర్త్‌డే ట్రీట్: బాక్సాఫీస్‌ను షేక్ చేయబోతున్న సినిమాలివే",
+          "url": "https://www.eenadu.net/videos/playvideo/prabhas-upcoming-movies-lineup/2/82189",
+          "source": "Eenadu"
+        },
+        {
+          "title": "ప్రభాస్ బర్త్ డే.. ఇదే బెస్ట్ విషెస్ ఏమో!",
+          "url": "https://www.sakshi.com/telugu-news/movies/prabhas-birthday-prashanth-neel-wife-post-latest-2939342",
+          "source": "Sakshi"
+        },
+        {
+          "title": "Kalki 2: స్పెషల్ సర్‌ప్రైజ్.. ఇదిగో ప్రభాస్ పుట్టినరోజు కానుక",
+          "url": "https://telugu.news18.com/news/movies/prabhas-birth-day-surprise-kalki-2-update-here-slb-3252045.html",
+          "source": "News18 Telugu"
+        }
+      ],
+      "word_count": 634,
+      "page": "p/prabhas-birthday-sparks-excitement-for-upcoming-blockbusters.html"
+    },
+    {
+      "title": "Pictures show large chunk of West Pier collapsing in storm",
+      "slug": "pictures-show-large-chunk-of-west-pier-collapsing-in-storm",
+      "topic": "brighton west pier",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Coverage linked to \"brighton west pier\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "brighton west pier: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "brighton west pier",
+        "brighton west pier news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRneDeVhTlvWYtv4iJRx6VtaVfQwE5_8HfcoZnA1s7xzg-jRIu2C9zeBq9eRy4",
+      "related": [
+        {
+          "title": "Pictures show large chunk of West Pier collapsing in storm",
+          "url": "https://www.theargus.co.uk/news/26663521.pictures-chunk-west-pier-destroyed-waves-storm/",
+          "source": "The Argus"
+        },
+        {
+          "title": "Part of Brighton's iconic West Pier collapses",
+          "url": "https://www.bbc.com/news/articles/cm3wv71lzjwgo",
+          "source": "BBC"
+        },
+        {
+          "title": "Storm Austen sends section of West Pier crashing into the sea",
+          "url": "https://www.brightonandhovenews.org/2026/10/23/storm-austen-sends-section-of-west-pier-crashing-into-the-sea/",
+          "source": "Brighton and Hove News"
+        }
+      ],
+      "word_count": 333,
+      "page": "p/pictures-show-large-chunk-of-west-pier-collapsing-in-storm.html"
+    },
+    {
+      "title": "Paul Hardcastle: Police joked at the scene of my son’s death",
+      "slug": "paul-hardcastle-police-joked-at-the-scene-of-my-sons-death",
+      "topic": "essex police",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Coverage linked to \"essex police\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "essex police: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "essex police",
+        "essex police news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPg9lZWYNyn9ltdcFWyxeRWuthNcOBSNTt4-SEzOYuVmb7_Z4ZQNo1SS04hWo",
+      "related": [
+        {
+          "title": "Paul Hardcastle: Police joked at the scene of my son’s death",
+          "url": "https://www.thetimes.com/uk/crime/article/paul-hardcastle-police-joked-at-the-scene-of-my-boys-death-n5tnkjfd3",
+          "source": "The Times"
+        },
+        {
+          "title": "Essex Police officers joked about death of Paul Hardcastle's son",
+          "url": "https://www.bbc.co.uk/news/articles/ckx2qd45xd55o",
+          "source": "BBC"
+        },
+        {
+          "title": "Police joked about death of musician’s son at scene of crash",
+          "url": "https://www.telegraph.co.uk/news/2026/10/23/police-joked-about-death-of-musicians-son-at-scene-of-crash/",
+          "source": "The Telegraph"
+        }
+      ],
+      "word_count": 332,
+      "page": "p/paul-hardcastle-police-joked-at-the-scene-of-my-sons-death.html"
+    },
+    {
+      "title": "PSX Slides 1,330 Points Amid Middle East Tensions, Then Rebounds",
+      "slug": "psx-slides-1330-points-amid-middle-east-tensions-then-rebounds",
+      "topic": "psx",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "The Pakistan Stock Exchange saw a dramatic decline of more than 1,330 points as conflicts in the Middle East shook investor sentiment. The index subsequently recovered, gaining 779 points in a subsequent trading session.",
+      "meta_description": "Pakistan's stock market experienced a sharp drop of over 1,300 points due to regional conflicts, followed by a significant rebound of 779 points.",
+      "keywords": [
+        "PSX",
+        "Pakistan Stock Exchange",
+        "Middle East tensions",
+        "market volatility",
+        "investor confidence"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTBKSqpoIwRNAZt6hqAWAyRLDG7vLIbEtTkVnXKr_UV3XR_x4kkhBCm-m9vajE",
+      "related": [
+        {
+          "title": "Middle East tensions dent investor confidence",
+          "url": "https://www.dawn.com/news/2039178",
+          "source": "Dawn"
+        },
+        {
+          "title": "PSX slides more than 1,330 points amid Saudi Arabia-Houthi conflict",
+          "url": "https://tribune.com.pk/story/2636488/psx-slides-more-than-1330-points-amid-saudi-arabia-houthi-conflict",
+          "source": "The Express Tribune"
+        },
+        {
+          "title": "PSX rebounds, gains 779 points",
+          "url": "https://www.nation.com.pk/22-Oct-2026/psx-rebounds-gains-779-points",
+          "source": "The Nation (Pakistan )"
+        }
+      ],
+      "word_count": 744,
+      "page": "p/psx-slides-1330-points-amid-middle-east-tensions-then-rebounds.html"
+    },
+    {
+      "title": "Ohio State QB Julian Sayin Ruled Out Indefinitely",
+      "slug": "ohio-state-qb-julian-sayin-ruled-out-indefinitely",
+      "topic": "ohio state buckeyes football",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "The Ohio State Buckeyes have confirmed that starting quarterback Julian Sayin will miss the remainder of the season due to a significant injury. The team is now scrambling to determine who will step up to lead the offense.",
+      "meta_description": "Ohio State Buckeyes quarterback Julian Sayin is out indefinitely with an injury, forcing the team to prepare for the rest of the season without its starter.",
+      "keywords": [
+        "Ohio State",
+        "Julian Sayin",
+        "Buckeyes",
+        "football injury",
+        "NCAA"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ_dVLMPPqTnESjdXdx6StRAEYtNHvSDsPnT4LiLynPJiQvopyyJVQE_YDHvHA",
+      "related": [
+        {
+          "title": "Julian Sayin out ‘indefinitely’; Buckeyes preparing to play rest of season without him",
+          "url": "https://www.nytimes.com/athletic/7707857/2026/10/20/ohio-state-julian-sayin-injury-update/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "Ohio State’s quarterback problem goes much deeper than Julian Sayin’s injury: Stephen Means",
+          "url": "https://www.cleveland.com/osu/2026/10/ohio-states-quarterback-problem-goes-much-deeper-than-julian-sayins-injury-stephen-means.html",
+          "source": "Cleveland.com"
+        },
+        {
+          "title": "Who will step up at quarterback for Ohio State with Julian Sayin out?",
+          "url": "https://sports.yahoo.com/video/who-will-step-up-at-quarterback-for-ohio-state-with-julian-sayin-out-194205912.html",
+          "source": "Yahoo Sports"
+        }
+      ],
+      "word_count": 733,
+      "page": "p/ohio-state-qb-julian-sayin-ruled-out-indefinitely.html"
+    },
+    {
+      "title": "NBP shareholders approve Rs9.5 million monthly salary for CEO Imran Sarwar",
+      "slug": "nbp-shareholders-approve-rs95-million-monthly-salary-for-ceo-imran-sarwar",
+      "topic": "nbp",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "NBP’s board has sanctioned a Rs9.5 million monthly salary for its chief executive, Imran Sarwar, together with a Rs30 million life‑insurance policy, two cars and other perks. The decision was taken at the recent shareholders’ meeting and ha",
+      "meta_description": "Pakistan's National Bank of Pakistan (NBP) shareholders have approved a Rs9.5 million monthly salary for CEO Imran Sarwar, along with life insurance, car allowa",
+      "keywords": [
+        "NBP",
+        "salary",
+        "CEO",
+        "Imran Sarwar",
+        "Pakistan banking"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSFdlse0NJ-Q_F1ovI_GyjsnftOdhZX7MshQcCWLGzLJoV9qrLpz0M2Zapjqv0",
+      "related": [
+        {
+          "title": "NBP chief to get Rs9.5mn monthly salary, Rs30mn life insurance, two cars",
+          "url": "https://www.brecorder.com/news/40445612/nbp-chief-to-get-rs95mn-monthly-salary-rs30mn-life-insurance-two-cars",
+          "source": "Business Recorder"
+        },
+        {
+          "title": "NBP shareholders approve Rs9.5 million monthly salary, additional benefits for CEO Imran Sarwar",
+          "url": "https://www.investify.pk/news/100000158703/nbp-shareholders-approve-rs9-5-million-monthly-salary-additional-benefits-for-ceo-imran-sa",
+          "source": "Investify"
+        },
+        {
+          "title": "NBP shareholders approve Rs9.5 million monthly salary, additional benefits for CEO Imran Sarwar",
+          "url": "https://profit.pakistantoday.com.pk/2026/10/23/nbp-shareholders-approve-rs95-million-monthly-salary-additional-benefits-for-ceo-imran-sarwar",
+          "source": "Profit by Pakistan Today"
+        }
+      ],
+      "word_count": 714,
+      "page": "p/nbp-shareholders-approve-rs95-million-monthly-salary-for-ceo-imran-sarwar.html"
+    },
+    {
+      "title": "Morgan Freeman shares wisdom on persistence and dreaming",
+      "slug": "morgan-freeman-shares-wisdom-on-persistence-and-dreaming",
+      "topic": "morgan freeman",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Veteran actor Morgan Freeman has captured public attention with a series of insightful statements on resilience and ambition. His recent comments highlight the importance of continuing one's journey and maintaining a clear vision for the fu",
+      "meta_description": "Morgan Freeman is trending in the US after sharing new quotes on perseverance and purpose. The actor emphasizes that quitting guarantees loss and dreams give li",
+      "keywords": [
+        "Morgan Freeman",
+        "inspirational quotes",
+        "Hollywood actor",
+        "persistence",
+        "life advice"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfSSoaTgaB7BuZsroWP3rcpkYQrTCF88M4DziTDu74P0GybUS0ZFJxQzgFLeA",
+      "related": [
+        {
+          "title": "Quote Of The Day By Morgan Freeman: 'If You Can Get Out Of Bed And...'",
+          "url": "https://www.tvline.com/2294562/quote-of-the-day-morgan-freeman-keep-moving/",
+          "source": "TVLine"
+        },
+        {
+          "title": "Morgan Freeman, Actor: \"The best way to guarantee a loss is to quit\"",
+          "url": "https://www.marca.com/en/lifestyle/2026/10/22/morgan-freeman-actor-the-best-way-to-guarantee-loss-is-to-quit.html",
+          "source": "MARCA"
+        },
+        {
+          "title": "Quote of the day by Morgan Freeman: ‘Dreams come true, and without a dream, there's no life,’ a powerful",
+          "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/quote-of-the-day-by-morgan-freeman-dreams-come-true-and-without-a-dream-theres-no-life-a-powerful-lesson-on-why-having-aspirations-gives-you-true-purpose-and-meaning/articleshow/135016150.cms",
+          "source": "The Times of India"
+        }
+      ],
+      "word_count": 708,
+      "page": "p/morgan-freeman-shares-wisdom-on-persistence-and-dreaming.html"
+    },
+    {
+      "title": "Kieran Maguire warns of hurdles in any Everton ownership deal",
+      "slug": "kieran-maguire-warns-of-hurdles-in-any-everton-ownership-deal",
+      "topic": "kieran maguire",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Kieran Maguire, known for his detailed breakdowns of club finances, says selling Everton will be far from straightforward. He points to recent owner negotiations and market sentiment as key factors.",
+      "meta_description": "Football finance analyst Kieran Maguire outlines the obstacles facing a potential sale of Everton, citing recent talks, investor interest and club valuation.",
+      "keywords": [
+        "Everton",
+        "Kieran Maguire",
+        "football finance",
+        "ownership sale",
+        "TFG"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTqBkOM4Ler5XTOPSUFmlcK2kO9n-xyLgqA0oiRwbnBVkaiLZ8EzB5F1nT1BXg",
+      "related": [
+        {
+          "title": "The Football Boardroom asks: How difficult will it be for TFG to sell Everton?",
+          "url": "https://www.toffeeweb.com/podcasts/the-football-boardroom-asks-how-difficult-will-it-be-for-tfg-to-sell-everton/",
+          "source": "ToffeeWeb"
+        },
+        {
+          "title": "Ex-Everton star with £4billion fortune hails Blues as 'great investment opportunity'",
+          "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/ex-everton-star-4billion-fortune-34787670",
+          "source": "Liverpool Echo"
+        },
+        {
+          "title": "‘No talks’ over Friedkin sale yet – but Everton have dodged a bullet",
+          "url": "https://inews.co.uk/sport/football/everton-sale-new-owners-friedkin-777-4830852",
+          "source": "The i Paper"
+        }
+      ],
+      "word_count": 673,
+      "page": "p/kieran-maguire-warns-of-hurdles-in-any-everton-ownership-deal.html"
+    },
+    {
+      "title": "Ireland clinches 55-run win over Namibia in Windhoek ODI",
+      "slug": "ireland-clinches-55-run-win-over-namibia-in-windhoek-odi",
+      "topic": "namibia national cricket team",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Ireland's cricket team defeated Namibia by 55 runs in the opening ODI of their 2026 tour of Windhoek. The win, highlighted by Paul Stirling’s half‑century, set new series records.",
+      "meta_description": "Ireland toured Namibia in 2026, securing a 55-run victory in the first ODI at Windhoek with Paul Stirling’s 56 and a record‑breaking start for the tourists, spa",
+      "keywords": [
+        "Namibia cricket",
+        "Ireland tour",
+        "ODI series",
+        "Windhoek",
+        "cricket records"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQW9mpIAL2YHLQku1YciIeK5jHXmcXruJ9ZSnvIwIS22QolK5Wz4WPxylJf5H4",
+      "related": [
+        {
+          "title": "NAM 174 vs IRE 229/9 (Jack Brassell 4(18) ) | Namibia vs Ireland, 1st ODI, Ireland tour of Namibia, 2026 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, news, and more in USA & Canada",
+          "url": "https://www.cricbuzz.com/live-cricket-scores/174953/nam-vs-ire-1st-odi-ireland-tour-of-namibia-2026",
+          "source": "Cricbuzz"
+        },
+        {
+          "title": "Ireland v Namibia: Paul Stirling's 56 leads tourits to win in Windhoek",
+          "url": "https://www.bbc.com/sport/cricket/articles/cxnv0e69ezrzo",
+          "source": "BBC"
+        },
+        {
+          "title": "Cricket Records Rewritten in Winning Start to Namibia Series",
+          "url": "https://sportforbusiness.com/cricket-records-rewritten-in-winning-start-to-namibia-series/",
+          "source": "Sport for Business"
+        }
+      ],
+      "word_count": 518,
+      "page": "p/ireland-clinches-55-run-win-over-namibia-in-windhoek-odi.html"
+    },
+    {
+      "title": "India plans stake cut in four PSU banks, two more set for privatisation",
+      "slug": "india-plans-stake-cut-in-four-psu-banks-two-more-set-for-privatisation",
+      "topic": "बैंक",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "The Indian government is moving to reduce its equity stake in four major public sector banks, following the recent privatisation of IDBI Bank. Reports suggest that 25% of the shares in these institutions will be offered to general investors",
+      "meta_description": "The Indian government is preparing to reduce its holding in four public sector banks. Reports indicate two additional banks are in the privatisation pipeline, w",
+      "keywords": [
+        "PSU banks",
+        "privatisation",
+        "IDBI Bank",
+        "retail investors",
+        "Indian banking sector"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT1gHhYN7N1w9D56LmZA_cd5vDJgZwQHmw36rw8lSq1bCvzbVHd7duYD42lTRM",
+      "related": [
+        {
+          "title": "IDBI Bank के बाद इन 4 सरकारी बैंकों का नंबर, हिस्सेदारी घटाने की तैयारी; 2 बैंकों के निजीकरण का प्लान- रिपोर्ट",
+          "url": "https://www.jagran.com/business/biz-govt-plan-to-cuts-stake-in-4-psu-banks-2-more-in-privatisation-plan-report-40413704.html",
+          "source": "Jagran"
+        },
+        {
+          "title": "4 सरकारी बैंकों में हिस्सेदारी घटाएगी मोदी सरकार, 25% शेयर आम निवेशकों के लिए होंगे",
+          "url": "https://www.livehindustan.com/business/government-to-reduce-its-stake-in-4-public-sector-banks-25-of-shares-will-be-for-retail-investors-201792723932936.html",
+          "source": "Hindustan"
+        },
+        {
+          "title": "4 बड़े सरकारी बैंकों में सरकार घटाएगी हिस्सेदारी, आम जनता को मिलेंगे 25% शेयर",
+          "url": "https://www.abplive.com/business/government-to-reduce-its-stake-in-4-major-public-sector-banks-25-of-shares-to-be-offered-to-the-general-investors-3205609",
+          "source": "ABP News"
+        }
+      ],
+      "word_count": 767,
+      "page": "p/india-plans-stake-cut-in-four-psu-banks-two-more-set-for-privatisation.html"
+    },
+    {
+      "title": "Hawks Open 2026-27 Season with 132-125 Victory Over Orlando Magic",
+      "slug": "hawks-open-2026-27-season-with-132-125-victory-over-orlando-magic",
+      "topic": "atlanta nba",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "The Atlanta Hawks kicked off the 2026-27 NBA campaign with a decisive 132-125 win against the Orlando Magic. The victory was highlighted by consistent scoring and effective execution from the Hawks' roster.",
+      "meta_description": "The Atlanta Hawks defeated the Orlando Magic 132-125 in their season opener, powered by timely shooting and strong team performance in the NBA.",
+      "keywords": [
+        "Atlanta Hawks",
+        "NBA season opener",
+        "Orlando Magic",
+        "Nickel Alexander-Walker",
+        "NBA standings"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSblEwzfryxyls6KRln83ghM6NwYOdrdBcBp3cOu6P8bM_A3P2Lr-4mdbCkp8s",
+      "related": [
+        {
+          "title": "Hawks 132-125 Magic (Oct 21, 2026) Game Recap",
+          "url": "https://www.espn.com/nba/recap/_/gameId/401909834",
+          "source": "ESPN"
+        },
+        {
+          "title": "Hawks defeat Magic 132–125 behind timely shooting in season opener",
+          "url": "https://www.peachtreehoops.com/recaps/73148/hawks-defeat-magic-atlanta-behind-timely-shooting-in-season-opener-nickeil-alexander-walker-recap-final",
+          "source": "Peachtree Hoops"
+        },
+        {
+          "title": "Orlando Magic vs. Atlanta Hawks: Season Opener Game Preview",
+          "url": "https://orlandomagic.com/news/orlando-magic-atlanta-hawks-game-preview-injury-report-20261020",
+          "source": "NBA.com"
+        }
+      ],
+      "word_count": 726,
+      "page": "p/hawks-open-2026-27-season-with-132-125-victory-over-orlando-magic.html"
+    },
+    {
+      "title": "Gen Z Housing Crisis Spurs Policy Push in US Ahead of Midterms",
+      "slug": "gen-z-housing-crisis-spurs-policy-push-in-us-ahead-of-midterms",
+      "topic": "housing",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Congressional Democrats are outlining a housing agenda aimed at Gen Z, while young candidates across the aisle propose their own solutions. In Portland, officials voice disappointment over delayed Bloomberg funding.",
+      "meta_description": "US lawmakers and Gen Z candidates are confronting a mounting housing affordability crisis, with Democrats outlining plans and local officials expressing frustra",
+      "keywords": [
+        "Gen Z",
+        "housing affordability",
+        "US midterms",
+        "Democratic policy",
+        "Bloomberg funding"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRSM2f1_priaqB-BCkih3hUdukYiIwz82FzJkjGrDv44uZDTZe3bhD9cyyk1pY",
+      "related": [
+        {
+          "title": "What Democrats would do about Gen Z’s housing crisis if they win Congress",
+          "url": "https://thehill.com/homenews/senate/6166745-gen-z-housing-affordability/",
+          "source": "The Hill"
+        },
+        {
+          "title": "Gen Z candidates in both parties aim to tackle high housing costs",
+          "url": "https://www.npr.org/2026/10/23/nx-s1-5983813/gen-z-candidates-midterms-housing-affordability",
+          "source": "NPR"
+        },
+        {
+          "title": "Portland officials frustrated over Bloomberg housing funding",
+          "url": "https://www.pressherald.com/2026/10/22/portland-officials-frustrated-over-bloomberg-housing-funding/",
+          "source": "Portland Press Herald - Maine Sunday Telegram"
+        }
+      ],
+      "word_count": 933,
+      "page": "p/gen-z-housing-crisis-spurs-policy-push-in-us-ahead-of-midterms.html"
+    },
+    {
+      "title": "East Bengal eye top spot in ISL clash against Inter Kashi",
+      "slug": "east-bengal-eye-top-spot-in-isl-clash-against-inter-kashi",
+      "topic": "inter kashi vs east bengal",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "East Bengal aims to secure a top position in the Indian Super League by facing Inter Kashi in an upcoming fixture. The match draws attention due to the involvement of former players and the stakes for the defending champions.",
+      "meta_description": "Defending champions East Bengal face Inter Kashi in a key Indian Super League match. The game highlights a significant rivalry and title defense efforts.",
+      "keywords": [
+        "East Bengal",
+        "Inter Kashi",
+        "Indian Super League",
+        "ISL 2026-27",
+        "football"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "2000+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRx3jixqfdG9f2TefLROayTKZBwj7A_MhwpW0DX8rwcKj6HRGKMC6jH5CU029w",
+      "related": [
+        {
+          "title": "East Bengal look to boost confidence against Inter Kashi in Indian Super League clash",
+          "url": "https://www.telegraphindia.com/sports/east-bengal-vs-inter-kashi-defending-champions-eye-top-spot-in-indian-super-league-prnt/cid/2185796",
+          "source": "Telegraph India"
+        },
+        {
+          "title": "Inter Kashi vs East Bengal: Indian Super League stats & head-to-head",
+          "url": "https://www.bbc.com/sport/football/live/c60qkl92g7wvt",
+          "source": "BBC"
+        },
+        {
+          "title": "ISL 2026-27: East Bengal looks to continue title defence against Habas’ old club, Inter Kashi",
+          "url": "https://sportstar.thehindu.com/football/indian-football/inter-kashi-vs-east-bengal-isl-2026-27-kas-v-ebfc-preview-indian-super-league-team-news/article71613484.ece",
+          "source": "Sportstar"
+        }
+      ],
+      "word_count": 715,
+      "page": "p/east-bengal-eye-top-spot-in-isl-clash-against-inter-kashi.html"
+    },
+    {
+      "title": "Corruption Tops Voter Concerns Ahead of 2026 Midterm Elections",
+      "slug": "corruption-tops-voter-concerns-ahead-of-2026-midterm-elections",
+      "topic": "and",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "A recent CNBC poll places corruption at the top of voter priorities ahead of the 2026 midterms. The findings intensify scrutiny of alleged misconduct in the Trump administration.",
+      "meta_description": "A new poll shows corruption is the leading issue for US voters as the 2026 midterm elections approach, and growing allegations target the Trump administration, ",
+      "keywords": [
+        "corruption",
+        "midterm election",
+        "Trump",
+        "voter concerns",
+        "US politics"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS0zOlY6MK-gx9jnRjL4d4lFkMdod1OpWqu-Mmd7KRqzhd7PVWZAVgbU_EawYc",
+      "related": [
+        {
+          "title": "Corruption is voters' top issue ahead of midterm election, CNBC survey shows",
+          "url": "https://www.cnbc.com/2026/10/23/corruption-midterm-election-cnbc-poll-trump.html",
+          "source": "CNBC"
+        },
+        {
+          "title": "The increasingly brazen alleged corruption within the Trump administration",
+          "url": "https://www.cnn.com/2026/10/21/politics/trump-corruption-midterms",
+          "source": "CNN"
+        },
+        {
+          "title": "Opinion | Kimberly Guilfoyle’s ouster shows what Trump is noticing too late",
+          "url": "https://www.washingtonpost.com/opinions/2026/10/15/corruption-is-now-top-concern-voters-ahead-midterms/",
+          "source": "The Washington Post"
+        }
+      ],
+      "word_count": 900,
+      "page": "p/corruption-tops-voter-concerns-ahead-of-2026-midterm-elections.html"
+    },
+    {
+      "title": "Celtic winger Hitham Hassan faces fan backlash after Celta Vigo defeat",
+      "slug": "celtic-winger-hitham-hassan-faces-fan-backlash-after-celta-vigo-defeat",
+      "topic": "هيثم حسن",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Hitham Hassan, the Egyptian winger for Celtic, has become a focal point of debate following his team's recent defeat to Celta Vigo. While Scottish press highlights his assist, fan sentiment remains divided over his overall performance.",
+      "meta_description": "Celtic winger Hitham Hassan draws mixed reactions after assisting a goal in the loss to Celta Vigo. Scottish media praise his impact, while fans criticize his e",
+      "keywords": [
+        "Hitham Hassan",
+        "Celtic FC",
+        "Celta Vigo",
+        "Scottish football",
+        "UEFA Europa League"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQjwO_iJubxznClli2quOmKiK4DBXDOt0wvGferkP5XrRBLQRVjYA8nP3aWRxY",
+      "related": [
+        {
+          "title": "القدر أنصفه رغم أنف زملائه لكنهم محقين في فقدان الثقة به .. الأرض تهتز تحت أقدام هيثم حسن وجمهور سلتيك يهاجمه أمام سيلتا فيجو: أنت الأكثر كسلًا!",
+          "url": "https://www.goal.com/ar-sa/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%87%D9%8A%D8%AB%D9%85-%D8%AD%D8%B3%D9%86-%D8%B3%D9%84%D8%AA%D9%8A%D9%83%D8%B3%D9%8A%D9%84%D8%AA%D8%A7-%D9%81%D9%8A%D8%AC%D9%88-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A/blt49a701a810be28a8",
+          "source": "Goal.com"
+        },
+        {
+          "title": "صناعته لهدف لا تكفي.. ماذا قدم هيثم حسن في خسارة سيلتيك أمام سيلتا فيغو؟",
+          "url": "https://www.eremnews.com/sports/v58zssq",
+          "source": "إرم نيوز"
+        },
+        {
+          "title": "الجناح المزعج.. صحف اسكتلندا تكشف سر تألق هيثم حسن أمام سيلتا فيجو",
+          "url": "https://www.youm7.com/story/2026/10/23/%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D8%AD-%D8%A7%D9%84%D9%85%D8%B2%D8%B9%D8%AC-%D8%B5%D8%AD%D9%81-%D8%A7%D8%B3%D9%83%D8%AA%D9%84%D9%86%D8%AF%D8%A7-%D8%AA%D9%83%D8%B4%D9%81-%D8%B3%D8%B1-%D8%AA%D8%A3%D9%84%D9%82-%D9%87%D9%8A%D8%AB%D9%85-%D8%AD%D8%B3%D9%86-%D8%A3%D9%85%D8%A7%D9%85/7590169",
+          "source": "اليوم السابع"
+        }
+      ],
+      "word_count": 771,
+      "page": "p/celtic-winger-hitham-hassan-faces-fan-backlash-after-celta-vigo-defeat.html"
+    },
+    {
+      "title": "Bruno Fernandes Remains United Captain Amid Internal Turmoil",
+      "slug": "bruno-fernandes-remains-united-captain-amid-internal-turmoil",
+      "topic": "bruno fernandes",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Manchester United has confirmed that midfielder Bruno Fernandes will retain the captain's armband despite a recent outburst and a public clash with assistant coach Michael Carrick. The decision has intensified scrutiny of the club's interna",
+      "meta_description": "Manchester United confirms Bruno Fernandes stays captain despite a heated outburst and rising tension with assistant Michael Carrick, fueling ongoing debate on ",
+      "keywords": [
+        "Bruno Fernandes",
+        "Manchester United",
+        "captaincy",
+        "Michael Carrick",
+        "club culture"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSfGvbicGJGEMMvZEtTTqg3zYMz3Tu8Myo3KNABXTZMSITs335J_NA7Idx7XGM",
+      "related": [
+        {
+          "title": "Fernandes takes aim at Carrick as Man Utd lurch into fresh crisis",
+          "url": "https://www.dawn.com/news/2038988",
+          "source": "Dawn"
+        },
+        {
+          "title": "Bruno Fernandes to remain Man Utd captain despite outburst",
+          "url": "https://www.bbc.com/sport/football/articles/cqe8rglz8p90o",
+          "source": "BBC"
+        },
+        {
+          "title": "Bruno’s betrayal? ‘Toxic’ Fernandes is symptom of United’s culture of entitlement | Jamie Jackson",
+          "url": "https://www.theguardian.com/football/2026/oct/22/bruno-fernandes-betrayal-manchester-united-michael-carrick-culture-of-entitlement",
+          "source": "The Guardian"
+        }
+      ],
+      "word_count": 743,
+      "page": "p/bruno-fernandes-remains-united-captain-amid-internal-turmoil.html"
+    },
+    {
+      "title": "Bristol cordon as bomb squad investigate 'suspicious' item",
+      "slug": "bristol-cordon-as-bomb-squad-investigate-suspicious-item",
+      "topic": "park street bristol",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Coverage linked to \"park street bristol\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "park street bristol: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "park street bristol",
+        "park street bristol news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRBZBudYdp4_po4f1Z1C2nr3xTH9_zRtvOJ7P7-mdguA0k9H8FQVvBcHcscKZw",
+      "related": [
+        {
+          "title": "Bristol cordon as bomb squad investigate 'suspicious' item",
+          "url": "https://www.bbc.co.uk/news/articles/c9203kg3rlvpo",
+          "source": "BBC"
+        },
+        {
+          "title": "Major city centre road closed due to 'police incident' - updates",
+          "url": "https://www.bristolpost.co.uk/news/bristol-news/major-city-centre-road-closed-11211006",
+          "source": "Bristol Live"
+        },
+        {
+          "title": "Famous Bristol street closed off as bomb squad inspect 'suspicious item' | ITV News",
+          "url": "https://www.itv.com/news/westcountry/2026-10-23/famous-bristol-street-closed-off-as-bomb-squad-inspect-suspicious-item",
+          "source": "ITVX"
+        }
+      ],
+      "word_count": 332,
+      "page": "p/bristol-cordon-as-bomb-squad-investigate-suspicious-item.html"
+    },
+    {
+      "title": "Biker in hospital with serious injuries after crash",
+      "slug": "biker-in-hospital-with-serious-injuries-after-crash",
+      "topic": "bristol news",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Coverage linked to \"bristol news\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "bristol news: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "bristol news",
+        "bristol news news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQZIHk4S-kvOw6gI2PwOD_dVgwtu6ZhOxhwbtI6P1ZpNipv0ohCuT4o90_3--c",
+      "related": [
+        {
+          "title": "Biker in hospital with serious injuries after crash",
+          "url": "https://www.bristolpost.co.uk/news/bristol-news/serious-crash-closes-road-clifton-11210577",
+          "source": "Bristol Live"
+        },
+        {
+          "title": "West of England Lib Dems call for buses to be franchised",
+          "url": "https://www.bbc.co.uk/news/articles/cme8r4wndzl7o",
+          "source": "BBC"
+        },
+        {
+          "title": "Tighter control over buses in Bristol region could be on the way",
+          "url": "https://www.bristolpost.co.uk/news/bristol-news/mayor-floats-tighter-control-over-11210533",
+          "source": "Bristol Live"
+        }
+      ],
+      "word_count": 328,
+      "page": "p/biker-in-hospital-with-serious-injuries-after-crash.html"
+    },
+    {
+      "title": "Becky North mourns sister Bethan's death in heartfelt tribute",
+      "slug": "becky-north-mourns-sister-bethans-death-in-heartfelt-tribute",
+      "topic": "becky north",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Becky North, the celebrated British Olympian, announced the death of her 31‑year‑old sister Bethan in an emotional social‑media post. The tribute has drawn widespread sympathy and reactions across the United Kingdom.",
+      "meta_description": "Olympic star Becky North announced the tragic death of her 31‑year‑old sister Bethan, sharing a moving tribute that has resonated across the UK.",
+      "keywords": [
+        "Becky North",
+        "Bethan North",
+        "British Olympic icon",
+        "sister death",
+        "tribute"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQfLFOP8dnwQqGxBnbvgcUecEh_I-PCfSF1ynK_MmLLho_1eLiL04EPmri11WA",
+      "related": [
+        {
+          "title": "Becky North announces tragic death of sister at 31 in heartbreaking tribute",
+          "url": "https://www.walesonline.co.uk/sport/rugby/rugby-news/becky-north-announces-tragic-death-34805200",
+          "source": "Wales Online"
+        },
+        {
+          "title": "Becky North mourns Bethan’s death at 31",
+          "url": "https://twaslnews1.twaslnews.com/6461154/",
+          "source": "شبكة تواصل الإخبارية"
+        },
+        {
+          "title": "British Olympic icon announces tragic death of sister, 31, in devastating tribute",
+          "url": "https://www.aol.co.uk/articles/british-olympic-icon-announces-tragic-090000000.html",
+          "source": "AOL.co.uk"
+        }
+      ],
+      "word_count": 620,
+      "page": "p/becky-north-mourns-sister-bethans-death-in-heartfelt-tribute.html"
+    },
+    {
+      "title": "Afghanistan to take on Zimbabwe in series as Zimbabwe's recent win over Bangladesh sparks interest",
+      "slug": "afghanistan-to-take-on-zimbabwe-in-series-as-zimbabwes-recent-win-over-bangladesh-sparks-i",
+      "topic": "afg vs zim",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Afghanistan is set to play Zimbabwe in an upcoming series after Zimbabwe's recent victory over Bangladesh. Indian fans are watching closely as the match could impact ICC rankings.",
+      "meta_description": "Afghanistan will face Zimbabwe in a forthcoming series, following Zimbabwe's dominant win over Bangladesh. The matchup draws attention from Indian cricket fans.",
+      "keywords": [
+        "Afghanistan cricket",
+        "Zimbabwe cricket",
+        "Afghanistan vs Zimbabwe",
+        "Bangladesh vs Zimbabwe",
+        "international cricket"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "10000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQr2dQghZCzabcCDFE1IwQnOnGaSZ23yEXLW0GM5pivbHKCUOMLqXzzIzO30Vc",
+      "related": [
+        {
+          "title": "Cricket Video - NZ vs IND, 1st T20I 2026/27 Highlights",
+          "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-1st-t20i-1539432/match-videos",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "Taskin calls Bangladesh's batting collapse a reality check",
+          "url": "https://www.cricbuzz.com/cricket-news/140562/odi-tri-nation-series-in-uae-bangladesh-vs-zimbabwe-taskin-ahmed-calls-bangladeshs-batting-collapse-a-reality-check-cricbuzzcom",
+          "source": "Cricbuzz"
+        },
+        {
+          "title": "Chevrons thrash Bangladesh",
+          "url": "https://www.heraldonline.co.zw/chevrons-thrash-bangladesh/",
+          "source": "Herald.co.zw"
+        }
+      ],
+      "word_count": 530,
+      "page": "p/afghanistan-to-take-on-zimbabwe-in-series-as-zimbabwes-recent-win-over-bangladesh-sparks-i.html"
+    },
+    {
+      "title": "9 injured after pedal tavern struck by distracted driver in downtown…",
+      "slug": "9-injured-after-pedal-tavern-struck-by-distracted-driver-in-downtown",
+      "topic": "driver",
+      "date": "2026-10-23",
+      "date_pkt": "2026-10-23 04:03 PM PKT",
+      "excerpt": "Coverage linked to \"driver\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "driver: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "driver",
+        "driver news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTRe8d1fGRa06uydHbQRnRDGEAchuexEcYIkjSepqvJ6aVmAEsdQC6O1OSyGvk",
+      "related": [
+        {
+          "title": "9 injured after pedal tavern struck by distracted driver in downtown Nashville",
+          "url": "https://www.wsmv.com/2026/10/23/multiple-injured-after-pedal-tavern-struck-by-vehicle-downtown-nashville/",
+          "source": "WSMV"
+        },
+        {
+          "title": "9 injured in crash involving pedal tavern in The Gulch, Metro police say",
+          "url": "https://www.wkrn.com/news/local-news/nashville/9-injured-in-crash-involving-pedal-tavern-in-the-gulch-metro-police-say/",
+          "source": "WKRN News 2"
+        },
+        {
+          "title": "9 injured after car rear ends pedal tavern: MNPD",
+          "url": "https://www.newschannel5.com/news/9-injured-after-pedal-tavern-is-rear-ended-mnpd",
+          "source": "News Channel 5 Nashville"
+        }
+      ],
+      "word_count": 329,
+      "page": "p/9-injured-after-pedal-tavern-struck-by-distracted-driver-in-downtown.html"
+    },
     {
       "title": "“DWTS”’ Ezra Frech took brutal fall while rehearsing for ‘Dedication…",
       "slug": "dwts-ezra-frech-took-brutal-fall-while-rehearsing-for-dedication",
@@ -18632,1164 +19832,6 @@
       ],
       "word_count": 508,
       "page": "p/kolkata-high-court-issues-48hour-ultimatum-to-former-bdo-prasanta-barman.html"
-    },
-    {
-      "title": "India raises minimum wage and revises dearness allowance for workers",
-      "slug": "india-raises-minimum-wage-and-revises-dearness-allowance-for-workers",
-      "topic": "न्यूनतम मजदूरी",
-      "date": "2026-10-06",
-      "date_pkt": "2026-10-06 05:47 PM PKT",
-      "excerpt": "The government lifted the statutory minimum wage on Oct. 1 and altered the variable dearness allowance for workers. The move coincides with a modest DA rise for central staff and pending pension reforms.",
-      "meta_description": "From October 1, the Indian government increased the minimum wage and adjusted the variable dearness allowance, impacting central employees and pensioners under ",
-      "keywords": [
-        "minimum wage",
-        "India",
-        "dearness allowance",
-        "8th Pay Commission",
-        "central employees"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSnvsYbDjEUbaa2WxC3qg9TAAf3QqhPztG0xNPGGf6HA_GXgFrGK_2wmqvKeKc",
-      "related": [
-        {
-          "title": "3% बढ़ सकता है केंद्रीय कर्मचारियों का DA, जानें सैलरी पर कितना होगा असर",
-          "url": "https://www.livehindustan.com/business/da-hike-update-may-hike-3-percent-da-central-govt-employees-need-to-know-salary-impact-201791278650015.html",
-          "source": "Hindustan"
-        },
-        {
-          "title": "8th Pay Commission Updates: ₹68000 महीने मिलेगी पेंशन, अगर 8वें वेतन आयोग ने मान ली ये बात!",
-          "url": "https://www.aajtak.in/business/utility/photo/8th-pay-commission-central-govt-employees-and-pensioners-await-pension-hike-details-tuta-2662699-2026-10-06",
-          "source": "Aaj Tak"
-        },
-        {
-          "title": "मजदूरों के लिए खुशखबरी: 1 अक्टूबर से बढ़ गई न्यूनतम मजदूरी, सरकार ने वेरिएबल महंगाई भत्ते में किया संशोधन",
-          "url": "https://www.indiatv.in/paisa/business/minimum-wages-hiked-from-october-1-government-revises-vda-for-workers-across-key-sectors-2026-10-06-1247222",
-          "source": "India TV Hindi"
-        }
-      ],
-      "word_count": 711,
-      "page": "p/india-raises-minimum-wage-and-revises-dearness-allowance-for-workers.html"
-    },
-    {
-      "title": "India and West Indies set T20I slate as squad uncertainty looms",
-      "slug": "india-and-west-indies-set-t20i-slate-as-squad-uncertainty-looms",
-      "topic": "india national cricket team vs west indies cricket team players",
-      "date": "2026-10-06",
-      "date_pkt": "2026-10-06 05:47 PM PKT",
-      "excerpt": "The two cricketing powerhouses meet in India for a T20I series, with focus on squad stability and performance consistency. Key players from both sides are under scrutiny as they look to build on recent successes.",
-      "meta_description": "India and West Indies prepare for their upcoming T20I series in India. Key players face selection doubts as both teams aim to restore consistency in the shortes",
-      "keywords": [
-        "India cricket",
-        "West Indies cricket",
-        "T20I series",
-        "Sooryavanshi",
-        "Akeal Hosein"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQECVv8Zcc7EK061y1wad-jd0hZfIvxIxR2_b2wWy14opnrkxJMp-M6irHndCM",
-      "related": [
-        {
-          "title": "No guarantees for Sooryavanshi as India look to build on Asian Games success",
-          "url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-1st-t20i-1529230/match-preview",
-          "source": "Cricinfo"
-        },
-        {
-          "title": "India, West Indies renew search for T20 consistency",
-          "url": "https://www.cricbuzz.com/cricket-news/140401/india-west-indies-renew-search-for-t20-consistency-cricbuzzcom",
-          "source": "Cricbuzz"
-        },
-        {
-          "title": "AKEAL HOSEIN: THE BOY FROM LAVENTILLE, WHO IS NOW ON THE CUSP OF 100 T20Is FOR THE WEST INDIES",
-          "url": "https://www.windiescricket.com/news/akeal-hosein-the-boy-from-laventille-who-is-now-on-the-cusp-of-100-t20is-for-the-west-indies/",
-          "source": "Windies"
-        }
-      ],
-      "word_count": 782,
-      "page": "p/india-and-west-indies-set-t20i-slate-as-squad-uncertainty-looms.html"
-    },
-    {
-      "title": "Gurugram MBA Student Arrested for 90 Lakh Honey‑Trap Extortion",
-      "slug": "gurugram-mba-student-arrested-for-90-lakh-honeytrap-extortion",
-      "topic": "गुरुग्राम",
-      "date": "2026-10-06",
-      "date_pkt": "2026-10-06 05:47 PM PKT",
-      "excerpt": "Police in Gurugram have arrested a young MBA graduate accused of extorting 90 lakh rupees through a honey‑trap scheme. The case underscores growing concerns over digital blackmail in India.",
-      "meta_description": "An MBA graduate in Gurugram was detained after allegedly blackmailing a man for 90 lakh rupees by threatening a false rape accusation, highlighting rising onlin",
-      "keywords": [
-        "Gurugram",
-        "honey trap",
-        "extortion",
-        "online dating scam",
-        "MBA"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQVMyHtFH5As4Bs2MFptPtBjJcBzxfCHjqJalnWo5SmgFdSmRaDmlskuVfgdss",
-      "related": [
-        {
-          "title": "हनीट्रैप: रेप केस में फंसाने की धमकी, गुरुग्राम में ब्लैकमेल कर 90 लाख रुपये वसूलने वाली MBA पास युवती गिरफ्तार",
-          "url": "https://navbharattimes.indiatimes.com/state/punjab-and-haryana/gurgaon/gurugram-honey-trap-case-woman-arrested-for-blackmailing-and-extorting-90-lakh-rupee-by-threatening-false-rape-case/articleshow/134734515.cms",
-          "source": "Navbharat Times"
-        },
-        {
-          "title": "बॉयफ्रेंड को रेप केस की धमकी देकर 90 लाख ऐंठे: गुरुग्राम में डेटिंग एप पर दोस्ती, 3 साल रिलेशन में रही, फिर...",
-          "url": "https://www.bhaskar.com/g/local/haryana/gurugram/news/honeytrap-case-mba-girl-extortion-arrest-gurugram-139265406.html",
-          "source": "Dainik Bhaskar"
-        },
-        {
-          "title": "हनीट्रैप का शिकार हुआ गुरुग्राम का व्यक्ति, तीन साल में महिला ने ऐंठ लिए 90 लाख रुपये",
-          "url": "https://www.jagran.com/haryana/gurgaon-gurugram-woman-extorts-90-lakh-in-online-love-scam-40396158.html",
-          "source": "Jagran"
-        }
-      ],
-      "word_count": 829,
-      "page": "p/gurugram-mba-student-arrested-for-90-lakh-honeytrap-extortion.html"
-    },
-    {
-      "title": "GMA Deals and Steals Marks 15th Anniversary with Major Savings",
-      "slug": "gma-deals-and-steals-marks-15th-anniversary-with-major-savings",
-      "topic": "gma deals and steals",
-      "date": "2026-10-06",
-      "date_pkt": "2026-10-06 05:47 PM PKT",
-      "excerpt": "Good Morning America is marking 15 years of its Deals and Steals segment with significant price reductions. Viewers can find up to 70 percent off on various consumer products through ABC Secret Savings.",
-      "meta_description": "Good Morning America celebrates 15 years of its popular shopping segment with special discounts on beauty, home, and accessories for US viewers.",
-      "keywords": [
-        "GMA Deals and Steals",
-        "Good Morning America",
-        "ABC News",
-        "consumer savings",
-        "television shopping"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRsW127SJ6mZGs3xs7TVvryUsX1xGNWR4gCeOXnVjBUA5oNYKjyQMCXhd41YJs",
-      "related": [
-        {
-          "title": "Celebrate 15 years of 'GMA' Deals & Steals with special savings",
-          "url": "https://www.goodmorningamerica.com/shop/story/celebrate-15-years-gma-deals-steals-special-savings-137002676",
-          "source": "Good Morning America"
-        },
-        {
-          "title": "Get up to 70% off beauty and accessories with ABC Secret Savings",
-          "url": "https://abc7news.com/post/get-70-off-beauty-accessories-abc-secret-savings/19876119/",
-          "source": "ABC7 San Francisco"
-        },
-        {
-          "title": "Video Secret Savings: Home, Kitchen and more!",
-          "url": "https://abcnews.com/video/136971381/",
-          "source": "ABC News - Breaking News, Latest News and Videos"
-        }
-      ],
-      "word_count": 821,
-      "page": "p/gma-deals-and-steals-marks-15th-anniversary-with-major-savings.html"
-    },
-    {
-      "title": "Fitbit Edge Leak Reveals Color Screen and Seven-Day Battery Life",
-      "slug": "fitbit-edge-leak-reveals-color-screen-and-seven-day-battery-life",
-      "topic": "google fitbit air fitness tracker",
-      "date": "2026-10-06",
-      "date_pkt": "2026-10-06 05:47 PM PKT",
-      "excerpt": "Recent reports indicate that Google is preparing to launch the Fitbit Edge, a new fitness tracker with advanced features. The device reportedly includes a color screen and significantly improved battery performance.",
-      "meta_description": "New leaks detail the upcoming Fitbit Edge, featuring a color display, built-in GPS, and extended battery life. Google's next tracker aims to redefine fitness tr",
-      "keywords": [
-        "Fitbit Edge",
-        "Google Fitbit",
-        "fitness tracker",
-        "wearable technology",
-        "smartwatch leak"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "2000+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS9F3DZU_ql4MOQAgdcfnPs20KvIlywJnt8wWB13-68u18PIRubX2RMuABo3R4",
-      "related": [
-        {
-          "title": "Exclusive: This Is the Fitbit Edge, Google's Next Fitness Tracker",
-          "url": "https://www.androidheadlines.com/google-fitbit-edge",
-          "source": "Android Headlines"
-        },
-        {
-          "title": "Google is developing the Fitbit Edge – a fitness tracker with a color screen, GPS, and a battery life of up t",
-          "url": "https://mezha.ua/en/news/google-fitbit-edge-315824/",
-          "source": "Mezha"
-        },
-        {
-          "title": "Fitbit Edge Leak Reveals Display, GPS, and 7-Day Battery Life",
-          "url": "https://techgenyz.com/fitbit-edge-leak-display-gps-7-day-battery-life/",
-          "source": "Techgenyz"
-        }
-      ],
-      "word_count": 895,
-      "page": "p/fitbit-edge-leak-reveals-color-screen-and-seven-day-battery-life.html"
-    },
-    {
-      "title": "Farah Khan Reveals Sourav Joshi’s Mountain Bungalow and Car Collection",
-      "slug": "farah-khan-reveals-sourav-joshis-mountain-bungalow-and-car-collection",
-      "topic": "फराह खान",
-      "date": "2026-10-06",
-      "date_pkt": "2026-10-06 05:47 PM PKT",
-      "excerpt": "Farah Khan has shown the world the opulent mountain residence of YouTuber Sourav Joshi, complete with a private gym and a collection of multi‑crore cars. The reveal has sparked interest across India’s entertainment and lifestyle circles.",
-      "meta_description": "Farah Khan has taken to social media to showcase the lavish mountain home of YouTuber Sourav Joshi, featuring a multi‑crore car collection and private gym.",
-      "keywords": [
-        "Farah Khan",
-        "Sourav Joshi",
-        "luxury homes",
-        "Indian entertainment",
-        "social media"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGljZNz2Abrxmm6TIxW9m_6kQJQ89ZtC3yOQgoHUAQ2IocVzTL3d0v_1UdWmA",
-      "related": [
-        {
-          "title": "पहाड़ों में बसे सौरव जोशी के आलीशान बंगले का फराह खान ने दिखाया नजारा, करोड़ों का कार कलेक्शन, घर के कोने-क",
-          "url": "https://www.indiatv.in/entertainment/bollywood/farah-khan-gives-glimpse-of-sourav-joshi-lavish-bungalow-nestled-in-mountains-home-showcases-luxury-in-every-corner-alongside-multi-crore-cars-2026-10-06-1247176",
-          "source": "India TV Hindi"
-        },
-        {
-          "title": "प्राइवेट जिम, लिफ्ट और लग्जरी कारें, फराह खान ने दिखाया यूट्यूबर सौरव जोशी का",
-          "url": "https://www.abplive.com/photo-gallery/entertainment/television-youtuber-sourav-joshi-haldwani-lavish-house-gym-cars-collection-farah-khan-shocked-3198423",
-          "source": "ABP News"
-        },
-        {
-          "title": "Sourav Joshi Home Tour: पहाड़ों में करोड़ों का आशियाना, 'मन्नत' को देता है टक्कर! ऐसा है 26 साल के यूट्यूबर का घर",
-          "url": "https://www.aajtak.in/entertainment/ott/photo/youtuber-sourav-joshi-lavish-8-cr-haldwani-home-photos-net-worth-subscribers-tmovj-2653891-2026-09-27",
-          "source": "Aaj Tak"
-        }
-      ],
-      "word_count": 721,
-      "page": "p/farah-khan-reveals-sourav-joshis-mountain-bungalow-and-car-collection.html"
-    },
-    {
-      "title": "Drumcree parade dispute reignites tensions in Northern Ireland",
-      "slug": "drumcree-parade-dispute-reignites-tensions-in-northern-ireland",
-      "topic": "drumcree conflict",
-      "date": "2026-10-06",
-      "date_pkt": "2026-10-06 05:47 PM PKT",
-      "excerpt": "The Drumcree parade has sparked fresh legal battles and political controversy, with courts reserving judgment on a residents’ appeal and the first minister refusing to step down. Tensions in the community are once again on edge.",
-      "meta_description": "Courts reserve judgment on a residents’ appeal over the Drumcree parade, as the first minister rejects calls, reigniting sectarian tension in Northern Ireland.",
-      "keywords": [
-        "Drumcree",
-        "Northern Ireland",
-        "parade",
-        "court appeal",
-        "political tension"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSxb5zPbj3_HD_9iz2cwkAigx6MVZl0CnDI7gEimO5q6qMFO2PxcqRrTtoytbY",
-      "related": [
-        {
-          "title": "‘Trauma still there’: A decades-old standoff returns to Northern Ireland",
-          "url": "https://www.aljazeera.com/news/2026/10/3/trauma-still-there-a-decades-old-standoff-returns-to-northern-ireland",
-          "source": "Al Jazeera"
-        },
-        {
-          "title": "Court reserves judgment in appeal against Drumcree parade",
-          "url": "https://www.rte.ie/news/2026/1005/1593970-garvaghy-road-court/",
-          "source": "RTE.ie"
-        },
-        {
-          "title": "First minister rejects call to resign over Drumcree row",
-          "url": "https://www.bbc.com/news/articles/cm70pwp8kw6po",
-          "source": "BBC"
-        }
-      ],
-      "word_count": 706,
-      "page": "p/drumcree-parade-dispute-reignites-tensions-in-northern-ireland.html"
-    },
-    {
-      "title": "Coalition hits missile sites in Sana’a, Saada, secures Hodeidah sea lane",
-      "slug": "coalition-hits-missile-sites-in-sanaa-saada-secures-hodeidah-sea-lane",
-      "topic": "عملية عسكرية",
-      "date": "2026-10-06",
-      "date_pkt": "2026-10-06 05:47 PM PKT",
-      "excerpt": "The coalition announced a strike on missile facilities in Sana’a and Saada and a naval operation to protect shipping in Hodeidah. The moves aim to curb missile threats and keep sea lanes open.",
-      "meta_description": "The coalition carried out a military operation destroying missile platforms in Sana’a and Saada while securing the Hodeidah maritime corridor, raising regional ",
-      "keywords": [
-        "coalition",
-        "missile sites",
-        "Hodeidah",
-        "Yemen",
-        "military operation"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQoTjW7n5i_5_rcBG6xVBoScCs9wnYhFMXBXj1SfA1E55219QcMWc8OIeY81VY",
-      "related": [
-        {
-          "title": "\"التحالف\" ينفذ عملية عسكرية في الحديدة لحماية الملاحة، وأنصار الله يؤكدون \"إحكام قبضتهم\" على مكتسباتهم",
-          "url": "https://www.bbc.com/arabic/articles/c9vgr411jl21o",
-          "source": "BBC"
-        },
-        {
-          "title": "\"التحالف\" يدمر منصة صواريخ في صنعاء ومخزناً بـ20 صاروخاً باليستياً في صعدة",
-          "url": "https://sabq.org/article/dw95d8k",
-          "source": "صحيفة سبق الإلكترونية"
-        },
-        {
-          "title": "عام / التحالف: تدمير منصّة لإطلاق الصواريخ الباليستية في العاصمة صنعاء ومخزنًا للصواريخ الباليستية داخل موقع جبلي في صعدة",
-          "url": "https://www.spa.gov.sa/N2693983",
-          "source": "وكالة الأنباء السعودية"
-        }
-      ],
-      "word_count": 626,
-      "page": "p/coalition-hits-missile-sites-in-sanaa-saada-secures-hodeidah-sea-lane.html"
-    },
-    {
-      "title": "CJP founder Abhijeet Dipke faces police notice ahead of Delhi protest",
-      "slug": "cjp-founder-abhijeet-dipke-faces-police-notice-ahead-of-delhi-protest",
-      "topic": "অভিজিৎ দীপকে",
-      "date": "2026-10-06",
-      "date_pkt": "2026-10-06 05:47 PM PKT",
-      "excerpt": "The founder of the Cockroach Janta Party has received a police notice just days before a major rally in Delhi. Questions are also being raised about the source of funds for his high-profile political activities.",
-      "meta_description": "Cockroach Janta Party leader Abhijeet Dipke receives police notice before a planned October 10 Delhi protest, amid scrutiny over his funding sources and politic",
-      "keywords": [
-        "Abhijeet Dipke",
-        "Cockroach Janta Party",
-        "CJP",
-        "Delhi protest",
-        "Political funding"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTU2uJfRDira9F0f96iBK3qJEIGiZVQ62Y8YGYI6VNipflushFviXqnQ4DeORQ",
-      "related": [
-        {
-          "title": "Abhijeet Dipke : পুলিশের নোটিস, ১০ অক্টোবর দিল্লির কর্মসূচির আগে বিস্ফোরক অভিযোগ অভিজিৎ",
-          "url": "https://bengali.abplive.com/district/cockroach-janta-party-founder-abhijeet-dipke-alleged-cjp-activists-receiving-police-notices-before-10-october-delhi-protest-1195278",
-          "source": "ABP Ananda"
-        },
-        {
-          "title": "Abhijit Dipke Funding: ৩০ হাজারের জুতো, বিদেশযাত্রার খরচ—অভিজিৎ দীপকের ‘ফান্ডিং’ নিয়ে প্রশ্ন, কী জবাব দিলেন CJP নেতা? | Hindustan Times Bangla",
-          "url": "https://www.hindustantimes.com/bangla/news/abhijit-dipke-funding-from-rs-30000-worth-shoe-to-foreign-trips-what-is-source-of-cjp-leaders-funding-know-latest-updat-271790907567648.html",
-          "source": "Hindustan Times"
-        },
-        {
-          "title": "বিজেপির ভিড় ঠেকানোর কৌশল ব্যর্থ ককরোচের সভা ভরাল আমচি মুম্বই",
-          "url": "https://bartamanpatrika.com/news/bjps-strategy-to-curb-the-crowd-fails-aamchi-mumbai-packs-the-rally-venue",
-          "source": "Bartaman Patrika"
-        }
-      ],
-      "word_count": 866,
-      "page": "p/cjp-founder-abhijeet-dipke-faces-police-notice-ahead-of-delhi-protest.html"
-    },
-    {
-      "title": "Alex De Minaur Battles Top Players in China Open",
-      "slug": "alex-de-minaur-battles-top-players-in-china-open",
-      "topic": "alex de minaur",
-      "date": "2026-10-06",
-      "date_pkt": "2026-10-06 05:47 PM PKT",
-      "excerpt": "Alex De Minaur is making waves in the Asian tennis circuit, showcasing resilience against top‑ranked opponents. His recent performances have sparked interest among British tennis fans.",
-      "meta_description": "Australian tennis star Alex De Minaur keeps British fans engaged as he battles top players in the China Open and prepares for the Shanghai title defence.",
-      "keywords": [
-        "Alex De Minaur",
-        "China Open",
-        "Shanghai",
-        "tennis",
-        "Australian player"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ49h2amHASgK5tX3CegxGwkBiIJMG-wKDXKdnv1GVSRYJlETMPqxKxm9T2Oqk",
-      "related": [
-        {
-          "title": "Hot Shot: I can't hear you! Djokovic saves BP in style in Beijing final",
-          "url": "https://www.atptour.com/en/video/hot-shot-i-cant-hear-you-djokovic-saves-bp-in-style-in-beijing-2026-final",
-          "source": "ATP Tour"
-        },
-        {
-          "title": "China Open",
-          "url": "https://www.reutersconnect.com/item/china-open/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQTYwVk5WOUY",
-          "source": "Reuters Connect"
-        },
-        {
-          "title": "“I definitely want to play”: Hurkacz in race to be fit for Shanghai title defense",
-          "url": "https://en.tennistemple.com/actu/i-definitely-want-to-play-hurkacz-in-race-to-be/l2Vj",
-          "source": "TennisTemple"
-        }
-      ],
-      "word_count": 833,
-      "page": "p/alex-de-minaur-battles-top-players-in-china-open.html"
-    },
-    {
-      "title": "Alcaraz wins Tokyo ATP 500, joins Spain’s elite with 27 titles",
-      "slug": "alcaraz-wins-tokyo-atp-500-joins-spains-elite-with-27-titles",
-      "topic": "carlos alcaraz",
-      "date": "2026-10-06",
-      "date_pkt": "2026-10-06 05:47 PM PKT",
-      "excerpt": "Carlos Alcaraz reclaimed the Tokyo ATP 500 trophy after a hard‑fought win over Jakub Lehecka. The victory pushes his career tally to 27 titles, placing him among Spain’s historic trio of champions.",
-      "meta_description": "Spanish teen prodigy Carlos Alcaraz captured the Tokyo ATP 500 crown, defeating Jakub Lehecka to reach 27 career titles at age 23, cementing his place among Spa",
-      "keywords": [
-        "Carlos Alcaraz",
-        "Tokyo ATP 500",
-        "tennis",
-        "Spain",
-        "sports news"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSlahSRrlAamxxCsj7szMTYg7Plqk8pMYPuPu_-50wB8Cxyq1Pw3BrlroSyZ4o",
-      "related": [
-        {
-          "title": "Alcaraz reduce a Lchecka y reconquista Tokio",
-          "url": "https://elpais.com/deportes/tenis/2026-10-06/alcaraz-reduce-a-lecheka-y-reconquista-tokio.html",
-          "source": "EL PAÍS"
-        },
-        {
-          "title": "Alcaraz entra en el top-3 histórico español con 27 títulos a sus 23 años",
-          "url": "https://www.eurosport.es/tenis/atp-tokio/2026/alcaraz-cuantos-titulos-palmares-grand-slam-carlos-moya-rafael-nadal-david-ferrer-manuel-orantes_sto23183956/story.shtml",
-          "source": "Eurosport"
-        },
-        {
-          "title": "Estadísticas del Alcaraz - Lehecka, final del ATP 500 de Tokio",
-          "url": "https://www.abc.es/deportes/tenis/estadisticas-alcaraz-lehecka-final-atp-500-tokio-20261006135724-di.html",
-          "source": "ABC"
-        }
-      ],
-      "word_count": 596,
-      "page": "p/alcaraz-wins-tokyo-atp-500-joins-spains-elite-with-27-titles.html"
-    },
-    {
-      "title": "ATC Adjourns Bail Hearing for Lawyer Imaan Mazari Amid UN Criticism",
-      "slug": "atc-adjourns-bail-hearing-for-lawyer-imaan-mazari-amid-un-criticism",
-      "topic": "imaan mazari",
-      "date": "2026-10-06",
-      "date_pkt": "2026-10-06 05:47 PM PKT",
-      "excerpt": "Prominent lawyer Imaan Mazari and her husband Hadi remain in custody after the anti‑terrorism court postponed their bail hearing. UN experts have demanded their release, citing concerns over Pakistan's broad counter‑terrorism statutes.",
-      "meta_description": "Lawyer Imaan Mazari and her husband Hadi face extended detention as Pakistan's anti‑terror court adjourns their bail hearing; UN experts call for their release,",
-      "keywords": [
-        "Imaan Mazari",
-        "Pakistan law",
-        "ATC hearing",
-        "UN experts",
-        "counter-terrorism law"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT8o_TWpiCo_bwZGr7tCYJjNf8KwSSa3tFxhTbmW5Fjfhih4h3omMkn51UjnbI",
-      "related": [
-        {
-          "title": "Imaan and Hadi's arrest: ATC judge irked over IO's absence, failure to present case record",
-          "url": "https://www.dawn.com/news/2034905",
-          "source": "Dawn"
-        },
-        {
-          "title": "ATC adjourns Imaan, Hadi bail hearing till Oct 13 after IO fails to appear",
-          "url": "https://tribune.com.pk/story/2633113/atc-adjourns-imaan-hadi-bail-hearing-till-oct-13-after-io-fails-to-appear",
-          "source": "The Express Tribune"
-        },
-        {
-          "title": "'Vague and broad': UN experts slam Pakistan's counter-terrorism laws, demand release of lawyer couple",
-          "url": "https://timesofindia.indiatimes.com/world/pakistan/vague-and-broad-un-experts-slam-pakistans-counter-terrorism-laws-demand-release-of-lawyer-couple/articleshow/134641929.cms",
-          "source": "The Times of India"
-        }
-      ],
-      "word_count": 583,
-      "page": "p/atc-adjourns-bail-hearing-for-lawyer-imaan-mazari-amid-un-criticism.html"
-    },
-    {
-      "title": "پاک فوج: what readers need to know",
-      "slug": "what-readers-need-to-know-20261005",
-      "topic": "پاک فوج",
-      "date": "2026-10-05",
-      "date_pkt": "2026-10-05 06:40 PM PKT",
-      "excerpt": "Coverage linked to \"پاک فوج\" is circulating in PK. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "پاک فوج: coverage and context for readers in PK. Summary of related reports and what to verify next.",
-      "keywords": [
-        "پاک فوج",
-        "پاک فوج news",
-        "PK",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "500+",
-      "picture": "",
-      "related": [],
-      "word_count": 306,
-      "page": "p/what-readers-need-to-know-20261005.html"
-    },
-    {
-      "title": "حتى مورينيو فشل في ترويضه.. مبابي يضع ريال مدريد في مأزق جماهيري",
-      "slug": "news-1791207782",
-      "topic": "كووورة",
-      "date": "2026-10-05",
-      "date_pkt": "2026-10-05 06:40 PM PKT",
-      "excerpt": "Coverage linked to \"كووورة\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "كووورة: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "كووورة",
-        "كووورة news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGzI0X0NPg0FE-wpvd4hW6LH2VG6ZIVYIZU6lRFx_SbNeOXih_-8JPD0jPfxo",
-      "related": [
-        {
-          "title": "حتى مورينيو فشل في ترويضه.. مبابي يضع ريال مدريد في مأزق جماهيري",
-          "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AD%D8%AA%D9%89-%D9%85%D9%88%D8%B1%D9%8A%D9%86%D9%8A%D9%88-%D9%81%D8%B4%D9%84-%D9%81%D9%8A-%D8%AA%D8%B1%D9%88%D9%8A%D8%B6%D9%87--%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%8A%D8%B6%D8%B9-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%81%D9%8A-%D9%85%D8%A7%D9%94%D8%B2%D9%82-%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1%D9%8A/blt4beee5a0d7b07142",
-          "source": "Kooora"
-        },
-        {
-          "title": "صورة تقلب مدريد.. هل بدأ صدام كيليان مبابي وجوزيه مورينيو مبكرًا؟",
-          "url": "https://www.eremnews.com/sports/oyyv8q7",
-          "source": "إرم نيوز"
-        },
-        {
-          "title": "التوقف الدولي يضرب أندية أوروبا.. 10 إصابات ورافينيا آخر الضحايا",
-          "url": "https://www.youm7.com/story/2026/9/29/%D8%A7%D9%84%D8%AA%D9%88%D9%82%D9%81-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A-%D9%8A%D8%B6%D8%B1%D8%A8-%D8%A3%D9%86%D8%AF%D9%8A%D8%A9-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7-10-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D9%88%D8%B1%D8%A7%D9%81%D9%8A%D9%86%D9%8A%D8%A7-%D8%A2%D8%AE%D8%B1-%D8%A7%D9%84%D8%B6%D8%AD%D8%A7%D9%8A%D8%A7/7561913",
-          "source": "اليوم السابع"
-        }
-      ],
-      "word_count": 326,
-      "page": "p/news-1791207782.html"
-    },
-    {
-      "title": "karoline leavitt: what readers need to know",
-      "slug": "karoline-leavitt-what-readers-need-to-know",
-      "topic": "karoline leavitt",
-      "date": "2026-10-05",
-      "date_pkt": "2026-10-05 06:40 PM PKT",
-      "excerpt": "Coverage linked to \"karoline leavitt\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "karoline leavitt: coverage and context for readers in US. Summary of related reports and what to verify next.",
-      "keywords": [
-        "karoline leavitt",
-        "karoline leavitt news",
-        "US",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "500+",
-      "picture": "",
-      "related": [],
-      "word_count": 306,
-      "page": "p/karoline-leavitt-what-readers-need-to-know.html"
-    },
-    {
-      "title": "Yemeni Forces Take Control of Bab el-Mandeb in Major Military Shift",
-      "slug": "yemeni-forces-take-control-of-bab-el-mandeb-in-major-military-shift",
-      "topic": "القوات المسلحة اليمنية",
-      "date": "2026-10-05",
-      "date_pkt": "2026-10-05 06:40 PM PKT",
-      "excerpt": "Yemeni government forces have established control over the strategic Bab el-Mandeb strait, supported by extensive air operations from the Saudi-led coalition. The move signals a major shift in the regional power balance and raises questions",
-      "meta_description": "Yemeni military forces have seized control of the Bab el-Mandeb strait with air support from the Saudi-led coalition, marking a significant development in the o",
-      "keywords": [
-        "Yemen",
-        "Bab el-Mandeb",
-        "Saudi Coalition",
-        "Houthi militia",
-        "Red Sea security"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRF4bwuUhlBGqhqHIe88ZyIr_E0psP5OmAr7gvMUKcMoavZqBhCt5OJl7pLz_Y",
-      "related": [
-        {
-          "title": "التحالف: 100 طائرة مقاتلة شاركت في عملية \"فجر اليمن\"",
-          "url": "https://www.alarabiya.net/arab-and-world/yemen/2026/10/05/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-100-%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9-%D9%85%D9%82%D8%A7%D8%AA%D9%84%D8%A9-%D8%B4%D8%A7%D8%B1%D9%83%D8%AA-%D9%81%D9%8A-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D9%81%D8%AC%D8%B1-%D8%A7%D9%84%D9%8A%D9%85%D9%86",
-          "source": "العربية"
-        },
-        {
-          "title": "باحث: استعادة باب المندب من مليشيا الحوثي تكسب الشرعية اليمنية ثقة العالم",
-          "url": "https://ajel.sa/international/bee3t9zhx",
-          "source": "عاجل"
-        },
-        {
-          "title": "القوات اليمنية تسيطر على باب المندب بإسناد جوي من التحالف (تغطية حية)",
-          "url": "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A/5316024-%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D8%A9-%D8%AA%D8%B3%D9%8A%D8%B7%D8%B1-%D8%B9%D9%84%D9%89-%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%86%D8%AF%D8%A8-%D8%A8%D8%A5%D8%B3%D9%86%D8%A7%D8%AF-%D8%AC%D9%88%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%AA%D8%BA%D8%B7%D9%8A%D8%A9-%D8%AD%D9%8A%D8%A9",
-          "source": "الشرق الأوسط"
-        }
-      ],
-      "word_count": 1003,
-      "page": "p/yemeni-forces-take-control-of-bab-el-mandeb-in-major-military-shift.html"
-    },
-    {
-      "title": "US Dollar Reaches 18-Month High, Bitcoin Steady, Brazil Real Drops",
-      "slug": "us-dollar-reaches-18-month-high-bitcoin-steady-brazil-real-drops",
-      "topic": "dolar hoje",
-      "date": "2026-10-05",
-      "date_pkt": "2026-10-05 06:40 PM PKT",
-      "excerpt": "The U.S. dollar surged to its highest level in 18 months, putting pressure on emerging market currencies. In Brazil, the real fell below the R$5 mark after the first-round election results, while Bitcoin remained steady near $86,000.",
-      "meta_description": "The U.S. dollar climbs to an 18‑month peak while Bitcoin holds near $86,000, and Brazil’s real slips below R$5 after the election, impacting markets worldwide.",
-      "keywords": [
-        "US dollar",
-        "exchange rate",
-        "Brazil real",
-        "election",
-        "Bitcoin"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSAqaVuR9ZFy13IGEWSxZz5-XkfPGFuQ4ay-meTkgPTTetGZW8_-P32ztC0nlA",
-      "related": [
-        {
-          "title": "O Bitcoin mantém-se em US$ 86.000 enquanto o dólar se fortalece e os riscos europeus aumentam",
-          "url": "https://www.coindesk.com/pt-br/markets/2026/10/05/u-s-dollar-climbs-to-18-month-high-as-bitcoin-holds-firm-around-usd86-000",
-          "source": "CoinDesk"
-        },
-        {
-          "title": "Dólar cai abaixo de R$ 5 após resultado do primeiro turno das eleições",
-          "url": "https://veja.abril.com.br/economia/dolar-cai-abaixo-de-r-5-apos-resultado-do-primeiro-turno-das-eleicoes/",
-          "source": "VEJA"
-        },
-        {
-          "title": "Dólar hoje no pós-eleição",
-          "url": "https://br.investing.com/analysis/dolar-hoje-no-poseleicao-200479970",
-          "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
-        }
-      ],
-      "word_count": 688,
-      "page": "p/us-dollar-reaches-18-month-high-bitcoin-steady-brazil-real-drops.html"
-    },
-    {
-      "title": "Tech Entrepreneur's Suicide Sparks Debate on India's Alimony and Divorce Laws",
-      "slug": "tech-entrepreneurs-suicide-sparks-debate-on-indias-alimony-and-divorce-laws",
-      "topic": "sambhav jain",
-      "date": "2026-10-05",
-      "date_pkt": "2026-10-05 06:40 PM PKT",
-      "excerpt": "The suicide of 28‑year‑old tech worker Sambhav Jain has triggered a nationwide conversation about alimony and divorce law. Social media users and legal experts are weighing in on possible reforms.",
-      "meta_description": "The death of 28‑year‑old tech professional Sambhav Jain has ignited online discussion in India over alimony, divorce procedures and mental‑health support, promp",
-      "keywords": [
-        "Sambhav Jain",
-        "divorce law",
-        "alimony",
-        "suicide",
-        "India legal reform"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRAoKULC-Cqn6KQM9co6IFZRxm0y5Vf2UTcfmqCtcZ-O0kOH4AMRWtPCCLiwes",
-      "related": [
-        {
-          "title": "28-Year-Old Techie's Suicide Sparks Online Debate Over Alimony, Divorce Laws",
-          "url": "https://www.ndtv.com/india-news/sambhav-jain-death-sparks-online-debate-over-alimony-and-divorce-laws-12140223",
-          "source": "NDTV"
-        },
-        {
-          "title": "Man jumps to death from 43rd floor of North India's tallest skyscraper over divorce stress | His wife filed divorce case in 2025 | Inshorts",
-          "url": "https://inshorts.com/en/news/man-jumps-to-death-from-43rd-floor-of-north-india-s-tallest-skyscraper-over-divorce-stress-1791116635065",
-          "source": "Inshorts"
-        },
-        {
-          "title": "Pioneer In Short",
-          "url": "https://dailypioneer.com/news/slug-lite/pioneer-in-short-pioneer-in-short-2026-10-04?year=2026",
-          "source": "Pioneer Daily"
-        }
-      ],
-      "word_count": 464,
-      "page": "p/tech-entrepreneurs-suicide-sparks-debate-on-indias-alimony-and-divorce-laws.html"
-    },
-    {
-      "title": "Supreme Court reprimands actor Rajpal Yadav over unpaid court‑ordered deposit",
-      "slug": "supreme-court-reprimands-actor-rajpal-yadav-over-unpaid-courtordered-deposit",
-      "topic": "राजपाल यादव",
-      "date": "2026-10-05",
-      "date_pkt": "2026-10-05 06:40 PM PKT",
-      "excerpt": "The Supreme Court has issued a stern warning to Bollywood actor Rajpal Yadav after he failed to meet a ₹5 crore deposit order in a cheque‑bounce case, paying only ₹50 lakh. The court gave him 24 hours to comply, raising questions about acco",
-      "meta_description": "Actor Rajpal Yadav was ordered by the Supreme Court to deposit ₹5 crore in a cheque‑bounce case, paid only ₹50 lakh, and given a 24‑hour ultimatum, sparking leg",
-      "keywords": [
-        "Rajpal Yadav",
-        "Supreme Court",
-        "cheque bounce",
-        "Indian cinema",
-        "legal case"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "2000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRdi53xNujI_rKQstv9hEJZl0A9vwrVdirDOxrqUZIm5Z_2Hu6kiln8FuDnh-Y",
-      "related": [
-        {
-          "title": "यूपी राज्यसभा चुनाव: बीजेपी ने 8 उम्मीदवारों के नामों का किया एलान, मंत्री हरदीप सिंह का नाम नहीं",
-          "url": "https://www.bbc.com/hindi/live/c6q8nx39377kt",
-          "source": "BBC"
-        },
-        {
-          "title": "‘आपकी जगह जेल में है’, चेक बाउंस मामले में राजपाल यादव पर सुप्रीम कोर्ट सख्त",
-          "url": "https://www.abplive.com/news/india/supreme-court-order-on-rajpal-yadav-cheque-bounce-case-your-place-is-in-jail-3197968",
-          "source": "ABP News"
-        },
-        {
-          "title": "राजपाल यादव को सुप्रीम कोर्ट ने फटकारा, दिया 24 घंटे का अल्‍टीमेटम, ₹5Cr जमा करने को कहा था, दिए सिर्फ ₹50 लाख",
-          "url": "https://navbharattimes.indiatimes.com/entertainment/news-from-bollywood/supreme-court-reprimanded-rajpal-yadav-for-failing-to-deposit-5-crore-actor-paid-50-lakh-only/articleshow/134699387.cms",
-          "source": "Navbharat Times"
-        }
-      ],
-      "word_count": 695,
-      "page": "p/supreme-court-reprimands-actor-rajpal-yadav-over-unpaid-courtordered-deposit.html"
-    },
-    {
-      "title": "Scientists awarded Nobel for breakthrough in brain‑light research",
-      "slug": "scientists-awarded-nobel-for-breakthrough-in-brainlight-research",
-      "topic": "news - bbc",
-      "date": "2026-10-05",
-      "date_pkt": "2026-10-05 06:40 PM PKT",
-      "excerpt": "German and American scientists have won the 2026 Nobel Prize in Physiology or Medicine for pioneering work that uses light to control brain cells. The award highlights a decade‑long effort that could reshape treatment of mental and neurodeg",
-      "meta_description": "BBC reports the 2026 Nobel Prize in Physiology or Medicine went to German and US researchers for optogenetics, a light‑based technique that unlocks the brain's ",
-      "keywords": [
-        "Nobel Prize",
-        "neuroscience",
-        "optogenetics",
-        "brain research",
-        "medicine award"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ3VvwQG8cKcBqpA7KDrI9PBYqjY30kjACw4-EAwlynPAmTu0rbOSZPpUjdNog",
-      "related": [
-        {
-          "title": "Nobel Prize awarded for revealing inner workings of the brain",
-          "url": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o",
-          "source": "BBC"
-        },
-        {
-          "title": "Nobel Prize in Physiology or Medicine Is Awarded for Discoveries in Neuroscience",
-          "url": "https://www.nytimes.com/2026/10/05/health/nobel-prize-medicine-physiology.html",
-          "source": "The New York Times"
-        },
-        {
-          "title": "German and US scientists win Nobel medicine prize for work on light and brain",
-          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/deisseroth-hegemann-nagelwin-2026-nobel-medicine-prize-2026-10-05/",
-          "source": "Reuters"
-        }
-      ],
-      "word_count": 927,
-      "page": "p/scientists-awarded-nobel-for-breakthrough-in-brainlight-research.html"
-    },
-    {
-      "title": "Sakshi newspaper’s cartoons stir debate over political commentary",
-      "slug": "sakshi-newspapers-cartoons-stir-debate-over-political-commentary",
-      "topic": "సాక్షి",
-      "date": "2026-10-05",
-      "date_pkt": "2026-10-05 06:40 PM PKT",
-      "excerpt": "The Telugu daily Sakshi published two cartoons that have drawn attention across the state. Observers note the pieces reflect ongoing friction between media outlets and political figures.",
-      "meta_description": "Sakshi, the Telugu daily, faces criticism and praise after recent cartoons referencing a senior leader and CEC Jnanesh Kumar, highlighting media‑politics tensio",
-      "keywords": [
-        "Sakshi",
-        "Telugu newspaper",
-        "political cartoons",
-        "CEC Jnanesh Kumar",
-        "Indian media"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNdcy03I_UJg9pbCsceVmQrS9MWX153B6_66rD1QR0deIIhAHW3gApocTLKyE",
-      "related": [
-        {
-          "title": "మనం గెలిచినప్పటి నుంచి ఇలాగే అంటున్నారు ‘సర్‌’",
-          "url": "https://www.sakshi.com/telugu-news/cartoon/sakshi-cartoon-05-10-2026-2922751",
-          "source": "Sakshi"
-        },
-        {
-          "title": "మా మధ్య విభేదాల్లేవ్‌ 'సర్‌' నిర్నయాలన్నీ ఏకగ్రీవమే - సీఈసీ జ్ఞానేష్ కుమార్",
-          "url": "https://www.sakshi.com/telugu-news/cartoon/sakshi-cartoon-28-09-2026-2915283",
-          "source": "Sakshi"
-        }
-      ],
-      "word_count": 876,
-      "page": "p/sakshi-newspapers-cartoons-stir-debate-over-political-commentary.html"
-    },
-    {
-      "title": "Rachel Jupp named BBC's new Director of News",
-      "slug": "rachel-jupp-named-bbcs-new-director-of-news",
-      "topic": "rachel jupp",
-      "date": "2026-10-05",
-      "date_pkt": "2026-10-05 06:40 PM PKT",
-      "excerpt": "Rachel Jupp has been confirmed as the BBC's new Director of News after a competitive selection process. The appointment follows the exit of former news chief Deborah Turness.",
-      "meta_description": "Rachel Jupp has been appointed as the BBC's new Director of News following Deborah Turness's departure, marking a fresh leadership chapter for UK public broadca",
-      "keywords": [
-        "Rachel Jupp",
-        "BBC",
-        "news director",
-        "UK media",
-        "journalism leadership"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS17nbRy4kN91TSIAFfSAvtNnRq2e9TL1nFp6dxb7zJTXGdd7BDlEFHA0PF__Y",
-      "related": [
-        {
-          "title": "Rachel Jupp announced as BBC's new director of news after Deborah Turness exit",
-          "url": "https://www.bbc.co.uk/news/articles/cjrvl8n82wvo",
-          "source": "BBC"
-        },
-        {
-          "title": "BBC Holding Final Interviews For Next News Chief, With Four Contenders Still In Frame",
-          "url": "https://deadline.com/2026/10/bbc-final-interviews-next-news-chief-1237143606/",
-          "source": "Deadline"
-        },
-        {
-          "title": "BBC Holding Final Interviews For Next News Chief",
-          "url": "https://tvnewscheck.com/journalism/article/bbc-holding-final-interviews-for-next-news-chief/",
-          "source": "TV News Check"
-        }
-      ],
-      "word_count": 876,
-      "page": "p/rachel-jupp-named-bbcs-new-director-of-news.html"
-    },
-    {
-      "title": "Peter Thiel Revealed as Buyer of $130M Bel Air Estate",
-      "slug": "peter-thiel-revealed-as-buyer-of-130m-bel-air-estate",
-      "topic": "peter thiel",
-      "date": "2026-10-05",
-      "date_pkt": "2026-10-05 06:40 PM PKT",
-      "excerpt": "Tech billionaire Peter Thiel has emerged as the undisclosed buyer of the prestigious Casa Encantada mansion in Los Angeles. The property recently changed hands for a staggering $130 million, marking one of the most significant luxury real e",
-      "meta_description": "Billionaire Peter Thiel has been identified as the secret purchaser of Casa Encantada, a luxury mansion in Los Angeles that sold for $130 million.",
-      "keywords": [
-        "Peter Thiel",
-        "Casa Encantada",
-        "Bel Air",
-        "Luxury Real Estate",
-        "Los Angeles"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRbdRc152dh3cvAeS2wIkEfm6BYUmbZoclAR5lQS5BAr1t0tfVSgbcqV0ocJyM",
-      "related": [
-        {
-          "title": "Exclusive | Billionaire Peter Thiel Is Behind the $130 Million Purchase of Casa Encantada",
-          "url": "https://www.wsj.com/real-estate/luxury-homes/peter-thiel-casa-encantada-los-angeles-2077f388",
-          "source": "WSJ"
-        },
-        {
-          "title": "Peter Thiel revealed as secret buyer of Bel Air mansion that sold for $130m",
-          "url": "https://www.theguardian.com/technology/2026/oct/02/peter-thiel-mansion-bel-air",
-          "source": "The Guardian"
-        },
-        {
-          "title": "See specs of LA's Casa Encantada, reportedly Peter Thiel's new estate",
-          "url": "https://www.usatoday.com/story/news/state/california/los-angeles/2026/10/02/what-is-casa-encatada-peter-thiel-new-la-purchase/92058572007/",
-          "source": "USA Today"
-        }
-      ],
-      "word_count": 989,
-      "page": "p/peter-thiel-revealed-as-buyer-of-130m-bel-air-estate.html"
-    },
-    {
-      "title": "Octopus Energy’s unconventional leadership sparks debate in UK energy sector",
-      "slug": "octopus-energys-unconventional-leadership-sparks-debate-in-uk-energy-sector",
-      "topic": "greg jackson",
-      "date": "2026-10-05",
-      "date_pkt": "2026-10-05 06:40 PM PKT",
-      "excerpt": "Octopus Energy’s CEO Greg Jackson has steered the company without a formal HR department or bonus scheme, prompting debate over employee welfare. The move has attracted scrutiny from industry observers and regulators.",
-      "meta_description": "Octopus Energy CEO Greg Jackson’s no‑HR, no‑bonus model is drawing scrutiny as the company grows, raising questions about governance and staff welfare in the UK",
-      "keywords": [
-        "Greg Jackson",
-        "Octopus Energy",
-        "UK energy",
-        "management style",
-        "corporate governance"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcThcRA-rFkJRnb9NyXyp0UHkta5RTqOpzfFl1xketmj9itf41T_EDoxq9hJj9U",
-      "related": [
-        {
-          "title": "Dear all: how bosses should talk to the troops",
-          "url": "https://www.ft.com/content/de27e183-c8ab-4098-946b-7c1faf5a3d8a?syn-25a6b1a6=1",
-          "source": "Financial Times"
-        },
-        {
-          "title": "How Greg Jackson runs Octopus Energy with no HR, no bonuses, and no succession plan",
-          "url": "https://www.semafor.com/article/10/02/2026/how-greg-jackson-runs-octopus-energy-with-no-hr-no-bonuses-and-no-succession-plan",
-          "source": "Semafor"
-        }
-      ],
-      "word_count": 637,
-      "page": "p/octopus-energys-unconventional-leadership-sparks-debate-in-uk-energy-sector.html"
-    },
-    {
-      "title": "Karnataka adopts agri‑tech and sugarcane price reforms to lift farmer incomes",
-      "slug": "karnataka-adopts-agritech-and-sugarcane-price-reforms-to-lift-farmer-incomes",
-      "topic": "ಕೃಷಿ",
-      "date": "2026-10-05",
-      "date_pkt": "2026-10-05 06:40 PM PKT",
-      "excerpt": "State officials are rolling out technology‑driven schemes and a landmark research trial while debating sugarcane price mechanisms. The moves target higher earnings for Karnataka's farmers.",
-      "meta_description": "Karnataka's new agricultural technology push, CPCRI field trials and a sugarcane pricing debate aim to raise farmer earnings and stabilize the state's agrarian ",
-      "keywords": [
-        "Karnataka agriculture",
-        "agri tech",
-        "sugarcane pricing",
-        "CPCRI trial",
-        "farmer income"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTEjgKB3gveJ-hE9IPNcO2LIJTrWQcVc-bByfmpo-wNlyDXQLTzaOHkwDW7Iac",
-      "related": [
-        {
-          "title": "ಕೃಷಿ ತಂತ್ರಜ್ಞಾನದಿಂದ ರೈತರ ಆದಾಯ ಹೆಚ್ಚಳಕ್ಕೆ ಒತ್ತು",
-          "url": "https://sanjevani.com/%E0%B2%95%E0%B3%83%E0%B2%B7%E0%B2%BF-%E0%B2%A4%E0%B2%82%E0%B2%A4%E0%B3%8D%E0%B2%B0%E0%B2%9C%E0%B3%8D%E0%B2%9E%E0%B2%BE%E0%B2%A8%E0%B2%A6%E0%B2%BF%E0%B2%82%E0%B2%A6-%E0%B2%B0%E0%B3%88%E0%B2%A4%E0%B2%B0/",
-          "source": "Sanjevani"
-        },
-        {
-          "title": "CPCRI ಅಂಗಾಂಶ ಕೃಷಿ ಕುಬ್ಜ ಅಡಿಕೆ ತಳಿಯ ಮೊದಲ ಕ್ಷೇತ್ರ ಪ್ರಯೋಗಕ್ಕೆ ಸಜ್ಜು : ವಿಟ್ಲ ಪ್ರಾದೇಶಿಕ ಕೇಂದ್ರದಲ್ಲಿ ಅ.5ಕ್ಕೆ ಮೊದಲ ನಾಟಿ – Suddi Puttur",
-          "url": "https://puttur.suddinews.com/archives/1004627",
-          "source": "Suddi News Network"
-        },
-        {
-          "title": "ಕಬ್ಬಿನ ಬೆಲೆ ಸಮರ: ಕೇಂದ್ರದ FRP ಬಲ, ಕರ್ನಾಟಕದಲ್ಲಿ ಏಕಿಲ್ಲ SAP ಬೆಂಬಲ?",
-          "url": "https://vijaykarnataka.com/business/news/explainer-sugarcane-pricing-frp-vs-sap-karnataka/articleshow/134696489.cms",
-          "source": "Vijay Karnataka"
-        }
-      ],
-      "word_count": 684,
-      "page": "p/karnataka-adopts-agritech-and-sugarcane-price-reforms-to-lift-farmer-incomes.html"
-    },
-    {
-      "title": "KSE-100 slides past 170,000 as political uncertainty bites",
-      "slug": "kse-100-slides-past-170000-as-political-uncertainty-bites",
-      "topic": "kse 100 index",
-      "date": "2026-10-05",
-      "date_pkt": "2026-10-05 06:40 PM PKT",
-      "excerpt": "The KSE-100 index slipped below the 170,000 mark as investors reacted to political uncertainty and higher oil prices. Low trading volume added to the downward pressure, extending losses across equities.",
-      "meta_description": "Pakistan's benchmark KSE-100 index fell below 170,000 amid low trading volume, political uncertainty and rising oil prices, prompting weak market sentiment.",
-      "keywords": [
-        "KSE-100",
-        "Pakistan stock market",
-        "PSX",
-        "oil prices",
-        "political uncertainty"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSB9X_ToqSrZRi0LSZn7nTborPiuVUtIhzwdi91tvVBZ7P1zZ9-GVnnODx9GRA",
-      "related": [
-        {
-          "title": "Equities extend losses amid low volume",
-          "url": "https://www.dawn.com/news/2034337",
-          "source": "Dawn"
-        },
-        {
-          "title": "PSX: selling at bourse, KSE-100 down over 2,300 points on political uncertainty, higher oil prices",
-          "url": "https://www.brecorder.com/news/40442684",
-          "source": "Business Recorder"
-        },
-        {
-          "title": "PSX below 170k on weak sentiment",
-          "url": "https://tribune.com.pk/story/2632869/psx-below-170k-on-weak-sentiment",
-          "source": "The Express Tribune"
-        }
-      ],
-      "word_count": 803,
-      "page": "p/kse-100-slides-past-170000-as-political-uncertainty-bites.html"
-    },
-    {
-      "title": "India’s Cricket Squad Faces Ticket Frenzy Ahead of T20 Clash with West Indies",
-      "slug": "indias-cricket-squad-faces-ticket-frenzy-ahead-of-t20-clash-with-west-indies",
-      "topic": "भारतीय क्रिकेट टीम",
-      "date": "2026-10-05",
-      "date_pkt": "2026-10-05 06:40 PM PKT",
-      "excerpt": "Fans line up outside Ranchi stadium as India prepares for a T20 showdown with West Indies. Meanwhile, selectors weigh the inclusion of Vaibhav Sooryavanshi and Sanju Samson.",
-      "meta_description": "India’s cricket team prepares for a high‑stakes T20 series against West Indies, with fans queuing overnight for tickets and squad changes sparking debate.",
-      "keywords": [
-        "India cricket",
-        "West Indies",
-        "T20 series",
-        "ticket craze",
-        "team selection"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "5000+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRc7BEr9tcB3XJEqGXkEjIoWmO4Ezd1sWFRRYlD9kYX95V1LvRBPwTcUQ-elRU",
-      "related": [
-        {
-          "title": "भारत-वेस्टइंडीज T20 का ऐसा क्रेज, टिकट के लिए रातभर रांची स्टेडियम के बाहर डटे फैन्स",
-          "url": "https://www.aajtak.in/sports/cricket/story/india-vs-west-indies-t20-series-2026-ranchi-match-ticket-craze-jsca-stadium-schedule-tspoa-rpti-2661511-2026-10-05",
-          "source": "Aaj Tak"
-        },
-        {
-          "title": "6 अक्टूबर को एकसाथ दो मैच खेलेगी टीम इंडिया, वनडे और टी20 का जबरदस्त एक्शन",
-          "url": "https://www.abplive.com/sports/cricket/team-india-to-play-two-matches-6-october-india-cricket-schedule-india-vs-west-indies-india-a-australia-a-3197716",
-          "source": "ABP News"
-        },
-        {
-          "title": "वैभव सूर्यवंशी या संजू सैमसन कौन होगा बाहर? श्रेयस अय्यर को मजबूरन लेना होगा ये फैसला",
-          "url": "https://www.livehindustan.com/cricket/vaibhav-sooryavanshi-or-sanju-samson-who-will-out-ind-vs-wi-1st-t20i-probable-playing-xi-201791181070714.html",
-          "source": "Hindustan"
-        }
-      ],
-      "word_count": 779,
-      "page": "p/indias-cricket-squad-faces-ticket-frenzy-ahead-of-t20-clash-with-west-indies.html"
-    },
-    {
-      "title": "Georgina Rodriguez shares first glimpse of Ronaldo's Saudi flight amid national team dispute",
-      "slug": "georgina-rodriguez-shares-first-glimpse-of-ronaldos-saudi-flight-amid-national-team-disput",
-      "topic": "جورجينا رودريغيز",
-      "date": "2026-10-05",
-      "date_pkt": "2026-10-05 06:40 PM PKT",
-      "excerpt": "Georgina Rodriguez posted the first image of Cristiano Ronaldo's flight to Riyadh after leaving the Portugal camp. The post has reignited debate over the striker's international future.",
-      "meta_description": "Georgina Rodriguez posted the first photo of Cristiano Ronaldo's departure to Riyadh, sparking discussion on his future with Portugal as the coach reaches out.",
-      "keywords": [
-        "Georgina Rodriguez",
-        "Cristiano Ronaldo",
-        "Saudi Arabia",
-        "Portugal national team",
-        "football controversy"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSDUwOgf9s0I1--yI6gOvCPPUa04TF_2Y2e1uR0xVRYhAPR-ObYosNWRdh0BUU",
-      "related": [
-        {
-          "title": "في الرحلة إلى السعودية.. جورجينا تنشر أول صورة لرونالدو بعد مغادرته معسكر البرتغال",
-          "url": "https://arabic.cnn.com/sport/article/2026/10/05/georgina-shows-what-ronaldos-flight-to-riyadh-was-like",
-          "source": "CNN Arabic"
-        },
-        {
-          "title": "\"تحدثت معه على انفراد\".. كانسيلو يحسم جدل عودة كريستيانو لمنتخب البرتغال بكلمات واضحة",
-          "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AA%D8%AD%D8%AF%D8%AB%D8%AA-%D9%85%D8%B9%D9%87-%D8%B9%D9%84%D9%89-%D8%A7%D9%86%D9%81%D8%B1%D8%A7%D8%AF--%D9%83%D8%A7%D9%86%D8%B3%D9%8A%D9%84%D9%88-%D9%8A%D8%AD%D8%B3%D9%85-%D8%AC%D8%AF%D9%84-%D8%B9%D9%88%D8%AF%D8%A9-%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D9%8A%D8%A7%D9%86%D9%88-%D9%84%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%A7%D9%84%D8%A8%D8%B1%D8%AA%D8%BA%D8%A7%D9%84-%D8%A8%D9%83%D9%84%D9%85%D8%A7%D8%AA-%D9%88%D8%A7%D8%B6%D8%AD%D8%A9/blt5b58140682d9592f",
-          "source": "Kooora"
-        },
-        {
-          "title": "رسالة من مدرب البرتغال لرونالدو.. وبوادر لحل الأزمة",
-          "url": "https://www.skynewsarabia.com/sport/1896244-%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D9%85%D8%AF%D8%B1%D8%A8-%D8%A7%D9%84%D8%A8%D8%B1%D8%AA%D8%BA%D8%A7%D9%84-%D9%84%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88-%D9%88%D8%A8%D9%88%D8%A7%D8%AF%D8%B1-%D9%84%D8%AD%D9%84-%D8%A7%D9%84%D8%A3%D8%B2%D9%85%D8%A9",
-          "source": "سكاي نيوز عربية"
-        }
-      ],
-      "word_count": 894,
-      "page": "p/georgina-rodriguez-shares-first-glimpse-of-ronaldos-saudi-flight-amid-national-team-disput.html"
-    },
-    {
-      "title": "France Prepares for Belgium Clash as Zidane Highlights Team Unity",
-      "slug": "france-prepares-for-belgium-clash-as-zidane-highlights-team-unity",
-      "topic": "منتخب فرنسا لكرة القدم",
-      "date": "2026-10-05",
-      "date_pkt": "2026-10-05 06:40 PM PKT",
-      "excerpt": "France's national football team is gearing up for a crucial European Nations League match against Belgium. Coach Zinedine Zidane has highlighted the importance of unity and revealed a likely starting lineup.",
-      "meta_description": "France's national team readies for a key match against Belgium, with coach Zidane stressing unity and outlining a potential lineup ahead of the Nations League.",
-      "keywords": [
-        "France national team",
-        "Zidane",
-        "Belgium",
-        "European Nations League",
-        "team unity"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRiAkhNsPplvV75AoU99DsSq_SPGiRNH2EvCpAzIjMgJbYdf6IVJDX_oGA3Jg8",
-      "related": [
-        {
-          "title": "فان بوميل يشيد بزيدان قبل مواجهة فرنسا وبلجيكا",
-          "url": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9/5326002-%D9%81%D8%A7%D9%86-%D8%A8%D9%88%D9%85%D9%8A%D9%84-%D9%8A%D8%B4%D9%8A%D8%AF-%D8%A8%D8%B2%D9%8A%D8%AF%D8%A7%D9%86-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D9%88%D8%A8%D9%84%D8%AC%D9%8A%D9%83%D8%A7",
-          "source": "الشرق الأوسط"
-        },
-        {
-          "title": "زيدان: الكل مهم في فرنسا وأشعر بالإحباط",
-          "url": "https://arriyadiyah.com/901693/%D8%B2%D9%8A%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D9%83%D9%84-%D9%85%D9%87%D9%85-%D9%81%D9%8A-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D9%88%D8%A3%D8%B4%D8%B9%D8%B1-%D8%A8%D8%A7%D9%84%D8%A5%D8%AD%D8%A8%D8%A7%D8%B7",
-          "source": "صحيفة الرياضية"
-        },
-        {
-          "title": "مفاجآت زيدان لا تتوقف.. التشكيل المحتمل لفرنسا ضد بلجيكا في دوري الأمم الأوروبية",
-          "url": "https://www.eremnews.com/sports/7igj06s",
-          "source": "إرم نيوز"
-        }
-      ],
-      "word_count": 407,
-      "page": "p/france-prepares-for-belgium-clash-as-zidane-highlights-team-unity.html"
-    },
-    {
-      "title": "Former House Speaker Dennis Hastert dies at 84",
-      "slug": "former-house-speaker-dennis-hastert-dies-at-84",
-      "topic": "dennis hastert",
-      "date": "2026-10-05",
-      "date_pkt": "2026-10-05 06:40 PM PKT",
-      "excerpt": "Dennis Hastert, who served as the 53rd Speaker of the United States House of Representatives, has passed away at the age of 84. His death marks the end of a career defined by high political office and later legal disgrace.",
-      "meta_description": "Dennis Hastert, the former Republican House Speaker disgraced by a child sex scandal, has died at the age of 84, ending a controversial political career.",
-      "keywords": [
-        "Dennis Hastert",
-        "House Speaker",
-        "politics",
-        "obituary",
-        "US Congress"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQnCbLK6u9ngV-Lw6PjgHhJbD0o16YMu0kUwBqtiFQqQZ-pwV5tIa85RxSwxEg",
-      "related": [
-        {
-          "title": "Dennis Hastert, Powerful Politician Disgraced by Child Sex Scandal, Dies",
-          "url": "https://www.nytimes.com/2026/10/05/obituaries/dennis-hastert-dead.html",
-          "source": "The New York Times"
-        },
-        {
-          "title": "Disgraced former House Speaker Dennis Hastert dies at 84",
-          "url": "https://www.nbcnews.com/politics/congress/disgraced-former-house-speaker-dennis-hastert-dies-84-rcna145700",
-          "source": "NBC News"
-        },
-        {
-          "title": "Former GOP House Speaker Hastert dies at 84",
-          "url": "https://www.kark.com/news/national-news/former-gop-house-speaker-hastert-dies-at-84/",
-          "source": "KARK"
-        }
-      ],
-      "word_count": 868,
-      "page": "p/former-house-speaker-dennis-hastert-dies-at-84.html"
     }
   ]
 }
