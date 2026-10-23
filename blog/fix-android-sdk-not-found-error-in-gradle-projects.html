@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fix Android SDK Not Found Error in Gradle Projects | LearnWithZuhaib</title>
+  <meta name="description" content="Resolve the SDK location error by correctly configuring sdk.dir or ANDROID_HOME for Gradle builds." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, android,gradle" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/fix-android-sdk-not-found-error-in-gradle-projects.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I share local.properties with other developers?", "acceptedAnswer": {"@type": "Answer", "text": "No, local.properties is meant for local machine configuration and is usually excluded from version control."}}, {"@type": "Question", "name": "What if my SDK is installed in a non‑standard location?", "acceptedAnswer": {"@type": "Answer", "text": "Point sdk.dir or ANDROID_HOME to that directory. Gradle will use it regardless of the default installation path."}}, {"@type": "Question", "name": "Why does the error appear only after a fresh clone?", "acceptedAnswer": {"@type": "Answer", "text": "The cloned repository lacks local.properties, so Gradle falls back to ANDROID_HOME, which may not be set in the new environment."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-10-23 · Q&A guide</p>
+    <h1>Fix Android SDK Not Found Error in Gradle Projects</h1>
+    <p class="lead">Resolve the SDK location error by correctly configuring sdk.dir or ANDROID_HOME for Gradle builds.</p>
+    <div class="content">
+<h2>What Causes the SDK Not Found Error</h2>
+<p>Gradle looks for the Android SDK in two places: the local.properties file that lives in the project root, and the ANDROID_HOME environment variable. If neither contains a valid path, the build aborts with &quot;SDK location not found&quot;. This often happens when a project is opened in a new IDE session or when the SDK has been moved after the project was created.</p>
+<h2>Verify the SDK Path on macOS</h2>
+<p>Open a terminal and run:</p>
+<p>```
+ls -l /Users/$(whoami)/Library/Android/sdk
+```</p>
+<p>Make sure the directory exists and contains subfolders like build-tools, platform-tools, and platforms. If the path is wrong or the folder is missing, reinstall the SDK or update the path to the correct location.</p>
+<h2>Create or Update local.properties</h2>
+<p>In the root of the project that Gradle is building, create or edit the file named local.properties. It should contain a single line:</p>
+<p>```
+sdk.dir=/Users/$(whoami)/Library/Android/sdk
+```</p>
+<p>Do **not** add any spaces after the slash. The file is ignored by Git, so it can be committed locally without affecting other developers.</p>
+<h2>Set ANDROID_HOME in Your Shell</h2>
+<p>If you prefer an environment variable, add the following to your shell profile (e.g., ~/.zshrc or ~/.bash_profile):</p>
+<pre><code># ~/.zshrc or ~/.bash_profile
+export ANDROID_HOME=&quot;$HOME/Library/Android/sdk&quot;
+export PATH=&quot;$PATH:$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools&quot;</code></pre>
+<h2>Refresh Gradle and Restart Android Studio</h2>
+<p>After modifying local.properties or your shell profile, restart Android Studio so it reloads the environment. Then run:</p>
+<p>```
+./gradlew clean build
+```</p>
+<p>or use the Gradle tool window to &quot;Refresh all Gradle projects.&quot; The error should disappear once Gradle can locate the SDK.</p>
+<p><strong>Takeaway:</strong> A correctly set sdk.dir in local.properties or a valid ANDROID_HOME resolves Gradle’s SDK location error.</p>
+<h2>People also ask</h2>
+<h3>Can I share local.properties with other developers?</h3>
+<p>No, local.properties is meant for local machine configuration and is usually excluded from version control.</p>
+<h3>What if my SDK is installed in a non‑standard location?</h3>
+<p>Point sdk.dir or ANDROID_HOME to that directory. Gradle will use it regardless of the default installation path.</p>
+<h3>Why does the error appear only after a fresh clone?</h3>
+<p>The cloned repository lacks local.properties, so Gradle falls back to ANDROID_HOME, which may not be set in the new environment.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/46928820/android-sdk-location-not-found-define-location-with-sdk-dir-in-the-local-prope" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

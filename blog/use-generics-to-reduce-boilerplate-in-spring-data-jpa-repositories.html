@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Use Generics to Reduce Boilerplate in Spring Data JPA Repositories | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to use generics in Spring Data JPA repositories to eliminate repetitive CRUD interfaces and services, streamlining your data access layer." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, java,spring,jpa,spring-data,spring-data-jpa" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/use-generics-to-reduce-boilerplate-in-spring-data-jpa-repositories.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I add custom query methods on a generic repository?", "acceptedAnswer": {"@type": "Answer", "text": "No, the generic repository only supplies CRUD. For custom queries, create a concrete repository that extends GenericRepository."}}, {"@type": "Question", "name": "Does this approach affect Spring Data's query derivation?", "acceptedAnswer": {"@type": "Answer", "text": "Query derivation works on concrete repository interfaces. Use a specific interface for any derived query you need."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-10-23 · Q&A guide</p>
+    <h1>Use Generics to Reduce Boilerplate in Spring Data JPA Repositories</h1>
+    <p class="lead">Learn how to use generics in Spring Data JPA repositories to eliminate repetitive CRUD interfaces and services, streamlining your data access layer.</p>
+    <div class="content">
+<h2>Why Generics Save Boilerplate</h2>
+<p>When every entity gets its own repository and service, the codebase grows quickly. If all entities share the same CRUD behaviour, the duplication is unnecessary. Generics let you write a single repository and service that work with any entity type and its primary key, keeping the codebase small and maintainable.</p>
+<h2>Generic Repository Interface</h2>
+<p>Define a repository that extends JpaRepository with type parameters for the entity and its ID. No extra methods are required for basic CRUD.</p>
+<pre><code>public interface GenericRepository&lt;T, ID extends Serializable&gt; extends JpaRepository&lt;T, ID&gt; {}</code></pre>
+<h2>Generic Service Layer</h2>
+<p>Create a generic service interface and implementation that delegate to the repository. The implementation receives the correct repository bean via constructor injection.</p>
+<pre><code>public interface GenericService&lt;T, ID extends Serializable&gt; {
+    T save(T entity);
+    Optional&lt;T&gt; findById(ID id);
+    List&lt;T&gt; findAll();
+    void deleteById(ID id);
+}
+
+@Service
+public class GenericServiceImpl&lt;T, ID extends Serializable&gt; implements GenericService&lt;T, ID&gt; {
+    private final GenericRepository&lt;T, ID&gt; repository;
+
+    public GenericServiceImpl(GenericRepository&lt;T, ID&gt; repository) {
+        this.repository = repository;
+    }
+
+    @Override
+    public T save(T entity) {
+        return repository.save(entity);
+    }
+    // delegate other methods similarly
+}</code></pre>
+<h2>Putting It All Together</h2>
+<p>Wire the generic service for a concrete entity by declaring a bean. Spring Data automatically creates a repository bean for each entity, so you can inject GenericService&lt;Facility, Long&gt; wherever needed.</p>
+<pre><code>@Bean
+public GenericService&lt;Facility, Long&gt; facilityService(GenericRepository&lt;Facility, Long&gt; repo) {
+    return new GenericServiceImpl&lt;&gt;(repo);
+}
+
+@RestController
+@RequestMapping(&quot;/facilities&quot;)
+public class FacilityController {
+    private final GenericService&lt;Facility, Long&gt; service;
+
+    public FacilityController(GenericService&lt;Facility, Long&gt; service) {
+        this.service = service;
+    }
+
+    @PostMapping
+    public Facility create(@RequestBody Facility facility) {
+        return service.save(facility);
+    }
+}</code></pre>
+<h2>Custom Queries and Advanced Use Cases</h2>
+<p>The generic repository provides only CRUD. If an entity needs custom queries, create a dedicated repository interface that extends GenericRepository. That interface can declare query methods or @Query annotations while still benefiting from the generic service.</p>
+<p><strong>Takeaway:</strong> Generics let you centralize CRUD logic in Spring Data JPA, cutting boilerplate without sacrificing type safety.</p>
+<h2>People also ask</h2>
+<h3>Can I add custom query methods on a generic repository?</h3>
+<p>No, the generic repository only supplies CRUD. For custom queries, create a concrete repository that extends GenericRepository.</p>
+<h3>Does this approach affect Spring Data&#x27;s query derivation?</h3>
+<p>Query derivation works on concrete repository interfaces. Use a specific interface for any derived query you need.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/19417670/using-generics-in-spring-data-jpa-repositories" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

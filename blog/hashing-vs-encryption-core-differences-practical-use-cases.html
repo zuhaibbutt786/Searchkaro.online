@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hashing vs Encryption: Core Differences &amp; Practical Use Cases | LearnWithZuhaib</title>
+  <meta name="description" content="Hashing vs encryption are distinct cryptographic primitives; hashing produces a fixed‑size digest for integrity and authentication, while encryption hides data and can be reversed with a key." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, advice,security,encryption,hash,cryptography" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/hashing-vs-encryption-core-differences-practical-use-cases.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I use a hash to verify a password?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, but always combine it with a unique salt and a slow KDF like Argon2 to defend against brute‑force attacks."}}, {"@type": "Question", "name": "Is AES‑GCM a hash?", "acceptedAnswer": {"@type": "Answer", "text": "No, AES‑GCM is an authenticated encryption mode; it provides confidentiality and integrity, not a one‑way digest."}}, {"@type": "Question", "name": "What is the difference between a collision and a pre‑image in hashing?", "acceptedAnswer": {"@type": "Answer", "text": "A collision is two distinct inputs producing the same digest; a pre‑image is finding any input that maps to a given digest."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-10-23 · Q&A guide</p>
+    <h1>Hashing vs Encryption: Core Differences &amp; Practical Use Cases</h1>
+    <p class="lead">Hashing vs encryption are distinct cryptographic primitives; hashing produces a fixed‑size digest for integrity and authentication, while encryption hides data and can be reversed with a key.</p>
+    <div class="content">
+<h2>Definitions &amp; Basic Properties</h2>
+<p>A hash function maps an arbitrary input to a fixed‑length output, called a digest. The mapping is deterministic and one‑way: recovering the input from the digest is computationally infeasible.
+Encryption, in contrast, is a bijective transformation that requires a secret key to revert the ciphertext back to plaintext. The process is designed to be reversible when the key is known.</p>
+<h2>Mathematical Foundations</h2>
+<p>Hash algorithms rely on properties such as pre‑image resistance, second‑preimage resistance, and collision resistance. They use compression functions and iterative chaining to produce a digest that appears random.
+Encryption algorithms are built around invertible operations, often using modular arithmetic, substitution–permutation networks, or block ciphers. Their security hinges on the secrecy of the key and the hardness of key recovery.</p>
+<h2>When to Use Which</h2>
+<p>Use hashing when you need to verify data integrity, store passwords securely, or generate unique identifiers. The irreversible nature of a hash guarantees that the original data cannot be reconstructed.
+Use encryption when you need to protect confidentiality of data at rest or in transit. The reversible property allows authorized parties to recover the original content.</p>
+<h2>Common Pitfalls</h2>
+<p>Treating a hash as a reversible cipher leads to vulnerabilities; attackers can perform dictionary or rainbow‑table attacks against weak hashes. Always salt and stretch password hashes with algorithms like Argon2 or PBKDF2.
+Using encryption for data integrity without a MAC or authenticated encryption mode (e.g., AES‑GCM) exposes you to malleability attacks. Prefer AEAD schemes that combine confidentiality and integrity.</p>
+<h2>Quick Code Demo (Python)</h2>
+<p>Below is a minimal example that demonstrates hashing with SHA‑256 and encryption with AES‑GCM using the cryptography library.</p>
+<pre><code>from cryptography.hazmat.primitives import hashes, serialization
+from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
+from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+import os
+
+# Hashing
+message = b&quot;Secret data&quot;
+hasher = hashes.Hash(hashes.SHA256())
+hasher.update(message)
+digest = hasher.finalize()
+print(&quot;SHA‑256 digest:&quot;, digest.hex())
+
+# Encryption
+password = b&quot;strong_password&quot;
+salt = os.urandom(16)
+# Derive a 256‑bit key
+kdf = PBKDF2HMAC(algorithm=hashes.SHA256(), length=32, salt=salt, iterations=100000)
+key = kdf.derive(password)
+
+aesgcm = AESGCM(key)
+nonce = os.urandom(12)
+ct = aesgcm.encrypt(nonce, message, None)
+print(&quot;AES‑GCM ciphertext:&quot;, ct.hex())
+
+# Decryption
+pt = aesgcm.decrypt(nonce, ct, None)
+print(&quot;Recovered plaintext:&quot;, pt.decode())</code></pre>
+<p><strong>Takeaway:</strong> Hashing is a one‑way digest for integrity; encryption is a reversible transformation for confidentiality.</p>
+<h2>People also ask</h2>
+<h3>Can I use a hash to verify a password?</h3>
+<p>Yes, but always combine it with a unique salt and a slow KDF like Argon2 to defend against brute‑force attacks.</p>
+<h3>Is AES‑GCM a hash?</h3>
+<p>No, AES‑GCM is an authenticated encryption mode; it provides confidentiality and integrity, not a one‑way digest.</p>
+<h3>What is the difference between a collision and a pre‑image in hashing?</h3>
+<p>A collision is two distinct inputs producing the same digest; a pre‑image is finding any input that maps to a given digest.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/4948322/fundamental-difference-between-hashing-and-encryption-algorithms" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

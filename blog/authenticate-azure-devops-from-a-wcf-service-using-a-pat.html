@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Authenticate Azure DevOps from a WCF service using a PAT | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to supply credentials to TfsTeamProjectCollectionFactory.GetTeamProjectCollection by using a Personal Access Token (PAT) and VssBasicCredential, enabling server‑side access without interactive login." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, c#,web-services,azure-devops,tfs-sdk" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/authenticate-azure-devops-from-a-wcf-service-using-a-pat.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I use Windows Integrated Authentication instead of a PAT?", "acceptedAnswer": {"@type": "Answer", "text": "Only when the service runs on a domain‑joined machine that the Azure DevOps server trusts. For Azure DevOps Services you must use a PAT or OAuth."}}, {"@type": "Question", "name": "Do I need the Microsoft.TeamFoundation.* assemblies on the mobile client?", "acceptedAnswer": {"@type": "Answer", "text": "No. The mobile app talks to your WCF service, which uses the SDK internally. Keep the heavy SDK on the server side only."}}, {"@type": "Question", "name": "What if I need to call the REST API instead of the client SDK?", "acceptedAnswer": {"@type": "Answer", "text": "You can reuse the same PAT; just add it as a Bearer token in the HTTP Authorization header."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-10-23 · Q&A guide</p>
+    <h1>Authenticate Azure DevOps from a WCF service using a PAT</h1>
+    <p class="lead">Learn how to supply credentials to TfsTeamProjectCollectionFactory.GetTeamProjectCollection by using a Personal Access Token (PAT) and VssBasicCredential, enabling server‑side access without interactive login.</p>
+    <div class="content">
+<h2>Why a PAT is the right choice for services</h2>
+<p>When a service runs outside of a user session it cannot rely on the cached Windows credentials that Visual Studio or the TFS client uses on a developer machine. Azure DevOps Services (formerly VSTS) therefore recommends Personal Access Tokens for non‑interactive scenarios. A PAT is a scoped, revocable secret that can be sent over HTTPS and works with the same client libraries that expect a NetworkCredential.</p>
+<h2>Create a scoped PAT in Azure DevOps</h2>
+<p>Open your Azure DevOps organization, go to **User Settings → Personal access tokens**, click **New Token**, give it a descriptive name, set an expiration date, and select the minimal scopes you need (e.g., **Code → Read &amp; Write**). Copy the generated token – you will never see it again.</p>
+<h2>Use VssBasicCredential with TfsTeamProjectCollectionFactory</h2>
+<p>The client library provides VssBasicCredential, which wraps a username (any non‑empty string) and the PAT as the password. Pass an instance of this credential to the factory method.
+The collection will authenticate on the first request, so there is no need to call Authenticate() manually.</p>
+<pre><code>using Microsoft.TeamFoundation.Client;
+using Microsoft.VisualStudio.Services.Common;
+
+public TfsTeamProjectCollection GetCollection()
+{
+    var collectionUri = new Uri(&quot;https://myserver.visualstudio.com/DefaultCollection&quot;);
+    // The user name can be anything – Azure DevOps ignores it when a PAT is supplied.
+    var credentials = new VssBasicCredential(string.Empty, &quot;&lt;YOUR_PAT_HERE&gt;&quot;);
+    var tpc = TfsTeamProjectCollectionFactory.GetTeamProjectCollection(collectionUri, credentials);
+    // Ensure the connection is established before returning.
+    tpc.EnsureAuthenticated();
+    return tpc;
+}</code></pre>
+<h2>Expose the connection through a WCF operation</h2>
+<p>Inject the helper method into your service class and use the returned TfsTeamProjectCollection to call any Azure DevOps API (e.g., WorkItemTracking, Git). Because the PAT is stored on the server, mobile clients only need to call your WCF endpoint, never the Azure DevOps SDK directly.</p>
+<p>```csharp
+[ServiceContract]
+public interface IDevOpsService
+{
+    [OperationContract]
+    string GetLatestChangeset(int projectId);
+}</p>
+<p>public class DevOpsService : IDevOpsService
+{
+    public string GetLatestChangeset(int projectId)
+    {
+        var tpc = GetCollection();
+        var versionControl = tpc.GetService&lt;VersionControlServer&gt;();
+        var cs = versionControl.GetChangesets(projectId, 1, 0, null).FirstOrDefault();
+        return cs?.ChangesetId.ToString() ?? &quot;none&quot;;
+    }
+}
+```</p>
+<h2>Common pitfalls and how to avoid them</h2>
+<p>• **Do not embed the PAT in source control** – store it in Azure Key Vault, an environment variable, or a protected config file.
+• **Scope only what you need** – a token with full ‘All scopes’ can be misused if the service is compromised.
+• **Use HTTPS** – the SDK enforces TLS, but double‑check your WCF binding.
+• **Refresh the token before expiration** – either generate a long‑lived PAT or implement a rotation script.</p>
+<p><strong>Takeaway:</strong> Pass a PAT wrapped in VssBasicCredential to GetTeamProjectCollection; the service can then call Azure DevOps APIs without interactive login.</p>
+<h2>People also ask</h2>
+<h3>Can I use Windows Integrated Authentication instead of a PAT?</h3>
+<p>Only when the service runs on a domain‑joined machine that the Azure DevOps server trusts. For Azure DevOps Services you must use a PAT or OAuth.</p>
+<h3>Do I need the Microsoft.TeamFoundation.* assemblies on the mobile client?</h3>
+<p>No. The mobile app talks to your WCF service, which uses the SDK internally. Keep the heavy SDK on the server side only.</p>
+<h3>What if I need to call the REST API instead of the client SDK?</h3>
+<p>You can reuse the same PAT; just add it as a Bearer token in the HTTP Authorization header.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/15317191/connect-to-visual-studio-team-services-from-webservice" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

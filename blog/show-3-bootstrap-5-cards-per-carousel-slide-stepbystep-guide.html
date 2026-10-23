@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Show 3 Bootstrap 5 Cards per Carousel Slide – Step‑by‑Step Guide | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to display three cards on each slide of a Bootstrap 5 carousel using grid columns and a tiny CSS tweak." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, html,css,bootstrap-5,bootstrap-cards" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/show-3-bootstrap-5-cards-per-carousel-slide-stepbystep-guide.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I mix Bootstrap 4 and Bootstrap 5 on the same page?", "acceptedAnswer": {"@type": "Answer", "text": "No. The two versions use different class names and CSS variables, which cause conflicts; choose one version and stick with it."}}, {"@type": "Question", "name": "Do I need extra JavaScript to show multiple cards per slide?", "acceptedAnswer": {"@type": "Answer", "text": "Only if you want a “slide‑by‑one‑card” effect. For a static three‑card‑per‑slide carousel, the built‑in Bootstrap JS is enough."}}, {"@type": "Question", "name": "How do I make the carousel responsive on mobile devices?", "acceptedAnswer": {"@type": "Answer", "text": "Use responsive column classes (e.g., `col-12 col-md-4`). On screens smaller than the `md` breakpoint each card will take the full width, showing one per slide."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-10-23 · Q&A guide</p>
+    <h1>Show 3 Bootstrap 5 Cards per Carousel Slide – Step‑by‑Step Guide</h1>
+    <p class="lead">Learn how to display three cards on each slide of a Bootstrap 5 carousel using grid columns and a tiny CSS tweak.</p>
+    <div class="content">
+<h2>Why the default carousel shows only one item</h2>
+<p>Bootstrap’s carousel treats every `.carousel-item` as a single slide. When you place a card inside that element, the slide width equals the container width, so only one card is visible. To show several cards, the slide must contain a row of columns that each hold a card, and the slide itself must be a flex container so the columns stay side‑by‑side.</p>
+<h2>Markup: Wrap cards in a row inside each slide</h2>
+<p>Place a Bootstrap row inside every `.carousel-item` and give each card a column class that adds up to 12. For three cards per slide use `.col-12 .col-md-4`. The row provides the gutter and the column classes handle the responsive breakpoints.</p>
+<p>```html
+&lt;div id=&quot;multiCardCarousel&quot; class=&quot;carousel slide&quot; data-bs-ride=&quot;carousel&quot;&gt;
+  &lt;div class=&quot;carousel-inner&quot;&gt;
+    &lt;div class=&quot;carousel-item active&quot;&gt;
+      &lt;div class=&quot;row g-3&quot;&gt;
+        &lt;div class=&quot;col-12 col-md-4&quot;&gt;
+          &lt;div class=&quot;card h-100&quot;&gt;…&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-12 col-md-4&quot;&gt;
+          &lt;div class=&quot;card h-100&quot;&gt;…&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-12 col-md-4&quot;&gt;
+          &lt;div class=&quot;card h-100&quot;&gt;…&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- repeat .carousel-item for the next slide --&gt;
+  &lt;/div&gt;
+  &lt;button class=&quot;carousel-control-prev&quot; type=&quot;button&quot; data-bs-target=&quot;#multiCardCarousel&quot; data-bs-slide=&quot;prev&quot;&gt;
+    &lt;span class=&quot;carousel-control-prev-icon&quot;&gt;&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;button class=&quot;carousel-control-next&quot; type=&quot;button&quot; data-bs-target=&quot;#multiCardCarousel&quot; data-bs-slide=&quot;next&quot;&gt;
+    &lt;span class=&quot;carousel-control-next-icon&quot;&gt;&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+```</p>
+<h2>CSS: Turn the slide into a flex container</h2>
+<p>Bootstrap already sets `.carousel-item` to `display: block`. Overriding it with `display: flex` makes the inner row stretch to the full height of the slide, keeping the cards aligned vertically. Adding `align-items: stretch` ensures each card fills the column height.</p>
+<p>```css
+.carousel-inner .carousel-item {
+  display: flex;
+  align-items: stretch;
+}</p>
+<p>.carousel-inner .carousel-item .row {
+  flex: 1 0 100%;
+}
+```</p>
+<pre><code>.carousel-inner .carousel-item {
+  display: flex;
+  align-items: stretch;
+}
+
+.carousel-inner .carousel-item .row {
+  flex: 1 0 100%;
+}</code></pre>
+<h2>Making the carousel loop with multiple items</h2>
+<p>The default carousel moves one `.carousel-item` at a time, which is fine when each slide already contains three cards. If you want a smoother “slide‑by‑one‑card” effect, duplicate the first few cards at the end of the list and use a small JavaScript snippet to shift the items after each transition. For most cases, the simple three‑card‑per‑slide approach described above is sufficient and does not require extra JS.</p>
+<h2>Full working example (Bootstrap 5 only)</h2>
+<p>Below is a minimal page that includes the CDN links, the HTML structure, and the custom CSS. Open it in a browser and you’ll see three cards per slide, responsive down to a single column on small screens.</p>
+<p>```html
+&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;title&gt;Bootstrap 5 Multi‑Card Carousel&lt;/title&gt;
+  &lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;style&gt;
+    .carousel-inner .carousel-item {display:flex;align-items:stretch;}
+    .carousel-inner .carousel-item .row {flex:1 0 100%;}
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body class=&quot;p-4&quot;&gt;
+  &lt;div id=&quot;multiCardCarousel&quot; class=&quot;carousel slide&quot; data-bs-ride=&quot;carousel&quot;&gt;
+    &lt;div class=&quot;carousel-inner&quot;&gt;
+      &lt;div class=&quot;carousel-item active&quot;&gt;
+        &lt;div class=&quot;row g-3&quot;&gt;
+          &lt;div class=&quot;col-12 col-md-4&quot;&gt;&lt;div class=&quot;card h-100&quot;&gt;&lt;div class=&quot;card-body&quot;&gt;Card 1&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+          &lt;div class=&quot;col-12 col-md-4&quot;&gt;&lt;div class=&quot;card h-100&quot;&gt;&lt;div class=&quot;card-body&quot;&gt;Card 2&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+          &lt;div class=&quot;col-12 col-md-4&quot;&gt;&lt;div class=&quot;card h-100&quot;&gt;&lt;div class=&quot;card-body&quot;&gt;Card 3&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;carousel-item&quot;&gt;
+        &lt;div class=&quot;row g-3&quot;&gt;
+          &lt;div class=&quot;col-12 col-md-4&quot;&gt;&lt;div class=&quot;card h-100&quot;&gt;&lt;div class=&quot;card-body&quot;&gt;Card 4&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+          &lt;div class=&quot;col-12 col-md-4&quot;&gt;&lt;div class=&quot;card h-100&quot;&gt;&lt;div class=&quot;card-body&quot;&gt;Card 5&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+          &lt;div class=&quot;col-12 col-md-4&quot;&gt;&lt;div class=&quot;card h-100&quot;&gt;&lt;div class=&quot;card-body&quot;&gt;Card 6&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&quot;carousel-control-prev&quot; type=&quot;button&quot; data-bs-target=&quot;#multiCardCarousel&quot; data-bs-slide=&quot;prev&quot;&gt;
+      &lt;span class=&quot;carousel-control-prev-icon&quot;&gt;&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;button class=&quot;carousel-control-next&quot; type=&quot;button&quot; data-bs-target=&quot;#multiCardCarousel&quot; data-bs-slide=&quot;next&quot;&gt;
+      &lt;span class=&quot;carousel-control-next-icon&quot;&gt;&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+  &lt;script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```</p>
+<p><strong>Takeaway:</strong> Wrap cards in a Bootstrap row inside each `.carousel-item` and turn the slide into a flex container to display three cards per slide.</p>
+<h2>People also ask</h2>
+<h3>Can I mix Bootstrap 4 and Bootstrap 5 on the same page?</h3>
+<p>No. The two versions use different class names and CSS variables, which cause conflicts; choose one version and stick with it.</p>
+<h3>Do I need extra JavaScript to show multiple cards per slide?</h3>
+<p>Only if you want a “slide‑by‑one‑card” effect. For a static three‑card‑per‑slide carousel, the built‑in Bootstrap JS is enough.</p>
+<h3>How do I make the carousel responsive on mobile devices?</h3>
+<p>Use responsive column classes (e.g., `col-12 col-md-4`). On screens smaller than the `md` breakpoint each card will take the full width, showing one per slide.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/75345639/multiple-cards-in-carousel-but-showing-one-card-per-slide" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

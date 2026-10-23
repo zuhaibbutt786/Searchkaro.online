@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "title": "Hashing vs Encryption: Core Differences & Practical Use Cases",
+      "slug": "hashing-vs-encryption-core-differences-practical-use-cases",
+      "date": "2026-10-23",
+      "excerpt": "Hashing vs encryption are distinct cryptographic primitives; hashing produces a fixed\u2011size digest for integrity and authentication, while encryption hides data and can be reversed with a key.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Use Generics to Reduce Boilerplate in Spring Data JPA Repositories",
+      "slug": "use-generics-to-reduce-boilerplate-in-spring-data-jpa-repositories",
+      "date": "2026-10-23",
+      "excerpt": "Learn how to use generics in Spring Data JPA repositories to eliminate repetitive CRUD interfaces and services, streamlining your data access layer.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Fix Android SDK Not Found Error in Gradle Projects",
+      "slug": "fix-android-sdk-not-found-error-in-gradle-projects",
+      "date": "2026-10-23",
+      "excerpt": "Resolve the SDK location error by correctly configuring sdk.dir or ANDROID_HOME for Gradle builds.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Nginx: Route 404s to PHP-FPM for Custom Error Pages",
+      "slug": "nginx-route-404s-to-php-fpm-for-custom-error-pages",
+      "date": "2026-10-23",
+      "excerpt": "Fix Nginx 404 handling by using error_page with recursive processing to pass requests to PHP-FPM for dynamic custom error pages.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Show 3 Bootstrap\u202f5 Cards per Carousel Slide \u2013 Step\u2011by\u2011Step Guide",
+      "slug": "show-3-bootstrap-5-cards-per-carousel-slide-stepbystep-guide",
+      "date": "2026-10-23",
+      "excerpt": "Learn how to display three cards on each slide of a Bootstrap\u202f5 carousel using grid columns and a tiny CSS tweak.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Authenticate Azure DevOps from a WCF service using a PAT",
+      "slug": "authenticate-azure-devops-from-a-wcf-service-using-a-pat",
+      "date": "2026-10-23",
+      "excerpt": "Learn how to supply credentials to TfsTeamProjectCollectionFactory.GetTeamProjectCollection by using a Personal Access Token (PAT) and VssBasicCredential, enabling server\u2011side access without interactive login.",
+      "source": "stackoverflow"
+    },
+    {
       "title": "Python __str__ vs __repr__: When to Use Each",
       "slug": "python-str-vs-repr-when-to-use-each",
       "date": "2026-10-16",

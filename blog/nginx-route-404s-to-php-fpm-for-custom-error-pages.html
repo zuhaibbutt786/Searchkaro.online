@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nginx: Route 404s to PHP-FPM for Custom Error Pages | LearnWithZuhaib</title>
+  <meta name="description" content="Fix Nginx 404 handling by using error_page with recursive processing to pass requests to PHP-FPM for dynamic custom error pages." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, nginx,http-status-code-404,php" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/nginx-route-404s-to-php-fpm-for-custom-error-pages.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why does my PHP error page show the Nginx default page?", "acceptedAnswer": {"@type": "Answer", "text": "Nginx is not re-routing the internal request to the PHP handler. Ensure `recursive_error_pages on;` is set and the PHP location block is correctly defined."}}, {"@type": "Question", "name": "Can I use `error_page 404 = @error;` instead?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, this creates a named location `@error` that you can explicitly route to your PHP script, offering more control over the internal redirect logic."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-10-23 · Q&A guide</p>
+    <h1>Nginx: Route 404s to PHP-FPM for Custom Error Pages</h1>
+    <p class="lead">Fix Nginx 404 handling by using error_page with recursive processing to pass requests to PHP-FPM for dynamic custom error pages.</p>
+    <div class="content">
+<h2>Why Standard Configs Fail</h2>
+<p>The default `error_page 404 = /error404.php;` directive often fails because Nginx attempts to serve the file directly from the filesystem if the `location` block is not explicitly configured to handle internal redirects.
+When a 404 occurs, Nginx looks for the file defined in `error_page`. If that file is a PHP script, Nginx must re-route the request to the PHP handler. Without proper internal redirect handling, Nginx serves the raw file or fails silently, displaying the default HTML error page.</p>
+<h2>Enable Recursive Error Pages</h2>
+<p>The critical directive is `recursive_error_pages on;`. This allows Nginx to process error pages if the error page handler itself generates an error or if the initial request was already an error.
+Without this, if the `error_page` directive points to a PHP file, and that PHP file triggers another 404 or 500, Nginx will not re-process the error, leading to the default Nginx error output.</p>
+<h2>Correct Location Block Configuration</h2>
+<p>Ensure your PHP location block includes `try_files` or relies on the `root` directive correctly. The `error_page` directive must be placed in the same context as the `location` block or the `server` block to apply properly.</p>
+<p>```nginx
+server {
+    listen 80;
+    server_name mydomain.co.uk;
+    root /var/www/viovet_frontend;
+    
+    # Critical: Allow error pages to be processed recursively
+    recursive_error_pages on;
+    
+    # Define the error page handler
+    error_page 404 /error404.php;
+    
+    location ~ \.php$ {
+        try_files $uri =404;
+        include /etc/nginx/fastcgi.conf;
+        fastcgi_pass phpfastcgiservers;
+        fastcgi_intercept_errors on;
+    }
+}
+```</p>
+<h2>Handling Non-404 Errors</h2>
+<p>If you only want to intercept 404s and let other errors (like 500) pass through to the default handler, specify only the 404 code in `error_page`. 
+For other status codes, ensure `fastcgi_intercept_errors on;` is set if you want Nginx to handle them, or remove it to let PHP-FPM return its own error headers and body.</p>
+<h2>Debugging Internal Redirects</h2>
+<p>Use `X-Forwarded-For` and `X-Real-IP` headers in your PHP error page to verify that the original request URI is being passed correctly.
+If the PHP script still doesn&#x27;t execute, check the Nginx error log for `open() failed` or `Permission denied` errors related to the `error404.php` file path.</p>
+<p><strong>Takeaway:</strong> Use `recursive_error_pages on;` and ensure the `error_page` directive points to a valid PHP file handled by your FastCGI location block.</p>
+<h2>People also ask</h2>
+<h3>Why does my PHP error page show the Nginx default page?</h3>
+<p>Nginx is not re-routing the internal request to the PHP handler. Ensure `recursive_error_pages on;` is set and the PHP location block is correctly defined.</p>
+<h3>Can I use `error_page 404 = @error;` instead?</h3>
+<p>Yes, this creates a named location `@error` that you can explicitly route to your PHP script, offering more control over the internal redirect logic.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/23106349/nginx-pass-all-404-errors-back-to-php-fpm-for-custom-error-page-processing" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>
