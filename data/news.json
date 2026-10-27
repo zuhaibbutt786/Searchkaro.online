@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-26T12:20:47.526439+00:00",
-  "updated_at_pkt": "2026-10-26 05:17 PM PKT",
+  "updated_at": "2026-10-27T11:41:40.364287+00:00",
+  "updated_at_pkt": "2026-10-27 04:38 PM PKT",
   "count": 500,
-  "new_in_this_run": 30,
+  "new_in_this_run": 27,
   "sources": [
     "https://trends.google.com/trending/rss?geo=PK",
     "https://trends.google.com/trending/rss?geo=IN",
@@ -11,6 +11,1070 @@
     "https://trends.google.com/trending/rss?geo=SA"
   ],
   "items": [
+    {
+      "title": "அரசு ஊழியர்களுக்கு போனஸ் அறிவித்தது தமிழக அரசு",
+      "slug": "news-1793101167",
+      "topic": "தீபாவளி",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "Coverage linked to \"தீபாவளி\" is circulating in IN. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "தீபாவளி: coverage and context for readers in IN. Summary of related reports and what to verify next.",
+      "keywords": [
+        "தீபாவளி",
+        "தீபாவளி news",
+        "IN",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "2000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQEpcryHqA2ccJZUL7u2a528gbELx7K8lDiSbVFzcjtqKZ0xwSdsBbNDCJCcw",
+      "related": [
+        {
+          "title": "அரசு ஊழியர்களுக்கு போனஸ் அறிவித்தது தமிழக அரசு",
+          "url": "https://www.dinamalar.com/news/tamil-nadu-news/tamil-nadu-government-announces-bonus-for-government-employees/4360320",
+          "source": "Dinamalar"
+        },
+        {
+          "title": "புதுச்சேரியில் தீபாவளிக்கு எஸ்சி, எஸ்டி மக்களுக்கு இலவச வேட்டி, சேலைக்குப் பதில் ரூ.1,000 அறிவிப்பு",
+          "url": "https://www.hindutamil.in/news/tamilnadu/rs-1000-to-be-credited-to-the-bank-accounts-of-sc-people-in-puducherry-for-diwali",
+          "source": "Hindu Tamil Thisai"
+        },
+        {
+          "title": "அரசு ஊழியர்களுக்கு போனஸ் அறிவிப்பு! தமிழகத்தில் இல்லை, புதுவையில்..!",
+          "url": "https://www.dinamani.com/tamilnadu/2026/Oct/27/bonus-announced-for-government-employees-not-in-tamil-nadu-but-in-puducherry",
+          "source": "DinaMani"
+        }
+      ],
+      "word_count": 378,
+      "page": "p/news-1793101167.html"
+    },
+    {
+      "title": "nam vs ire: what readers need to know",
+      "slug": "nam-vs-ire-what-readers-need-to-know",
+      "topic": "nam vs ire",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "Coverage linked to \"nam vs ire\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "nam vs ire: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "nam vs ire",
+        "nam vs ire news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "",
+      "related": [],
+      "word_count": 312,
+      "page": "p/nam-vs-ire-what-readers-need-to-know.html"
+    },
+    {
+      "title": "Violent protests erupt in Arunachal Pradesh over Siang Dam project",
+      "slug": "violent-protests-erupt-in-arunachal-pradesh-over-siang-dam-project",
+      "topic": "सियांग",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "Tensions have escalated in Arunachal Pradesh as demonstrations against the Siang Hydroelectric Project turned violent. Residents and youth groups are challenging the government's decision to proceed with the dam, raising concerns about envi",
+      "meta_description": "Protests against the Siang Hydroelectric Project in Arunachal Pradesh turned violent as locals oppose the dam, citing environmental risks and China's upstream t",
+      "keywords": [
+        "Siang Dam",
+        "Arunachal Pradesh",
+        "Hydroelectric Project",
+        "Protests",
+        "Brahmaputra River"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRIzBHaGKLwVRrINN7gV7KJIr0CMfmLFyGX9Q3VxHongVY7r_NPgp82mXz97Vk",
+      "related": [
+        {
+          "title": "अरुणाचल प्रदेश: चीन के मेगा डैम का ‘मुक़ाबला’ करने वाले भारत के इस प्रोजेक्ट के ख़िलाफ़ सड़कों पर क्यों उतरे लोग",
+          "url": "https://www.bbc.com/hindi/articles/cm0qk4py0lnjo",
+          "source": "BBC"
+        },
+        {
+          "title": "चीन के 'वाटर बम' के जवाब में भारत बना रहा सियांग डैम, प्रोटेस्ट क्यों कर रहे अरुणाचल के Gen-Z",
+          "url": "https://www.aajtak.in/india/news/story/arunachal-pradesh-siang-dam-brahmaputra-river-local-protest-china-dam-ntcppl-dskc-2680796-2026-10-26",
+          "source": "AajTak"
+        },
+        {
+          "title": "क्यों हिंसक हुआ अरुणाचल में बिजली परियोजना का विरोध?",
+          "url": "https://www.dw.com/hi/protest-turns-violent-against-hydroproject-in-arunachal/a-79760090",
+          "source": "DW.com"
+        }
+      ],
+      "word_count": 917,
+      "page": "p/violent-protests-erupt-in-arunachal-pradesh-over-siang-dam-project.html"
+    },
+    {
+      "title": "U.S. Daylight Saving Time Ends Oct 31, 2026 as States Debate Permanent Shift",
+      "slug": "us-daylight-saving-time-ends-oct-31-2026-as-states-debate-permanent-shift",
+      "topic": "daylight savings 2026 ends",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "U.S. clocks will turn back on Oct. 31, 2026, ending daylight saving time for the first time in decades. Some states are pushing for a permanent daylight saving schedule.",
+      "meta_description": "U.S. clocks will fall back on Oct 31, 2026, ending daylight saving time for the first time in decades as states debate permanent daylight saving.",
+      "keywords": [
+        "Daylight Saving Time",
+        "2026",
+        "U.S.",
+        "clocks",
+        "permanent DST"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS8fghBv3KT5UbkVpL0cJcgRk43bJ5fROC5Ey1Ek7BfUIpy-BaW0pnvKjn35SI",
+      "related": [
+        {
+          "title": "Daylight saving time ends soon: Here's where states stand on making it permanent",
+          "url": "https://www.wthr.com/article/news/nation-world/permanent-daylight-saving-time-where-states-stand/507-57319b6e-6458-4de6-99c3-e5e40d7fb9a6",
+          "source": "wthr.com"
+        },
+        {
+          "title": "The clocks change soon. Here’s how to prep your body.",
+          "url": "https://www.washingtonpost.com/wellness/2026/10/24/clocks-change-soon-heres-how-prep-your-body/",
+          "source": "The Washington Post"
+        },
+        {
+          "title": "Daylight saving time, Halloween meet in 2026: It won’t happen again for a long time",
+          "url": "https://www.al.com/news/2026/10/daylight-saving-time-halloween-meet-in-2026-it-wont-happen-again-for-a-long-tme.html",
+          "source": "AL.com"
+        }
+      ],
+      "word_count": 671,
+      "page": "p/us-daylight-saving-time-ends-oct-31-2026-as-states-debate-permanent-shift.html"
+    },
+    {
+      "title": "Team USA Coach Kara Lawson Makes Caitlin Clark Move",
+      "slug": "team-usa-coach-kara-lawson-makes-caitlin-clark-move",
+      "topic": "kara lawson",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "Coverage linked to \"kara lawson\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "kara lawson: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "kara lawson",
+        "kara lawson news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTURGERk6HdI6kHzOT_FSAxP0Mv7usBd7xz4GQTUqx1-Ldzpfgtz9xmH9Wm8lY",
+      "related": [
+        {
+          "title": "Team USA Coach Kara Lawson Makes Caitlin Clark Move",
+          "url": "https://athlonsports.com/wnba/indiana-fever/team-usa-coach-kara-lawson-makes-caitlin-clark-move",
+          "source": "Athlon Sports"
+        },
+        {
+          "title": "No. 2 Duke aims to stay on top in an ACC men's race featuring No. 9 Virginia, No. 11 Louisville",
+          "url": "https://apnews.com/article/acc-mens-basketball-3c8a240da9d3334fa7ab2a5adf20ca05",
+          "source": "AP News"
+        },
+        {
+          "title": "No. 2 Duke is looking to overwhelm teams with deep roster in chase for 3rd straight ACC title",
+          "url": "https://www.newsday.com/sports/college/college-basketball/duke-mens-basketball-preview-e82923",
+          "source": "Newsday"
+        }
+      ],
+      "word_count": 345,
+      "page": "p/team-usa-coach-kara-lawson-makes-caitlin-clark-move.html"
+    },
+    {
+      "title": "Prime Minister Awas Yojana delivers permanent homes to border families and split households",
+      "slug": "prime-minister-awas-yojana-delivers-permanent-homes-to-border-families-and-split-household",
+      "topic": "प्रधानमंत्री आवास योजना",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "The government’s Prime Minister Awas Yojana is providing concrete houses to families living in vulnerable border zones and to individuals affected by family division. Recent approvals highlight the scheme’s expanding reach and impact.",
+      "meta_description": "The Prime Minister Awas Yojana, India's flagship housing scheme, is granting permanent homes to families in border districts and to members of split households,",
+      "keywords": [
+        "Prime Minister Awas Yojana",
+        "housing scheme India",
+        "border area homes",
+        "family split benefits",
+        "rural housing"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcXaQteSxUvdLQD0sDPdUG_6RJi1gorUKEestbMzY_rnVnSNVbudJ3YwZi0Qc",
+      "related": [
+        {
+          "title": "परिवार में हो गया बंटवारा, क्या अब अलग मिलेगा PM आवास योजना का लाभ?",
+          "url": "https://www.abplive.com/utility-news/family-has-split-can-benefits-of-pm-awas-yojana-now-be-availed-of-separately-3207122",
+          "source": "ABP News"
+        },
+        {
+          "title": "प्रधानमंत्री आवास योजना: कभी बर्तन सजाकर बचाते थे भीगते बिस्तर, आज पक्के मकान में चैन से सो रहा सीमावर्ती ग...",
+          "url": "https://hindi.news18.com/news/nation/pm-awas-yojana-transforms-lives-in-jammu-border-areas-providing-permanent-homes-and-ending-families-constant-monsoon-fears-10941304.html",
+          "source": "News18 Hindi"
+        },
+        {
+          "title": "कच्चे मकान की परेशानियों से मिली मुक्ति, जयानंदन दास के पक्के घर का सपना हुआ साकार",
+          "url": "https://www.visionnewsservice.in/single-page/173322",
+          "source": "Vision News Service"
+        }
+      ],
+      "word_count": 978,
+      "page": "p/prime-minister-awas-yojana-delivers-permanent-homes-to-border-families-and-split-household.html"
+    },
+    {
+      "title": "Pakistan dismissed for 110 as Sri Lanka dominate fifth ODI tri‑series clash",
+      "slug": "pakistan-dismissed-for-110-as-sri-lanka-dominate-fifth-odi-triseries-clash",
+      "topic": "ind vs sl",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "Pakistan collapsed to 110 all out in the fifth ODI tri‑series clash, with Sri Lanka’s Madushanka taking five wickets. Sri Lanka chased the target easily, moving to the top of the points table.",
+      "meta_description": "Pakistan were bowled out for 110 as Sri Lanka’s Madushanka claimed five wickets in the fifth ODI tri‑series match, giving Sri Lanka a swift win and top spot in ",
+      "keywords": [
+        "Pakistan cricket",
+        "Sri Lanka cricket",
+        "ODI tri-series",
+        "Madushanka",
+        "110 all out"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT3ESRrglIR1zFBHXYnrCI9ajMUJM5nm7ThLnwYWnmh0k1Xq5WmC5sisq_ObSI",
+      "related": [
+        {
+          "title": "Ball by Ball Commentary & Live Score - PAK vs SL, 5th Match",
+          "url": "https://www.cricinfo.com/series/pakistan-odi-tri-series-2026-27-1550706/pakistan-vs-sri-lanka-5th-match-1550717/ball-by-ball-commentary",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "Pakistan set to face Sri Lanka in fifth match of ODI tri-series on Tuesday",
+          "url": "https://www.pcb.com.pk/press-release-detail/pakistan-set-to-face-sri-lanka-in-fifth-match-of-odi-tri-series-on-tuesday.html",
+          "source": "Pakistan Cricket Board (PCB)"
+        },
+        {
+          "title": "Pakistan bundled out for 110 as Sri Lanka's Madushanka takes five in tri-series clash",
+          "url": "https://www.dawn.com/news/2040181",
+          "source": "Dawn"
+        }
+      ],
+      "word_count": 755,
+      "page": "p/pakistan-dismissed-for-110-as-sri-lanka-dominate-fifth-odi-triseries-clash.html"
+    },
+    {
+      "title": "Pakistan Cricket Team Switches to Pink Kit for Breast Cancer Awareness",
+      "slug": "pakistan-cricket-team-switches-to-pink-kit-for-breast-cancer-awareness",
+      "topic": "today pakistan match",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "Pakistan’s national team will don a pink jersey for the England ODI in Lahore, a move that aligns with the Breast Cancer Awareness Day campaign. The switch marks a departure from their iconic green attire.",
+      "meta_description": "Pakistan will play England in Lahore wearing a pink kit to support breast cancer awareness, marking a shift from their traditional green jerseys.",
+      "keywords": [
+        "Pakistan cricket",
+        "breast cancer awareness",
+        "pink kit",
+        "England ODI",
+        "PCB"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSaSrmyVu7eHzKPmiol-nUES0XyGvEZNeXRknUBwFbhVQIzRtAybRlwEh552D8",
+      "related": [
+        {
+          "title": "PCB to observe Breast Cancer Awareness Day during Pakistan v England ODI in Lahore",
+          "url": "https://www.pcb.com.pk/press-release-detail/pcb-to-observe-breast-cancer-awareness-day-during-pakistan-v-england-odi-in-lahore.html",
+          "source": "Pakistan Cricket Board (PCB)"
+        },
+        {
+          "title": "Why are Pakistan wearing a pink jersey today?",
+          "url": "https://www.dawn.com/news/2039717/why-are-pakistan-wearing-a-pink-jersey-today",
+          "source": "Dawn"
+        },
+        {
+          "title": "Pakistan Cricket Team To Ditch Iconic Green Jersey For Pink Kit Against England",
+          "url": "https://www.news18.com/cricket/pakistan-cricket-team-to-ditch-iconic-green-jersey-for-pink-kit-against-england-ws-l-10387720.html",
+          "source": "News18"
+        }
+      ],
+      "word_count": 894,
+      "page": "p/pakistan-cricket-team-switches-to-pink-kit-for-breast-cancer-awareness.html"
+    },
+    {
+      "title": "Omaha faces unsettled weather with rain chances this week",
+      "slug": "omaha-faces-unsettled-weather-with-rain-chances-this-week",
+      "topic": "omaha weather",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "Residents of the Omaha area are bracing for a shift in weather conditions as an unsettled pattern brings several opportunities for rainfall. Meteorologists predict cooler temperatures and a mild finish to October.",
+      "meta_description": "Omaha residents face an unsettled weather pattern this week with multiple chances for rain and cooler temperatures, marking a mild final stretch of October.",
+      "keywords": [
+        "Omaha weather",
+        "Nebraska forecast",
+        "October rain",
+        "cooler temperatures",
+        "local news"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTtmQwLe4PPW5TcVOsXcET401oLz0WwwdPkVtCZbbkRzL5nIpuzWpjKvKmo6tE",
+      "related": [
+        {
+          "title": "Slight shower chance, cooler Tuesday in Omaha area",
+          "url": "https://www.ketv.com/article/omaha-weather-forecast-october-27-slight-shower-chance-cooler-tuesday-in-omaha-area/74258143",
+          "source": "KETV"
+        },
+        {
+          "title": "Unsettled weather pattern this week with several chances for rain",
+          "url": "https://www.1011now.com/2026/10/26/unsettled-weather-pattern-this-week-with-several-chances-rain/",
+          "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE"
+        },
+        {
+          "title": "Rusty’s First Alert 6 Forecast: Many chances of rain over a mild final week of October",
+          "url": "https://www.wowt.com/2026/10/26/rustys-first-alert-6-forecast-many-chances-rain-over-mild-final-week-october/",
+          "source": "WOWT"
+        }
+      ],
+      "word_count": 1005,
+      "page": "p/omaha-faces-unsettled-weather-with-rain-chances-this-week.html"
+    },
+    {
+      "title": "October 28, 2026: Errani / Paolini vs Danilina / Jiang Tennis…",
+      "slug": "october-28-2026-errani-paolini-vs-danilina-jiang-tennis",
+      "topic": "venus williams",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "Coverage linked to \"venus williams\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "venus williams: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "venus williams",
+        "venus williams news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRpHU3bqjsmKCJk7FO_RBqirE7ofj2puIO1M_qxPXXw4yXtt00RRmU_fN6RAtc",
+      "related": [
+        {
+          "title": "October 28, 2026: Errani / Paolini vs Danilina / Jiang Tennis Prediction Market",
+          "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/errani-paolini-vs-danilina-jiang-oct-28-2026/",
+          "source": "Robinhood"
+        },
+        {
+          "title": "October 28, 2026: Tien vs de Minaur Tennis Prediction Market",
+          "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/tien-vs-de-minaur-oct-28-2026/",
+          "source": "Robinhood"
+        },
+        {
+          "title": "October 27, 2026: Feldbausch vs Budkov Kjaer Tennis Prediction Market",
+          "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/feldbausch-vs-budkov-kjaer-oct-27-2026/",
+          "source": "Robinhood"
+        }
+      ],
+      "word_count": 326,
+      "page": "p/october-28-2026-errani-paolini-vs-danilina-jiang-tennis.html"
+    },
+    {
+      "title": "Netherlands reverses decision to pull out of Eurovision 2027",
+      "slug": "netherlands-reverses-decision-to-pull-out-of-eurovision-2027",
+      "topic": "eurovision 2027",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "The Netherlands has confirmed it will participate in Eurovision 2027 after reversing a recent decision to withdraw. The broadcaster cited changing sensitivities regarding Israel as the primary factor in the reversal.",
+      "meta_description": "The Dutch broadcaster has announced a U-turn on its withdrawal from Eurovision 2027, citing resolved sensitivities regarding Israel. This development impacts th",
+      "keywords": [
+        "Eurovision 2027",
+        "Netherlands",
+        "Dutch broadcaster",
+        "Israel",
+        "Music contest"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQw_z6o0oeXbzLSXR4UpC8XPnAQxmHLc1HDtR6Q2unA2W9VWpuIqMZ-KKcrbdA",
+      "related": [
+        {
+          "title": "Netherlands announces U-turn over Eurovision 2027 participation",
+          "url": "https://www.bbc.co.uk/news/articles/cmr4y5dvlzneo",
+          "source": "BBC"
+        },
+        {
+          "title": "Dutch broadcaster pulls out of Eurovision 2027",
+          "url": "https://www.rte.ie/entertainment/2026/1027/1596930-dutch-broadcaster-pulls-out-of-eurovision/",
+          "source": "RTE.ie"
+        },
+        {
+          "title": "In reversal, Holland pulls out of Eurovision; Dutch broadcaster cites ‘sensitivities’ over Israel",
+          "url": "https://www.timesofisrael.com/liveblog_entry/in-reversal-holland-pulls-out-of-eurovision-dutch-broadcaster-cites-sensitivities-over-israel/",
+          "source": "The Times of Israel"
+        }
+      ],
+      "word_count": 631,
+      "page": "p/netherlands-reverses-decision-to-pull-out-of-eurovision-2027.html"
+    },
+    {
+      "title": "Markram prioritises trophies over personal records ahead of WTC final",
+      "slug": "markram-prioritises-trophies-over-personal-records-ahead-of-wtc-final",
+      "topic": "aiden markram",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "Aiden Markram has shifted his focus from individual scores to collective triumphs. The captain urges South Africa to chase trophies as they gear up for the WTC final against Australia.",
+      "meta_description": "South Africa captain Aiden Markram says his focus is on winning trophies, not personal milestones, as the team prepares for the World Test Championship final ag",
+      "keywords": [
+        "Aiden Markram",
+        "South Africa cricket",
+        "World Test Championship",
+        "team success",
+        "trophies"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGgwamHz3Y7D3gPmJM-51YJ5m58CutHeZVDqxQzwUDCzDPcOBf5p9II9Ys0wU",
+      "related": [
+        {
+          "title": "Aiden Markram doesn't want to be South Africa's best batter. He just wants to win more trophies",
+          "url": "https://www.cricinfo.com/story/south-africa-vs-australia-2026-27-aiden-markram-on-the-wtc-2027-world-cup-and-performing-against-australia-1559727",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "'We can make the final again': Aiden Markram outlines South Africa’s WTC ambition ahead of Australia deci",
+          "url": "https://timesofindia.indiatimes.com/sports/cricket/news/we-can-make-the-final-again-aiden-markram-outlines-south-africas-wtc-ambition-ahead-of-australia-decider/articleshow/135209937.cms",
+          "source": "The Times of India"
+        },
+        {
+          "title": "'I just really hope we can win more trophies': Aiden Markram shifts focus from personal records to team success",
+          "url": "https://www.aninews.in/news/sports/cricket/i-just-really-hope-we-can-win-more-trophies-aiden-markram-shifts-focus-from-personal-records-to-team-success20261026163955",
+          "source": "ANI News"
+        }
+      ],
+      "word_count": 601,
+      "page": "p/markram-prioritises-trophies-over-personal-records-ahead-of-wtc-final.html"
+    },
+    {
+      "title": "Maize Farmers in Karnataka Face Drought‑Induced Crisis",
+      "slug": "maize-farmers-in-karnataka-face-droughtinduced-crisis",
+      "topic": "ಜೋಳ",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "Maize crops in Karnataka's Hassan district are wilting under severe drought, prompting farmers to seek relief. In neighboring Raichur, farmers are demanding a warabandi system to secure water for their fields.",
+      "meta_description": "Maize farmers in Karnataka's Hassan district are struggling as drought dries fields, while farmers in Raichur demand warabandi water distribution. The crisis hi",
+      "keywords": [
+        "maize",
+        "drought",
+        "Karnataka",
+        "warabandi",
+        "water scarcity"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN-CAYqYypbiigwQcOfbSH1EBQfkYLZ5J8y0QgYfuUXHWy_-Gb0xO19ji98qg",
+      "related": [
+        {
+          "title": "ಹಾಸನದಲ್ಲಿ ಬರದ ರುದ್ರ ನರ್ತನ: ಒಣಗಿ ನಿಂತ ಜೋಳ; ಬತ್ತಿದ ಕೆರೆ, ಜನ- ಜಾನುವಾರುಗಳಿಗೆ ನೀರಿನ ಸಂಕಷ್ಟ!",
+          "url": "https://www.kannadaprabha.com/karnataka/2026/Oct/27/amid-drought-maize-farmers-stare-at-bleak-prospects-in-karnatakas-hassan",
+          "source": "Kannada Prabha Online"
+        },
+        {
+          "title": "Raichur | ವಾರಬಂದಿ ಪದ್ಧತಿ ಜಾರಿಗೊಳಿಸಿ, ಬೆಳೆಗಳಿಗೆ ನೀರು ಹರಿಸಲು ರೈತರ ಆಗ್ರಹ",
+          "url": "https://www.varthabharati.in/raichur/raichur-farmers-demand-implementation-of-the-warabandi-system-to-supply-water-to-crops-2284963",
+          "source": "Vartha Bharati"
+        },
+        {
+          "title": "Water Problem: ಬರದ ಹೊಡೆತಕ್ಕೆ ಬಾಡುತ್ತಿದೆ ದ್ರಾಕ್ಷಿ ಬೆಳೆ, ಟ್ಯಾಂಕರ್ ನೀರೇ ರೈತರ ಏಕೈಕ ಆಸರೆ!",
+          "url": "https://kannada.news18.com/news/belagavi/belagavi-grape-gardens-drying-up-due-to-water-scarcity-lkl-svl-local18-ws-kl-2510723.html",
+          "source": "News18 Kannada"
+        }
+      ],
+      "word_count": 523,
+      "page": "p/maize-farmers-in-karnataka-face-droughtinduced-crisis.html"
+    },
+    {
+      "title": "Maharashtra Govt Takes FSSAI to Bombay High Court",
+      "slug": "maharashtra-govt-takes-fssai-to-bombay-high-court",
+      "topic": "देवेन्द्र फडणवीस",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "The Maharashtra government filed a petition against the Food Safety and Standards Authority of India in the Bombay High Court. The move has ignited political debate and raised questions about the balance of power between the state and the c",
+      "meta_description": "Maharashtra has taken the FSSAI to Bombay High Court, sparking a political clash and debate over state versus central authority in food safety regulation.",
+      "keywords": [
+        "Maharashtra",
+        "FSSAI",
+        "Bombay High Court",
+        "Devendra Fadnavis",
+        "political challenge"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSOjVE4ThK2OTI4auEH8onGKEQZWtFvmWATRmzackk-3ZubMGMGUB-IbMqP4-Q",
+      "related": [
+        {
+          "title": "FSSAI के खिलाफ बॉम्बे हाई कोर्ट पहुंची महाराष्ट्र सरकार, केंद्र की खाद्य सुरक्षा व्यवस्था पर उठाए सवाल",
+          "url": "https://www.indiatv.in/maharashtra/maharashtra-government-approaches-bombay-high-court-against-fssai-raises-questions-centre-food-safety-system-2026-10-26-1250990",
+          "source": "India TV Hindi"
+        },
+        {
+          "title": "महाराष्ट्र सरकार ने HC में मोदी सरकार को दी चुनौती, कांग्रेस ने पूछा- क्या फडणवीस दिल्ली को दे रहे कोई संदेश?",
+          "url": "https://navbharatlive.com/maharashtra/jairam-ramesh-target-modi-govt-maharashtra-govt-vs-fssai-bombay-hc-petition-awm08",
+          "source": "Navbharat Live"
+        },
+        {
+          "title": "क्या दिल्ली के सत्ता प्रतिष्ठान को महीन संदेश दे रहे हैं फडणवीस: कांग्रेस",
+          "url": "https://hindi.theprint.in/india/is-fadnavis-sending-a-subtle-message-to-the-delhi-establishment-congress/1049458/",
+          "source": "ThePrint Hindi"
+        }
+      ],
+      "word_count": 726,
+      "page": "p/maharashtra-govt-takes-fssai-to-bombay-high-court.html"
+    },
+    {
+      "title": "King Tides and Storms Spark Widespread Coastal Flooding in Southeast US",
+      "slug": "king-tides-and-storms-spark-widespread-coastal-flooding-in-southeast-us",
+      "topic": "king tides",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "King tides combined with heavy rain and gusty winds are flooding streets and low‑lying neighborhoods along the Southeast coast. Officials have issued flood warnings and are monitoring rising water levels in South Florida.",
+      "meta_description": "King tides, heavy rain and strong winds are causing prolonged coastal flooding across the Southeast, South Florida, prompting warnings and emergency actions.",
+      "keywords": [
+        "king tides",
+        "coastal flooding",
+        "South Florida",
+        "storm surge",
+        "climate resilience"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQef-a1jpTdtPAYb4hXVNTiWWF7B2dXFqn18rFIGd0bzON1ao_eve3Mzg4Hzv8",
+      "related": [
+        {
+          "title": "King Tides and heavy rain bring prolonged coastal flooding to Southeast with more trouble ahead",
+          "url": "https://www.foxweather.com/weather-news/king-tides-threaten-major-coastal-flooding-southeast",
+          "source": "FOX Weather"
+        },
+        {
+          "title": "King tides peak in South Florida on Tuesday leading to concerns of coastal flooding",
+          "url": "https://www.cbsnews.com/miami/video/king-tides-peak-in-south-florida-on-tuesday-leading-to-concerns-of-coastal-flooding/",
+          "source": "CBS News"
+        },
+        {
+          "title": "Strong winds and scattered storms push through area through Tuesday with gusts up to 40 mph",
+          "url": "https://www.wpbf.com/article/strong-winds-scattered-storms-south-florida/74247696",
+          "source": "WPBF"
+        }
+      ],
+      "word_count": 624,
+      "page": "p/king-tides-and-storms-spark-widespread-coastal-flooding-in-southeast-us.html"
+    },
+    {
+      "title": "India clinches dramatic win over New Zealand in second T20",
+      "slug": "india-clinches-dramatic-win-over-new-zealand-in-second-t20",
+      "topic": "new zealand live cricket match",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "India secured a narrow victory over New Zealand in the second T20, thanks to a late surge in batting. New Zealand’s untidy fielding proved costly, giving India a 2‑0 series lead.",
+      "meta_description": "India clinches a dramatic win over New Zealand in the second T20, with late batting fireworks and New Zealand's fielding lapses shaping a thrilling series lead.",
+      "keywords": [
+        "New Zealand cricket",
+        "India T20",
+        "live match",
+        "cricket preview",
+        "sports Pakistan"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQcFIls6ePXDGpci1kWLRbh682l-aTtnF0dT9Ktm4JTSKrriBBhCgJy2Hw1k7k",
+      "related": [
+        {
+          "title": "NZ vs IND 2nd T20I live report - Varma, Reddy, Dhir punish untidy NZ to pull off unlikely win",
+          "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-2nd-t20i-1539433/live-match-blog",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "Preview: New Zealand vs India, 3rd T20I",
+          "url": "http://www.cricbuzz.com/cricket-videos/215468/preview-new-zealand-vs-india-3rd-t20i",
+          "source": "Cricbuzz"
+        },
+        {
+          "title": "Late India charge seals thrilling second T20 win over NZ",
+          "url": "https://www.dawn.com/news/2039650/late-india-charge-seals-thrilling-second-t20-win-over-nz",
+          "source": "Dawn"
+        }
+      ],
+      "word_count": 693,
+      "page": "p/india-clinches-dramatic-win-over-new-zealand-in-second-t20.html"
+    },
+    {
+      "title": "India Braces for Early Winter Chill as Temperatures Plunge Across North",
+      "slug": "india-braces-for-early-winter-chill-as-temperatures-plunge-across-north",
+      "topic": "শীত",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "An early cold snap is sweeping northern India, with Delhi recording its lowest temperature of the month and Jammu & Kashmir experiencing its first snowfall of the season. Authorities issue advisories as residents adapt to the sudden chill.",
+      "meta_description": "India sees an early onset of শীত with record low temperatures in Delhi and fresh snowfall in Jammu & Kashmir, prompting weather alerts and public preparedness m",
+      "keywords": [
+        "শীত",
+        "winter India",
+        "cold wave",
+        "Delhi temperature",
+        "Jammu Kashmir snowfall"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQefD_jzsdu3YICYoRXUa3R87btWEpzys3y60fHaw-DdYq388XtPf20EmP_PtU",
+      "related": [
+        {
+          "title": "Winter Forecast: দেশে আগেই এন্ট্রি নিল শীত? একাধিক জায়গায় তাপমাত্রা অনেকটাই নামল",
+          "url": "https://bangla.aajtak.in/desh/story/winter-forecast-imd-delhi-record-cold-himachal-below-zero-sud-1467959-2026-10-27",
+          "source": "AajTak Bangla"
+        },
+        {
+          "title": "জম্মু-কাশ্মীরে মরশুমের প্রথম তুষারপাত, সাদা চাদরে ঢাকল কৈলাস কুণ্ড",
+          "url": "https://eisamay.com/shorts-video/fresh-snowfall-blankets-kailash-kund-mountains-near-bani-in-kathua-temperature-plummets/200558356.cms",
+          "source": "Ei Samay"
+        },
+        {
+          "title": "দিল্লিতে শীতের আগমনী বার্তা, মাসের সর্বনিম্ন তাপমাত্রা রেকর্ড",
+          "url": "https://janobani.com/international/91077",
+          "source": "Janobani"
+        }
+      ],
+      "word_count": 811,
+      "page": "p/india-braces-for-early-winter-chill-as-temperatures-plunge-across-north.html"
+    },
+    {
+      "title": "Hubert Hurkacz Advances at Swiss Indoors Basel, Set to Meet Zizou Bergs",
+      "slug": "hubert-hurkacz-advances-at-swiss-indoors-basel-set-to-meet-zizou-bergs",
+      "topic": "hubert hurkacz",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "Hubert Hurkacz secured a straight‑sets victory at the Swiss Indoors in Basel, positioning himself for a clash with Zizou Bergs. The win adds valuable points as the ATP season heads toward its climax.",
+      "meta_description": "Polish star Hubert Hurkacz moves deeper into the Swiss Indoors Basel tournament, securing a win that pits him against Belgium's Zizou Bergs in the next round.",
+      "keywords": [
+        "Hubert Hurkacz",
+        "Swiss Indoors",
+        "Basel",
+        "ATP",
+        "tennis"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQu3WLwM8bqVBdH4Do1nUHGm6UYgcK202YYiRGXppoxTh0NzEQ2wcGLoKsBE-A",
+      "related": [
+        {
+          "title": "NA ŻYWO: Hubert Hurkacz - Zizou Bergs w Bazylei. Relacja i wynik live",
+          "url": "https://przegladsportowy.onet.pl/tenis/hubert-hurkacz-zizou-bergs-relacja-na-zywo-atp-bazylea-live/7zwy9vl",
+          "source": "Przegląd Sportowy"
+        },
+        {
+          "title": "ATP Bazylea 2026: terminarz, drabinka, kursy i transmisje",
+          "url": "https://najlepsibukmacherzy.pl/blog/atp-bazylea-2026/",
+          "source": "Obstawianie meczy"
+        },
+        {
+          "title": "Swiss Indoors 2026 w Bazylei: Fonseca broni tytułu, mocna obsada",
+          "url": "https://www.tenis.net.pl/swiss-indoors-2026-w-bazylei-fonseca-broni-tytulu-mocna-obsada-2/",
+          "source": "Tenis NET"
+        }
+      ],
+      "word_count": 740,
+      "page": "p/hubert-hurkacz-advances-at-swiss-indoors-basel-set-to-meet-zizou-bergs.html"
+    },
+    {
+      "title": "Historic Exmoor Clapper Bridge Destroyed by Storms Austen and Boelo",
+      "slug": "historic-exmoor-clapper-bridge-destroyed-by-storms-austen-and-boelo",
+      "topic": "tarr steps",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "The ancient Exmoor clapper bridge was destroyed by consecutive storms Austen and Boelo. The loss has sparked calls for urgent restoration and safety reviews.",
+      "meta_description": "The ancient Exmoor clapper bridge was swept away by back‑to‑back storms Austen and Boelo, leaving a historic landmark in ruins.",
+      "keywords": [
+        "Exmoor clapper bridge",
+        "Storms Austen",
+        "Storms Boelo",
+        "historic landmark",
+        "South West storms"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQMWD7q5iGbbLXmJHHCWUjEDjlmxwbDB3LuV-M37ue5T7rAgXhKzZripg2txrQ",
+      "related": [
+        {
+          "title": "Ancient Exmoor clapper bridge washed away after back-to-back storms batter the South West",
+          "url": "https://www.somersetlive.co.uk/news/somerset-news/ancient-exmoor-clapper-bridge-washed-11215225",
+          "source": "Somerset Live"
+        },
+        {
+          "title": "Ancient Exmoor clapper bridge damaged by Storms Austen and Boelo | ITV News",
+          "url": "https://www.itv.com/news/westcountry/2026-10-27/ancient-exmoor-clapper-bridge-damaged-by-storms-austen-and-boelo",
+          "source": "ITVX"
+        },
+        {
+          "title": "Historic Somerset landmark damaged after storms hit",
+          "url": "https://www.somersetcountygazette.co.uk/news/26671643.warning-historic-somerset-landmark-destroyed-storm/",
+          "source": "Somerset County Gazette"
+        }
+      ],
+      "word_count": 499,
+      "page": "p/historic-exmoor-clapper-bridge-destroyed-by-storms-austen-and-boelo.html"
+    },
+    {
+      "title": "Harmanpreet and Deepti advance after centuries as Smriti loses ICC ODI…",
+      "slug": "harmanpreet-and-deepti-advance-after-centuries-as-smriti-loses-icc-odi",
+      "topic": "icc",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "Coverage linked to \"icc\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "icc: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "icc",
+        "icc news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR6xmDxdqxzKQgqXabh2UbrC-5LGHGos1iLQSXnQF35rruTWagXvt_hbNxnUsQ",
+      "related": [
+        {
+          "title": "Harmanpreet and Deepti advance after centuries as Smriti loses ICC ODI top spot",
+          "url": "https://thenewsmill.com/2026/10/harmanpreet-and-deepti-advance-after-centuries-as-smriti-loses-top-icc-odi-ranking/",
+          "source": "The News Mill"
+        },
+        {
+          "title": "ICC T20I Rankings: Shree Charani, Deepti Sharma dominate as Nandani Sharma, Kranti Gaud make gains",
+          "url": "https://sports.yahoo.com/articles/icc-t20i-rankings-shree-charani-152100308.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "INDIA STARS REWARDED IN ICC WOMEN’S ODI PLAYER RANKINGS",
+          "url": "https://www.icc-cricket.com/media-releases/india-stars-rewarded-in-icc-women-s-odi-player-rankings",
+          "source": "ICC"
+        }
+      ],
+      "word_count": 331,
+      "page": "p/harmanpreet-and-deepti-advance-after-centuries-as-smriti-loses-icc-odi.html"
+    },
+    {
+      "title": "Fatal crash near Stafford leaves two elderly drivers dead",
+      "slug": "fatal-crash-near-stafford-leaves-two-elderly-drivers-dead",
+      "topic": "greatest hits radio",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "Two people in their 70s have died following a severe car crash in Staffordshire. Authorities are appealing for witnesses as the investigation into the fatal collision continues.",
+      "meta_description": "A man and woman in their 70s were killed in a serious road collision near Stafford. Police are investigating the cause of the tragedy that has shocked the local",
+      "keywords": [
+        "Staffordshire crash",
+        "road safety",
+        "fatal accident",
+        "local news GB",
+        "traffic collision"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQks3Vs9cOahgew_VTGQlmOS_wi_bZ38xKpuLwzDTR8XD8lu7edbFts2JuxAyc",
+      "related": [
+        {
+          "title": "Man and woman in their 70s killed in crash",
+          "url": "https://www.bbc.co.uk/news/articles/cqe8rwnr1jreo",
+          "source": "BBC"
+        },
+        {
+          "title": "Man dies following collision",
+          "url": "https://www.staffordshire.police.uk/news/staffordshire/news/2026/october/man-dies-following-collision/",
+          "source": "Staffordshire Police"
+        },
+        {
+          "title": "Tragedy as two dead in car crash near Stafford",
+          "url": "https://uk.news.yahoo.com/tragedy-two-dead-car-crash-172442442.html",
+          "source": "Yahoo News UK"
+        }
+      ],
+      "word_count": 755,
+      "page": "p/fatal-crash-near-stafford-leaves-two-elderly-drivers-dead.html"
+    },
+    {
+      "title": "Coca-Cola beats Q3 earnings estimates, raises full-year outlook",
+      "slug": "coca-cola-beats-q3-earnings-estimates-raises-full-year-outlook",
+      "topic": "ko stock",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "Coca-Cola reported stronger-than-expected third-quarter results, prompting an upward revision of its annual financial targets. The company highlighted robust performance in its core soda segment, which helped offset softer demand trends in ",
+      "meta_description": "Coca-Cola stock surged after the beverage giant beat Q3 2026 earnings estimates and raised its full-year guidance, driven by strong soda sales despite weak Nort",
+      "keywords": [
+        "Coca-Cola stock",
+        "KO earnings",
+        "Q3 2026 results",
+        "beverage industry",
+        "financial outlook"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcnI8wMBHUqQVwHC0K-yqicG7EKGsWEHqzuOwRP2PqFNKhUx7XNKKkTGPb0Ew",
+      "related": [
+        {
+          "title": "Coca-Cola hikes earnings outlook, even as it sees lackluster demand in North America",
+          "url": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html",
+          "source": "CNBC"
+        },
+        {
+          "title": "Coca-Cola beat Q3 2026 earnings estimates and raised its outlook",
+          "url": "https://qz.com/coca-cola-earnings-beat-raises-full-year-outlook-102726",
+          "source": "Quartz"
+        },
+        {
+          "title": "Coca-Cola Raises Full-Year Guidance, Buoyed by Soda Sales",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-27/coca-cola-raises-full-year-guidance-buoyed-by-soda-sales",
+          "source": "Bloomberg.com"
+        }
+      ],
+      "word_count": 783,
+      "page": "p/coca-cola-beats-q3-earnings-estimates-raises-full-year-outlook.html"
+    },
+    {
+      "title": "Bańka pękła. \"Doszło do krachu\"",
+      "slug": "banka-peka-doszo-do-krachu",
+      "topic": "tvn24",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "Coverage linked to \"tvn24\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "tvn24: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "tvn24",
+        "tvn24 news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrPblC9NO7cpZoGXOA4SQi0Raf2cvP23WYqobWoUVslzqYKTIy9DC-1JeEzfM",
+      "related": [
+        {
+          "title": "Bańka pękła. \"Doszło do krachu\"",
+          "url": "https://tvn24.pl/biznes/tech/banka-pekla-doszlo-do-krachu-st9307508",
+          "source": "TVN24"
+        },
+        {
+          "title": "Chiński syndrom japoński. Pekin w pętli wieloletniej stagnacji",
+          "url": "https://www.bankier.pl/wiadomosc/Chinski-syndrom-japonski-Pekin-w-petli-wieloletniej-stagnacji-9215914.html",
+          "source": "Bankier.pl"
+        },
+        {
+          "title": "Chińskie akcje „wyparowały” o wartości 3,5 biliona dolarów, a istnieją większe zmartwienia niż spadek ich wartości o miliard dolarów.",
+          "url": "https://www.vietnam.vn/pl/chung-khoan-trung-quoc-boc-hoi-3-500-ty-usd-va-noi-lo-lon-hon-su-sut-giam-ty-usd",
+          "source": "Vietnam.vn"
+        }
+      ],
+      "word_count": 325,
+      "page": "p/banka-peka-doszo-do-krachu.html"
+    },
+    {
+      "title": "Bangladesh Prepares for West Indies Tests Amid Internal Turmoil",
+      "slug": "bangladesh-prepares-for-west-indies-tests-amid-internal-turmoil",
+      "topic": "live cricket match",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "Bangladesh's internal issues are taking a back seat as the nation readies for a live Test series against West Indies. South African viewers are closely following the developments.",
+      "meta_description": "Bangladesh gears up for a live Test series against West Indies as internal challenges recede, drawing keen attention from South African cricket fans.",
+      "keywords": [
+        "cricket",
+        "Bangladesh",
+        "West Indies",
+        "Test series",
+        "South Africa"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR0aSnN4fqISmJvzO8_S_RuUb20roiv-5Yu9UXZVcJnclEUe3w4xycWxYtDMq4",
+      "related": [
+        {
+          "title": "Bangladesh's latest turmoil takes a back seat as West Indies Tests loom",
+          "url": "https://www.cricbuzz.com/cricket-news/140656/bangladeshs-latest-turmoil-takes-a-back-seat-as-west-indies-tests-loom",
+          "source": "Cricbuzz"
+        },
+        {
+          "title": "No pressure, but an inspiration - Shanto on Bangladesh's WTC chances",
+          "url": "https://www.cricinfo.com/story/najmul-hossain-shanto-wants-bangladesh-to-improve-consistency-in-test-cricket-1560137",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "Chaos building towards a perfect storm?",
+          "url": "https://www.thedailystar.net/sports/cricket/news/chaos-building-towards-perfect-storm-4308541",
+          "source": "The Daily Star"
+        }
+      ],
+      "word_count": 800,
+      "page": "p/bangladesh-prepares-for-west-indies-tests-amid-internal-turmoil.html"
+    },
+    {
+      "title": "Apple unveils iPad Mini 8 with OLED screen and A20 Pro chip",
+      "slug": "apple-unveils-ipad-mini-8-with-oled-screen-and-a20-pro-chip",
+      "topic": "آي باد ميني",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "Apple has officially introduced the latest iteration of its compact tablet, the iPad Mini 8. The new model brings significant hardware upgrades, including a high-resolution OLED screen and a powerful A20 Pro processor.",
+      "meta_description": "Apple has revealed the new iPad Mini 8, featuring an OLED display and A20 Pro chip. The device is set to launch in Saudi Arabia with a starting price of 3,299 r",
+      "keywords": [
+        "iPad Mini 8",
+        "Apple",
+        "OLED display",
+        "A20 Pro chip",
+        "Saudi Arabia"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSHHvU2QUSCREngF67wTlmSm5bhCqaLrVSYKxrO35ycq1zHAUDh9Htxxgn8_p0",
+      "related": [
+        {
+          "title": "أبل تكشف عن آيباد ميني جديد.. تعرف على السعر والمواصفات وموعد الطرح",
+          "url": "https://asharq.com/technology/200960/%D8%A3%D8%A8%D9%84-%D8%A2%D9%8A%D8%A8%D8%A7%D8%AF-%D9%85%D9%8A%D9%86%D9%8A-%D8%AC%D8%AF%D9%8A%D8%AF-%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B3%D8%B9%D8%B1-%D9%88%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B5%D9%81%D8%A7%D8%AA-%D9%88%D9%85%D9%88%D8%B9%D8%AF-%D8%A7%D9%84%D8%B7%D8%B1%D8%AD/",
+          "source": "الشرق للأخبار"
+        },
+        {
+          "title": "\"أبل\" تستعد للكشف عن iPad Mini 8 مع 9 ترقيات مرتقبة",
+          "url": "https://www.alarabiya.net/technology/smart-phones/2026/10/26/%D8%A7%D8%A8%D9%84-%D8%AA%D8%B3%D8%AA%D8%B9%D8%AF-%D9%84%D9%84%D9%83%D8%B4%D9%81-%D8%B9%D9%86-ipad-mini-8-%D9%85%D8%B9-9-%D8%AA%D8%B1%D9%82%D9%8A%D8%A7%D8%AA-%D9%85%D8%B1%D8%AA%D9%82%D8%A8%D8%A9",
+          "source": "العربية"
+        },
+        {
+          "title": "Apple تكشف iPad mini الجديد بشاشة OLED وشريحة A20 Pro.. وسعره في المملكة يبدأ من 3299 ريالًا",
+          "url": "https://sabq.org/article/abulow3",
+          "source": "صحيفة سبق الإلكترونية"
+        }
+      ],
+      "word_count": 786,
+      "page": "p/apple-unveils-ipad-mini-8-with-oled-screen-and-a20-pro-chip.html"
+    },
+    {
+      "title": "Apple launches iPad mini 8 with OLED display and A20 Pro chip",
+      "slug": "apple-launches-ipad-mini-8-with-oled-display-and-a20-pro-chip",
+      "topic": "apple ipad mini",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "Apple has introduced the iPad mini 8, the most substantial refresh of the compact tablet line, adding an OLED display and a new processor. The launch is expected to influence students and professionals in Pakistan seeking a portable yet pow",
+      "meta_description": "Apple unveils the iPad mini 8, its biggest upgrade yet, featuring an OLED screen, A20 Pro processor and acoustic speakers, sparking interest across Pakistan's t",
+      "keywords": [
+        "iPad mini",
+        "Apple",
+        "OLED tablet",
+        "A20 Pro chip",
+        "Pakistan tech"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnONjLuECi31ZW7R3T_Iz09JTzgZXga53siAnTZG_0zX3bwmvFtGAU7leWQGU",
+      "related": [
+        {
+          "title": "Apple gives iPad mini its biggest update ever",
+          "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+          "source": "Apple"
+        },
+        {
+          "title": "The OLED iPad mini is here with A20 Pro chip and acoustic display speakers - GSMArena.com news",
+          "url": "https://www.gsmarena.com/the_oled_ipad_mini_is_here_with_a20_pro_chip_and_acoustic_display_speakers_-news-75213.php",
+          "source": "GSMArena.com"
+        },
+        {
+          "title": "iPad mini 8 vs iPad mini 7: What's new, and is it worth buying?",
+          "url": "https://www.tomsguide.com/computing/ipads/1-ipad-mini-8-vs-ipad-mini-7-whats-new-and-is-it-worth-buying",
+          "source": "Tom's Guide"
+        }
+      ],
+      "word_count": 531,
+      "page": "p/apple-launches-ipad-mini-8-with-oled-display-and-a20-pro-chip.html"
+    },
+    {
+      "title": "Alexia Putellas clinches record‑equalling third Ballon d’Or Feminin",
+      "slug": "alexia-putellas-clinches-recordequalling-third-ballon-dor-feminin",
+      "topic": "alèxia putellas",
+      "date": "2026-10-27",
+      "date_pkt": "2026-10-27 04:38 PM PKT",
+      "excerpt": "Barcelona’s Alexia Putellas has secured a third Ballon d’Or Feminin, equalling the all‑time record. The win caps a night where the Catalan club dominated women’s football honors.",
+      "meta_description": "Barcelona midfielder Alexia Putellas has won the Ballon d’Or Feminin for a third time, matching the record, as the club sweeps the women's football awards.",
+      "keywords": [
+        "Alexia Putellas",
+        "Ballon d'Or Feminin",
+        "Barcelona women",
+        "football awards",
+        "Pakistan sports fans"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkL1YhOihY9A9vcVAAGOge4ycdKeeQJIjUsqTvrJ2CX6xylBHjI8XYiF_JTa4",
+      "related": [
+        {
+          "title": "Ballon d'Or Feminin: Alexia Putellas wins award for record-equalling third time",
+          "url": "https://www.bbc.com/sport/football/articles/cqp9gky38lj3o",
+          "source": "BBC"
+        },
+        {
+          "title": "There’s no perfect model for Ballon d’Or Feminin voting. Former voters describe what they look for",
+          "url": "https://www.nytimes.com/athletic/7721015/2026/10/26/ballon-dor-feminin-voting-what-to-look-for/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "Putellas wins Ballon d'Or as Barcelona dominate women's awards",
+          "url": "https://www.espn.in/football/story/_/id/50290619/putellas-ballon-dor-barcelona-dominate-awards",
+          "source": "ESPN India"
+        }
+      ],
+      "word_count": 857,
+      "page": "p/alexia-putellas-clinches-recordequalling-third-ballon-dor-feminin.html"
+    },
     {
       "title": "মাত্র ৯৯৯ টাকা দেনমোহরে বিয়ে সারলেন নাট্যশিল্পী সুজাত শিমুল",
       "slug": "news-1793017244",
@@ -18747,1086 +19811,6 @@
       ],
       "word_count": 343,
       "page": "p/remnants-of-isaias-to-bring-soaking-rain-to-the-eastern-us-this-weekend.html"
-    },
-    {
-      "title": "Rayo Vallecano prepares to host Athletic Bilbao in decisive LaLiga clash",
-      "slug": "rayo-vallecano-prepares-to-host-athletic-bilbao-in-decisive-laliga-clash",
-      "topic": "rayo vs athletic",
-      "date": "2026-10-10",
-      "date_pkt": "2026-10-10 04:56 PM PKT",
-      "excerpt": "The LaLiga encounter between Rayo Vallecano and Athletic Bilbao returns to the Vallecas neighbourhood. Both sides are gearing up for a tightly contested match.",
-      "meta_description": "Rayo Vallecano and Athletic Bilbao meet at Vallecas as LaLiga action returns to the neighbourhood, sparking interest among South African fans.",
-      "keywords": [
-        "Rayo Vallecano",
-        "Athletic Bilbao",
-        "LaLiga",
-        "Vallecas stadium",
-        "South Africa football fans"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTn27DHh-uSS8I0PKyahOJ9d5PW7fDNqT5thc6ax4w63_RBeBSgk4n80QbxjyA",
-      "related": [
-        {
-          "title": "Rayo - Athletic | El juego vuelve por fin al barrio: previa, análisis, pronóstico y predicción",
-          "url": "https://www.marca.com/futbol/primera-division/2026/10/09/rayo-athletic-juego-vuelve-barrio-previa-analisis-pronostico-prediccion.html",
-          "source": "MARCA"
-        },
-        {
-          "title": "Un reto de aúpa",
-          "url": "https://www.mundodeportivo.com/futbol/athletic-bilbao/20261010/1004236583/reto-aupa.html",
-          "source": "Mundo Deportivo"
-        },
-        {
-          "title": "Terzic avisa del peligro del Rayo antes de visitar Vallecas: «Es uno de los campos más difíciles de LaLiga»",
-          "url": "https://unionrayo.es/rueda-prensa-terciz-previa-rayo-vallecano-athletic-laliga/",
-          "source": "Unión Rayo"
-        }
-      ],
-      "word_count": 753,
-      "page": "p/rayo-vallecano-prepares-to-host-athletic-bilbao-in-decisive-laliga-clash.html"
-    },
-    {
-      "title": "Pakistani drama 'Gulbahar' sparks backlash over second‑marriage plot",
-      "slug": "pakistani-drama-gulbahar-sparks-backlash-over-secondmarriage-plot",
-      "topic": "gulbahar",
-      "date": "2026-10-10",
-      "date_pkt": "2026-10-10 04:56 PM PKT",
-      "excerpt": "The popular TV series Gulbahar has ignited a wave of criticism after a second‑marriage twist was introduced. Audiences and commentators say the plot undermines the show's earlier portrayal of women.",
-      "meta_description": "Viewers in Pakistan criticize the drama Gulbahar for its second‑marriage storyline, saying it misrepresents women and fuels disappointment among audiences.",
-      "keywords": [
-        "Gulbahar",
-        "Pakistani drama",
-        "second marriage",
-        "viewer backlash",
-        "women representation"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQm71D1v5D0dSDmY2sqO1163WutZ4eup2JExVNUW1L1HtPkb_y--Gte5zqkr2M",
-      "related": [
-        {
-          "title": "The women of Gulbahar are not okay",
-          "url": "https://images.dawn.com/news/1195980/the-women-of-gulbahar-are-not-okay",
-          "source": "Dawn Images"
-        },
-        {
-          "title": "Gulbahar’s Clichéd Second Marriage Plot Leaves Viewers Disappointed",
-          "url": "https://www.brandsynario.com/entertainment/gulbahars-cliched-second-marriage-plot-leaves-viewers-disappointed/",
-          "source": "Brandsynario"
-        },
-        {
-          "title": "Gulbahar’s second marriage twist sparks backlash",
-          "url": "https://minutemirror.com.pk/gulbahars-second-marriage-twist-sparks-backlash-641893/",
-          "source": "Minute Mirror"
-        }
-      ],
-      "word_count": 616,
-      "page": "p/pakistani-drama-gulbahar-sparks-backlash-over-secondmarriage-plot.html"
-    },
-    {
-      "title": "Mertens Upsets Swiatek to Reach China Open Semifinals",
-      "slug": "mertens-upsets-swiatek-to-reach-china-open-semifinals",
-      "topic": "elise mertens",
-      "date": "2026-10-10",
-      "date_pkt": "2026-10-10 04:56 PM PKT",
-      "excerpt": "Elise Mertens secured a significant victory over Iga Swiatek in Beijing, advancing to the semifinals of the China Open. The win marks her third consecutive match against a Grand Slam champion.",
-      "meta_description": "Belgian player Elise Mertens defeated world No. 1 Iga Swiatek in the China Open quarterfinals, continuing a remarkable winning streak against top-ranked players",
-      "keywords": [
-        "Elise Mertens",
-        "Iga Swiatek",
-        "China Open",
-        "WTA Tennis",
-        "Beijing"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt7P53Nq46vaF9B6UsOXI1ENQgBbRBglOS0NSEYzJa1D2zVoJQI8Z0v77wgiY",
-      "related": [
-        {
-          "title": "Elise Mertens beats Iga Swiatek to reach China Open semis",
-          "url": "https://www.espn.com/tennis/story/_/id/50141092/elise-mertens-beats-iga-swiatek-reach-china-open-semis",
-          "source": "ESPN"
-        },
-        {
-          "title": "Mertens beats Swiatek in Beijing for third straight win over a Grand Slam champion",
-          "url": "https://www.wtatennis.com/news/4589506/mertens-giant-killing-run-continues-with-swiatek-upset-in-beijing-quarterfinals",
-          "source": "WTA Tennis"
-        },
-        {
-          "title": "Elise Mertens joins Coco Gauff as just second player to pull this off vs. Iga Swiatek",
-          "url": "https://www.tennisworldusa.org/tennis/news/WTA_Tennis/170400/elise-mertens-joins-coco-gauff-as-just-second-player-to-pull-this-off-vs-iga-swiatek/",
-          "source": "Tennis World USA"
-        }
-      ],
-      "word_count": 772,
-      "page": "p/mertens-upsets-swiatek-to-reach-china-open-semifinals.html"
-    },
-    {
-      "title": "Maresca backs Man City appeal after Premier League verdict",
-      "slug": "maresca-backs-man-city-appeal-after-premier-league-verdict",
-      "topic": "premier league",
-      "date": "2026-10-10",
-      "date_pkt": "2026-10-10 04:56 PM PKT",
-      "excerpt": "Manchester City manager Enzo Maresca has stated that he has complete trust in the club's leadership despite a recent guilty verdict. The manager confirmed that the owners are confident the club will succeed in its appeal against the charges",
-      "meta_description": "Manchester City manager Enzo Maresca expresses full trust in the club's hierarchy following a guilty verdict on Premier League charges, signaling a strong appea",
-      "keywords": [
-        "Premier League",
-        "Manchester City",
-        "Enzo Maresca",
-        "Football",
-        "Legal Charges"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ4fSFD4CsFV-9LypFe5IewpJ4wdXppJ6lxsfivAoWJTQ-f_cFMTHAffKRUu8w",
-      "related": [
-        {
-          "title": "Manager Maresca says he has complete trust in Man City despite bombshell verdict",
-          "url": "https://www.arabnews.com/football/manager-maresca-says-he-has-complete-trust-in-man-city-despite-bombshell-verdict-3005482",
-          "source": "Arab News"
-        },
-        {
-          "title": "Premier League news conferences: Mikel Arteta, Andoni Iraola, Michael Carrick and Xabi Alonso",
-          "url": "https://www.bbc.com/sport/football/live/ck4g1pj57qz0t",
-          "source": "BBC"
-        },
-        {
-          "title": "Man City charges: Enzo Maresca says owners 'convinced' club will win appeal against guilty verdict as he 'trusts' hierarchy",
-          "url": "https://www.skysports.com/football/news/13596454/man-city-charges-enzo-maresca-says-owners-convinced-club-will-win-appeal-against-guilty-verdict-as-he-trusts-hierarchy",
-          "source": "Sky Sports"
-        }
-      ],
-      "word_count": 874,
-      "page": "p/maresca-backs-man-city-appeal-after-premier-league-verdict.html"
-    },
-    {
-      "title": "Manchester City Held Settlement Talks With the Premier League",
-      "slug": "manchester-city-held-settlement-talks-with-the-premier-league",
-      "topic": "talksport",
-      "date": "2026-10-10",
-      "date_pkt": "2026-10-10 04:56 PM PKT",
-      "excerpt": "Coverage linked to \"talksport\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "talksport: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "talksport",
-        "talksport news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRlTdTQsJFaFeTreS5_AfNPCaMU5xcwvaBMKQ2FTjxU5GOZ77zkczZeIjElJOo",
-      "related": [
-        {
-          "title": "Manchester City Held Settlement Talks With the Premier League",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-09/manchester-city-held-settlement-talks-with-the-premier-league",
-          "source": "Bloomberg.com"
-        },
-        {
-          "title": "Fear stalks the corridors at Man City as staff brace for hostile rival fans",
-          "url": "https://www.telegraph.co.uk/football/2026/10/08/worry-and-unease-has-taken-root-inside-manchester-city/",
-          "source": "The Telegraph"
-        },
-        {
-          "title": "Manchester City charges: Premier League clubs fear political interference in appeal after Andy Burnham comments",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c6y93qq5175wo",
-          "source": "BBC"
-        }
-      ],
-      "word_count": 330,
-      "page": "p/manchester-city-held-settlement-talks-with-the-premier-league.html"
-    },
-    {
-      "title": "Lebanon welcomes Trump's move to lift 41-year US flight ban, and other…",
-      "slug": "lebanon-welcomes-trumps-move-to-lift-41-year-us-flight-ban-and-other",
-      "topic": "flight",
-      "date": "2026-10-10",
-      "date_pkt": "2026-10-10 04:56 PM PKT",
-      "excerpt": "Coverage linked to \"flight\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "flight: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "flight",
-        "flight news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN88Dba_Nb3EZhuHT9QYL6vD-nEUztW8KEQTePCfit0S_5Eb9qTAMH357qO0w",
-      "related": [
-        {
-          "title": "Lebanon welcomes Trump's move to lift 41-year US flight ban, and other Mideast developments",
-          "url": "https://apnews.com/article/lebanon-flights-saudi-sudan-october-10-2026-a5f40b5e0ab08ae8128db5ed749114d8",
-          "source": "AP News"
-        },
-        {
-          "title": "Lebanese president hails Trump's decision to revoke 41-year-old restrictions on direct US flights",
-          "url": "https://www.timesofisrael.com/liveblog_entry/lebanese-president-hails-trumps-decision-to-revoke-41-year-old-restrictions-on-direct-us-flights/",
-          "source": "The Times of Israel"
-        },
-        {
-          "title": "Lebanon welcomes Trump's move to lift 41-year US flight ban, and other Mideast developments",
-          "url": "https://www.bozemandailychronicle.com/wire/news/lebanon-welcomes-trumps-move-to-lift-41-year-us-flight-ban-and-other-mideast-developments/article_eb082249-0aca-5c5a-b286-38966b6cfeaa.html",
-          "source": "Bozeman Daily Chronicle"
-        }
-      ],
-      "word_count": 344,
-      "page": "p/lebanon-welcomes-trumps-move-to-lift-41-year-us-flight-ban-and-other.html"
-    },
-    {
-      "title": "India to Face West Indies in 3rd T20I After Historic Loss",
-      "slug": "india-to-face-west-indies-in-3rd-t20i-after-historic-loss",
-      "topic": "ट्वेन्टी ट्वेन्टी",
-      "date": "2026-10-10",
-      "date_pkt": "2026-10-10 04:56 PM PKT",
-      "excerpt": "India's team departs for Indore after a historic loss to West Indies. Fans are eager to see the new lineup and secure tickets for the upcoming match.",
-      "meta_description": "India's cricket team heads to Indore for the third T20I against West Indies, following a historic defeat. Fans await squad changes and ticket sales.",
-      "keywords": [
-        "India cricket",
-        "West Indies",
-        "T20I",
-        "Indore",
-        "ticket sales"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRWjilrU5RDTZ9yxsr7xjRNS5SeEAh21UZsHwhJvYgLI3qLc1WdC_Gc4CFPXuI",
-      "related": [
-        {
-          "title": "IND vs WI, 3rd T20 Playing-11: बुरी हार के बाद भारत बदलेगा टीम, इस ऑलराउंडर की जगह दिल्ली के गेंदबाज की होगी एंट्री!",
-          "url": "https://www.jagran.com/cricket/headlines-india-vs-west-indies-probable-playing-11-for-3rd-t20-prince-yadav-shivam-dube-40400437.html",
-          "source": "Jagran"
-        },
-        {
-          "title": "इंदौर T20: 1 घंटा 53 मिनट में टिकट खत्म: वेबसाइट्स पर डॉलर में बिक रहीं, 2 टिकट ₹9,953 में; पुलिस ने 22 प्ल...",
-          "url": "https://www.bhaskar.com/g/local/mp/indore/news/indore-india-west-indies-cricket-match-ticket-scam-black-marketing-139309394.html",
-          "source": "Dainik Bhaskar"
-        },
-        {
-          "title": "ऐतिहासिक हार के बाद इंदौर रवाना हुई टीम इंडिया, एयरपोर्ट पर जुटा फैंस का हुजूम, अब किस तारीख को होगा मैच?",
-          "url": "https://www.livehindustan.com/cricket/team-india-leaves-for-indore-after-a-historic-defeat-when-is-3rd-t20i-match-vs-wi-201791622933482.html",
-          "source": "Hindustan"
-        }
-      ],
-      "word_count": 528,
-      "page": "p/india-to-face-west-indies-in-3rd-t20i-after-historic-loss.html"
-    },
-    {
-      "title": "Gimnasia La Plata - Atl. Tucuman 1-1",
-      "slug": "gimnasia-la-plata---atl-tucuman-1-1",
-      "topic": "flashscore",
-      "date": "2026-10-10",
-      "date_pkt": "2026-10-10 04:56 PM PKT",
-      "excerpt": "Coverage linked to \"flashscore\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "flashscore: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "flashscore",
-        "flashscore news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT4vtirHlvBxMo4lntPSy7-UQMScw3bVSPIO26Y_P4YJY38hYWOTivcyLH76U",
-      "related": [
-        {
-          "title": "Gimnasia La Plata - Atl. Tucuman 1-1",
-          "url": "https://www.flashscore.co.uk/match/football/atletico-tucuman-KpqpxWko/gimnasia-l-p-jiDN9Zaj/h2h/overall/?mid=QsUQBLcc",
-          "source": "Flashscore UK"
-        },
-        {
-          "title": "Gimnasia LP vs Tucumán match lineup | Argentine Primera División · 10 Oct 2026",
-          "url": "https://www.ysscores.com/en/lineup/5116041/Club-de-Gimnasia-y-Esgrima-La-Plata-vs-Club-Atl%C3%A9tico-Tucum%C3%A1n",
-          "source": "YSscores"
-        },
-        {
-          "title": "Gimnasia La Plata vs Atlético Tucumán Prediction, Betting Tips, Lineups & Odds | 09 Oct 2026",
-          "url": "https://www.sportsgambler.com/betting-tips/football/gimnasia-la-plata-vs-atletico-tucuman-prediction-lineups-odds-2026-10-09/",
-          "source": "Sportsgambler"
-        }
-      ],
-      "word_count": 324,
-      "page": "p/gimnasia-la-plata---atl-tucuman-1-1.html"
-    },
-    {
-      "title": "Former Doctor Who boss admits show \"never recovered\" from one key decision",
-      "slug": "former-doctor-who-boss-admits-show-never-recovered-from-one-key-decision",
-      "topic": "russell t davies",
-      "date": "2026-10-10",
-      "date_pkt": "2026-10-10 04:56 PM PKT",
-      "excerpt": "Coverage linked to \"russell t davies\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "russell t davies: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "russell t davies",
-        "russell t davies news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRJapteTTvmrll1uu-lsunLaoOp9Px7grDaAclz7CFNX8rbsHACzQ41jg1W-_0",
-      "related": [
-        {
-          "title": "Former Doctor Who boss admits show \"never recovered\" from one key decision",
-          "url": "https://www.radiotimes.com/tv/sci-fi/doctor-who-never-recovered-decision-newsupdate/",
-          "source": "Radio Times"
-        },
-        {
-          "title": "‘Goodbye Whoniverse. God, that was fun!’: Russell T Davies on writing the end of Doctor Who",
-          "url": "https://www.theguardian.com/media/2026/oct/03/russell-t-davies-memoir-the-queerest-of-folk-extract",
-          "source": "The Guardian"
-        },
-        {
-          "title": "RTD Reveals Cancelled Doctor Who Series Plans Including Rogue’s Return and Dalek Epic",
-          "url": "https://www.doctorwhotv.co.uk/rtd-cancelled-doctor-who-series-16-107466.htm",
-          "source": "Doctor Who TV"
-        }
-      ],
-      "word_count": 346,
-      "page": "p/former-doctor-who-boss-admits-show-never-recovered-from-one-key-decision.html"
-    },
-    {
-      "title": "Delhi Police Offer Abhijeet Dipke Return for Grandmother's Last Rites",
-      "slug": "delhi-police-offer-abhijeet-dipke-return-for-grandmothers-last-rites",
-      "topic": "abhijeet dipke grandmother",
-      "date": "2026-10-10",
-      "date_pkt": "2026-10-10 04:56 PM PKT",
-      "excerpt": "Abhijeet Dipke was informed of his grandmother's passing while in detention in Delhi. Authorities have indicated he may be permitted to return home for the funeral.",
-      "meta_description": "Abhijeet Dipke, detained in Delhi, was informed of his grandmother's death. Police stated he can fly back to Maharashtra for last rites, sparking public concern",
-      "keywords": [
-        "Abhijeet Dipke",
-        "Delhi Police",
-        "grandmother death",
-        "CJP protest",
-        "last rites"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR_xD9sHXGq8Rwk6kypIKoJzwlfob6lsnLC1mpOvNeKQ0G9ccG6CnJ2dL44_uk",
-      "related": [
-        {
-          "title": "Offered To Help Abhijeet Dipke Return For Grandmother's Last Rites: Cops",
-          "url": "https://www.ndtv.com/india-news/abhijeet-dipkes-grandmother-dies-cjp-protest-offered-to-help-abhijeet-dipke-return-for-grandmothers-last-rites-cops-12166232",
-          "source": "NDTV"
-        },
-        {
-          "title": "Abhijeet Dipke informed of grandmother’s death in detention; Delhi Police says he can fly back for last r",
-          "url": "https://timesofindia.indiatimes.com/city/delhi/abhijeet-dipke-informed-of-grandmothers-death-in-detention-delhi-police-says-he-can-fly-back-for-last-rites/articleshow/134851299.cms",
-          "source": "The Times of India"
-        },
-        {
-          "title": "Abhijeet Dipke’s grandmother Savitribai Shankarrao Dipke passes away",
-          "url": "https://www.thehindu.com/news/national/maharashtra/abhijeet-dipkes-grandmother-savitribai-shankarrao-dipke-passes-away/article71567700.ece",
-          "source": "The Hindu"
-        }
-      ],
-      "word_count": 833,
-      "page": "p/delhi-police-offer-abhijeet-dipke-return-for-grandmothers-last-rites.html"
-    },
-    {
-      "title": "DMK strengthens hold as Vijay, Maragatham Kumaravel win Nadu by‑elections",
-      "slug": "dmk-strengthens-hold-as-vijay-maragatham-kumaravel-win-nadu-byelections",
-      "topic": "அரசியல் கட்சி",
-      "date": "2026-10-10",
-      "date_pkt": "2026-10-10 04:56 PM PKT",
-      "excerpt": "DMK candidates Vijay and Maragatham Kumaravel won recent by‑elections in Tamil Nadu, drawing praise from senior party figures. Their victories are seen as a barometer for the state's political climate ahead of the 2027 assembly polls.",
-      "meta_description": "In Tamil Nadu by‑elections, DMK candidates Vijay and Maragatham Kumaravel secured victories, prompting emotional reactions and comments from party leaders, whil",
-      "keywords": [
-        "Tamil Nadu by-election",
-        "DMK",
-        "Vijay",
-        "Maragatham Kumaravel",
-        "MK Stalin"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "10000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQHIWxWxFay4DOaRsex4cKtZ6rRkjkx3qavtf23ZzYJklnWlNTE0qGnlXhhod8",
-      "related": [
-        {
-          "title": "“தனிப்பட்ட இந்த விஜய்யின் வெற்றியோ, தவெகவின் வெற்றியோ அல்ல” - முதல்வர் விஜய் நெகிழ்ச்சி!",
-          "url": "https://www.nakkheeran.in/24-by-7-news/tvk-leader-2vijay-expresses-emotion-over-the-by-election-victory-12660895",
-          "source": "Nakkheeran"
-        },
-        {
-          "title": "மதுராந்தகத்தில் வென்ற மரகதம் குமரவேல் பேசியது என்ன?",
-          "url": "https://www.bbc.com/tamil/watch/c6vgx4175095o",
-          "source": "BBC"
-        },
-        {
-          "title": "இடைத்தேர்தல்: ஒரே வரியில் சொல்வதென்றால்... மு.க. ஸ்டாலின்",
-          "url": "https://www.dinamani.com/tamilnadu/2026/Oct/10/to-sum-up-the-by-election-in-a-single-sentence-mk-stalin",
-          "source": "DinaMani"
-        }
-      ],
-      "word_count": 849,
-      "page": "p/dmk-strengthens-hold-as-vijay-maragatham-kumaravel-win-nadu-byelections.html"
-    },
-    {
-      "title": "College football Week 6 sees matchups as SEC and Big Ten battle",
-      "slug": "college-football-week-6-sees-matchups-as-sec-and-big-ten-battle",
-      "topic": "football games today",
-      "date": "2026-10-10",
-      "date_pkt": "2026-10-10 04:56 PM PKT",
-      "excerpt": "College football fans are watching a slate of intense matchups this week, as top teams from the SEC and Big Ten face off. The games include high‑profile clashes such as Alabama versus Georgia and UCLA against Oregon.",
-      "meta_description": "This week’s college football schedule features key SEC and Big Ten clashes, with top teams like Alabama, Georgia and UCLA facing rivals in high‑profile games.",
-      "keywords": [
-        "college football",
-        "SEC",
-        "Big Ten",
-        "Week 6",
-        "matchups"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuBC19pCgw9S0GXZvroRriUwvvnYQYjBpemLyY3k9rsBLFjdkurSp8f46UQC8",
-      "related": [
-        {
-          "title": "Connelly Week 6 preview: Things get real with SEC, Big Ten showdowns",
-          "url": "https://www.espn.com/college-football/story/_/id/50133135/connelly-week-6-preview-sec-big-ten-alabama-georgia",
-          "source": "ESPN"
-        },
-        {
-          "title": "Week 6’s top 10 college football games: Georgia-Alabama, UCLA-Oregon and Indiana-Nebraska",
-          "url": "https://www.nytimes.com/athletic/7671760/2026/10/09/college-football-top-games-week-6/",
-          "source": "The New York Times"
-        },
-        {
-          "title": "Jeff$ Bet$ for Week 6 of the CFB Season!",
-          "url": "https://www.audacy.com/929espn/sports/jeff-bet-week-6-cfb",
-          "source": "Audacy"
-        }
-      ],
-      "word_count": 599,
-      "page": "p/college-football-week-6-sees-matchups-as-sec-and-big-ten-battle.html"
-    },
-    {
-      "title": "Arsenal host Leeds United in Premier League clash at Emirates",
-      "slug": "arsenal-host-leeds-united-in-premier-league-clash-at-emirates",
-      "topic": "arsenal vs leeds",
-      "date": "2026-10-10",
-      "date_pkt": "2026-10-10 04:56 PM PKT",
-      "excerpt": "Arsenal and Leeds United meet at the Emirates Stadium in a highly anticipated Premier League encounter. Live coverage, injury updates and player comments shape the narrative for viewers in Pakistan.",
-      "meta_description": "Arsenal face Leeds United at the Emirates Stadium in a Premier League match that has captured the attention of fans in Pakistan, with live updates and injury ne",
-      "keywords": [
-        "Arsenal",
-        "Leeds United",
-        "Premier League",
-        "Emirates Stadium",
-        "Pakistan football fans"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "2000+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyp6oLG7lboeCVtypPHQ3hJsfAVP_oe2V37f7JpmCbc_OTsL8Q8JUSJHDOzuk",
-      "related": [
-        {
-          "title": "Arsenal vs Leeds LIVE! Premier League match updates, news and score",
-          "url": "https://www.skysports.com/football/live-blog/13592663/arsenal-vs-leeds-live-premier-league-match-updates-news-and-score",
-          "source": "Sky Sports"
-        },
-        {
-          "title": "Injury latest on Havertz, Tzolis, Rice, Konsa and White",
-          "url": "https://www.arsenal.com/news/injury-latest-on-havertz-tzolis-rice-konsa-and-white-a5Pwa1R5zpMU",
-          "source": "Arsenal.com"
-        },
-        {
-          "title": "'Definitely revenge' - Gabriel Gudmundsson on Arsenal clash at The Emirates",
-          "url": "https://onefootball.com/en/news/definitely-revenge-gabriel-gudmundsson-on-arsenal-clash-at-the-emirates-43588757",
-          "source": "OneFootball"
-        }
-      ],
-      "word_count": 955,
-      "page": "p/arsenal-host-leeds-united-in-premier-league-clash-at-emirates.html"
-    },
-    {
-      "title": "Arsenal bid to close gap on City, lowly Spurs head to Manchester United…",
-      "slug": "arsenal-bid-to-close-gap-on-city-lowly-spurs-head-to-manchester-united",
-      "topic": "epl",
-      "date": "2026-10-10",
-      "date_pkt": "2026-10-10 04:56 PM PKT",
-      "excerpt": "Coverage linked to \"epl\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "epl: coverage and context for readers in US. Summary of related reports and what to verify next.",
-      "keywords": [
-        "epl",
-        "epl news",
-        "US",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "2000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-QveeSvyWsf85yYr63lZkfi2Bb-ZRJ-V0Wo8YadgVir4RSsGDm6G8ISOS3Ic",
-      "related": [
-        {
-          "title": "Arsenal bid to close gap on City, lowly Spurs head to Manchester United – matchday live",
-          "url": "https://www.theguardian.com/football/live/2026/oct/10/arsenal-bid-to-close-gap-on-city-lowly-spurs-head-to-manchester-united-matchday-live",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Follow Saturday's Premier League games live",
-          "url": "https://www.bbc.com/sport/football/articles/crkgwe39l3g9o",
-          "source": "BBC"
-        },
-        {
-          "title": "Premier League Predictions: Man City at Liverpool, Man Utd Host Tottenham",
-          "url": "https://www.si.com/soccer/premier-league-predictions-man-city-liverpool-man-utd-tottenham-gameweek-6",
-          "source": "Sports Illustrated"
-        }
-      ],
-      "word_count": 325,
-      "page": "p/arsenal-bid-to-close-gap-on-city-lowly-spurs-head-to-manchester-united.html"
-    },
-    {
-      "title": "AP: స్థానిక ఎన్నికలు.. ఎస్ఈసీ కీలక ప్రకటన",
-      "slug": "ap",
-      "topic": "ఆంధ్రప్రదేశ్ రాష్ట్ర ఎన్నికల సంఘం",
-      "date": "2026-10-10",
-      "date_pkt": "2026-10-10 04:56 PM PKT",
-      "excerpt": "Coverage linked to \"ఆంధ్రప్రదేశ్ రాష్ట్ర ఎన్నికల సంఘం\" is circulating in IN. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "ఆంధ్రప్రదేశ్ రాష్ట్ర ఎన్నికల సంఘం: coverage and context for readers in IN. Summary of related reports and what to verify next.",
-      "keywords": [
-        "ఆంధ్రప్రదేశ్ రాష్ట్ర ఎన్నికల సంఘం",
-        "ఆంధ్రప్రదేశ్ రాష్ట్ర ఎన్నికల సంఘం news",
-        "IN",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT9n_odhfBBKX_xT_60vC4_7vDAH--cD6JIqBVJuTiWyYhKu_spLoo0-O-Yylw",
-      "related": [
-        {
-          "title": "AP: స్థానిక ఎన్నికలు.. ఎస్ఈసీ కీలక ప్రకటన",
-          "url": "https://www.sakshi.com/telugu-news/andhra-pradesh/sec-key-statement-ap-local-body-elections-2026-2928188",
-          "source": "Sakshi"
-        },
-        {
-          "title": "స్థానిక సంస్థల ఎన్నికలకు ముందస్తు ఏర్పాట్లు : జిల్లా కలెక్టర్‌",
-          "url": "https://www.eenadu.net/telugu-news/districts/vizianagaram-news/12/126183928",
-          "source": "Eenadu"
-        },
-        {
-          "title": "Local’ elections ‘స్థానిక’ సమారానికి సై",
-          "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/vizianagaram/ready-for-the-local-elections-1565865.html",
-          "source": "Andhrajyothy"
-        }
-      ],
-      "word_count": 403,
-      "page": "p/ap.html"
-    },
-    {
-      "title": "مجلس الأمن الدولي يناقش الوضع في اليمن اليوم",
-      "slug": "news-1791549575",
-      "topic": "المشهد اليمني",
-      "date": "2026-10-09",
-      "date_pkt": "2026-10-09 05:36 PM PKT",
-      "excerpt": "Coverage linked to \"المشهد اليمني\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "المشهد اليمني: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "المشهد اليمني",
-        "المشهد اليمني news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRgPnLlv4_RT1CkGfrujj9zB0lsXyrGIg2BVG2xQm6HBhLmPg3BRTanDf55btc",
-      "related": [
-        {
-          "title": "مجلس الأمن الدولي يناقش الوضع في اليمن اليوم",
-          "url": "https://www.jordanzad.com/index.php?page=article&id=766230",
-          "source": "زاد الاردن"
-        },
-        {
-          "title": "مكاسب الجيش اليمني تحاصر الحوثيين أمام مجلس الأمن اليوم",
-          "url": "https://www.alwatan.com.sa/article/1186928",
-          "source": "جريدة الوطن السعودية"
-        },
-        {
-          "title": "مجلس الأمن يبحث اليوم تطورات الأوضاع في اليمن وتصاعد الهجمات على السعودية",
-          "url": "https://www.nile.eg/%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A3%D9%85%D9%86-%D9%8A%D8%A8%D8%AD%D8%AB-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%AA%D8%B7%D9%88%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D9%88%D8%B6%D8%A7%D8%B9-%D9%81-3",
-          "source": "قناة النيل للأخبار"
-        }
-      ],
-      "word_count": 329,
-      "page": "p/news-1791549575.html"
-    },
-    {
-      "title": "جدول مباريات اليوم الجمعة 9 أكتوبر 2026 .. القنوات الناقلة والمعلقين",
-      "slug": "9-2026",
-      "topic": "مباريات اليوم الدوري السعودي",
-      "date": "2026-10-09",
-      "date_pkt": "2026-10-09 05:36 PM PKT",
-      "excerpt": "Coverage linked to \"مباريات اليوم الدوري السعودي\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "مباريات اليوم الدوري السعودي: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "مباريات اليوم الدوري السعودي",
-        "مباريات اليوم الدوري السعودي news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMNtKzc5Hz9eaCYeuVw1_zyxK_q6GeNU_ITQWoCc-EM8mTgRb4BFi6jSw-dCI",
-      "related": [
-        {
-          "title": "جدول مباريات اليوم الجمعة 9 أكتوبر 2026 .. القنوات الناقلة والمعلقين",
-          "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D8%A9-9-%D8%A7%D9%94%D9%83%D8%AA%D9%88%D8%A8%D8%B1-2026-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%82%D9%8A%D9%86/blt46021b718796df64",
-          "source": "Kooora"
-        },
-        {
-          "title": "الدوري السعودي يعود على وقع «الهيمنة الخليجية»... ورونالدو تحت الأنظار",
-          "url": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/5327579-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%8A%D8%B9%D9%88%D8%AF-%D8%B9%D9%84%D9%89-%D9%88%D9%82%D8%B9-%D8%A7%D9%84%D9%87%D9%8A%D9%85%D9%86%D8%A9-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC%D9%8A%D8%A9-%D9%88%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88-%D8%AA%D8%AD%D8%AA-%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D8%A7%D8%B1",
-          "source": "الشرق الأوسط"
-        },
-        {
-          "title": "الهلال والاتحاد في لقاء الصدارة.. النصر يلتقي الدرعية.. والقادسية يواجه الخلود",
-          "url": "https://www.al-jazirah.com/2026/20261009/sp6.htm",
-          "source": "جريدة الجزيرة"
-        }
-      ],
-      "word_count": 338,
-      "page": "p/9-2026.html"
-    },
-    {
-      "title": "The Social Reckoning review – Aaron Sorkin’s jittery sequel with…",
-      "slug": "the-social-reckoning-review-aaron-sorkins-jittery-sequel-with",
-      "topic": "social reckoning",
-      "date": "2026-10-09",
-      "date_pkt": "2026-10-09 05:36 PM PKT",
-      "excerpt": "Coverage linked to \"social reckoning\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "social reckoning: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "social reckoning",
-        "social reckoning news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq0Dh6TvSZcH589Tjd0VYIIHNjdfkpFEhiP5UuQst82FVHzt2c3lWaFJMqUNs",
-      "related": [
-        {
-          "title": "The Social Reckoning review – Aaron Sorkin’s jittery sequel with all-new evil puppet Zuckerberg",
-          "url": "https://www.theguardian.com/film/2026/oct/07/the-social-reckoning-review-aaron-sorkin-jeremy-strong-mikey-madison",
-          "source": "The Guardian"
-        },
-        {
-          "title": "The Social Reckoning Review: Aaron Sorkin's Sequel Falls Short Of The Social Network",
-          "url": "https://www.ndtv.com/entertainment/the-social-reckoning-review-aaron-sorkins-sequel-falls-short-of-the-social-network-12161253",
-          "source": "NDTV"
-        },
-        {
-          "title": "The Social Reckoning is a true American horror story",
-          "url": "https://theconversation.com/the-social-reckoning-is-a-true-american-horror-story-293900",
-          "source": "The Conversation"
-        }
-      ],
-      "word_count": 335,
-      "page": "p/the-social-reckoning-review-aaron-sorkins-jittery-sequel-with.html"
-    },
-    {
-      "title": "The Mansion Tax",
-      "slug": "the-mansion-tax",
-      "topic": "mansion tax",
-      "date": "2026-10-09",
-      "date_pkt": "2026-10-09 05:36 PM PKT",
-      "excerpt": "Coverage linked to \"mansion tax\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "mansion tax: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "mansion tax",
-        "mansion tax news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQWRuOSQ7zjPZ7SgOPMX7jqGweQOYAnW9pDldpMaRT7AHRCX9z5cG-KFLGuSy4",
-      "related": [
-        {
-          "title": "The Mansion Tax",
-          "url": "https://rockawaytimes.com/the-mansion-tax-2/",
-          "source": "The Rockaway Times"
-        },
-        {
-          "title": "NYC Luxury Home Tax",
-          "url": "https://www.bdtonline.com/news/nation_world/nyc-luxury-home-tax/image_800fa3a4-dc78-5da1-943e-73096de0a346.html",
-          "source": "Bluefield Daily Telegraph"
-        },
-        {
-          "title": "LA’s ‘mansion tax’ backfires spectacularly as thousands of homes and jobs vanish",
-          "url": "https://nypost.com/2026/10/03/real-estate/la-mansion-tax-blocked-9100-homes-killed-16650-jobs-and-cost-452m-report/",
-          "source": "New York Post"
-        }
-      ],
-      "word_count": 321,
-      "page": "p/the-mansion-tax.html"
-    },
-    {
-      "title": "Star Trek: Enterprise buzz stalls as new series plans falter",
-      "slug": "star-trek-enterprise-buzz-stalls-as-new-series-plans-falter",
-      "topic": "star trek: enterprise",
-      "date": "2026-10-09",
-      "date_pkt": "2026-10-09 05:36 PM PKT",
-      "excerpt": "The UK audience is following the fate of a proposed Star Trek: United series, which appears to have been shelved. Meanwhile, actor Scott Bakula is moving on to a new detective drama on CBS.",
-      "meta_description": "Fans of Star Trek: Enterprise in the UK watch as plans for a new series called Star Trek: United collapse, while actor Scott Bakula shifts focus to a CBS drama.",
-      "keywords": [
-        "Star Trek",
-        "Enterprise",
-        "Scott Bakula",
-        "CBS",
-        "United"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQzzIGc0s_KJRCGcYztqg2PrF3tztFPEfiq1IjYwdJmmEO37FE3GKtBLJZI1jg",
-      "related": [
-        {
-          "title": "Scott Bakula To Headline Detective Drama In Works At CBS From Dean Devlin’s Electric Entertainment",
-          "url": "https://deadline.com/2026/10/scott-bakula-detective-drama-development-cbs-dean-devlin-1237149665/",
-          "source": "Deadline"
-        },
-        {
-          "title": "Scott Bakula Eyeing CBS Return 5 Years After ‘NCIS: New Orleans’ Cancellation",
-          "url": "https://www.tvinsider.com/1295835/scott-bakula-cbs-detective-drama/",
-          "source": "TV Insider"
-        },
-        {
-          "title": "Scott Bakula’s ‘Star Trek: United’ Looks Dead As Archer Team Moves To CBS Cop Show",
-          "url": "https://cosmicbook.news/bakula-star-trek-united-dead-cbs-cop-show",
-          "source": "Cosmic Book News"
-        }
-      ],
-      "word_count": 406,
-      "page": "p/star-trek-enterprise-buzz-stalls-as-new-series-plans-falter.html"
-    },
-    {
-      "title": "Scottish Transport Secretary Flynn faces scrutiny over ferry gas leak",
-      "slug": "scottish-transport-secretary-flynn-faces-scrutiny-over-ferry-gas-leak",
-      "topic": "stephen flynn ferry gas leak",
-      "date": "2026-10-09",
-      "date_pkt": "2026-10-09 05:36 PM PKT",
-      "excerpt": "Stephen Flynn, Scotland's transport secretary, was found to have been emailed about a ferry gas leak before publicly denying any prior knowledge. The revelation has led to a heated parliamentary committee hearing.",
-      "meta_description": "Scotland's transport secretary Stephen Flynn is under pressure after emails reveal he was briefed on a ferry gas leak before denying knowledge, prompting a form",
-      "keywords": [
-        "Stephen Flynn",
-        "ferry gas leak",
-        "Scottish government",
-        "transport committee",
-        "public safety"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQXfLWFnHF89Nq9-7EBduB5aucxJrH-vBsDibxeEODuDJ794xfWqAsEgYNgUHo",
-      "related": [
-        {
-          "title": "Stephen Flynn was emailed over ferry gas leak before he denied knowing about it",
-          "url": "https://www.bbc.co.uk/news/articles/cq5yn75jr75ro",
-          "source": "BBC"
-        },
-        {
-          "title": "Stephen Flynn sent briefing on ferry gas leak before committee appearance",
-          "url": "https://www.thetimes.com/uk/scotland/article/stephen-flynn-was-briefed-on-ferry-gas-leak-before-committee-apperance-kqrcldhnz",
-          "source": "The Times"
-        },
-        {
-          "title": "Swinney on the spot: A solemn FM brings his serious face to MSP grilling",
-          "url": "https://www.holyrood.com/comment/view,swinney-on-the-spot-a-solemn-fm-brings-his-serious-face-to-msp-grilling",
-          "source": "Holyrood Website"
-        }
-      ],
-      "word_count": 670,
-      "page": "p/scottish-transport-secretary-flynn-faces-scrutiny-over-ferry-gas-leak.html"
-    },
-    {
-      "title": "Red Magic 12 Pro+ design and RGB cooling revealed ahead of Pakistan launch",
-      "slug": "red-magic-12-pro-design-and-rgb-cooling-revealed-ahead-of-pakistan-launch",
-      "topic": "red magic 12 pro",
-      "date": "2026-10-09",
-      "date_pkt": "2026-10-09 05:36 PM PKT",
-      "excerpt": "Red Magic's upcoming 12 Pro+ gaming phone has been revealed with new colour options and an industry‑first RGB water‑cooling system. Reservations in Pakistan start on October 6 ahead of the October 15 launch.",
-      "meta_description": "Red Magic 12 Pro+ gaming phone's design, RGB water‑cooling and reservation details unveiled ahead of its October 15 launch, sparking interest among Pakistani ga",
-      "keywords": [
-        "Red Magic 12 Pro",
-        "gaming smartphone",
-        "RGB water cooling",
-        "Pakistan launch",
-        "reservations"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRnEqTg57h9-LPT1Ih0Vo8YHD0CqY-uCCUe81VWhWKpSp9s876oEkLnslBTrb4",
-      "related": [
-        {
-          "title": "RedMagic 12 Pro+ design and color options revealed ahead of launch - GSMArena.com news",
-          "url": "https://www.gsmarena.com/redmagic_12_pro_design_and_color_options_revealed_ahead_of_launch-news-74954.php",
-          "source": "GSMArena.com"
-        },
-        {
-          "title": "Red Magic 12 Pro+ reservations open ahead of October 15 launch",
-          "url": "https://www.gizmochina.com/2026/10/06/redmagic-12-pro-plus-reservations-open-ahead-of-october-15-launch/",
-          "source": "Gizmochina"
-        },
-        {
-          "title": "Red Magic 12 Pro+: Industry-first RGB water-cooling teased",
-          "url": "https://www.fonearena.com/blog/494543/red-magic-12-pro-plus-rgb-water-cooling-teaser.html",
-          "source": "FoneArena.com"
-        }
-      ],
-      "word_count": 723,
-      "page": "p/red-magic-12-pro-design-and-rgb-cooling-revealed-ahead-of-pakistan-launch.html"
-    },
-    {
-      "title": "Polar Vortex and El Niño Drive Winter Weather Concerns",
-      "slug": "polar-vortex-and-el-nino-drive-winter-weather-concerns",
-      "topic": "polar vortex",
-      "date": "2026-10-09",
-      "date_pkt": "2026-10-09 05:36 PM PKT",
-      "excerpt": "A combination of the polar vortex and El Niño is shaping this winter's forecast, prompting warnings for severe cold in the UK. Residents in major cities are being urged to prepare for potential disruptions.",
-      "meta_description": "Meteorologists link the polar vortex and El Niño to severe winter conditions. Londoners are advised to stockpile food as cold fronts intensify across Europe.",
-      "keywords": [
-        "polar vortex",
-        "El Niño",
-        "winter weather",
-        "UK weather",
-        "climate impact"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRyaShzHyX4s7PV0hIADReABSZ61qYYbodJdjImiJX2tIYPzmvAevRlLMrM_g0",
-      "related": [
-        {
-          "title": "Will El Niño and the polar vortex bring snow to the UK this winter?",
-          "url": "https://www.bbc.com/weather/articles/c6pqg9j7d2w7o",
-          "source": "BBC"
-        },
-        {
-          "title": "Londoners advised to stockpile food as fears grow over polar vortex",
-          "url": "https://www.standard.co.uk/news/london/london-el-nino-polar-vortex-advice-british-gas-stockpile-food-b1299412.html",
-          "source": "London Evening Standard"
-        },
-        {
-          "title": "What El Niño Means For The Construction Industry",
-          "url": "https://www.fixradio.co.uk/news/latest-news/what-el-nino-means-for-the-construction-industry/",
-          "source": "Fix Radio"
-        }
-      ],
-      "word_count": 894,
-      "page": "p/polar-vortex-and-el-nino-drive-winter-weather-concerns.html"
-    },
-    {
-      "title": "Pakistan to host Sri Lanka in rare home T20Is as new squad takes centre stage",
-      "slug": "pakistan-to-host-sri-lanka-in-rare-home-t20is-as-new-squad-takes-centre-stage",
-      "topic": "pak बनाम sl",
-      "date": "2026-10-09",
-      "date_pkt": "2026-10-09 05:36 PM PKT",
-      "excerpt": "Pakistan will host Sri Lanka in a series of home T20Is, marking a rare opportunity for the hosts to play on familiar turf. The match will feature a new‑look Pakistani squad that omits several key players.",
-      "meta_description": "Pakistan will host Sri Lanka in a series of rare home T20Is, featuring a new-look squad without star players, as the teams prepare for a high‑stakes clash.",
-      "keywords": [
-        "Pakistan T20I",
-        "Sri Lanka cricket",
-        "new-look Pakistan squad",
-        "T20I series",
-        "international cricket"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSabB6XELT-otb9B9eYxlWe0xs_UPLi25dBhw02eWaSpMnh0gJDQxdPxFBLeE",
-      "related": [
-        {
-          "title": "Experimental Pakistan host transitional Sri Lanka in rare home T20Is this season",
-          "url": "https://www.cricinfo.com/series/sri-lanka-in-pakistan-2026-27-1550703/pakistan-vs-sri-lanka-1st-t20i-1550708/match-preview",
-          "source": "Cricinfo"
-        },
-        {
-          "title": "Sahibzada-led Pakistan set to take on Sri Lanka in T20I challenge from Friday",
-          "url": "https://www.pcb.com.pk/press-release-detail/sahibzada-led-pakistan-set-to-take-on-sri-lanka-in-t20i-challenge-from-friday.html",
-          "source": "(PCB) Official Website"
-        },
-        {
-          "title": "No Babar Azam, no Shaheen Afridi: Farhan backs Pakistan’s new-look T20I squad",
-          "url": "https://www.thedailystar.net/sports/cricket/news/no-babar-azam-no-shaheen-afridi-farhan-backs-pakistans-new-look-t20i-squad-4293866",
-          "source": "The Daily Star"
-        }
-      ],
-      "word_count": 565,
-      "page": "p/pakistan-to-host-sri-lanka-in-rare-home-t20is-as-new-squad-takes-centre-stage.html"
-    },
-    {
-      "title": "Pakistan to Host Sri Lanka in Rare Home T20I Series with New Squad",
-      "slug": "pakistan-to-host-sri-lanka-in-rare-home-t20i-series-with-new-squad",
-      "topic": "pak vs sl",
-      "date": "2026-10-09",
-      "date_pkt": "2026-10-09 05:36 PM PKT",
-      "excerpt": "Pakistan will open a home T20I series against Sri Lanka this year, fielding a fresh lineup led by captain Sahibzada. The matches come as both teams look to rebuild and test new talent.",
-      "meta_description": "Pakistan will host Sri Lanka in a home T20I series this year, with a squad led by Sahibzada. The series signals a new phase for both sides.",
-      "keywords": [
-        "Pakistan cricket",
-        "Sri Lanka cricket",
-        "T20I series",
-        "Sahibzada",
-        "Pakistan squad"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "2000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSabB6XELT-otb9B9eYxlWe0xs_UPLi25dBhw02eWaSpMnh0gJDQxdPxFBLeE",
-      "related": [
-        {
-          "title": "Experimental Pakistan host transitional Sri Lanka in rare home T20Is this season",
-          "url": "https://www.cricinfo.com/series/sri-lanka-in-pakistan-2026-27-1550703/pakistan-vs-sri-lanka-1st-t20i-1550708/match-preview",
-          "source": "Cricinfo"
-        },
-        {
-          "title": "Sahibzada-led Pakistan set to take on Sri Lanka in T20I challenge from Friday",
-          "url": "https://www.pcb.com.pk/press-release-detail/sahibzada-led-pakistan-set-to-take-on-sri-lanka-in-t20i-challenge-from-friday.html",
-          "source": "(PCB) Official Website"
-        },
-        {
-          "title": "No Babar Azam, no Shaheen Afridi: Farhan backs Pakistan’s new-look T20I squad",
-          "url": "https://www.thedailystar.net/sports/cricket/news/no-babar-azam-no-shaheen-afridi-farhan-backs-pakistans-new-look-t20i-squad-4293866",
-          "source": "The Daily Star"
-        }
-      ],
-      "word_count": 530,
-      "page": "p/pakistan-to-host-sri-lanka-in-rare-home-t20i-series-with-new-squad.html"
-    },
-    {
-      "title": "Pakistan Set to Face Sri Lanka in U19 Asia Cup 2026 Group Stage",
-      "slug": "pakistan-set-to-face-sri-lanka-in-u19-asia-cup-2026-group-stage",
-      "topic": "pakistan vs sri lanka",
-      "date": "2026-10-09",
-      "date_pkt": "2026-10-09 05:36 PM PKT",
-      "excerpt": "Pakistan's under‑19 side is gearing up for a crucial clash against Sri Lanka in the ACC Asia Cup 2026. The match, part of the group stage, could set the tone for Pakistan’s campaign.",
-      "meta_description": "Pakistan will play Sri Lanka in the ACC Men's U19 Asia Cup 2026, with the match scheduled for a key group stage fixture that could shape the tournament.",
-      "keywords": [
-        "Pakistan U19 cricket",
-        "Sri Lanka U19 cricket",
-        "ACC Asia Cup 2026",
-        "India Pakistan cricket",
-        "cricket schedule"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "5000+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTeluXK07etOKA73-9gAeqnSasH15ylJudC4oFPZwsR2Fz7P1C0Od5qByXn1Ik",
-      "related": [
-        {
-          "title": "ACC Men's U19 Asia Cup 2026 schedule, live scores and results",
-          "url": "https://www.cricbuzz.com/cricket-series/13333/acc-mens-u19-asia-cup-2026/matches",
-          "source": "Cricbuzz"
-        },
-        {
-          "title": "Under-19 Asia Cup 2026: Full men’s schedule, fixtures, dates and match timings",
-          "url": "https://sportstar.thehindu.com/cricket/acc-mens-u19-asia-cup-2026-schedule-india-vs-pakistan-match-date-stadium-venue-timings-ist/article71562750.ece",
-          "source": "Sportstar"
-        },
-        {
-          "title": "Virender Sehwag And Rahul Dravid's Sons Likely To Play In Major India vs Pakistan Clash In November",
-          "url": "https://sports.ndtv.com/cricket/virender-sehwag-and-rahul-dravids-sons-likely-to-play-in-major-india-vs-pakistan-clash-in-november-12161719",
-          "source": "NDTV Sports"
-        }
-      ],
-      "word_count": 772,
-      "page": "p/pakistan-set-to-face-sri-lanka-in-u19-asia-cup-2026-group-stage.html"
-    },
-    {
-      "title": "Michael Kearns, 90210 actor and AIDS activist, dies at 76",
-      "slug": "michael-kearns-90210-actor-and-aids-activist-dies-at-76",
-      "topic": "michael kearns 90210",
-      "date": "2026-10-09",
-      "date_pkt": "2026-10-09 05:36 PM PKT",
-      "excerpt": "Michael Kearns, a pioneering gay actor and AIDS activist, has died at the age of 76. His passing comes six days before he was scheduled to return to the Celebration Theatre.",
-      "meta_description": "Michael Kearns, known for 90210 and directing Jerker, has died at 76. The actor and activist passed away just days before a planned return to the stage.",
-      "keywords": [
-        "Michael Kearns",
-        "90210",
-        "AIDS activism",
-        "Hollywood",
-        "Celebration Theatre"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTDawZiUxfwGH7U1kwcHw72ZXgPfg4x3yehsSa4JR7scF7vz2QvZhofjsHObKI",
-      "related": [
-        {
-          "title": "Michael Kearns, one of Hollywood’s first out gay actors, dies at 76",
-          "url": "https://www.latimes.com/entertainment-arts/story/2026-10-08/michael-kearns-death-gay-actor-aids-activist-76",
-          "source": "Los Angeles Times"
-        },
-        {
-          "title": "Michael Kearns has died six days before his planned return to the Celebration Theatre",
-          "url": "https://www.losangelesblade.com/2026/10/07/michael-kearns-has-died-six-days-before-his-planned-return-to-the-celebration-theatre/",
-          "source": "Los Angeles Blade"
-        },
-        {
-          "title": "Michael Kearns, Actor, Activist and ‘Jerker’ Director, Dies at 76",
-          "url": "https://www.hollywoodreporter.com/news/general-news/michael-kearns-dead-jerker-director-gay-activist-1236724870/",
-          "source": "The Hollywood Reporter"
-        }
-      ],
-      "word_count": 748,
-      "page": "p/michael-kearns-90210-actor-and-aids-activist-dies-at-76.html"
     }
   ]
 }
