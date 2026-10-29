@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-28T12:12:09.892858+00:00",
-  "updated_at_pkt": "2026-10-28 05:09 PM PKT",
+  "updated_at": "2026-10-29T12:22:56.974080+00:00",
+  "updated_at_pkt": "2026-10-29 05:20 PM PKT",
   "count": 500,
-  "new_in_this_run": 27,
+  "new_in_this_run": 29,
   "sources": [
     "https://trends.google.com/trending/rss?geo=PK",
     "https://trends.google.com/trending/rss?geo=IN",
@@ -11,6 +11,1134 @@
     "https://trends.google.com/trending/rss?geo=SA"
   ],
   "items": [
+    {
+      "title": "الأزمة تتفاقم وفليك في ورطة.. لاعب برشلونة يغيب عن مواجهة ألافيس",
+      "slug": "news-1793276554",
+      "topic": "كووورة",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Coverage linked to \"كووورة\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "كووورة: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "كووورة",
+        "كووورة news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "2000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHmYrgMPiIMPsbVxtglpKcbyvDivh4mJxcancQ-MCkZyzUPqa7wIC6NJXfvFQ",
+      "related": [
+        {
+          "title": "الأزمة تتفاقم وفليك في ورطة.. لاعب برشلونة يغيب عن مواجهة ألافيس",
+          "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%A7%D9%94%D8%B2%D9%85%D8%A9-%D8%AA%D8%AA%D9%81%D8%A7%D9%82%D9%85-%D9%88%D9%81%D9%84%D9%8A%D9%83-%D9%81%D9%8A-%D9%88%D8%B1%D8%B7%D8%A9--%D9%84%D8%A7%D8%B9%D8%A8-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%8A%D8%BA%D9%8A%D8%A8-%D8%B9%D9%86-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%94%D9%84%D8%A7%D9%81%D9%8A%D8%B3/bltc0a22f784d1f31cf",
+          "source": "Kooora"
+        },
+        {
+          "title": "معاينة مباراة برشلونة وديبورتيفو ألافيس في الدوري الإسباني: البلوجرانا يسعى لإعادة فرض هيمنته أمام ألافيس العنيد",
+          "url": "https://www.goal.com/ar/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%B9%D8%A7%D9%8A%D9%86%D8%A9-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%88%D8%AF%D9%8A%D8%A8%D9%88%D8%B1%D8%AA%D9%8A%D9%81%D9%88-%D8%A7%D9%94%D9%84%D8%A7%D9%81%D9%8A%D8%B3-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D8%A8%D9%84%D9%88%D8%AC%D8%B1%D8%A7%D9%86%D8%A7-%D9%8A%D8%B3%D8%B9%D9%89-%D9%84%D8%A7%D9%95%D8%B9%D8%A7%D8%AF%D8%A9-%D9%81%D8%B1%D8%B6-%D9%87%D9%8A%D9%85%D9%86%D8%AA%D9%87-%D8%A7%D9%94%D9%85%D8%A7%D9%85-%D8%A7%D9%94%D9%84%D8%A7%D9%81%D9%8A%D8%B3-%D8%A7%D9%84%D8%B9%D9%86%D9%8A%D8%AF/blt3b1eb8c3290acbf3",
+          "source": "Goal.com"
+        },
+        {
+          "title": "بعد خسارتي باريس والريال.. برشلونة يلجأ إلى مدافعي الأكاديمية",
+          "url": "https://www.akhbarak.net/news/details/49508306/3/%D8%A8%D8%B9%D8%AF-%D8%AE%D8%B3%D8%A7%D8%B1%D8%AA%D9%8A-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D9%88%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%8A%D9%84%D8%AC%D8%A3-%D8%A5%D9%84%D9%89-%D9%85%D8%AF%D8%A7%D9%81%D8%B9%D9%8A-%D8%A7%D9%84%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9",
+          "source": "اخبارك نت"
+        }
+      ],
+      "word_count": 328,
+      "page": "p/news-1793276554.html"
+    },
+    {
+      "title": "Venomous cobra triggers evacuation at Egyptian primary school",
+      "slug": "venomous-cobra-triggers-evacuation-at-egyptian-primary-school",
+      "topic": "ثعبان",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "A large cobra caused panic at a primary school in Fayoum, Egypt, leading to an immediate evacuation of students. Authorities acted quickly to secure the animal and reassure parents.",
+      "meta_description": "A venomous cobra (Arabic: ثعبان) was found in a Fayoum primary school courtyard, prompting evacuation, capture efforts and heightened safety concerns across the",
+      "keywords": [
+        "cobra",
+        "Egypt school snake",
+        "Fayoum",
+        "student safety",
+        "wildlife incident"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTDW4jI0Qg1_PmMhh_FwiY9eJKejN5rXDC_ly1zFPe1PxpALqdfdNrl9WUjB3c",
+      "related": [
+        {
+          "title": "أفعى سامة من نوع \"كوبرا\" تثير الذعر بمدرسة ابتدائية في مصر",
+          "url": "https://www.alarabiya.net/arab-and-world/egypt/2026/10/29/%D8%A7%D9%81%D8%B9%D9%89-%D8%B3%D8%A7%D9%85%D8%A9-%D9%85%D9%86-%D9%86%D9%88%D8%B9-%D9%83%D9%88%D8%A8%D8%B1%D8%A7-%D8%AA%D8%AB%D9%8A%D8%B1-%D8%A7%D9%84%D8%B0%D8%B9%D8%B1-%D8%A8%D9%85%D8%AF%D8%B1%D8%B3%D8%A9-%D8%A7%D8%A8%D8%AA%D8%AF%D8%A7%D8%A6%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1",
+          "source": "العربية"
+        },
+        {
+          "title": "ثعبان ضخم داخل مدرسة بالفيوم.. مبنى بلا أسوار وسط الأراضي الزراعية يثير المخاوف على سلامة التلاميذ",
+          "url": "https://www.albawabhnews.com/5429436",
+          "source": "البوابة نيوز"
+        },
+        {
+          "title": "تعليم الفيوم توضح حقيقة ظهور ثعبان في فناء مدرسة ابتدائية",
+          "url": "https://www.vetogate.com/5759920",
+          "source": "فيتو"
+        }
+      ],
+      "word_count": 502,
+      "page": "p/venomous-cobra-triggers-evacuation-at-egyptian-primary-school.html"
+    },
+    {
+      "title": "Valentin Vacherot Eyes Swiss Indoors Basel Upset Against Rafael Jodar",
+      "slug": "valentin-vacherot-eyes-swiss-indoors-basel-upset-against-rafael-jodar",
+      "topic": "valentin vacherot",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Valentin Vacherot is set to face Rafael Jodar in the round of 16 at the Swiss Indoors Basel. Experts predict a tight contest as the young Frenchman seeks to advance.",
+      "meta_description": "French teenager Valentin Vacherot prepares for a key match against Rafael Jodar at the Swiss Indoors Basel, with analysts weighing his chances.",
+      "keywords": [
+        "Valentin Vacherot",
+        "Swiss Indoors Basel",
+        "Rafael Jodar",
+        "ATP Tour",
+        "tennis predictions"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR2xOmTxgmr-XSgarWE8As0EJ2mA-v5dt9FUZOYEYMuc-IffxXuF0H91-cDaCU",
+      "related": [
+        {
+          "title": "How to watch the men’s Swiss Indoors Basel: Streaming options for the Round of 16",
+          "url": "https://www.nytimes.com/athletic/7721591/2026/10/24/mens-swiss-indoors-basel-stream-how-to-watch-october-29/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "Basel R2 previews and predictions: Jodar vs. Vacherot, Fils vs. Michelsen",
+          "url": "https://tenngrand.com/basel-tennis-previews-picks-predictions-jodar-vs-vacherot-fils-michelsen/",
+          "source": "The Grandstand"
+        },
+        {
+          "title": "Valentin Vacherot vs. Rafael Jodar prediction, odds, picks for ATP Swiss Indoors 2026",
+          "url": "https://www.dimers.com/tennis/news/valentin-vacherot-vs-rafael-jodar-tennis-prediction-atp-swiss-indoors-2026-ac",
+          "source": "Dimers"
+        }
+      ],
+      "word_count": 488,
+      "page": "p/valentin-vacherot-eyes-swiss-indoors-basel-upset-against-rafael-jodar.html"
+    },
+    {
+      "title": "Unpopular ex-Blackburn Rovers player signs for Derby County amid injury…",
+      "slug": "unpopular-ex-blackburn-rovers-player-signs-for-derby-county-amid-injury",
+      "topic": "shane duffy",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Coverage linked to \"shane duffy\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "shane duffy: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "shane duffy",
+        "shane duffy news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ6RJEuFWYb4nwTESiggSTVZxMyTJcO-2rbl3-vMGGWDP7xuF1_jH2ePPYZYNs",
+      "related": [
+        {
+          "title": "Unpopular ex-Blackburn Rovers player signs for Derby County amid injury crisis",
+          "url": "https://uk.sports.yahoo.com/news/unpopular-ex-blackburn-rovers-player-114351640.html",
+          "source": "Yahoo"
+        },
+        {
+          "title": "Derby County make free agent transfer swoop for ex-Premier League defender",
+          "url": "https://www.derbytelegraph.co.uk/sport/football/transfer-news/derby-county-shane-duffy-breaking-11218789",
+          "source": "Derbyshire Live"
+        },
+        {
+          "title": "Derby County Signing Former Norwich Defensive Star Shane Duffy",
+          "url": "https://insidefutbol.com/2026/10/29/derby-county-set-to-scoop-up-former-norwich-city-man/731509/",
+          "source": "Inside Futbol"
+        }
+      ],
+      "word_count": 330,
+      "page": "p/unpopular-ex-blackburn-rovers-player-signs-for-derby-county-amid-injury.html"
+    },
+    {
+      "title": "US Military Releases Rare Photo of China's Secretive Space Plane",
+      "slug": "us-military-releases-rare-photo-of-chinas-secretive-space-plane",
+      "topic": "space",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "New imagery released by the US Department of Defense captures a Chinese space plane in orbit, marking a significant moment in the ongoing space race. Analysts say the photo reveals details about the vehicle's design and operational status.",
+      "meta_description": "The US military has released a striking image of a Chinese space plane in low-Earth orbit, offering new insight into Beijing's advanced space capabilities and s",
+      "keywords": [
+        "China space plane",
+        "US military intel",
+        "low-Earth orbit",
+        "space exploration",
+        "geopolitics"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSQXVyAoIDHLTmG3xEv9GtcDZQQZzvGjETfnB-QP1_NOUbWtDK3UZeUBxylXhI",
+      "related": [
+        {
+          "title": "China's secretive space plane caught on camera in incredible new photo released by US military",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/chinas-secretive-space-plane-caught-on-camera-in-incredible-new-photo-released-by-us-military",
+          "source": "Space"
+        },
+        {
+          "title": "China's spacecraft captured in new intel report",
+          "url": "https://www.axios.com/2026/10/29/china-spacecraft-photo-intelligence-report",
+          "source": "Axios"
+        },
+        {
+          "title": "China’s top-secret spaceplane can’t hide in low-Earth orbit",
+          "url": "https://arstechnica.com/space/2026/10/chinas-top-secret-spaceplane-cant-hide-in-low-earth-orbit/",
+          "source": "Ars Technica"
+        }
+      ],
+      "word_count": 773,
+      "page": "p/us-military-releases-rare-photo-of-chinas-secretive-space-plane.html"
+    },
+    {
+      "title": "The Saudi Airline That Launched Right in the Middle of a War",
+      "slug": "the-saudi-airline-that-launched-right-in-the-middle-of-a-war",
+      "topic": "riyadh air",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Coverage linked to \"riyadh air\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "riyadh air: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "riyadh air",
+        "riyadh air news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRz3mNk4txAb4YjX7h8fvMWYeCKne7kXaZIWNqESwAhD8GyAhE7A1uDhnHMeqc",
+      "related": [
+        {
+          "title": "The Saudi Airline That Launched Right in the Middle of a War",
+          "url": "https://www.wsj.com/world/middle-east/the-saudi-airline-that-launched-right-in-the-middle-of-a-war-18a5a7cb",
+          "source": "WSJ"
+        },
+        {
+          "title": "Riyadh Air temporarily moves operations from Saudi capital to Al Qassim",
+          "url": "https://www.flightglobal.com/airlines/2026/10/riyadh-air-temporarily-moves-operations-from-saudi-capital-to-al-qassim/",
+          "source": "FlightGlobal"
+        },
+        {
+          "title": "Air Arabia Group Targets 45-Aircraft Dammam Base For New LCC",
+          "url": "https://aviationweek.com/air-transport/airlines-lessors/air-arabia-group-targets-45-aircraft-dammam-base-new-lcc",
+          "source": "Aviation Week"
+        }
+      ],
+      "word_count": 330,
+      "page": "p/the-saudi-airline-that-launched-right-in-the-middle-of-a-war.html"
+    },
+    {
+      "title": "Srinidhi Shetty Gains Attention Amid Venkatesh's Adarsha Kutumbam Buzz",
+      "slug": "srinidhi-shetty-gains-attention-amid-venkateshs-adarsha-kutumbam-buzz",
+      "topic": "శ్రీనిధి శెట్టి",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Search interest for Srinidhi Shetty has surged in India, coinciding with the release of sensor reports for the upcoming film Adarsha Kutumbam. Fans are actively discussing the actress and the movie's production details on social media.",
+      "meta_description": "Telugu actress Srinidhi Shetty is trending as fans connect her to the recent buzz around Venkatesh and Trivikram's film Adarsha Kutumbam.",
+      "keywords": [
+        "Srinidhi Shetty",
+        "Adarsha Kutumbam",
+        "Venkatesh",
+        "Trivikram",
+        "Telugu Cinema"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQpW1m4MbCa9BNvQ4BI148UUGBPhG5rab-OhXoGf7intr24qimRvTzZDDHHW4Q",
+      "related": [
+        {
+          "title": "Srinidhi Shetty: శ్రీనిధి శెట్టి",
+          "url": "https://www.eenadu.net/photos/playimages/srinidhi-shetty-photo-gallery/2/17222",
+          "source": "Eenadu"
+        },
+        {
+          "title": "Adarsha Kutumbham Movie: ఆదర్శ కుటుంబం మూవీ ఆ సినిమా రీమేకా?.. పోయి పోయి ఆ అట్టర్ ఫ్లాప్ సినిమానే మళ్లీ తీశావా గురూజీ..!",
+          "url": "https://telugu.news18.com/photogallery/movies/is-venkatesh-and-trivikrams-adarsha-kutumbham-movie-remake-of-nobody-movie-bh-3256474.html",
+          "source": "News18 Telugu"
+        },
+        {
+          "title": "వెంకీమామ ఆదర్శ కుటుంబం.. రన్‌ టైమ్ ఎంతంటే?",
+          "url": "https://www.sakshi.com/telugu-news/movies/venkatesh-aadarsha-kutumbam-movie-sensor-report-completed-2944392",
+          "source": "Sakshi"
+        }
+      ],
+      "word_count": 942,
+      "page": "p/srinidhi-shetty-gains-attention-amid-venkateshs-adarsha-kutumbam-buzz.html"
+    },
+    {
+      "title": "Sri Lanka Reach Tri-Series Final After Madushanka's Five-Fer",
+      "slug": "sri-lanka-reach-tri-series-final-after-madushankas-five-fer",
+      "topic": "sl vs eng live score",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Dilshan Madushanka's match-winning five-wicket haul has sent Sri Lanka into the tri-series final, eliminating England from the tournament. The performance marked a decisive moment in the contest held in Pakistan.",
+      "meta_description": "Sri Lanka secured a spot in the tri-series final after Dilshan Madushanka took five wickets to eliminate England in a decisive match held in Pakistan.",
+      "keywords": [
+        "sl vs eng live score",
+        "Dilshan Madushanka",
+        "tri-series final",
+        "England cricket",
+        "Sri Lanka cricket"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ82BsBJSM3E8jKz77ybZrrJAsw2ogCOYGsMNH6VfDcy_JUj_XZdgETFIG_q6U",
+      "related": [
+        {
+          "title": "Sri Lanka secure berth in tri-series final after Madushanka bags match-winning five-for",
+          "url": "https://www.pcb.com.pk/news-detail/sri-lanka-secure-berth-in-tri-series-final-after-madushanka-bags-match-winning-five-for.html",
+          "source": "Pakistan Cricket Board (PCB)"
+        },
+        {
+          "title": "England in Pakistan: Harry Brook's side out after Sri Lanka beat hosts",
+          "url": "https://www.bbc.com/sport/cricket/articles/c6pwg00nv9dvo",
+          "source": "BBC"
+        },
+        {
+          "title": "Madushanka five-fer sends Sri Lanka to tri-series final",
+          "url": "https://www.cricbuzz.com/cricket-news/140675/pak-vs-sl-tri-series-2026-dilshan-madushankas-five-fer-sends-sri-lanka-to-tri-series-final-eliminating-england-cricbuzzcom",
+          "source": "Cricbuzz"
+        }
+      ],
+      "word_count": 755,
+      "page": "p/sri-lanka-reach-tri-series-final-after-madushankas-five-fer.html"
+    },
+    {
+      "title": "Sometimes managers needs sacking for own good - Neville",
+      "slug": "sometimes-managers-needs-sacking-for-own-good---neville",
+      "topic": "gary neville",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Coverage linked to \"gary neville\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "gary neville: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "gary neville",
+        "gary neville news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRhhB7kfpwXNbVoYBXXdXcCbDtGHWoE_HBS7iQhka2t990OSw8ZAtlPkpt_P3o",
+      "related": [
+        {
+          "title": "Sometimes managers needs sacking for own good - Neville",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cjvgx0ek6rz2o",
+          "source": "BBC"
+        },
+        {
+          "title": "Gary Neville: 'Really surprised' but 'happy' Michael Carrick set to continue as Man United boss",
+          "url": "https://www.espn.co.uk/football/story/_/id/50299184/gary-neville-really-surprised-happy-michael-carrick-set-continue-man-united-boss",
+          "source": "ESPN"
+        },
+        {
+          "title": "Manchester United: Gary Neville reacts to Michael Carrick staying in charge - 'Surprised but happy'",
+          "url": "https://www.skysports.com/football/video/13604418/manchester-united-gary-neville-reacts-to-michael-carrick-staying-in-charge-surprised-but-happy",
+          "source": "Sky Sports"
+        }
+      ],
+      "word_count": 333,
+      "page": "p/sometimes-managers-needs-sacking-for-own-good---neville.html"
+    },
+    {
+      "title": "Saudi Arabia Launches New Enforcement System to Strengthen Rights Protection",
+      "slug": "saudi-arabia-launches-new-enforcement-system-to-strengthen-rights-protection",
+      "topic": "نظام التنفيذ الجديد",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "The Saudi Justice Ministry has activated a new enforcement framework designed to speed up the execution of court orders while protecting vulnerable debtors. Officials say the system will modernise procedures and boost institutional maturity",
+      "meta_description": "Saudi Arabia’s new enforcement system (نظام التنفيذ الجديد) begins operation, aiming to improve rights enforcement, increase efficiency, and consider debtors’ h",
+      "keywords": [
+        "Saudi enforcement",
+        "new execution system",
+        "Justice Ministry",
+        "debtor rights",
+        "institutional maturity"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRC_N2lxtGNJwUetsQCyAIFPpzBkhNCms2ILjDiY72BwhQNDxVm48quaB0_oGI",
+      "related": [
+        {
+          "title": "وزير العدل: نظام التنفيذ الجديد يعزز إنفاذ الحقوق ويراعي الظروف الإنسانية للمدين",
+          "url": "https://sabq.org/article/d1zyb4a",
+          "source": "صحيفة سبق الإلكترونية"
+        },
+        {
+          "title": "وزير العدل: نظام التنفيذ يعزز كفاءة إنفاذ الحقوق والنضج المؤسسي",
+          "url": "https://ajel.sa/local/6rgee9h5x",
+          "source": "عاجل"
+        },
+        {
+          "title": "نظام التنفيذ السعودي يبدأ اليوم.. ماذا يتغير؟",
+          "url": "https://arabic.arabianbusiness.com/allnews/%D9%86%D8%B8%D8%A7%D9%85-%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%8A%D8%A8%D8%AF%D8%A3-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D9%85%D8%A7%D8%B0%D8%A7-%D9%8A",
+          "source": "أريبيان بزنس"
+        }
+      ],
+      "word_count": 594,
+      "page": "p/saudi-arabia-launches-new-enforcement-system-to-strengthen-rights-protection.html"
+    },
+    {
+      "title": "Sammy tells West Indies Test stars to attract better pay with better play",
+      "slug": "sammy-tells-west-indies-test-stars-to-attract-better-pay-with-better-play",
+      "topic": "roston chase",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Coverage linked to \"roston chase\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "roston chase: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "roston chase",
+        "roston chase news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt68pAdDnq-E_8S1kYHeFMWSCdElMfZogyKv4NaoQvvuPenp3IjAOHT2mRZG8",
+      "related": [
+        {
+          "title": "Sammy tells West Indies Test stars to attract better pay with better play",
+          "url": "https://www.cricinfo.com/story/ban-vs-wi-daren-sammy-tells-west-indies-test-stars-to-attract-better-pay-with-better-play-1560096",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "Roston Chase: Financial issues have motivated us to do even better",
+          "url": "https://www.cricbuzz.com/cricket-news/140672/roston-chase-financial-issues-have-motivated-us-to-do-even-better",
+          "source": "Cricbuzz"
+        },
+        {
+          "title": "Daren Sammy Drops Priceless Reaction After Indian Batters Demolish New Zealand In 3rd T20I: \"Just Wow\"",
+          "url": "https://sports.ndtv.com/new-zealand-vs-india-2026-27/daren-sammy-drops-priceless-reaction-after-indian-batters-demolish-new-zealand-in-3rd-t20i-just-wow-12243234",
+          "source": "NDTV Sports"
+        }
+      ],
+      "word_count": 336,
+      "page": "p/sammy-tells-west-indies-test-stars-to-attract-better-pay-with-better-play.html"
+    },
+    {
+      "title": "Sam Curran under fire as England's ODI woes deepen",
+      "slug": "sam-curran-under-fire-as-englands-odi-woes-deepen",
+      "topic": "sam curran",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "All‑rounder Sam Curran has become a focal point of criticism as England's one‑day team continues to falter. His selection and role are now under intense scrutiny ahead of upcoming fixtures.",
+      "meta_description": "England's ODI side struggles to find balance as all‑rounder Sam Curran faces criticism for inconsistent displays and a disputed role ahead of the next series.",
+      "keywords": [
+        "Sam Curran",
+        "England cricket",
+        "ODI",
+        "selection",
+        "performance"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSl9_4vE3VoDepXVonQH9vbqBJ0h_BIb_tPMFLnju9jLXqRah_qoQbGQ5Fjj2U",
+      "related": [
+        {
+          "title": "England's ODI struggles: How worried should Harry Brook's side be after another unfathomable defeat?",
+          "url": "https://www.skysports.com/cricket/news/13603915/englands-odi-struggles-how-worried-should-harry-brooks-side-be-after-another-unfathomable-defeat",
+          "source": "Sky Sports"
+        },
+        {
+          "title": "Sam Curran: England’s Biggest Problem And Only Solution",
+          "url": "https://www.wisden.com/series/pakistan-odi-tri-series-2026/cricket-news/sam-curran-englands-biggest-problem-and-only-solution",
+          "source": "Wisden"
+        },
+        {
+          "title": "Why England's faith in Sam Curran is backfiring",
+          "url": "https://www.dailymail.com/sport/cricket/article-16242489/England-Sam-Curran-ODI.html",
+          "source": "Daily Mail"
+        }
+      ],
+      "word_count": 782,
+      "page": "p/sam-curran-under-fire-as-englands-odi-woes-deepen.html"
+    },
+    {
+      "title": "Ryan Day Faces Uncertainty Ahead of Ohio State vs. USC Showdown",
+      "slug": "ryan-day-faces-uncertainty-ahead-of-ohio-state-vs-usc-showdown",
+      "topic": "ryan day",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "The Buckeyes prepare for a pivotal match against USC as coach Ryan Day navigates a quarterback crisis. Betting markets reflect the uncertainty surrounding the team's offensive leadership.",
+      "meta_description": "Ohio State coach Ryan Day is set to lead the Buckeyes into a high‑stakes clash with USC, but a key injury has left the starting quarterback spot undecided.",
+      "keywords": [
+        "Ryan Day",
+        "Ohio State",
+        "USC",
+        "college football",
+        "QB competition"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS0sOD4nXOkF8TcV31VVF9V5Zb5-smhvbV7y7IswABEl7REFUrCggwyDaWLL1I",
+      "related": [
+        {
+          "title": "Betting on Ohio State-USC: How the Trojans can pull off the upset",
+          "url": "https://www.espn.com/espn/betting/story/_/id/50300744/college-football-betting-odds-week-9-ohio-state-usc-upset",
+          "source": "ESPN"
+        },
+        {
+          "title": "With Julian Sayin out, Ohio State coach Ryan Day won't name starting QB ahead of game vs. USC",
+          "url": "https://sports.yahoo.com/college-football/breaking-news/article/with-julian-sayin-out-ohio-state-coach-ryan-day-wont-name-starting-qb-ahead-of-game-vs-usc-230400957.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "Where Ohio State football’s QB competition stands heading into USC game: Buckeye Breakfast",
+          "url": "https://www.cleveland.com/osu/2026/10/where-ohio-state-footballs-qb-competition-stands-heading-into-usc-game-buckeye-breakfast.html",
+          "source": "Cleveland.com"
+        }
+      ],
+      "word_count": 415,
+      "page": "p/ryan-day-faces-uncertainty-ahead-of-ohio-state-vs-usc-showdown.html"
+    },
+    {
+      "title": "Ramesh Aravind Honored with Uday Kannadiga 2026 Award",
+      "slug": "ramesh-aravind-honored-with-uday-kannadiga-2026-award",
+      "topic": "ರಮೇಶ್ ಅರವಿಂದ್",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Kannada film veteran Ramesh Aravind has been selected for the prestigious Uday Kannadiga 2026 award. The ceremony, honoring achievers from the region, is scheduled to air on Sun Uday TV in late October and early November.",
+      "meta_description": "Veteran Kannada actor Ramesh Aravind is set to receive the Uday Kannadiga 2026 award, recognizing his contributions to the film industry alongside other achieve",
+      "keywords": [
+        "Ramesh Aravind",
+        "Uday Kannadiga 2026",
+        "Sun Uday TV",
+        "Kannada Cinema",
+        "Awards Ceremony"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT0xhEOQEvj58pnwQJg0ux3NarqsBfHWHtoTiAdhZ8nf6VMiXxdF7gMUzC69Xs",
+      "related": [
+        {
+          "title": "ರಮೇಶ್ ಅರವಿಂದ್ ನಟನೆಯ 'ದೈಜಿ' ಮೂಲಕ ಕನ್ನಡ ಚಿತ್ರೋದ್ಯಮಕ್ಕೆ ಶಿವಶ್ರೀ ತೇಜಸ್ವಿ ಸೂರ್ಯ ಪದಾರ್ಪಣೆ!",
+          "url": "https://www.kannadaprabha.com/cinema/news/2026/Oct/29/ramesh-aravinds-daiji-to-feature-three-distinct-soundscapes",
+          "source": "Kannada Prabha Online"
+        },
+        {
+          "title": "ಕರುನಾಡ ಸಾಧಕರಿಗೆ ಸನ್ ಉದಯ ಗೌರವ: ‘ಉದಯ ಕನ್ನಡಿಗ-2026’ ಪ್ರಶಸ್ತಿ ಸಮಾರಂಭ ಪ್ರಸಾರ ಯಾವಾಗ?",
+          "url": "https://vijaykarnataka.com/tv/news/udaya-kannada-2026-awards-to-telecast-on-october-31st-and-november-1st-in-sun-udaya-tv/articleshow/135235629.cms",
+          "source": "Vijay Karnataka"
+        },
+        {
+          "title": "ಉದಯ ಕನ್ನಡಿಗ-2026 ಪುರಸ್ಕಾರ: ನಟ ರಮೇಶ್ ಅರವಿಂದ್ ಸೇರಿ ಹಲವರಿಗೆ ಗೌರವ",
+          "url": "https://publictv.in/udaya-kannadiga-2026-award-program/",
+          "source": "Public TV"
+        }
+      ],
+      "word_count": 828,
+      "page": "p/ramesh-aravind-honored-with-uday-kannadiga-2026-award.html"
+    },
+    {
+      "title": "Pakistani Rupee Weakens as ڈالر Gains Strength Against Major Currencies",
+      "slug": "pakistani-rupee-weakens-as-gains-strength-against-major-currencies",
+      "topic": "ڈالر",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "The Pakistani rupee has slipped further as the US dollar strengthens, raising pressure on households and businesses. Analysts warn that sustained weakness could tighten monetary policy and fuel price hikes.",
+      "meta_description": "The ڈالر (dollar) continues to rise against the Pakistani rupee, prompting concerns over inflation, import costs, and monetary policy as markets watch the curre",
+      "keywords": [
+        "dollar",
+        "Pakistan",
+        "exchange rate",
+        "inflation",
+        "foreign exchange"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "",
+      "related": [],
+      "word_count": 685,
+      "page": "p/pakistani-rupee-weakens-as-gains-strength-against-major-currencies.html"
+    },
+    {
+      "title": "Nvidia Chief Seen as Target of Chinese Spy Plot",
+      "slug": "nvidia-chief-seen-as-target-of-chinese-spy-plot",
+      "topic": "jensen huang",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Coverage linked to \"jensen huang\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "jensen huang: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "jensen huang",
+        "jensen huang news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRCDnpRYt3t0ipSIhbL-IzEHbhCDZGgzT_tTTPaC0-dDNSftZysimnU42CeQMk",
+      "related": [
+        {
+          "title": "Nvidia Chief Seen as Target of Chinese Spy Plot",
+          "url": "https://www.nytimes.com/2026/10/29/us/politics/nvidia-china-jensen-huang-trump.html",
+          "source": "The New York Times"
+        },
+        {
+          "title": "Nvidia CEO seen as target of Chinese intelligence plot, Trump briefed but no action taken: Report",
+          "url": "https://www.moneycontrol.com/world/nvidia-ceo-seen-as-target-of-chinese-intelligence-plot-trump-briefed-but-no-action-taken-report-article-14063657.html",
+          "source": "Moneycontrol.com"
+        },
+        {
+          "title": "Nvidia CEO seen as target of Chinese spy plot",
+          "url": "https://breakingthenews.net/Article/Nvidia-CEO-seen-as-target-of-Chinese-spy-plot/67430815",
+          "source": "Breakingthenews.net"
+        }
+      ],
+      "word_count": 334,
+      "page": "p/nvidia-chief-seen-as-target-of-chinese-spy-plot.html"
+    },
+    {
+      "title": "Musheer Khan Shines with All‑Round Performance in Ranji Trophy Thriller",
+      "slug": "musheer-khan-shines-with-allround-performance-in-ranji-trophy-thriller",
+      "topic": "ముషీర్ ఖాన్",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "In a high‑stakes Ranji Trophy clash, Musheer Khan showcased his versatility, contributing both with bat and ball. His efforts were pivotal in Mumbai's victory over Haryana.",
+      "meta_description": "Musheer Khan delivered a standout all‑round display in the Ranji Trophy match between Mumbai and Haryana, helping his team secure a crucial win.",
+      "keywords": [
+        "Musheer Khan",
+        "Ranji Trophy",
+        "Mumbai vs Haryana",
+        "All‑round performance",
+        "Indian domestic cricket"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTXfvALNvV4su997AjWZFLGZw77SDXAPEugk6Q-9jQNOBWWNckYm3qdq2LrnyA",
+      "related": [
+        {
+          "title": "Ranji blog - MI target another bonus-point win; TN derail Railways",
+          "url": "https://www.cricinfo.com/series/ranji-trophy-2026-27-1546521/madhya-pradesh-vs-bihar-elite-group-a-1546563/live-match-blog-3",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "Mumbai vs Hary: Mumbai vs Haryana, Match 45, 26 Oct 2026 – Commentary | Ranji Trophy Elite 2026/27 | Match Centre",
+          "url": "https://www.bcci.tv/matches/ed7c030c-a76f-4ef7-ba44-5017dd9beabe/mumbai-vs-haryana/commentary",
+          "source": "BCCI"
+        },
+        {
+          "title": "Ranji Highlights: Musheer Khan’s all-round show; Parth Bhut takes 6 for 7",
+          "url": "https://www.cricbuzz.com/cricket-news/140687/ranji-highlights-musheer-khans-all-round-show-parth-bhut-takes-6-for-7",
+          "source": "Cricbuzz"
+        }
+      ],
+      "word_count": 639,
+      "page": "p/musheer-khan-shines-with-allround-performance-in-ranji-trophy-thriller.html"
+    },
+    {
+      "title": "Lahore Leads World’s Most Polluted Cities List as Punjab Faces Air Crisis",
+      "slug": "lahore-leads-worlds-most-polluted-cities-list-as-punjab-faces-air-crisis",
+      "topic": "air pollution",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Lahore has been identified as the world’s most polluted major city, highlighting a worsening air quality crisis across Punjab. In response, authorities have begun dismantling nearly 200 brick kilns while concerns grow over the impact on loc",
+      "meta_description": "Punjab battles hazardous air quality as Lahore tops a global polluting city list, wildlife faces threats, and officials raze 197 brick kilns to fight smog.",
+      "keywords": [
+        "air pollution",
+        "Lahore",
+        "Punjab",
+        "brick kilns",
+        "wildlife"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZHYGVsaFZxhUkFGwCyvX0G87fx68ST6cip7b8FGaQjScWz3r4wTWl7ALMdwk",
+      "related": [
+        {
+          "title": "Lahore ranks world’s most polluted major city as Punjab battles poor air quality",
+          "url": "https://www.dawn.com/news/2040684",
+          "source": "Dawn"
+        },
+        {
+          "title": "In Pakistan’s Punjab, toxic air threatens wildlife amid a monitoring blind spot",
+          "url": "https://news.mongabay.com/2026/10/in-pakistans-punjab-toxic-air-threatens-wildlife-amid-a-monitoring-blind-spot/",
+          "source": "news - Mongabay"
+        },
+        {
+          "title": "EPA demolishes 197 brick kilns in anti-smog crackdown",
+          "url": "https://www.thenews.pk/print/1445639-epa-demolishes-197-brick-kilns-in-anti-smog-crackdown",
+          "source": "The News Pakistan"
+        }
+      ],
+      "word_count": 858,
+      "page": "p/lahore-leads-worlds-most-polluted-cities-list-as-punjab-faces-air-crisis.html"
+    },
+    {
+      "title": "Jordan Cox search interest spikes in UK",
+      "slug": "jordan-cox-search-interest-spikes-in-uk",
+      "topic": "jordan cox",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Online searches for Jordan Cox have risen sharply in the United Kingdom, indicating a sudden increase in public curiosity. The surge has led to broader discussions about the individual's current status and recent activities.",
+      "meta_description": "Search interest for Jordan Cox has surged in the UK, with over 200 recorded queries. The spike prompts questions about the individual's recent public visibility",
+      "keywords": [
+        "Jordan Cox",
+        "UK news",
+        "search trends",
+        "public figure",
+        "media attention"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "",
+      "related": [],
+      "word_count": 543,
+      "page": "p/jordan-cox-search-interest-spikes-in-uk.html"
+    },
+    {
+      "title": "Indian TV Producer B.P. Singh, Creator of ‘CID’, Dies at 77",
+      "slug": "indian-tv-producer-bp-singh-creator-of-cid-dies-at-77",
+      "topic": "بی پی سنگھ",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Veteran Indian television producer B.P. Singh, best known for the long‑running crime drama ‘CID’, passed away at the age of 77. Industry colleagues and fans across the subcontinent have mourned his loss and recalled his contributions to pop",
+      "meta_description": "Renowned Indian TV producer B.P. Singh, creator of the hit crime series ‘CID’, has died at 77, prompting tributes across South Asia and marking the end of an er",
+      "keywords": [
+        "B.P. Singh",
+        "CID TV series",
+        "Indian television",
+        "TV producer death",
+        "South Asian entertainment"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "",
+      "related": [
+        {
+          "title": "بھارت کے مشہور کرائم شو سی آئی ڈی کے خالق 77 برس کی عمر میں انتقال کرگئے",
+          "url": "https://www.geonewsurdu.tv/latest/444700-",
+          "source": "geonewsurdu.tv"
+        },
+        {
+          "title": "مشہور ٹی وی سیریل ’سی آئی ڈی‘ اور ’آہٹ‘ کے پروڈیوسر و ہدایت کار بی پی سنگھ کا انتقال",
+          "url": "https://www.urdu.awazthevoice.in/india-news/bp-singh-producer-and-director-of-famous-tv-serials-cid-and-aahat-passes-away-69303.html",
+          "source": "Awaz The Voice"
+        },
+        {
+          "title": "ٹی وی سیریل ’’سی آئی ڈی ‘‘ کے پروڈیوسر بی پی سنگھ ۷۷؍ برس کی عمر میں انتقال کر گئے",
+          "url": "https://www.inquilab.com/entertainment/articles/tv-serial-cid-producer-bp-singh-passes-away-at-77-110048",
+          "source": "Inquilab.com"
+        }
+      ],
+      "word_count": 616,
+      "page": "p/indian-tv-producer-bp-singh-creator-of-cid-dies-at-77.html"
+    },
+    {
+      "title": "India-Bangladesh Ganges Water Treaty Nears Expiry, Bihar Demands Fresh Share",
+      "slug": "india-bangladesh-ganges-water-treaty-nears-expiry-bihar-demands-fresh-share",
+      "topic": "ganges water sharing agreement expiration",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "The 30‑year Ganges water sharing accord between India and Bangladesh is set to lapse, sparking diplomatic overtures from Dhaka and fresh demands from Bihar. Both sides face pressure to secure water for agriculture and flood control.",
+      "meta_description": "India and Bangladesh's Ganges water sharing treaty expires this year, prompting Bangladesh to call for talks and Bihar to seek 10,000 cusecs and a silt manageme",
+      "keywords": [
+        "Ganges water sharing",
+        "India Bangladesh treaty",
+        "Bihar water demand",
+        "Ganga water treaty 2026",
+        "South Asia water policy"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkjDGBB9AqVZyIZSmrj_fmu6ykg07KVH8yhQ6KffVj6uAFDgLnmKwxF_VQMQw",
+      "related": [
+        {
+          "title": "Bangladesh urges India to begin talks on new Ganges agreement — Dawn",
+          "url": "https://ua.news/en/dovkolo-svitu/bangladesh-zaklikav-indiiu-pochati-peregovori-pro-novu-ugodu-shchodo-gangu-dawn",
+          "source": "UA.NEWS"
+        },
+        {
+          "title": "Ganga Water Treaty 2026: Bihar Seeks 10,000 Cusecs of Water and National Silt Management Policy",
+          "url": "https://indianmasterminds.com/news/ganga-water-treaty-2026-bihar-10000-cusecs-silt-management-policy-246632/",
+          "source": "Indian Masterminds"
+        },
+        {
+          "title": "Bihar seeks resolution as India’s Ganga water sharing treaty with Bangladesh expires this year",
+          "url": "https://scroll.in/article/1096516/bihar-seeks-resolution-as-indias-ganga-water-sharing-treaty-with-bangladesh-expires-this-year",
+          "source": "Scroll.in"
+        }
+      ],
+      "word_count": 915,
+      "page": "p/india-bangladesh-ganges-water-treaty-nears-expiry-bihar-demands-fresh-share.html"
+    },
+    {
+      "title": "Grand Theft Auto VI exclusive – The state that never sleeps",
+      "slug": "grand-theft-auto-vi-exclusive-the-state-that-never-sleeps",
+      "topic": "grand theft auto",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Coverage linked to \"grand theft auto\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "grand theft auto: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "grand theft auto",
+        "grand theft auto news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgPv7D_zmNNnMl7ON0jpRweSukLpx-ZN5qCx_g83uNXfqYRz9gi0JmMeOAPh8",
+      "related": [
+        {
+          "title": "Grand Theft Auto VI exclusive – The state that never sleeps",
+          "url": "https://www.gamesradar.com/edge/gtavi-cover/",
+          "source": "GamesRadar+"
+        },
+        {
+          "title": "GTA 6 Developers Say They Are Still Discovering New Locations in the Game",
+          "url": "https://www.ign.com/articles/gta-6s-map-will-open-up-relatively-early-and-let-you-explore-freely-developers-are-still-discovering-new-parts-of-the-world",
+          "source": "IGN"
+        },
+        {
+          "title": "GTA 6 Edge Magazine Reveals New Screenshots and Gameplay Features",
+          "url": "https://www.vice.com/en/article/gta-6-edge-magazine-new-screenshots-features/",
+          "source": "VICE"
+        }
+      ],
+      "word_count": 333,
+      "page": "p/grand-theft-auto-vi-exclusive-the-state-that-never-sleeps.html"
+    },
+    {
+      "title": "DoorDash to Acquire Instacart in $17 Billion Deal",
+      "slug": "doordash-to-acquire-instacart-in-17-billion-deal",
+      "topic": "doordash instacart",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "DoorDash has agreed to buy Instacart for $17 billion, creating a combined platform for restaurant and grocery deliveries. The deal is expected to close after regulatory review.",
+      "meta_description": "DoorDash announced a $17 billion acquisition of Instacart, merging two U.S. delivery leaders and reshaping grocery and restaurant logistics for consumers.",
+      "keywords": [
+        "DoorDash",
+        "Instacart",
+        "acquisition",
+        "delivery industry",
+        "US market"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "5000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSQQ8ilP5LKuKXDu4UzKINkiPllebNmTLHIb8iwHPJOlMF2tzp47NG6cJxo7Yo",
+      "related": [
+        {
+          "title": "DoorDash to Buy Instacart for $17 Billion, Uniting 2 Delivery Giants",
+          "url": "https://www.nytimes.com/2026/10/29/technology/doordash-instacart-acquisition-delivery.html",
+          "source": "The New York Times"
+        },
+        {
+          "title": "DoorDash gobbles up Instacart in $17 billion deal",
+          "url": "https://www.cbsnews.com/news/doordash-buys-instacart-in-17-billion-deal/",
+          "source": "CBS News"
+        },
+        {
+          "title": "DoorDash Acquisition Talks Return Instacart Founder To BIllionaire Ranks",
+          "url": "https://www.forbes.com/sites/chloesorvino/2026/10/27/instacart-founder-is-a-billionaire-again-after-doordash-acquisition-talks/",
+          "source": "Forbes"
+        }
+      ],
+      "word_count": 667,
+      "page": "p/doordash-to-acquire-instacart-in-17-billion-deal.html"
+    },
+    {
+      "title": "Cyclone Arnab Threatens Coastal India as Monsoon Intensifies",
+      "slug": "cyclone-arnab-threatens-coastal-india-as-monsoon-intensifies",
+      "topic": "மழை",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Cyclone Arnab is set to strike India's eastern coast, intensifying monsoon rains that have already caused extensive road damage. Residents and authorities brace for widespread flooding and landslides.",
+      "meta_description": "Cyclone Arnab is set to hit India's eastern coast, amplifying the already heavy monsoon rains. Roads are damaged and residents brace for flooding, while authori",
+      "keywords": [
+        "Cyclone Arnab",
+        "Monsoon",
+        "India",
+        "Flooding",
+        "Road damage"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "2000+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSP_wpoO20BQ5Lk0Kr4JPTUWQkk3vBKJp77s1RYlZP3oPYd_jfh_ONCIQcX_Ns",
+      "related": [
+        {
+          "title": "'அர்னாப்' புயலால் சேதமடைந்த சாலை",
+          "url": "https://www.bbc.com/tamil/articles/c65ynwgqekj0o",
+          "source": "BBC"
+        },
+        {
+          "title": "உருவானது புதிய காற்றழுத்த தாழ்வுப்பகுதி... தீவிரமாகும் பருவமழை",
+          "url": "https://www.dailythanthi.com/news/weather/new-low-pressure-area-forms-monsoon-intensifies",
+          "source": "Daily Thanthi"
+        },
+        {
+          "title": "Arnab Cyclone | Andhra | Cyclone Arnab | கரையை கடந்து வரும் 'அர்னாப்' புயல்",
+          "url": "https://www.thanthitv.com/news/breaking/cyclone-arnab-andhra-cyclone-arnab-cyclone-arnab-approaching-the-coast",
+          "source": "Thanthi TV"
+        }
+      ],
+      "word_count": 580,
+      "page": "p/cyclone-arnab-threatens-coastal-india-as-monsoon-intensifies.html"
+    },
+    {
+      "title": "Clouds and passing light rain for San Antonio, but heavy rain is…",
+      "slug": "clouds-and-passing-light-rain-for-san-antonio-but-heavy-rain-is",
+      "topic": "weather san antonio",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Coverage linked to \"weather san antonio\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "weather san antonio: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "weather san antonio",
+        "weather san antonio news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "10000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQvI4Yw1zWQlsnP0lJshmeGTOrY30Aj4ofPE_LM6fAQBP4U0-ZbZCYv7OiUY70",
+      "related": [
+        {
+          "title": "Clouds and passing light rain for San Antonio, but heavy rain is possible closer to the Rio Grande",
+          "url": "https://www.ksat.com/weather/2026/10/28/showers-in-forecast-but-the-best-odds-stay-west-of-sa/",
+          "source": "KSAT"
+        },
+        {
+          "title": "Showers, storms may arrive in San Antonio area within hours",
+          "url": "https://www.mysanantonio.com/news/weather/article/san-antonio-weather-storms-22496325.php",
+          "source": "MySA"
+        },
+        {
+          "title": "San Antonio's forecast improves ahead of Halloween | KENS 5 Weather Impact Forecast",
+          "url": "https://www.kens5.com/video/weather/forecast/san-antonios-forecast-improves-ahead-of-halloween-kens-5-weather-impact-forecast/273-4a2df978-7eff-4a27-aa15-4f834bd48784",
+          "source": "kens5.com"
+        }
+      ],
+      "word_count": 342,
+      "page": "p/clouds-and-passing-light-rain-for-san-antonio-but-heavy-rain-is.html"
+    },
+    {
+      "title": "Ambani marks record Jio IPO as data costs loom higher",
+      "slug": "ambani-marks-record-jio-ipo-as-data-costs-loom-higher",
+      "topic": "mukesh ambani",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Mukesh Ambani hosted a high‑profile celebration for Jio Platforms' record initial public offering. Analysts, however, caution that India's cheap data model could face price hikes soon.",
+      "meta_description": "Reliance Industries chairman Mukesh Ambani celebrated Jio Platforms' record IPO with a lavish party, while analysts warn that India's low-cost internet may soon",
+      "keywords": [
+        "Mukesh Ambani",
+        "Jio IPO",
+        "Indian telecom",
+        "Reliance Industries",
+        "Internet pricing"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSpV9zoTqAR5giPiV9NDMS7AN2nPHXhS4PJiloyR9Vd7hVWnBzYdYTAZgOrHAs",
+      "related": [
+        {
+          "title": "With drones, DJs and a helipad, Ambani throws a party for Jio’s record IPO",
+          "url": "https://www.reuters.com/world/india/with-drones-djs-helipad-ambani-throws-party-jios-record-ipo-2026-10-28/",
+          "source": "Reuters"
+        },
+        {
+          "title": "Billionaire Ambani cries tears of joy as Jio Platforms becomes the second most valued Indian firm",
+          "url": "https://www.cnbc.com/2026/10/29/ambani-billionaire-jio-ipo-india.html",
+          "source": "CNBC"
+        },
+        {
+          "title": "India’s ultra-cheap internet is about to get more expensive",
+          "url": "https://www.economist.com/business/2026/10/28/indias-ultra-cheap-internet-is-about-to-get-more-expensive",
+          "source": "The Economist"
+        }
+      ],
+      "word_count": 675,
+      "page": "p/ambani-marks-record-jio-ipo-as-data-costs-loom-higher.html"
+    },
+    {
+      "title": "AMC, Regal, And Cinemark Just Revealed Their ‘Hunger Games’ Popcorn…",
+      "slug": "amc-regal-and-cinemark-just-revealed-their-hunger-games-popcorn",
+      "topic": "the hunger games cinema",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Coverage linked to \"the hunger games cinema\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "the hunger games cinema: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "the hunger games cinema",
+        "the hunger games cinema news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQDFKgS4tJa14d8k7jEWb6iM-QN-Bi9WkEiy9Yaj8LYME5EUO7h24VeJAa8BDk",
+      "related": [
+        {
+          "title": "AMC, Regal, And Cinemark Just Revealed Their ‘Hunger Games’ Popcorn Buckets—And Fans Have A Favorite",
+          "url": "https://www.delish.com/food-news/a74275396/hunger-games-popcorn-buckets/",
+          "source": "Delish"
+        },
+        {
+          "title": "Celebrate the latest Hunger Games film with limited-edition merch and special one-off screenings at Vue Piccadilly",
+          "url": "https://london-post.co.uk/celebrate-the-latest-hunger-games-film-with-limited-edition-merch-and-special-one-off-screenings-at-vue-piccadilly/",
+          "source": "London Post"
+        },
+        {
+          "title": "Burga Accessorizes The World of The Hunger Games in New Collaboration",
+          "url": "https://www.totallicensing.com/burga-accessorizes-the-world-of-the-hunger-games-in-new-collaboration/",
+          "source": "Total Licensing"
+        }
+      ],
+      "word_count": 352,
+      "page": "p/amc-regal-and-cinemark-just-revealed-their-hunger-games-popcorn.html"
+    },
+    {
+      "title": "'Hungrier than ever' - Paul to return on 24 December",
+      "slug": "hungrier-than-ever---paul-to-return-on-24-december",
+      "topic": "jake paul",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Coverage linked to \"jake paul\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "jake paul: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "jake paul",
+        "jake paul news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR-POXhKm5hTg7d9F8wfE1bBeXRZgG8LeoGpS96JGYPtH076zVxa36_WeZ4paQ",
+      "related": [
+        {
+          "title": "'Hungrier than ever' - Paul to return on 24 December",
+          "url": "https://www.bbc.co.uk/sport/boxing/articles/cvkgkx496e0ko",
+          "source": "BBC"
+        },
+        {
+          "title": "Jake Paul to make boxing return on Christmas Eve in Dubai with opponent to be revealed",
+          "url": "https://www.skysports.com/boxing/news/13604956/jake-paul-to-make-boxing-return-on-christmas-eve-in-dubai-with-opponent-to-be-revealed",
+          "source": "Sky Sports"
+        },
+        {
+          "title": "Jake Paul announces Christmas Eve comeback fight in Dubai after broken jaw threatened his career",
+          "url": "https://www.foxnews.com/outkick-sports/jake-paul-announces-christmas-eve-comeback-fight-dubai-broken-jaw-threatened-career",
+          "source": "Fox News"
+        }
+      ],
+      "word_count": 337,
+      "page": "p/hungrier-than-ever---paul-to-return-on-24-december.html"
+    },
+    {
+      "title": "\"مُلطخون بالدماء، مذهولون، وغاضبون\": هكذا تحولت رحلة ركاب عبر القطار…",
+      "slug": "news-1793276547",
+      "topic": "قطار",
+      "date": "2026-10-29",
+      "date_pkt": "2026-10-29 05:20 PM PKT",
+      "excerpt": "Coverage linked to \"قطار\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "قطار: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "قطار",
+        "قطار news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS9z5GVnpQOlZz_iTfs2jBpQDAq5oL2emWTekWcaNIOsiZl7DFqXPkYKGRT4K4",
+      "related": [
+        {
+          "title": "\"مُلطخون بالدماء، مذهولون، وغاضبون\": هكذا تحولت رحلة ركاب عبر القطار إلى كارثة في إسبانيا",
+          "url": "https://www.bbc.com/arabic/articles/ck79pj52pwz0o",
+          "source": "BBC"
+        },
+        {
+          "title": "هل يوجد مقعد منقذ للحياة في حوادث القطارات؟",
+          "url": "https://aawsat.com/%D9%8A%D9%88%D9%85%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%B4%D8%B1%D9%82/5335140-%D9%87%D9%84-%D9%8A%D9%88%D8%AC%D8%AF-%D9%85%D9%82%D8%B9%D8%AF-%D9%85%D9%86%D9%82%D8%B0-%D9%84%D9%84%D8%AD%D9%8A%D8%A7%D8%A9-%D9%81%D9%8A-%D8%AD%D9%88%D8%A7%D8%AF%D8%AB-%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B1%D8%A7%D8%AA%D8%9F",
+          "source": "الشرق الأوسط"
+        },
+        {
+          "title": "احتجاجات في مدريد على حادث القطار وسانشيز يعلن الحداد الوطني 3 أيام",
+          "url": "https://www.alarabiya.net/arab-and-world/2026/10/29/%D8%A7%D8%AD%D8%AA%D8%AC%D8%A7%D8%AC%D8%A7%D8%AA-%D9%81%D9%8A-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D8%B9%D9%84%D9%89-%D8%AD%D8%A7%D8%AF%D8%AB-%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B1-%D9%88%D8%B3%D8%A7%D9%86%D8%B4%D9%8A%D8%B2-%D9%8A%D8%B9%D9%84%D9%86-%D8%A7%D9%84%D8%AD%D8%AF%D8%A7%D8%AF-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-3-%D8%A7%D9%8A%D8%A7%D9%85-",
+          "source": "العربية"
+        }
+      ],
+      "word_count": 326,
+      "page": "p/news-1793276547.html"
+    },
     {
       "title": "लड़ाकू विमान: what readers need to know",
       "slug": "what-readers-need-to-know-20261028",
@@ -18646,1161 +19774,6 @@
       ],
       "word_count": 1057,
       "page": "p/kate-middleton-and-princess-charlotte-ride-london-tube-in-rare-public-appearance.html"
-    },
-    {
-      "title": "Israeli Documentary 'NAZA' Sparks Legal Action and Debate in US and Israel",
-      "slug": "israeli-documentary-naza-sparks-legal-action-and-debate-in-us-and-israel",
-      "topic": "naza",
-      "date": "2026-10-12",
-      "date_pkt": "2026-10-12 07:29 PM PKT",
-      "excerpt": "The Israeli documentary 'NAZA' opened in the United States this week, drawing sharp reactions from Israeli officials and critics alike. Prime Minister Benjamin Netanyahu has ordered security services to identify and consider prosecuting the",
-      "meta_description": "The Israeli documentary 'NAZA' has been released in the US, prompting Prime Minister Netanyahu to order the identification and possible prosecution of its inter",
-      "keywords": [
-        "NAZA documentary",
-        "Netanyahu",
-        "Gaza war",
-        "film prosecution",
-        "US release"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSyEgXHD0HX_nzs8Q4SsCuRSbBou4VBubw2X7pS__D_F5DJ8kWjWrkSeLgq5iM",
-      "related": [
-        {
-          "title": "NAZA: Netanyahu orders identification and prosecution of film’s interviewees",
-          "url": "https://www.theguardian.com/film/2026/oct/12/naza-netanyahu-orders-identification-prosecution-interviewees-documentary-film",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Israeli documentary ‘NAZA’ opens in the US, reigniting debate over the war in Gaza",
-          "url": "https://www.independent.co.uk/news/israeli-hamas-italy-biden-trump-b3061869.html",
-          "source": "The Independent"
-        },
-        {
-          "title": "I’ve seen Naza and it’s a nasty piece of propaganda",
-          "url": "https://www.thejc.com/opinion/ive-seen-naza-and-its-a-nasty-piece-of-propaganda-umbuoml4",
-          "source": "The Jewish Chronicle"
-        }
-      ],
-      "word_count": 818,
-      "page": "p/israeli-documentary-naza-sparks-legal-action-and-debate-in-us-and-israel.html"
-    },
-    {
-      "title": "Former Sri Lankan President Mahinda Rajapaksa Hospitalised Amid Health Crisis",
-      "slug": "former-sri-lankan-president-mahinda-rajapaksa-hospitalised-amid-health-crisis",
-      "topic": "mahinda rajapaksa",
-      "date": "2026-10-12",
-      "date_pkt": "2026-10-12 07:29 PM PKT",
-      "excerpt": "Mahinda Rajapaksa, the former president of Sri Lanka, has been admitted to a hospital for urgent care. His wife and son are currently facing corruption charges, adding to the political tension in the country.",
-      "meta_description": "Former Sri Lankan President Mahinda Rajapaksa admitted to hospital for urgent care as his wife and son face corruption charges, raising concerns about politics.",
-      "keywords": [
-        "Mahinda Rajapaksa",
-        "Sri Lanka politics",
-        "hospital admission",
-        "corruption cases",
-        "CIABOC"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRQkjH6krcqhzT4RJ43MCdHHUYqoSkr3PyxBlPTaB3sgcjDwMot8Ptk9O0SaGo",
-      "related": [
-        {
-          "title": "Sri Lanka’s former President Mahinda Rajapaksa admitted to hospital for urgent medical care",
-          "url": "https://www.thehindu.com/news/international/sri-lankas-former-president-mahinda-rajapaksa-admitted-to-hospital-for-urgent-medical-care/article71574145.ece",
-          "source": "The Hindu"
-        },
-        {
-          "title": "Chamara Sampath arrives at CIABOC",
-          "url": "https://srilankamirror.com/news/chamara-sampath-arrives-at-ciaboc/",
-          "source": "Sri Lanka Mirror"
-        },
-        {
-          "title": "Sri Lanka’s Ex-President Reportedly Admitted to ICU as Wife and Son Face Corruption Cases",
-          "url": "https://slguardian.org/sri-lankas-ex-president-rajapaksa-reportedly-admitted-to-icu-as-wife-and-son-face-corruption-cases/",
-          "source": "Sri Lanka Guardian"
-        }
-      ],
-      "word_count": 599,
-      "page": "p/former-sri-lankan-president-mahinda-rajapaksa-hospitalised-amid-health-crisis.html"
-    },
-    {
-      "title": "Dragon Ball Super: Beerus Anime Premieres on Crunchyroll and Hulu",
-      "slug": "dragon-ball-super-beerus-anime-premieres-on-crunchyroll-and-hulu",
-      "topic": "dragon ball super beerus anime",
-      "date": "2026-10-12",
-      "date_pkt": "2026-10-12 07:29 PM PKT",
-      "excerpt": "The highly anticipated Dragon Ball Super: Beerus anime is ready for its global digital debut. Major streaming platforms have confirmed the release schedule for fans worldwide.",
-      "meta_description": "The new Dragon Ball Super: Beerus anime is set to premiere on Crunchyroll and Hulu. Fans in Pakistan can now stream the latest series featuring the God of Destr",
-      "keywords": [
-        "Dragon Ball Super",
-        "Beerus",
-        "Anime Premiere",
-        "Crunchyroll",
-        "Hulu"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRUhBO12En3bh7pKbhPcAIOO6f2zoOQSQ0NuiC-DjIMSPLicDH52EgHZ7RE6Q4",
-      "related": [
-        {
-          "title": "Get Ready to Enjoy the Premiere of the \"Dragon Ball Super: Beerus\" Anime even more! Here is a Roundup of All the Information Released So Far!",
-          "url": "https://en.dragon-ball-official.com/news/01_4487.html",
-          "source": "DRAGON BALL OFFICIAL SITE"
-        },
-        {
-          "title": "Dragon Ball Super: Beerus Anime to Stream on Crunchyroll",
-          "url": "https://www.crunchyroll.com/news/announcements/2026/10/5/dragon-ball-super-beerus-anime-stream-crunchyroll",
-          "source": "Crunchyroll"
-        },
-        {
-          "title": "Dragon Ball Super: Beerus Also Streams on Hulu in U.S. on October 11",
-          "url": "https://www.animenewsnetwork.com/news/2026-10-10/dragon-ball-super-beerus-also-streams-on-hulu-in-u.s-on-october-11/.242688",
-          "source": "Anime News Network"
-        }
-      ],
-      "word_count": 852,
-      "page": "p/dragon-ball-super-beerus-anime-premieres-on-crunchyroll-and-hulu.html"
-    },
-    {
-      "title": "David Bedingham's Struggle Highlights South Africa's Test Woes in Durban",
-      "slug": "david-bedinghams-struggle-highlights-south-africas-test-woes-in-durban",
-      "topic": "david bedingham",
-      "date": "2026-10-12",
-      "date_pkt": "2026-10-12 07:29 PM PKT",
-      "excerpt": "David Bedingham’s low scores underscored South Africa’s batting collapse in the Durban Test against Australia. The match was further affected by bad light, ending play before a result.",
-      "meta_description": "South Africa's Durban Test against Australia saw David Bedingham falter as the side succumbed to England's Bazball style, with bad light ending play early.",
-      "keywords": [
-        "David Bedingham",
-        "Durban Test",
-        "South Africa cricket",
-        "Bazball",
-        "bad light"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "20000+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiIfJeOUMcA6MdDgwFAnV0spxZLboIouXSRdWeicTchNXJ8V3v3a-CcOJL7Pw",
-      "related": [
-        {
-          "title": "Australia v South Africa: Bad light thwarts Durban Test despite ICC changes",
-          "url": "https://www.bbc.com/sport/cricket/articles/c623d4pzy4n2o",
-          "source": "BBC"
-        },
-        {
-          "title": "South Africa succumb to Bazball",
-          "url": "https://www.cricbuzz.com/cricket-news/140479/south-africa-succumb-to-bazball-cricbuzzcom",
-          "source": "Cricbuzz"
-        },
-        {
-          "title": "Record-breaking Renshaw puts Australia on top in Durban",
-          "url": "https://www.dawn.com/news/2036287",
-          "source": "Dawn"
-        }
-      ],
-      "word_count": 533,
-      "page": "p/david-bedinghams-struggle-highlights-south-africas-test-woes-in-durban.html"
-    },
-    {
-      "title": "Cerebras stock rallies on earnings beat as AI chip demand rises",
-      "slug": "cerebras-stock-rallies-on-earnings-beat-as-ai-chip-demand-rises",
-      "topic": "cbrs stock",
-      "date": "2026-10-12",
-      "date_pkt": "2026-10-12 07:29 PM PKT",
-      "excerpt": "Cerebras Systems' stock surged following an earnings surprise that beat analysts' forecasts. The move reflects heightened investor interest in AI‑centric hardware.",
-      "meta_description": "Cerebras Systems (NASDAQ:CBRS) saw its shares jump after a stronger‑than‑expected earnings report, highlighting growing demand for its AI‑focused wafer‑scale ch",
-      "keywords": [
-        "Cerebras",
-        "CBRS",
-        "AI chips",
-        "stock",
-        "earnings"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTCgtrmi5ZfIIzil1IlMVnz3ggoOo5pehcZBbF8pjXHlUPFuq6J2KFVcORG4GU",
-      "related": [
-        {
-          "title": "Not Nvidia. Not Broadcom. This Little-Known Chip Supplier Could Be the AI Boom's Best-Kept Secret.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/not-nvidia-not-broadcom-little-235000098.html",
-          "source": "Yahoo Finance"
-        },
-        {
-          "title": "Cerebras Is About as Big as Nvidia's Data Center Business Was Nearly a Decade Ago. The Similarities Mostly End There.",
-          "url": "https://www.fool.com/investing/2026/10/10/cerebras-is-about-as-big-as-nvidia-s-data-center-business-was-nearly-a-decade-ago-the-similarities-mostly-end-there/",
-          "source": "The Motley Fool"
-        },
-        {
-          "title": "Cerebras: The Earnings Curve Changes The Entire Setup (NASDAQ:CBRS)",
-          "url": "https://seekingalpha.com/article/4953325-cerebras-the-earnings-curve-changes-the-entire-setup",
-          "source": "Seeking Alpha"
-        }
-      ],
-      "word_count": 836,
-      "page": "p/cerebras-stock-rallies-on-earnings-beat-as-ai-chip-demand-rises.html"
-    },
-    {
-      "title": "CJI urges against labeling children for life in juvenile justice review",
-      "slug": "cji-urges-against-labeling-children-for-life-in-juvenile-justice-review",
-      "topic": "बी॰ वी॰ नागरत्ना",
-      "date": "2026-10-12",
-      "date_pkt": "2026-10-12 07:29 PM PKT",
-      "excerpt": "The Supreme Court of India has initiated a critical review of the Juvenile Justice Act, emphasizing that children in conflict with the law should not be permanently stigmatized. This development highlights ongoing debates regarding child we",
-      "meta_description": "B. V. Nagarajna, a prominent legal figure, is central to discussions on the Juvenile Justice Act as India's top court reviews child rights protections.",
-      "keywords": [
-        "B. V. Nagarajna",
-        "Juvenile Justice Act",
-        "CJI Surya Kant",
-        "Child Rights",
-        "Supreme Court India"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3zN9ZoFiEKL_dRA8iyklxmrcWmyhefmdG5_C9AsJhGrqn_LnBBDwxea2mpgw",
-      "related": [
-        {
-          "title": "'बच्चों पर न लगाएं जिंदगी भर का ठप्पा', बाल न्याय प्रणाली पर मुख्य न्यायाधीश का बड़ा बयान",
-          "url": "https://www.jagran.com/news/national-cji-said-child-in-conflict-with-law-describes-circumstance-not-identity-40401087.html",
-          "source": "Jagran"
-        },
-        {
-          "title": "CJP के प्रोटेस्ट के बीच CJI सूर्यकांत का बड़ा बयान, 18 साल से कम उम्र के लड़कों के लिए कह दी बड़ी बात",
-          "url": "https://navbharattimes.indiatimes.com/india/amidst-cjp-protests-cji-suryakant-makes-a-significant-statement-regarding-boys-under-the-age-of-18/articleshow/134864613.cms",
-          "source": "Navbharat Times"
-        },
-        {
-          "title": "किशोर न्याय अधिनियम की समीक्षा पर बैठक आज से",
-          "url": "https://www.livehindustan.com/national/story-supreme-court-to-review-juvenile-justice-act-2025-implementation-201791559708268.html",
-          "source": "Hindustan"
-        }
-      ],
-      "word_count": 688,
-      "page": "p/cji-urges-against-labeling-children-for-life-in-juvenile-justice-review.html"
-    },
-    {
-      "title": "Australia's Hazlewood shines as Smith exits with concussion concerns",
-      "slug": "australias-hazlewood-shines-as-smith-exits-with-concussion-concerns",
-      "topic": "josh hazlewood",
-      "date": "2026-10-12",
-      "date_pkt": "2026-10-12 07:29 PM PKT",
-      "excerpt": "Josh Hazlewood delivered a decisive spell in Durban while teammate Steve Smith was forced off after a helmet impact. The incident has sparked concussion concerns across the cricketing world.",
-      "meta_description": "Josh Hazlewood leads Australia's bowling attack in the South Africa Test as Steve Smith leaves the field after a helmet strike, raising concussion worries for P",
-      "keywords": [
-        "Josh Hazlewood",
-        "Steve Smith",
-        "cricket concussion",
-        "Australia South Africa Test",
-        "PK cricket fans"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSluH7YC7pYOvUO-PtoGr6Up9VZxr6a-ngAbO8_PSXZSXYbtrAd6gzBv3RMH_w",
-      "related": [
-        {
-          "title": "Australia's Smith off field after being struck on helmet",
-          "url": "https://www.france24.com/en/live-news/20261012-australia-s-smith-off-field-after-being-struck-on-helmet",
-          "source": "France 24"
-        },
-        {
-          "title": "South Africa v Australia: first men’s cricket Test, day four – live",
-          "url": "https://www.theguardian.com/sport/live/2026/oct/12/south-africa-v-australia-first-test-day-four-durban-kingsmead-cricket-ground-live-updates?page=with:block-6accd8ac8f08dd20b058f55b",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Australian star Steve Smith is under a concussion cloud",
-          "url": "https://thewest.com.au/sport/australian-cricket-team/australian-star-steve-smith-is-under-a-concussion-cloud-c-23007649",
-          "source": "The West Australian"
-        }
-      ],
-      "word_count": 737,
-      "page": "p/australias-hazlewood-shines-as-smith-exits-with-concussion-concerns.html"
-    },
-    {
-      "title": "American Conference poll ranks Wichita State first, Memphis second",
-      "slug": "american-conference-poll-ranks-wichita-state-first-memphis-second",
-      "topic": "american conference",
-      "date": "2026-10-12",
-      "date_pkt": "2026-10-12 07:29 PM PKT",
-      "excerpt": "Wichita State has been named the favorite in the American Conference preseason poll, while Memphis follows in second place under new coach Penny Hardaway. The rankings set the tone for the upcoming media days in Tampa.",
-      "meta_description": "The American Conference preseason poll shows Wichita State top and Memphis, coached by Penny Hardaway, second, ahead of conference's opening media sessions.",
-      "keywords": [
-        "American Conference",
-        "college basketball",
-        "preseason poll",
-        "Wichita State",
-        "Memphis Tigers"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRsKUF_xYE56GoFjZsiZcDXTXXomXJAELiXHBN8JMmbmImpZD6j7tZLb-V4_A0",
-      "related": [
-        {
-          "title": "Three Memphis basketball questions heading into media days",
-          "url": "https://dailymemphian.com/article/67520/memphis-tigers-basketball-media-days-tampa",
-          "source": "Daily Memphian"
-        },
-        {
-          "title": "Penny Hardaway, Memphis basketball, picked 2nd in American preseason poll",
-          "url": "https://www.commercialappeal.com/story/sports/college/memphis-tigers/2026/10/09/memphis-basketball-penny-hardaway-american-conference-preseason-poll/92098503007/",
-          "source": "The Commercial Appeal"
-        },
-        {
-          "title": "Wichita State Tabbed 2026-27 American Men’s Basketball Favorites",
-          "url": "https://theamerican.org/news/2026/10/8/wichita-state-tabbed-2026-27-american-mens-basketball-favorites.aspx",
-          "source": "American Conference"
-        }
-      ],
-      "word_count": 546,
-      "page": "p/american-conference-poll-ranks-wichita-state-first-memphis-second.html"
-    },
-    {
-      "title": "Amazon Shares Dip as Analysts Cut Price Targets Amid Cost Concerns",
-      "slug": "amazon-shares-dip-as-analysts-cut-price-targets-amid-cost-concerns",
-      "topic": "amazon share price",
-      "date": "2026-10-12",
-      "date_pkt": "2026-10-12 07:29 PM PKT",
-      "excerpt": "Amazon shares edged up 0.8% after a new AI advertising agent drove higher returns, while top analysts trimmed their price targets citing rising costs. Indian investors watch closely as the tech giant adjusts its strategy.",
-      "meta_description": "Amazon shares see a slight rise after AI advertising gains, but analysts lower price targets due to rising costs, affecting investors in India as the company fo",
-      "keywords": [
-        "Amazon",
-        "share price",
-        "analyst target",
-        "AI advertising",
-        "Indian investors"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7umyxGyhHD8KAg__N49F_aq3xpTFmoOqjwgyz3RLac-UyeZNERiPAYU1TR_A",
-      "related": [
-        {
-          "title": "Wells Fargo cuts Amazon stock price target on cost pressures By Investing.com",
-          "url": "https://in.investing.com/news/stock-market-news/wells-fargo-cuts-amazon-stock-price-target-on-cost-pressures-93CH-5628092",
-          "source": "Investing.com India"
-        },
-        {
-          "title": "Amazon.com (NASDAQ:AMZN) Stock Price Target Cut by Cantor Fitzgerald",
-          "url": "https://www.marketbeat.com/instant-alerts/analyst-amazoncom-nasdaq-amzn-stock-price-target-cut-by-cantor-fitzgerald-2026-10-12/",
-          "source": "MarketBeat"
-        },
-        {
-          "title": "Amazon Stocks Jump 0.8% as AI Ads Agent Chases Higher Returns",
-          "url": "https://www.tradingview.com/news/gurufocus:e20f605d4094b:0-amazon-stocks-jump-0-8-as-ai-ads-agent-chases-higher-returns/",
-          "source": "TradingView"
-        }
-      ],
-      "word_count": 520,
-      "page": "p/amazon-shares-dip-as-analysts-cut-price-targets-amid-cost-concerns.html"
-    },
-    {
-      "title": "ATC Rejects Petition, Allows Hadi Ali Chattha to Meet Lawyers in Jail",
-      "slug": "atc-rejects-petition-allows-hadi-ali-chattha-to-meet-lawyers-in-jail",
-      "topic": "hadi ali chattha",
-      "date": "2026-10-12",
-      "date_pkt": "2026-10-12 07:29 PM PKT",
-      "excerpt": "Pakistan's Anti‑terrorism Court rejected a petition filed by Imaan and Hadi Ali Chattha, maintaining terrorism charges linked to a barricade removal case. The court also ordered that the two be allowed to meet their legal team while in dete",
-      "meta_description": "Pakistan's Anti‑terrorism Court dismissed a petition by Imaan and Hadi Ali Chattha, upheld terrorism charges and permitted them to meet lawyers in jail.",
-      "keywords": [
-        "Hadi Ali Chattha",
-        "ATC",
-        "terrorism charges",
-        "Pakistan legal case",
-        "barricade removal"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRjQoO_GcewsgdVFRVv7GP8vx2fLxUsFX2jPj-8R1el6QpBJkZo4lMPb7gs1qw",
-      "related": [
-        {
-          "title": "Islamabad ATC directs authorities to allow Imaan, Hadi to meet their legal team in jail",
-          "url": "https://www.dawn.com/news/2036610",
-          "source": "Dawn"
-        },
-        {
-          "title": "ATC disposes of petition filed by Imaan, Chattha",
-          "url": "https://www.brecorder.com/news/40443612",
-          "source": "Business Recorder"
-        },
-        {
-          "title": "Barricade removal case: ATC rejects plea to drop terrorism charges against Imaan, Hadi",
-          "url": "https://tribune.com.pk/story/2634071/barricade-removal-case-atc-rejects-plea-to-drop-terrorism-charges-against-imaan-hadi",
-          "source": "The Express Tribune"
-        }
-      ],
-      "word_count": 708,
-      "page": "p/atc-rejects-petition-allows-hadi-ali-chattha-to-meet-lawyers-in-jail.html"
-    },
-    {
-      "title": "مجلس التعاون يدين الهجوم الحوثي على مطار الرياض ويؤكد تضامنه مع السعودية",
-      "slug": "news-1791720685",
-      "topic": "هجوم مطار الرياض",
-      "date": "2026-10-11",
-      "date_pkt": "2026-10-11 05:08 PM PKT",
-      "excerpt": "Coverage linked to \"هجوم مطار الرياض\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "هجوم مطار الرياض: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "هجوم مطار الرياض",
-        "هجوم مطار الرياض news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "10000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSOokyGuo0OBLEsMFvKVZT_5qxF1fA95Nw_Cd5yPGPXnRj1Ii79_G8SJpmZH1o",
-      "related": [
-        {
-          "title": "مجلس التعاون يدين الهجوم الحوثي على مطار الرياض ويؤكد تضامنه مع السعودية",
-          "url": "https://www.alarabiya.net/arab-and-world/gulf/2026/10/11/%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%8A%D8%AF%D9%8A%D9%86-%D8%A7%D9%84%D9%87%D8%AC%D9%88%D9%85-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D8%B9%D9%84%D9%89-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D9%88%D9%8A%D8%A4%D9%83%D8%AF-%D8%AA%D8%B6%D8%A7%D9%85%D9%86%D9%87-%D9%85%D8%B9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
-          "source": "العربية"
-        },
-        {
-          "title": "السعودية صباح الأحد.. تفاصيل هجوم حوثي كبير على مطار الملك خالد يكشفها \"التحالف\" وترامب يعلق",
-          "url": "https://arabic.cnn.com/middle-east/article/2026/10/11/major-houthi-attack-on-saudi-airport-kills-at-least-12-hundreds-wounded",
-          "source": "CNN Arabic"
-        },
-        {
-          "title": "\"الهيئة العامة للطيران المدني\": 12 وفاة واصابة 309 اخرين في اعتداء استهدف مطار الملك خالد بالرياض",
-          "url": "https://maaal.com/news/details/%D8%A7%D9%84%D9%87%D9%8A%D8%A6%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9-%D9%84%D9%84%D8%B7%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D9%84/",
-          "source": "صحيفة مال"
-        }
-      ],
-      "word_count": 345,
-      "page": "p/news-1791720685.html"
-    },
-    {
-      "title": "زيلينسكي: أوكرانيا مستعدة لوقف استهداف مصافي النفط الروسية بشرط",
-      "slug": "news-1791720689",
-      "topic": "فولوديمير زيلينسكي",
-      "date": "2026-10-11",
-      "date_pkt": "2026-10-11 05:08 PM PKT",
-      "excerpt": "Coverage linked to \"فولوديمير زيلينسكي\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "فولوديمير زيلينسكي: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "فولوديمير زيلينسكي",
-        "فولوديمير زيلينسكي news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTC1XTrUsLqP3vxsNzZVrZJF2nCXGnbpHt0bF03Ni_BuzPTgpps08RkNvQCvNk",
-      "related": [
-        {
-          "title": "زيلينسكي: أوكرانيا مستعدة لوقف استهداف مصافي النفط الروسية بشرط",
-          "url": "https://www.alarabiya.net/arab-and-world/2026/10/11/%D8%B2%D9%8A%D9%84%D9%8A%D9%86%D8%B3%D9%83%D9%8A-%D8%A7%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7-%D9%85%D8%B3%D8%AA%D8%B9%D8%AF%D8%A9-%D9%84%D9%88%D9%82%D9%81-%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D9%85%D8%B5%D8%A7%D9%81%D9%8A-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%A7%D9%84%D8%B1%D9%88%D8%B3%D9%8A%D8%A9-%D8%A8%D8%B4%D8%B1%D8%B7",
-          "source": "العربية"
-        },
-        {
-          "title": "فاينانشيال تايمز: واشنطن توقف تبادل المعلومات الاستخباراتية مع أوكرانيا",
-          "url": "https://www.eremnews.com/news/world/xvhjt6g",
-          "source": "إرم نيوز"
-        },
-        {
-          "title": "من العقوبات إلى الصفقات... اتفاق ترامب بشأن الديزل الروسي يغضب أوكرانيا ويثير انقساماً أميركياً وسط شكوك بجدواه",
-          "url": "https://www.annahar.com/international/world/355815/%D9%85%D9%86-%D8%A7%D9%84%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%B5%D9%81%D9%82%D8%A7%D8%AA-%D8%A7%D8%AA%D9%81%D8%A7%D9%82-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D9%84%D8%AF%D9%8A%D8%B2%D9%84-%D8%A7%D9%84%D8%B1%D9%88%D8%B3%D9%8A-%D9%8A%D8%BA%D8%B6%D8%A8-%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7-%D9%88%D9%8A%D8%AB%D9%8A%D8%B1-%D8%A7%D9%86%D9%82%D8%B3%D8%A7%D9%85%D8%A7-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A%D8%A7-%D9%88%D8%B3%D8%B7-%D8%B4%D9%83%D9%88%D9%83-%D8%A8%D8%AC%D8%AF%D9%88%D8%A7%D9%87",
-          "source": "annahar.com"
-        }
-      ],
-      "word_count": 332,
-      "page": "p/news-1791720689.html"
-    },
-    {
-      "title": "Zheng Qinwen to Face Andreeva in China Open Final",
-      "slug": "zheng-qinwen-to-face-andreeva-in-china-open-final",
-      "topic": "qinwen zheng",
-      "date": "2026-10-11",
-      "date_pkt": "2026-10-11 05:08 PM PKT",
-      "excerpt": "Zheng Qinwen has secured a spot in the China Open final, where she will challenge Mirra Andreeva for the title. The match has generated intense public interest, with local cinemas organizing special screenings to accommodate fans.",
-      "meta_description": "Chinese tennis star Zheng Qinwen advances to the China Open final to face Mirra Andreeva, sparking a nationwide viewing surge and significant media attention.",
-      "keywords": [
-        "Zheng Qinwen",
-        "China Open",
-        "Mirra Andreeva",
-        "WTA Tennis",
-        "Beijing Final"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQML4gJrBo5xBs2LMBuLBmo3hHWBed-prtJMZA20jQbyRswy4lOnV7pksRNjjo",
-      "related": [
-        {
-          "title": "Andreeva vs. Zheng: Everything to know about the Beijing final",
-          "url": "https://www.wtatennis.com/news/4589836/mirra-andreeva-vs-zheng-qinwen-everything-to-know-about-china-open-beijing-final",
-          "source": "WTA Tennis"
-        },
-        {
-          "title": "Home fave Zheng Qinwen to play Mirra Andreeva in China Open final",
-          "url": "https://www.espn.com/tennis/story/_/id/50147796/home-fave-zheng-qinwen-play-mirra-andreeva-china-open-final",
-          "source": "ESPN"
-        },
-        {
-          "title": "China cinemas tap into Zheng tennis fever gripping country ahead of women’s final",
-          "url": "https://www.scmp.com/sport/tennis/article/3370487/china-cinemas-tap-zheng-tennis-fever-gripping-country-ahead-womens-final",
-          "source": "South China Morning Post"
-        }
-      ],
-      "word_count": 967,
-      "page": "p/zheng-qinwen-to-face-andreeva-in-china-open-final.html"
-    },
-    {
-      "title": "South Carolina Tornadoes: Two Confirmed, More Under Investigation",
-      "slug": "south-carolina-tornadoes-two-confirmed-more-under-investigation",
-      "topic": "weather near me",
-      "date": "2026-10-11",
-      "date_pkt": "2026-10-11 05:08 PM PKT",
-      "excerpt": "South Carolina residents are bracing for a series of tornadoes that have already claimed two confirmed strikes. Authorities are monitoring additional storms that could affect nearby counties.",
-      "meta_description": "Two tornadoes confirmed in South Carolina, with additional storms under investigation. Residents in Burke, Screven and Allendale counties face ongoing warnings.",
-      "keywords": [
-        "South Carolina tornado",
-        "tornado warnings",
-        "weather emergency",
-        "Burke County",
-        "Screven County"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "2000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRumPxfI7bVh9T88Uk5rN1ohcuOiwIXpuAkdJkflv0kMCmtbDq48E8gR8ykLrw",
-      "related": [
-        {
-          "title": "Two confirmed tornadoes in South Carolina, other possible ones under investigation",
-          "url": "https://www.wltx.com/article/news/local/two-confirmed-tornados-south-carolina/101-ba34aa25-0376-465a-a77b-68ca26573970",
-          "source": "WLTX"
-        },
-        {
-          "title": "‘A tornado hit your place’: Twisters strike Burke, Screven, Allendale counties",
-          "url": "https://www.wrdw.com/2026/10/10/watch-live-active-tornado-warnings-csra/",
-          "source": "WRDW"
-        },
-        {
-          "title": "Saturday’s long track tornadoes produce damage in Bulloch and Screven County",
-          "url": "https://www.wsav.com/weather-news/saturdays-long-track-tornadoes-produce-damage-in-bulloch-and-screven-county/",
-          "source": "WSAV-TV"
-        }
-      ],
-      "word_count": 616,
-      "page": "p/south-carolina-tornadoes-two-confirmed-more-under-investigation.html"
-    },
-    {
-      "title": "Singapore Grand Prix 2026 race time, sprint, UK times, plus weather…",
-      "slug": "singapore-grand-prix-2026-race-time-sprint-uk-times-plus-weather",
-      "topic": "singapore weather",
-      "date": "2026-10-11",
-      "date_pkt": "2026-10-11 05:08 PM PKT",
-      "excerpt": "Coverage linked to \"singapore weather\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "singapore weather: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "singapore weather",
-        "singapore weather news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQQlR5CnH0j6Fvhx5qw9ZGjxq8yhBqdCVfSJ3xy4GahDAoUQ19mRhOKMWk_XjA",
-      "related": [
-        {
-          "title": "Singapore Grand Prix 2026 race time, sprint, UK times, plus weather forecast",
-          "url": "https://www.bbc.co.uk/sport/formula1/articles/cm2d6p4e3y93o",
-          "source": "BBC"
-        },
-        {
-          "title": "F1 Singapore GP LIVE: Race updates, results, stream, highlights from 17th round of 2026 Formula 1 season at Marina Bay Circuit",
-          "url": "https://www.skysports.com/f1/live-blog/13597657/f1-singapore-gp-live-race-updates-results-stream-highlights-from-17th-round-of-2026-formula-1-season-at-marina-bay-circuit",
-          "source": "Sky Sports"
-        },
-        {
-          "title": "OFFICIAL GRID: Who starts where for the Singapore Grand Prix",
-          "url": "https://www.formula1.com/en/latest/article/official-grid-who-starts-where-for-the-2026-singapore-grand-prix.4JVD7MzJPal9kXzVlrEXXo",
-          "source": "Formula 1"
-        }
-      ],
-      "word_count": 340,
-      "page": "p/singapore-grand-prix-2026-race-time-sprint-uk-times-plus-weather.html"
-    },
-    {
-      "title": "Simon Harmer gears up for South Africa's spin test against Australia",
-      "slug": "simon-harmer-gears-up-for-south-africas-spin-test-against-australia",
-      "topic": "simon harmer",
-      "date": "2026-10-11",
-      "date_pkt": "2026-10-11 05:08 PM PKT",
-      "excerpt": "Simon Harmer has been recalled to lead South Africa's spin attack in the first Test against Australia. Ashwell Prince says the team is fully prepared for the challenge.",
-      "meta_description": "South Africa's veteran spinner Simon Harmer prepares for the upcoming Test against Australia, with coach Ashwell Prince confident the Proteas are ready.",
-      "keywords": [
-        "Simon Harmer",
-        "South Africa cricket",
-        "Test match",
-        "Australia tour",
-        "Ashwell Prince"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4ip_yFbf7fupEgSxt1ycFHfeddHTg-NRzPFnpTjilzuCqvwYCnT5oVyNPWcc",
-      "related": [
-        {
-          "title": "Harmer ready for battle as SA's spin test takes a twist",
-          "url": "https://www.cricinfo.com/story/simon-harmer-ready-for-battle-as-south-africa-s-spin-test-takes-a-twist-1557506",
-          "source": "Cricinfo"
-        },
-        {
-          "title": "Prince confident Proteas are ready for Australia Test",
-          "url": "https://www.ewn.co.za/2026/10/07/prince-confident-proteas-are-ready-for-australia-test",
-          "source": "EWN"
-        },
-        {
-          "title": "When a Test is in the balance, T20 dressing room vibes go out of the window: Ashwell Prince",
-          "url": "https://www.cricbuzz.com/cricket-news/140412/when-a-test-is-in-the-balance-t20-dressing-room-vibes-go-out-of-the-window-ashwell-prince-cricbuzzcom",
-          "source": "Cricbuzz"
-        }
-      ],
-      "word_count": 495,
-      "page": "p/simon-harmer-gears-up-for-south-africas-spin-test-against-australia.html"
-    },
-    {
-      "title": "Shanto's Efforts Spotlighted as Bangladesh Stumbles in Afghanistan Test",
-      "slug": "shantos-efforts-spotlighted-as-bangladesh-stumbles-in-afghanistan-test",
-      "topic": "najmul hossain shanto",
-      "date": "2026-10-11",
-      "date_pkt": "2026-10-11 05:08 PM PKT",
-      "excerpt": "Bangladesh lost two wickets after building a sizeable lead in the one‑off Test against Afghanistan. Najmul Hossain Shanto's contribution was a focal point of the match narrative.",
-      "meta_description": "Bangladesh's one‑off Test in the UAE saw Najmul Hossain Shanto play a key role amid a collapse, as Afghanistan, led by Rahmat Shah, clinched victory.",
-      "keywords": [
-        "Najmul Hossain Shanto",
-        "Bangladesh cricket",
-        "Afghanistan Test",
-        "UAE cricket",
-        "Rahmat Shah"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSsW8VT4VexsYQykrbpmU09BkWEnfjfgZ2HxhwxhH7FsL9L-gd4wFstFs1dpok",
-      "related": [
-        {
-          "title": "AFG vs BAN, One-off Test, Afghanistan vs Bangladesh in UAE, 2026 - Commentary",
-          "url": "https://m.cricbuzz.com/live-cricket-scores/172671/ban-vs-afg-one-off-test-afghanistan-vs-bangladesh-in-uae-2026",
-          "source": "Cricbuzz"
-        },
-        {
-          "title": "Bangladesh lose two after gaining big lead",
-          "url": "https://www.cricinfo.com/series/afghanistan-v-bangladesh-2026-27-1555106/afghanistan-vs-bangladesh-only-test-1555116/match-report",
-          "source": "Cricinfo"
-        },
-        {
-          "title": "Cricket history in Bangladesh! Rahmat Shah creates record on first outing as Afghanistan Test captain",
-          "url": "https://timesofindia.indiatimes.com/sports/cricket/news/cricket-history-in-bangladesh-rahmat-shah-creates-record-on-first-outing-as-afghanistan-test-captain/articleshow/134867642.cms",
-          "source": "The Times of India"
-        }
-      ],
-      "word_count": 929,
-      "page": "p/shantos-efforts-spotlighted-as-bangladesh-stumbles-in-afghanistan-test.html"
-    },
-    {
-      "title": "Sergio Garcia, ex-LIV golfers can heed Rory McIlroy’s 3-word truth",
-      "slug": "sergio-garcia-ex-liv-golfers-can-heed-rory-mcilroys-3-word-truth",
-      "topic": "sergio garcía",
-      "date": "2026-10-11",
-      "date_pkt": "2026-10-11 05:08 PM PKT",
-      "excerpt": "Coverage linked to \"sergio garcía\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "sergio garcía: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "sergio garcía",
-        "sergio garcía news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT2LS8wVKymw0UPBD6XTBZiWumMcj27CfaIMQN-oS-6BLTQ4Cje4BTW6A2uvy0",
-      "related": [
-        {
-          "title": "Sergio Garcia, ex-LIV golfers can heed Rory McIlroy’s 3-word truth",
-          "url": "https://golf.com/news/sergio-garcia-liv-golf-rory-mcilroy/",
-          "source": "GOLF.com"
-        },
-        {
-          "title": "All the players who have left LIV Golf (so far)",
-          "url": "https://www.golfdigest.com/story/players-who-have-left-liv-golf-jon-rahm-bryson-dechambeau-phil-mickelson",
-          "source": "Golf Digest"
-        },
-        {
-          "title": "Jon Rahm to quit LIV Golf over 'unacceptable' terms for proposed relaunch",
-          "url": "https://www.skysports.com/golf/news/13596245/jon-rahm-set-to-end-liv-golf-involvement-over-unacceptable-terms-for-proposed-relaunch",
-          "source": "Sky Sports"
-        }
-      ],
-      "word_count": 333,
-      "page": "p/sergio-garcia-ex-liv-golfers-can-heed-rory-mcilroys-3-word-truth.html"
-    },
-    {
-      "title": "Sanju Samson Scores 82 in T20I but Faces Exclusion from India XI",
-      "slug": "sanju-samson-scores-82-in-t20i-but-faces-exclusion-from-india-xi",
-      "topic": "సంజు శాంసన్",
-      "date": "2026-10-11",
-      "date_pkt": "2026-10-11 05:08 PM PKT",
-      "excerpt": "Sanju Samson's explosive 82 against West Indies was a highlight of the series, yet his omission from the next T20I squad has raised questions about the selectors' criteria. Fans and analysts alike are debating whether his recent form warran",
-      "meta_description": "Sanju Samson scores a brisk 82 off 41 balls against West Indies but is dropped from India’s T20I squad, sparking debate over selection and form.",
-      "keywords": [
-        "Sanju Samson",
-        "India T20I",
-        "West Indies",
-        "cricket selection",
-        "batting performance"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlioeEywvswPnbh4XR6THh14sYSP9-FVMCqo7kWxvvWvrD7-MbO51rNZD-AFQ",
-      "related": [
-        {
-          "title": "ఓడిపోతే నా తప్పేంది భయ్యా!",
-          "url": "https://telugu.oneindia.com/sports/sanju-samson-scores-82-off-41-balls-vs-west-indies-speaks-on-his-form-and-failure-full-details-510103.html",
-          "source": "Oneindia Telugu"
-        },
-        {
-          "title": "సంజూ ఔట్.. వైభవ్ ఇన్...! టీమ్ ఇండియాలో భారీ మార్పులు?",
-          "url": "https://www.sakshi.com/video/sports-videos/sanju-samson-out-vaibhav-sooryavanshi-india%E2%80%99s-playing-xi-2927342",
-          "source": "Sakshi"
-        },
-        {
-          "title": "నా వైఫల్యానికి నేనే కారణం.. ఎవర్ని నిందించను: సంజూ శాంసన్",
-          "url": "https://telugu.mykhel.com/cricket/sanju-samson-accepts-responsibility-for-poor-form-despite-41-ball-82-in-ind-vs-wi-2nd-t20i-123795.html",
-          "source": "myKhel Telugu"
-        }
-      ],
-      "word_count": 549,
-      "page": "p/sanju-samson-scores-82-in-t20i-but-faces-exclusion-from-india-xi.html"
-    },
-    {
-      "title": "Roma aim to clinch top spot as they face Como 1907 in Serie A clash",
-      "slug": "roma-aim-to-clinch-top-spot-as-they-face-como-1907-in-serie-a-clash",
-      "topic": "como vs roma",
-      "date": "2026-10-11",
-      "date_pkt": "2026-10-11 05:08 PM PKT",
-      "excerpt": "Roma travel to Como for a decisive Serie A encounter, hoping to climb to the summit of the standings. Both clubs have named strong line‑ups, with Nico Paz starting for Como and the Argentine duo Dybala and Molina on Roma's bench.",
-      "meta_description": "Roma travel to face Como 1907 in Serie A, seeking victory to move up the league table as both sides field key players including Dybala, Molina and Nico Paz.",
-      "keywords": [
-        "Roma",
-        "Como 1907",
-        "Serie A",
-        "Dybala",
-        "Nico Paz"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQzdGfCawphDGEs_px6PaD0sFl2gyMWnODaA1FqBSLMUYOJmZnOBj38UEXxQ5c",
-      "related": [
-        {
-          "title": "Roma busca derrotar a Como 1907 para posicionarse en la cima del torneo",
-          "url": "https://anecdotarios.com/2026/10/11/como-1907-vs-roma-previa-horario-y-como-llegan-para-la-fecha-6/",
-          "source": "Anecdotarios"
-        },
-        {
-          "title": "Nico Paz, titular en el Como y Dybala y Molina en la Roma en un gran duelo de Serie A",
-          "url": "https://es-us.noticias.yahoo.com/deportes/nico-paz-titular-dybala-molina-095500595.html",
-          "source": "Yahoo"
-        },
-        {
-          "title": "EN VIVO: ¡Sin goles al entretiempo! Roma y Como 1907 empatan 0-0",
-          "url": "https://www.directvsports.com/futbol/en-vivo-sin-goles-al-entretiempo-roma-y-como-1907-empatan-0-0-20261008-0016.html",
-          "source": "DSports"
-        }
-      ],
-      "word_count": 639,
-      "page": "p/roma-aim-to-clinch-top-spot-as-they-face-como-1907-in-serie-a-clash.html"
-    },
-    {
-      "title": "Riyadh airport attack kills 12 as Houthis warn airlines",
-      "slug": "riyadh-airport-attack-kills-12-as-houthis-warn-airlines",
-      "topic": "attack on riyadh airport",
-      "date": "2026-10-11",
-      "date_pkt": "2026-10-11 05:08 PM PKT",
-      "excerpt": "At least 12 people were killed and hundreds wounded in a deadly strike on Riyadh airport. The Houthi movement has issued warnings to airlines and passengers regarding the safety of Saudi aviation hubs.",
-      "meta_description": "A major Houthi attack on Riyadh airport has killed at least 12 people. The group warned airlines against using Saudi hubs, escalating regional tensions signific",
-      "keywords": [
-        "Riyadh airport attack",
-        "Houthi warning",
-        "Saudi Arabia security",
-        "Middle East conflict",
-        "Pakistan news"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "5000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSv5mdjlHuJtXytbQcFuT9xsLASOQUG_ePw1hkE2CJoiKNIJCElzxDtoC0XtEU",
-      "related": [
-        {
-          "title": "Houthis warn airlines and passengers not to use Saudi Arabian airports after deadly Riyadh attack",
-          "url": "https://www.bbc.com/news/live/cqy7lxd104xet",
-          "source": "BBC"
-        },
-        {
-          "title": "Major Houthi attack on Saudi airport kills at least 12, hundreds wounded",
-          "url": "https://www.cnn.com/2026/10/10/middleeast/riyadh-airport-saudi-houthis-intl",
-          "source": "CNN"
-        },
-        {
-          "title": "Iran war live: 12 killed in Riyadh, Saudi-led coalition vows to respond",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis",
-          "source": "Al Jazeera"
-        }
-      ],
-      "word_count": 799,
-      "page": "p/riyadh-airport-attack-kills-12-as-houthis-warn-airlines.html"
-    },
-    {
-      "title": "Ranji Trophy Elite Group A Sees Kamboj Star as Delhi, Bengal Prepare",
-      "slug": "ranji-trophy-elite-group-a-sees-kamboj-star-as-delhi-bengal-prepare",
-      "topic": "delhi vs bengal",
-      "date": "2026-10-11",
-      "date_pkt": "2026-10-11 05:08 PM PKT",
-      "excerpt": "The Ranji Trophy Elite Group A has become the center of attention, with Abhishek Sharma's teammate Kamboj performing strongly for Haryana. Meanwhile, selection discussions for the upcoming New Zealand tour are intensifying, with Mukesh Kuma",
-      "meta_description": "Delhi and Bengal cricket fans focus on Ranji Trophy Elite Group A, where Kamboj shines for HP and Mukesh Kumar enters selection talks for NZ Tests.",
-      "keywords": [
-        "Delhi vs Bengal",
-        "Ranji Trophy",
-        "Kamboj",
-        "Mukesh Kumar",
-        "India vs New Zealand"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRod6sIcksRq2KWAL7oHJVbk9ltkwZkKJzwe7D4vHspqdE6Yj6Vj0iMG7kX_N8",
-      "related": [
-        {
-          "title": "Live - Kamboj rips through HP; Smaran fights for Karnataka",
-          "url": "https://www.cricinfo.com/series/ranji-trophy-2026-27-1546521/goa-vs-baroda-elite-group-a-1546524/live-match-blog",
-          "source": "Cricinfo"
-        },
-        {
-          "title": "Mukesh Kumar joins Akash Deep in selection frame for NZ Tests",
-          "url": "https://www.cricbuzz.com/cricket-news/140394/mukesh-kumar-joins-akash-deep-in-selection-frame-for-new-zealand-test-tour-cricbuzzcom",
-          "source": "Cricbuzz"
-        },
-        {
-          "title": "29-Year-Old Pacer To Make Test Comeback For India Vs New Zealand: Report",
-          "url": "https://www.news18.com/cricket/29-year-old-pacer-to-make-test-comeback-for-india-vs-new-zealand-report-ws-l-10368279.html",
-          "source": "News18"
-        }
-      ],
-      "word_count": 832,
-      "page": "p/ranji-trophy-elite-group-a-sees-kamboj-star-as-delhi-bengal-prepare.html"
-    },
-    {
-      "title": "Rachael Stirling discusses eating Diana Rigg's ashes and heads to Tisbury",
-      "slug": "rachael-stirling-discusses-eating-diana-riggs-ashes-and-heads-to-tisbury",
-      "topic": "rachael stirling",
-      "date": "2026-10-11",
-      "date_pkt": "2026-10-11 05:08 PM PKT",
-      "excerpt": "Rachael Stirling has opened up about the unusual decision to eat her mother Diana Rigg's ashes, a story that has captured national attention. She will also appear at a cultural event in Tisbury later this month.",
-      "meta_description": "Actress Rachael Stirling talks about consuming her mother Diana Rigg's ashes and announces a special appearance in Tisbury, drawing public interest in the UK.",
-      "keywords": [
-        "Rachael Stirling",
-        "Diana Rigg",
-        "ashes",
-        "Tisbury event",
-        "British theatre"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaH8ZQFIymuayt0aaftXvRBjpm9PNtSoDHt6oIXomaFZW_9bAmY3KDcqH_UWo",
-      "related": [
-        {
-          "title": "‘I didn’t expect to be portrayed as a cannibal’: Rachael Stirling on eating her mother Diana Rigg’s ashes",
-          "url": "https://www.theguardian.com/culture/2026/oct/11/rachael-stirling-on-eating-her-mother-diana-riggs-ashes",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Author and actress Rachael Stirling heading to Tisbury for special event",
-          "url": "https://blackmorevale.net/author-and-actress-rachael-stirling-heading-to-tisbury-for-special-event/",
-          "source": "The New Blackmore Vale Magazine"
-        }
-      ],
-      "word_count": 793,
-      "page": "p/rachael-stirling-discusses-eating-diana-riggs-ashes-and-heads-to-tisbury.html"
-    },
-    {
-      "title": "Navy 34-26 Tulsa (Oct 10, 2026) Game Recap",
-      "slug": "navy-34-26-tulsa-oct-10-2026-game-recap",
-      "topic": "golden hurricane",
-      "date": "2026-10-11",
-      "date_pkt": "2026-10-11 05:08 PM PKT",
-      "excerpt": "Coverage linked to \"golden hurricane\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "golden hurricane: coverage and context for readers in US. Summary of related reports and what to verify next.",
-      "keywords": [
-        "golden hurricane",
-        "golden hurricane news",
-        "US",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "10000+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN0Lgu1pailavCOiW3HMWOLxqolkwEqtZlvvec6l0D10ad3YACKChYxOqSejo",
-      "related": [
-        {
-          "title": "Navy 34-26 Tulsa (Oct 10, 2026) Game Recap",
-          "url": "https://www.espn.com/college-football/recap/_/gameId/401862799",
-          "source": "ESPN"
-        },
-        {
-          "title": "Navy Football Returns Home to Play Host to Tulsa",
-          "url": "https://navysports.com/news/2026/10/5/navy-football-returns-home-to-play-host-to-tulsa.aspx",
-          "source": "Naval Academy Athletics"
-        },
-        {
-          "title": "Tulsa Golden Hurricane at Navy Midshipmen - NCAAF Game Summary - Oct 10, 2026",
-          "url": "https://www.usatoday.com/sports/ncaaf/event/2026/2968289/boxscore/?itm_source=oembed&itm_medium=sports&itm_campaign=scoreboard&site=USAT&itm_content=NCAAF&tile=40",
-          "source": "USA Today"
-        }
-      ],
-      "word_count": 328,
-      "page": "p/navy-34-26-tulsa-oct-10-2026-game-recap.html"
-    },
-    {
-      "title": "Manila Clasico returns as Ginebra targets Magnolia payback",
-      "slug": "manila-clasico-returns-as-ginebra-targets-magnolia-payback",
-      "topic": "magnolia vs ginebra",
-      "date": "2026-10-11",
-      "date_pkt": "2026-10-11 05:08 PM PKT",
-      "excerpt": "The historic Manila Clasico is back in action, with Ginebra San Miguel aiming to settle old scores against Magnolia Hotshots. Analysts point to key player performances as the deciding factor in this intense rivalry.",
-      "meta_description": "The PBA rivalry heats up as Ginebra San Miguel seeks revenge against Magnolia Hotshots in a highly anticipated elimination series clash.",
-      "keywords": [
-        "PBA",
-        "Magnolia Hotshots",
-        "Ginebra San Miguel",
-        "Manila Clasico",
-        "Basketball"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS7tA3ZJWpMfpuNEwbYTQgVFots5mcVgpq5TcARpYA5q7RfK0MnrJl-D62B0-M",
-      "related": [
-        {
-          "title": "Manila Clasico anew",
-          "url": "https://www.sunstar.com.ph/cebu/manila-clasico-anew",
-          "source": "SunStar Publishing Inc."
-        },
-        {
-          "title": "Gin Kings eye payback vs Hotshots",
-          "url": "https://www.manilatimes.net/2026/10/11/sports/gin-kings-eye-payback-vs-hotshots/2443175",
-          "source": "The Manila Times"
-        },
-        {
-          "title": "Murphy the X-factor in Clasico rematch between Magnolia, Ginebra",
-          "url": "https://www.spin.ph/basketball/pba/magnolia-goes-for-sweep-of-elims-series-against-barangay-ginebra-a795-20261011",
-          "source": "Spin.ph"
-        }
-      ],
-      "word_count": 794,
-      "page": "p/manila-clasico-returns-as-ginebra-targets-magnolia-payback.html"
-    },
-    {
-      "title": "Malaysia pauses university discipline cases as Zambry pushes reforms",
-      "slug": "malaysia-pauses-university-discipline-cases-as-zambry-pushes-reforms",
-      "topic": "zambry abdul kadir",
-      "date": "2026-10-11",
-      "date_pkt": "2026-10-11 05:08 PM PKT",
-      "excerpt": "Education Minister Zambry Abdul Kadir announced a pause on disciplinary actions in public universities and a plan to unify campus rules. The move also includes the gradual repeal of the controversial AUKU legislation.",
-      "meta_description": "Education Minister Zambry Abdul Kadir halts university discipline cases, pushes rules and phases out AUKU law, marking a shift in Malaysia’s education policy.",
-      "keywords": [
-        "Zambry Abdul Kadir",
-        "Malaysia education",
-        "university discipline",
-        "AUKU legislation",
-        "higher education reform"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQnb3A0vvf0bbPQkTxGu5awqvH5OTvZq7qUJjBac0b5he9dJwTqyVRivIpoMJs",
-      "related": [
-        {
-          "title": "Budget 2027: Government halts public university disciplinary proceedings relating to free speech",
-          "url": "https://www.malaymail.com/news/malaysia/2026/10/09/budget-2027-government-halts-public-university-disciplinary-proceedings-relating-to-free-speech/238455",
-          "source": "Malay Mail"
-        },
-        {
-          "title": "No more 'here can, there cannot': Ministry to standardise varsity discipline rules",
-          "url": "https://www.malaysiakini.com/news/886528-no-more-here-can-there-cannot-ministry-to-standardise-varsity-discipline-rules",
-          "source": "Malaysiakini"
-        },
-        {
-          "title": "Auku legislation to be systematically phased out",
-          "url": "https://thesun.my/news/malaysia-news/people-issues/auku-legislation-to-be-systematically-phased-out/",
-          "source": "The Sun Malaysia"
-        }
-      ],
-      "word_count": 413,
-      "page": "p/malaysia-pauses-university-discipline-cases-as-zambry-pushes-reforms.html"
-    },
-    {
-      "title": "Liberty's star trio say coach's future 'not our decision'",
-      "slug": "libertys-star-trio-say-coachs-future-not-our-decision",
-      "topic": "liberty",
-      "date": "2026-10-11",
-      "date_pkt": "2026-10-11 05:08 PM PKT",
-      "excerpt": "Coverage linked to \"liberty\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "liberty: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "liberty",
-        "liberty news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQy9lr_5vvefV5veZQdUOQ7GPAFITmYuzVtp4GCckbwd3JG2r28IHiJGZ5RliE",
-      "related": [
-        {
-          "title": "Liberty's star trio say coach's future 'not our decision'",
-          "url": "https://www.espn.com/wnba/story/_/id/50145479/liberty-star-trio-say-demarco-future-not-our-decision",
-          "source": "ESPN"
-        },
-        {
-          "title": "New York Liberty's search for answers, identity ends in WNBA semifinals as team faces uncertain future, coaching questions",
-          "url": "https://sports.yahoo.com/wnba/article/new-york-libertys-search-for-answers-identity-ends-in-wnba-semifinals-as-team-faces-uncertain-future-coaching-questions-062933108.html",
-          "source": "Yahoo Sports"
-        },
-        {
-          "title": "What's next for the Liberty? Why a major shake-up could be in order after inconsistent season",
-          "url": "https://www.cbssports.com/wnba/news/new-york-liberty-offseason-outlook-breanna-stewart-sabrina-ionescu-chris-demarco/",
-          "source": "CBS Sports"
-        }
-      ],
-      "word_count": 340,
-      "page": "p/libertys-star-trio-say-coachs-future-not-our-decision.html"
-    },
-    {
-      "title": "LIVE Alle 12.30 Como-Roma, le ufficiali: Gasp lancia Pellegrini dal 1',…",
-      "slug": "live-alle-1230-como-roma-le-ufficiali-gasp-lancia-pellegrini-dal-1",
-      "topic": "as roma",
-      "date": "2026-10-11",
-      "date_pkt": "2026-10-11 05:08 PM PKT",
-      "excerpt": "Coverage linked to \"as roma\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "as roma: coverage and context for readers in US. Summary of related reports and what to verify next.",
-      "keywords": [
-        "as roma",
-        "as roma news",
-        "US",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ73ayzOrKWwFCGvqBXEKXFlB78yRt6abJqDeOWwj6HNSsFU7OBvKrMLmaKC00",
-      "related": [
-        {
-          "title": "LIVE Alle 12.30 Como-Roma, le ufficiali: Gasp lancia Pellegrini dal 1', Fabregas con Caqueret",
-          "url": "https://www.gazzetta.it/Calcio/Serie-A/Como/11-10-2026/como-roma-live-diretta-serie-a-risultato-e-gol.shtml",
-          "source": "La Gazzetta dello Sport"
-        },
-        {
-          "title": "Wesley-Diao, ci risiamo: contatto dubbio, Fabregas e Como furiosi. Caos in campo con la Roma",
-          "url": "https://www.corrieredellosport.it/foto/calcio/serie-a/2026/10/11-151802591/wesley-diao_ci_risiamo_contatto_dubbio_fabregas_e_como_furiosi_caos_in_campo_con_la_roma",
-          "source": "Corriere dello Sport"
-        },
-        {
-          "title": "Serie A, le probabili formazioni di oggi, domenica 11 ottobre 2026",
-          "url": "https://www.diretta.it/news/calcio-serie-a-serie-a-le-probabili-formazioni-di-oggi-si-parte-con-como-roma-chiude-cagliari-juventus/UgFnzHy2/",
-          "source": "Diretta"
-        }
-      ],
-      "word_count": 343,
-      "page": "p/live-alle-1230-como-roma-le-ufficiali-gasp-lancia-pellegrini-dal-1.html"
-    },
-    {
-      "title": "India Sees Surge in Budget Smartphones with 12GB RAM and 200MP Cameras",
-      "slug": "india-sees-surge-in-budget-smartphones-with-12gb-ram-and-200mp-cameras",
-      "topic": "स्मार्टफ़ोन",
-      "date": "2026-10-11",
-      "date_pkt": "2026-10-11 05:08 PM PKT",
-      "excerpt": "India's budget smartphone segment has seen a surge in models offering high‑end specs at low prices. Consumers can now choose devices with 12GB RAM and 200MP cameras for less than ₹30,000.",
-      "meta_description": "India's smartphone market buzzes as budget models with 12GB RAM, 200MP cameras and 8,100mAh batteries hit prices below ₹30,000, sparking a price war intense.",
-      "keywords": [
-        "smartphone",
-        "budget phones",
-        "12GB RAM",
-        "200MP camera",
-        "India market"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg1xAdWIDaPNYlcs_sO3--fpzw99pPYqnxT23b1WaEJj8K5KvLseKPvi8i_VE",
-      "related": [
-        {
-          "title": "मुझे 7 मिलियन VND की कीमत सीमा में कौन सा फोन चुनना चाहिए?",
-          "url": "https://www.vietnam.vn/hi/chon-dien-thoai-gi-trong-tam-gia-7-trieu-dong",
-          "source": "Vietnam.vn"
-        },
-        {
-          "title": "अक्टूबर में भारी छूट के साथ 10 मिलियन VND से कम कीमत वाले 6 फोन: 12GB रैम और 200MP कैमरे का आकर्षण।",
-          "url": "https://www.vietnam.vn/hi/6-dien-thoai-gia-duoi-10-trieu-giam-sau-thang-10-suc-hut-ram-12gb-camera-200mp",
-          "source": "Vietnam.vn"
-        },
-        {
-          "title": "10 मिलियन VND से कम कीमत वाले 6 स्मार्टफ़ोन का विश्लेषण, जिनकी कीमतों में काफी कमी आई है: 12GB रैम और 8,100mAh बैटरी के लिए प्रतिस्पर्धा।",
-          "url": "https://www.vietnam.vn/hi/phan-tich-6-smartphone-duoi-10-trieu-dong-giam-sau-dua-ram-12gb-va-pin-8-100mah",
-          "source": "Vietnam.vn"
-        }
-      ],
-      "word_count": 521,
-      "page": "p/india-sees-surge-in-budget-smartphones-with-12gb-ram-and-200mp-cameras.html"
     }
   ]
 }
