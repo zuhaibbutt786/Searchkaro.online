@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Find RSA Key Fingerprint on Linux for GitHub SSH Audit | LearnWithZuhaib</title>
+  <meta name="description" content="Use OpenSSH tools to display the RSA key fingerprint for GitHub authentication. Follow these steps to audit your SSH keys." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, github,ssh,rsa,ssh-keys" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/find-rsa-key-fingerprint-on-linux-for-github-ssh-audit.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I view the fingerprint of a private key?", "acceptedAnswer": {"@type": "Answer", "text": "Run ssh-keygen -lf path/to/private_key -E sha256 to compute the fingerprint from the private key."}}, {"@type": "Question", "name": "Why does my fingerprint show as MD5 instead of SHA‑256?", "acceptedAnswer": {"@type": "Answer", "text": "Older OpenSSH versions default to MD5. Use -E sha256 to force SHA‑256 output."}}, {"@type": "Question", "name": "Can I get the fingerprint for an SSH key stored on GitHub?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, download the key file from GitHub or use the GitHub API to retrieve the key, then run ssh-keygen -lf on it."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-10-30 · Q&A guide</p>
+    <h1>Find RSA Key Fingerprint on Linux for GitHub SSH Audit</h1>
+    <p class="lead">Use OpenSSH tools to display the RSA key fingerprint for GitHub authentication. Follow these steps to audit your SSH keys.</p>
+    <div class="content">
+<h2>Locate or Generate Your RSA Key</h2>
+<p>Most users store their keys in ~/.ssh. If you already ran ssh-keygen, the private key will be id_rsa and the public key id_rsa.pub. If you need to generate a new key, run ssh-keygen -t rsa -b 4096 -C &quot;your_email@example.com&quot; and accept the default location.</p>
+<h2>Compute the Fingerprint with OpenSSH</h2>
+<p>OpenSSH provides a direct way to view the fingerprint. Use the following command to read the public key and display its SHA‑256 fingerprint:</p>
+<pre><code>ssh-keygen -lf ~/.ssh/id_rsa.pub</code></pre>
+<h2>Verify the Fingerprint on GitHub</h2>
+<p>Log into GitHub, go to Settings → SSH and GPG keys, and click the key you want to audit. The displayed fingerprint should match the one produced by ssh-keygen. If they differ, the key file may be corrupted or a different key is being used.</p>
+<h2>Common Pitfalls and Tips</h2>
+<p>- Ensure you are using the public key (.pub) file, not the private key. 
+- The -lf flag shows the fingerprint in the default SHA‑256 format; use -E md5 for older MD5 fingerprints if required by legacy systems.
+- If you have multiple keys, specify the exact path to avoid confusion.</p>
+<h2>Automate the Check in Scripts</h2>
+<p>For CI pipelines or regular audits, embed the command in a shell script and compare the output against a stored value. Example:</p>
+<pre><code>key_path=&quot;~/.ssh/id_rsa.pub&quot;
+expected=&quot;SHA256:abc123...&quot;
+actual=$(ssh-keygen -lf $key_path | awk &#x27;{print $2}&#x27;)
+[ &quot;$actual&quot; = &quot;$expected&quot; ] &amp;&amp; echo &quot;Fingerprint matches&quot; || echo &quot;Mismatch detected&quot;</code></pre>
+<p><strong>Takeaway:</strong> The OpenSSH ssh-keygen -lf command gives you the RSA fingerprint you need for GitHub audits.</p>
+<h2>People also ask</h2>
+<h3>How do I view the fingerprint of a private key?</h3>
+<p>Run ssh-keygen -lf path/to/private_key -E sha256 to compute the fingerprint from the private key.</p>
+<h3>Why does my fingerprint show as MD5 instead of SHA‑256?</h3>
+<p>Older OpenSSH versions default to MD5. Use -E sha256 to force SHA‑256 output.</p>
+<h3>Can I get the fingerprint for an SSH key stored on GitHub?</h3>
+<p>Yes, download the key file from GitHub or use the GitHub API to retrieve the key, then run ssh-keygen -lf on it.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/9607295/calculate-rsa-key-fingerprint" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Add Categories &amp; Tags to WordPress Pages – Simple PHP Solution | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to attach standard categories and tags to pages using core WordPress functions without converting to posts." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, wordpress" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/add-categories-tags-to-wordpress-pages-simple-php-solution.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I need a plugin to add tags to pages?", "acceptedAnswer": {"@type": "Answer", "text": "No.  Core WordPress functions suffice – just register the taxonomy in functions.php."}}, {"@type": "Question", "name": "Will this affect the page permalink structure?", "acceptedAnswer": {"@type": "Answer", "text": "Only if you change the rewrite slug.  The default page permalink remains unchanged."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-10-30 · Q&A guide</p>
+    <h1>Add Categories &amp; Tags to WordPress Pages – Simple PHP Solution</h1>
+    <p class="lead">Learn how to attach standard categories and tags to pages using core WordPress functions without converting to posts.</p>
+    <div class="content">
+<h2>WordPress Taxonomy Basics</h2>
+<p>WordPress stores content in post types such as &quot;post&quot; and &quot;page&quot;.  Taxonomies (categories, tags, custom terms) are linked to post types.  By default, pages do not have the built‑in categories or tags taxonomy attached.</p>
+<h2>Enable Built‑In Taxonomies for Pages</h2>
+<p>You can simply tell WordPress to use the existing categories and tags taxonomy for the page type.  Add the following to your theme’s functions.php or a site‑wide plugin.</p>
+<pre><code>add_action( &#x27;init&#x27;, function() {
+    register_taxonomy_for_object_type( &#x27;category&#x27;, &#x27;page&#x27; );
+    register_taxonomy_for_object_type( &#x27;post_tag&#x27;, &#x27;page&#x27; );
+});</code></pre>
+<h2>Create a Custom Taxonomy for Pages</h2>
+<p>If you prefer a dedicated taxonomy, register one that only applies to pages.  The code below creates a &quot;Page Tags&quot; taxonomy that behaves like tags but is isolated to pages.</p>
+<pre><code>add_action( &#x27;init&#x27;, function() {
+    register_taxonomy( &#x27;page_tag&#x27;, &#x27;page&#x27;, array(
+        &#x27;label&#x27; =&gt; &#x27;Page Tags&#x27;,
+        &#x27;hierarchical&#x27; =&gt; false,
+        &#x27;rewrite&#x27; =&gt; array( &#x27;slug&#x27; =&gt; &#x27;page-tag&#x27; ),
+        &#x27;show_ui&#x27; =&gt; true,
+        &#x27;show_admin_column&#x27; =&gt; true,
+    ));
+});</code></pre>
+<h2>Using the Taxonomy in the Page Editor</h2>
+<p>Once the taxonomy is registered, the tag box appears in the page editor under &quot;Tags&quot; (or the custom name you set).  You can add, edit, or remove terms just like with posts.  The terms are stored in the same tables, so queries and archives work normally.</p>
+<h2>SEO &amp; Performance Tips</h2>
+<p>Because pages are typically static, adding many terms can increase query load.  Use the built‑in WP_Query with tax_query to limit results, and consider caching page archives with a plugin or transients.  For SEO, ensure that the taxonomy archive URLs are included in your sitemap and that the taxonomy is indexed by search engines.</p>
+<p><strong>Takeaway:</strong> Pages can have categories and tags by registering taxonomies for the page post type, eliminating the need to convert to posts.</p>
+<h2>People also ask</h2>
+<h3>Do I need a plugin to add tags to pages?</h3>
+<p>No.  Core WordPress functions suffice – just register the taxonomy in functions.php.</p>
+<h3>Will this affect the page permalink structure?</h3>
+<p>Only if you change the rewrite slug.  The default page permalink remains unchanged.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/14323582/wordpress-how-can-i-add-categories-and-tags-on-pages" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

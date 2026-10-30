@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Manual JWT Signature Validation with Free Online Tools | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to verify a JWT signature step‑by‑step using only base64url encoders and HMAC‑SHA256 calculators, without any JWT library." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, jwt" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/manual-jwt-signature-validation-with-free-online-tools.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I need to base64url‑encode the secret before HMAC?", "acceptedAnswer": {"@type": "Answer", "text": "No. For HS256 the secret is used as raw UTF‑8 bytes. Encoding it changes the key and breaks verification."}}, {"@type": "Question", "name": "Why does the JWT site sometimes show a different signature?", "acceptedAnswer": {"@type": "Answer", "text": "The debugger may treat the secret as base64‑encoded when the *Base64‑encode secret* option is checked. Ensure the option is off to match manual calculation."}}, {"@type": "Question", "name": "Can I verify RSA‑signed JWTs without code?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, but you need a public key and a tool that supports RSA‑SHA256 verification, such as the OpenSSL `dgst -sha256 -verify` command or an online RSA verifier."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-10-30 · Q&A guide</p>
+    <h1>Manual JWT Signature Validation with Free Online Tools</h1>
+    <p class="lead">Learn how to verify a JWT signature step‑by‑step using only base64url encoders and HMAC‑SHA256 calculators, without any JWT library.</p>
+    <div class="content">
+<h2>1. JWT anatomy you need to know</h2>
+<p>A JSON Web Token consists of three dot‑separated parts: Header, Payload, and Signature. The first two are JSON objects that are base64url‑encoded. The Signature is the HMAC (or RSA/ECDSA) of the string &quot;header.payload&quot; using the secret key. For HS256 the algorithm is HMAC‑SHA256.</p>
+<h2>2. Build the signing input</h2>
+<p>Do **not** re‑encode the already encoded header or payload. Take the exact strings that appear before the last dot in the token. For the example token the signing input is:
+```
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ
+```</p>
+<h2>3. Compute HMAC‑SHA256 with an online calculator</h2>
+<p>Use any HMAC‑SHA256 generator that accepts a raw key (not base64). Paste the signing input as the *message* and the secret `hONPMX3tHWIp9jwLDtoCUwFAtH0RwSK6` as the *key*. The tool will output a binary hash; you must base64url‑encode that hash to obtain the JWT signature.</p>
+<p>**Step‑by‑step with free tools**:
+1. Open a HMAC‑SHA256 calculator (e.g., https://www.tools4noobs.com/online_tools/hmac/).
+2. Enter the signing input in the *Message* field.
+3. Enter the secret in the *Key* field (plain text, no padding).
+4. Click *Generate* – you receive a hex string.
+5. Convert the hex string to raw bytes (many tools have a *Hex → Base64* converter).
+6. Finally, base64url‑encode the raw bytes (replace `+` with `-`, `/` with `_`, and strip `=` padding).</p>
+<h2>4. Compare the computed signature</h2>
+<p>The token you are checking ends with `wDQ2mU5n89f2HsHm1dluHGNebbXeNr748yJ9kUNDNCA`. If the base64url‑encoded hash you derived matches this exact string, the signature is valid. Any mismatch means either the secret, the signing input, or the encoding step is wrong.</p>
+<h2>5. Quick command‑line verification (optional)</h2>
+<p>If you have access to a terminal, the same process can be reproduced with OpenSSL, which eliminates the need for a web UI.
+```bash
+# 1. Prepare the signing input (copy‑paste exactly)
+INPUT=&#x27;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ&#x27;
+# 2. Compute HMAC‑SHA256 (binary output)
+SIG=$(printf &quot;%s&quot; &quot;$INPUT&quot; | openssl dgst -sha256 -hmac &#x27;hONPMX3tHWIp9jwLDtoCUwFAtH0RwSK6&#x27; -binary)
+# 3. Base64url‑encode the binary signature
+ENC=$(printf &quot;%s&quot; &quot;$SIG&quot; | base64 | tr &#x27;+/&#x27; &#x27;-_&#x27; | tr -d &#x27;=&#x27;)
+# 4. Show the result
+echo $ENC
+```
+The printed value should be identical to the token&#x27;s third part.</p>
+<p>**Common pitfalls**: double‑encoding the header/payload, using a base64‑encoded secret, or forgetting to strip padding from the final base64url string.</p>
+<p><strong>Takeaway:</strong> Validate a JWT signature by recreating the exact signing input, hashing it with HMAC‑SHA256 using the plain secret, and base64url‑encoding the result.</p>
+<h2>People also ask</h2>
+<h3>Do I need to base64url‑encode the secret before HMAC?</h3>
+<p>No. For HS256 the secret is used as raw UTF‑8 bytes. Encoding it changes the key and breaks verification.</p>
+<h3>Why does the JWT site sometimes show a different signature?</h3>
+<p>The debugger may treat the secret as base64‑encoded when the *Base64‑encode secret* option is checked. Ensure the option is off to match manual calculation.</p>
+<h3>Can I verify RSA‑signed JWTs without code?</h3>
+<p>Yes, but you need a public key and a tool that supports RSA‑SHA256 verification, such as the OpenSSL `dgst -sha256 -verify` command or an online RSA verifier.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/50121763/how-to-manually-validate-a-jwt-signature-using-online-tools" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

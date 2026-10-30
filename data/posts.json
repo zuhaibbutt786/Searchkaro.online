@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "title": "Find RSA Key Fingerprint on Linux for GitHub SSH Audit",
+      "slug": "find-rsa-key-fingerprint-on-linux-for-github-ssh-audit",
+      "date": "2026-10-30",
+      "excerpt": "Use OpenSSH tools to display the RSA key fingerprint for GitHub authentication. Follow these steps to audit your SSH keys.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Are Amazon S3 Buckets Region\u2011Specific? Quick Guide",
+      "slug": "are-amazon-s3-buckets-regionspecific-quick-guide",
+      "date": "2026-10-30",
+      "excerpt": "S3 is a global service, but each bucket lives in a single region.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Add Categories & Tags to WordPress Pages \u2013 Simple PHP Solution",
+      "slug": "add-categories-tags-to-wordpress-pages-simple-php-solution",
+      "date": "2026-10-30",
+      "excerpt": "Learn how to attach standard categories and tags to pages using core WordPress functions without converting to posts.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "VBScript Oracle Connection: Fixing Common Errors",
+      "slug": "vbscript-oracle-connection-fixing-common-errors",
+      "date": "2026-10-30",
+      "excerpt": "Learn how to build a reliable Oracle connection string in VBScript, resolve the \u2018Arguments are of the wrong type\u2019 error, and retrieve data efficiently.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Bootstrap Scrollable Table with Fixed Header: Quick CSS Fix",
+      "slug": "bootstrap-scrollable-table-with-fixed-header-quick-css-fix",
+      "date": "2026-10-30",
+      "excerpt": "Create a Bootstrap table that scrolls vertically while keeping the header fixed, using minimal CSS and no JavaScript.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Manual JWT Signature Validation with Free Online Tools",
+      "slug": "manual-jwt-signature-validation-with-free-online-tools",
+      "date": "2026-10-30",
+      "excerpt": "Learn how to verify a JWT signature step\u2011by\u2011step using only base64url encoders and HMAC\u2011SHA256 calculators, without any JWT library.",
+      "source": "stackoverflow"
+    },
+    {
       "title": "Hashing vs Encryption: Core Differences & Practical Use Cases",
       "slug": "hashing-vs-encryption-core-differences-practical-use-cases",
       "date": "2026-10-23",

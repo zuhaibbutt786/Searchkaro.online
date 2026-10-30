@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap Scrollable Table with Fixed Header: Quick CSS Fix | LearnWithZuhaib</title>
+  <meta name="description" content="Create a Bootstrap table that scrolls vertically while keeping the header fixed, using minimal CSS and no JavaScript." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, html,css,twitter-bootstrap,bootstrap-table" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/bootstrap-scrollable-table-with-fixed-header-quick-css-fix.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I use this technique with Bootstrap 5?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The same CSS applies; just replace .table-hover with the appropriate Bootstrap 5 classes."}}, {"@type": "Question", "name": "Does this affect pagination?", "acceptedAnswer": {"@type": "Answer", "text": "No. The scrollable body is independent of pagination logic; you can still paginate server‑side or client‑side."}}, {"@type": "Question", "name": "Will this work with dynamic column widths?", "acceptedAnswer": {"@type": "Answer", "text": "If columns vary, use width: auto and table-layout:auto, but you must recalc widths on resize or use JavaScript to sync header and body cells."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-10-30 · Q&A guide</p>
+    <h1>Bootstrap Scrollable Table with Fixed Header: Quick CSS Fix</h1>
+    <p class="lead">Create a Bootstrap table that scrolls vertically while keeping the header fixed, using minimal CSS and no JavaScript.</p>
+    <div class="content">
+<h2>Problem &amp; Common Pitfalls</h2>
+<p>When a table contains many rows, the header often scrolls away, making column headings hard to read. A naive approach of setting overflow on the &lt;tbody&gt; breaks column alignment because each row becomes a block element. The result is a messy layout where columns shift or wrap unexpectedly.</p>
+<h2>Pure CSS Fix for Fixed Header</h2>
+<p>Wrap the table in a container, give the &lt;thead&gt; a fixed height, and make the &lt;tbody&gt; scrollable. Use table-layout:fixed to keep column widths stable and display:block on thead and tbody. The following CSS achieves a clean, column‑aligned scrollable body:</p>
+<pre><code>.scroll-table {
+  width: 100%;
+  table-layout: fixed;
+}
+.scroll-table thead {
+  display: block;
+  width: 100%;
+}
+.scroll-table tbody {
+  display: block;
+  height: 250px;
+  overflow-y: auto;
+}
+.scroll-table th, .scroll-table td {
+  width: 16.66%; /* 6 columns */
+  text-align: left;
+}
+.scroll-table thead tr, .scroll-table tbody tr {
+  display: flex;
+}
+.scroll-table thead th, .scroll-table tbody td {
+  flex: 1;
+}</code></pre>
+<h2>Responsive Wrapper Trick</h2>
+<p>Bootstrap’s .table-responsive class adds horizontal scrolling on small screens. Combine it with the above CSS to keep the header fixed while the body scrolls vertically:</p>
+<pre><code>&lt;div class=&quot;table-responsive&quot;&gt;
+  &lt;table class=&quot;table table-hover scroll-table&quot;&gt;
+    &lt;thead&gt;…&lt;/thead&gt;
+    &lt;tbody&gt;…&lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/div&gt;</code></pre>
+<h2>Alternative with Flexbox</h2>
+<p>If you prefer not to use display:block on table elements, wrap rows in a flex container. This method keeps the semantic &lt;table&gt; structure and works well with Bootstrap’s grid utilities:</p>
+<pre><code>.flex-table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.flex-table thead {
+  flex: 0 0 auto;
+}
+.flex-table tbody {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  height: 250px;
+}
+.flex-table tr {
+  display: flex;
+}
+.flex-table th, .flex-table td {
+  flex: 1;
+  min-width: 0;
+}</code></pre>
+<h2>Performance &amp; Accessibility Tips</h2>
+<p>Avoid heavy JavaScript for scrolling; pure CSS is faster and more accessible. Ensure the table has a &lt;caption&gt; for screen readers, use scope=&quot;col&quot; on &lt;th&gt; elements, and keep the header row short to reduce vertical space. Test the layout in Chrome, Firefox, and Safari to confirm consistent column widths.</p>
+<p><strong>Takeaway:</strong> Use table-layout:fixed with display:block on thead and tbody, or a flexbox wrapper, to create a clean scrollable Bootstrap table with a fixed header.</p>
+<h2>People also ask</h2>
+<h3>Can I use this technique with Bootstrap 5?</h3>
+<p>Yes. The same CSS applies; just replace .table-hover with the appropriate Bootstrap 5 classes.</p>
+<h3>Does this affect pagination?</h3>
+<p>No. The scrollable body is independent of pagination logic; you can still paginate server‑side or client‑side.</p>
+<h3>Will this work with dynamic column widths?</h3>
+<p>If columns vary, use width: auto and table-layout:auto, but you must recalc widths on resize or use JavaScript to sync header and body cells.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/35022947/bootstrap-scrollable-table-with-fixed-header" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

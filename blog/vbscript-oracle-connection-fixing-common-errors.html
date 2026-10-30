@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VBScript Oracle Connection: Fixing Common Errors | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to build a reliable Oracle connection string in VBScript, resolve the ‘Arguments are of the wrong type’ error, and retrieve data efficiently." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, oracle-database,vbscript" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/vbscript-oracle-connection-fixing-common-errors.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What if I need to use a different Oracle provider?", "acceptedAnswer": {"@type": "Answer", "text": "Replace `OraOLEDB.Oracle` with the provider name, e.g., `MSDAORA` or `OraClient11g`. Ensure the provider is installed on the machine."}}, {"@type": "Question", "name": "How can I avoid hard‑coding credentials?", "acceptedAnswer": {"@type": "Answer", "text": "Use Windows authentication with `Integrated Security=SSPI` or read credentials from a secure file or environment variable."}}, {"@type": "Question", "name": "Why does my script hang after opening the connection?", "acceptedAnswer": {"@type": "Answer", "text": "A missing or wrong Data Source can cause a timeout. Verify the TNS alias or EZCONNECT string in tnsnames.ora or the Oracle listener configuration."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-10-30 · Q&A guide</p>
+    <h1>VBScript Oracle Connection: Fixing Common Errors</h1>
+    <p class="lead">Learn how to build a reliable Oracle connection string in VBScript, resolve the ‘Arguments are of the wrong type’ error, and retrieve data efficiently.</p>
+    <div class="content">
+<h2>Why the Connection Fails</h2>
+<p>The error on line 9 usually indicates that the provider name or connection string syntax is incorrect. VBScript expects a valid OLE DB provider and properly quoted values. Missing or mis‑typed parameters cause the ADODB.Connection.Open call to throw an exception.</p>
+<h2>Constructing a Valid Connection String</h2>
+<p>Use the OraOLEDB provider, separate each parameter with a semicolon, and avoid unnecessary quotes around the provider name. The Data Source should be the TNS alias or EZCONNECT string, and Persist Security Info can be omitted if not needed.</p>
+<pre><code>Provider=OraOLEDB.Oracle;User ID=user;Password=pwd;Data Source=source;Persist Security Info=False;</code></pre>
+<h2>Simplified VBScript Example</h2>
+<p>This script opens the connection, runs a query, and displays the result in a message box. It includes error handling to catch connection issues.</p>
+<pre><code>Dim conn, rs, sql, msg
+Set conn = CreateObject(&quot;ADODB.Connection&quot;)
+conn.ConnectionString = &quot;Provider=OraOLEDB.Oracle;User ID=user;Password=pwd;Data Source=source;Persist Security Info=False;&quot;
+On Error Resume Next
+conn.Open
+If Err.Number &lt;&gt; 0 Then
+  MsgBox &quot;Connection failed: &quot; &amp; Err.Description
+  WScript.Quit
+End If
+Set rs = CreateObject(&quot;ADODB.Recordset&quot;)
+sql = &quot;SELECT COUNT(DISTINCT party_id) FROM apps.per_all_people_f&quot;
+rs.Open sql, conn
+If Not rs.EOF Then
+  msg = rs.Fields(0).Value
+  MsgBox msg
+End If
+rs.Close
+conn.Close</code></pre>
+<h2>Handling Recordset Properly</h2>
+<p>Always check for EOF before accessing fields. Use rs.EOF and rs.BOF to ensure the recordset contains data. Closing the recordset and connection in a Finally block guarantees resources are freed even if an error occurs.</p>
+<h2>Running the Script</h2>
+<p>Save the code as .vbs and execute from the command line: `cscript script.vbs`. The script will pop up a message box with the count. For headless environments, replace MsgBox with `WScript.Echo`.</p>
+<p><strong>Takeaway:</strong> A correctly formatted connection string and proper error handling turn a failing VBScript into a reliable Oracle data extractor.</p>
+<h2>People also ask</h2>
+<h3>What if I need to use a different Oracle provider?</h3>
+<p>Replace `OraOLEDB.Oracle` with the provider name, e.g., `MSDAORA` or `OraClient11g`. Ensure the provider is installed on the machine.</p>
+<h3>How can I avoid hard‑coding credentials?</h3>
+<p>Use Windows authentication with `Integrated Security=SSPI` or read credentials from a secure file or environment variable.</p>
+<h3>Why does my script hang after opening the connection?</h3>
+<p>A missing or wrong Data Source can cause a timeout. Verify the TNS alias or EZCONNECT string in tnsnames.ora or the Oracle listener configuration.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/25733257/how-to-connect-to-the-oracle-db-using-vbscript" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>
