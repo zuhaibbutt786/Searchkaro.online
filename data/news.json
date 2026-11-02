@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T12:45:11.080492+00:00",
-  "updated_at_pkt": "2026-11-01 05:42 PM PKT",
+  "updated_at": "2026-11-02T14:53:40.333600+00:00",
+  "updated_at_pkt": "2026-11-02 07:49 PM PKT",
   "count": 500,
-  "new_in_this_run": 29,
+  "new_in_this_run": 30,
   "sources": [
     "https://trends.google.com/trending/rss?geo=PK",
     "https://trends.google.com/trending/rss?geo=IN",
@@ -11,6 +11,1196 @@
     "https://trends.google.com/trending/rss?geo=SA"
   ],
   "items": [
+    {
+      "title": "رياضي / دوري أبطال آسيا للنخبة: إيفيتش يؤكد تطلع العين للعودة بالنقاط…",
+      "slug": "news-1793631191",
+      "topic": "النخبة اسيا",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Coverage linked to \"النخبة اسيا\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "النخبة اسيا: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "النخبة اسيا",
+        "النخبة اسيا news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQGFXtilM0s-YAenhXdnSq9WD1rbH22oM23EymLp5kYMR-ZOpv0US0WyWvWQV4",
+      "related": [
+        {
+          "title": "رياضي / دوري أبطال آسيا للنخبة: إيفيتش يؤكد تطلع العين للعودة بالنقاط الثلاث أمام الاتحاد",
+          "url": "https://www.spa.gov.sa/N2715775",
+          "source": "وكالة الأنباء السعودية"
+        },
+        {
+          "title": "الاتحاد يستضيف العين الإماراتي في نخبة آسيا بحثاً عن انتصاره الثاني",
+          "url": "https://sabq.org/article/exw1dc1",
+          "source": "صحيفة سبق الإلكترونية"
+        },
+        {
+          "title": "فيسينغ: مواجهة العين مختلفة",
+          "url": "https://www.alriyadh.com/2213332",
+          "source": "جريدة الرياض"
+        }
+      ],
+      "word_count": 329,
+      "page": "p/news-1793631191.html"
+    },
+    {
+      "title": "Wizz Air London-Sofia flight diverts to Budapest after bomb threat",
+      "slug": "wizz-air-london-sofia-flight-diverts-to-budapest-after-bomb-threat",
+      "topic": "wizz air luton to sofia diverted",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "A Wizz Air passenger jet traveling from London Luton to Sofia was forced to divert to Budapest after a bomb threat was received. Hungarian fighter jets escorted the aircraft to the airport, where all passengers and crew were safely evacuate",
+      "meta_description": "A Wizz Air flight from Luton to Sofia made an emergency landing in Budapest following a bomb threat. Fighter jets escorted the aircraft, and passengers were saf",
+      "keywords": [
+        "Wizz Air",
+        "Luton to Sofia",
+        "bomb threat",
+        "emergency landing",
+        "Budapest diversion"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz4nxeAenD5BBMtCJH7gSICMT-cSIbQxcU5WN1tF4_DMBsnXTZOK1AR7yQOJ0",
+      "related": [
+        {
+          "title": "Wizz Air flight latest: Plane from London to Bulgaria diverted to Budapest after 'bomb threat'",
+          "url": "https://news.sky.com/story/wizz-air-flight-latest-plane-from-london-to-bulgaria-diverted-to-budapest-after-bomb-threat-13605126",
+          "source": "Sky News"
+        },
+        {
+          "title": "Wizz Air flight makes emergency landing after bomb threat",
+          "url": "https://www.telegraph.co.uk/news/2026/11/02/wizzair-flight-emergency-landing-after-bomb-threat-hungary/",
+          "source": "The Telegraph"
+        },
+        {
+          "title": "Fighter jet scrambled to escort London Wizz Air flight as bomb threat forces emergency landing",
+          "url": "https://www.independent.co.uk/news/uk/home-news/wizz-air-flight-london-sofia-bomb-threat-b3077573.html",
+          "source": "The Independent"
+        }
+      ],
+      "word_count": 765,
+      "page": "p/wizz-air-london-sofia-flight-diverts-to-budapest-after-bomb-threat.html"
+    },
+    {
+      "title": "Vivo Y32 5G launches in Pakistan with 8,000mAh battery and Snapdragon 4 Gen 2",
+      "slug": "vivo-y32-5g-launches-in-pakistan-with-8000mah-battery-and-snapdragon-4-gen-2",
+      "topic": "vivo y32 5g",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Vivo has introduced the Y32 5G in Pakistan, offering a massive 8,000 mAh battery and a Snapdragon 4 Gen 2 processor. The model also carries an IP69 protection rating and is expected to reach India soon.",
+      "meta_description": "Vivo launches its Y32 5G in Pakistan featuring an 8,000 mAh battery, Snapdragon 4 Gen 2 chipset and IP69 rating, sparking interest ahead of an India release.",
+      "keywords": [
+        "Vivo Y32 5G",
+        "Pakistan smartphone market",
+        "Snapdragon 4 Gen 2",
+        "8,000mAh battery",
+        "5G devices"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRN1294UeA_95xBAO6cLfUzjFFNTik6K-3K8lizNK7kqZdrRUbDfjmtxy4sZrI",
+      "related": [
+        {
+          "title": "Vivo Y32 5G goes official with 8,000mAh battery, Snapdragon 4 Gen 2, IP69 rating; India launch awaited",
+          "url": "https://www.91mobiles.com/hub/vivo-y32-5g-goes-official-specifications-availability/",
+          "source": "91Mobiles"
+        },
+        {
+          "title": "Vivo Y32 5G Announced with an 8,000mAh Battery and Snapdragon 4 Gen 2 Chipset",
+          "url": "https://gadgets.beebom.com/news/vivo-y32-5g-announced-in-china-key-specs-pricing-availability",
+          "source": "Beebom Gadgets"
+        },
+        {
+          "title": "Vivo Y32 Launches in Pakistan With an 8,000mAh Battery",
+          "url": "https://www.brandsynario.com/technology/vivo-y32-launch-pakistan/",
+          "source": "Brandsynario"
+        }
+      ],
+      "word_count": 676,
+      "page": "p/vivo-y32-5g-launches-in-pakistan-with-8000mah-battery-and-snapdragon-4-gen-2.html"
+    },
+    {
+      "title": "US Stock Market Opening Shifts to 11:30 p.m. ET as Daylight Saving Time Ends",
+      "slug": "us-stock-market-opening-shifts-to-1130-pm-et-as-daylight-saving-time-ends",
+      "topic": "what time does the stock market open",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "The U.S. ended daylight saving time on Sunday, moving clocks back one hour. As a result, the NYSE’s regular session now begins at 11:30 p.m. ET, altering trading windows for global participants.",
+      "meta_description": "With daylight saving time ending Sunday, the New York Stock Exchange will open at 11:30 p.m. Eastern Time, an hour later for Asian and European traders, affecti",
+      "keywords": [
+        "stock market opening",
+        "Daylight Saving Time",
+        "NYSE",
+        "US markets",
+        "trading hours"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTSwkjnrompkU2i2xC3yKl3PzknjWI0OsvhrqG6BAgjOoH4dEc7rTMGpjRqfyA",
+      "related": [
+        {
+          "title": "U.S. Ends Daylight Saving Time; New York Stock Market Opens at 11:30 p.m.",
+          "url": "https://en.fnnews.com/news/202610310449391737",
+          "source": "파이낸셜뉴스"
+        },
+        {
+          "title": "US clocks fall back: Wall Street opens an hour later for traders in Asia and Europe",
+          "url": "https://investinglive.com/news/us-clocks-fall-back-wall-street-opens-an-hour-later-for-traders-in-asia-and-europe/",
+          "source": "investingLive"
+        },
+        {
+          "title": "U.S. Daylight Saving Time Ends: U.S. Stock Market Regular Session Now Opens at 11:30 PM Eastern Time",
+          "url": "https://finance.biggo.com/news/9e8a28dc-9ca9-4226-a88b-048129d5a4ef",
+          "source": "BigGo Finance"
+        }
+      ],
+      "word_count": 1016,
+      "page": "p/us-stock-market-opening-shifts-to-1130-pm-et-as-daylight-saving-time-ends.html"
+    },
+    {
+      "title": "UN Mission in Western Sahara Faces Uncertain Future After Draft Stalls",
+      "slug": "un-mission-in-western-sahara-faces-uncertain-future-after-draft-stalls",
+      "topic": "المغرب",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "The United Nations’ peacekeeping mission in Western Sahara is at a crossroads after two draft resolutions from the United States and Russia collapsed. Algeria has publicly rejected the decision not to renew the mission, leading MINURSO offi",
+      "meta_description": "UN’s MINURSO mission in Western Sahara confronts a possible exit as US and Russian draft resolutions fail, while Algeria denounces the non‑renewal, prompting ur",
+      "keywords": [
+        "Western Sahara",
+        "MINURSO",
+        "UN mission",
+        "Algeria",
+        "Morocco"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSaduSW1q6ANrEHggiizrEVyXzHjaRmxy3oGW3MSZmq-769vlaMduaGqn77nbw",
+      "related": [
+        {
+          "title": "رئيس «المينورسو» يستنفر مسؤولي البعثة لاجتماع طارئ بشأن مرحلة التصفية",
+          "url": "https://sabq.org/article/kktilmz",
+          "source": "صحيفة سبق الإلكترونية"
+        },
+        {
+          "title": "\"انحياز مفرط للمغرب\".. الجزائر ترد على عدم تجديد مهمة بعثة الأمم المتحدة في الصحراء الغربية",
+          "url": "https://arabic.cnn.com/middle-east/article/2026/10/31/algeria-rejects-non-renewal-un-mission-western-sahara",
+          "source": "CNN Arabic"
+        },
+        {
+          "title": "فشل مشروعَي قرار أميركي وروسي حول الصحراء يمهد لرحيل «مينورسو»",
+          "url": "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A/%D8%B4%D9%85%D8%A7%D9%84-%D8%A7%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5335956-%D9%81%D8%B4%D9%84-%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D9%8E%D9%8A-%D9%82%D8%B1%D8%A7%D8%B1-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A-%D9%88%D8%B1%D9%88%D8%B3%D9%8A-%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D8%B5%D8%AD%D8%B1%D8%A7%D8%A1-%D9%8A%D9%85%D9%87%D8%AF-%D9%84%D8%B1%D8%AD%D9%8A%D9%84-%D9%85%D9%8A%D9%86%D9%88%D8%B1%D8%B3%D9%88",
+          "source": "الشرق الأوسط"
+        }
+      ],
+      "word_count": 827,
+      "page": "p/un-mission-in-western-sahara-faces-uncertain-future-after-draft-stalls.html"
+    },
+    {
+      "title": "Today Show Hosts Stun with Creative Halloween 2026 Costume Reveals",
+      "slug": "today-show-hosts-stun-with-creative-halloween-2026-costume-reveals",
+      "topic": "today show",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "NBC’s Today Show marked the 2026 Halloween season with a series of creative costume reveals that captivated the morning audience. The broadcast featured notable transformations by hosts, including a pop culture homage and a musical tribute.",
+      "meta_description": "The Today Show hosted a lively Halloween 2026 event, featuring memorable costume reveals from Jenna Bush Hager and Carson Daly, drawing significant viewer atten",
+      "keywords": [
+        "Today Show",
+        "Halloween 2026",
+        "Jenna Bush Hager",
+        "Carson Daly",
+        "NBC News"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyvlVCFyZh8bZe63mdHIqix_eaIyISyraNZIy-w1UpqfOn1JSR1NfiqDCysD4",
+      "related": [
+        {
+          "title": "TODAY Halloween 2026 Recap: See the Costume Reveals and Best Moments",
+          "url": "https://www.today.com/life/holidays/live-blog/2026-today-show-halloween-costume-reveal-rcna605004",
+          "source": "TODAY.com"
+        },
+        {
+          "title": "Carson Daly as Ella Langley and more must-see Halloween costumes from the “Today” show",
+          "url": "https://www.yahoo.com/entertainment/tv/articles/carson-daly-ella-langley-more-141507494.html",
+          "source": "Yahoo"
+        },
+        {
+          "title": "Jenna Bush Hager Looks So Different as This Pop Culture Icon for Halloween",
+          "url": "https://www.instyle.com/jenna-bush-hager-phoebe-buffay-halloween-costume-2026-12202613",
+          "source": "InStyle"
+        }
+      ],
+      "word_count": 725,
+      "page": "p/today-show-hosts-stun-with-creative-halloween-2026-costume-reveals.html"
+    },
+    {
+      "title": "Tadawul All-Share Index Fluctuates Amid Mixed Trading Sessions",
+      "slug": "tadawul-all-share-index-fluctuates-amid-mixed-trading-sessions",
+      "topic": "tadawul all-share index",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "The Tadawul All-Share Index rose 0.35% to 9,873 points in early trading, but later fell 0.84% by the close of the session. Analysts point to shifting investor sentiment as the driver of the day's volatility.",
+      "meta_description": "The Tadawul All-Share Index saw gains in early trade before slipping at close, reflecting volatile sentiment in Saudi Arabia's stock market on Tuesday today.",
+      "keywords": [
+        "Tadawul",
+        "All-Share Index",
+        "Saudi market",
+        "stock exchange",
+        "Saudi Arabia"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR5eN9uCXADaIrGKbIG4uzsbiCMUZEn8vds9AZQT634arqs0PpKPNK6lLJQjGE",
+      "related": [
+        {
+          "title": "Saudi Stock Exchange Main Index Closes Higher",
+          "url": "https://www.spa.gov.sa/en/N2716264",
+          "source": "وكالة الأنباء السعودية"
+        },
+        {
+          "title": "Saudi Market Rises 0.35% to 9,873 Points in Early Trading",
+          "url": "https://english.aawsat.com/business/5336563-saudi-market-rises-035-9873-points-early-trading",
+          "source": "ASHARQ AL-AWSAT English"
+        },
+        {
+          "title": "Saudi Arabia stocks lower at close of trade; Tadawul All Share down 0.84%",
+          "url": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-084-4989744",
+          "source": "Investing.com"
+        }
+      ],
+      "word_count": 600,
+      "page": "p/tadawul-all-share-index-fluctuates-amid-mixed-trading-sessions.html"
+    },
+    {
+      "title": "Supreme Court Approves Limited Green Fireworks for Diwali 2026 Amid Air‑Quality Concerns",
+      "slug": "supreme-court-approves-limited-green-fireworks-for-diwali-2026-amid-airquality-concerns",
+      "topic": "diwali 2026",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "India’s Supreme Court has set new rules for Diwali fireworks, permitting only green firecrackers during two time slots to reduce pollution. The decision follows rising concerns about air quality and safety near hospitals.",
+      "meta_description": "India’s Supreme Court lifts restrictions on Diwali fireworks, allowing green firecrackers during specific hours to curb pollution and protect hospitals.",
+      "keywords": [
+        "Diwali 2026",
+        "Supreme Court",
+        "fireworks",
+        "air quality",
+        "green firecrackers"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "5000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQYGYYfO89ie0vr8mIjCAgWho1SxSV8xsMofvQBD7XmmhGfY82ZEjCj4gA9wbE",
+      "related": [
+        {
+          "title": "Diwali firecracker curbs: SC sets two time periods for fireworks, bans bursting near hospitals",
+          "url": "https://m.economictimes.com/news/india/diwali-firecracker-curbs-sc-sets-two-time-periods-for-fireworks-bans-bursting-near-hospitals/articleshow/135453944.cms",
+          "source": "The Economic Times"
+        },
+        {
+          "title": "Delhi AQI at 312 this morning, Supreme Court says ok to ‘green’ firecrackers",
+          "url": "https://indianexpress.com/article/cities/delhi/only-green-firecrackers-allowed-in-delhi-ncr-nov-7-8-at-certain-times-says-supreme-court-10947264/",
+          "source": "The Indian Express"
+        },
+        {
+          "title": "‘Bada pataka’ under the counter, fake green labels on display: Banned firecrackers flood Delhi markets after Supreme Court nod",
+          "url": "https://www.thehindu.com/news/cities/Delhi/bada-pataka-under-the-counter-fake-green-labels-on-display-banned-firecrackers-flood-delhi-markets-after-supreme-court-nod/article71657021.ece",
+          "source": "The Hindu"
+        }
+      ],
+      "word_count": 648,
+      "page": "p/supreme-court-approves-limited-green-fireworks-for-diwali-2026-amid-airquality-concerns.html"
+    },
+    {
+      "title": "Sony pushes new PS5 firmware update as GTA VI launch looms",
+      "slug": "sony-pushes-new-ps5-firmware-update-as-gta-vi-launch-looms",
+      "topic": "gta vi ps5",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Sony has issued a fresh PS5 firmware patch aimed at blocking jailbreak tools, while reports indicate Rockstar's GTA VI will require the newer system software. The move fuels a growing firmware conflict ahead of the highly anticipated game.",
+      "meta_description": "Sony releases a PS5 firmware update to curb jailbreaks as reports say GTA VI will need a higher firmware level, sparking a clash before the game's launch.",
+      "keywords": [
+        "PS5",
+        "GTA VI",
+        "firmware update",
+        "jailbreak",
+        "Rockstar"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRLmcGjr6GDUSrZYTXsD5JG2nk5Xw-5upaN3yC9JiWChJ8gBGUOx0mQYSQNWJk",
+      "related": [
+        {
+          "title": "Sony Issues Yet Another PS5 Firmware Update as Jailbreak Whac-a-Mole Continues Ahead of GTA 6 Release",
+          "url": "https://www.ign.com/articles/sony-issues-yet-another-ps5-firmware-update-as-jailbreak-whac-a-mole-continues-ahead-of-gta-6-release",
+          "source": "IGN"
+        },
+        {
+          "title": "PlayStation Is Engaging in a “Firmware War” Against Jailbreakers, as Rockstar Games’ Grand Theft Auto VI Minimum Firmware Requirement Has Reportedly Changed",
+          "url": "https://wccftech.com/playstation-firmware-war-gta-6-firmware-requirements/",
+          "source": "Wccftech"
+        },
+        {
+          "title": "New PS5 Firmware Update Available Now as Sony Cracks Down on Jailbreaks",
+          "url": "https://www.pushsquare.com/news/2026/11/new-ps5-firmware-update-available-now-as-sony-cracks-down-on-jailbreaks",
+          "source": "Push Square"
+        }
+      ],
+      "word_count": 685,
+      "page": "p/sony-pushes-new-ps5-firmware-update-as-gta-vi-launch-looms.html"
+    },
+    {
+      "title": "Saudi clubs eye João Félix as transfer rumours swirl",
+      "slug": "saudi-clubs-eye-joao-felix-as-transfer-rumours-swirl",
+      "topic": "joão félix",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Portuguese forward João Félix is at the centre of transfer chatter as Saudi clubs Al-Hilal and Al-Nassr reportedly pursue him. The potential move could bring new attention to the Saudi Pro League.",
+      "meta_description": "Saudi clubs Al-Hilal and Al-Nassr are reportedly interested in Portuguese striker João Félix, sparking speculation about a move that could reshape the league.",
+      "keywords": [
+        "João Félix",
+        "Saudi football",
+        "Al-Hilal",
+        "Al-Nassr",
+        "transfer speculation"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQiopE7rkcNN5veDr23cdUCVmfRYqDpSHz28BFmhdXEocbBzG3Fxib5YPFh0Rk",
+      "related": [
+        {
+          "title": "Stunning surprise: will Al-Hilal snatch Joao Felix?",
+          "url": "https://www.goal.com/en-in/lists/stunning-surprise-will-al-hilal-snatch-joao-felix/bltd28f3c5c851ea112",
+          "source": "Goal.com"
+        },
+        {
+          "title": "Saudi Arabian club open to signing veteran forward dreaming of Barcelona move",
+          "url": "https://barcauniversal.com/saudi-arabian-club-open-to-signing-veteran-forward-dreaming-of-barcelona-move/",
+          "source": "Barca Universal"
+        },
+        {
+          "title": "Saudi club Al-Nassr prepares a major surprise for João Félix",
+          "url": "https://www.yardbarker.com/soccer/articles/saudi_club_al_nassr_prepares_a_major_surprise_for_joo_flix/s1_17790_44471872",
+          "source": "Yardbarker"
+        }
+      ],
+      "word_count": 467,
+      "page": "p/saudi-clubs-eye-joao-felix-as-transfer-rumours-swirl.html"
+    },
+    {
+      "title": "Saudi Arabia Expands Vehicle Inspection Network to 116 Centers",
+      "slug": "saudi-arabia-expands-vehicle-inspection-network-to-116-centers",
+      "topic": "الفحص الدوري",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Saudi authorities are accelerating the expansion of periodic vehicle inspection stations across the Kingdom. New facilities in southern regions are designed to handle hundreds of vehicles daily.",
+      "meta_description": "Saudi Standards, Metrology and Quality Organization targets 116 vehicle inspection centers. New stations in Jazan and Asir aim to boost road safety and capacity",
+      "keywords": [
+        "Saudi Arabia",
+        "vehicle inspection",
+        "SASO",
+        "road safety",
+        "Jazan"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQO89-_0Kv095r0tKbq1xAOFAo_1pU430qBqPBhe9YefyLj6a-blOl3SXydVJc",
+      "related": [
+        {
+          "title": "محطة الفحص الدوري بصامطة.. 4 مسارات تخدم جنوب جازان وتستوعب 400 مركبة يوميًا",
+          "url": "https://ajel.sa/local/kl1f2a75h",
+          "source": "عاجل"
+        },
+        {
+          "title": "\"المواصفات السعودية\": نستهدف رفع عدد مراكز فحص المركبات إلى 116",
+          "url": "https://www.aleqt.com/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B5%D9%81%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%86%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D8%B1%D9%81%D8%B9-%D8%B9%D8%AF%D8%AF-%D9%85%D8%B1%D8%A7%D9%83%D8%B2-%D9%81%D8%AD%D8%B5-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%A8%D8%A7%D8%AA-%D8%A5%D9%84%D9%89-116-15938",
+          "source": "الاقتصادية"
+        },
+        {
+          "title": "«المواصفات» توافق على تشغيل موقع جديد للفحص الفني الدوري في ظهران الجنوب بعسير",
+          "url": "https://sabq.org/article/my4zx4h",
+          "source": "صحيفة سبق الإلكترونية"
+        }
+      ],
+      "word_count": 707,
+      "page": "p/saudi-arabia-expands-vehicle-inspection-network-to-116-centers.html"
+    },
+    {
+      "title": "Sania Mirza reunites with Shoaib Malik to celebrate son’s birthday in Dubai",
+      "slug": "sania-mirza-reunites-with-shoaib-malik-to-celebrate-sons-birthday-in-dubai",
+      "topic": "ಸಾನಿಯಾ ಮಿರ್ಜಾ",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Sania Mirza and former Pakistan cricketer Shoaib Malik were seen together in Dubai to celebrate their son’s eighth birthday. The event has drawn headlines across India.",
+      "meta_description": "Sania Mirza and former Pakistan cricketer Shoaib Malik celebrated their son’s eighth birthday in Dubai, sparking media attention and speculation about their rel",
+      "keywords": [
+        "Sania Mirza",
+        "Shoaib Malik",
+        "Dubai birthday",
+        "Anam Mirza",
+        "Indian sports"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwbABwvKbkyXoXhBJwhoMNeAS8OIdDwk2v8vT0u3TCQFsBK79chb95ILDrRIU",
+      "related": [
+        {
+          "title": "ಮತ್ತೆ ಒಂದಾಗ್ತಾರಾ ಸಾನಿಯಾ ಮಿರ್ಜಾ - ಶೋಯೆಬ್ ಮಲಿಕ್? ದುಬೈನಲ್ಲಿ ಮಗನ ಹುಟ್ಟುಹಬ್ಬ ಆಚರಿಸಿದ ತಾರಾ ಜೋಡಿ..!",
+          "url": "https://kannada.asianetnews.com/cricket-sports/sania-mirza-shoaib-malik-son-izhaan-8th-birthday-wishes-kvn/articleshow-u2qn4vs",
+          "source": "Asianet News Kannada"
+        },
+        {
+          "title": "ಸಾನಿಯಾ ಮಿರ್ಜಾ ತಂಗಿಯ ಆಸ್ತಿ ಎಷ್ಟು ಕೋಟಿ ಗೊತ್ತಾ? ಭಾರತದ ಮಾಜಿ ಕ್ರಿಕೆಟಿಗನ ಪುತ್ರನ ಜೊತೆ ಹಸೆಮಣೆ ಏರಿದ್ದ ಅನಮ್!",
+          "url": "https://kannada.asianetnews.com/sports/meet-anam-mirza-sania-mirzas-entrepreneur-sister-reportedly-worth-331-crore/articleshow-s1xhlmg",
+          "source": "Asianet News Kannada"
+        }
+      ],
+      "word_count": 797,
+      "page": "p/sania-mirza-reunites-with-shoaib-malik-to-celebrate-sons-birthday-in-dubai.html"
+    },
+    {
+      "title": "Russia’s $150 Million Su-57 Stealth Fighter Explodes Before It Even…",
+      "slug": "russias-150-million-su-57-stealth-fighter-explodes-before-it-even",
+      "topic": "russian su 57 fighter destruction",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Coverage linked to \"russian su 57 fighter destruction\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "russian su 57 fighter destruction: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "russian su 57 fighter destruction",
+        "russian su 57 fighter destruction news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT341IDQBLkajW0VcElo3I_z50ijYOVGSjFCz3LWx3cCAtThAlHK9njsufnRY0",
+      "related": [
+        {
+          "title": "Russia’s $150 Million Su-57 Stealth Fighter Explodes Before It Even Takes Off",
+          "url": "https://united24media.com/war-in-ukraine/russias-150-million-su-57-stealth-fighter-explodes-before-it-even-takes-off-23994",
+          "source": "UNITED24 Media"
+        },
+        {
+          "title": "Ukraine’s HUR Confirms Russian Su-57 Explosion at Akhtubinsk Airfield",
+          "url": "https://www.kyivpost.com/post/88876",
+          "source": "Kyiv Post"
+        },
+        {
+          "title": "Su-57 destroyed in engine fire at Akhtubinsk airfield in Russia, HUR confirms",
+          "url": "https://kyivindependent.com/su-57-destroyed-in-engine-fire-at-akhtubinsk-airfield-in-russia-hur-confirms/",
+          "source": "The Kyiv Independent"
+        }
+      ],
+      "word_count": 352,
+      "page": "p/russias-150-million-su-57-stealth-fighter-explodes-before-it-even.html"
+    },
+    {
+      "title": "Ronaldo Rests as Al Nassr Takes On Pakhtakor in AFC Elite",
+      "slug": "ronaldo-rests-as-al-nassr-takes-on-pakhtakor-in-afc-elite",
+      "topic": "pakhtakor vs al-nassr",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Al Nassr heads to Uzbekistan for a crucial group stage fixture against Pakhtakor, with Cristiano Ronaldo reportedly resting. Manager Ange Postecoglou is expected to make two key tactical changes for the trip.",
+      "meta_description": "Cristiano Ronaldo is expected to sit out as Al Nassr travels to Tashkent for their AFC Champions League Elite match against Pakhtakor, with tactical shifts anti",
+      "keywords": [
+        "Al Nassr",
+        "Pakhtakor",
+        "AFC Champions League Elite",
+        "Cristiano Ronaldo",
+        "Ange Postecoglou"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "10000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQWNMfTLNZhYt0h8e12pgq5KmlU_6PXXs604DSXQqGwTgrUFvjPYNobTbFr368",
+      "related": [
+        {
+          "title": "Ange Postecoglou is leaning toward two changes for Pakhtakor trip — Pakhtakor Vs Al Nassr",
+          "url": "https://twaslnews1.twaslnews.com/7021577/",
+          "source": "شبكة تواصل الإخبارية"
+        },
+        {
+          "title": "Why isn't Cristiano Ronaldo playing for Al Nassr vs. Pakhtakor today?",
+          "url": "https://www.usatoday.com/story/sports/soccer/2026/11/02/cristiano-ronaldo-not-playing-al-nassr-pakhtakor-today/92557289007/",
+          "source": "USA Today"
+        },
+        {
+          "title": "Pakhtakor vs Al Nassr LIVE, Score Updates in AFC Champions League Elite Match",
+          "url": "https://www.vavel.com/en-us/soccer/2026/11/02/1277717-pakhtakor-vs-al-nassr-live-score-afc-champions-league-elite.html",
+          "source": "VAVEL.com"
+        }
+      ],
+      "word_count": 832,
+      "page": "p/ronaldo-rests-as-al-nassr-takes-on-pakhtakor-in-afc-elite.html"
+    },
+    {
+      "title": "Quaid-e-Azam Trophy kicks off with 20 regional sides in November",
+      "slug": "quaid-e-azam-trophy-kicks-off-with-20-regional-sides-in-november",
+      "topic": "quaid-e-azam trophy",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Twenty regional sides will battle in the Gold and Silver divisions of the Quaid-e-Azam Trophy from 3 November. Babar Azam and Shaheen Afridi lead Karachi Whites and Lahore Blues respectively.",
+      "meta_description": "Pakistan's premier first‑class cricket competition, the Quaid-e-Azam Trophy, starts on 3 November with 20 regional teams, featuring Babar Azam and Shaheen Afrid",
+      "keywords": [
+        "Quaid-e-Azam Trophy",
+        "Pakistan cricket",
+        "PCB schedule",
+        "Babar Azam",
+        "Shaheen Afridi"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRWEQoPTl_FJEnl3aXAdQ9T3KqVa7RZkp3sfKysJRDDMOg_FohGiLJvLu7r7Do",
+      "related": [
+        {
+          "title": "Schedule and team rosters announced for Quaid-e-Azam Trophy Gold and Silver",
+          "url": "https://www.pcb.com.pk/press-release-detail/schedule-and-team-rosters-announced-for-quaid-e-azam-trophy-gold-and-silver.html",
+          "source": "Pakistan Cricket Board (PCB)"
+        },
+        {
+          "title": "Babar, Shaheen set for Quaid-e-Azam Trophy opening-round clash",
+          "url": "https://www.dawn.com/news/2041616",
+          "source": "Dawn"
+        },
+        {
+          "title": "Quaid-e-Azam Trophy to begin on November 3 with 20 regional teams",
+          "url": "https://www.nation.com.pk/02-Nov-2026/quaid-e-azam-trophy-begin-november-3-20-regional-teams",
+          "source": "The Nation (Pakistan )"
+        }
+      ],
+      "word_count": 558,
+      "page": "p/quaid-e-azam-trophy-kicks-off-with-20-regional-sides-in-november.html"
+    },
+    {
+      "title": "Pakistan clinches tri-series title with record chase against Sri Lanka",
+      "slug": "pakistan-clinches-tri-series-title-with-record-chase-against-sri-lanka",
+      "topic": "pak vs sl t20",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Pakistan edged Sri Lanka in a thrilling T20 final, posting a record chase thanks to a century from Fakhar Zaman and a blitz from Arafat Minhas. The win revives hopes for a stronger Pakistani side ahead of upcoming international fixtures.",
+      "meta_description": "Pakistan defeated Sri Lanka in the T20 tri-series final, with Fakhar Zaman’s 127 and Arafat Minhas’s 61 off 31 balls, securing a joint‑highest chase and sparkin",
+      "keywords": [
+        "Pakistan cricket",
+        "Sri Lanka",
+        "T20 tri-series",
+        "Fakhar Zaman",
+        "Arafat Minhas"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCFnMTxDY7ERRRinyals-YZ-KlLxKfHg_KMgxjLH3ozq0--6cAvV6OVNnVDqk",
+      "related": [
+        {
+          "title": "Fakhar's 127, Arafat's 31-ball 61 lead Pakistan to tri-series title",
+          "url": "https://www.pcb.com.pk/news-detail/fakhar-s-127-arafat-s-31-ball-61-lead-pakistan-to-tri-series-title.html",
+          "source": "Pakistan Cricket Board (PCB)"
+        },
+        {
+          "title": "Stats - Pakistan record joint-highest chase in ODI final",
+          "url": "https://www.cricinfo.com/story/stats-pak-vs-sl-pakistan-record-joint-highest-chase-in-odi-final-1560892",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "Pakistan’s past and future make a bid for the present",
+          "url": "https://www.dawn.com/news/2041381",
+          "source": "Dawn"
+        }
+      ],
+      "word_count": 630,
+      "page": "p/pakistan-clinches-tri-series-title-with-record-chase-against-sri-lanka.html"
+    },
+    {
+      "title": "Oracle launches $30 billion equity and bond offering to fund AI expansion",
+      "slug": "oracle-launches-30-billion-equity-and-bond-offering-to-fund-ai-expansion",
+      "topic": "orcl stock",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Oracle filed to sell $20 billion of new shares and issue $10 billion of high‑grade bonds to finance its artificial‑intelligence build‑out. The dual offering nudged the company's share price lower while the broader tech sector stayed resilie",
+      "meta_description": "Oracle is raising $20 billion in new stock and $10 billion in high‑grade bonds to fund its AI build‑out, a move that pushed shares down as tech stocks steady.",
+      "keywords": [
+        "Oracle",
+        "stock offering",
+        "bond issuance",
+        "AI investment",
+        "US markets"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb5ohVtSvqCiKi9QQv0GEBnDMRbwl4LV7L34lpkl7xQajorzfyDazFPqnpwIY",
+      "related": [
+        {
+          "title": "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout",
+          "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+          "source": "CNBC"
+        },
+        {
+          "title": "Oracle Is Offering $10 Billion of High-Grade Dollar Bonds",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-02/oracle-is-offering-10-billion-of-high-grade-dollar-bonds",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Oracle's stock drops after bond and equity offering, but tech stocks hold strong",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-rebound-midterm-elections-earnings-economic-data-apple/card/oracle-s-stock-drops-after-bond-and-equity-offering-but-tech-stocks-hold-strong-fqBl340rnXbQRe4TxwKn?mod=mw_FV",
+          "source": "MarketWatch"
+        }
+      ],
+      "word_count": 832,
+      "page": "p/oracle-launches-30-billion-equity-and-bond-offering-to-fund-ai-expansion.html"
+    },
+    {
+      "title": "Merub Ali credits social media for fresh talent like Dananeer Mobeen",
+      "slug": "merub-ali-credits-social-media-for-fresh-talent-like-dananeer-mobeen",
+      "topic": "dananeer mobeen",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Veteran actor Merub Ali has highlighted the role of digital platforms in discovering new faces in Pakistan's drama sector. He specifically cited Dananeer Mobeen and Romaisa Khan as examples of success stories driven by online visibility.",
+      "meta_description": "Actor Merub Ali praises social media for introducing fresh talent like Dananeer Mobeen and Romaisa Khan to the Pakistani entertainment industry.",
+      "keywords": [
+        "Dananeer Mobeen",
+        "Merub Ali",
+        "Pakistani entertainment",
+        "social media talent",
+        "Drama industry"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTWBJISTY7ytSrEKPzw4m1Y2z-gtuPVR0AY_JkBtMRFxICOq7LA0vmLXa2ctFk",
+      "related": [
+        {
+          "title": "Merub Ali thinks social media is good for the industry if it gave us Dananeer Mobeen and Romaisa Khan",
+          "url": "https://images.dawn.com/news/1196093",
+          "source": "Images Dawn"
+        },
+        {
+          "title": "Merub Ali praises social media for introducing fresh talent",
+          "url": "https://minutemirror.com.pk/merub-ali-praises-social-media-for-introducing-fresh-talent-654988/",
+          "source": "Minute Mirror"
+        }
+      ],
+      "word_count": 935,
+      "page": "p/merub-ali-credits-social-media-for-fresh-talent-like-dananeer-mobeen.html"
+    },
+    {
+      "title": "Lindsay Clancy Returns to Court as Retrial Prospects Remain Unclear",
+      "slug": "lindsay-clancy-returns-to-court-as-retrial-prospects-remain-unclear",
+      "topic": "lindsay clancy",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Lindsay Clancy appeared in a London court for a fresh hearing after her murder trial fell apart. The judge said a retrial is not yet decided, keeping the case in limbo.",
+      "meta_description": "UK court hears new hearing for Lindsay Clancy after the collapse of her murder trial, leaving the possibility of a retrial uncertain and drawing public attentio",
+      "keywords": [
+        "Lindsay Clancy",
+        "UK court",
+        "murder trial",
+        "retrial",
+        "legal proceedings"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSGcuNKAPU_eIBU_El9EImXeicppXibVSo0Chk253ElbSXCrCTrrKxDmQt_Ds",
+      "related": [
+        {
+          "title": "Lindsay Clancy is back in court - where will her case go next?",
+          "url": "https://www.bbc.co.uk/news/articles/ck3r5z3pw928o",
+          "source": "BBC"
+        },
+        {
+          "title": "Lindsay Clancy back in court after murder trial fell apart - follow live",
+          "url": "https://www.bbc.com/news/live/cq80z9dmm701t",
+          "source": "BBC"
+        },
+        {
+          "title": "Lindsay Clancy returns to court as the prospect of a retrial remains unclear",
+          "url": "https://www.cnn.com/2026/11/02/us/lindsay-clancy-court-hearing-retrial",
+          "source": "CNN"
+        }
+      ],
+      "word_count": 1006,
+      "page": "p/lindsay-clancy-returns-to-court-as-retrial-prospects-remain-unclear.html"
+    },
+    {
+      "title": "India and New Zealand Set Historic T20I Run Record in Five-Match Series",
+      "slug": "india-and-new-zealand-set-historic-t20i-run-record-in-five-match-series",
+      "topic": "क्रिकेट",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "The recent five-match T20I series between India and New Zealand concluded with a historic milestone in cricket. The combined output of both teams broke the previous world record for runs in a bilateral series.",
+      "meta_description": "India and New Zealand shattered the all-time bilateral T20I run record with 2,266 runs. Captain Shreyas Iyer and coach Gautam Gambhir addressed team performance",
+      "keywords": [
+        "India vs New Zealand",
+        "T20I record",
+        "Shreyas Iyer",
+        "Gautam Gambhir",
+        "Glenn Phillips"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "5000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRwpXCDuiKl3Dw_AmysFp1U0cBk0gVdiyu06Xa_FcNUGrZYi8xa_yBwT2XBXRs",
+      "related": [
+        {
+          "title": "IND vs NZ: भारत-न्यूजीलैंड सीरीज में टूटा टी20 इतिहास का सबसे बड़ा रिकॉर्ड, टीम इंडिया के बल्लेबाजों ने जड़ दिए 2,266 रन",
+          "url": "https://www.aajtak.in/sports/cricket/story/ind-vs-nz-india-and-new-zealand-set-all-time-t20i-run-records-after-blockbuster-five-match-series-aksp-dskc-2685930-2026-11-02",
+          "source": "AajTak"
+        },
+        {
+          "title": "गंभीर बोले- मेरी डिक्शनरी में डर शब्द नहीं: कप्तान अय्यर ने कहा- गेंदबाजी और फील्डिंग में सुधार की जरूरत; फ...",
+          "url": "https://www.bhaskar.com/g/sports/cricket/news/india-new-zealand-t20-series-win-shreyas-iyer-gautam-gambhir-statement-139560869.html",
+          "source": "Dainik Bhaskar"
+        },
+        {
+          "title": "ग्लेन फिलिप्स ने मचाया तहलका, टीम इंडिया के खिलाफ रनों का अंबार लगाकर तोड़ा वर्ल्ड रिकॉर्ड",
+          "url": "https://www.indiatv.in/sports/cricket/glenn-phillips-creates-history-after-made-the-world-record-of-most-runs-in-a-bilateral-t20i-series-ind-vs-nz-2026-11-01-1252209",
+          "source": "India TV Hindi"
+        }
+      ],
+      "word_count": 798,
+      "page": "p/india-and-new-zealand-set-historic-t20i-run-record-in-five-match-series.html"
+    },
+    {
+      "title": "Inde Navarrette headlines SNL with viral robot sketch",
+      "slug": "inde-navarrette-headlines-snl-with-viral-robot-sketch",
+      "topic": "inde navarrette",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Actress Inde Navarrette made her hosting debut on Saturday Night Live, where she delivered a sharp monologue and a standout sketch that quickly gained traction online. Her performance highlights her transition from dramatic roles to mainstr",
+      "meta_description": "Inde Navarrette hosted Saturday Night Live, delivering a monologue mocking Shane Gillis and a viral sketch about a destructive robot. Her performance marks a ma",
+      "keywords": [
+        "Inde Navarrette",
+        "SNL",
+        "Saturday Night Live",
+        "The Inventor's Wife",
+        "Shane Gillis"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "",
+      "related": [
+        {
+          "title": "'SNL' Host Inde Navarrette Wins Halloween With Penis-Destroying Robot Sketch 'The Inventor's Wife'",
+          "url": "https://variety.com/2026/tv/news/inde-navarrette-snl-halloween-the-inventors-wife-penis-robot-1236936629/",
+          "source": "Variety"
+        },
+        {
+          "title": "Following her \"scream queen\" debut in 'Obsession', Inde Navarrette flexed her comedy muscle with her Saturday Night Live hosting debut. Read more below.",
+          "url": "https://www.facebook.com/deadline/posts/following-her-scream-queen-debut-in-obsession-inde-navarrette-flexed-her-comedy-/1478526117481057/",
+          "source": "Facebook"
+        },
+        {
+          "title": "Inde Navarrette mocks Shane Gillis' gym joke in 'SNL' monologue",
+          "url": "https://mashable.com/entertainment/snl-inde-navarrette-shane-gillis-monologue-gym-joke-1",
+          "source": "Mashable"
+        }
+      ],
+      "word_count": 603,
+      "page": "p/inde-navarrette-headlines-snl-with-viral-robot-sketch.html"
+    },
+    {
+      "title": "ICE rapidly re-arresting immigrants released after winning court petitions",
+      "slug": "ice-rapidly-re-arresting-immigrants-released-after-winning-court-petitions",
+      "topic": "ice post release immigrant detentions",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Coverage linked to \"ice post release immigrant detentions\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "ice post release immigrant detentions: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "ice post release immigrant detentions",
+        "ice post release immigrant detentions news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXhL3EEjlXnDXu9bkM-RdInZmjoo0bloOXM6ElgUDiVftOAv0Rfv5hcTKQixA",
+      "related": [
+        {
+          "title": "ICE rapidly re-arresting immigrants released after winning court petitions",
+          "url": "https://www.theguardian.com/us-news/2026/nov/02/immigrants-released-after-court-petitions-ice-arrest",
+          "source": "The Guardian"
+        },
+        {
+          "title": "‘It left me in shock’: St. Cloud immigrant speaks about trauma after ICE re-arrest",
+          "url": "https://www.mprnews.org/story/2026/11/01/st-cloud-immigrant-yader-cortez-talks-about-ice-rearrest-trauma",
+          "source": "MPR News"
+        },
+        {
+          "title": "ICE re-detains migrants after court-ordered releases — The Guardian",
+          "url": "https://ua.news/en/world/ice-povtorno-zatrimuie-migrantiv-pislia-zvilnennia-sudami-the-guardian",
+          "source": "UA.NEWS"
+        }
+      ],
+      "word_count": 348,
+      "page": "p/ice-rapidly-re-arresting-immigrants-released-after-winning-court-petitions.html"
+    },
+    {
+      "title": "Former Pakistan pacer Mohammad Amir eyes IPL return as UK citizen",
+      "slug": "former-pakistan-pacer-mohammad-amir-eyes-ipl-return-as-uk-citizen",
+      "topic": "mohammad amir",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Mohammad Amir, the former Pakistan fast bowler who recently acquired UK citizenship, is preparing to enter the Indian Premier League’s 2027 mini‑auction. His potential return to franchise cricket has reignited discussions about player eligi",
+      "meta_description": "Former Pakistan fast bowler Mohammad Amir, now a UK national, is set to register for the IPL 2027 mini‑auction, sparking debate over his comeback and its impact",
+      "keywords": [
+        "Mohammad Amir",
+        "IPL auction",
+        "UK citizenship",
+        "Pakistan cricket",
+        "Afghanistan Premier League"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcROb8O99tvGmDyGIvkUlC3QUQinJie3HZS_IcbmUoShdVjq_PqxNZQYIoanfg8",
+      "related": [
+        {
+          "title": "Pakistan's Mohammad Amir Likely To Register For IPL Auction As UK National",
+          "url": "https://www.news18.com/cricket/pakistans-mohammad-amir-likely-to-register-for-ipl-auction-as-uk-national-ws-l-10408785.html",
+          "source": "News18"
+        },
+        {
+          "title": "Irfan, Boucher, Waqar among support staff for inaugural Afghanistan Premier League",
+          "url": "http://kwese.espn.com/cricket/story/_/id/50356904/afghanistan-premier-league-irfan-pathan-mark-boucher-waqar-younis-support-staff",
+          "source": "ESPN"
+        },
+        {
+          "title": "Mohammad Amir in IPL: Former Pakistan fast bowler set to register for Indian Premier League 2027 mini-auction",
+          "url": "https://sports.yahoo.com/articles/mohammad-amir-ipl-former-pakistan-111715436.html",
+          "source": "Yahoo Sports"
+        }
+      ],
+      "word_count": 673,
+      "page": "p/former-pakistan-pacer-mohammad-amir-eyes-ipl-return-as-uk-citizen.html"
+    },
+    {
+      "title": "EastEnders shock: Craig Ingram’s twist threatens Amy Mitchell’s future",
+      "slug": "eastenders-shock-craig-ingrams-twist-threatens-amy-mitchells-future",
+      "topic": "eastenders craig ingram amy mitchell plot",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Craig Ingram’s latest action has left fans of EastEnders scrambling to understand its implications for Amy Mitchell. The BBC iPlayer episode has already sparked intense discussion online.",
+      "meta_description": "EastEnders viewers were stunned by Craig Ingram’s unexpected move that could change Amy Mitchell’s storyline, sparking debate across BBC iPlayer and fan forums.",
+      "keywords": [
+        "EastEnders",
+        "Craig Ingram",
+        "Amy Mitchell",
+        "BBC iPlayer",
+        "soap opera"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTxnOs6AjQzNvvXadTytwu_vCTtFZHrXMWZnS9L243B1dpE0r_ALs91UnbICa4",
+      "related": [
+        {
+          "title": "EastEnders airs horrific Craig Ingram twist for Amy Mitchell in early BBC iPlayer release",
+          "url": "https://www.radiotimes.com/tv/soaps/eastenders/eastenders-airs-horrific-craig-ingram-twist-amy-mitchell-bbc-iplayer-newsupdate/",
+          "source": "Radio Times"
+        },
+        {
+          "title": "EastEnders' Craig Ingram makes shocking new move in early iPlayer release",
+          "url": "https://www.digitalspy.com/soaps/eastenders/a74309475/eastenders-spoilers-craig-shocking-move-amy-iplayer/",
+          "source": "Digital Spy"
+        },
+        {
+          "title": "EastEnders star confirms explosive Sean twist that's 'never been done before'",
+          "url": "https://metro.co.uk/2026/11/02/eastenders-star-confirms-explosive-sean-twist-never-done-before-29757568/",
+          "source": "Metro.co.uk"
+        }
+      ],
+      "word_count": 613,
+      "page": "p/eastenders-shock-craig-ingrams-twist-threatens-amy-mitchells-future.html"
+    },
+    {
+      "title": "Delhi Faces Severe Air Pollution as AQI Surpasses 300, New Restrictions Imposed",
+      "slug": "delhi-faces-severe-air-pollution-as-aqi-surpasses-300-new-restrictions-imposed",
+      "topic": "दिल्ली में वायु प्रदूषण",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Delhi’s air quality has reached hazardous levels, with an AQI of 428. New vehicle restrictions and fines aim to curb pollution during the winter season.",
+      "meta_description": "Delhi's air quality deteriorates with AQI hitting 428, prompting strict vehicle restrictions and fines under the new Winter Action Plan.",
+      "keywords": [
+        "Delhi air pollution",
+        "AQI 428",
+        "GRAP-2",
+        "Winter Action Plan",
+        "vehicle restrictions"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "2000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCxcHMU9CAZXcK0vvkuZt_n95r4wiJfA57yBS7MXz0tnMbf5V32yOgbZyh0Pw",
+      "related": [
+        {
+          "title": "AQI 300 पार, GRAP-2 लागू... अब दिल्ली में रहेंगी ये पाबंदियां! क्या-क्या बदलेगा?",
+          "url": "https://www.aajtak.in/information/story/delhi-grap-2-restrictions-rules-aqi-vehicle-parking-charges-tedu-dskc-2686793-2026-11-02",
+          "source": "AajTak"
+        },
+        {
+          "title": "दिल्ली-विंटर एक्शन प्लान के पहले दिन ₹68.4 लाख का जुर्माना: 1,500 से ज्यादा गाड़ियां बॉर्डर से लौटाईं; 1 नव...",
+          "url": "https://www.bhaskar.com/g/national/news/delhi-pollution-winter-action-plan-rules-vehicles-fine-update-139565853.html",
+          "source": "Dainik Bhaskar"
+        },
+        {
+          "title": "दिल्ली की हवा बेहद खराब, AQI 428 पर पहुंचा, मुंबई में भी छाई धुंध की चादर; 18 राज्यों में आंधी-बारिश का अलर",
+          "url": "https://www.indiatv.in/india/national/delhi-air-quality-aqi-428-alert-18-states-rain-storm-alert-weather-update-2026-11-02-1252312",
+          "source": "India TV Hindi"
+        }
+      ],
+      "word_count": 872,
+      "page": "p/delhi-faces-severe-air-pollution-as-aqi-surpasses-300-new-restrictions-imposed.html"
+    },
+    {
+      "title": "Chennai schools to remain closed amid severe weather alerts",
+      "slug": "chennai-schools-to-remain-closed-amid-severe-weather-alerts",
+      "topic": "tomorrow school holiday in chennai",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Educational institutions in Chennai are likely to observe a holiday tomorrow as the India Meteorological Department issues heavy rain alerts. The decision follows the impact of recent cyclonic activity in the region.",
+      "meta_description": "Schools in Chennai and Tamil Nadu are expected to remain closed tomorrow due to heavy rain warnings from the IMD. Check the latest updates for students and pare",
+      "keywords": [
+        "Chennai school holiday",
+        "Tamil Nadu weather",
+        "IMD rain alert",
+        "Cyclone Murasu",
+        "School closure"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQKztA17h1Du5gPRKArDnrk9PwrA2mZ9s2jY6T_YGyY9ITaHyU0QBlo9awvdsU",
+      "related": [
+        {
+          "title": "School holiday November 3: Will schools remain closed tomorrow? Check latest updates for Andhra Pradesh, T",
+          "url": "https://m.economictimes.com/news/new-updates/school-holiday-today-november-3-cyclonic-storm-murasu-will-schools-remain-closed-check-latest-updates-for-andhra-pradesh-tamil-nadu-odisha-chhattisgarh-as-imd-issues-heavy-rain-alerts/articleshow/135458574.cms",
+          "source": "The Economic Times"
+        },
+        {
+          "title": "Cyclone Arnab damages 264 schools across Andhra Pradesh",
+          "url": "https://timesofindia.indiatimes.com/city/vijayawada/cyclone-arnab-damages-264-schools-across-andhra-pradesh/articleshow/135408125.cms",
+          "source": "The Times of India"
+        },
+        {
+          "title": "TNI Morning News Headlines – October 29, 2026",
+          "url": "https://enewsinsight.com/tni-morning-news-headlines-october-29-2026/",
+          "source": "The News Insight"
+        }
+      ],
+      "word_count": 1062,
+      "page": "p/chennai-schools-to-remain-closed-amid-severe-weather-alerts.html"
+    },
+    {
+      "title": "Casper Ruud Eyes Grand Slam Glory Ahead of November Matches",
+      "slug": "casper-ruud-eyes-grand-slam-glory-ahead-of-november-matches",
+      "topic": "casper ruud",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "The Norwegian world number two is poised to compete in a string of November tournaments, drawing attention from both fans and sports bettors. His performance could influence betting markets and his quest for a major title.",
+      "meta_description": "Norwegian star Casper Ruud is preparing for a series of high‑stakes matches in November, with fans and bettors eyeing his performance on the ATP tour.",
+      "keywords": [
+        "Casper Ruud",
+        "ATP Tour",
+        "Grand Slam",
+        "tennis betting",
+        "Robinhood prediction markets"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKh8fYNqLefmUCXLXunZreaR33scFyyInNnERM2fEoJ8XnLY6mKvPZ_YMdX5o",
+      "related": [
+        {
+          "title": "November 3, 2026: Caniato vs Giustino Tennis Prediction Market",
+          "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/caniato-vs-giustino-nov-03-2026/",
+          "source": "Robinhood"
+        },
+        {
+          "title": "November 3, 2026: Karamoko / Waltert vs Ramesh D / Vinayagamurthy Prediction Market",
+          "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/karamoko-waltert-vs-ramesh-d-vinayagamurthy-nov-03-2026/",
+          "source": "Robinhood"
+        },
+        {
+          "title": "November 3, 2026: Adkar / Bhosale vs Brooks / Rajecki Tennis Prediction Market",
+          "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/adkar-bhosale-vs-brooks-rajecki-nov-03-2026/",
+          "source": "Robinhood"
+        }
+      ],
+      "word_count": 512,
+      "page": "p/casper-ruud-eyes-grand-slam-glory-ahead-of-november-matches.html"
+    },
+    {
+      "title": "Cameron Norrie eyes strong start at Paris Masters as draw tightens",
+      "slug": "cameron-norrie-eyes-strong-start-at-paris-masters-as-draw-tightens",
+      "topic": "cameron norrie",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Cameron Norrie is set to begin his Paris Masters campaign amid a competitive draw. Indian fans can follow the action online with multiple streaming options.",
+      "meta_description": "British No.5 Cameron Norrie prepares for his opening match at the Rolex Paris Masters, with streaming details and a tough field drawing interest in India.",
+      "keywords": [
+        "Cameron Norrie",
+        "Paris Masters",
+        "tennis",
+        "ATP",
+        "India"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ1vOlBEF_ZwJUTIn74U8rqjIRfahtw9u2z0qupsBFnlTYZ7bpX582WOtsnETA",
+      "related": [
+        {
+          "title": "Paris R1 previews and predictions: Jodar vs. Tabilo, Van de Zandschulp vs. Humbert",
+          "url": "https://tenngrand.com/paris-r1-previews-and-predictions-jodar-vs-tabilo-humbert-vs-van-de-zandschulp/",
+          "source": "The Grandstand"
+        },
+        {
+          "title": "How to watch the men’s Rolex Paris Masters: Streaming options for the Round of 64",
+          "url": "https://www.nytimes.com/athletic/7746453/2026/11/01/mens-rolex-paris-masters-stream-how-to-watch-november-2/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "Hot Shot: Jodar's dropper leaves Tabilo shocked in Paris 2026",
+          "url": "https://www.atptour.com/en/video/hot-shot-jodars-dropper-leaves-tabilo-shocked-in-paris-2026",
+          "source": "ATP Tour"
+        }
+      ],
+      "word_count": 882,
+      "page": "p/cameron-norrie-eyes-strong-start-at-paris-masters-as-draw-tightens.html"
+    },
+    {
+      "title": "Bernard Gallacher: Court hears Channel 4 docs 'poisoned the well' in Brand trial",
+      "slug": "bernard-gallacher-court-hears-channel-4-docs-poisoned-the-well-in-brand-trial",
+      "topic": "bernard gallacher",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Defense barrister Bernard Gallacher argued that prior media coverage, including Channel 4 documentaries, unfairly prejudiced the jury. The court heard that such reports 'poisoned the well' against the comedian.",
+      "meta_description": "In the Russell Brand rape trial, defense counsel argues that Channel 4 documentaries and journalists biased the jury. Bernard Gallacher's role in the trial is c",
+      "keywords": [
+        "Russell Brand",
+        "Bernard Gallacher",
+        "rape trial",
+        "Channel 4",
+        "UK courts"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ7ZnB7jqxII40PlbN34V_S-rymamnXy5r0utEAKl-McpvGgwRnbf3j-A1_1bw",
+      "related": [
+        {
+          "title": "Channel 4 documentary and journalists 'poisoned the well' against Russell Brand, court hears",
+          "url": "https://www.bbc.co.uk/news/articles/cwkg5dnypdn4o",
+          "source": "BBC"
+        },
+        {
+          "title": "Russell Brand is not a ‘psychopath who rapes people and thinks it’s normal’, court told",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/02/russell-brand-defence-barrister-court-trial",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Russell Brand rape trial live: Rapists do not leave their email addresses, comedian's lawyer tells jury",
+          "url": "https://news.sky.com/story/russell-brand-rape-trial-live-closing-arguments-begin-13592674",
+          "source": "Sky News"
+        }
+      ],
+      "word_count": 920,
+      "page": "p/bernard-gallacher-court-hears-channel-4-docs-poisoned-the-well-in-brand-trial.html"
+    },
+    {
+      "title": "Al Nassr Face Pakhtakor in Elite Stage Clash as Ronaldo Skips Match",
+      "slug": "al-nassr-face-pakhtakor-in-elite-stage-clash-as-ronaldo-skips-match",
+      "topic": "باختاكور ضد النصر",
+      "date": "2026-11-02",
+      "date_pkt": "2026-11-02 07:49 PM PKT",
+      "excerpt": "Al Nassr will take on Pakhtakor in the Asian Champions League Elite stage, but the Saudi club will be without star striker Ronaldo. The match sees Bostikoglu stepping up after Cristiano's exclusion.",
+      "meta_description": "Al Nassr's star striker Ronaldo misses the Asian Champions League Elite match against Pakhtakor, while Bostikoglu reshapes the squad after Cristiano's exclusion",
+      "keywords": [
+        "Al Nassr",
+        "Pakhtakor",
+        "Ronaldo",
+        "Asian Champions League",
+        "Bostikoglu"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "50000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU40i6sAaY_6ws69U0_paInTYWgsJvwuctVimO1__wUty8PXTmoYAqwd47L-c",
+      "related": [
+        {
+          "title": "مباشر مباراة النصر ضد باختاكور في دوري أبطال آسيا للنخبة.. لحظة بلحظة",
+          "url": "https://www.aljazeera.net/sport/liveblog/2026/11/2/%D8%A8%D8%A7%D8%AE%D8%AA%D8%A7%D9%83%D9%88%D8%B1-vs-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D8%A8%D8%AB-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1",
+          "source": "الجزيرة نت"
+        },
+        {
+          "title": "بعد استبعاد كريستيانو.. بوستيكوجلو يفجر تشكيل النصر في أبطال آسيا للنخبة",
+          "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%B9%D8%AF-%D8%A7%D8%B3%D8%AA%D8%A8%D8%B9%D8%A7%D8%AF-%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D9%8A%D8%A7%D9%86%D9%88--%D8%A8%D9%88%D8%B3%D8%AA%D9%8A%D9%83%D9%88%D8%AC%D9%84%D9%88-%D9%8A%D9%81%D8%AC%D8%B1-%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D9%81%D9%8A-%D8%A7%D9%94%D8%A8%D8%B7%D8%A7%D9%84-%D8%A7%D9%93%D8%B3%D9%8A%D8%A7-%D9%84%D9%84%D9%86%D8%AE%D8%A8%D8%A9/blt64094b9723b4d0e6",
+          "source": "Kooora"
+        },
+        {
+          "title": "ما سبب غياب رونالدو عن مباراة النصر وباختاكور في أوزبكستان؟ | CNN Arabic | CNN",
+          "url": "https://arabic.cnn.com/sport/article/2026/11/01/ronaldo-al-nassr-pakhtakor-match",
+          "source": "CNN Arabic"
+        }
+      ],
+      "word_count": 446,
+      "page": "p/al-nassr-face-pakhtakor-in-elite-stage-clash-as-ronaldo-skips-match.html"
+    },
     {
       "title": "एलन मस्क से कैसे टकराएंगे पुतिन, अंतरिक्ष से रूस का दूसरा इंटरनेट…",
       "slug": "news-1793537045",
@@ -18606,1206 +19796,6 @@
       ],
       "word_count": 551,
       "page": "p/pope-leos-lung-cancer-surgery-leaves-future-of-papacy-uncertain.html"
-    },
-    {
-      "title": "Police clash with Imran Khan supporters amid protests in Khyber",
-      "slug": "police-clash-with-imran-khan-supporters-amid-protests-in-khyber",
-      "topic": "protest",
-      "date": "2026-10-16",
-      "date_pkt": "2026-10-16 03:45 PM PKT",
-      "excerpt": "Police and supporters of former Prime Minister Imran Khan clashed in the Khyber region, sparking fears of wider unrest. Authorities say the situation is under control, but tensions remain high.",
-      "meta_description": "Police clash with supporters of former Prime Minister Imran Khan in Khyber, raising concerns over escalating protests in northwestern Pakistan.",
-      "keywords": [
-        "protest",
-        "Khyber",
-        "Imran Khan",
-        "police",
-        "Pakistan"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRnMUhD7hqFfvUFLyq8H-dHJriL7_L9yFgX1HLP1uEtN55BgNWgCbNvl7lp7V4",
-      "related": [
-        {
-          "title": "Police on high alert as Peshawar CCPO visits Bara",
-          "url": "https://www.dawn.com/news/2037173",
-          "source": "Dawn"
-        },
-        {
-          "title": "Police clash with Imran Khan supporters in northwestern Pakistan",
-          "url": "https://www.reuters.com/world/asia-pacific/pakistan-police-fire-tear-gas-rounds-imran-khan-backers-party-says-2026-10-13/",
-          "source": "Reuters"
-        },
-        {
-          "title": "Police claim situation in Khyber under control",
-          "url": "https://tribune.com.pk/story/2634751/police-claim-situation-in-khyber-under-control",
-          "source": "The Express Tribune"
-        }
-      ],
-      "word_count": 764,
-      "page": "p/police-clash-with-imran-khan-supporters-amid-protests-in-khyber.html"
-    },
-    {
-      "title": "Petrol price cut, diesel hike announced as OGRA issues Friday changes",
-      "slug": "petrol-price-cut-diesel-hike-announced-as-ogra-issues-friday-changes",
-      "topic": "پٹرولیم",
-      "date": "2026-10-16",
-      "date_pkt": "2026-10-16 03:45 PM PKT",
-      "excerpt": "The Oil and Gas Regulatory Authority (OGRA) has lowered petrol prices by Rs 3.63 per litre and raised diesel by Rs 0.31 per litre effective Friday. The move is part of the government's effort to balance consumer affordability with fiscal ne",
-      "meta_description": "Pakistan's OGRA announced a Rs 3.63 per litre cut in petrol and a Rs 0.31 per litre rise in diesel for Friday, aiming to ease commuter costs while modestly boos",
-      "keywords": [
-        "petrol price",
-        "diesel price",
-        "OGRA",
-        "Pakistan fuel policy",
-        "energy market"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSE8_01JXeUgGmOVg5kjLrIlnv4Z_7jw8ZoAmpx4c0m3MdGvDS_LMKQbJGo1ck",
-      "related": [
-        {
-          "title": "اوگرا کا جمعہ کیلئے پٹرولیم مصنوعات کی ایکس ڈپو قیمتوں میں ردوبدل کا نوٹیفکیشن جاری",
-          "url": "https://urdu.app.com.pk/urdu/%D8%A7%D9%88%DA%AF%D8%B1%D8%A7-%DA%A9%D8%A7-%D8%AC%D9%85%D8%B9%DB%81-%DA%A9%DB%8C%D9%84%D8%A6%DB%92-%D9%BE%D9%B9%D8%B1%D9%88%D9%84%DB%8C%D9%85-%D9%85%D8%B5%D9%86%D9%88%D8%B9%D8%A7%D8%AA-%DA%A9%DB%8C-2/",
-          "source": "| Associated Press Of Pakistan"
-        },
-        {
-          "title": "پیٹرول 3 روپے 63 پیسے فی لیٹر سستا، ڈیزل 31 پیسے مہنگا",
-          "url": "https://urdu.brecorder.com/news/40292632",
-          "source": "Brecorder Urdu"
-        },
-        {
-          "title": "حکومت نے پیٹرول سستا، ڈیزل مہنگا کرنے کا اعلان کردیا",
-          "url": "https://www.geonewsurdu.tv/latest/443990-",
-          "source": "geonewsurdu.tv"
-        }
-      ],
-      "word_count": 743,
-      "page": "p/petrol-price-cut-diesel-hike-announced-as-ogra-issues-friday-changes.html"
-    },
-    {
-      "title": "Peshawar school roof collapse kills 35, raises safety concerns",
-      "slug": "peshawar-school-roof-collapse-kills-35-raises-safety-concerns",
-      "topic": "school building",
-      "date": "2026-10-16",
-      "date_pkt": "2026-10-16 03:45 PM PKT",
-      "excerpt": "A roof collapse at a school in Peshawar has left at least 35 dead and more than 50 injured. The tragedy has sparked nationwide debate over the condition of school facilities.",
-      "meta_description": "A roof collapse at a Peshawar school has killed at least 35 people and injured over 50, prompting calls for reforms in school building safety across Pakistan.",
-      "keywords": [
-        "Peshawar",
-        "school roof collapse",
-        "building safety",
-        "Pakistan education",
-        "infrastructure"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS_B6UZd_Kuc3D_l2lP0ihoR353f-xwxWOxnZGVThoaY-jvwgLpfrpc-AtB1Ws",
-      "related": [
-        {
-          "title": "Teacher, 30 students killed in Peshawar school roof collapse",
-          "url": "https://www.dawn.com/news/2037299",
-          "source": "Dawn"
-        },
-        {
-          "title": "School roof collapse in Pakistan kills at least 35 and injures more than 50",
-          "url": "https://apnews.com/article/pakistan-school-roof-collapse-peshawar-c0be44527f22b43ea16a1f10d4b43e54",
-          "source": "AP News"
-        },
-        {
-          "title": "Classrooms of neglect",
-          "url": "https://tribune.com.pk/story/2635074/classrooms-of-neglect",
-          "source": "The Express Tribune"
-        }
-      ],
-      "word_count": 467,
-      "page": "p/peshawar-school-roof-collapse-kills-35-raises-safety-concerns.html"
-    },
-    {
-      "title": "Pakistan to Chair World Bank and IMF Boards in 2027",
-      "slug": "pakistan-to-chair-world-bank-and-imf-boards-in-2027",
-      "topic": "world bank group",
-      "date": "2026-10-16",
-      "date_pkt": "2026-10-16 03:45 PM PKT",
-      "excerpt": "Pakistan is set to take over the chairmanship of both the World Bank and IMF Boards in 2027, a position it has not held in more than 70 years. The appointment coincides with the Borrowers’ Platform launching its first Governing Council meet",
-      "meta_description": "Pakistan will chair the World Bank and IMF Boards in 2027, its first such role in over seven decades, highlighting a rise in its global financial influence.",
-      "keywords": [
-        "Pakistan",
-        "World Bank",
-        "IMF",
-        "global finance",
-        "borrowers platform"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRuOlHIH-fEAth94ZGAhtuEwSGeVaMA0FWg9g_4WLLwyt0ye2ke_x2B772_VWU",
-      "related": [
-        {
-          "title": "Pakistan to assume IMF, World Bank board chairmanship for first time in over 7 decades",
-          "url": "https://www.dawn.com/news/2037553",
-          "source": "Dawn"
-        },
-        {
-          "title": "Pakistan to chair World Bank, IMF Boards in 2027",
-          "url": "https://www.brecorder.com/news/40444517",
-          "source": "Business Recorder"
-        },
-        {
-          "title": "Borrowers’ Platform enters new phase with first Governing Council meeting in Bangkok",
-          "url": "https://unctad.org/news/borrowers-platform-enters-new-phase-first-governing-council-meeting-bangkok",
-          "source": "UN Trade and Development (UNCTAD)"
-        }
-      ],
-      "word_count": 716,
-      "page": "p/pakistan-to-chair-world-bank-and-imf-boards-in-2027.html"
-    },
-    {
-      "title": "New York Weather Forecast Highlights Partly Cloudy Conditions",
-      "slug": "new-york-weather-forecast-highlights-partly-cloudy-conditions",
-      "topic": "clima",
-      "date": "2026-10-16",
-      "date_pkt": "2026-10-16 03:45 PM PKT",
-      "excerpt": "New York City is experiencing typical mid-October weather with partly cloudy skies and mild temperatures. Local forecasts indicate stable conditions for the upcoming weekend.",
-      "meta_description": "New York residents face partly cloudy skies and stable temperatures this week, with forecasts for October 15 and 16 showing typical autumn weather patterns.",
-      "keywords": [
-        "New York weather",
-        "October forecast",
-        "autumn climate",
-        "NYC temperature",
-        "weather update"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "10000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcThMWgQH7gyVRJwPgj6mvNTGSaDHykzq5oA0Xn8juIIx8VCzHMqYzo-PjDK9xI",
-      "related": [
-        {
-          "title": "Pronóstico del clima en Nueva York para este viernes 16 de octubre",
-          "url": "https://eldiariony.com/2026/10/16/pronostico-del-clima-en-nueva-york-para-este-viernes-16-de-octubre/",
-          "source": "El Diario NY"
-        },
-        {
-          "title": "New York tuvo una jornada de cielo parcialmente nublado durante este jueves 15 de octubre",
-          "url": "https://tn.com.ar/estados-unidos/clima/2026/10/15/como-estara-el-clima-en-new-york-este-jueves-15-de-octubre/",
-          "source": "TN"
-        },
-        {
-          "title": "Clima hoy en New York, Estados Unidos: el pronóstico del tiempo para este jueves 15 octubre de 2026",
-          "url": "https://www.clarin.com/estados-unidos/clima/clima-hoy-new-york-estados-unidos-pronostico-tiempo-jueves-15-octubre-2026_0_mC6e1D9rgl.html",
-          "source": "Clarin.com"
-        }
-      ],
-      "word_count": 729,
-      "page": "p/new-york-weather-forecast-highlights-partly-cloudy-conditions.html"
-    },
-    {
-      "title": "NCA AT 11: A Regime’s Illusion of Continuity",
-      "slug": "nca-at-11-a-regimes-illusion-of-continuity",
-      "topic": "nca",
-      "date": "2026-10-16",
-      "date_pkt": "2026-10-16 03:45 PM PKT",
-      "excerpt": "Coverage linked to \"nca\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "nca: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "nca",
-        "nca news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqMy_GQr2fMLIAV4HaZprw250Hb6gEPCEReJm4CWNm-7xkQIsdNqX5dE55f-Y",
-      "related": [
-        {
-          "title": "NCA AT 11: A Regime’s Illusion of Continuity",
-          "url": "https://english.shannews.org/archives/30362",
-          "source": "Shan Herald Agency for News"
-        },
-        {
-          "title": "Opportune Moment to Launch Peace Process",
-          "url": "https://www.gnlm.com.mm/opportune-moment-to-launch-peace-process/",
-          "source": "Global New Light Of Myanmar"
-        },
-        {
-          "title": "Myanmar marks 11th anniversary of Nationwide Ceasefire Agreement",
-          "url": "https://elevenmyanmar.com/news/myanmar-marks-11th-anniversary-of-nationwide-ceasefire-agreement",
-          "source": "elevenmyanmar.com"
-        }
-      ],
-      "word_count": 322,
-      "page": "p/nca-at-11-a-regimes-illusion-of-continuity.html"
-    },
-    {
-      "title": "Israeli Army Publishes Docs Linking Yahya al‑Sinwar to Oct 7 Attack",
-      "slug": "israeli-army-publishes-docs-linking-yahya-alsinwar-to-oct-7-attack",
-      "topic": "يحيى السنوار",
-      "date": "2026-10-16",
-      "date_pkt": "2026-10-16 03:45 PM PKT",
-      "excerpt": "The Israeli Defense Forces published files attributed to Hamas leader Yahya al‑Sinwar, claiming they reveal his role in the Oct 7 operation. A personal note from his son was also released, adding a human angle to the controversy.",
-      "meta_description": "Israeli forces released documents they say were written by Hamas commander Yahya al‑Sinwar, detailing the planning of the Oct 7 assault, sparking debate ahead o",
-      "keywords": [
-        "Yahya al‑Sinwar",
-        "Oct 7 attack",
-        "Israeli army documents",
-        "Hamas engineer",
-        "Middle East conflict"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTLHIjjO5GJjFCWxVRgclYzbuI-xJkRIOqPyUBiLJvBtu5Dv_Jr90MYyKM8hJ8",
-      "related": [
-        {
-          "title": "\"بث الرعب في تل أبيب\".. الجيش الإسرائيلي يكشف وثائق منسوبة للسنوار عن هجوم 7 أكتوبر",
-          "url": "https://arabic.euronews.com/2026/10/16/israeli-army-publishes-sinwar-documents-oct-7",
-          "source": "Euronews.com"
-        },
-        {
-          "title": "الجيش الإسرائيلي ينشر رسالة نجل يحيى السنوار",
-          "url": "https://www.eremnews.com/news/arab-world/vjbh56t",
-          "source": "إرم نيوز"
-        },
-        {
-          "title": "الذكرى السنوية الثانية لاستشهاد قائد “حماس” يحيى السنوار… مهندس هجوم السابع من أكتوبر",
-          "url": "https://www.alquds.co.uk/%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%89-%D8%A7%D9%84%D8%B3%D9%86%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9-%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D9%87%D8%A7%D8%AF-%D9%82%D8%A7%D8%A6%D8%AF/",
-          "source": "القدس العربي"
-        }
-      ],
-      "word_count": 671,
-      "page": "p/israeli-army-publishes-docs-linking-yahya-alsinwar-to-oct-7-attack.html"
-    },
-    {
-      "title": "Grand Theft Auto VI Launch Trailer",
-      "slug": "grand-theft-auto-vi-launch-trailer",
-      "topic": "grand theft auto vi launch trailer",
-      "date": "2026-10-16",
-      "date_pkt": "2026-10-16 03:45 PM PKT",
-      "excerpt": "Coverage linked to \"grand theft auto vi launch trailer\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "grand theft auto vi launch trailer: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "grand theft auto vi launch trailer",
-        "grand theft auto vi launch trailer news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "5000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR07ooftuCY2wq75iIh82tTWmD1cXAC0XRDEqsop84SROtog8TAOkBL5FzZxF4",
-      "related": [
-        {
-          "title": "Grand Theft Auto VI Launch Trailer",
-          "url": "https://www.rockstargames.com/VI/launch-trailer",
-          "source": "Rockstar Games"
-        },
-        {
-          "title": "'GTA 6': Every trailer released so far",
-          "url": "https://mashable.com/entertainment/gta-grand-theft-auto-6-all-trailers",
-          "source": "Mashable"
-        },
-        {
-          "title": "Justice Composed the Score for Grand Theft Auto VI",
-          "url": "https://pitchfork.com/story/justice-composed-the-score-for-grand-theft-auto-vi/",
-          "source": "Pitchfork"
-        }
-      ],
-      "word_count": 338,
-      "page": "p/grand-theft-auto-vi-launch-trailer.html"
-    },
-    {
-      "title": "FIFA faces calls to scrap Trump peace prize amid political backlash",
-      "slug": "fifa-faces-calls-to-scrap-trump-peace-prize-amid-political-backlash",
-      "topic": "fifa peace prize",
-      "date": "2026-10-16",
-      "date_pkt": "2026-10-16 03:45 PM PKT",
-      "excerpt": "FIFA’s newly created Peace Prize, first awarded to former US President Donald Trump, has sparked a political firestorm. Senior FIFA figures are urging the governing body to either scrap the award or strip it of political connotations.",
-      "meta_description": "FIFA is reviewing the future of its Peace Prize after former US President Donald Trump received the inaugural award, prompting senior officials to urge its remo",
-      "keywords": [
-        "FIFA",
-        "Peace Prize",
-        "Donald Trump",
-        "Gianni Infantino",
-        "sports politics"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS1-tjQ4ThZ8H-QbJz732GpEWJWPVPxIk6xN_ujzu9x0l4OKKRv1gSmIPIjz-E",
-      "related": [
-        {
-          "title": "Infantino told by top Fifa figures to scrap or depoliticise peace prize after Trump furore",
-          "url": "https://www.theguardian.com/football/2026/oct/16/gianni-infantino-fifa-peace-prize-scrap-politicians-donald-trump",
-          "source": "The Guardian"
-        },
-        {
-          "title": "FIFA to review future of Peace Prize first awarded to Donald Trump",
-          "url": "https://www.usatoday.com/story/sports/soccer/2026/10/15/fifa-peace-prize-future-review-donald-trump/92265542007/",
-          "source": "USA Today"
-        },
-        {
-          "title": "FIFA panel to probe Trump peace prize, decide whether to scrap award",
-          "url": "https://www.palmbeachpost.com/story/news/trump/2026/10/15/fifa-panel-to-probe-trump-peace-prize-decide-whether-to-scrap-award/92266172007/",
-          "source": "The Palm Beach Post"
-        }
-      ],
-      "word_count": 847,
-      "page": "p/fifa-faces-calls-to-scrap-trump-peace-prize-amid-political-backlash.html"
-    },
-    {
-      "title": "Explosion at Intel's Kiryat Gat Plant Leaves Workers Dead, Sends Shares Tumbling",
-      "slug": "explosion-at-intels-kiryat-gat-plant-leaves-workers-dead-sends-shares-tumbling",
-      "topic": "explosion",
-      "date": "2026-10-16",
-      "date_pkt": "2026-10-16 03:45 PM PKT",
-      "excerpt": "A blast at Intel's Kiryat Gat plant in Israel resulted in worker fatalities and raised safety concerns. The incident triggered a swift sell‑off of Intel shares on U.S. exchanges.",
-      "meta_description": "An explosion at Intel's Kiryat Gat manufacturing facility in Israel killed at least one worker, prompted safety investigations and drove a sharp drop in Intel's",
-      "keywords": [
-        "Intel",
-        "explosion",
-        "Kiryat Gat",
-        "stock market",
-        "US investors"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSrrk2VGqV1GBdsGvhLp_6cwk0RGOt8JqVWxDcUbWya3ZE8bsvTKubGwOzgxD0",
-      "related": [
-        {
-          "title": "Intel factory accident kills two workers in Israel",
-          "url": "https://www.oregonlive.com/silicon-forest/2026/10/intel-accident-kills-two-workers-in-israel.html",
-          "source": "OregonLive.com"
-        },
-        {
-          "title": "Worker dies after explosion at Intel’s Kiryat Gat plant",
-          "url": "https://www.calcalistech.com/ctechnews/article/914lhis9l",
-          "source": "CTech"
-        },
-        {
-          "title": "Why Intel Stock Hit the Skids on Wednesday",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-intel-stock-hit-skids-183252417.html",
-          "source": "Yahoo Finance"
-        }
-      ],
-      "word_count": 734,
-      "page": "p/explosion-at-intels-kiryat-gat-plant-leaves-workers-dead-sends-shares-tumbling.html"
-    },
-    {
-      "title": "British father fined after toddler's death in Cyprus hotel fall",
-      "slug": "british-father-fined-after-toddlers-death-in-cyprus-hotel-fall",
-      "topic": "king evelthon beach hotel and resort",
-      "date": "2026-10-16",
-      "date_pkt": "2026-10-16 03:45 PM PKT",
-      "excerpt": "A British father has been fined for causing the death of his two-year-old son in a fall at a Cyprus hotel. The case highlights ongoing concerns regarding safety measures for young children in resort accommodations.",
-      "meta_description": "A British man has been fined for causing the death of his two-year-old son at a Cyprus resort. The incident has sparked debate over hotel safety standards for y",
-      "keywords": [
-        "Cyprus hotel fall",
-        "Joshua Foster",
-        "child safety",
-        "British father",
-        "hotel liability"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTQ_UoACEfR2ggQsjNnNKiZjRct7EOC7aqkscyp5NT0gOTCoSdo2XR2790RjRE",
-      "related": [
-        {
-          "title": "Dad fined after son, 2, died in Cyprus hotel fall",
-          "url": "https://www.bbc.co.uk/news/articles/cvj6j1klez88o",
-          "source": "BBC"
-        },
-        {
-          "title": "British father fined for causing death of his two-year-old son in Cyprus",
-          "url": "https://news.sky.com/story/british-father-fined-for-causing-death-of-his-two-year-old-son-in-cyprus-13599857",
-          "source": "Sky News"
-        },
-        {
-          "title": "Joshua Foster: British father avoids jail for causing son's death in Cyprus hotel fall",
-          "url": "https://www.independent.co.uk/news/world/europe/joshua-foster-cyprus-son-sentence-b3067977.html",
-          "source": "The Independent"
-        }
-      ],
-      "word_count": 859,
-      "page": "p/british-father-fined-after-toddlers-death-in-cyprus-hotel-fall.html"
-    },
-    {
-      "title": "Alfredo Adame es condenado tras perder demanda contra periodista, ¿irá…",
-      "slug": "alfredo-adame-es-condenado-tras-perder-demanda-contra-periodista-ira",
-      "topic": "condenado",
-      "date": "2026-10-16",
-      "date_pkt": "2026-10-16 03:45 PM PKT",
-      "excerpt": "Coverage linked to \"condenado\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "condenado: coverage and context for readers in US. Summary of related reports and what to verify next.",
-      "keywords": [
-        "condenado",
-        "condenado news",
-        "US",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSczFTXkktSvPjvYLrl6lHd4Krw5JS4-cEzRYKL0wMyNvUIlG8cFdHyvDSq4KY",
-      "related": [
-        {
-          "title": "Alfredo Adame es condenado tras perder demanda contra periodista, ¿irá a prisión?: él rompe el silencio",
-          "url": "https://www.univision.com/famosos/alfredo-adame-condena-demanda-periodista-gustavo-adolfo-infante",
-          "source": "Univision"
-        },
-        {
-          "title": "Alfredo Adame es declarado culpable por discriminación: ¿Cuál es la sentencia que debe cumplir?",
-          "url": "https://www.elfinanciero.com.mx/espectaculos/2026/10/15/cual-es-la-sentencia-de-alfredo-adame-por-discriminacion-en-caso-contra-gustavo-adolfo-infante/",
-          "source": "El Financiero"
-        },
-        {
-          "title": "Alfredo Adame, la justicia tarda, pero llega",
-          "url": "https://www.tabascohoy.com/alfredo-adame-la-justicia-tarda-pero-llega/",
-          "source": "Tabasco HOY"
-        }
-      ],
-      "word_count": 329,
-      "page": "p/alfredo-adame-es-condenado-tras-perder-demanda-contra-periodista-ira.html"
-    },
-    {
-      "title": "\"Compellingly Nutty\": Tom Hardy and Gary Oldman's \"Powerful\" Crime…",
-      "slug": "compellingly-nutty-tom-hardy-and-gary-oldmans-powerful-crime",
-      "topic": "gary oldman",
-      "date": "2026-10-16",
-      "date_pkt": "2026-10-16 03:45 PM PKT",
-      "excerpt": "Coverage linked to \"gary oldman\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "gary oldman: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "gary oldman",
-        "gary oldman news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTO8Rg8b01a0LfBx4VYjLzMCPms58gJCBhUwX1a4I9rw7B3h0xnDlBizJwIzxU",
-      "related": [
-        {
-          "title": "\"Compellingly Nutty\": Tom Hardy and Gary Oldman's \"Powerful\" Crime Thriller is Streaming Now",
-          "url": "https://www.esquire.com/uk/culture/film/a74121334/tom-hardy-gary-oldman-lawless/",
-          "source": "Esquire"
-        },
-        {
-          "title": "'Tom Hardy & Gary Oldman are incredible': This 'gritty' crime thriller is your next unmissable watch",
-          "url": "https://www.cosmopolitan.com/uk/entertainment/a74129591/tom-hardy-gary-oldman-lawless-crime-thriller/",
-          "source": "Cosmopolitan"
-        },
-        {
-          "title": "Tom Hardy and Gary Oldman's crime thriller is streaming again",
-          "url": "https://www.geo.tv/latest/686359-tom-hardy-and-gary-oldmans-crime-thriller-is-streaming-again",
-          "source": "Geo News"
-        }
-      ],
-      "word_count": 336,
-      "page": "p/compellingly-nutty-tom-hardy-and-gary-oldmans-powerful-crime.html"
-    },
-    {
-      "title": "سعر الدولار في مصر يرتفع مجدداً.. ماذا يحدث للجنيه؟",
-      "slug": "news-1792061817",
-      "topic": "سعر الدولار اليوم",
-      "date": "2026-10-15",
-      "date_pkt": "2026-10-15 03:53 PM PKT",
-      "excerpt": "Coverage linked to \"سعر الدولار اليوم\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "سعر الدولار اليوم: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "سعر الدولار اليوم",
-        "سعر الدولار اليوم news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRmdJ-JuPXPcxTYFTISnk0y81PPYW8ip0DQ4TtG0zDYw8LhyCvASghs-rYoeSE",
-      "related": [
-        {
-          "title": "سعر الدولار في مصر يرتفع مجدداً.. ماذا يحدث للجنيه؟",
-          "url": "https://www.alarabiya.net/aswaq/egypt-economy/2026/10/15/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-%D9%8A%D8%B1%D8%AA%D9%81%D8%B9-%D9%85%D8%AC%D8%AF%D8%AF%D8%A7-%D9%85%D8%A7%D8%B0%D8%A7-%D9%8A%D8%AD%D8%AF%D8%AB-%D9%84%D9%84%D8%AC%D9%86%D9%8A%D9%87-",
-          "source": "العربية"
-        },
-        {
-          "title": "سعر الدولار مقابل الجنيه اليوم الأربعاء.. استقرار في البنوك المصرية",
-          "url": "https://www.alyaum.com/articles/6686874/%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%85%D8%A7%D9%84-%D9%88%D8%A3%D8%B9%D9%85%D8%A7%D9%84/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%AC%D9%86%D9%8A%D9%87-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D8%A7%D8%A1-%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9",
-          "source": "alyaum"
-        },
-        {
-          "title": "نشرة الشروق الاقتصادية.. الدولار يتجاوز الـ53 جنيها لأول مرة منذ مايو الماضي.. وصندوق النقد الدولي يصدر نداء عاجلا لضبط أوضاع المالية العامة",
-          "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=14102026&id=3bbad4e2-8dae-4bd0-b7cb-508210cb3aec",
-          "source": "بوابة الشروق"
-        }
-      ],
-      "word_count": 342,
-      "page": "p/news-1792061817.html"
-    },
-    {
-      "title": "السعودية تعترض صاروخاً في المدينة المنورة، وجماعة أنصار الله تنفي",
-      "slug": "news-1792061824",
-      "topic": "صاروخ مجنح كروز",
-      "date": "2026-10-15",
-      "date_pkt": "2026-10-15 03:53 PM PKT",
-      "excerpt": "Coverage linked to \"صاروخ مجنح كروز\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "صاروخ مجنح كروز: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "صاروخ مجنح كروز",
-        "صاروخ مجنح كروز news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTjF6j89ierT9iU92keechUEA4c_3uIWGQhzHVNomKXJJ6UHO9GFS-XHS3TPkM",
-      "related": [
-        {
-          "title": "السعودية تعترض صاروخاً في المدينة المنورة، وجماعة أنصار الله تنفي",
-          "url": "https://www.bbc.com/arabic/articles/cmz6538705gwo",
-          "source": "BBC"
-        },
-        {
-          "title": "السعودية تعلن اعتراض صاروخ \"كروز\" بمنطقة المدينة المنورة",
-          "url": "https://www.skynewsarabia.com/middle-east/1898397-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D8%B5%D8%A7%D8%B1%D9%88%D8%AE-%D9%83%D8%B1%D9%88%D8%B2-%D8%A8%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B1%D8%A9",
-          "source": "سكاي نيوز عربية"
-        },
-        {
-          "title": "\"التحالف\": اعتراض وتدمير صاروخ مجنح في منطقة المدينة المنورة",
-          "url": "https://arabic.cnn.com/middle-east/article/2026/10/15/coalition-intercepts-cruise-missile-over-madina",
-          "source": "CNN Arabic"
-        }
-      ],
-      "word_count": 330,
-      "page": "p/news-1792061824.html"
-    },
-    {
-      "title": "ارتفاع سعر الريال مقابل الجنيه اليوم الخميس في البنوك المصرية",
-      "slug": "news-1792061815",
-      "topic": "الريال مقابل الجنيه المصري",
-      "date": "2026-10-15",
-      "date_pkt": "2026-10-15 03:53 PM PKT",
-      "excerpt": "Coverage linked to \"الريال مقابل الجنيه المصري\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "الريال مقابل الجنيه المصري: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "الريال مقابل الجنيه المصري",
-        "الريال مقابل الجنيه المصري news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "2000+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSUV0DGV8tYJyPc67f6TfdejeBrczLcrsR0pLsEBOdSjJhlH1_vWJFA4sKEPlE",
-      "related": [
-        {
-          "title": "ارتفاع سعر الريال مقابل الجنيه اليوم الخميس في البنوك المصرية",
-          "url": "https://www.alyaum.com/articles/6687038/%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%85%D8%A7%D9%84-%D9%88%D8%A3%D8%B9%D9%85%D8%A7%D9%84/%D8%A7%D8%B1%D8%AA%D9%81%D8%A7%D8%B9-%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%AC%D9%86%D9%8A%D9%87-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AE%D9%85%D9%8A%D8%B3-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9",
-          "source": "alyaum"
-        },
-        {
-          "title": "ارتفاع سعر الريال السعودي مقابل الجنيه في 5 بنوك خلال تعاملات اليوم",
-          "url": "https://www.masrawy.com/news/news-banking/details/2026/10/14/3062582/%D8%A7%D8%B1%D8%AA%D9%81%D8%A7%D8%B9-%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%AC%D9%86%D9%8A%D9%87-%D9%81%D9%8A-5-%D8%A8%D9%86%D9%88%D9%83-%D8%AE%D9%84%D8%A7%D9%84-%D8%AA%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85",
-          "source": "Masrawy"
-        },
-        {
-          "title": "أسعار العملات مقابل الريال اليوم الأربعاء 14 أكتوبر 2026",
-          "url": "https://www.rowadalaamal.com/%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%AA-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3-454/",
-          "source": "مجلة رواد الأعمال"
-        }
-      ],
-      "word_count": 338,
-      "page": "p/news-1792061815.html"
-    },
-    {
-      "title": "Wuhan Open: Sonay Kartal upsets Belinda Bencic, Aryna Sabalenka beaten…",
-      "slug": "wuhan-open-sonay-kartal-upsets-belinda-bencic-aryna-sabalenka-beaten",
-      "topic": "sonay kartal",
-      "date": "2026-10-15",
-      "date_pkt": "2026-10-15 03:53 PM PKT",
-      "excerpt": "Coverage linked to \"sonay kartal\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "sonay kartal: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "sonay kartal",
-        "sonay kartal news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQSwCmc_UoXnt6Y2nVbkl__eAEumIDzOcnksVWfe_heuwvRePIEHvqtTPKNq6U",
-      "related": [
-        {
-          "title": "Wuhan Open: Sonay Kartal upsets Belinda Bencic, Aryna Sabalenka beaten by Ann Li",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/cw33xzxd3gj2o",
-          "source": "BBC"
-        },
-        {
-          "title": "Belinda Bencic Is Eliminated Early Once Again",
-          "url": "https://www.bluewin.ch/en/sport/belinda-bencic-is-eliminated-early-again-li.3634956",
-          "source": "blue News"
-        },
-        {
-          "title": "Wuhan Open: GB's Sonay Kartal beats Anhelina Kalinina, but Zheng Qinwen withdraws",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/c64g104ly00do",
-          "source": "BBC"
-        }
-      ],
-      "word_count": 329,
-      "page": "p/wuhan-open-sonay-kartal-upsets-belinda-bencic-aryna-sabalenka-beaten.html"
-    },
-    {
-      "title": "West Indies vs India: Six-hitting power and bowling depth shape series outlook",
-      "slug": "west-indies-vs-india-six-hitting-power-and-bowling-depth-shape-series-outlook",
-      "topic": "west indies cricket",
-      "date": "2026-10-15",
-      "date_pkt": "2026-10-15 03:53 PM PKT",
-      "excerpt": "The West Indies and India clash in a tightly contested series, with six‑hitting prowess and bowling resources under the spotlight. Pakistani viewers are watching closely as the teams adjust tactics and line‑ups.",
-      "meta_description": "West Indies cricket faces India in a high‑stakes series as six‑hitting power and bowling depth become key factors for fans in Pakistan, with live scores and exp",
-      "keywords": [
-        "West Indies cricket",
-        "India vs West Indies",
-        "six hitting",
-        "bowling talent",
-        "Pakistan fans"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcStyhPk7bA3NBPaA8berzjlz0ziXI953DFjPrznBkreoqJAA1PkWwAC95Lw-4E",
-      "related": [
-        {
-          "title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
-          "url": "https://www.cricbuzz.com/player-match-performance/match/151532/player/14701/bowling?inningsId=1",
-          "source": "Cricbuzz"
-        },
-        {
-          "title": "Can't replace Bumrah, but we have talented bowlers: Samson",
-          "url": "https://www.cricbuzz.com/cricket-videos/213957/cant-replace-bumrah-but-we-have-talented-bowlers-samson",
-          "source": "Cricbuzz"
-        },
-        {
-          "title": "Six-hitting the difference between WI and India?",
-          "url": "https://www.cricinfo.com/cricket-videos/six-hitting-the-difference-between-wi-and-ind-1558504",
-          "source": "Cricinfo"
-        }
-      ],
-      "word_count": 893,
-      "page": "p/west-indies-vs-india-six-hitting-power-and-bowling-depth-shape-series-outlook.html"
-    },
-    {
-      "title": "Vijay Scores Century as India Selectors Face Leadership Shift",
-      "slug": "vijay-scores-century-as-india-selectors-face-leadership-shift",
-      "topic": "ಕ್ರಿಕೆಟ್",
-      "date": "2026-10-15",
-      "date_pkt": "2026-10-15 03:53 PM PKT",
-      "excerpt": "Vijay Basavaraj has anchored Karnataka's batting with a century, while significant changes are reported within the Indian cricket administration. Fans also reacted to a unique birthday gift for Babar Azam.",
-      "meta_description": "Vijay Basavaraj hits a century for Karnataka, while reports suggest a 24-test veteran may replace Parthiv Patel as India's chief selector.",
-      "keywords": [
-        "cricket",
-        "Vijay Basavaraj",
-        "Team India",
-        "selection committee",
-        "Babar Azam"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR3VZ3YeclgYK6hqlUWaXBT6bBtAr5twxqRcEuZLO-dfNWp3fXtNbh2py5CNZ8",
-      "related": [
-        {
-          "title": "ಕ್ರಿಕೆಟ್‌: ವಿಜಯ್‌ ಶತಕ",
-          "url": "https://www.prajavani.net/sports/cricket/bengaluru-cricket-vijay-basavaraj-century-karnataka-team-4331437",
-          "source": "Prajavani"
-        },
-        {
-          "title": "‘ಈ ಬ್ಯಾಟ್‌ನಿಂದಲಾದರೂ ರನ್ ಗಳಿಸು ಗುರು!’—ಬಾಬರ್ ಅಜಂಗೆ ಸಿಕ್ಕ ಬರ್ತ್‌ಡೇ ಗಿಫ್ಟ್ ಕಂಡು ನೆಟ್ಟಿಗರ ವ್ಯಂಗ್ಯ",
-          "url": "https://kannada.asianetnews.com/cricket-sports/babar-azam-gets-special-cricket-bat-on-birthday-fans-react-with-sarcastic-comments-kvn/articleshow-7fo5fcu",
-          "source": "Asianet News Kannada"
-        },
-        {
-          "title": "Team India ಸೆಲೆಕ್ಷನ್ ಕಮಿಟಿ ಅಧ್ಯಕ್ಷರ ಆಯ್ಕೆ: ರೇಸ್ ನಿಂದ ಪಾರ್ಥಿವ್‌ ಪಟೇಲ್ ಔಟ್? 24 ಟೆಸ್ಟ್‌ ಅನುಭವದ ಮಾಜಿ ಕ್ರಿಕೆಟಿಗನ ಹೆಸರು ಮುಂಚೂಣಿಗೆ!",
-          "url": "https://www.kannadaprabha.com/cricket/2026/Oct/14/not-parthiv-patel-24-test-veteran-to-be-next-full-time-chief-selector-reports",
-          "source": "Kannada Prabha Online"
-        }
-      ],
-      "word_count": 739,
-      "page": "p/vijay-scores-century-as-india-selectors-face-leadership-shift.html"
-    },
-    {
-      "title": "US adopts AI tools to sharpen weather forecasts amid fire risk alerts",
-      "slug": "us-adopts-ai-tools-to-sharpen-weather-forecasts-amid-fire-risk-alerts",
-      "topic": "الطقس",
-      "date": "2026-10-15",
-      "date_pkt": "2026-10-15 03:53 PM PKT",
-      "excerpt": "American meteorologists are turning to artificial intelligence to refine short‑term forecasts as fire danger climbs in the southern states. New tools from Microsoft and recent research promise more accurate predictions ahead of the weekend ",
-      "meta_description": "US weather agencies integrate new AI models from Microsoft and research advances to improve subseasonal forecasts, while fire weather watches warn of heightened",
-      "keywords": [
-        "weather forecasting",
-        "machine learning",
-        "subseasonal",
-        "Microsoft",
-        "fire weather"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRjFLqKllHoqUWBvCDUW8Ol-gj02YHbO13z_EDQPqVOyWUMK2HySdk0mnWW1Mg",
-      "related": [
-        {
-          "title": "Advancing subseasonal forecasting with machine learning",
-          "url": "https://www.nature.com/articles/s41586-026-11126-x",
-          "source": "Nature"
-        },
-        {
-          "title": "Microsoft has a new machine learning tool to improve weather forecasts",
-          "url": "https://www.theverge.com/science/1011127/ai-weather-forecast-microsoft",
-          "source": "The Verge"
-        },
-        {
-          "title": "Fire Weather Watch issued along and north of I-10 for Friday",
-          "url": "https://cedarnews.net/newstasks/1064386/fire-weather-watch-issued-along-and-north-of-i-10-for-friday/",
-          "source": "cedarnews.net"
-        }
-      ],
-      "word_count": 710,
-      "page": "p/us-adopts-ai-tools-to-sharpen-weather-forecasts-amid-fire-risk-alerts.html"
-    },
-    {
-      "title": "Trade rumors swirl around Braves star Ronald Acuña Jr.",
-      "slug": "trade-rumors-swirl-around-braves-star-ronald-acuna-jr",
-      "topic": "ronald acuña jr. trade rumors",
-      "date": "2026-10-15",
-      "date_pkt": "2026-10-15 03:53 PM PKT",
-      "excerpt": "Speculation mounts over the future of Atlanta's Ronald Acuña Jr. after reports suggest the Braves could entertain offers from the Mariners, Royals or Yankees. No official comment has been made as the trade deadline approaches.",
-      "meta_description": "MLB trade chatter intensifies as reports link Atlanta Braves outfielder Ronald Acuña Jr. with possible moves to Seattle, Kansas City or New York, sparking fan d",
-      "keywords": [
-        "Ronald Acuña Jr.",
-        "MLB trade rumors",
-        "Atlanta Braves",
-        "Seattle Mariners",
-        "Kansas City Royals"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTMzH2KEBU7CHohLKDtBnn8fIwKBiWMwkc3rfpn7wMZLkJWfajQaoh7nNDTkHI",
-      "related": [
-        {
-          "title": "Atlanta Braves Trade Pitch Dumps Ronald Acuña Jr. to Mariners for 2 Players",
-          "url": "https://sports.yahoo.com/articles/atlanta-braves-trade-pitch-dumps-181028286.html",
-          "source": "Yahoo Sports"
-        },
-        {
-          "title": "Would the Kansas City Royals have enough resources for Ronald Acuña Jr? | Kansas City Royals Podcast",
-          "url": "https://www.localmemphis.com/video/sports/locked-on/lo-kansas-city/royals-show/would-the-kansas-city-royals-have-enough-resources-for-ronald-acua-jr-kansas-city-royals-podcast/535-1ef4534f-5b8b-4cf0-a4b3-942178f0f0ad",
-          "source": "localmemphis.com"
-        },
-        {
-          "title": "Yankees’ Ronald Acuna Jr trade hopes are unrealistic, even if he’d be perfect",
-          "url": "https://www.sportingnews.com/us/mlb/new-york-yankees/news/yankees-ronald-acuna-jr-trade-hopes-unrealistic-perfect/73f1ca58fda6eea62da6cf93",
-          "source": "Sporting News"
-        }
-      ],
-      "word_count": 942,
-      "page": "p/trade-rumors-swirl-around-braves-star-ronald-acuna-jr.html"
-    },
-    {
-      "title": "Tiruchirappalli's Kamarajar Library nears completion, train timings changed",
-      "slug": "tiruchirappallis-kamarajar-library-nears-completion-train-timings-changed",
-      "topic": "திருச்சிராப்பள்ளி",
-      "date": "2026-10-15",
-      "date_pkt": "2026-10-15 03:53 PM PKT",
-      "excerpt": "Construction of the massive Kamarajar Library and Knowledge Centre in Tiruchirappalli is now 75% finished, marking a major cultural investment. Simultaneously, rail authorities have altered several train timings, cancelling the Vellore‑Arak",
-      "meta_description": "India's Tiruchirappalli sees the 290‑crore Kamarajar Library and Knowledge Centre reach 75% completion, while regional rail services face timetable revisions, i",
-      "keywords": [
-        "Tiruchirappalli",
-        "Kamarajar Library",
-        "train schedule",
-        "Vellore Cantonment",
-        "Indian railways"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThgYNgTsXEkJJyniVTsvLSSeKltoZ-i2GOLh7zxrZ44KQJSNPiRNZ_uB4Z88I",
-      "related": [
-        {
-          "title": "திருச்சியில் ₹290 கோடியில் பிரம்மாண்ட காமராஜர் நூலகம் மற்றும் அறிவுசார் மையம்: 75% பணிகள் நிறைவு!",
-          "url": "https://tamil.samayam.com/tamil-nadu/tiruchirappalli/world-class-kamarajar-library-in-tiruchirappalli-at-290-crores-75-work-completed/articleshow/134933477.cms",
-          "source": "Samayam Tamil"
-        },
-        {
-          "title": "அக்.16, 22-இல் வேலூா் கண்டோமென்ட் - அரக்கோணம் மெமு ரயில் ரத்து",
-          "url": "https://www.dinamani.com/all-editions/edition-vellore/2026/Oct/12/vellore-cantonment-arakkonam-memu-train-cancelled-on-oct-16-and-22",
-          "source": "DinaMani"
-        },
-        {
-          "title": "திருச்சி வழியாக செல்லும் ரெயில்களின் சேவையில் மாற்றம்",
-          "url": "https://www.dailythanthi.com/news/tamilnadu/changes-in-train-services-passing-through-trichy",
-          "source": "Daily Thanthi"
-        }
-      ],
-      "word_count": 745,
-      "page": "p/tiruchirappallis-kamarajar-library-nears-completion-train-timings-changed.html"
-    },
-    {
-      "title": "The Diplomat Season 4 Debut Draws Critical Praise for Tension",
-      "slug": "the-diplomat-season-4-debut-draws-critical-praise-for-tension",
-      "topic": "the diplomat",
-      "date": "2026-10-15",
-      "date_pkt": "2026-10-15 03:53 PM PKT",
-      "excerpt": "The fourth season of The Diplomat has arrived to strong critical acclaim in the UK. Reviewers describe the new episodes as an exquisitely stressful yet highly engaging return to high-stakes diplomacy.",
-      "meta_description": "The Diplomat returns for a fourth season, with critics in the UK calling it the most entertaining political drama on television right now.",
-      "keywords": [
-        "The Diplomat",
-        "political drama",
-        "TV review",
-        "season four",
-        "streaming news"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKbLR3SUer_Aqoi5csIORV9tyCKkZYL889w5FVGELxKiXqu50-0-8bZiiW208",
-      "related": [
-        {
-          "title": "The Diplomat review – nothing else on TV is as entertaining as this exquisitely stressful show",
-          "url": "https://www.theguardian.com/tv-and-radio/2026/oct/15/the-diplomat-review-nothing-else-on-tv-is-as-entertaining-as-this-exquisitely-stressful-show",
-          "source": "The Guardian"
-        },
-        {
-          "title": "The Diplomat series four review — still the snappiest political drama on TV",
-          "url": "https://www.thetimes.com/culture/tv-radio/article/the-diplomat-season-four-review-g80gtbmqn",
-          "source": "The Times"
-        },
-        {
-          "title": "The Diplomat returns to prove old-school brinkmanship still sells",
-          "url": "https://www.afr.com/life-and-luxury/arts-and-culture/the-diplomat-returns-to-prove-old-school-brinkmanship-still-sells-20261015-p6152z",
-          "source": "AFR"
-        }
-      ],
-      "word_count": 950,
-      "page": "p/the-diplomat-season-4-debut-draws-critical-praise-for-tension.html"
-    },
-    {
-      "title": "Supreme Court rebukes Rahul Gandhi over protest march",
-      "slug": "supreme-court-rebukes-rahul-gandhi-over-protest-march",
-      "topic": "कपिल सिब्बल",
-      "date": "2026-10-15",
-      "date_pkt": "2026-10-15 03:53 PM PKT",
-      "excerpt": "The Supreme Court has directed Rahul Gandhi to answer for his conduct during a recent protest march. Chief Justice Surya Kant issued a strong reprimand while hearing petitions related to the event.",
-      "meta_description": "The Supreme Court of India issued a stern warning to Rahul Gandhi regarding his recent protest march. Kapil Sibal and other leaders face scrutiny over the anti-",
-      "keywords": [
-        "Kapil Sibal",
-        "Rahul Gandhi",
-        "Supreme Court",
-        "CJI",
-        "Protest March"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT8k4BQzt9--DmwMJ2fmRxyOoS_p1vpLJ7JIQlRLXYOfc2__OpO3fp234GTfMk",
-      "related": [
-        {
-          "title": "'राहुल गांधी को अपने आचरण के लिए देना होगा जवाब...', सुप्रीम कोर्ट ने नेता प्रतिपक्ष को लगाई फटकार",
-          "url": "https://www.aajtak.in/india/delhi/story/rahul-gandhi-march-12-october-anti-cec-protest-notice-supreme-court-entry-cji-suryakant-ntcppl-dskc-2671262-2026-10-15",
-          "source": "AajTak"
-        },
-        {
-          "title": "राहुल गांधी को CJI की फटकार, केंद्र-पुलिस को नोटिस, SIR पर SC में सुनवाई की बड़ी बातें",
-          "url": "https://www.abplive.com/news/india/supreme-court-hearing-four-plea-on-sir-rahul-gandhi-india-bloc-asaduddin-owaisi-election-commission-3202420",
-          "source": "ABP News"
-        },
-        {
-          "title": "राहुल के मार्च पर CJI बोले-कोई हमें धमका नहीं सकता: जानते हैं कोर्ट के बाहर क्या कह रहे और अंदर क्या, हम अल...",
-          "url": "https://www.bhaskar.com/g/national/news/supreme-court-rahul-gandhi-sir-hearing-opposition-leaders-petition-139362815.html",
-          "source": "Dainik Bhaskar"
-        }
-      ],
-      "word_count": 771,
-      "page": "p/supreme-court-rebukes-rahul-gandhi-over-protest-march.html"
-    },
-    {
-      "title": "Supreme Court Overturns Yes Bank AT1 Bond Write‑Off, Shares Plunge 15%",
-      "slug": "supreme-court-overturns-yes-bank-at1-bond-writeoff-shares-plunge-15",
-      "topic": "येस बैंक",
-      "date": "2026-10-15",
-      "date_pkt": "2026-10-15 03:53 PM PKT",
-      "excerpt": "The Supreme Court has overturned a key ruling that forced Yes Bank to write off ₹8,400 crore of its AT1 bonds, sending the bank’s shares tumbling by 15%. Investors are scrambling to assess the impact on the bank’s capital and future debt pl",
-      "meta_description": "Supreme Court overturns Yes Bank's AT1 bond write‑off, triggering a 15% share plunge and raising concerns over the bank’s capital structure.",
-      "keywords": [
-        "Yes Bank",
-        "Supreme Court",
-        "AT1 bonds",
-        "share price",
-        "capital structure"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQSNDDWIFhw1piGq9SJsCWRZubsO3JB97m6rtgL70n7sZ86gjAvvZYXAG70_1s",
-      "related": [
-        {
-          "title": "SC से यस बैंक को तगड़ा झटका, निवेशकों में हड़कंप, एक झटके में 20% तक टूटा शेयर",
-          "url": "https://www.livehindustan.com/business/yes-bank-share-crash-14-percent-after-supreme-court-ruling-on-8400-crore-rs-at-1-bond-write-off-detail-here-201792055468109.html",
-          "source": "Hindustan"
-        },
-        {
-          "title": "Yes Bank पर बड़ी खबर, SC का 'सुप्रीम' फैसला और 14% टूट गया शेयर; लेकिन इन निवेशकों की हो गई मौज!",
-          "url": "https://www.jagran.com/business/share-market-yes-bank-shares-plunge-14-percent-as-sc-overturns-at1-bond-writedown-40405918.html",
-          "source": "Jagran"
-        },
-        {
-          "title": "Yes Bank Share Fall: सुप्रीम कोर्ट का एक फैसला और 15% लुढ़क गया यस बैंक का शेयर, क्या है मामला?",
-          "url": "https://navbharattimes.indiatimes.com/business/business-news/supreme-court-upheld-high-court-ruling-quashing-the-write-off-of-the-yes-banks-at1-bonds/articleshow/134962869.cms",
-          "source": "Navbharat Times"
-        }
-      ],
-      "word_count": 569,
-      "page": "p/supreme-court-overturns-yes-bank-at1-bond-writeoff-shares-plunge-15.html"
-    },
-    {
-      "title": "SpaceX Shares Slip Amid CoreWeave Challenges, Investors Weigh Options",
-      "slug": "spacex-shares-slip-amid-coreweave-challenges-investors-weigh-options",
-      "topic": "spacex stocks",
-      "date": "2026-10-15",
-      "date_pkt": "2026-10-15 03:53 PM PKT",
-      "excerpt": "SpaceX shares have dipped past the $170 mark after CoreWeave's troubles raised concerns among investors. Analysts debate whether the decline signals a buying opportunity or a warning.",
-      "meta_description": "SpaceX stock falls below $170 as CoreWeave's issues weigh on investor sentiment, prompting debate over whether to hold or sell.",
-      "keywords": [
-        "SpaceX",
-        "stock",
-        "CoreWeave",
-        "investors",
-        "NASDAQ"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSc1wjH-QLQ1HRhC1Y6Ve4SED8p-BIcWc8mjhh4nHEPeyBVD35_MWesIuD6QIo",
-      "related": [
-        {
-          "title": "SpaceX Stock Is Down. It’s Due to CoreWeave’s Troubles.",
-          "url": "https://www.barrons.com/articles/spacex-stock-price-starlink-growth-investors-5bd60278",
-          "source": "Barron's"
-        },
-        {
-          "title": "SpaceX Stock Drops Below $170: Here Is What History Says Investors Should Do",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-drops-below-170-155000679.html",
-          "source": "Yahoo Finance"
-        },
-        {
-          "title": "SpaceX (NASDAQ:SPCX) Shares Down 4.2% - Time to Sell?",
-          "url": "https://www.marketbeat.com/instant-alerts/price-spacex-nasdaq-spcx-shares-down-42-time-to-sell-2026-10-13/",
-          "source": "MarketBeat"
-        }
-      ],
-      "word_count": 583,
-      "page": "p/spacex-shares-slip-amid-coreweave-challenges-investors-weigh-options.html"
-    },
-    {
-      "title": "Six Killed in Rahman Baba Express Crash as Investigation Reveals Safety Gaps",
-      "slug": "six-killed-in-rahman-baba-express-crash-as-investigation-reveals-safety-gaps",
-      "topic": "ریلوے",
-      "date": "2026-10-15",
-      "date_pkt": "2026-10-15 03:53 PM PKT",
-      "excerpt": "Six people died when the Rahman Baba Express derailed near Multan. An investigative report has uncovered key safety failures that authorities must address.",
-      "meta_description": "A Rahman Baba Express train crash in Multan killed six passengers. An investigative report highlights safety lapses and raises questions about railway reforms i",
-      "keywords": [
-        "Rahman Baba Express",
-        "train accident",
-        "Pakistan Railways",
-        "investigation",
-        "public safety"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTMGxcnIdyNmdctg5OHI5IYVRigGD8psrFeltnBZHDl90ikO8XCrGttFBD2Zfs",
-      "related": [
-        {
-          "title": "رحمان بابا ایکسپریس ٹرین حادثہ کیسے پیش آیا؟ تحقیقاتی رپورٹ میں اہم انکشافات",
-          "url": "https://urdu.samaa.tv/2087361135",
-          "source": "samaa tv"
-        },
-        {
-          "title": "ملتان: رحمٰن بابا ایکسپریس حادثے کا شکار، 6 مسافر جاں بحق",
-          "url": "https://jang.com.pk/news/1624020",
-          "source": "Jang"
-        },
-        {
-          "title": "Big Promises, Little Action! The Growing Gap Between Words and Reality | Aaj Pakistan - Videos - AAJ",
-          "url": "http://www.aaj.tv/news/30521194",
-          "source": "Aaj News"
-        }
-      ],
-      "word_count": 650,
-      "page": "p/six-killed-in-rahman-baba-express-crash-as-investigation-reveals-safety-gaps.html"
-    },
-    {
-      "title": "SMH ETF Slips as Semiconductor Sector Faces Extended Losses",
-      "slug": "smh-etf-slips-as-semiconductor-sector-faces-extended-losses",
-      "topic": "smh stock",
-      "date": "2026-10-15",
-      "date_pkt": "2026-10-15 03:53 PM PKT",
-      "excerpt": "The VanEck Semiconductor ETF (SMH) has slipped as the sector enters its longest losing streak since May 2025. Analysts note that TSMC's recent earnings and uncertainties around OpenAI's revenue are influencing investor sentiment.",
-      "meta_description": "SMH ETF falls amid a prolonged semiconductor downturn, with investors watching TSMC's strong quarter and OpenAI revenue questions.",
-      "keywords": [
-        "SMH",
-        "semiconductor ETF",
-        "TSMC",
-        "OpenAI revenue",
-        "VanEck"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR54B8ZiliSiiYlmvqeL9vMUfMmjLsiJ4hHn56c0Hv8npuZpN-8TtRGDBVQ_fA",
-      "related": [
-        {
-          "title": "Semiconductors on track for their longest losing streak since May 2025 (SMH:NASDAQ)",
-          "url": "https://seekingalpha.com/news/4652582-semiconductors-on-track-for-their-longest-losing-streak-since-may-2025",
-          "source": "Seeking Alpha"
-        },
-        {
-          "title": "Chip ETF Trades Near €100 as TSMC's Blowout Quarter Meets an OpenAI Revenue Riddle",
-          "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/chip-etf-trades-near-100-as-tsmc-s-blowout-quarter-meets-an-openai-revenue-riddle/70303696",
-          "source": "ad-hoc-news.de"
-        },
-        {
-          "title": "Are Chip Stocks Rattling VanEck Semiconductor (ASX:SMHG)?",
-          "url": "https://kalkinemedia.com/au/stocks/etf/are-chip-stocks-rattling-vaneck-semiconductor-asxsmhg",
-          "source": "Kalkine Media"
-        }
-      ],
-      "word_count": 596,
-      "page": "p/smh-etf-slips-as-semiconductor-sector-faces-extended-losses.html"
-    },
-    {
-      "title": "Mentorship programs boost Pakistan's fight against cultism and drug abuse",
-      "slug": "mentorship-programs-boost-pakistans-fight-against-cultism-and-drug-abuse",
-      "topic": "mentorship",
-      "date": "2026-10-15",
-      "date_pkt": "2026-10-15 03:53 PM PKT",
-      "excerpt": "Mentorship schemes inspired by successful models in Nigeria and the United States are being rolled out across Pakistan to address rising cultism and drug abuse among young people. Community groups and donors are pairing guidance with basic ",
-      "meta_description": "Mentorship initiatives, modeled after programs in Nigeria and the US, seek to curb cultism and drug abuse among Pakistani youth, backed by community aid.",
-      "keywords": [
-        "mentorship",
-        "cultism",
-        "drug abuse",
-        "Pakistan youth",
-        "community programs"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRrAiNe5FMFECzQYo7tzEhyC5HZmxIVf4XEeHO6UHoxSo-UD3LW8FWDeHOzkGs",
-      "related": [
-        {
-          "title": "EB2M embraces mentorship to curb cultism, drug abuse",
-          "url": "https://guardian.ng/education/eb2m-embraces-mentorship-to-curb-cultism-drug-abuse/",
-          "source": "The Guardian Nigeria News"
-        },
-        {
-          "title": "Stakeholders counsel Lagos students on cultism, drug abuse as association donates borehole",
-          "url": "https://www.vanguardngr.com/2026/10/stakeholders-counsel-lagos-students-on-cultism-drug-abuse-as-association-donates-borehole/",
-          "source": "Vanguard News"
-        },
-        {
-          "title": "'I Dare to Care' mentorship program uplifts youth in Camden, NJ",
-          "url": "https://6abc.com/post/dare-care-mentorship-program-uplifts-youth-camden-nj/19938319/",
-          "source": "6abc Philadelphia"
-        }
-      ],
-      "word_count": 820,
-      "page": "p/mentorship-programs-boost-pakistans-fight-against-cultism-and-drug-abuse.html"
-    },
-    {
-      "title": "Meghan Markle Says ‘It’s Great to Be Back’ as She and Prince Harry Make…",
-      "slug": "meghan-markle-says-its-great-to-be-back-as-she-and-prince-harry-make",
-      "topic": "duke and duchess of sussex nottingham",
-      "date": "2026-10-15",
-      "date_pkt": "2026-10-15 03:53 PM PKT",
-      "excerpt": "Coverage linked to \"duke and duchess of sussex nottingham\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "duke and duchess of sussex nottingham: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "duke and duchess of sussex nottingham",
-        "duke and duchess of sussex nottingham news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZoD1TvTzbqCuOQkPNEYhkVIJY3XFs90qSvhPfb-LZbhCxYWLxDKqu7GVcC18",
-      "related": [
-        {
-          "title": "Meghan Markle Says ‘It’s Great to Be Back’ as She and Prince Harry Make First Official Joint Outing Since U.K. Move",
-          "url": "https://people.com/meghan-markle-prince-harry-first-official-joint-outing-since-uk-move-nottingham-12171769",
-          "source": "People.com"
-        },
-        {
-          "title": "Harry and Meghan give hugs and selfies on first joint engagement since UK return",
-          "url": "https://www.itv.com/news/2026-10-15/harry-and-meghan-give-hugs-and-selfies-on-first-joint-engagement-since-uk-return",
-          "source": "ITVX"
-        },
-        {
-          "title": "Prince Harry, Meghan Markle accused of staging 'royal theatre' as King Charles faces new dilemma: expert",
-          "url": "https://www.foxnews.com/entertainment/prince-harry-meghan-markle-accused-staging-royal-theatre-king-charles-faces-new-dilemma-expert",
-          "source": "Fox News"
-        }
-      ],
-      "word_count": 370,
-      "page": "p/meghan-markle-says-its-great-to-be-back-as-she-and-prince-harry-make.html"
     }
   ]
 }
