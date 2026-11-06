@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Track Daily Product Sales with Stripe Checkout &amp; Webhooks | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to extract product sales data from Stripe Checkout using webhooks, metadata, and Sigma queries." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, stripe-payments" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/track-daily-product-sales-with-stripe-checkout-webhooks.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get product sales directly from the Stripe dashboard?", "acceptedAnswer": {"@type": "Answer", "text": "The dashboard shows totals per payment but not per product. Use Sigma or your own database for product‑level reporting."}}, {"@type": "Question", "name": "What if my site uses multiple price tiers for the same product?", "acceptedAnswer": {"@type": "Answer", "text": "Store the product ID in metadata and map each price ID to that product in your database; then aggregate by product ID."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-11-06 · Q&A guide</p>
+    <h1>Track Daily Product Sales with Stripe Checkout &amp; Webhooks</h1>
+    <p class="lead">Learn how to extract product sales data from Stripe Checkout using webhooks, metadata, and Sigma queries.</p>
+    <div class="content">
+<h2>1. Checkout Session Line Items</h2>
+<p>When a customer completes a Stripe Checkout, the resulting Checkout Session contains a list of line items. Each line item references the product ID, price ID, and quantity. These objects are not stored in the PaymentIntent itself, which is why the dashboard shows limited aggregation.</p>
+<h2>2. Persist Product IDs in Metadata</h2>
+<p>Add the product ID to the Checkout Session’s metadata before redirecting the customer. This makes the data available in webhook events and in the Session object that you can query later.</p>
+<pre><code>stripe.checkout.sessions.create({
+  payment_method_types: [&#x27;card&#x27;],
+  line_items: [{price: &#x27;price_123&#x27;, quantity: 1}],
+  mode: &#x27;payment&#x27;,
+  metadata: {product_id: &#x27;prod_ABC123&#x27;}
+});</code></pre>
+<h2>3. Webhook Handler Example</h2>
+<p>Listen for the `checkout.session.completed` event, extract the metadata, and write a record to your database. This gives you a reliable source of sales data that survives any dashboard changes.</p>
+<pre><code>const express = require(&#x27;express&#x27;);
+const app = express();
+app.use(express.json({ verify: stripe.webhooks.makeRequestHandler({ secret: process.env.STRIPE_WEBHOOK_SECRET }) }));
+app.post(&#x27;/webhook&#x27;, async (req, res) =&gt; {
+  const session = req.body.data.object;
+  const productId = session.metadata.product_id;
+  const quantity = session.line_items?.data[0]?.quantity || 1;
+  await db.insert(&#x27;sales&#x27;, { product_id: productId, quantity, timestamp: new Date() });
+  res.sendStatus(200);
+});</code></pre>
+<h2>4. Generate Reports with Sigma</h2>
+<p>If you prefer a no‑code solution, use Sigma to query the `line_items` table. A simple query returns daily totals per product:</p>
+<pre><code>SELECT
+  DATE(created) AS day,
+  product_id,
+  SUM(quantity) AS sold
+FROM
+  line_items
+GROUP BY
+  day, product_id
+ORDER BY
+  day DESC;</code></pre>
+<h2>5. Best Practices &amp; Troubleshooting</h2>
+<p>• Store the product ID in metadata on every Checkout Session.
+• Validate webhook signatures to avoid spoofed events.
+• Keep a local copy of sales data; it’s faster for analytics than hitting the API each day.
+• If you use multiple price IDs for the same product, map them back to the product ID in your database.</p>
+<p><strong>Takeaway:</strong> Persist product identifiers in Checkout Session metadata and capture them via webhooks; use Sigma or a simple database query to generate daily sales reports.</p>
+<h2>People also ask</h2>
+<h3>Can I get product sales directly from the Stripe dashboard?</h3>
+<p>The dashboard shows totals per payment but not per product. Use Sigma or your own database for product‑level reporting.</p>
+<h3>What if my site uses multiple price tiers for the same product?</h3>
+<p>Store the product ID in metadata and map each price ID to that product in your database; then aggregate by product ID.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/74146657/stripe-how-to-see-which-products-are-selling" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

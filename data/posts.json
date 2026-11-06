@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "title": "Zoom Out in Visual Studio 2013 Windows Forms Designer",
+      "slug": "zoom-out-in-visual-studio-2013-windows-forms-designer",
+      "date": "2026-11-06",
+      "excerpt": "Learn how to quickly zoom out in the VS 2013 form designer using the toolbar, status bar, or mouse wheel.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Play and Verify Video with Selenium WebDriver in Java",
+      "slug": "play-and-verify-video-with-selenium-webdriver-in-java",
+      "date": "2026-11-06",
+      "excerpt": "Control video playback inside an iframe with Selenium WebDriver in Java, then capture a screenshot to confirm the video is playing.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "How to Detect and Fix PHP2Shell (CVE\u20112026\u2011109618/109619) in PHP",
+      "slug": "how-to-detect-and-fix-php2shell-cve2026109618109619-in-php",
+      "date": "2026-11-06",
+      "excerpt": "Learn how to identify if your PHP app is vulnerable to PHP2Shell and apply quick fixes.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Track Daily Product Sales with Stripe Checkout & Webhooks",
+      "slug": "track-daily-product-sales-with-stripe-checkout-webhooks",
+      "date": "2026-11-06",
+      "excerpt": "Learn how to extract product sales data from Stripe Checkout using webhooks, metadata, and Sigma queries.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Check Lottery Winning Numbers in JavaScript with AlaSQL and Excel",
+      "slug": "check-lottery-winning-numbers-in-javascript-with-alasql-and-excel",
+      "date": "2026-11-06",
+      "excerpt": "Learn how to read an Excel sheet in the browser using AlaSQL and compare it with numbers entered in an HTML form.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Fix ADF ViewScope Error After Migrating to WebLogic 12c",
+      "slug": "fix-adf-viewscope-error-after-migrating-to-weblogic-12c",
+      "date": "2026-11-06",
+      "excerpt": "Learn why the ADF ViewScope token fails in a 12c standalone WebLogic server and how to configure the domain and EAR correctly.",
+      "source": "stackoverflow"
+    },
+    {
       "title": "Find RSA Key Fingerprint on Linux for GitHub SSH Audit",
       "slug": "find-rsa-key-fingerprint-on-linux-for-github-ssh-audit",
       "date": "2026-10-30",

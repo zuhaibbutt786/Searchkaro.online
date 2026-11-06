@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Check Lottery Winning Numbers in JavaScript with AlaSQL and Excel | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to read an Excel sheet in the browser using AlaSQL and compare it with numbers entered in an HTML form." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, javascript,html,excel,alasql" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/check-lottery-winning-numbers-in-javascript-with-alasql-and-excel.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I read a local Excel file without a server?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, use an `<input type=\"file\">` element, read the file with `FileReader` as an ArrayBuffer, then feed it to AlaSQL."}}, {"@type": "Question", "name": "What if the winning numbers are in non‑contiguous columns?", "acceptedAnswer": {"@type": "Answer", "text": "Map the required column letters (e.g., C, D, E, F, H, I) manually in the `normalizeRows` function as shown."}}, {"@type": "Question", "name": "Is AlaSQL the only library for this task?", "acceptedAnswer": {"@type": "Answer", "text": "No, alternatives include SheetJS (xlsx) or PapaParse for CSV, but AlaSQL offers SQL‑like queries directly on XLSX data."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-11-06 · Q&A guide</p>
+    <h1>Check Lottery Winning Numbers in JavaScript with AlaSQL and Excel</h1>
+    <p class="lead">Learn how to read an Excel sheet in the browser using AlaSQL and compare it with numbers entered in an HTML form.</p>
+    <div class="content">
+<h2>Load the Excel workbook with AlaSQL</h2>
+<p>AlaSQL can read XLSX files directly in the browser. Fetch the file as an ArrayBuffer, then pass it to `alasql.promise` with the `SELECT * FROM XLSX(?)` syntax. The promise resolves to an array of rows, each row being a plain JavaScript object whose keys are the column letters (e.g., C, D, E, F, H, I).</p>
+<pre><code>fetch(&#x27;results.xlsx&#x27;)
+  .then(r =&gt; r.arrayBuffer())
+  .then(buf =&gt; alasql.promise(&#x27;SELECT * FROM XLSX(?)&#x27;, [buf]))
+  .then(rows =&gt; window.lotteryRows = rows) // store globally for later use
+  .catch(err =&gt; console.error(&#x27;Failed to load Excel:&#x27;, err));</code></pre>
+<h2>Map the relevant columns to a simple array</h2>
+<p>The raw rows contain many columns, but you only need C, D, E, F, H, and I. Transform each row into an array of six numbers so the comparison logic stays fast and readable.</p>
+<pre><code>function normalizeRows(rows) {
+  return rows.map(r =&gt; [
+    Number(r.C), // first number
+    Number(r.D), // second number
+    Number(r.E), // third number
+    Number(r.F), // fourth number
+    Number(r.H), // fifth number
+    Number(r.I)  // sixth number
+  ]);
+}
+// Call after the Excel file is loaded
+window.winningSets = normalizeRows(window.lotteryRows || []);</code></pre>
+<h2>Read user input and test for a match</h2>
+<p>When the form is submitted, collect the six values, convert them to numbers, and compare the resulting array with each winning set. A strict equality check on each position guarantees an exact match.</p>
+<pre><code>function checkIfYouHaveWinningNumber() {
+  const form = document.forms[0];
+  const userSet = [
+    Number(form.first.value),
+    Number(form.second.value),
+    Number(form.third.value),
+    Number(form.fourth.value),
+    Number(form.fifth.value),
+    Number(form.sixth.value)
+  ];
+
+  const isWinner = window.winningSets.some(set =&gt;
+    set.length === userSet.length &amp;&amp; set.every((v, i) =&gt; v === userSet[i])
+  );
+
+  alert(isWinner ? `Congratulations – you won! ${userSet.join(&#x27;, &#x27;)}` : `Sorry, you lose. ${userSet.join(&#x27;, &#x27;)}`);
+}
+// Attach to the form in HTML: onsubmit=&quot;checkIfYouHaveWinningNumber(); return false;&quot;</code></pre>
+<h2>Full working example</h2>
+<p>Below is a minimal HTML page that ties everything together. The script loads the Excel file once, prepares the winning sets, and runs the check on every submit.</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;title&gt;Lottery Checker&lt;/title&gt;
+  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/alasql/0.4.2/alasql.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    // 1️⃣ Load Excel
+    fetch(&#x27;results.xlsx&#x27;)
+      .then(r =&gt; r.arrayBuffer())
+      .then(buf =&gt; alasql.promise(&#x27;SELECT * FROM XLSX(?)&#x27;, [buf]))
+      .then(rows =&gt; {
+        window.winningSets = rows.map(r =&gt; [
+          Number(r.C), Number(r.D), Number(r.E), Number(r.F), Number(r.H), Number(r.I)
+        ]);
+      })
+      .catch(err =&gt; console.error(err));
+
+    // 2️⃣ Form handler
+    function checkIfYouHaveWinningNumber() {
+      const f = document.forms[0];
+      const user = [Number(f.first.value), Number(f.second.value), Number(f.third.value), Number(f.fourth.value), Number(f.fifth.value), Number(f.sixth.value)];
+      const win = (window.winningSets || []).some(set =&gt; set.every((v,i) =&gt; v===user[i]));
+      alert(win ? `You win! ${user.join(&#x27;, &#x27;)}` : `You lose. ${user.join(&#x27;, &#x27;)}`);
+    }
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;form onsubmit=&quot;checkIfYouHaveWinningNumber(); return false;&quot;&gt;
+    &lt;input type=&quot;number&quot; name=&quot;first&quot; min=&quot;0&quot; max=&quot;100&quot; required&gt;
+    &lt;input type=&quot;number&quot; name=&quot;second&quot; min=&quot;0&quot; max=&quot;100&quot; required&gt;
+    &lt;input type=&quot;number&quot; name=&quot;third&quot; min=&quot;0&quot; max=&quot;100&quot; required&gt;
+    &lt;input type=&quot;number&quot; name=&quot;fourth&quot; min=&quot;0&quot; max=&quot;100&quot; required&gt;
+    &lt;input type=&quot;number&quot; name=&quot;fifth&quot; min=&quot;0&quot; max=&quot;100&quot; required&gt;
+    &lt;input type=&quot;number&quot; name=&quot;sixth&quot; min=&quot;0&quot; max=&quot;100&quot; required&gt;
+    &lt;button type=&quot;submit&quot;&gt;Check&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h2>Performance tips &amp; common pitfalls</h2>
+<p>• Load the Excel file only once; repeated fetches waste bandwidth. • Ensure column letters in the query match the exact layout of your sheet (A‑Z, then AA, etc.). • Convert every cell to `Number` before comparison; Excel may store numeric strings. • If the workbook is large, consider indexing the winning sets with a `Set` of JSON strings for O(1) lookup.</p>
+<p><strong>Takeaway:</strong> Use AlaSQL to read Excel in the browser, normalize the needed columns, and compare them with form input for instant lottery validation.</p>
+<h2>People also ask</h2>
+<h3>Can I read a local Excel file without a server?</h3>
+<p>Yes, use an `&lt;input type=&quot;file&quot;&gt;` element, read the file with `FileReader` as an ArrayBuffer, then feed it to AlaSQL.</p>
+<h3>What if the winning numbers are in non‑contiguous columns?</h3>
+<p>Map the required column letters (e.g., C, D, E, F, H, I) manually in the `normalizeRows` function as shown.</p>
+<h3>Is AlaSQL the only library for this task?</h3>
+<p>No, alternatives include SheetJS (xlsx) or PapaParse for CSV, but AlaSQL offers SQL‑like queries directly on XLSX data.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/45920936/how-to-check-lottery-wining-numbers-javascript" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

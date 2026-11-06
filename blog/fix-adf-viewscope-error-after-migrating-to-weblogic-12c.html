@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fix ADF ViewScope Error After Migrating to WebLogic 12c | LearnWithZuhaib</title>
+  <meta name="description" content="Learn why the ADF ViewScope token fails in a 12c standalone WebLogic server and how to configure the domain and EAR correctly." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, oracle-database,migration,weblogic" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/fix-adf-viewscope-error-after-migrating-to-weblogic-12c.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I need to reinstall JDeveloper after migrating to WebLogic 12c?", "acceptedAnswer": {"@type": "Answer", "text": "No. JDeveloper is only the development IDE; the critical step is installing the ADF runtime libraries on the target WebLogic domain."}}, {"@type": "Question", "name": "Can I use the same EAR for both integrated and standalone servers?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, once you add `weblogic.xml` and `adf-config.xml` the EAR works in both environments."}}, {"@type": "Question", "name": "What if I still see ADFC-00032 after these changes?", "acceptedAnswer": {"@type": "Answer", "text": "Verify that the domain’s `config.xml` references the ADF shared libraries and that no older ADF JARs are lingering in the server’s classpath."}}, {"@type": "Question", "name": "Is ViewScope the only scope that requires special configuration?", "acceptedAnswer": {"@type": "Answer", "text": "ViewScope is the only one that depends on the state‑token mechanism; other scopes (request, session, flash) work without extra setup."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-11-06 · Q&A guide</p>
+    <h1>Fix ADF ViewScope Error After Migrating to WebLogic 12c</h1>
+    <p class="lead">Learn why the ADF ViewScope token fails in a 12c standalone WebLogic server and how to configure the domain and EAR correctly.</p>
+    <div class="content">
+<h2>Why the ViewScope Token Fails in a Stand‑alone WL 12c</h2>
+<p>When you move an ADF application from JDeveloper’s integrated server to a standalone WebLogic 12.2.1.3 domain, the runtime environment changes. The integrated server automatically loads the ADF libraries and enables the ViewScope state‑token mechanism. In a plain WL domain those libraries are missing, so the ADF controller cannot create a ViewScope and throws the error `ADFc: ViewScope not available in this environment, cannot save State-token.` The stack trace ending in `TaskFlowRegionController.getViewPortState` confirms that the controller never found a ViewScope instance.</p>
+<h2>Install ADF Runtime on the WebLogic Domain</h2>
+<p>Run the ADF configuration wizard that ships with JDeveloper or the Oracle Fusion Middleware installer. It adds the required JARs (adf‑faces, adf‑controller, adf‑model, etc.) to the domain’s lib directory and updates the server’s classpath.</p>
+<p>```bash
+# From JDeveloper installation
+$ORACLE_HOME/oracle_common/common/bin/config.sh -mode=adhoc -add_adf
+```</p>
+<p>After the wizard finishes, restart the server. The domain now contains the ADF shared libraries that the integrated server used implicitly.</p>
+<h2>Update the EAR to Prefer Application Packages</h2>
+<p>Even with the domain libraries present, WebLogic may still load its own older ADF classes. Force the EAR to use the bundled ADF version by adding a `weblogic.xml` descriptor with a `prefer-application-packages` block. This ensures the ViewScope implementation comes from the EAR, not the server’s default classloader.</p>
+<p>```xml
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;wls:weblogic-web-app xmlns:wls=&quot;http://xmlns.oracle.com/weblogic/weblogic-web-app&quot;&gt;
+  &lt;wls:container-descriptor&gt;
+    &lt;wls:prefer-application-packages&gt;
+      &lt;wls:package-name&gt;oracle.adf.*&lt;/wls:package-name&gt;
+      &lt;wls:package-name&gt;oracle.jbo.*&lt;/wls:package-name&gt;
+    &lt;/wls:prefer-application-packages&gt;
+  &lt;/wls:container-descriptor&gt;
+&lt;/wls:weblogic-web-app&gt;
+```</p>
+<p>Place this file under `src/main/webapp/WEB-INF` before building the EAR.</p>
+<h2>Enable ViewScope in adf-config.xml</h2>
+<p>The ADF runtime needs an `adf-config.xml` that declares the ViewScope feature. JDeveloper adds it automatically, but a plain EAR may miss it. Create the file in `META-INF` with the following content:</p>
+<p>```xml
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;adf-config xmlns=&quot;http://xmlns.oracle.com/adf/config&quot;&gt;
+  &lt;view-scope enabled=&quot;true&quot;/&gt;
+&lt;/adf-config&gt;
+```</p>
+<p>Deploy the updated EAR and verify that the `adf-config.xml` is packaged inside `META-INF`. The ViewScope token can now be stored and restored during the RESTORE_VIEW phase.</p>
+<h2>Validate the Deployment</h2>
+<p>Redeploy the EAR to the 12.2.1.3 server and open the application. The welcome page should load, and the dynamic tab shell will render the view object without the `ADF_FACES-60098` exception. Check the server log for the absence of `ADFC-00032` messages. If the error persists, confirm that the domain’s `config.xml` lists the ADF shared libraries under `&lt;library-ref&gt;` and that the EAR’s `MANIFEST.MF` contains the correct `Extension-Name` entries.</p>
+<p><strong>Takeaway:</strong> Install ADF runtime, prefer application packages, and add adf-config.xml to enable ViewScope in a standalone WebLogic 12c deployment.</p>
+<h2>People also ask</h2>
+<h3>Do I need to reinstall JDeveloper after migrating to WebLogic 12c?</h3>
+<p>No. JDeveloper is only the development IDE; the critical step is installing the ADF runtime libraries on the target WebLogic domain.</p>
+<h3>Can I use the same EAR for both integrated and standalone servers?</h3>
+<p>Yes, once you add `weblogic.xml` and `adf-config.xml` the EAR works in both environments.</p>
+<h3>What if I still see ADFC-00032 after these changes?</h3>
+<p>Verify that the domain’s `config.xml` references the ADF shared libraries and that no older ADF JARs are lingering in the server’s classpath.</p>
+<h3>Is ViewScope the only scope that requires special configuration?</h3>
+<p>ViewScope is the only one that depends on the state‑token mechanism; other scopes (request, session, flash) work without extra setup.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/54283973/migration-issue-from-oracle-fusion-middleware-from-11gr1-to-12cr2-and-deployment" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>
