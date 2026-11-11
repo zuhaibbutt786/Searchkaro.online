@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T14:25:01.471334+00:00",
-  "updated_at_pkt": "2026-11-10 07:22 PM PKT",
+  "updated_at": "2026-11-11T13:39:04.769506+00:00",
+  "updated_at_pkt": "2026-11-11 06:36 PM PKT",
   "count": 500,
-  "new_in_this_run": 25,
+  "new_in_this_run": 29,
   "sources": [
     "https://trends.google.com/trending/rss?geo=PK",
     "https://trends.google.com/trending/rss?geo=IN",
@@ -11,6 +11,1166 @@
     "https://trends.google.com/trending/rss?geo=SA"
   ],
   "items": [
+    {
+      "title": "هند بومشمر تطوي صفحتها مع مجموعة \"MBC\"",
+      "slug": "mbc",
+      "topic": "هند بومشمر",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Coverage linked to \"هند بومشمر\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "هند بومشمر: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "هند بومشمر",
+        "هند بومشمر news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCE9S0cQG26BRuufl3dDPB6GuwfFaXfs3u9SuXLWaBHf8c0QOcusQXk4ZLP2Y",
+      "related": [
+        {
+          "title": "هند بومشمر تطوي صفحتها مع مجموعة \"MBC\"",
+          "url": "https://ralia.lesiteinfo.com/celebrites/%D9%87%D9%86%D8%AF-%D8%A8%D9%88%D9%85%D8%B4%D9%85%D8%B1-%D8%AA%D8%B7%D9%88%D9%8A-%D8%B5%D9%81%D8%AD%D8%AA%D9%87%D8%A7-%D9%85%D8%B9-%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9-mbc-258993.html",
+          "source": "LeSiteinfo.com"
+        },
+        {
+          "title": "هند بومشمر تودع مجموعة MBC برسالة مؤثرة بعد 18 عاما من العطاء",
+          "url": "https://inews.ma/news/8787481",
+          "source": "https://inews.ma/"
+        },
+        {
+          "title": "الإعلامية المغربية هند بومشمر تودّع مجموعة MBC",
+          "url": "https://ar.hibapress.com/details-774667.html",
+          "source": "هبة بريس"
+        }
+      ],
+      "word_count": 326,
+      "page": "p/mbc.html"
+    },
+    {
+      "title": "هاني رمزي: محمد رمضان انزعج مني.. ولم أعرف سعاد حسني",
+      "slug": "news-1794404339",
+      "topic": "هاني رمزي",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Coverage linked to \"هاني رمزي\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "هاني رمزي: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "هاني رمزي",
+        "هاني رمزي news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQnpBCcrf-C66-Bb5anw4zYBC5oWhQZS14YprzaIMe1DTsIJFuIF5ABTNoviic",
+      "related": [
+        {
+          "title": "هاني رمزي: محمد رمضان انزعج مني.. ولم أعرف سعاد حسني",
+          "url": "https://www.alarabiya.net/culture-and-art/2026/11/11/%D9%87%D8%A7%D9%86%D9%8A-%D8%B1%D9%85%D8%B2%D9%8A-%D9%85%D8%AD%D9%85%D8%AF-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D8%BA%D8%B6%D8%A8-%D9%84%D9%86%D8%B7%D9%82%D9%8A-%D8%A7%D8%B3%D9%85-%D8%A7%D8%A8%D9%8A%D9%87-%D9%88%D9%84%D9%85-%D8%A7%D8%B9%D8%B1%D9%81-%D8%B3%D8%B9%D8%A7%D8%AF-%D8%AD%D8%B3%D9%86%D9%8A-%D8%A8%D9%84%D8%A7-%D9%85%D8%B3%D8%A7%D8%AD%D9%8A%D9%82",
+          "source": "العربية"
+        },
+        {
+          "title": "هاني رمزي يكشف مفاجآت عن السندريلا.. وينتقد محمد رمضان",
+          "url": "https://www.okaz.com.sa/culture/art/2275011",
+          "source": "عكاظ"
+        },
+        {
+          "title": "هاني رمزي يكشف أسراراً عن سعاد حسني ويثير الجدل حول وفاتها",
+          "url": "https://www.lahamag.com/article/242746-%D9%87%D8%A7%D9%86%D9%8A-%D8%B1%D9%85%D8%B2%D9%8A-%D9%8A%D9%83%D8%B4%D9%81-%D8%A3%D8%B3%D8%B1%D8%A7%D8%B1%D8%A7-%D8%B9%D9%86-%D8%B3%D8%B9%D8%A7%D8%AF-%D8%AD%D8%B3%D9%86%D9%8A-%D9%88%D9%8A%D8%AB%D9%8A%D8%B1-%D8%A7%D9%84%D8%AC%D8%AF%D9%84-%D8%AD%D9%88%D9%84-%D9%88%D9%81%D8%A7%D8%AA%D9%87%D8%A7",
+          "source": "مجلة لها"
+        }
+      ],
+      "word_count": 326,
+      "page": "p/news-1794404339.html"
+    },
+    {
+      "title": "البرلمان العراقي يتحرك للتحقيق في 3 ملفات حساسة",
+      "slug": "3-20261111",
+      "topic": "حقل",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Coverage linked to \"حقل\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "حقل: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "حقل",
+        "حقل news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRXkwnIMz4VH8AvS1dxephKnLLwH7eciRnYBl6HzHG0vLlz_GuH1OBwOppiqWQ",
+      "related": [
+        {
+          "title": "البرلمان العراقي يتحرك للتحقيق في 3 ملفات حساسة",
+          "url": "https://www.alarabiya.net/arab-and-world/iraq/2026/11/11/%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A-%D9%8A%D8%AA%D8%AD%D8%B1%D9%83-%D9%84%D9%84%D8%AA%D8%AD%D9%82%D9%8A%D9%82-%D9%81%D9%8A-3-%D9%85%D9%84%D9%81%D8%A7%D8%AA-%D8%AD%D8%B3%D8%A7%D8%B3%D8%A9",
+          "source": "العربية"
+        },
+        {
+          "title": "البرلمان العراقي يحقق في تهريب النفط والهجوم على حقل كورمور",
+          "url": "https://www.alhadath.net/iraq/2026/11/11/%D9%85%D8%B5%D8%A7%D8%AF%D8%B1-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A-%D9%8A%D8%AD%D9%82%D9%82-%D9%81%D9%8A-%D8%AA%D9%87%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D9%88%D8%A7%D9%84%D9%87%D8%AC%D9%88%D9%85-%D8%B9%D9%84%D9%89-%D8%AD%D9%82%D9%84-%D9%83%D9%88%D8%B1%D9%85%D9%88%D8%B1",
+          "source": "الحدث"
+        },
+        {
+          "title": "العراق: هجوم بمسيّرة يوقف إنتاج الغاز في حقل كورمور، وتفاهمات مع واشنطن بشأن تصدير النفط عبر هرمز",
+          "url": "https://www.bbc.com/arabic/articles/cqvg0gpdrpd9o",
+          "source": "BBC"
+        }
+      ],
+      "word_count": 326,
+      "page": "p/3-20261111.html"
+    },
+    {
+      "title": "Starting Seven: November 11, 2026",
+      "slug": "starting-seven-november-11-2026",
+      "topic": "november 11",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Coverage linked to \"november 11\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "november 11: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "november 11",
+        "november 11 news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQmmtSZR-ypJDdOxDhGl0cwcwM2WfmJz3yzPhp-jPOXOrjjzAou9T7xFAY3IVw",
+      "related": [
+        {
+          "title": "Starting Seven: November 11, 2026",
+          "url": "https://www.pillarcatholic.com/p/starting-seven-november-11-2026",
+          "source": "The Pillar"
+        },
+        {
+          "title": "Missing Hopewell man found safe",
+          "url": "https://www.12onyourside.com/2026/11/09/critically-missing-adult-alert-possibly-armed-man-hopewell/",
+          "source": "WWBT"
+        },
+        {
+          "title": "Victim identified in I 35 crash",
+          "url": "https://www.kgns.tv/video/2026/11/09/victim-identified-i-35-crash/",
+          "source": "KGNS"
+        }
+      ],
+      "word_count": 312,
+      "page": "p/starting-seven-november-11-2026.html"
+    },
+    {
+      "title": "Richmond upon Thames is Britain's happiest place, survey finds",
+      "slug": "richmond-upon-thames-is-britains-happiest-place-survey-finds",
+      "topic": "richmond upon thames",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Coverage linked to \"richmond upon thames\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "richmond upon thames: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "richmond upon thames",
+        "richmond upon thames news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSTL8FxoSAJ5DfhgoH3c06aPR9_Wnr7rWjTbfspNaLySIC7buMFMMGGHQraFU",
+      "related": [
+        {
+          "title": "Richmond upon Thames is Britain's happiest place, survey finds",
+          "url": "https://www.bbc.co.uk/news/articles/cmy565dpwy62o",
+          "source": "BBC"
+        },
+        {
+          "title": "Happiest place in UK revealed... but average home there costs £1m",
+          "url": "https://www.telegraph.co.uk/news/2026/11/11/happiest-place-uk-revealed-costs-million-pound-live-there/",
+          "source": "The Telegraph"
+        },
+        {
+          "title": "Two places in Sussex named among the 10 happiest places to live in Britain",
+          "url": "https://www.theargus.co.uk/news/26714270.hove-horsham-named-among-happiest-places-live-britain/",
+          "source": "The Argus"
+        }
+      ],
+      "word_count": 337,
+      "page": "p/richmond-upon-thames-is-britains-happiest-place-survey-finds.html"
+    },
+    {
+      "title": "Rahmat Shah cracks ICC Test top ten as India’s Pant, Gill slip",
+      "slug": "rahmat-shah-cracks-icc-test-top-ten-as-indias-pant-gill-slip",
+      "topic": "icc men test player rankings",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Afghanistan's Rahmat Shah has entered the ICC Test top ten for the first time, marking a milestone for the nation. Meanwhile, Indian openers Rishabh Pant and Shubman Gill have slipped to lower positions in the same list.",
+      "meta_description": "ICC men test player rankings see historic shift as Afghanistan's Rahmat Shah joins the top ten while India's Rishabh Pant and Shubman Gill fall to eighth and te",
+      "keywords": [
+        "ICC Test rankings",
+        "Rahmat Shah",
+        "Afghanistan cricket",
+        "India Test batting",
+        "Test cricket rankings"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyO24ySYu8xTHwy0we1s2HU6t29YTOC5ZKcrCfsiwUXdgoZI_UPCVt2TUiiBM",
+      "related": [
+        {
+          "title": "Rahmat Shah becomes first Afghanistan batter in top ten of ICC Test rankings",
+          "url": "https://www.cricinfo.com/story/rahmat-shah-becomes-first-afghanistan-player-to-enter-icc-top-10-rankings-1562208",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "Historic first for Afghanistan batter after rankings update",
+          "url": "https://www.icc-cricket.com/news/historic-first-for-afghanistan-batter-after-rankings-update",
+          "source": "ICC"
+        },
+        {
+          "title": "Pant, Gill drop to eighth and 10th in Test rankings",
+          "url": "https://telanganatoday.com/pant-gill-drop-to-eighth-and-10th-in-test-rankings",
+          "source": "Telangana Today"
+        }
+      ],
+      "word_count": 582,
+      "page": "p/rahmat-shah-cracks-icc-test-top-ten-as-indias-pant-gill-slip.html"
+    },
+    {
+      "title": "Pakistan Beats India in Junior Asia Cup as Indian Batting Falters",
+      "slug": "pakistan-beats-india-in-junior-asia-cup-as-indian-batting-falters",
+      "topic": "பாகிஸ்தான் தேசிய கிரிக்கெட் அணி",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Pakistan's under‑19 team secured a crucial victory against India in the Junior Asia Cup. The win came after India suffered a severe batting collapse despite a big score from Arjun Rajput.",
+      "meta_description": "Pakistan's junior cricket side clinched a win over India in the Junior Asia Cup, ending a disappointing Indian performance despite Arjun Rajput's 208-run effort",
+      "keywords": [
+        "Pakistan cricket",
+        "Junior Asia Cup",
+        "India vs Pakistan",
+        "U19 cricket",
+        "South Asian sports"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS2pfDsmwxPPAHhLTFBk1LGGKSezVLjXosCHbYgjWNhEnqYlz9TQy3M0HFHdWk",
+      "related": [
+        {
+          "title": "இந்திய அணி ஏமாற்றம்: ஜூனியர் ஆசிய கோப்பையில்",
+          "url": "https://www.dinamalar.com/news/sports-cricket/disappointing-indian-team-in-junior-asia-cup/4371265",
+          "source": "Dinamalar"
+        },
+        {
+          "title": "ஜூனியர் ஆசிய கோப்பை - பாகிஸ்தானுக்கு எதிராக சதமடித்து அசத்திய அர்ஜுன் ராஜ்புத்... 208 ரன்கள் குவிப்பு",
+          "url": "https://www.dailythanthi.com/sports/cricket/junior-asia-cup-arjun-rajput-scores-brilliant-century-against-pakistan-as-team-posts-208",
+          "source": "Daily Thanthi"
+        },
+        {
+          "title": "ஜூனியர் ஆசிய கோப்பை... தடுமாறிய பேட்ஸ்மேன்கள் - பாகிஸ்தானிடம் இந்தியா தோல்வி!",
+          "url": "https://tamil.news18.com/sports/junior-asia-cup-cricket-india-loses-to-pakistan-nw-mma-ws-bl-2248839.html",
+          "source": "News18 Tamil"
+        }
+      ],
+      "word_count": 829,
+      "page": "p/pakistan-beats-india-in-junior-asia-cup-as-indian-batting-falters.html"
+    },
+    {
+      "title": "PUBG Battlegrounds Announces Stricter Anti-Cheat Penalties",
+      "slug": "pubg-battlegrounds-announces-stricter-anti-cheat-penalties",
+      "topic": "pubg",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Krafton has released a new weekly ban report for PUBG: BATTLEGROUNDS, highlighting a crackdown on cheat distribution. Players are now warned that associating with known cheaters could lead to account suspensions.",
+      "meta_description": "PUBG Battlegrounds has issued a weekly ban notice and warned that playing with cheaters may result in severe penalties, impacting players in Pakistan.",
+      "keywords": [
+        "PUBG",
+        "Battlegrounds",
+        "cheating",
+        "ban notice",
+        "Pakistan"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRZhglFx19fB7l1KUuH2hBAwnPyxlW4pinDSKbSe2jcjnzzknt0Aqk-3MAQmHY",
+      "related": [
+        {
+          "title": "PUBG: BATTLEGROUNDS Weekly Bans Notice (11/02~11/08)",
+          "url": "https://pubg.com/en/news/11382",
+          "source": "PUBG: BATTLEGROUNDS"
+        },
+        {
+          "title": "An Update from the Fair Play Task Force",
+          "url": "https://www.huntshowdown.com/news/an-update-from-the-fair-play-task-force",
+          "source": "Hunt: Showdown"
+        },
+        {
+          "title": "“Playing alongside cheaters can also lead to serious penalties”: PUBG weighs tougher rules",
+          "url": "https://mixed-news.com/en/pubg-cheat-distribution-ban-evasion-premade-team-penalties/",
+          "source": "MIXED News"
+        }
+      ],
+      "word_count": 778,
+      "page": "p/pubg-battlegrounds-announces-stricter-anti-cheat-penalties.html"
+    },
+    {
+      "title": "Ole Miss student seen making offensive gestures on video doorbell…",
+      "slug": "ole-miss-student-seen-making-offensive-gestures-on-video-doorbell",
+      "topic": "videos",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Coverage linked to \"videos\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "videos: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "videos",
+        "videos news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUnklAFHCiaArCjjIothIEuCqXWRhrSmKsgyWU5n7ejnQG33javsuP7F20ARQ",
+      "related": [
+        {
+          "title": "Ole Miss student seen making offensive gestures on video doorbell footage issues statement",
+          "url": "https://www.localmemphis.com/article/news/local/mississippi/ole-miss-student-seen-on-offensive-doorbell-footage-issues-statement/522-f477a6cf-54eb-4383-89df-e9ad879949fa",
+          "source": "localmemphis.com"
+        },
+        {
+          "title": "University of Mississippi student apologizes, withdraws after alleged racist taunts in viral doorbell video",
+          "url": "https://abcnews.com/US/university-mississippi-student-apologizes-alleged-racist-taunts-viral/story?id=138017517",
+          "source": "ABC News - Breaking News, Latest News and Videos"
+        },
+        {
+          "title": "Woman apologizes for making racist gestures outside Ole Miss students’ apartment",
+          "url": "https://www.nbcnews.com/news/us-news/woman-apologizes-racist-gestures-ole-miss-students-apartment-rcna608547",
+          "source": "NBC News"
+        }
+      ],
+      "word_count": 337,
+      "page": "p/ole-miss-student-seen-making-offensive-gestures-on-video-doorbell.html"
+    },
+    {
+      "title": "Oil Rebounds After Two-Day Drop on U.S.-Iran Conflict Uncertainty",
+      "slug": "oil-rebounds-after-two-day-drop-on-us-iran-conflict-uncertainty",
+      "topic": "iran war",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Coverage linked to \"iran war\" is circulating in IN. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "iran war: coverage and context for readers in IN. Summary of related reports and what to verify next.",
+      "keywords": [
+        "iran war",
+        "iran war news",
+        "IN",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoEkxO8PNyKJkGlHLlmT1pdRO5k7UngjjKG1OKxQHSA5reVCeutwxFsU4aJZA",
+      "related": [
+        {
+          "title": "Oil Rebounds After Two-Day Drop on U.S.-Iran Conflict Uncertainty",
+          "url": "https://www.wsj.com/finance/commodities-futures/oil-rises-as-middle-east-risks-linger-53d39c2e",
+          "source": "WSJ"
+        },
+        {
+          "title": "Trump's Iran war pause keeps Gulf oil producers on edge, sustaining costs and risks to global supply",
+          "url": "https://www.telegraphindia.com/world/trumps-iran-war-pause-keeps-gulf-oil-producers-on-edge-sustaining-costs-and-risks-to-global-supply/cid/2188955",
+          "source": "Telegraph India"
+        },
+        {
+          "title": "Crude cools off: Oil prices hold near $90 per barrel as US-Iran war tensions ease",
+          "url": "https://timesofindia.indiatimes.com/business/international-business/crude-cools-off-oil-prices-hold-near-90-per-barrel-as-us-iran-war-tensions-ease/articleshow/135722706.cms",
+          "source": "The Times of India"
+        }
+      ],
+      "word_count": 345,
+      "page": "p/oil-rebounds-after-two-day-drop-on-us-iran-conflict-uncertainty.html"
+    },
+    {
+      "title": "Nationwide Veterans Day breakfasts and free meals honor service members",
+      "slug": "nationwide-veterans-day-breakfasts-and-free-meals-honor-service-members",
+      "topic": "veterans day breakfast",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Businesses and local organizations across the United States are preparing special meals and events to honor veterans on Veterans Day. From grocery store breakfasts to community parades, the day is marked by widespread gestures of appreciati",
+      "meta_description": "Across the US, communities and businesses offer free Veterans Day breakfasts and meals to honor veterans. Local events in the Quad Cities and Kansas City highli",
+      "keywords": [
+        "Veterans Day",
+        "free breakfast",
+        "US veterans",
+        "community events",
+        "military service"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSs7lV3CVbcv07nUI2e-mLQzrKP8zwWd8KU1WLpQjs7I6yDnj5uDihYPcO7IhM",
+      "related": [
+        {
+          "title": "Veterans Day events and freebies for vets around the Quad Cities",
+          "url": "https://www.wqad.com/article/entertainment/events/veterans-day-events-freebies-iowa-illinois-quad-cities-parades-ceremonies/526-373d3070-df90-49a0-b91c-8f03bfb7eb1f",
+          "source": "WQAD"
+        },
+        {
+          "title": "Free Veterans Day Breakfast at participating Hy-Vee locations",
+          "url": "https://www.kshb.com/news/local-news/missouri/jackson-county/free-veterans-day-breakfast-at-participating-hy-vee-locations",
+          "source": "KSHB 41 Kansas City"
+        },
+        {
+          "title": "Veterans to receive free meals, ice cream in Norfolk on Wednesday",
+          "url": "https://norfolkdailynews.com/news/veterans-to-receive-free-meals-ice-cream-in-norfolk-on-wednesday/article_dc60591c-8210-4938-92cd-2b50913e9453.html",
+          "source": "The Norfolk Daily News"
+        }
+      ],
+      "word_count": 762,
+      "page": "p/nationwide-veterans-day-breakfasts-and-free-meals-honor-service-members.html"
+    },
+    {
+      "title": "Myleene Klass's iconic bikini earns her £11m as she joins I'm A Celebrity",
+      "slug": "myleene-klasss-iconic-bikini-earns-her-11m-as-she-joins-im-a-celebrity",
+      "topic": "myleene klass",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Myleene Klass has joined the cast of I'm A Celebrity, sparking interest after reports that her iconic bikini earned her £11m. The UK media is keen to see how she fares in the jungle.",
+      "meta_description": "Myleene Klass, known for her music and TV work, has joined the cast of I'm A Celebrity. Her iconic bikini has reportedly earned her £11m, sparking media interes",
+      "keywords": [
+        "Myleene Klass",
+        "I'm A Celebrity",
+        "UK celebrity news",
+        "bikini wealth",
+        "British TV personalities"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQS-AdXrWsthtAyoVsoj6JY7cNAfER2b3u9nkyY5XFSSPTs61lLpx_fbgEC7UE",
+      "related": [
+        {
+          "title": "I’m a Celebrity shower rich list & how Myleene's iconic bikini earnt her £11M",
+          "url": "https://www.thesun.co.uk/fabulous/40965022/im-a-celeb-shower-rich-list-myleene-helen/",
+          "source": "The Sun"
+        },
+        {
+          "title": "Oxfordshire-born Love Island star reveals biggest fear ahead of I'm A Celeb",
+          "url": "https://www.oxfordmail.co.uk/news/26718685.love-island-star-reveals-biggest-fear-ahead-celeb/",
+          "source": "Oxford Mail"
+        },
+        {
+          "title": "Chloe Burrows is sixth I'm A Celebrity star to land in Australia joining Wayne Rooney",
+          "url": "https://www.mirror.co.uk/tv/tv-news/im-a-celebrity-chloe-burrows-37861732",
+          "source": "The Mirror"
+        }
+      ],
+      "word_count": 781,
+      "page": "p/myleene-klasss-iconic-bikini-earns-her-11m-as-she-joins-im-a-celebrity.html"
+    },
+    {
+      "title": "Michael J. Fox Honors Longtime Friend George Stephanopoulos with Funny…",
+      "slug": "michael-j-fox-honors-longtime-friend-george-stephanopoulos-with-funny",
+      "topic": "george stephanopoulos",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Coverage linked to \"george stephanopoulos\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "george stephanopoulos: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "george stephanopoulos",
+        "george stephanopoulos news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTf-92frUo2B3K657-Vfh3PmeyDF_1A3Zki3EdB70HxyB_jYoljt1rU44Cth-A",
+      "related": [
+        {
+          "title": "Michael J. Fox Honors Longtime Friend George Stephanopoulos with Funny Speech at Walk of Fame Ceremony",
+          "url": "https://people.com/michael-j-fox-george-stephanopoulos-hollywood-walk-of-fame-ceremony-12239129",
+          "source": "People.com"
+        },
+        {
+          "title": "George Stephanopoulos, 65, Poses With Wife Ali Wentworth and Their Two Daughters Elliot, 24, and Harper, 21, for Career Milestone",
+          "url": "https://sg.news.yahoo.com/george-stephanopoulos-65-poses-wife-160544300.html",
+          "source": "Yahoo News Singapore"
+        },
+        {
+          "title": "'GMA' co-anchors George Stephanopoulos, Robin Roberts receive stars on Hollywood Walk of Fame",
+          "url": "https://abcnews.com/GMA/Culture/watch-george-stephanopoulos-robin-roberts-walk-fame-ceremony/story?id=137852275",
+          "source": "ABC News - Breaking News, Latest News and Videos"
+        }
+      ],
+      "word_count": 355,
+      "page": "p/michael-j-fox-honors-longtime-friend-george-stephanopoulos-with-funny.html"
+    },
+    {
+      "title": "Man Utd Q&A: Michael Carrick, Mauricio Pochettino, INEOS and more -…",
+      "slug": "man-utd-qa-michael-carrick-mauricio-pochettino-ineos-and-more",
+      "topic": "glazer ownership of manchester united",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Coverage linked to \"glazer ownership of manchester united\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "glazer ownership of manchester united: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "glazer ownership of manchester united",
+        "glazer ownership of manchester united news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSCHpR4TR4EQ_5UgXRpPS0NdRayzF8tC7zIiJMWB615pecov5R1vjRNQV_s100",
+      "related": [
+        {
+          "title": "Man Utd Q&A: Michael Carrick, Mauricio Pochettino, INEOS and more - Kaveh Solhekol answers your questions",
+          "url": "https://www.skysports.com/football/news/13610675/man-utd-q-and-a-michael-carrick-mauricio-pochettino-ineos-and-more-kaveh-solhekol-answers-your-questions",
+          "source": "Sky Sports"
+        },
+        {
+          "title": "Glazers put Man United up for sale as huge asking price revealed",
+          "url": "https://talksport.com/football/4698914/manchester-united-sale-valuation-glazer-family/",
+          "source": "talkSPORT"
+        },
+        {
+          "title": "Man Utd takeover: Expert reveals deal includes vital 'clause' as Glazers put club up 'for sale' at set price",
+          "url": "https://www.football365.com/news/man-utd-takeover-expert-reveals-deal-vital-clause-glazers-for-sale-set-price",
+          "source": "Football365"
+        }
+      ],
+      "word_count": 358,
+      "page": "p/man-utd-qa-michael-carrick-mauricio-pochettino-ineos-and-more.html"
+    },
+    {
+      "title": "Liverpool and Chelsea vie for Ligue 1 midfielder Lamine Camara",
+      "slug": "liverpool-and-chelsea-vie-for-ligue-1-midfielder-lamine-camara",
+      "topic": "lamine camara",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Liverpool have reached a preliminary agreement to bring Lamine Camara to Anfield in January, and Chelsea are also monitoring the Senegalese midfielder closely. The race intensifies as both clubs seek to strengthen their squads ahead of the ",
+      "meta_description": "Liverpool have a deal to sign Senegalese midfielder Lamine Camara in January, while Chelsea also eye the Ligue 1 talent, sparking a top‑flight transfer tussle.",
+      "keywords": [
+        "Lamine Camara",
+        "Liverpool transfer",
+        "Chelsea",
+        "Premier League",
+        "Ligue 1"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQGd7o_V7ZtYxt_JmhuYAnpBI5gp4PD1pAepbz5rqlv5G8iGGRw6K4MxC5hWBw",
+      "related": [
+        {
+          "title": "Liverpool strike agreement for dazzling first January capture",
+          "url": "https://www.football365.com/news/liverpool-transfer-news-first-january-signing-lamine-camara-strike-agreement",
+          "source": "Football365"
+        },
+        {
+          "title": "Chelsea Are In The Mix To Land This Ligue 1 Midfielder: Should Alonso Move In For Him?",
+          "url": "https://the4thofficial.net/2026/11/chelsea-are-in-the-mix-to-land-this-ligue-1-midfielder/",
+          "source": "The 4th Official"
+        },
+        {
+          "title": "Journalist provides latest update on Liverpool’s interest in Lamine Camara",
+          "url": "https://www.daveockop.com/transfer-news/journalist-provides-latest-update-on-liverpools-interest-in-lamine-camara/",
+          "source": "DaveOCKOP"
+        }
+      ],
+      "word_count": 898,
+      "page": "p/liverpool-and-chelsea-vie-for-ligue-1-midfielder-lamine-camara.html"
+    },
+    {
+      "title": "Johnny Depp headlines London premiere of ‘Ebenezer’ amid mixed critic forecasts",
+      "slug": "johnny-depp-headlines-london-premiere-of-ebenezer-amid-mixed-critic-forecasts",
+      "topic": "ebenezer scrooge",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Hollywood star Johnny Depp leads the new comedy‑thriller ‘Ebenezer’, which opened in London this week. Traders on the Kalshi platform predict a modest Rotten Tomatoes score, sparking debate among fans in Pakistan.",
+      "meta_description": "Johnny Depp returns to the screen in the comedy‑thriller ‘Ebenezer’, debuting at London’s Odeon Luxe Leicester Square, as traders forecast a Rotten Tomatoes rat",
+      "keywords": [
+        "Johnny Depp",
+        "Ebenezer film",
+        "London premiere",
+        "Rotten Tomatoes",
+        "Pakistani audience"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGmHSRcScTCLD8LLPxReKrbn-yelvuD64ujqlt3vEivnHrhTkm62WpFS1nM4w",
+      "related": [
+        {
+          "title": "‘I’m not the man I was’: Johnny Depp is back with his biggest role since his highly publicized legal battles",
+          "url": "https://www.cnn.com/2026/11/09/entertainment/johnny-depp-ebenezer",
+          "source": "CNN"
+        },
+        {
+          "title": "Ebenezer Rotten Tomatoes odds: Kalshi traders predict ‘Rotten’ score of 36.8%",
+          "url": "https://news.kalshi.com/p/ebenezer-rotten-tomatoes-odds-kalshi-traders-predict-rotten-score-of-36-8",
+          "source": "Kalshi News"
+        },
+        {
+          "title": "Johnny Depp reunited with the cast of Ebenezer for the London premiere of the comedy-thriller at the Odeon Luxe Leicester Square. Read more below.",
+          "url": "https://www.facebook.com/deadline/posts/johnny-depp-reunited-with-the-cast-of-ebenezer-for-the-london-premiere-of-the-co/1487711563229179/",
+          "source": "Facebook"
+        }
+      ],
+      "word_count": 949,
+      "page": "p/johnny-depp-headlines-london-premiere-of-ebenezer-amid-mixed-critic-forecasts.html"
+    },
+    {
+      "title": "Jenna Bush Hager Recounts 7-Year-Old Son’s Questions About Past Boyfriends",
+      "slug": "jenna-bush-hager-recounts-7-year-old-sons-questions-about-past-boyfriends",
+      "topic": "jenna bush hager",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Coverage linked to \"jenna bush hager\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "jenna bush hager: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "jenna bush hager",
+        "jenna bush hager news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTzX7SUj1r3hSSgC-d3mkDDixJITg1qkINOyWhJ3LfiNdKgPGTFuxMIjpIwEno",
+      "related": [
+        {
+          "title": "Jenna Bush Hager Recounts 7-Year-Old Son’s Questions About Past Boyfriends",
+          "url": "https://www.today.com/video/jenna-bush-hager-recounts-7-year-old-son-s-questions-about-past-boyfriends-273202245588",
+          "source": "TODAY.com"
+        },
+        {
+          "title": "Jenna Bush Hager details awkward conversation with son Hal, 7, about her ex-boyfriends",
+          "url": "https://pagesix.com/2026/11/10/parents/jenna-bush-hager-details-awkward-conversation-with-son-hal-7-about-her-ex-boyfriends/",
+          "source": "Page Six"
+        },
+        {
+          "title": "TODAY's Jenna Bush Hager's probing question from 7-year-old son about relationship with husband",
+          "url": "https://www.yahoo.com/entertainment/celebrity/articles/todays-jenna-bush-hagers-probing-155401518.html",
+          "source": "Yahoo"
+        }
+      ],
+      "word_count": 346,
+      "page": "p/jenna-bush-hager-recounts-7-year-old-sons-questions-about-past-boyfriends.html"
+    },
+    {
+      "title": "Iran rejects French claims it was behind supermarket fridge hacking",
+      "slug": "iran-rejects-french-claims-it-was-behind-supermarket-fridge-hacking",
+      "topic": "supermarket",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Coverage linked to \"supermarket\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "supermarket: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "supermarket",
+        "supermarket news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA83DbouDynC-ZVtTJLo2AWYFKE9Bc9PJ01dpBb1gqa2EZD0VTCPqfWmoQO_M",
+      "related": [
+        {
+          "title": "Iran rejects French claims it was behind supermarket fridge hacking",
+          "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo",
+          "source": "BBC"
+        },
+        {
+          "title": "Home appliances could be next after fridge hacks, warns EU cyber chief",
+          "url": "https://www.euronews.com/2026/11/10/ai-is-industrialising-cyberattacks-and-shrinking-the-time-for-exploitation-says-eu-cyberse",
+          "source": "Euronews.com"
+        },
+        {
+          "title": "If hackers can take over a supermarket fridge, what else is at risk?",
+          "url": "https://www.aljazeera.com/news/2026/11/11/if-hackers-can-take-over-a-supermarket-fridge-what-else-is-at-risk",
+          "source": "Al Jazeera"
+        }
+      ],
+      "word_count": 327,
+      "page": "p/iran-rejects-french-claims-it-was-behind-supermarket-fridge-hacking.html"
+    },
+    {
+      "title": "Grand Theft Auto VI launches globally with pre‑load and Xbox Cloud Gaming options",
+      "slug": "grand-theft-auto-vi-launches-globally-with-preload-and-xbox-cloud-gaming-options",
+      "topic": "gta vi",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Rockstar Games announced that players can now pre‑load Grand Theft Auto VI ahead of its official launch. Xbox Cloud Gaming will also stream the title from November 19, expanding access for Pakistani gamers.",
+      "meta_description": "Rockstar Games has opened pre‑load for Grand Theft Auto VI as the blockbuster prepares for its worldwide release, with Xbox Cloud Gaming to stream the title fro",
+      "keywords": [
+        "Grand Theft Auto VI",
+        "Rockstar Games",
+        "Xbox Cloud Gaming",
+        "game release",
+        "Pakistan gamers"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTZll1tApV9Ds71HmTdujHYiNfoBn3zrlJCvS7S-pg_vQYPoW8x18hTe8WUCZg",
+      "related": [
+        {
+          "title": "Pre-Load Grand Theft Auto VI Now",
+          "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+          "source": "Rockstar Games"
+        },
+        {
+          "title": "Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19",
+          "url": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/",
+          "source": "XBOX Wire"
+        },
+        {
+          "title": "Downloads for much-anticipated blockbuster GTA VI begin ahead of launch next week",
+          "url": "https://www.dawn.com/news/2043309",
+          "source": "Dawn"
+        }
+      ],
+      "word_count": 871,
+      "page": "p/grand-theft-auto-vi-launches-globally-with-preload-and-xbox-cloud-gaming-options.html"
+    },
+    {
+      "title": "Generation X in worse health in their fifties than baby boomers",
+      "slug": "generation-x-in-worse-health-in-their-fifties-than-baby-boomers",
+      "topic": "generation x",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Coverage linked to \"generation x\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "generation x: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "generation x",
+        "generation x news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTq4WXSqqfjI7kPKMxS2A0fT8S9gTt7wdFQIke22hv_QRsAS01slx81cY82Z5c",
+      "related": [
+        {
+          "title": "Generation X in worse health in their fifties than baby boomers",
+          "url": "https://www.thetimes.com/uk/healthcare/article/generation-x-worse-health-fifties-baby-boomers-kwwkctw5d",
+          "source": "The Times"
+        },
+        {
+          "title": "A 1991 Wisconsin news report didn't have high hopes for Gen X youth. We proved them wrong.",
+          "url": "https://www.upworthy.com/a-1991-wisconsin-news-report-didnt-have-high-hopes-for-gen-x-youth-we-proved-them-wrong/",
+          "source": "Upworthy"
+        },
+        {
+          "title": "Gen X can be famously tough but these 10 ‘hacks’ will get you on their good side",
+          "url": "https://sg.news.yahoo.com/gen-x-famously-tough-10-234048174.html",
+          "source": "Yahoo News Singapore"
+        }
+      ],
+      "word_count": 344,
+      "page": "p/generation-x-in-worse-health-in-their-fifties-than-baby-boomers.html"
+    },
+    {
+      "title": "Felix Nmecha faces backlash over controversial goal celebration and evangelical links",
+      "slug": "felix-nmecha-faces-backlash-over-controversial-goal-celebration-and-evangelical-links",
+      "topic": "felix nmecha",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "The German midfielder has drawn ire from supporters after a provocative celebration, while his ties to a Christian evangelical group have raised concerns among club officials.",
+      "meta_description": "German midfielder Felix Nmecha is under scrutiny after a contentious celebration in the Bundesliga and links to a Christian evangelical group spark criticism fr",
+      "keywords": [
+        "Felix Nmecha",
+        "Bundesliga",
+        "goal celebration",
+        "evangelical group",
+        "football controversy"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRloU9SDyYzr_1Xv5l9Xhs5-UErbugtz3BOu6bf1Z4s2k6HHvVJE4YZ6suZ9Hg",
+      "related": [
+        {
+          "title": "Dortmund fans' group criticises Nmecha celebration",
+          "url": "https://www.bbc.com/sport/football/articles/cm3696yy9z64o",
+          "source": "BBC"
+        },
+        {
+          "title": "Germany star warned about conduct over links to Christian evangelical group",
+          "url": "https://www.footballtransfers.com/us/transfer-news/de-bundesliga/2026/11/germany-star-warned-about-conduct-over-links-to-christian-evangelical-group",
+          "source": "www.footballtransfers.com"
+        },
+        {
+          "title": "Felix Nmecha responds to criticism of controversial Bundesliga goal celebration",
+          "url": "https://www.getfootballnewsgermany.com/2026/felix-nmecha-celebration-response/",
+          "source": "Get German Football News"
+        }
+      ],
+      "word_count": 527,
+      "page": "p/felix-nmecha-faces-backlash-over-controversial-goal-celebration-and-evangelical-links.html"
+    },
+    {
+      "title": "Dakota Meyer survived a battle he thought would kill him. 15 years…",
+      "slug": "dakota-meyer-survived-a-battle-he-thought-would-kill-him-15-years",
+      "topic": "dakota meyer",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Coverage linked to \"dakota meyer\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "dakota meyer: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "dakota meyer",
+        "dakota meyer news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW6rf8yNsx9_yuEU9Z_IhcU0qAWAJNrvbMVig2Y1YK-19dAaFGKlfDk4R8HQc",
+      "related": [
+        {
+          "title": "Dakota Meyer survived a battle he thought would kill him. 15 years after leaving the Marines, he went back",
+          "url": "https://www.foxnews.com/politics/dakota-meyer-survived-battle-thought-would-kill-him-15-years-after-leaving-marines-went-back",
+          "source": "Fox News"
+        },
+        {
+          "title": "Why Medal of Honor recipient Dakota Meyer returned to the Marines after 15 years",
+          "url": "https://www.yahoo.com/news/videos/why-medal-honor-recipient-dakota-224732362.html",
+          "source": "Yahoo"
+        },
+        {
+          "title": "Dakota Meyer reenlisted in Marine Corps in 2025, completed reconnaissance training in his late 30s",
+          "url": "https://tippahnews.com/national-news/dakota-meyer-reenlisted-in-marine-corps-in-2025-completed-reconnaissance-training-in-his-late-30s/",
+          "source": "Tippah News"
+        }
+      ],
+      "word_count": 345,
+      "page": "p/dakota-meyer-survived-a-battle-he-thought-would-kill-him-15-years.html"
+    },
+    {
+      "title": "Chiranjeevi’s ‘Abhilasha’ Celebrates 515‑Day Run, Cementing Megastar Status",
+      "slug": "chiranjeevis-abhilasha-celebrates-515day-run-cementing-megastar-status",
+      "topic": "చిరంజీవి",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "The Telugu film Abhilasha, starring Chiranjeevi, has completed a 515‑day run in theatres. Industry insiders say the achievement reflects the actor’s lasting popularity.",
+      "meta_description": "Telugu megastar Chiranjeevi's film Abhilasha completes a 515‑day theatrical run, a milestone that highlights his enduring appeal and the strength of regional ci",
+      "keywords": [
+        "Chiranjeevi",
+        "Abhilasha",
+        "Telugu cinema",
+        "box office",
+        "Indian film industry"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTQMHsCAVJm_cWcangd7mk844i0PyfdDlrOSSkMqFxhRUTa84FQI2zfqPF5PVg",
+      "related": [
+        {
+          "title": "Chiranjeevi: 515 రోజులు ఆడిన మూవీ, చిరంజీవి సినిమాతో కుంభస్థలం బద్దలు కొట్టిన నటుడు.. ఇంటర్వెల్‌కే‌ స్టార్‌",
+          "url": "https://telugu.asianetnews.com/gallery/entertainment/actor-gollapudi-maruti-rao-reveals-interesting-facts-on-intlo-ramayya-veedhilo-krishnayya-5vlx0z9",
+          "source": "Asianet News Telugu"
+        },
+        {
+          "title": "Chiranjeevi: సినిమా ఆడదన్నారు...కానీ బ్లాక్‌బస్టర్‌ అయింది..దట్‌ఈజ్‌ మెగాస్టార్‌",
+          "url": "https://www.hmtvlive.com/telugu-news/movies/chiranjeevi-abhilasha-movie-success-story-208581",
+          "source": "HMTV"
+        },
+        {
+          "title": "ప్రివ్యూ చూసి సినిమా ఆడదు అన్నారు.. డైరెక్టర్ బోరున ఏడ్చాడు.. కట్ చేస్తే బ్లాక్ బస్టర్ కొట్టిన...",
+          "url": "https://tv9telugu.com/entertainment/tollywood/kodandarami-reddys-emotional-abhilasha-chiranjeevis-blockbuster-journey-with-k-s-rama-rao-1949414.html",
+          "source": "TV9 Telugu"
+        }
+      ],
+      "word_count": 805,
+      "page": "p/chiranjeevis-abhilasha-celebrates-515day-run-cementing-megastar-status.html"
+    },
+    {
+      "title": "Bowling Alley, Tennis Court, Car Gallery: AI Imagines A $55 Million…",
+      "slug": "bowling-alley-tennis-court-car-gallery-ai-imagines-a-55-million",
+      "topic": "tennis court",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Coverage linked to \"tennis court\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "tennis court: coverage and context for readers in US. Summary of related reports and what to verify next.",
+      "keywords": [
+        "tennis court",
+        "tennis court news",
+        "US",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj5Xfbh6hW4NOdZsTdnc1INrhEDRXWFA1ekpEydWvuhgQ17_8zUTU3H7_vuRw",
+      "related": [
+        {
+          "title": "Bowling Alley, Tennis Court, Car Gallery: AI Imagines A $55 Million Home In The DC Area",
+          "url": "https://dc.urbanturf.com/articles/blog/bowling_alley_tennis_court_car_gallery_ai_imagines_a_55_million_home_in_the/25182",
+          "source": "UrbanTurf"
+        },
+        {
+          "title": "Emma Raducanu swaps tennis court for Lake District trip",
+          "url": "https://www.thewestmorlandgazette.co.uk/news/26716371.emma-raducanu-swaps-tennis-court-lake-district-adventure/",
+          "source": "Westmorland Gazette"
+        },
+        {
+          "title": "Emma Raducanu impresses in different sport as tennis star enjoys Lake District 'timeout' after injury-hit year",
+          "url": "https://www.thesun.co.uk/sport/40986472/emma-raducanu-instagram-lake-district-tennis-news/",
+          "source": "The Sun"
+        }
+      ],
+      "word_count": 339,
+      "page": "p/bowling-alley-tennis-court-car-gallery-ai-imagines-a-55-million.html"
+    },
+    {
+      "title": "Bangladesh vs Sri Lanka LIVE Score, SAFF Championship: Semifinal-bound…",
+      "slug": "bangladesh-vs-sri-lanka-live-score-saff-championship-semifinal-bound",
+      "topic": "bangladesh vs sri lanka",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Coverage linked to \"bangladesh vs sri lanka\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "bangladesh vs sri lanka: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "bangladesh vs sri lanka",
+        "bangladesh vs sri lanka news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQjH3_HcqFGG1Apq0-ROdpyTk1ApEnU96iojlbTK5iS0Bso0FESgd60c6Wre0I",
+      "related": [
+        {
+          "title": "Bangladesh vs Sri Lanka LIVE Score, SAFF Championship: Semifinal-bound Bengal Tigers stand in Golden Lions' way",
+          "url": "https://sportstar.thehindu.com/football/bangladesh-vs-sri-lanka-live-score-saff-championship-match-updates-highlights/article71689608.ece",
+          "source": "Sportstar"
+        },
+        {
+          "title": "‘We play football, not cricket’: Sri Lanka coach Mutairi calls for respect ahead of Bangladesh clash",
+          "url": "https://www.thedailystar.net/sports/football/news/we-play-football-not-cricket-sri-lanka-coach-mutairi-calls-respect-ahead-bangladesh-clash-4320396",
+          "source": "The Daily Star"
+        },
+        {
+          "title": "Hamza targets SAFF title despite finishing woes",
+          "url": "https://www.daily-sun.com/winner/908470",
+          "source": "www.daily-sun.com"
+        }
+      ],
+      "word_count": 350,
+      "page": "p/bangladesh-vs-sri-lanka-live-score-saff-championship-semifinal-bound.html"
+    },
+    {
+      "title": "Avengers Endgame: Encore: Streaming Details, Story, Cast & What To…",
+      "slug": "avengers-endgame-encore-streaming-details-story-cast-what-to",
+      "topic": "doomsday release date",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Coverage linked to \"doomsday release date\" is circulating in IN. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "doomsday release date: coverage and context for readers in IN. Summary of related reports and what to verify next.",
+      "keywords": [
+        "doomsday release date",
+        "doomsday release date news",
+        "IN",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQjm6OEl_stk5uVsbn2picCEB9F7hPIGBoH3vkV2YxQ-jiPcq_cTuA7p_W73sM",
+      "related": [
+        {
+          "title": "Avengers Endgame: Encore: Streaming Details, Story, Cast & What To Watch Next | Explore Disney+",
+          "url": "https://www.disneyplus.com/explore/articles/avengers-endgame-encore",
+          "source": "Disney Plus"
+        },
+        {
+          "title": "Avengers: Endgame Encore Disney+ Streaming Release Date Officially Confirmed",
+          "url": "https://screenrant.com/avengers-endgame-encore-disney-plus-streaming-release-date-november-2026/",
+          "source": "ScreenRant"
+        },
+        {
+          "title": "Avengers: Endgame Encore Officially Sets Disney+ Release Date Ahead of Doomsday",
+          "url": "https://fandomwire.com/avengers-endgame-encore-disney-plus-release-date/",
+          "source": "FandomWire"
+        }
+      ],
+      "word_count": 334,
+      "page": "p/avengers-endgame-encore-streaming-details-story-cast-what-to.html"
+    },
+    {
+      "title": "Arshdeep Singh Announces Engagement to Samreen Kaur in New Zealand",
+      "slug": "arshdeep-singh-announces-engagement-to-samreen-kaur-in-new-zealand",
+      "topic": "अर्शदीप सिंह",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Indian cricketer Arshdeep Singh revealed his engagement to Samreen Kaur in a picturesque New Zealand setting. The couple’s proposal photos quickly spread across social media, sparking widespread attention.",
+      "meta_description": "Cricket star Arshdeep Singh publicly announced his engagement to girlfriend Samreen Kaur during a New Zealand trip, sharing photos that went viral across India ",
+      "keywords": [
+        "Arshdeep Singh",
+        "Samreen Kaur",
+        "engagement",
+        "New Zealand",
+        "cricket"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1_y5cBGbrAC3faJ4HEaSHDZ9hL7G0hgdWpXsyjGuF9CptF8Xb3BYyksEhC4A",
+      "related": [
+        {
+          "title": "'जिंदगी भर का साथ...', अर्शदीप सिंह ने थाम लिया समरीन कौर का हाथ, सगाई की खूबसूरत तस्वीरें हुईं वायरल",
+          "url": "https://www.aajtak.in/sports/cricket/story/arshdeep-singh-girlfriend-samreen-kaur-announce-engagement-check-out-pictures-from-the-proposal-aksp-dskc-2693893-2026-11-11",
+          "source": "AajTak"
+        },
+        {
+          "title": "अर्शदीप ने गर्लफ्रेंड समरीन को अंगूठी पहनाई: न्यूजीलैंड में प्रपोज किया, सोशल मीडिया पर शेयर की सगाई की तस्...",
+          "url": "https://www.bhaskar.com/sports/cricket/news/arshdeep-singh-samreen-kaur-engagement-new-zealand-photos-139656338.html",
+          "source": "Dainik Bhaskar"
+        },
+        {
+          "title": "फिल्मी अंदाज में अर्शदीप सिंह ने समरीन कौर को किया प्रपोज, सगाई की तस्वीरें वायरल",
+          "url": "https://www.abplive.com/sports/cricket/arshdeep-singh-proposes-to-samreen-kaur-in-a-filmy-style-engagement-pictures-go-viral-3213649",
+          "source": "ABP News"
+        }
+      ],
+      "word_count": 484,
+      "page": "p/arshdeep-singh-announces-engagement-to-samreen-kaur-in-new-zealand.html"
+    },
+    {
+      "title": "Alexander Shevchenko vs Casper Ruud » Best Odds and Stats",
+      "slug": "alexander-shevchenko-vs-casper-ruud-best-odds-and-stats",
+      "topic": "alejandro tabilo",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Coverage linked to \"alejandro tabilo\" is circulating in IN. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "alejandro tabilo: coverage and context for readers in IN. Summary of related reports and what to verify next.",
+      "keywords": [
+        "alejandro tabilo",
+        "alejandro tabilo news",
+        "IN",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTirIv8RW34FmI4qxLE3Ifi8PLjDJuiLTj36ZmkywQ8jJltD2Aj6V9NQ-tsjg",
+      "related": [
+        {
+          "title": "Alexander Shevchenko vs Casper Ruud » Best Odds and Stats",
+          "url": "https://oddsscanner.com/us/tennis/alexander-shevchenko-vs-casper-ruud",
+          "source": "Odds Scanner"
+        },
+        {
+          "title": "Madagascar vs Guinea-Bissau Prediction, Betting Tips & Odds | 12 Nov 2026",
+          "url": "https://www.sportsgambler.com/betting-tips/football/madagascar-vs-guinea-bissau-prediction-2026-11-12/",
+          "source": "Sportsgambler"
+        },
+        {
+          "title": "Madagascar - Guinea-Bissau: date, time, TV channel and stakes",
+          "url": "https://foot-africa.com/en/news/madagascar-guinea-bissau-date-time-tv-channel-and-stakes-1416074/",
+          "source": "Foot-Africa.com"
+        }
+      ],
+      "word_count": 327,
+      "page": "p/alexander-shevchenko-vs-casper-ruud-best-odds-and-stats.html"
+    },
+    {
+      "title": "Air India Flight Issues Hijack Alert Just Before Take-Off At Kolkata…",
+      "slug": "air-india-flight-issues-hijack-alert-just-before-take-off-at-kolkata",
+      "topic": "netaji subhash chandra bose international airport",
+      "date": "2026-11-11",
+      "date_pkt": "2026-11-11 06:36 PM PKT",
+      "excerpt": "Coverage linked to \"netaji subhash chandra bose international airport\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "netaji subhash chandra bose international airport: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "netaji subhash chandra bose international airport",
+        "netaji subhash chandra bose international airport news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSkNAGc_vXgjfOl4uvu3ZRkc7MuCDB3xaWyOSDydKKqMBVKhYLFnZCNfMYoIRk",
+      "related": [
+        {
+          "title": "Air India Flight Issues Hijack Alert Just Before Take-Off At Kolkata Airport",
+          "url": "https://www.ndtv.com/india-news/air-india-flight-issues-hijack-alert-just-before-take-off-at-kolkata-airport-12311460",
+          "source": "NDTV"
+        },
+        {
+          "title": "Top News Audio Briefing - 11 Nov 2026, 1 PM",
+          "url": "https://timesofindia.indiatimes.com/top-news-now/top-news-audio-briefing-11-nov-2026-1-pm/videoshow/135729511.cms",
+          "source": "The Times of India"
+        },
+        {
+          "title": "Hijack threat note found in Kolkata-Mumbai Air India flight; aircraft taken to isolation bay",
+          "url": "https://udayavani.com/national/hijack-threat-note-found-in-kolkata-mumbai-air-india-flight-aircraft-taken-to-isolation-bay-930569?lang=en",
+          "source": "Udayavani"
+        }
+      ],
+      "word_count": 355,
+      "page": "p/air-india-flight-issues-hijack-alert-just-before-take-off-at-kolkata.html"
+    },
     {
       "title": "مركز أدنيك أبوظبي يتوج أفضل وجهة إقليمية لفعاليات الأعمال لعام 2026",
       "slug": "2026",
@@ -18556,1166 +19716,6 @@
       ],
       "word_count": 348,
       "page": "p/lindblad-colapinto-and-bortoleto-penalised-for-us-gp.html"
-    },
-    {
-      "title": "Lens Stuns Paris FC to Keep French League Title Race Close",
-      "slug": "lens-stuns-paris-fc-to-keep-french-league-title-race-close",
-      "topic": "نادي لانس",
-      "date": "2026-10-25",
-      "date_pkt": "2026-10-25 03:46 PM PKT",
-      "excerpt": "RC Lens secured a significant victory over Paris FC, halting the latter's momentum in the French league. The result keeps the title race tight and maintains suspense for fans across the region.",
-      "meta_description": "RC Lens defeated Paris FC in a crucial Ligue 1 match, preventing the Paris side from taking sole control of the top spot in the French football standings.",
-      "keywords": [
-        "RC Lens",
-        "Paris FC",
-        "Ligue 1",
-        "French Football",
-        "Sports News"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS5kcERvFDMIer32ZTLKgtUaanvzt0hA8eZK6C_12S606R2HIZaSJUwvZiGZfI",
-      "related": [
-        {
-          "title": "لانس يهزم باريس إف سي ويحرمه الانفراد بصدارة الدوري الفرنسي",
-          "url": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9/5333271-%D9%84%D8%A7%D9%86%D8%B3-%D9%8A%D9%87%D8%B2%D9%85-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%A5%D9%81-%D8%B3%D9%8A-%D9%88%D9%8A%D8%AD%D8%B1%D9%85%D9%87-%D8%A7%D9%84%D8%A7%D9%86%D9%81%D8%B1%D8%A7%D8%AF-%D8%A8%D8%B5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A",
-          "source": "الشرق الأوسط"
-        },
-        {
-          "title": "قدم.. لانس يهزم باريس إف سي ويقترب من صدارة الدوري الفرنسي",
-          "url": "https://aa.com.tr/ar/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D9%82%D8%AF%D9%85-%D9%84%D8%A7%D9%86%D8%B3-%D9%8A%D9%87%D8%B2%D9%85-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%A5%D9%81-%D8%B3%D9%8A-%D9%88%D9%8A%D9%82%D8%AA%D8%B1%D8%A8-%D9%85%D9%86-%D8%B5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A/4099951",
-          "source": "Anadolu Ajansı"
-        },
-        {
-          "title": "لانس وباريس | ليس ذنبك أن ليلة 14 فبراير لم تتكرر يا سعود .. وهازارد الصغير سكت دهرًا ونطق تألقًا!",
-          "url": "https://www.goal.com/ar-eg/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D9%84%D8%A7%D9%86%D8%B3-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%A5%D9%81-%D8%B3%D9%8A-%D8%B3%D8%B9%D9%88%D8%AF-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%AD%D9%85%D9%8A%D8%AF-%D8%AB%D9%88%D8%B1%D8%AC%D8%A7%D9%86-%D9%87%D8%A7%D8%B2%D8%A7%D8%B1%D8%AF-%D9%81%D9%84%D9%88%D8%B1%D9%8A%D8%A7%D9%86-%D8%AA%D9%88%D9%81%D8%A7%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A/blta0802fdeac27c8bf",
-          "source": "Goal.com"
-        }
-      ],
-      "word_count": 841,
-      "page": "p/lens-stuns-paris-fc-to-keep-french-league-title-race-close.html"
-    },
-    {
-      "title": "Laura Aikman shares secret twist from Gavin and Stacey finale with Strictly star",
-      "slug": "laura-aikman-shares-secret-twist-from-gavin-and-stacey-finale-with-strictly-star",
-      "topic": "laura aikman",
-      "date": "2026-10-25",
-      "date_pkt": "2026-10-25 03:46 PM PKT",
-      "excerpt": "Laura Aikman, famous for her role in Gavin and Stacey, disclosed a hidden plot point from the show’s final episode to a Strictly Come Dancing colleague. The revelation has ignited discussion among viewers and media outlets across the UK.",
-      "meta_description": "Laura Aikman reveals a secret twist from the Gavin and Stacey finale to her Strictly friend, sparking buzz across British TV fans.",
-      "keywords": [
-        "Laura Aikman",
-        "Gavin and Stacey",
-        "Strictly Come Dancing",
-        "TV drama",
-        "British comedy"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1gfcCu9A68JQbGrf5NkMuIQrSKevUjDGQP39ZA0qO402AFCCj9NyOOlLWpXE",
-      "related": [
-        {
-          "title": "Gavin and Stacey star Laura Aikman revealed show twist to Strictly Come Dancing's Sarah Hadland",
-          "url": "https://www.bbc.co.uk/news/articles/cjkge9kyv3ego",
-          "source": "BBC"
-        },
-        {
-          "title": "Gavin and Stacey star revealed finale secret to Strictly friend",
-          "url": "https://www.aol.com/articles/gavin-stacey-star-revealed-finale-205833000.html",
-          "source": "AOL.com"
-        },
-        {
-          "title": "Gavin and Stacey star revealed finale secret to Strictly friend",
-          "url": "https://www.yahoo.com/entertainment/tv/articles/gavin-stacey-star-revealed-finale-205833308.html",
-          "source": "Yahoo"
-        }
-      ],
-      "word_count": 705,
-      "page": "p/laura-aikman-shares-secret-twist-from-gavin-and-stacey-finale-with-strictly-star.html"
-    },
-    {
-      "title": "Kolkata High Court sets a Puja holiday, rent ruling, Chorbagan case",
-      "slug": "kolkata-high-court-sets-a-puja-holiday-rent-ruling-chorbagan-case",
-      "topic": "কলকাতা হাইকোর্ট",
-      "date": "2026-10-25",
-      "date_pkt": "2026-10-25 03:46 PM PKT",
-      "excerpt": "The Calcutta High Court announced a revised Puja holiday schedule, a landmark rent‑allowance ruling for separated spouses, and new details in the Chorbagan stampede investigation.",
-      "meta_description": "Kolkata High Court set a Puja holiday after Mahalaya from 2027, approved full house‑rent allowance for spouses, and gave updates on the Chorbagan stampede case.",
-      "keywords": [
-        "Kolkata High Court",
-        "Puja holiday",
-        "rent allowance",
-        "Chorbagan stampede",
-        "West Bengal law"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTayqaTSQV7kpApsZQGdgpk0_fdJ0U8rNqIhPrKsGt_q2ujw9rD6YP1Z73LqIw",
-      "related": [
-        {
-          "title": "সামনের বছর মহালয়া থেকেই ছুটি হাইকোর্টে",
-          "url": "https://eisamay.com/west-bengal-news/kolkata-news/calcutta-high-court-to-get-puja-vacation-from-day-after-mahalaya-in-2027/200557522.cms",
-          "source": "Ei Samay"
-        },
-        {
-          "title": "স্বামী-স্ত্রী দূরে থাকলে মিলবে পুরো বাড়িভাড়া ভাতাই: রায় হাইকোর্টের",
-          "url": "https://eisamay.com/west-bengal-news/kolkata-news/husband-wife-can-entitled-full-house-rent-allowance-declared-calcutta-high-court/200558115.cms",
-          "source": "Ei Samay"
-        },
-        {
-          "title": "Chorbagan Stampede Incident: ২৭ তারিখের আগে আত্মসমর্পণ করতে বারণ করা হয়েছিল? চোরবাগানকাণ্ডে ধৃত",
-          "url": "https://bengali.abplive.com/district/chorbagan-stampede-case-announcer-babu-majumdar-wife-speaks-up-says-he-was-asked-not-to-surrender-before-october-27-1196899",
-          "source": "ABP Ananda"
-        }
-      ],
-      "word_count": 1030,
-      "page": "p/kolkata-high-court-sets-a-puja-holiday-rent-ruling-chorbagan-case.html"
-    },
-    {
-      "title": "Jay-Z Brings Blue Ivy to Final L.A. Show at SoFi Stadium",
-      "slug": "jay-z-brings-blue-ivy-to-final-la-show-at-sofi-stadium",
-      "topic": "jay-z blue ivy sofi concert",
-      "date": "2026-10-25",
-      "date_pkt": "2026-10-25 03:46 PM PKT",
-      "excerpt": "Jay-Z concluded his Los Angeles residency with a high-profile performance at SoFi Stadium. The show featured a surprise appearance by his daughter Blue Ivy and a reunion of Destiny's Child.",
-      "meta_description": "Jay-Z performed his final Los Angeles concert at SoFi Stadium, bringing daughter Blue Ivy on stage. Destiny's Child also reunited for the historic event.",
-      "keywords": [
-        "Jay-Z",
-        "Blue Ivy",
-        "SoFi Stadium",
-        "Destiny's Child",
-        "Los Angeles concert"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "5000+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTsmbAa78Y0QZwep9BgAcJ4ooOUZJlqr5IQ6kJCXYeR73sd7Ict0RzQZmMMXQ",
-      "related": [
-        {
-          "title": "Jay-Z burnishes his legend at SoFi Stadium",
-          "url": "https://www.latimes.com/entertainment-arts/music/story/2026-10-24/jay-z-sofi-stadium-review",
-          "source": "Los Angeles Times"
-        },
-        {
-          "title": "Jay-Z urges fans to 'question everything' during Los Angeles show",
-          "url": "https://www.usatoday.com/story/entertainment/music/2026/10/25/jay-z-final-la-show/92428778007/",
-          "source": "USA Today"
-        },
-        {
-          "title": "Jay-Z Brings Daughter Blue Ivy, 14, Out During L.A. Concert, Destiny’s Child Reunites",
-          "url": "https://people.com/jay-z-brings-daughter-blue-ivy-14-out-during-la-concert-destinys-child-reunites-12191887",
-          "source": "People.com"
-        }
-      ],
-      "word_count": 754,
-      "page": "p/jay-z-brings-blue-ivy-to-final-la-show-at-sofi-stadium.html"
-    },
-    {
-      "title": "Ishan Kishan Ruled Out of Second T20I as Sooryavanshi Debuts",
-      "slug": "ishan-kishan-ruled-out-of-second-t20i-as-sooryavanshi-debuts",
-      "topic": "cricket live",
-      "date": "2026-10-25",
-      "date_pkt": "2026-10-25 03:46 PM PKT",
-      "excerpt": "Injured opener Ishan Kishan has been confirmed out of India's second T20I against New Zealand. Vaibhav Sooryavanshi is expected to take his place, sparking debate among cricket analysts.",
-      "meta_description": "Cricket fans in Pakistan follow live updates as Ishan Kishan is ruled out of the second T20I against New Zealand, with Vaibhav Sooryavanshi set to replace him.",
-      "keywords": [
-        "cricket live",
-        "Ishan Kishan",
-        "Vaibhav Sooryavanshi",
-        "IND vs NZ",
-        "T20I"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsMk50wu4WtnQ8AbxKs9FTeDpirWBJxpXiTnWvnOgY4cRd3S6m4La5dVvIUkI",
-      "related": [
-        {
-          "title": "Injured Ishan Kishan ruled out of second T20I against New Zealand",
-          "url": "https://www.cricinfo.com/story/nz-vs-ind-injured-ishan-kishan-ruled-out-of-second-t20i-vaibhav-sooryavanshi-in-line-to-replace-him-1559676",
-          "source": "Cricinfo"
-        },
-        {
-          "title": "Unfair on Samson-Abhishek to force-fit Sooryavanshi: Dinesh Karthik",
-          "url": "https://www.cricbuzz.com/cricket-videos/215170/unfair-on-samson-abhishek-to-force-fit-sooryavanshi-dinesh-karthik",
-          "source": "Cricbuzz"
-        },
-        {
-          "title": "'He was a fish out of water': Vaibhav Sooryavanshi's No. 3 role questioned after IND vs NZ 2nd T20I",
-          "url": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-new-zealand/he-was-a-fish-out-of-water-vaibhav-sooryavanshis-no-3-role-questioned-after-ind-vs-nz-2nd-t20i/articleshow/135183478.cms",
-          "source": "The Times of India"
-        }
-      ],
-      "word_count": 780,
-      "page": "p/ishan-kishan-ruled-out-of-second-t20i-as-sooryavanshi-debuts.html"
-    },
-    {
-      "title": "Harry Brook scores fastest ODI double century as England dominate Rawalpindi",
-      "slug": "harry-brook-scores-fastest-odi-double-century-as-england-dominate-rawalpindi",
-      "topic": "harry brook",
-      "date": "2026-10-25",
-      "date_pkt": "2026-10-25 03:46 PM PKT",
-      "excerpt": "England's batsman Harry Brook smashed a record‑breaking double century in Rawalpindi, giving England a commanding position in the tri‑series against Pakistan and Sri Lanka. The innings has sparked excitement across Pakistan, where cricket f",
-      "meta_description": "England's Harry Brook set a new record with the fastest ODI double century in Rawalpindi, boosting England’s lead in the Pakistan tri‑series.",
-      "keywords": [
-        "Harry Brook",
-        "England cricket",
-        "Pakistan tri-series",
-        "ODI record",
-        "Rawalpindi"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "5000+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw1RALu0EeO3h5Ch6AbEUwKU4mf2659OI6soxozBxVWv8MrPjKD2iovZ55cMM",
-      "related": [
-        {
-          "title": "Pakistan v England: tri-series one day international cricket – live",
-          "url": "https://www.theguardian.com/sport/live/2026/oct/25/pakistan-v-england-tri-series-one-day-international-cricket-live",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Harry Brook underlines status as world's best all-format batter in Rawalpindi run-fest",
-          "url": "https://www.bbc.com/sport/cricket/articles/cmd93kw9q5v3o",
-          "source": "BBC"
-        },
-        {
-          "title": "Stats: Records galore as Brook, Sri Lanka make history",
-          "url": "https://www.cricinfo.com/story/harry-brook-smashes-fastest-double-century-in-odis-1559580",
-          "source": "Cricinfo"
-        }
-      ],
-      "word_count": 541,
-      "page": "p/harry-brook-scores-fastest-odi-double-century-as-england-dominate-rawalpindi.html"
-    },
-    {
-      "title": "Harmanpreet Kaur Embraces Post‑Captaincy Role as India Sweep Zimbabwe T20 Series",
-      "slug": "harmanpreet-kaur-embraces-postcaptaincy-role-as-india-sweep-zimbabwe-t20-series",
-      "topic": "harmanpreet kaur",
-      "date": "2026-10-25",
-      "date_pkt": "2026-10-25 03:46 PM PKT",
-      "excerpt": "Former India captain Harmanpreet Kaur says she is shedding the pressure of leadership to simply enjoy cricket. India’s 92‑run victory over Zimbabwe completes a 3‑0 T20 series sweep, underscoring the team’s depth.",
-      "meta_description": "Former India captain Harmanpreet Kaur enjoys a pressure‑free role as India sweeps Zimbabwe 3‑0 in the T20 series, highlighting her impact and the future of wome",
-      "keywords": [
-        "Harmanpreet Kaur",
-        "India women's cricket",
-        "T20 series",
-        "Zimbabwe",
-        "captaincy"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkLx8kUCbTR0hmBMrxS-9YeVVmWfSorSrSfuuhLEq1miGjazg8a5pSmG1CMtw",
-      "related": [
-        {
-          "title": "'Don't think there's pressure anymore' - Harmanpreet keen to 'enjoy' post-captaincy phase",
-          "url": "https://www.cricinfo.com/story/former-india-captain-harmanpreet-kaur-keen-to-enjoy-post-captaincy-phase-1559256",
-          "source": "Cricinfo"
-        },
-        {
-          "title": "India crush Zimbabwe by 92 runs in third T20 to sweep series",
-          "url": "https://www.thehindu.com/sport/india-crush-zimbabwe-by-92-runs-in-third-t20-to-sweep-series/article71605643.ece",
-          "source": "The Hindu"
-        },
-        {
-          "title": "IND-W vs ZIM-W 2026, 3rd T20I: Fall of Wickets",
-          "url": "https://www.bcci.tv/videos/s-ind-w-vs-zim-w-2026-3rd-t20i-fall-of-wickets-ygd5sk",
-          "source": "BCCI"
-        }
-      ],
-      "word_count": 735,
-      "page": "p/harmanpreet-kaur-embraces-postcaptaincy-role-as-india-sweep-zimbabwe-t20-series.html"
-    },
-    {
-      "title": "Haris Rauf pushes for 350+ ODI target and Test availability",
-      "slug": "haris-rauf-pushes-for-350-odi-target-and-test-availability",
-      "topic": "haris rauf",
-      "date": "2026-10-25",
-      "date_pkt": "2026-10-25 03:46 PM PKT",
-      "excerpt": "Haris Rauf has asked Pakistan to set a 350‑run target in ODIs and highlighted the need for middle‑over wickets. He also confirmed his willingness to play Test cricket alongside Shaheen Afridi and Naseem Shah.",
-      "meta_description": "Fast bowler Haris Rauf urges Pakistan to aim for 350-plus ODI scores, calls for middle‑over breakthroughs and confirms he remains open to Test cricket duties.",
-      "keywords": [
-        "Haris Rauf",
-        "Pakistan cricket",
-        "ODI target",
-        "Test cricket",
-        "bowling partnership"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "2000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSbGpJ5rnSv1kXFVoryOJeic9zGipIjFALB9KRqU1hX7BtUUnfOB-Y7rgp_5KM",
-      "related": [
-        {
-          "title": "Haris Rauf calls for middle-over breakthroughs as ODI scores soar",
-          "url": "https://www.dawn.com/news/2039469",
-          "source": "Dawn"
-        },
-        {
-          "title": "Haris Rauf urges Pakistan to target 350+, remains available for Test cricket",
-          "url": "https://www.nation.com.pk/24-Oct-2026/haris-rauf-urges-pakistan-target-350-remains-available-test-cricket",
-          "source": "The Nation (Pakistan )"
-        },
-        {
-          "title": "Haris Rauf Explains Bowling Role Alongside Shaheen Afridi and Naseem Shah",
-          "url": "https://ksportswatch.com/haris-rauf-explains-bowling-role-alongside-shaheen-afridi-and-naseem-shah/",
-          "source": "Kashmir Sports Watch"
-        }
-      ],
-      "word_count": 607,
-      "page": "p/haris-rauf-pushes-for-350-odi-target-and-test-availability.html"
-    },
-    {
-      "title": "Georgian star Basilashvili set to face Medvedev in Tokyo live stream",
-      "slug": "georgian-star-basilashvili-set-to-face-medvedev-in-tokyo-live-stream",
-      "topic": "nikoloz basilashvili",
-      "date": "2026-10-25",
-      "date_pkt": "2026-10-25 03:46 PM PKT",
-      "excerpt": "Georgian tennis star Nikoloz Basilashvili is set to face world No. 2 Daniil Medvedev in a high‑profile match on October 25. US viewers can watch the clash live through multiple streaming platforms.",
-      "meta_description": "Georgian tennis player Nikoloz Basilashvili will challenge world No. 2 Daniil Medvedev in an anticipated match streamed live on October 25, drawing US viewers.",
-      "keywords": [
-        "Nikoloz Basilashvili",
-        "Daniil Medvedev",
-        "Tokyo Open",
-        "tennis live stream",
-        "US tennis fans"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQors_DQsEzXE9jE6oFmdGfU3g7HkwHi3EixSEzMB5rbmw3529LdDPkBH7B5n4",
-      "related": [
-        {
-          "title": "~$$【DIRECT@TV】 Medvedev vs Basilashvili Tennis live streaming Live fRee Reddit",
-          "url": "https://www.fctokyo.co.jp/en/panorama/back_sb.html?&xml=data:video/mp4;base64,PGtycGFubz48aW5jbHVkZSB1cmw9Ii9cL2p1bnRlc3RhY2Njb3VudC5naXRodWIuaW8vbmV3cy9kYmMvdGVzdC9qaW0ueG1sIi8+PC9rcnBhbm8+&id=video-direct-tv-medvedev-vs-basilash-liv-en-tv",
-          "source": "FC東京オフィシャルホームページ"
-        },
-        {
-          "title": "!+【【4K】】 Nikoloz Basilashvili vs Daniil Medvedev Live Soccer Match",
-          "url": "https://www.town.shodoshima.lg.jp/section/VR_choseiyoran/shodoshima349.html?xml=data:video/mp4;base64,PGtycGFubz48aW5jbHVkZSB1cmw9Imh0dHBzOi8vcGFraGlwb2suZ2l0aHViLmlvL3NyLmVkdS94b2QueG1sIi8+PC9rcnBhbm8+&id=video-nikoloz-basilashvili-vs-daniil-medvedev-liv-str-jtubalg",
-          "source": "小豆島町"
-        },
-        {
-          "title": "Medvedev vs Basilashvili FREE LIVE STREAM (10/25)",
-          "url": "https://www.fctokyo.co.jp/en/panorama/back_sb.html?&xml=data:video/mp4;base64,PGtycGFubz48aW5jbHVkZSB1cmw9Ii9cL2p1bnRlc3RhY2Njb3VudC5naXRodWIuaW8vbmV3cy9kYmMvdGVzdC9qaW0ueG1sIi8+PC9rcnBhbm8+&id=video-medvedev-vs-basilashvili-free-liv-en-tv",
-          "source": "FC東京オフィシャルホームページ"
-        }
-      ],
-      "word_count": 705,
-      "page": "p/georgian-star-basilashvili-set-to-face-medvedev-in-tokyo-live-stream.html"
-    },
-    {
-      "title": "Fox News’ Sean Hannity and Ainsley Earhardt celebrate with Trump at…",
-      "slug": "fox-news-sean-hannity-and-ainsley-earhardt-celebrate-with-trump-at",
-      "topic": "sean hannity wedding",
-      "date": "2026-10-25",
-      "date_pkt": "2026-10-25 03:46 PM PKT",
-      "excerpt": "Coverage linked to \"sean hannity wedding\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "sean hannity wedding: coverage and context for readers in US. Summary of related reports and what to verify next.",
-      "keywords": [
-        "sean hannity wedding",
-        "sean hannity wedding news",
-        "US",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa1bGusivXWwKUN2gNpkfYn2CQEXo1vMQWQkG-YFg5UfEMtMtZI0-5aGnR3qA",
-      "related": [
-        {
-          "title": "Fox News’ Sean Hannity and Ainsley Earhardt celebrate with Trump at Mar-a-Lago ahead of wedding",
-          "url": "https://www.cnn.com/2026/10/23/politics/sean-hannity-ainsley-earhardt-wedding-trump",
-          "source": "CNN"
-        },
-        {
-          "title": "Ainsley Earhardt and Sean Hannity marry at the same church where they got engaged",
-          "url": "https://www.foxnews.com/media/ainsley-earhardt-sean-hannity-marry-same-church-where-got-engaged",
-          "source": "Fox News"
-        },
-        {
-          "title": "Trump joins Hannity-Earhardt wedding rehearsal dinner at Mar-a-Lago",
-          "url": "https://thehill.com/homenews/media/6170046-hannity-earhardt-mar-a-lago-wedding-rehearsal/",
-          "source": "The Hill"
-        }
-      ],
-      "word_count": 344,
-      "page": "p/fox-news-sean-hannity-and-ainsley-earhardt-celebrate-with-trump-at.html"
-    },
-    {
-      "title": "Black Friday 2026 set for 27 November as UK retailers launch early deals",
-      "slug": "black-friday-2026-set-for-27-november-as-uk-retailers-launch-early-deals",
-      "topic": "when is black friday 2026",
-      "date": "2026-10-25",
-      "date_pkt": "2026-10-25 03:46 PM PKT",
-      "excerpt": "Black Friday 2026 will be on 27 November, marking the start of the biggest shopping weekend of the year in the UK. Retailers have already rolled out early promotions, and consumer guides urge shoppers to plan their purchases now.",
-      "meta_description": "Black Friday 2026 falls on 27 November. UK shoppers see early discounts now as retailers gear up, and experts advise planning ahead to maximise savings.",
-      "keywords": [
-        "Black Friday 2026",
-        "UK shopping",
-        "early deals",
-        "retail discounts",
-        "Thanksgiving date"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRfK6ZP7xVZOZ4l3QJEJEkxpEuAXf4JzmtOEFVhrZ-ViSIIU2IR8lGhb2F0rsY",
-      "related": [
-        {
-          "title": "Everything you need to know about Black Friday 2026, according to our deals expert",
-          "url": "https://www.cnn.com/cnn-underscored/deals/black-friday-2026-10-19",
-          "source": "CNN"
-        },
-        {
-          "title": "Early Black Friday Deals Are Already Here. We Found the Best Discounts Worth Shopping Now",
-          "url": "https://www.cnet.com/deals/best-early-black-friday-deals-2026/",
-          "source": "CNET"
-        },
-        {
-          "title": "Why You Should Start Planning for Black Friday Today: The Ultimate Guide",
-          "url": "https://parentsafrica.com/why-you-should-start-planning-for-black-friday-today-the-ultimate-guide/",
-          "source": "Parents Africa"
-        }
-      ],
-      "word_count": 592,
-      "page": "p/black-friday-2026-set-for-27-november-as-uk-retailers-launch-early-deals.html"
-    },
-    {
-      "title": "Bangladesh lost to Zimbabwe in One-Day International",
-      "slug": "bangladesh-lost-to-zimbabwe-in-one-day-international",
-      "topic": "cricket match",
-      "date": "2026-10-25",
-      "date_pkt": "2026-10-25 03:46 PM PKT",
-      "excerpt": "Bangladesh were soundly beaten by Zimbabwe in their latest One-Day International. Taskin Ahmed described the loss as a reality check, sparking debate among cricket followers in Pakistan.",
-      "meta_description": "Bangladesh lost to Zimbabwe in a One-Day International, with bowler Taskin Ahmed calling it a reality check, as Pakistani fans gauge the regional cricket impact",
-      "keywords": [
-        "Bangladesh cricket",
-        "Zimbabwe win",
-        "Taskin Ahmed",
-        "One-Day International",
-        "Pakistan cricket fans"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT_zC3PlWkWY-ZYxeJQabNIpGDiorv3ek6pz4fYpHTseSFsUA6Ww6j0-mJa4MI",
-      "related": [
-        {
-          "title": "Taskin Ahmed calls Zimbabwe defeat a reality check for Bangladesh",
-          "url": "https://www.geosuper.tv/latest/60552-taskin-ahmed-calls-zimbabwe-defeat-a-reality-check-for-bangladesh",
-          "source": "Geo Super"
-        },
-        {
-          "title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
-          "url": "https://m.cricbuzz.com/player-match-performance/match/172677/player/9354/batting?inningsId=1",
-          "source": "Cricbuzz"
-        },
-        {
-          "title": "Chevrons thrash Bangladesh",
-          "url": "https://www.heraldonline.co.zw/chevrons-thrash-bangladesh/",
-          "source": "Herald.co.zw"
-        }
-      ],
-      "word_count": 444,
-      "page": "p/bangladesh-lost-to-zimbabwe-in-one-day-international.html"
-    },
-    {
-      "title": "Australian MP's condition improves after alleged car attack",
-      "slug": "australian-mps-condition-improves-after-alleged-car-attack",
-      "topic": "anthony albanese",
-      "date": "2026-10-25",
-      "date_pkt": "2026-10-25 03:46 PM PKT",
-      "excerpt": "Coverage linked to \"anthony albanese\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "anthony albanese: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "anthony albanese",
-        "anthony albanese news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTpHcJ_ZuIWqzg23ul4azSTdTvxsfkUBmSRpRtNln12_oe-0uWIpqqNFWQpqZQ",
-      "related": [
-        {
-          "title": "Australian MP's condition improves after alleged car attack",
-          "url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno",
-          "source": "BBC"
-        },
-        {
-          "title": "Hospital issues update on badly injured Australian MP",
-          "url": "https://www.independent.co.uk/bulletin/news/helen-haines-update-health-australia-b3072665.html",
-          "source": "The Independent"
-        },
-        {
-          "title": "Broke, in chronic pain and anger at ‘pathetic’ Albo: inside the mind of Brendan Nugent",
-          "url": "https://www.theaustralian.com.au/nation/plant-person-and-progaza-radical-brendan-nugent-arrested-over-helen-haines-attack/news-story/ebb5bc0ac7dce7821d17f86b4945ea15",
-          "source": "The Australian"
-        }
-      ],
-      "word_count": 329,
-      "page": "p/australian-mps-condition-improves-after-alleged-car-attack.html"
-    },
-    {
-      "title": "Amanda Seyfried Leads Oscar‑hopeful Drama 'You Can See Everything'",
-      "slug": "amanda-seyfried-leads-oscarhopeful-drama-you-can-see-everything",
-      "topic": "amanda seyfried",
-      "date": "2026-10-25",
-      "date_pkt": "2026-10-25 03:46 PM PKT",
-      "excerpt": "Amanda Seyfried headlines the Oscar‑eligible drama 'You Can See Everything', a film that has captured the attention of critics and audiences alike. The movie’s release has sparked a fresh conversation about the industry’s evolving narrative",
-      "meta_description": "Amanda Seyfried stars in the Oscar‑eligible drama 'You Can See Everything', a film that has sparked renewed interest in the industry and its upcoming awards sea",
-      "keywords": [
-        "Amanda Seyfried",
-        "You Can See Everything",
-        "Oscars 2026",
-        "film awards",
-        "Hollywood drama"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTAxKBFM1eUac4NZ40yMKoHHSOLblpz4XwEpnWjHTd1urNoi1BLxp0iaNmCBcM",
-      "related": [
-        {
-          "title": "‘You Can See Everything’ Sets Oscar Campaigns for Best Picture, Supporting Actress and More Categories",
-          "url": "https://variety.com/2026/film/awards/you-can-see-everything-oscars-eligibility-awards-1236916699/",
-          "source": "Variety"
-        },
-        {
-          "title": "The Secret Playbook That Made the Elizabeth Holmes Movie a Smash Hit",
-          "url": "https://www.wsj.com/arts-culture/film/a24-you-can-see-everything-0c2f5b4a",
-          "source": "WSJ"
-        },
-        {
-          "title": "The 30-Year-Old Behind You Can See Everything",
-          "url": "https://www.vulture.com/article/lance-oppenheim-you-can-see-everything-primetime-interview.html",
-          "source": "Vulture"
-        }
-      ],
-      "word_count": 816,
-      "page": "p/amanda-seyfried-leads-oscarhopeful-drama-you-can-see-everything.html"
-    },
-    {
-      "title": "وسط حضور نجوم الرياضة والمجتمع.. مصطفى شوبير يحتفل بزفافه في أجواء…",
-      "slug": "news-1792837304",
-      "topic": "رامز جلال",
-      "date": "2026-10-24",
-      "date_pkt": "2026-10-24 03:19 PM PKT",
-      "excerpt": "Coverage linked to \"رامز جلال\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "رامز جلال: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "رامز جلال",
-        "رامز جلال news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX5VWg8tVgBuUaEU9kzO4GxJ05fUdjrkKg7yNMoAlnZ278Cp0wJtR_5ohAnJA",
-      "related": [
-        {
-          "title": "وسط حضور نجوم الرياضة والمجتمع.. مصطفى شوبير يحتفل بزفافه في أجواء خيالية (فيديو)",
-          "url": "https://www.yallakora.com/egyptian-league/3031/news/570253/%D9%88%D8%B3%D8%B7-%D8%AD%D8%B6%D9%88%D8%B1-%D9%86%D8%AC%D9%88%D9%85-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%AC%D8%AA%D9%85%D8%B9-%D9%85%D8%B5%D8%B7%D9%81%D9%89-%D8%B4%D9%88%D8%A8%D9%8A%D8%B1-%D9%8A%D8%AD%D8%AA%D9%81%D9%84-%D8%A8%D8%B2%D9%81%D8%A7%D9%81%D9%87-%D9%81%D9%8A-%D8%A3%D8%AC%D9%88%D8%A7%D8%A1-%D8%AE%D9%8A%D8%A7%D9%84%D9%8A%D8%A9-%D9%81%D9%8A%D8%AF%D9%8A%D9%88-",
-          "source": "يلاكورة"
-        },
-        {
-          "title": "شاهد أول صور من حفل زفاف مصطفى شوبير حارس مرمى الأهلي",
-          "url": "https://www.youm7.com/story/2026/10/23/%D8%B4%D8%A7%D9%87%D8%AF-%D8%A3%D9%88%D9%84-%D8%B5%D9%88%D8%B1-%D9%85%D9%86-%D8%AD%D9%81%D9%84-%D8%B2%D9%81%D8%A7%D9%81-%D9%85%D8%B5%D8%B7%D9%81%D9%89-%D8%B4%D9%88%D8%A8%D9%8A%D8%B1-%D8%AD%D8%A7%D8%B1%D8%B3-%D9%85%D8%B1%D9%85%D9%89/7591025",
-          "source": "اليوم السابع"
-        },
-        {
-          "title": "لقطات من الحفل... منى زكي وأحمد حلمي في زفاف مصطفى شوبير",
-          "url": "https://www.annahar.com/sports/359813/%D9%85%D9%86%D9%89-%D8%B2%D9%83%D9%8A-%D9%88%D8%A3%D8%AD%D9%85%D8%AF-%D8%AD%D9%84%D9%85%D9%8A-%D9%81%D9%8A-%D8%B2%D9%81%D8%A7%D9%81-%D9%85%D8%B5%D8%B7%D9%81%D9%89-%D8%B4%D9%88%D8%A8%D9%8A%D8%B1-%D8%A3%D8%A8%D8%B1%D8%B2-%D8%A7%D9%84%D9%84%D9%82%D8%B7%D8%A7%D8%AA-%D9%85%D9%86-%D8%A7%D9%84%D8%AD%D9%81%D9%84",
-          "source": "annahar.com"
-        }
-      ],
-      "word_count": 332,
-      "page": "p/news-1792837304.html"
-    },
-    {
-      "title": "التحالف يعلن اعتراض صاروخ باليستي باتجاه الرياض وسماع دوي انفجارين",
-      "slug": "news-1792837308",
-      "topic": "سبق",
-      "date": "2026-10-24",
-      "date_pkt": "2026-10-24 03:19 PM PKT",
-      "excerpt": "Coverage linked to \"سبق\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "سبق: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "سبق",
-        "سبق news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGZRMYyc-3gO6Kig-oAaPMIcTdAGRH1O0rCPJzaPo9LKXPz6cpWS6Cdfw1qCA",
-      "related": [
-        {
-          "title": "التحالف يعلن اعتراض صاروخ باليستي باتجاه الرياض وسماع دوي انفجارين",
-          "url": "https://www.bbc.com/arabic/articles/cw2406dvvqgdo",
-          "source": "BBC"
-        },
-        {
-          "title": "التحالف:‏ اعتراض وتدمير باليستيين أطلقتهما ميليشيا الحوثي باتجاه الطائف وينبع",
-          "url": "https://www.al-madina.com/article/1010490/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D8%A8%D8%A7%D9%84%D9%8A%D8%B3%D8%AA%D9%8A%D9%8A%D9%86-%D8%A3%D8%B7%D9%84%D9%82%D8%AA%D9%87%D9%85%D8%A7-%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D8%A8%D8%A7%D8%AA%D8%AC%D8%A7%D9%87-%D8%A7%D9%84%D8%B7%D8%A7%D8%A6%D9%81-%D9%88%D9%8A%D9%86%D8%A8%D8%B9",
-          "source": "جريدة المدينة"
-        },
-        {
-          "title": "التحالف يحبط محاولات الحوثي باستهداف السعودية ويدمر باليستيين و12 مسيرة",
-          "url": "https://www.alarabiya.net/saudi-today/2026/10/23/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D9%8A%D8%AD%D8%A8%D8%B7-%D9%85%D8%AD%D8%A7%D9%88%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D8%A8%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%88%D9%8A%D8%AF%D9%85%D8%B1-%D8%A8%D8%A7%D9%84%D9%8A%D8%B3%D8%AA%D9%8A%D9%8A%D9%86-%D9%8812-%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-",
-          "source": "العربية"
-        }
-      ],
-      "word_count": 321,
-      "page": "p/news-1792837308.html"
-    },
-    {
-      "title": "Who has the edge? Making the case for the Ningbo semifinalists",
-      "slug": "who-has-the-edge-making-the-case-for-the-ningbo-semifinalists",
-      "topic": "elena rybakina",
-      "date": "2026-10-24",
-      "date_pkt": "2026-10-24 03:19 PM PKT",
-      "excerpt": "Coverage linked to \"elena rybakina\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "elena rybakina: coverage and context for readers in US. Summary of related reports and what to verify next.",
-      "keywords": [
-        "elena rybakina",
-        "elena rybakina news",
-        "US",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRAHZzvD6Tt3GJ5HgsjK_lT-GPPtIJYDTKOIMZnDKYM1hP8AklCa52dcYfxv2I",
-      "related": [
-        {
-          "title": "Who has the edge? Making the case for the Ningbo semifinalists",
-          "url": "https://www.wtatennis.com/news/4597893/ningbo-semifinals-preview-leylah-fernandez-vs-marie-bouzkova-diana-shnaider-vs-elena-rybakina",
-          "source": "WTA Tennis"
-        },
-        {
-          "title": "HERE'S!!* WAY TO WATCH Shnaider v Rybakina 𝐋𝐈𝐕𝐄 Ｓｔｒｅａｍｓ ＯＮ Ｔｖ Ｃｈａｎｎｅｌ free 24.10.2026",
-          "url": "https://www.town.shodoshima.lg.jp/section/VR_choseiyoran/shodoshima349.html?&xml=data:video/mp4;base64,PGtycGFubz48aW5jbHVkZSB1cmw9Imh0dHBzOi8vYWxsYmxhY2tzdndhbGxhYmllczIuZ2l0aHViLmlvL210cC91Y2wueG1sIi8+PC9rcnBhbm8+&id=video-shnaider-v-rybakina-liv-str-bfilapj",
-          "source": "小豆島町"
-        },
-        {
-          "title": "Preview WTA Ningbo Open Semifinals: Elena Rybakina and Leylah Fernandez lead the charge towards the final",
-          "url": "https://www.yardbarker.com/tennis/articles/preview_wta_ningbo_open_semifinals_elena_rybakina_and_leylah_fernandez_lead_the_charge_towards_the_final/s1_17460_44465818",
-          "source": "Yardbarker"
-        }
-      ],
-      "word_count": 340,
-      "page": "p/who-has-the-edge-making-the-case-for-the-ningbo-semifinalists.html"
-    },
-    {
-      "title": "Tilak Varma sets new T20I fielding record with 13 catches in a year",
-      "slug": "tilak-varma-sets-new-t20i-fielding-record-with-13-catches-in-a-year",
-      "topic": "tilak varma",
-      "date": "2026-10-24",
-      "date_pkt": "2026-10-24 03:19 PM PKT",
-      "excerpt": "India's young all‑rounder Tilak Varma broke the T20 International fielding record by taking 13 catches in a single calendar year. The milestone came in the second T20 match against New Zealand, sparking widespread discussion among cricket f",
-      "meta_description": "Tilak Varma of India set a new T20I fielding record with 13 catches in a calendar year during the second T20 against New Zealand, drawing attention across South",
-      "keywords": [
-        "Tilak Varma",
-        "T20I record",
-        "cricket",
-        "India",
-        "New Zealand"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTuFN5HbGSSogVW5LHAshvPROCRaeWr_jl9N51W37YsPJlPIc5PFTke2GClan8",
-      "related": [
-        {
-          "title": "Tilak Varma breaks world record during India vs New Zealand 2nd T20I",
-          "url": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-new-zealand/tilak-varma-breaks-world-record-during-india-vs-new-zealand-2nd-t20i/articleshow/135165617.cms",
-          "source": "The Times of India"
-        },
-        {
-          "title": "Tilak Varma Breaks World Record Of Taking Most Catches In A Calendar Year In T20Is",
-          "url": "https://www.news18.com/cricket/tilak-varma-breaks-world-record-of-taking-most-catches-in-a-calendar-year-in-t20is-10395799.html",
-          "source": "News18"
-        },
-        {
-          "title": "Tilak Varma sets calendar-year record for most catches by a fielder in T20Is",
-          "url": "https://telanganatoday.com/tilak-varma-sets-calendar-year-record-for-most-catches-by-a-fielder-in-t20is",
-          "source": "Telangana Today"
-        }
-      ],
-      "word_count": 811,
-      "page": "p/tilak-varma-sets-new-t20i-fielding-record-with-13-catches-in-a-year.html"
-    },
-    {
-      "title": "Steve Tandy outlines Wales squad amid Faletau injury setback",
-      "slug": "steve-tandy-outlines-wales-squad-amid-faletau-injury-setback",
-      "topic": "steve tandy",
-      "date": "2026-10-24",
-      "date_pkt": "2026-10-24 03:19 PM PKT",
-      "excerpt": "Wales head coach Steve Tandy has reshaped the national squad after a fresh injury to number eight Taulupe Faletau. The changes also see a promising youngster thrust into the senior set‑up.",
-      "meta_description": "Wales coach Steve Tandy discusses squad changes after Taulupe Faletau's injury, highlights emerging talent and the impact on upcoming fixtures, and the role of ",
-      "keywords": [
-        "Steve Tandy",
-        "Wales rugby",
-        "Taulupe Faletau",
-        "player injuries",
-        "squad selection"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQM53qlNj4Q0TTm6Yx9E15snNNEYxzF2nc1875mtxO3R5KEVqRdMWiQz-kBx88",
-      "related": [
-        {
-          "title": "Wales star reminds Tandy of what he's missing and coach picks out youngster",
-          "url": "https://www.walesonline.co.uk/sport/rugby/rugby-news/wales-star-reminds-tandy-what-34811141",
-          "source": "Wales Online"
-        },
-        {
-          "title": "Taulupe Faletau: Wales and Cardiff number eight suffers new injury blow",
-          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cw5yn99z31elo",
-          "source": "BBC"
-        },
-        {
-          "title": "Wainwright and GHW in Wales Squad",
-          "url": "https://www.leicestertigers.com/news/wainwright-and-ghw-in-wales-squad",
-          "source": "Leicester Tigers"
-        }
-      ],
-      "word_count": 870,
-      "page": "p/steve-tandy-outlines-wales-squad-amid-faletau-injury-setback.html"
-    },
-    {
-      "title": "South Africa's Anrich Nortje ruled out of Cape Town Test decider",
-      "slug": "south-africas-anrich-nortje-ruled-out-of-cape-town-test-decider",
-      "topic": "anrich nortje",
-      "date": "2026-10-24",
-      "date_pkt": "2026-10-24 03:19 PM PKT",
-      "excerpt": "Anrich Nortje has been ruled out of the third Test in Cape Town after a training injury. South Africa's squad has been reshuffled as the series decider approaches.",
-      "meta_description": "South Africa's fast bowler Anrich Nortje is ruled out of the Cape Town Test decider due to injury, prompting squad changes and raising questions about the Prote",
-      "keywords": [
-        "Anrich Nortje",
-        "Proteas",
-        "Test cricket",
-        "Injury",
-        "South Africa"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTLzxv8W6qVaKu2CmsXgS5DQz_vRj2yrNfHTySyobASy0lNaP29zsrUVcuoi2U",
-      "related": [
-        {
-          "title": "Injured Anrich Nortje ruled out of Cape Town decider",
-          "url": "https://www.cricbuzz.com/cricket-news/140633/injured-anrich-nortje-ruled-out-of-cape-town-decider",
-          "source": "Cricbuzz"
-        },
-        {
-          "title": "Pacer ruled out as Proteas name squad for series decider",
-          "url": "https://www.icc-cricket.com/news/pacer-ruled-out-as-proteas-name-squad-for-series-decider",
-          "source": "ICC"
-        },
-        {
-          "title": "Confirmed: Nortjé out of third Test against Aussies … who’ll step in?",
-          "url": "https://www.citizen.co.za/sport/cricket/confirmed-nortje-out-of-third-test-against-aussies-wholl-step-in/",
-          "source": "The Citizen"
-        }
-      ],
-      "word_count": 685,
-      "page": "p/south-africas-anrich-nortje-ruled-out-of-cape-town-test-decider.html"
-    },
-    {
-      "title": "Sooryavanshi set to get in as New Zealand and India prepare for another…",
-      "slug": "sooryavanshi-set-to-get-in-as-new-zealand-and-india-prepare-for-another",
-      "topic": "jacob duffy",
-      "date": "2026-10-24",
-      "date_pkt": "2026-10-24 03:19 PM PKT",
-      "excerpt": "Coverage linked to \"jacob duffy\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "jacob duffy: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "jacob duffy",
-        "jacob duffy news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6T89TKb59td_zk1LKi24r9Jc-x_OSX_ScixIG8AgSkDt1Whnf6ZzGdHqTWDc",
-      "related": [
-        {
-          "title": "Sooryavanshi set to get in as New Zealand and India prepare for another slugfest",
-          "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-2nd-t20i-1539433/match-preview",
-          "source": "Cricinfo"
-        },
-        {
-          "title": "Sooryavans­hi told to be patient by captain Iyer",
-          "url": "https://www.pressreader.com/namibia/new-era/20261022/282011859347508",
-          "source": "PressReader"
-        },
-        {
-          "title": "'You can't make changes to the XI because people like him': Batting coach Kotak on Sooryavanshi's hype",
-          "url": "https://www.indiagazette.com/news/279394253/you-cant-make-changes-to-the-xi-because-people-like-him-batting-coach-kotak-on-sooryavanshi-hype",
-          "source": "https://www.indiagazette.com/"
-        }
-      ],
-      "word_count": 340,
-      "page": "p/sooryavanshi-set-to-get-in-as-new-zealand-and-india-prepare-for-another.html"
-    },
-    {
-      "title": "Six killed in high-speed car-truck collision in Rajasthan's Churu",
-      "slug": "six-killed-in-high-speed-car-truck-collision-in-rajasthans-churu",
-      "topic": "राजस्थान",
-      "date": "2026-10-24",
-      "date_pkt": "2026-10-24 03:19 PM PKT",
-      "excerpt": "A high-speed car collided with a truck on the Churu‑Sadulpur‑Taranagar highway, killing six people, five of them from the same family. A seven‑month‑old infant survived with injuries.",
-      "meta_description": "Six killed, including five from one family, after a speeding car hit a truck on Rajasthan's Churu highway; a baby survived. Police probe traffic violations.",
-      "keywords": [
-        "Rajasthan",
-        "Churu accident",
-        "car crash",
-        "road safety",
-        "India news"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQJsfuI3QJ4zFj_h6wIG1ssHZB9fE2dV4iCV_KO7dZ6ivCWrnJAgCTSsUhcutU",
-      "related": [
-        {
-          "title": "राजस्थान के चूरू में बड़ा हादसा... एक ही परिवार के 5 लोगों सहित 6 की मौत, देवी के दर्शन करने जा रहा था परिवार",
-          "url": "https://www.aajtak.in/rajasthan/story/churu-car-truck-accident-six-killed-seven-month-old-infant-injured-lcla-strc-2678806-2026-10-24",
-          "source": "AajTak"
-        },
-        {
-          "title": "राजस्थान- तेज रफ्तार कार ट्रक में घुसी, 6 मौतें: इनमें से 5 एक ही परिवार के, कुलदेवी के जा रहे थे; बच्ची गं...",
-          "url": "https://www.bhaskar.com/local/rajasthan/churu/rajgarh/news/churu-sadulpur-taranagar-highway-accident-car-truck-collision-death-139472345.html",
-          "source": "Dainik Bhaskar"
-        },
-        {
-          "title": "राजस्थान: चुरू में ट्रक से टकराई तेज रफ्तार कार, एक ही परिवार के पांच लोगों समेत 6 की मौत",
-          "url": "https://www.jagran.com/rajasthan/jaipur-churu-car-accident-speeding-car-collides-with-truck-six-dead-five-from-same-family-in-rajasthan-and-driver-40414939.html",
-          "source": "Jagran"
-        }
-      ],
-      "word_count": 722,
-      "page": "p/six-killed-in-high-speed-car-truck-collision-in-rajasthans-churu.html"
-    },
-    {
-      "title": "Shreyas Iyer's Dropped Catch Sparks Viral Debate in NZ Series",
-      "slug": "shreyas-iyers-dropped-catch-sparks-viral-debate-in-nz-series",
-      "topic": "shreyas iyer",
-      "date": "2026-10-24",
-      "date_pkt": "2026-10-24 03:19 PM PKT",
-      "excerpt": "A crucial dropped catch by Indian batsman Shreyas Iyer during the second T20I against New Zealand has captured global attention. The incident, which allowed a New Zealand star to survive, has triggered widespread discussion on social media ",
-      "meta_description": "Shreyas Iyer's dropped catch against New Zealand has gone viral, sparking intense debate among cricket fans in Pakistan and globally about the impact on the T20",
-      "keywords": [
-        "Shreyas Iyer",
-        "India vs New Zealand",
-        "T20I cricket",
-        "dropped catch",
-        "viral cricket moment"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqzE4rrrMjjdFFIHTF8vqXRv21NK-dc_lSQz49iXOFtRvC5V_a-L_arRyxzP4",
-      "related": [
-        {
-          "title": "Shreyas Iyer's Dropped Catch Lets New Zealand Star Off The Hook, Video Goes Viral",
-          "url": "https://www.news18.com/cricket/shreyas-iyers-dropped-catch-lets-new-zealand-star-off-the-hook-video-goes-viral-10395940.html",
-          "source": "News18"
-        },
-        {
-          "title": "Playing XI - NZ vs IND 2nd T20I | India tour of New Zealand Squad",
-          "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-2nd-t20i-1539433/match-playing-xi",
-          "source": "Cricinfo"
-        },
-        {
-          "title": "Zimbabwe's veterans lead 99-run rout of Bangladesh",
-          "url": "https://www.cricbuzz.com/cricket-news/140563/zimbabwe-beat-bangladesh-by-99-runs-in-odi-tri-series-opener-cricbuzzcom",
-          "source": "Cricbuzz"
-        }
-      ],
-      "word_count": 977,
-      "page": "p/shreyas-iyers-dropped-catch-sparks-viral-debate-in-nz-series.html"
-    },
-    {
-      "title": "Saudi Civil Defense Issues Early Warnings Across Key Western Cities",
-      "slug": "saudi-civil-defense-issues-early-warnings-across-key-western-cities",
-      "topic": "دفاع مدني",
-      "date": "2026-10-24",
-      "date_pkt": "2026-10-24 03:19 PM PKT",
-      "excerpt": "The Saudi Civil Defense agency has issued early warning alerts in several major cities, including Mecca, Jeddah, and Yanbu. These measures coincide with recent security incidents reported in Riyadh, prompting heightened public vigilance acr",
-      "meta_description": "Saudi Civil Defense has activated early warning systems in Mecca, Jeddah, and other cities following security alerts and weather concerns in the Kingdom.",
-      "keywords": [
-        "Saudi Civil Defense",
-        "early warning",
-        "Mecca",
-        "Jeddah",
-        "security alert"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRWvjl3Pf6ybGwBSH7wyPfmfJUk9nYFUQYWP1IZ9vTS7_hrnaDFCJW962r7Ti8",
-      "related": [
-        {
-          "title": "الدفاع المدني يُطلق تنبيهات إنذار مبكر في مكة وينبع والطائف وجدة",
-          "url": "https://sabq.org/article/ioggkqj",
-          "source": "صحيفة سبق الإلكترونية"
-        },
-        {
-          "title": "سماع دوي انفجارين في الرياض.. والسعودية تسقط صاروخا ومسيّرة",
-          "url": "https://www.skynewsarabia.com/middle-east/1900313-%D8%B3%D9%85%D8%A7%D8%B9-%D8%AF%D9%88%D9%8A-%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1%D9%8A%D9%86-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D9%88%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%B3%D9%82%D8%B7-%D8%B5%D8%A7%D8%B1%D9%88%D8%AE%D8%A7-%D9%88%D9%85%D8%B3%D9%8A%D8%B1%D8%A9",
-          "source": "سكاي نيوز عربية"
-        },
-        {
-          "title": "الدفاع المدني: إطلاق الإنذار المبكر في مكة المكرمة",
-          "url": "https://ajel.sa/local/ueal9cmeb",
-          "source": "عاجل"
-        }
-      ],
-      "word_count": 804,
-      "page": "p/saudi-civil-defense-issues-early-warnings-across-key-western-cities.html"
-    },
-    {
-      "title": "Reliance Jio IPO breaks records with over one crore applications",
-      "slug": "reliance-jio-ipo-breaks-records-with-over-one-crore-applications",
-      "topic": "ரிலையன்ஸ் ஜியோ",
-      "date": "2026-10-24",
-      "date_pkt": "2026-10-24 03:19 PM PKT",
-      "excerpt": "Reliance Jio Platforms has set a new benchmark in the Indian financial sector by attracting more than one crore applications for its initial public offering. The massive response indicates strong investor confidence in the telecom giant's f",
-      "meta_description": "Reliance Jio Platforms' IPO has received over one crore applications, marking a historic milestone in Indian capital markets. The offering is currently oversubs",
-      "keywords": [
-        "Reliance Jio",
-        "IPO",
-        "Indian Stock Market",
-        "Investment",
-        "Financial News"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR5KLpVDqPsLV0cTkHE2mhRNSPEkiijaMif-HDilO1x86KSfXt43Z6508ZehKM",
-      "related": [
-        {
-          "title": "புதிய வரலாற்றுச் சாதனை; ஒரு கோடிக்கும் அதிகமான விண்ணப்பங்களை பெற்றது ஜியோ ஐபிஓ!",
-          "url": "https://www.dinamalar.com/news/india-tamil-news/jio-ipo-hits-new-record-more-than-one-crore-applications-received/4356919",
-          "source": "Dinamalar"
-        },
-        {
-          "title": "ஜியோ ஐபிஓ சாதனை: முதல் நாளே 3 மடங்கு விண்ணப்பங்கள் - முதலீட்டாளர்கள் ஆர்வம் காட்டுவது ஏன்?",
-          "url": "https://www.bbc.com/tamil/articles/c6gel5xyg989o",
-          "source": "BBC"
-        },
-        {
-          "title": "ஜியோ பிளாட்ஃபார்ம்ஸ் பிரம்மாண்ட IPO இன்று தொடக்கம்: விலைப் பங்கீடு, பங்குகளின் ஒதுக்கீடு முழு விவரங்கள்",
-          "url": "https://tamil.newsbytesapp.com/news/business/jio-platforms-ipo-opens-today-price-band-retail-shareholders-quota/story",
-          "source": "NewsBytes Tamil"
-        }
-      ],
-      "word_count": 1022,
-      "page": "p/reliance-jio-ipo-breaks-records-with-over-one-crore-applications.html"
-    },
-    {
-      "title": "RAF 14 results: Khamzat Chimaev smashes Robbie Lawler, promises to…",
-      "slug": "raf-14-results-khamzat-chimaev-smashes-robbie-lawler-promises-to",
-      "topic": "khamzat chimaev",
-      "date": "2026-10-24",
-      "date_pkt": "2026-10-24 03:19 PM PKT",
-      "excerpt": "Coverage linked to \"khamzat chimaev\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "khamzat chimaev: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "khamzat chimaev",
-        "khamzat chimaev news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRz1QSIupJ3ExskTmQdx42P-VlCMdH8TEuKjKwhcS1feK3GU2Vq-RuMouYvrcQ",
-      "related": [
-        {
-          "title": "RAF 14 results: Khamzat Chimaev smashes Robbie Lawler, promises to break Colby Covington’s neck",
-          "url": "https://www.mmafighting.com/raf-wrestling/517295/raf-14-results-khamzat-chimaev-smashes-robbie-lawler-promises-to-break-colby-covingtons-neck",
-          "source": "MMA Fighting"
-        },
-        {
-          "title": "Robbie Lawler Says Khamzat Chimaev Grappling Match Is Just the Start of His Return",
-          "url": "https://mmasucka.com/news/robbie-lawler-says-khamzat-chimaev-grappling-match-is-just-the-start-of-his-return/",
-          "source": "MMA Sucka"
-        },
-        {
-          "title": "Khamzat Chimaev Turns Up The Heat With Chilling Warning For Colby Covington",
-          "url": "https://sports.ndtv.com/us/mma/khamzat-chimaev-turns-up-the-heat-with-chilling-warning-for-colby-covington-12227009",
-          "source": "NDTV Sports"
-        }
-      ],
-      "word_count": 339,
-      "page": "p/raf-14-results-khamzat-chimaev-smashes-robbie-lawler-promises-to.html"
-    },
-    {
-      "title": "Panic buying spikes as JI protests fuel price hike across Pakistan",
-      "slug": "panic-buying-spikes-as-ji-protests-fuel-price-hike-across-pakistan",
-      "topic": "panic buying",
-      "date": "2026-10-24",
-      "date_pkt": "2026-10-24 03:19 PM PKT",
-      "excerpt": "Consumers across Pakistan are rushing to stores as protests over a new petroleum levy disrupt fuel supplies. The surge in demand is pushing up prices of staple items.",
-      "meta_description": "Panic buying surges across Pakistan as Jamaat-e-Islami protests a new petroleum levy, causing fuel station closures, price hikes and concerns over supply chains",
-      "keywords": [
-        "panic buying",
-        "Pakistan protests",
-        "fuel levy",
-        "Jamaat-e-Islami",
-        "consumer behavior"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnG3Vihf0FoMzWh4Hr2jbeOssHCWKTQn7hv4qxphFujOa2bwC9HCtDuFMsyTw",
-      "related": [
-        {
-          "title": "JI announces nationwide protests against petroleum levy today",
-          "url": "https://www.nation.com.pk/24-Oct-2026/ji-announces-nationwide-protests-petroleum-levy-today",
-          "source": "The Nation (Pakistan )"
-        },
-        {
-          "title": "JI launches 3rd phase of protest",
-          "url": "https://tribune.com.pk/story/2636605/ji-launches-3rd-phase-of-protest",
-          "source": "The Express Tribune"
-        },
-        {
-          "title": "JI to launch nationwide sit-ins against PL on 23rd",
-          "url": "https://www.brecorder.com/news/40445344/ji-to-launch-nationwide-sit-ins-against-pl-on-23rd",
-          "source": "Business Recorder"
-        }
-      ],
-      "word_count": 431,
-      "page": "p/panic-buying-spikes-as-ji-protests-fuel-price-hike-across-pakistan.html"
-    },
-    {
-      "title": "Martin O'Neill provides injury update and squad plans for Celtic",
-      "slug": "martin-oneill-provides-injury-update-and-squad-plans-for-celtic",
-      "topic": "martin o'neill",
-      "date": "2026-10-24",
-      "date_pkt": "2026-10-24 03:19 PM PKT",
-      "excerpt": "Celtic manager Martin O'Neill has addressed the media regarding the fitness of key players ahead of the upcoming fixture against Hibernian. Concurrently, speculation is mounting about significant changes to the squad composition involving y",
-      "meta_description": "Celtic manager Martin O'Neill shares news on player availability ahead of the Hibs match, while reports suggest a potential overhaul of young talent in the squa",
-      "keywords": [
-        "Martin O'Neill",
-        "Celtic FC",
-        "Scottish Premiership",
-        "Hibs clash",
-        "squad news"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQi4NCmX8qjwhbLr747eGXgygPpo9U7Cs9BrEWQ2NfiDj81ivQg69fUSczg6E8",
-      "related": [
-        {
-          "title": "Martin O'Neill issues injury update on Celtic duo but no rirks should be taken",
-          "url": "https://www.livescore.com/en/news/football/scottish-premiership/martin-oneill-issues-injury-update-on-celtic-duo-but-no-rirks-should-be-taken-the-celtic-bhoys/",
-          "source": "LiveScore"
-        },
-        {
-          "title": "Celtic send injury update on key ace ahead of Hibs clash as Hoops undone by set piece",
-          "url": "https://www.edinburghnews.scotsman.com/sport/football/hibs/celtic-send-injury-update-on-key-ace-ahead-of-hibs-clash-9305160",
-          "source": "Edinburgh News"
-        },
-        {
-          "title": "Martin O'Neill Nearing Ruthless Axing of 3 Young Celtic Stars",
-          "url": "https://www.givemesport.com/martin-oneill-faces-ruthless-axing-donovan-murray-osmand/",
-          "source": "GiveMeSport"
-        }
-      ],
-      "word_count": 844,
-      "page": "p/martin-oneill-provides-injury-update-and-squad-plans-for-celtic.html"
-    },
-    {
-      "title": "Kenneth Walker III Thrives with Chiefs After Seahawks Release",
-      "slug": "kenneth-walker-iii-thrives-with-chiefs-after-seahawks-release",
-      "topic": "kenneth walker",
-      "date": "2026-10-24",
-      "date_pkt": "2026-10-24 03:19 PM PKT",
-      "excerpt": "Kenneth Walker III has become a key contributor for the Chiefs after being released by Seattle. Upcoming games could shape his future and the Seahawks' roster plans.",
-      "meta_description": "Running back Kenneth Walker III finds success with the Kansas City Chiefs after Seattle cut ties, sparking rumors and a high‑stakes showdown.",
-      "keywords": [
-        "Kenneth Walker III",
-        "Seattle Seahawks",
-        "Kansas City Chiefs",
-        "NFL rumors",
-        "2024 season"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqJSX6-NtKNZkcBS62Sl1MoFUQro_iJwvK9RRo3U5X2zRPfMDLMsYH3WdRg-A",
-      "related": [
-        {
-          "title": "Kenneth Walker III is thriving with Chiefs. Why did the Seahawks let him go?",
-          "url": "https://www.espn.com/nfl/story/_/id/50233140/seattle-seahawks-kansas-city-chiefs-kenneth-walker",
-          "source": "ESPN"
-        },
-        {
-          "title": "Kenneth Walker III Gets Concerning Prediction Before Seahawks Game",
-          "url": "https://sports.yahoo.com/articles/kenneth-walker-iii-gets-concerning-083730983.html",
-          "source": "Yahoo Sports"
-        },
-        {
-          "title": "Kenneth Walker's Seahawks Split Detailed in New NFL Rumors Ahead of Revenge Game with Chiefs",
-          "url": "https://bleacherreport.com/articles/25519321-kenneth-walkers-seahawks-split-detailed-new-nfl-rumors-ahead-revenge-game-chiefs",
-          "source": "Bleacher Report"
-        }
-      ],
-      "word_count": 606,
-      "page": "p/kenneth-walker-iii-thrives-with-chiefs-after-seahawks-release.html"
     }
   ]
 }
