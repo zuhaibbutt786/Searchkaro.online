@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Telegram Bot API Reactions: No Direct Updates | LearnWithZuhaib</title>
+  <meta name="description" content="Telegram Bot API does not provide reaction updates for bot‑sent messages or channel posts." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, telegram-bot" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/telegram-bot-api-reactions-no-direct-updates.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can a bot detect when a user reacts to a message?", "acceptedAnswer": {"@type": "Answer", "text": "Only by polling the message’s reactions array; no real‑time update is available."}}, {"@type": "Question", "name": "Is there a hidden method or undocumented field for reactions?", "acceptedAnswer": {"@type": "Answer", "text": "No, the API documentation is exhaustive; undocumented features are not supported."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-11-13 · Q&A guide</p>
+    <h1>Telegram Bot API Reactions: No Direct Updates</h1>
+    <p class="lead">Telegram Bot API does not provide reaction updates for bot‑sent messages or channel posts.</p>
+    <div class="content">
+<h2>Current API Landscape</h2>
+<p>The Bot API offers getUpdates, setWebhook, and a wide range of methods for messages, inline queries, and chat actions. However, the documentation lists no method that returns a reaction event. The only place reactions appear is in the Message object returned by getChat or getMessage, and only as a read‑only field.</p>
+<h2>Why Reactions Aren’t Forwarded</h2>
+<p>Reactions are considered a client‑side feature. Telegram’s servers do not push them to bots because they are not part of the message payload that the Bot API exposes. This design keeps the bot’s update stream lightweight and avoids exposing user interaction data that the bot developer might not need.</p>
+<h2>Workarounds with Inline Queries</h2>
+<p>A bot can still infer reactions indirectly by monitoring message edits or by using a custom emoji keyboard. If a user taps an inline button that mimics a reaction, the bot receives a callback_query update. This approach requires the bot to present the reaction options itself.</p>
+<pre><code>bot.on(&#x27;callback_query&#x27;, (query) =&gt; {
+  // query.data contains the chosen emoji
+});</code></pre>
+<h2>Using Bot API 6.0 Features</h2>
+<p>Version 6.0 introduced the ability to read the full Message object via getChatMessage or getMessage, which includes the reactions array. A bot can periodically poll for the latest messages in a chat and compare the reactions array to detect changes, but this is not real‑time and consumes API limits.</p>
+<h2>Future Outlook</h2>
+<p>Telegram’s roadmap does not currently list reaction updates for bots. Community requests have been logged, but until a new method is added, developers must rely on polling or custom UI elements to capture reaction data.</p>
+<p><strong>Takeaway:</strong> Telegram Bot API does not expose reaction updates; developers must use polling or custom interfaces to track reactions.</p>
+<h2>People also ask</h2>
+<h3>Can a bot detect when a user reacts to a message?</h3>
+<p>Only by polling the message’s reactions array; no real‑time update is available.</p>
+<h3>Is there a hidden method or undocumented field for reactions?</h3>
+<p>No, the API documentation is exhaustive; undocumented features are not supported.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/71721469/how-to-obtain-reactions-updates-via-telegram-bot-api" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

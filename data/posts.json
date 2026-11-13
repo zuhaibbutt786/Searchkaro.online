@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "title": "Fix 'type' object not subscriptable with List[int] in Python classes",
+      "slug": "fix-type-object-not-subscriptable-with-listint-in-python-classes",
+      "date": "2026-11-13",
+      "excerpt": "Learn why List[int] fails in older Python versions and how to correctly import typing for type annotations.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Push & Pull Docker Images to GitLab Registry Using PAT",
+      "slug": "push-pull-docker-images-to-gitlab-registry-using-pat",
+      "date": "2026-11-13",
+      "excerpt": "Use a personal access token (PAT) with API scope to authenticate Docker pushes and pulls to GitLab's container registry.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Enable DataGridView Sorting by Column Header in C#",
+      "slug": "enable-datagridview-sorting-by-column-header-in-c",
+      "date": "2026-11-13",
+      "excerpt": "Learn how to sort a DataGridView bound to a List by clicking column headers in C#.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "SQL Server Data Types for Mixed Integer and Float Values",
+      "slug": "sql-server-data-types-for-mixed-integer-and-float-values",
+      "date": "2026-11-13",
+      "excerpt": "Learn which SQL Server type stores integers and decimals efficiently in a single column.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Telegram Bot API Reactions: No Direct Updates",
+      "slug": "telegram-bot-api-reactions-no-direct-updates",
+      "date": "2026-11-13",
+      "excerpt": "Telegram Bot API does not provide reaction updates for bot\u2011sent messages or channel posts.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Use Table Variable in Dynamic SQL on SAP HANA",
+      "slug": "use-table-variable-in-dynamic-sql-on-sap-hana",
+      "date": "2026-11-13",
+      "excerpt": "Learn why a table variable can\u2019t be referenced in dynamic SQL and how to work around it with temporary tables or subqueries.",
+      "source": "stackoverflow"
+    },
+    {
       "title": "Zoom Out in Visual Studio 2013 Windows Forms Designer",
       "slug": "zoom-out-in-visual-studio-2013-windows-forms-designer",
       "date": "2026-11-06",

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fix &#x27;type&#x27; object not subscriptable with List[int] in Python classes | LearnWithZuhaib</title>
+  <meta name="description" content="Learn why List[int] fails in older Python versions and how to correctly import typing for type annotations." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, python-3.x,list,types,importerror" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/fix-type-object-not-subscriptable-with-listint-in-python-classes.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I need to import List from typing on Python 3.9+?", "acceptedAnswer": {"@type": "Answer", "text": "No, you can use list[int] directly; importing List is optional but still works."}}, {"@type": "Question", "name": "What happens if I keep the pip‑installed typing package?", "acceptedAnswer": {"@type": "Answer", "text": "It will shadow the standard library module and can cause import errors or unexpected behavior."}}, {"@type": "Question", "name": "Can I use typing.List for all Python versions?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, typing.List is available from Python 3.5 onward and is the safest choice for backward compatibility."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-11-13 · Q&A guide</p>
+    <h1>Fix &#x27;type&#x27; object not subscriptable with List[int] in Python classes</h1>
+    <p class="lead">Learn why List[int] fails in older Python versions and how to correctly import typing for type annotations.</p>
+    <div class="content">
+<h2>Problem Overview</h2>
+<p>A common runtime error is &quot;TypeError: &#x27;type&#x27; object is not subscriptable&quot; when using annotations like List[int] in a class constructor. The code runs fine on Python 3.9+ but crashes on earlier releases.</p>
+<h2>Root Cause</h2>
+<p>The syntax list[int] is only supported from Python 3.9 onward. In older interpreters, list is a plain type and cannot be subscripted. Additionally, installing a third‑party typing package via pip shadows the standard library module, causing import confusion.</p>
+<h2>Correct Import and Usage</h2>
+<p>Use the built‑in typing module and its generic types. Remove any pip‑installed typing package. Annotate with typing.List for compatibility with Python 3.5+. Example:</p>
+<pre><code>from typing import List
+
+class MyClass:
+    def __init__(self, a: int, arr: List[int]):
+        self.a = a
+        self.arr = arr
+
+    def show(self):
+        print(&#x27;a =&#x27;, self.a)
+        print(&#x27;arr =&#x27;, self.arr)
+
+obj = MyClass(1, [1, 2, 3])
+obj.show()</code></pre>
+<h2>Python 3.9+ Alternative</h2>
+<p>If you are on Python 3.9 or newer, you can use the native list syntax directly, which is shorter and more readable:</p>
+<pre><code>class MyClass:
+    def __init__(self, a: int, arr: list[int]):
+        self.a = a
+        self.arr = arr
+
+    def show(self):
+        print(&#x27;a =&#x27;, self.a)
+        print(&#x27;arr =&#x27;, self.arr)
+
+obj = MyClass(1, [1, 2, 3])
+obj.show()</code></pre>
+<h2>Common Pitfalls</h2>
+<p>1. Installing a pip package named typing – this shadows the stdlib module.
+2. Mixing annotations from both typing.List and list[int] in the same project.
+3. Forgetting that type annotations are optional; the error is purely about syntax, not runtime logic.</p>
+<p><strong>Takeaway:</strong> Use the built‑in typing module and match your Python version to avoid subscriptable type errors.</p>
+<h2>People also ask</h2>
+<h3>Do I need to import List from typing on Python 3.9+?</h3>
+<p>No, you can use list[int] directly; importing List is optional but still works.</p>
+<h3>What happens if I keep the pip‑installed typing package?</h3>
+<p>It will shadow the standard library module and can cause import errors or unexpected behavior.</p>
+<h3>Can I use typing.List for all Python versions?</h3>
+<p>Yes, typing.List is available from Python 3.5 onward and is the safest choice for backward compatibility.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/57989397/how-to-import-list-from-typing-module-to-recognize-the-type-listint-in-class" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

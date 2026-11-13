@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Push &amp; Pull Docker Images to GitLab Registry Using PAT | LearnWithZuhaib</title>
+  <meta name="description" content="Use a personal access token (PAT) with API scope to authenticate Docker pushes and pulls to GitLab&#x27;s container registry." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, linux,bash,docker,shell,gitlab" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/push-pull-docker-images-to-gitlab-registry-using-pat.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I use my GitLab password instead of a PAT?", "acceptedAnswer": {"@type": "Answer", "text": "No, GitLab requires a PAT with API scope for Docker registry operations, especially when 2FA is enabled."}}, {"@type": "Question", "name": "Why does `docker login` fail with a PAT?", "acceptedAnswer": {"@type": "Answer", "text": "Make sure you pipe the PAT into `--password-stdin` and use the correct registry URL; otherwise Docker may treat the token as a password and reject it."}}, {"@type": "Question", "name": "How do I revoke a compromised PAT?", "acceptedAnswer": {"@type": "Answer", "text": "Delete it from *User Settings → Access Tokens* and generate a new one with the same scopes."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-11-13 · Q&A guide</p>
+    <h1>Push &amp; Pull Docker Images to GitLab Registry Using PAT</h1>
+    <p class="lead">Use a personal access token (PAT) with API scope to authenticate Docker pushes and pulls to GitLab&#x27;s container registry.</p>
+    <div class="content">
+<h2>Understanding the Error</h2>
+<p>When Docker tries to authenticate against GitLab, the registry expects HTTP Basic credentials. A 2‑factor enabled account will reject a password that is not a PAT, leading to &quot;unauthorized: HTTP Basic: Access denied&quot;. The message &quot;You must use a personal access token with &#x27;api&#x27; scope&quot; confirms that the credential type is wrong. SSH keys are for Git over SSH, not for the Docker registry.</p>
+<h2>Creating a Personal Access Token</h2>
+<p>1. Go to *User Settings → Access Tokens* in GitLab.
+2. Give the token a name, set an expiry, and check the **api** scope.
+3. Copy the generated token; it will never be shown again.
+4. Store it securely (e.g., as a GitLab CI variable or in a local .env file).</p>
+<pre><code># Example of storing in a local .env file
+export GITLAB_PAT=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</code></pre>
+<h2>Logging In with Docker</h2>
+<p>Docker requires the registry URL, username, and the PAT as the password. The registry URL is either `registry.gitlab.com` for the default registry or your custom domain. Use `--password-stdin` to avoid exposing the token on the command line.</p>
+<pre><code>echo $GITLAB_PAT | docker login registry.gitlab.com -u $GITLAB_USER --password-stdin</code></pre>
+<h2>Tagging, Pushing, and Pulling Images</h2>
+<p>After a successful login, tag your local image with the GitLab registry path and push. Pulling follows the same pattern.</p>
+<pre><code># Tag the image
+
+docker tag myapp:latest registry.gitlab.com/$GITLAB_USER/mygroup/myapp:latest
+
+# Push to GitLab
+
+docker push registry.gitlab.com/$GITLAB_USER/mygroup/myapp:latest
+
+# Pull the image
+
+docker pull registry.gitlab.com/$GITLAB_USER/mygroup/myapp:latest</code></pre>
+<h2>CI/CD Integration</h2>
+<p>In a GitLab CI pipeline you can use predefined variables to avoid hard‑coding credentials. The variables `CI_REGISTRY`, `CI_REGISTRY_USER`, and `CI_REGISTRY_PASSWORD` are automatically populated in runners that have permission to push to the registry.</p>
+<pre><code># .gitlab-ci.yml snippet
+image: docker:latest
+services:
+  - docker:dind
+variables:
+  DOCKER_DRIVER: overlay2
+
+before_script:
+  - echo $CI_REGISTRY_PASSWORD | docker login $CI_REGISTRY -u $CI_REGISTRY_USER --password-stdin
+
+build_and_push:
+  script:
+    - docker build -t $CI_REGISTRY_IMAGE:latest .
+    - docker push $CI_REGISTRY_IMAGE:latest</code></pre>
+<p><strong>Takeaway:</strong> Always use a PAT with API scope for Docker registry actions; SSH keys are unrelated to container registry authentication.</p>
+<h2>People also ask</h2>
+<h3>Can I use my GitLab password instead of a PAT?</h3>
+<p>No, GitLab requires a PAT with API scope for Docker registry operations, especially when 2FA is enabled.</p>
+<h3>Why does `docker login` fail with a PAT?</h3>
+<p>Make sure you pipe the PAT into `--password-stdin` and use the correct registry URL; otherwise Docker may treat the token as a password and reject it.</p>
+<h3>How do I revoke a compromised PAT?</h3>
+<p>Delete it from *User Settings → Access Tokens* and generate a new one with the same scopes.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/69912669/how-to-push-and-pull-docker-images-from-gitlab-with-access-token" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

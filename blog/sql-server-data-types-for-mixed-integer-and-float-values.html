@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SQL Server Data Types for Mixed Integer and Float Values | LearnWithZuhaib</title>
+  <meta name="description" content="Learn which SQL Server type stores integers and decimals efficiently in a single column." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, sql-server" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/sql-server-data-types-for-mixed-integer-and-float-values.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I use INT for all values?", "acceptedAnswer": {"@type": "Answer", "text": "INT only stores whole numbers; decimals would be truncated."}}, {"@type": "Question", "name": "Is NUMERIC different from DECIMAL?", "acceptedAnswer": {"@type": "Answer", "text": "No, they are identical in SQL Server."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-11-13 · Q&A guide</p>
+    <h1>SQL Server Data Types for Mixed Integer and Float Values</h1>
+    <p class="lead">Learn which SQL Server type stores integers and decimals efficiently in a single column.</p>
+    <div class="content">
+<h2>Numeric Types Overview</h2>
+<p>SQL Server offers several numeric types: INT, BIGINT, FLOAT, REAL, DECIMAL, NUMERIC. INT and BIGINT store whole numbers; FLOAT and REAL store approximate binary floating‑point; DECIMAL and NUMERIC store exact decimal values with defined precision and scale.</p>
+<h2>Why Not FLOAT for Mixed Data</h2>
+<p>FLOAT/REAL use binary representation, leading to rounding errors for values like 0.1. They also consume 4 or 8 bytes regardless of precision, which can waste space when many integers are stored.</p>
+<h2>Best Choice: DECIMAL or NUMERIC</h2>
+<p>DECIMAL and NUMERIC are synonyms; they store exact decimal values. Specify precision (total digits) and scale (digits after decimal). For mixed integers and decimals, choose a precision that covers the largest expected value and a scale that covers required decimal places.</p>
+<pre><code>-- Example: store up to 12 digits with 2 decimals
+CREATE TABLE Sample(
+    Value DECIMAL(12,2) NOT NULL
+);</code></pre>
+<h2>Inserting Mixed Values</h2>
+<p>Both integers and decimals are accepted. SQL Server pads missing decimal places with zeros.</p>
+<pre><code>INSERT INTO Sample (Value) VALUES
+    (15),
+    (15.5),
+    (12.3),
+    (17),
+    (19.8);</code></pre>
+<h2>Performance &amp; Storage</h2>
+<p>DECIMAL(12,2) uses 6 bytes. Larger precision increases storage. For values that never exceed 10^12, DECIMAL(12,2) is efficient. If you need more than 2 decimal places, increase scale accordingly. Avoid FLOAT unless you need extreme range and can tolerate precision loss.</p>
+<p><strong>Takeaway:</strong> Use DECIMAL(precision,scale) to store both integers and decimals accurately and efficiently.</p>
+<h2>People also ask</h2>
+<h3>Can I use INT for all values?</h3>
+<p>INT only stores whole numbers; decimals would be truncated.</p>
+<h3>Is NUMERIC different from DECIMAL?</h3>
+<p>No, they are identical in SQL Server.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/31554127/data-types-to-store-integer-and-float-values-in-sql-server" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

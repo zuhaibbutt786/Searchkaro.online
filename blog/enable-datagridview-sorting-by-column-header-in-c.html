@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Enable DataGridView Sorting by Column Header in C# | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to sort a DataGridView bound to a List by clicking column headers in C#." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, c#,sorting,datagridview" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/enable-datagridview-sorting-by-column-header-in-c.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I sort a DataGridView bound to a List without using BindingSource?", "acceptedAnswer": {"@type": "Answer", "text": "Only if you convert the List to a BindingList and set it as the DataSource; the grid will then use the BindingList’s Sort method."}}, {"@type": "Question", "name": "What if my data class has no parameterless constructor?", "acceptedAnswer": {"@type": "Answer", "text": "BindingList and BindingSource require a public parameterless constructor to create instances for new rows; otherwise set DataGridView.ReadOnly to true."}}, {"@type": "Question", "name": "How do I toggle ascending/descending on successive clicks?", "acceptedAnswer": {"@type": "Answer", "text": "Store the last sorted column and direction in a field, then invert the direction when the same column header is clicked again."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-11-13 · Q&A guide</p>
+    <h1>Enable DataGridView Sorting by Column Header in C#</h1>
+    <p class="lead">Learn how to sort a DataGridView bound to a List by clicking column headers in C#.</p>
+    <div class="content">
+<h2>Why Sorting Fails with List Binding</h2>
+<p>A plain List&lt;T&gt; implements IList but not IBindingList, so the DataGridView cannot invoke a sort operation automatically. When the grid is bound directly to a List, clicking a header triggers no change in the underlying data source, resulting in a static view.</p>
+<h2>Wrap the List in a BindingList</h2>
+<p>BindingList&lt;T&gt; implements IBindingList and exposes a Sort method. Converting the List to a BindingList gives the grid a sortable collection. The conversion is one‑liner:</p>
+<pre><code>var bindingList = new BindingList&lt;Data1&gt;(myList);</code></pre>
+<h2>Use a BindingSource to Enable Sorting</h2>
+<p>BindingSource acts as an intermediary that understands sorting commands. Assign the BindingList to the BindingSource, then bind the DataGridView to the BindingSource. This setup allows the grid to call Sort on the underlying list.</p>
+<pre><code>var bs = new BindingSource();
+bs.DataSource = bindingList;
+dgv.DataSource = bs;</code></pre>
+<h2>Handle ColumnHeaderMouseClick to Apply Sort</h2>
+<p>The DataGridView raises ColumnHeaderMouseClick when a header is clicked. In the handler, determine the clicked column and call BindingSource.Sort with a column name and direction. The grid then refreshes automatically.</p>
+<pre><code>private void dgv_ColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+{
+    var col = dgv.Columns[e.ColumnIndex];
+    var direction = &quot;ASC&quot;; // toggle logic omitted for brevity
+    bs.Sort = col.DataPropertyName + &quot; &quot; + direction;
+}</code></pre>
+<h2>Common Pitfalls and Tips</h2>
+<p>• Ensure DataPropertyName matches the property name in the data class.
+• Avoid setting AutoGenerateColumns to false unless you manually create columns.
+• If you need case‑insensitive sorting, implement IComparer and pass it to BindingList.Sort.</p>
+<p><strong>Takeaway:</strong> By wrapping a List in BindingList and using a BindingSource, DataGridView sorting via column headers becomes straightforward in C#.</p>
+<h2>People also ask</h2>
+<h3>Can I sort a DataGridView bound to a List without using BindingSource?</h3>
+<p>Only if you convert the List to a BindingList and set it as the DataSource; the grid will then use the BindingList’s Sort method.</p>
+<h3>What if my data class has no parameterless constructor?</h3>
+<p>BindingList and BindingSource require a public parameterless constructor to create instances for new rows; otherwise set DataGridView.ReadOnly to true.</p>
+<h3>How do I toggle ascending/descending on successive clicks?</h3>
+<p>Store the last sorted column and direction in a field, then invert the direction when the same column header is clicked again.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/32677472/c-sort-datagridview-on-column-header-click" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

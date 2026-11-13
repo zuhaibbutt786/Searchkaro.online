@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Use Table Variable in Dynamic SQL on SAP HANA | LearnWithZuhaib</title>
+  <meta name="description" content="Learn why a table variable can’t be referenced in dynamic SQL and how to work around it with temporary tables or subqueries." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, sql,hana" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/use-table-variable-in-dynamic-sql-on-sap-hana.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I use a table variable directly in EXECUTE IMMEDIATE?", "acceptedAnswer": {"@type": "Answer", "text": "No – only scalar parameters are supported. Use a temp table or static subquery instead."}}, {"@type": "Question", "name": "What if I need to return the result set to the caller?", "acceptedAnswer": {"@type": "Answer", "text": "Store the result in a temporary table and SELECT from it after the dynamic execution, or use a RETURN statement that reads from the temp table."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-11-13 · Q&A guide</p>
+    <h1>Use Table Variable in Dynamic SQL on SAP HANA</h1>
+    <p class="lead">Learn why a table variable can’t be referenced in dynamic SQL and how to work around it with temporary tables or subqueries.</p>
+    <div class="content">
+<h2>Why the Error Happens</h2>
+<p>In SQLScript a table variable is a compile‑time construct. The dynamic SQL engine parses the string at runtime and only scalar parameters can be bound to it. A table variable is therefore not a valid binding target and the statement fails with an &quot;invalid table reference&quot; error.</p>
+<h2>Common Fixes</h2>
+<p>There are two practical ways to get the data into a dynamic query:
+1. Create a temporary table, copy the table variable into it, and reference that temp table in the dynamic SQL.
+2. Embed the table variable directly in the static part of the query and use dynamic SQL only for the rest of the statement.</p>
+<h2>Using a Temporary Table</h2>
+<p>Create a global temporary table, insert the rows from the table variable, and then build the dynamic statement to read from that temp table.</p>
+<pre><code>-- Create temp table once per session
+CREATE GLOBAL TEMPORARY TABLE #tmpCustomer (
+    customer_id NVARCHAR(20)
+) ON COMMIT PRESERVE ROWS;
+
+CALL PROCEDURE A();
+BEGIN
+    -- Load table variable
+    VAR_TAB = SELECT customer_id FROM table_A;
+
+    -- Copy into temp table
+    INSERT INTO #tmpCustomer SELECT * FROM :VAR_TAB;
+
+    -- Build and execute dynamic SQL
+    DECLARE sql NVARCHAR(4000);
+    sql = &#x27;SELECT * FROM #tmpCustomer&#x27;;
+    EXECUTE IMMEDIATE sql;
+END;</code></pre>
+<h2>Static Subquery Alternative</h2>
+<p>If you only need to add a WHERE clause or similar, keep the table variable in the static part and let the dynamic part supply the rest. For example:</p>
+<p>CALL PROCEDURE A();
+BEGIN
+    VAR_TAB = SELECT customer_id FROM table_A;
+    EXECUTE IMMEDIATE &#x27;SELECT * FROM table_B WHERE customer_id IN (SELECT customer_id FROM :VAR_TAB)&#x27;;
+END;</p>
+<h2>Best Practices</h2>
+<p>Always clean up temporary tables after use to avoid session bloat. Use the ON COMMIT PRESERVE ROWS clause if you need the data across multiple statements within the same session. Keep the dynamic part minimal to reduce parsing overhead.</p>
+<p><strong>Takeaway:</strong> Table variables cannot be bound in dynamic SQL; use a temporary table or embed them in static SQL instead.</p>
+<h2>People also ask</h2>
+<h3>Can I use a table variable directly in EXECUTE IMMEDIATE?</h3>
+<p>No – only scalar parameters are supported. Use a temp table or static subquery instead.</p>
+<h3>What if I need to return the result set to the caller?</h3>
+<p>Store the result in a temporary table and SELECT from it after the dynamic execution, or use a RETURN statement that reads from the temp table.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/61899304/use-table-variable-in-dynamic-sql-in-sap-hana" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>
