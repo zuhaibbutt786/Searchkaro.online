@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-17T15:34:03.195584+00:00",
-  "updated_at_pkt": "2026-11-17 08:30 PM PKT",
+  "updated_at": "2026-11-18T15:12:59.015148+00:00",
+  "updated_at_pkt": "2026-11-18 08:08 PM PKT",
   "count": 500,
-  "new_in_this_run": 30,
+  "new_in_this_run": 27,
   "sources": [
     "https://trends.google.com/trending/rss?geo=PK",
     "https://trends.google.com/trending/rss?geo=IN",
@@ -11,6 +11,1070 @@
     "https://trends.google.com/trending/rss?geo=SA"
   ],
   "items": [
+    {
+      "title": "تقرير: نتنياهو طلب عملية سرية داخل إيران دون علم الجيش",
+      "slug": "news-1795014772",
+      "topic": "موساد",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "Coverage linked to \"موساد\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "موساد: coverage and context for readers in SA. Summary of related reports and what to verify next.",
+      "keywords": [
+        "موساد",
+        "موساد news",
+        "SA",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhJM7eBoBQJOF4FtiIHV8OOAFr2cK0cDh_2RKpy4xFooqR9vVqP1JPFc5sWLI",
+      "related": [
+        {
+          "title": "تقرير: نتنياهو طلب عملية سرية داخل إيران دون علم الجيش",
+          "url": "https://aawsat.com/%D8%B4%D8%A4%D9%88%D9%86-%D8%A5%D9%82%D9%84%D9%8A%D9%85%D9%8A%D8%A9/5342484-%D8%AA%D9%82%D8%B1%D9%8A%D8%B1-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%B7%D9%84%D8%A8-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%B3%D8%B1%D9%8A%D8%A9-%D8%AF%D8%A7%D8%AE%D9%84-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AF%D9%88%D9%86-%D8%B9%D9%84%D9%85-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4",
+          "source": "الشرق الأوسط"
+        },
+        {
+          "title": "قائد \"سنتكوم\" في إسرائيل.. وإيران تهدد برد يتجاوز الحدود",
+          "url": "https://www.skynewsarabia.com/world/1905600-%D9%82%D8%A7%D8%A6%D8%AF-%D8%B3%D9%86%D8%AA%D9%83%D9%88%D9%85-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%88%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D9%87%D8%AF%D8%AF-%D8%A8%D8%B1%D8%AF-%D9%8A%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF",
+          "source": "سكاي نيوز عربية"
+        },
+        {
+          "title": "عاجل. تحرّك عسكري أميركي رفيع في إسرائيل.. وإيران تتوعّد بردّ \"أكثر تدميراً\" إذا تعرّضت لهجوم جديد",
+          "url": "https://arabic.euronews.com/2026/11/18/iran-army-chief-hatami-warns-more-destructive-response",
+          "source": "Euronews.com"
+        }
+      ],
+      "word_count": 332,
+      "page": "p/news-1795014772.html"
+    },
+    {
+      "title": "Xiaomi 18 Pro Max launches globally with dual-screen design",
+      "slug": "xiaomi-18-pro-max-launches-globally-with-dual-screen-design",
+      "topic": "xiaomi 18 pro max",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "Xiaomi has officially brought its latest flagship smartphone to international markets, marking a significant expansion for its unique hardware design. The device features a secondary rear display and high-resolution imaging capabilities.",
+      "meta_description": "The Xiaomi 18 Pro Max has arrived in global markets, featuring a distinctive rear display and 200MP camera. Priced from €1,399, it targets premium Android users",
+      "keywords": [
+        "Xiaomi 18 Pro Max",
+        "dual screen phone",
+        "200MP camera",
+        "Android flagship",
+        "global launch"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTtvs-EjQsY0iWRftITnIEe1-xAlC0W_nSDZNUxF_6kHk7cEr_tP_nsQFVSC5w",
+      "related": [
+        {
+          "title": "Xiaomi 18 Pro Max (Global) review",
+          "url": "https://m.gsmarena.com/xiaomi_18_pro_max-review-3013.php",
+          "source": "GSMArena.com"
+        },
+        {
+          "title": "These Android flagships double down on screens and 200MP cameras",
+          "url": "https://www.androidpolice.com/these-android-flagships-double-down-screens-200mp-cameras/",
+          "source": "Android Police"
+        },
+        {
+          "title": "Xiaomi takes its rear-screen flagship phones overseas, starting at €1,399",
+          "url": "https://technode.com/2026/11/18/xiaomi-takes-its-rear-screen-flagship-phones-overseas-starting-at-e1399/",
+          "source": "TechNode"
+        }
+      ],
+      "word_count": 834,
+      "page": "p/xiaomi-18-pro-max-launches-globally-with-dual-screen-design.html"
+    },
+    {
+      "title": "Woman critical but stable after being shot in 'targeted attack'",
+      "slug": "woman-critical-but-stable-after-being-shot-in-targeted-attack",
+      "topic": "glasgow",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "Coverage linked to \"glasgow\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
+      "meta_description": "glasgow: coverage and context for readers in GB. Summary of related reports and what to verify next.",
+      "keywords": [
+        "glasgow",
+        "glasgow news",
+        "GB",
+        "latest updates",
+        "breaking context"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbYEBEV-ISvMilfLJodjt8heRmkE6wC7vvBu8WC1sS37zJM-lznIo58Pp9D5E",
+      "related": [
+        {
+          "title": "Woman critical but stable after being shot in 'targeted attack'",
+          "url": "https://www.bbc.co.uk/news/articles/cm0rkq7xp7e1o",
+          "source": "BBC"
+        },
+        {
+          "title": "Woman shot in Glasgow as police hunt attacker",
+          "url": "https://news.sky.com/story/woman-shot-in-glasgow-as-police-hunt-attacker-13613550",
+          "source": "Sky News"
+        },
+        {
+          "title": "Police confirm woman injured on Glasgow street was shot",
+          "url": "https://www.bbc.com/news/articles/cm0rkq7xp7e1o",
+          "source": "BBC"
+        }
+      ],
+      "word_count": 318,
+      "page": "p/woman-critical-but-stable-after-being-shot-in-targeted-attack.html"
+    },
+    {
+      "title": "Veerappa Moily Says Congress Leaders Blocked Gujarat Riot Probe",
+      "slug": "veerappa-moily-says-congress-leaders-blocked-gujarat-riot-probe",
+      "topic": "വീരപ്പ മൊയ്ലി",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "Veerappa Moily, a veteran politician, claimed that certain Congress leaders prevented an inquiry into the Gujarat riots involving Prime Minister Narendra Modi. The allegation has sparked debate over the role of political parties in overseei",
+      "meta_description": "Former Karnataka minister Veerappa Moily alleges that senior Congress figures obstructed a probe into the 2022 Gujarat riots, raising questions about political ",
+      "keywords": [
+        "Veerappa Moily",
+        "Gujarat riots",
+        "Congress leaders",
+        "political investigation",
+        "India politics"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8qmmt0wiWSrSQqqGX9oMl6wvoH9i3ZyGCUTr3ihx0x17xwsu_B6xRU-Av3uw",
+      "related": [
+        {
+          "title": "ഗുജറാത്ത് കലാപം: മോദിക്കെതിരായ അന്വേഷണം തടഞ്ഞത് ചില കോൺഗ്രസ് നേതാക്കളെന്ന് വീരപ്പ മൊയ്‌ലി",
+          "url": "https://www.manoramaonline.com/news/latest-news/2026/11/18/veerappa-moily-gujarat-riots-statement.html",
+          "source": "Manorama Online"
+        },
+        {
+          "title": "ഗുജറാത്ത് കലാപം: മോദിക്കെതിരായ അന്വേഷണം തടഞ്ഞത് ചില കോൺഗ്രസ് നേതാക്കള്‍; വെളിപ്പെടുത്തലുമായി വീരപ്പ...",
+          "url": "https://www.mediaoneonline.com/india/gujarat-riots-certain-congress-leaders-blocked-the-probe-against-modi-344250",
+          "source": "Media One"
+        },
+        {
+          "title": "ഗുജറാത്ത് കലാപം; മോദിക്കെതിരായ അന്വേഷണം യുപിഎ സര്‍ക്കാരിലെ കോണ്‍ഗ്രസ് നേതാക്കള്‍ തടഞ്ഞു: വീരപ്പ മൊയ്‌ലി",
+          "url": "https://www.reporterlive.com/topnews/national/2026/11/18/narendra-modi-gujarat-case-veerappa-moily-congress-leaders-investigation-upa-government",
+          "source": "Reporter Tv"
+        }
+      ],
+      "word_count": 651,
+      "page": "p/veerappa-moily-says-congress-leaders-blocked-gujarat-riot-probe.html"
+    },
+    {
+      "title": "Vande Bharat Train Travels 463 km Despite Brake Fault, Probe Launched",
+      "slug": "vande-bharat-train-travels-463-km-despite-brake-fault-probe-launched",
+      "topic": "ವಂದೇ ಭಾರತ ಎಕ್ಸ್ಪ್ರೆಸ್",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "The Vande Bharat Express completed a 463‑kilometre run despite a brake malfunction, leading to an official probe. A separate stone‑throwing incident also damaged a coach, heightening safety worries.",
+      "meta_description": "India's high‑speed Vande Bharat Express covered 463 km with faulty brakes, prompting an investigation and raising safety concerns after a stone‑throwing inciden",
+      "keywords": [
+        "Vande Bharat",
+        "train brake failure",
+        "India rail safety",
+        "investigation",
+        "stone attack"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSoOFjKW5TGvqlJtj7XK7xp8SHLukHk8fx-8aAXIzPhkLKdbO7AP_fsYPrPQew",
+      "related": [
+        {
+          "title": "ದೋಷಪೂರಿತ ಬ್ರೇಕ್‌, ಆದರೂ 463 ಕಿ.ಮೀ ಸಂಚರಿಸಿದ ಖಾಲಿ Vande Bharat ರೈಲು; ತನಿಖೆಗೆ ಆದೇಶ",
+          "url": "https://www.kannadaprabha.com/nation/2026/Nov/15/empty-vande-bharat-travels-463-km-with-faulty-brakes-probe-on",
+          "source": "Kannada Prabha Online"
+        },
+        {
+          "title": "Vande Bharat Brake Failure: ಬ್ರೇಕ್ ಸಮಸ್ಯೆ ಇದ್ದರೂ 463 ಕಿ.ಮೀ. ಚಲಿಸಿದ ವಂದೇ ಭಾರತ್ ರೈಲು:ತನಿಖೆಗೆ ಆದೇಶ",
+          "url": "https://www.prajavani.net/news/india-news/vande-bharat-train-brake-issue-investigation-4396491",
+          "source": "Prajavani"
+        },
+        {
+          "title": "ವಂದೇ ಭಾರತ್‌ ರೈಲಿನ ಮೇಲೆ ಕಲ್ಲು ತೂರಿದ ಕಲ್ಲು ಭಯೋತ್ಪಾದಕರು, ಸಿ-4 ಕೋಚ್‌ನ ಗ್ಲಾಸ್‌ ಪೀಸ್‌ ಪೀಸ್‌",
+          "url": "https://kannada.asianetnews.com/india-news/stones-pelted-at-vande-bharat-train-between-surat-and-navsari-c4-coach-window-damaged-san/articleshow-6d1znh9",
+          "source": "Asianet News Kannada"
+        }
+      ],
+      "word_count": 798,
+      "page": "p/vande-bharat-train-travels-463-km-despite-brake-fault-probe-launched.html"
+    },
+    {
+      "title": "Somali President Defends Sovereignty Amid UAE Diplomatic Tensions",
+      "slug": "somali-president-defends-sovereignty-amid-uae-diplomatic-tensions",
+      "topic": "رئيس الصومال",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "The President of Somalia has issued a strong statement declaring that the nation is no longer weak and will defend its territory against external interference. This remark triggered a swift diplomatic response from UAE officials, who emphas",
+      "meta_description": "Somali President Hariri asserts national strength against foreign interventions, prompting a diplomatic response from UAE officials regarding bilateral relation",
+      "keywords": [
+        "Somali President",
+        "UAE Diplomacy",
+        "Anwar Gargash",
+        "Somalia Sovereignty",
+        "Regional Politics"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-Lmm7toObsso7fjBO9PSNNYqlRRwQ1nBi_1qMnuq9mhxb0UgiLWsHaaHJRvo",
+      "related": [
+        {
+          "title": "قرقاش يعلق بعد هجوم الرئيس الصومالي على الإمارات: يعكس تقلبات مواقفه",
+          "url": "https://arabic.cnn.com/middle-east/article/2026/11/18/gargash-responds-somali-president-attack-uae",
+          "source": "CNN Arabic"
+        },
+        {
+          "title": "رئيس الصومال: لم نعد دولة ضعيفة وسندافع عن أرضنا إزاء التدخلات",
+          "url": "https://www.aljazeera.net/news/2026/11/17/%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%B5%D9%88%D9%85%D8%A7%D9%84-%D9%84%D9%85-%D9%86%D8%B9%D8%AF-%D8%AF%D9%88%D9%84%D8%A9-%D8%B6%D8%B9%D9%8A%D9%81%D8%A9-%D9%88%D8%B3%D9%86%D8%AF%D8%A7%D9%81%D8%B9",
+          "source": "الجزيرة نت"
+        },
+        {
+          "title": "قرقاش: الإمارات وقفت مع الصومال في أحلك الظروف وعلاقتنا بشعبه أعمق من الخلافات السياسية",
+          "url": "https://www.albayan.ae/news/uae/1565916",
+          "source": "البيان"
+        }
+      ],
+      "word_count": 697,
+      "page": "p/somali-president-defends-sovereignty-amid-uae-diplomatic-tensions.html"
+    },
+    {
+      "title": "Shraddha Kapoor Learns Lavani For Upcoming Film Eetha",
+      "slug": "shraddha-kapoor-learns-lavani-for-upcoming-film-eetha",
+      "topic": "shraddha kapoor",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "The actress admitted she was unfamiliar with the traditional dance form before undergoing rigorous training. The new song highlights her transformation as the character Eetha.",
+      "meta_description": "Shraddha Kapoor reveals she had no prior knowledge of Lavani before training for her role in Eetha. The actress brings fire and drama to the new track Ji Ji Re ",
+      "keywords": [
+        "Shraddha Kapoor",
+        "Eetha",
+        "Lavani dance",
+        "Ji Ji Re Ji",
+        "Bollywood news"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3hoksHPD5n-aKaEQzkAcgoNPZO_GVUxegkz8ij68rGnmY7DbdTRg1KveTyz4",
+      "related": [
+        {
+          "title": "Shraddha Kapoor says she learnt Lavani for ‘Eetha’: ‘Didn’t know the dance form at all’",
+          "url": "https://www.telegraphindia.com/entertainment/shraddha-kapoor-says-she-learnt-lavani-for-eetha-didnt-know-the-dance-form-at-all/cid/2190053",
+          "source": "Telegraph India"
+        },
+        {
+          "title": "Like Shraddha Kapoor's Lavani Dance In Ji Ji Re Ji Song? VOTE!",
+          "url": "https://www.rediff.com/movies/report/like-shraddha-kapoor-lavani-dance-in-ji-ji-re-ji-song-vote-video/20261117.htm",
+          "source": "Rediff"
+        },
+        {
+          "title": "Shraddha Kapoor Brings The Adaa, Drama And Fire As Eetha In ‘Ji Ji Re Ji’",
+          "url": "https://www.missmalini.com/shraddha-kapoor-brings-the-adaa-drama-and-fire-as-eetha-in-ji-ji-re-ji",
+          "source": "MissMalini"
+        }
+      ],
+      "word_count": 883,
+      "page": "p/shraddha-kapoor-learns-lavani-for-upcoming-film-eetha.html"
+    },
+    {
+      "title": "Shenzhen summit sees Trump, Putin and Xi meet amid global tensions",
+      "slug": "shenzhen-summit-sees-trump-putin-and-xi-meet-amid-global-tensions",
+      "topic": "putin trump xi shenzhen summit",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "The three leaders met in Shenzhen for a rare summit that could reshape international alliances. Analysts note the meeting's implications for trade, security and global governance.",
+      "meta_description": "In Shenzhen, former US President Trump, Russian President Putin and Chinese leader Xi Jinping hold a high‑profile summit, raising questions about global relatio",
+      "keywords": [
+        "Shenzhen summit",
+        "Xi Jinping",
+        "Donald Trump",
+        "Vladimir Putin",
+        "global diplomacy"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRU2PNxNnmDL0DhydJdSEg80wFgW52KmTrYJOkgJ0WweEviVEf8X7WGk-fslZw",
+      "related": [
+        {
+          "title": "Apec summit live: Xi welcomes Trump on China visit as Putin claims Europe in ‘humiliating decline’",
+          "url": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Trump gets rare airport welcome by Xi ahead of landmark talks",
+          "url": "https://www.bbc.co.uk/news/videos/ck8dv9rvllyvo",
+          "source": "BBC"
+        },
+        {
+          "title": "The meeting that could mark the end of the world as we know it",
+          "url": "https://www.telegraph.co.uk/world-news/2026/11/18/trumps-meeting-with-xi-and-putin-could-redraw-world-order/",
+          "source": "The Telegraph"
+        }
+      ],
+      "word_count": 443,
+      "page": "p/shenzhen-summit-sees-trump-putin-and-xi-meet-amid-global-tensions.html"
+    },
+    {
+      "title": "SBI UPI Services Temporarily Suspended for 45-Minute Maintenance",
+      "slug": "sbi-upi-services-temporarily-suspended-for-45-minute-maintenance",
+      "topic": "sbi",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "State Bank of India has announced a temporary suspension of its UPI services for 45 minutes on November 19. Customers are advised to plan their digital transactions accordingly to avoid disruption.",
+      "meta_description": "State Bank of India UPI services will be unavailable for 45 minutes on November 19 due to scheduled maintenance, affecting digital payments across the country.",
+      "keywords": [
+        "SBI",
+        "UPI maintenance",
+        "digital payments",
+        "banking outage",
+        "India"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "10000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQWnKNmPH_w11pkhLUd1_mt2h4GwFtNBl4OP9imcGSRYgbU1PfF8NBgyeZyA_U",
+      "related": [
+        {
+          "title": "देश में 45 मिनट बंद रहेगी UPI सर्विस, नहीं होगा पैसों का लेन देन",
+          "url": "https://www.abplive.com/business/state-bank-of-indias-upi-services-will-be-temporarily-unavailable-on-19-november-due-to-maintenance-3216490",
+          "source": "ABP News"
+        },
+        {
+          "title": "SBI ग्राहकों के लिए ज़रूरी खबर: आज रात 45 मिनट तक बंद रहेगी UPI सर्विस | Tap to know more | Inshorts",
+          "url": "https://inshorts.com/hi/news/19-%E0%A4%A8%E0%A4%B5-%E0%A4%AC%E0%A4%B0-%E0%A4%B0-%E0%A4%A4-sbi-%E0%A4%95--upi-%E0%A4%B8-%E0%A4%B5--45-%E0%A4%AE-%E0%A4%A8%E0%A4%9F-%E0%A4%AC-%E0%A4%A6-%E0%A4%B0%E0%A4%B9-%E0%A4%97--1794997257411",
+          "source": "Inshorts"
+        },
+        {
+          "title": "SBI ग्राहकों को झटका! 45 मिनट तक ठप रहेगी UPI सर्विस; पेमेंट करने से पहले चेक करें टाइम",
+          "url": "https://www.jagran.com/business/biz-sbi-upi-service-down-nov-19-maintenance-alert-for-customers-40440623.html",
+          "source": "Jagran"
+        }
+      ],
+      "word_count": 804,
+      "page": "p/sbi-upi-services-temporarily-suspended-for-45-minute-maintenance.html"
+    },
+    {
+      "title": "SBI Clerk Prelims Result 2026: Mains Exam Dates Confirmed",
+      "slug": "sbi-clerk-prelims-result-2026-mains-exam-dates-confirmed",
+      "topic": "sbi clerk result",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "The State Bank of India has released the preliminary results for the 2026 recruitment cycle, confirming the next stage of the selection process. Candidates are advised to verify their scorecards and prepare for the upcoming Mains examinatio",
+      "meta_description": "State Bank of India announces SBI Clerk Prelims 2026 results and confirms Mains exam dates for November 26-27. Candidates can now download scorecards.",
+      "keywords": [
+        "SBI Clerk Result",
+        "SBI Clerk 2026",
+        "Banking Jobs",
+        "SBI Mains Exam",
+        "Junior Associate"
+      ],
+      "geos": [
+        "IN"
+      ],
+      "traffic": "2000+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcShVNZUDifhwM5-80O17Ilcf8eTWG3w9yiTepUbE3EwmmJXpFSOMRl6fMGrREI",
+      "related": [
+        {
+          "title": "SBI Clerk Prelims Result 2026: Will SBI Announce the Result Today? Check Latest Updates",
+          "url": "https://www.ndtv.com/education/sbi-clerk-prelims-result-2026-will-sbi-announce-the-result-today-check-latest-updates-12342023",
+          "source": "NDTV"
+        },
+        {
+          "title": "SBI Clerk Prelims Result 2026 LIVE: Junior Associate pre scorecard shortly; qualifying marks, main exam dates",
+          "url": "https://news.careers360.com/sbi-clerk-prelims-result-2026-out-live-updates-official-website-link-sbi-bank-in-download-scorecard-pdf-cut-off-main-exam-date",
+          "source": "Careers360"
+        },
+        {
+          "title": "SBI Clerk Mains Exam Date 2026 announced; exam on November 26 and 27, check admit card, pattern and shift timings",
+          "url": "https://www.tradingview.com/news/moneycontrol:3bafb7fb3094b:0-sbi-clerk-mains-exam-date-2026-announced-exam-on-november-26-and-27-check-admit-card-pattern-and-shift-timings/",
+          "source": "TradingView"
+        }
+      ],
+      "word_count": 861,
+      "page": "p/sbi-clerk-prelims-result-2026-mains-exam-dates-confirmed.html"
+    },
+    {
+      "title": "Punjab Government Faces Growing Pressure Over Services and Reforms",
+      "slug": "punjab-government-faces-growing-pressure-over-services-and-reforms",
+      "topic": "حکومت پنجاب",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "The Punjab provincial administration is under heightened scrutiny as it grapples with service delivery and fiscal pressures. Officials say reforms are underway, but citizens demand faster results.",
+      "meta_description": "The Punjab provincial government in Pakistan confronts mounting public scrutiny as it tackles health, education, water shortages and fiscal challenges amid poli",
+      "keywords": [
+        "Punjab government",
+        "Pakistan politics",
+        "provincial reforms",
+        "public services",
+        "water crisis"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "",
+      "related": [],
+      "word_count": 718,
+      "page": "p/punjab-government-faces-growing-pressure-over-services-and-reforms.html"
+    },
+    {
+      "title": "Private Climate Finance in Africa Surges to $26.5bn, Greenpeace Says More Needed",
+      "slug": "private-climate-finance-in-africa-surges-to-265bn-greenpeace-says-more-needed",
+      "topic": "greenpeace international",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "Private climate finance in Africa has jumped to $26.5bn, a three‑fold increase from 2023. Greenpeace International applauds the growth but stresses the need for stronger public support.",
+      "meta_description": "Greenpeace International welcomes the tripling of private climate finance in Africa to $26.5bn, but warns that public funding must keep pace to meet the contine",
+      "keywords": [
+        "greenpeace international",
+        "climate finance",
+        "Africa",
+        "private investment",
+        "environmental NGOs"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQowzYt1v0eRa2UvEZH9aC1vot2jX1aMidY93tDoNblYeOpaxG9M6UQxkRBsvg",
+      "related": [
+        {
+          "title": "Private climate finance in Africa triples to $26.5bn, with 76% raised at home",
+          "url": "https://energy-news-network.com/industry-news/climate-finance-in-africa-private-26-5bn-cpi/",
+          "source": "Energy News Network"
+        },
+        {
+          "title": "LETTERS TO THE EDITOR",
+          "url": "https://www.businessday.co.za/opinion/2026-11-18-letters-to-the-editor/",
+          "source": "Business Day"
+        },
+        {
+          "title": "Private investments in African climate projects tripled in 2024",
+          "url": "https://www.semafor.com/article/11/16/2026/private-investments-in-african-climate-projects-tripled-in-2024",
+          "source": "Semafor"
+        }
+      ],
+      "word_count": 717,
+      "page": "p/private-climate-finance-in-africa-surges-to-265bn-greenpeace-says-more-needed.html"
+    },
+    {
+      "title": "Pakistan dominate early in second Test against Sri Lanka",
+      "slug": "pakistan-dominate-early-in-second-test-against-sri-lanka",
+      "topic": "pakistan vs sri lanka 2nd test scorecard",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "Pakistan seized control of the second Test in Rawalpindi, with fast bowlers and Ghori leading the charge. Sri Lanka’s Kumara fought back with a five‑for but could not prevent a large deficit.",
+      "meta_description": "Pakistan's pacers and spinners lead them to a commanding position on day one of the second Test in Rawalpindi, despite a five-wicket haul by Kumara for Sri Lank",
+      "keywords": [
+        "Pakistan cricket",
+        "Sri Lanka tour",
+        "second test",
+        "Rawalpindi",
+        "Ghori"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "20000+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQFNhNHBx1XM8hTqSKAv4G1TI5bzLOkGnOei_McBjPVHxU5fDvmw7cAiFBzvz8",
+      "related": [
+        {
+          "title": "Pakistan pacers put hosts in command on opening day of second Test",
+          "url": "https://www.pcb.com.pk/news-detail/pakistan-pacers-put-hosts-in-command-on-opening-day-of-second-test.html",
+          "source": "Pakistan Cricket Board (PCB)"
+        },
+        {
+          "title": "Ghori, bowlers put Pakistan in command despite Kumara five-for",
+          "url": "https://www.cricinfo.com/series/sri-lanka-in-pakistan-2026-27-1550703/pakistan-vs-sri-lanka-2nd-test-1550712/match-report",
+          "source": "Cricinfo"
+        },
+        {
+          "title": "Ghori, Razaullah push Pakistan to commanding position in Rawalpindi",
+          "url": "https://www.cricbuzz.com/cricket-news/140960/ghori-razaullah-push-pakistan-to-commanding-position-in-rawalpindi",
+          "source": "Cricbuzz"
+        }
+      ],
+      "word_count": 525,
+      "page": "p/pakistan-dominate-early-in-second-test-against-sri-lanka.html"
+    },
+    {
+      "title": "Newfoundland Moves Quickly on Flavored Vape Ban Amid Public Protests",
+      "slug": "newfoundland-moves-quickly-on-flavored-vape-ban-amid-public-protests",
+      "topic": "vocm",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "Newfoundland and Labrador has fast‑tracked legislation to prohibit flavored vaping products, prompting demonstrators to gather outside the Confederation Building. The move, highlighted by local broadcaster VOCM, has reignited discussions ac",
+      "meta_description": "VOCM reports on Newfoundland and Labrador's rapid push for a flavored vape ban, sparking protests outside the Confederation Building and igniting a national deb",
+      "keywords": [
+        "vape ban",
+        "flavored vapes",
+        "Newfoundland",
+        "VOCM",
+        "public health"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkkAWyEYrGCJzkIJC4dWfBbSfqm20GwtohQCZBsEZ7DfohYVb6gSXmeKPn_HM",
+      "related": [
+        {
+          "title": "Protesters gather outside confederation building as N.L. quickly moves bill banning flavoured vapes",
+          "url": "https://www.cbc.ca/news/canada/newfoundland-labrador/nl-flavoured-vapes-ban-9.7425719",
+          "source": "CBC"
+        },
+        {
+          "title": "November 18, 2026 – Do you think there should be a ban on flavoured vape products?",
+          "url": "https://vocm.com/2026/11/18/november-18-2026/",
+          "source": "VOCM"
+        },
+        {
+          "title": "Tolerance.ca",
+          "url": "https://www.tolerance.ca/en/newswire?rkey=20261118C8850&filter=21675",
+          "source": "Tolerance.ca"
+        }
+      ],
+      "word_count": 878,
+      "page": "p/newfoundland-moves-quickly-on-flavored-vape-ban-amid-public-protests.html"
+    },
+    {
+      "title": "Morgan Wallen Announces 2027 Stadium Tour Dates Across US",
+      "slug": "morgan-wallen-announces-2027-stadium-tour-dates-across-us",
+      "topic": "morgan wallen presale",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "Country music star Morgan Wallen has revealed the schedule for his upcoming Last Time I Checked Tour, marking a significant expansion into large stadium venues. Fans are currently rushing to secure presale tickets for the 2027 dates.",
+      "meta_description": "Morgan Wallen has confirmed dates for his Last Time I Checked Tour, including major stadium stops in Buffalo, Arlington, and Nashville for 2027.",
+      "keywords": [
+        "Morgan Wallen",
+        "Last Time I Checked Tour",
+        "2027 concert dates",
+        "stadium tour",
+        "presale"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "500+",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRmXeLbwrthD3Ou0-4VCDpGZ8LXliY-U5pItDdGrqeOZb5semVdRnKAYW77SA8",
+      "related": [
+        {
+          "title": "Morgan Wallen",
+          "url": "https://nissanstadium.com/event/morgan-wallen-friday-aug-27-2027/",
+          "source": "Nissan Stadium"
+        },
+        {
+          "title": "Morgan Wallen’s Last Time I Checked Tour is coming to Buffalo on July 23 and 24, 2027",
+          "url": "https://www.buffalobills.com/news/morgan-wallen-concert-tour-announcement-buffalo-highmark-stadium-2027",
+          "source": "Buffalo Bills"
+        },
+        {
+          "title": "Morgan Wallen: Last Time I Checked Tour 2027",
+          "url": "https://attstadium.com/events/morgan-wallen-aug-13-2027/",
+          "source": "attstadium.com"
+        }
+      ],
+      "word_count": 948,
+      "page": "p/morgan-wallen-announces-2027-stadium-tour-dates-across-us.html"
+    },
+    {
+      "title": "Maine Couple Sues Ogunquit Over Rooster Statues, Citing Free Speech",
+      "slug": "maine-couple-sues-ogunquit-over-rooster-statues-citing-free-speech",
+      "topic": "maine rooster statue lawsuit",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "A family and an omelette factory in Ogunquit are challenging the town's classification of decorative rooster statues as illegal advertising. The cases raise questions about free speech and municipal authority.",
+      "meta_description": "A family and an omelette factory in Ogunquit, Maine, have filed lawsuits claiming the town's ban on rooster statues violates First Amendment rights.",
+      "keywords": [
+        "Maine lawsuit",
+        "rooster statues",
+        "First Amendment",
+        "Ogunquit",
+        "advertising signs"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTZsIbRvra_bbe7d4YTtLUmg_a2Bw-ESuuquqeZAxdx51azDCVIsVf0cGV9rdg",
+      "related": [
+        {
+          "title": "Ogunquit family sues town over rooster statues, citing First Amendment rights",
+          "url": "https://www.newscentermaine.com/article/news/local/ogunquit-family-sues-town-over-rooster-statues-citing-first-amendment-rights-maine/97-c3a4cee9-eff4-4616-9d8c-4fba25afaaf8",
+          "source": "newscentermaine.com"
+        },
+        {
+          "title": "Omelette Factory owners file federal lawsuit against Ogunquit over roosters",
+          "url": "https://www.seacoastonline.com/story/news/local/york-star/2026/11/17/omelette-factory-owners-roosters-lawsuit-ogunquit-maine/92816385007/",
+          "source": "Seacoastonline.com"
+        },
+        {
+          "title": "Maine Family Sues Town After Officials Declare That Autistic Daughter’s Lawn Decorations Are Illegal “Advertising Signs”",
+          "url": "https://ij.org/press-release/maine-family-sues-town-after-officials-declare-that-autistic-daughters-lawn-decorations-are-illegal-advertising-signs/",
+          "source": "The Institute for Justice"
+        }
+      ],
+      "word_count": 627,
+      "page": "p/maine-couple-sues-ogunquit-over-rooster-statues-citing-free-speech.html"
+    },
+    {
+      "title": "Leigh Francis confirmed as surprise late entrant on I’m a Celebrity 2026",
+      "slug": "leigh-francis-confirmed-as-surprise-late-entrant-on-im-a-celebrity-2026",
+      "topic": "leigh francis",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "Comedian Leigh Francis has been announced as a surprise late arrival on this year’s I’m a Celebrity jungle series. The move adds a new dynamic to the competition and has already ignited fan discussion online.",
+      "meta_description": "Comedian Leigh Francis, known for ‘Bo’ and ‘Keith Lemon’, will join ITV’s I’m a Celebrity 2026 as a surprise late entrant, sparking excitement across the UK.",
+      "keywords": [
+        "Leigh Francis",
+        "I’m a Celebrity 2026",
+        "ITV",
+        "surprise entrant",
+        "UK television"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "10000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBiR1v7PomZNVNeGTtnF5OfQBPVBnxrUOkKtXEq6bVksFLQYXzb1vzBVLkomM",
+      "related": [
+        {
+          "title": "I’m a Celebrity 2026 line-up: who’s going into the jungle?",
+          "url": "https://www.telegraph.co.uk/tv/2026/11/16/im-a-celebrity-2026-line-up/",
+          "source": "The Telegraph"
+        },
+        {
+          "title": "I’m a Celebrity 2026 live: Leigh Francis to enter jungle, ITV announces",
+          "url": "https://www.independent.co.uk/arts-entertainment/tv/news/im-a-celebrity-2026-tonight-live-updates-b3086589.html",
+          "source": "The Independent"
+        },
+        {
+          "title": "I’m A Celeb announces comedian as surprise late arrival",
+          "url": "https://www.fm104.ie/news/entertainment/im-a-celeb-announces-comedian-as-surprise-late-arrival/",
+          "source": "FM104"
+        }
+      ],
+      "word_count": 945,
+      "page": "p/leigh-francis-confirmed-as-surprise-late-entrant-on-im-a-celebrity-2026.html"
+    },
+    {
+      "title": "Lance Bass shares holiday traditions with 5-year-old twins",
+      "slug": "lance-bass-shares-holiday-traditions-with-5-year-old-twins",
+      "topic": "lance bass",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "The former pop star revealed that his young children have embraced the family's festive spirit. Bass noted that the twins have inherited his passion for Christmas decorations.",
+      "meta_description": "Lance Bass discusses how his five-year-old twins react to NSYNC's Christmas album and shares the family's festive decorating habits this holiday season.",
+      "keywords": [
+        "Lance Bass",
+        "NSYNC",
+        "holiday traditions",
+        "family news",
+        "Christmas"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQUHEV0ZYN3-Ko9qdIZndoDmlfW24jM8SFyXafv6Tqoz6s1ABIR-u71PMJZdxI",
+      "related": [
+        {
+          "title": "Exclusive | Lance Bass shares the sweet holiday traditions he shares with his children",
+          "url": "https://pagesix.com/2026/11/17/celebrity-news/lance-bass-shares-the-sweet-holiday-traditions-he-shares-with-his-children/",
+          "source": "Page Six"
+        },
+        {
+          "title": "Lance Bass Reveals What His 5-Year-Old Twins Really Think of ‘NSync’s Christmas Album",
+          "url": "https://www.usmagazine.com/celebrity-moms/news/lance-bass-reveals-what-kids-think-of-nsync-christmas-album/",
+          "source": "Us Weekly"
+        },
+        {
+          "title": "Lance Bass' twins inherited his Christmas decorating passion: 'Definitely in the genes'",
+          "url": "https://katu.com/news/entertainment/lance-bass-twins-inherited-his-christmas-decorating-passion-definitely-in-the-genes?teaserSource=databricks",
+          "source": "KATU"
+        }
+      ],
+      "word_count": 904,
+      "page": "p/lance-bass-shares-holiday-traditions-with-5-year-old-twins.html"
+    },
+    {
+      "title": "Kuwait repels first Iranian drone attack in two months",
+      "slug": "kuwait-repels-first-iranian-drone-attack-in-two-months",
+      "topic": "kuwait",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "Kuwait announced it successfully repelled an Iranian drone attack, marking the first such incident in two months. The Gulf state condemned the move as a dangerous escalation following recent US strikes.",
+      "meta_description": "Kuwait has condemned a 'dangerous escalation' after repelling an Iranian drone strike on a US air base. The incident marks the first such attack in two months.",
+      "keywords": [
+        "Kuwait",
+        "Iran",
+        "US Air Base",
+        "Gulf Security",
+        "Drone Attack"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTbfftKx96s0WRAs-XLSSdY6rECjEoZQtp8iztoNcpsDMMjB4BpedvZvZzIaXY",
+      "related": [
+        {
+          "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+          "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o",
+          "source": "BBC"
+        },
+        {
+          "title": "Kuwait condemns ‘dangerous escalation’ after Iranian drone attack",
+          "url": "https://www.timesofisrael.com/liveblog_entry/kuwait-condemns-dangerous-escalation-after-iranian-drone-attack/",
+          "source": "The Times of Israel"
+        },
+        {
+          "title": "Iran targets US air base in Kuwait after US defensive strikes amid criticism from Gulf states",
+          "url": "https://www.foxnews.com/world/iran-targets-us-air-base-kuwait-us-defensive-strikes-criticism-gulf-states",
+          "source": "Fox News"
+        }
+      ],
+      "word_count": 646,
+      "page": "p/kuwait-repels-first-iranian-drone-attack-in-two-months.html"
+    },
+    {
+      "title": "Josh O'Connor fans voice discontent over Robert Pattinson's Bond casting",
+      "slug": "josh-oconnor-fans-voice-discontent-over-robert-pattinsons-bond-casting",
+      "topic": "josh o connor",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "British audiences are voicing strong reactions after the announcement that Robert Pattinson will take over the James Bond role. Supporters of fellow actor Josh O'Connor have taken to social media to question the decision.",
+      "meta_description": "Fans of British actor Josh O'Connor express disappointment as Robert Pattinson is confirmed as the new James Bond, sparking debate across the UK and media buzz.",
+      "keywords": [
+        "Josh O'Connor",
+        "Robert Pattinson",
+        "James Bond",
+        "casting controversy",
+        "UK reaction"
+      ],
+      "geos": [
+        "GB"
+      ],
+      "traffic": "5000+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSHJCHptjrckfxZrr4UGANXurlnILUTjfnAelBeZqNxWHT5oTUfLUD7hb_Z4eE",
+      "related": [
+        {
+          "title": "‘Worst decision in history’: Guardian readers shaken and stirred by the casting of Robert Pattinson as Bond",
+          "url": "https://www.theguardian.com/film/2026/nov/18/readers-casting-robert-pattinson-bond-007",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Jeff Bezos says he was 'heavily involved' in casting Robert Pattinson as new Bond",
+          "url": "https://www.bbc.co.uk/news/articles/cm5y1eejk292o",
+          "source": "BBC"
+        },
+        {
+          "title": "The unlikely rise of 007 oddball Robert Pattinson",
+          "url": "https://www.telegraph.co.uk/films/2026/11/18/unlikely-rise-007-oddball-robert-pattinson/",
+          "source": "The Telegraph"
+        }
+      ],
+      "word_count": 776,
+      "page": "p/josh-oconnor-fans-voice-discontent-over-robert-pattinsons-bond-casting.html"
+    },
+    {
+      "title": "Jason Derulo to Perform at Qatar Grand Prix Weekend Entertainment Lineup",
+      "slug": "jason-derulo-to-perform-at-qatar-grand-prix-weekend-entertainment-lineup",
+      "topic": "jason derulo",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "Jason Derulo has been confirmed as the Sunday night headliner for the 2026 Qatar Grand Prix weekend. The performance will bring a pop music spectacle to the high‑speed racing event.",
+      "meta_description": "Pop star Jason Derulo will headline the entertainment program on Sunday night of the 2026 Qatar Airways Qatar Grand Prix, adding a musical highlight to the Form",
+      "keywords": [
+        "Jason Derulo",
+        "Qatar Grand Prix",
+        "Formula 1",
+        "live music",
+        "entertainment"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQpdKi_aIYQSv5uZoMwPzvc_0GYmsHaV-p1FTwkcEGsi9lA9azy4JrBRaqeoz8",
+      "related": [
+        {
+          "title": "Jason Derulo to headline Sunday night at Formula 1 Qatar Airways Qatar Grand Prix 2026",
+          "url": "https://thepeninsulaqatar.com/article/17/11/2026/jason-derulo-to-headline-sunday-night-at-formula-1-qatar-airways-qatar-grand-prix-2026",
+          "source": "The Peninsula Qatar"
+        },
+        {
+          "title": "Jason Derulo to headline Qatar Grand Prix Sunday",
+          "url": "https://tbreak.com/jason-derulo-qatar-grand-prix-lusail-live/",
+          "source": "Tbreak UAE"
+        },
+        {
+          "title": "Jason Derulo to Headline Entertainment Lineup at Qatar Grand Prix Weekend",
+          "url": "https://speedwaydigest.com/index.php/news/racing-news/895461-jason-derulo-to-headline-entertainment-lineup-at-qatar-grand-prix-weekend/",
+          "source": "Speedway Digest"
+        }
+      ],
+      "word_count": 729,
+      "page": "p/jason-derulo-to-perform-at-qatar-grand-prix-weekend-entertainment-lineup.html"
+    },
+    {
+      "title": "Iran Launches Aerial Strikes on Kuwait and Bahrain Amid Rising Gulf Tensions",
+      "slug": "iran-launches-aerial-strikes-on-kuwait-and-bahrain-amid-rising-gulf-tensions",
+      "topic": "iran war strikes",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "Iran launched aerial attacks on Kuwait and Bahrain, widening its campaign in the Gulf after a U.S. strike on a missile launch site. The assaults were repelled, but the escalation heightens tensions across the region.",
+      "meta_description": "Iran has launched aerial attacks on Kuwait and Bahrain, expanding its Gulf offensive after U.S. strikes on a missile site, raising regional security concerns.",
+      "keywords": [
+        "Iran",
+        "Kuwait",
+        "Bahrain",
+        "Gulf",
+        "US"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "20000+",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQdDtRCh148YqBUxMfbm-EtdkmM9iNNNg557-BLrN0QlB1WCjGcX_NWHc9cSjE",
+      "related": [
+        {
+          "title": "Iran Attacks Kuwait and Bahrain, Further Escalating Fight Over Strait",
+          "url": "https://www.wsj.com/world/middle-east/iran-attacks-kuwait-and-bahrain-further-escalating-fight-over-strait-08f3a436",
+          "source": "WSJ"
+        },
+        {
+          "title": "Kuwait, Bahrain fend off Iranian aerial attacks",
+          "url": "https://www.arabnews.com/middle-east/kuwait-bahrain-fend-off-iranian-aerial-attacks-3012614",
+          "source": "Arab News"
+        },
+        {
+          "title": "Iran widens Gulf attacks after US strikes missile launch site",
+          "url": "https://www.cnn.com/2026/11/17/politics/us-iran-self-defense-strikes",
+          "source": "CNN"
+        }
+      ],
+      "word_count": 671,
+      "page": "p/iran-launches-aerial-strikes-on-kuwait-and-bahrain-amid-rising-gulf-tensions.html"
+    },
+    {
+      "title": "Dallas Cowboys debate Christian Parker’s future role amid coaching shake‑up",
+      "slug": "dallas-cowboys-debate-christian-parkers-future-role-amid-coaching-shakeup",
+      "topic": "mike pettine",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "Dallas owner Jerry Jones has announced a review of defensive coordinator Christian Parker’s role following a disagreement with head coach Brian Schottenheimer. The move could signal a broader shift in the Cowboys’ coaching structure.",
+      "meta_description": "The Cowboys are reassessing Christian Parker’s position after a disagreement with head coach Brian Schottenheimer, with Jerry Jones outlining potential changes.",
+      "keywords": [
+        "Dallas Cowboys",
+        "Christian Parker",
+        "Jerry Jones",
+        "Brian Schottenheimer",
+        "NFL coaching"
+      ],
+      "geos": [
+        "US"
+      ],
+      "traffic": "2000+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxYUaRkrShsJvMK6IjEl6ovjK4cVLsBRI6rWRqlh7Izjk3D0LXynBH67A7Cdo",
+      "related": [
+        {
+          "title": "Cowboys discussing new role for DC Parker, Jones says",
+          "url": "https://www.espn.com/nfl/story/_/id/50511280/cowboys-discussing-new-role-dc-parker-jones-says",
+          "source": "ESPN"
+        },
+        {
+          "title": "Cowboys news: Jerry Jones discusses Christian Parker’s role for the rest of 2026",
+          "url": "https://www.bloggingtheboys.com/dallas-cowboys-news/227106/jerry-jones-christian-parkers-role-brian-schottenheimer",
+          "source": "Blogging The Boys"
+        },
+        {
+          "title": "Jerry Jones says Cowboys are discussing defensive coordinator Christian Parker's role after Brian Schottenheimer declines to support him",
+          "url": "https://sports.yahoo.com/nfl/breaking-news/article/jerry-jones-says-cowboys-are-discussing-defensive-coordinator-christian-parkers-role-after-brian-schottenheimer-declines-to-support-him-160031342.html",
+          "source": "Yahoo Sports"
+        }
+      ],
+      "word_count": 518,
+      "page": "p/dallas-cowboys-debate-christian-parkers-future-role-amid-coaching-shakeup.html"
+    },
+    {
+      "title": "Cyberattack Targets 178 Sites, Including Zoom, in Crypto Scam",
+      "slug": "cyberattack-targets-178-sites-including-zoom-in-crypto-scam",
+      "topic": "zoom",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "A massive cyberattack has compromised 178 major websites, including Zoom and CNN, in a bid to steal cryptocurrency and infect iPhones. Security experts advise users to take immediate steps to safeguard their accounts.",
+      "meta_description": "A coordinated cyberattack hit 178 major websites, including Zoom and CNN, aiming to steal cryptocurrency and infect iPhones. Experts urge users to protect data.",
+      "keywords": [
+        "cyberattack",
+        "Zoom",
+        "crypto",
+        "iPhone",
+        "web security"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSrKipBcT8tPloFj_aG_qrU_W8DjU3RE7B-EQ38SFSFXT_nhi_P6gYVPZcsprw",
+      "related": [
+        {
+          "title": "Cyberattack Hits 178 Major Websites Including CNN and Zoom in Bid to Steal Crypto, Infect iPhones",
+          "url": "https://www.hstoday.us/subject-matter-areas/cybersecurity/cyberattack-hits-178-major-websites-including-cnn-and-zoom-in-bid-to-steal-crypto-infect-iphones/",
+          "source": "Homeland Security Today"
+        },
+        {
+          "title": "Cyberattack on 178 organizations: Take these 5 steps to protect your credit card info",
+          "url": "https://www.syracuse.com/us-news/2026/11/cyberattack-on-178-organizations-take-these-5-steps-to-protect-your-credit-card-info.html",
+          "source": "Syracuse.com"
+        },
+        {
+          "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+          "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+          "source": "Krebs on Security"
+        }
+      ],
+      "word_count": 539,
+      "page": "p/cyberattack-targets-178-sites-including-zoom-in-crypto-scam.html"
+    },
+    {
+      "title": "Anne Hathaway Welcomes Third Child, Shares First Glimpse in New York",
+      "slug": "anne-hathaway-welcomes-third-child-shares-first-glimpse-in-new-york",
+      "topic": "anne hathaway",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "Oscar winner Anne Hathaway, 44, has given birth to her third child. The newborn was spotted in New York City, confirming the actress's growing family.",
+      "meta_description": "Oscar-winning actress Anne Hathaway, 44, has welcomed her third child, with paparazzi spotting the newborn in New York City, sparking excitement among fans worl",
+      "keywords": [
+        "Anne Hathaway",
+        "third child",
+        "celebrity baby",
+        "New York",
+        "Hollywood news"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "100+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXE9sefMd1uADjiVJtFaC5lfNVG1YUmj77kZMKi5LMmEARsAzm1Ox9nUlgjGY",
+      "related": [
+        {
+          "title": "Anne Hathaway Welcomes New Baby, Spotted With Newborn in NYC",
+          "url": "https://www.tmz.com/2026/11/17/anne-hathaway-seen-with-new-baby/",
+          "source": "TMZ"
+        },
+        {
+          "title": "The most beautiful actress in the world at the age of 44 gave birth to her third child",
+          "url": "https://eadaily.com/en/news/2026/11/18/the-most-beautiful-actress-in-the-world-at-the-age-of-44-gave-birth-to-her-third-child",
+          "source": "EADaily"
+        },
+        {
+          "title": "Oscar Winner, 44, Gives Birth to Third Baby",
+          "url": "https://www.thedailybeast.com/oscar-winner-44-gives-birth-to-third-baby",
+          "source": "The Daily Beast"
+        }
+      ],
+      "word_count": 620,
+      "page": "p/anne-hathaway-welcomes-third-child-shares-first-glimpse-in-new-york.html"
+    },
+    {
+      "title": "Al Jouna Face Al Ittihad Alexandria in Egypt Cup Round‑16 Clash",
+      "slug": "al-jouna-face-al-ittihad-alexandria-in-egypt-cup-round16-clash",
+      "topic": "الجونة ضد الاتحاد السكندري",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "Al Jouna and Al Ittihad Alexandria are set to clash in the opening round‑16 of the Egypt Cup on 18 November. The match, part of a growing handball calendar, will be televised nationwide.",
+      "meta_description": "Al Jouna will take on Al Ittihad Alexandria in the round‑16 of the Egypt Cup on Wednesday, 18 November, as the handball tournament kicks off.",
+      "keywords": [
+        "Al Jouna",
+        "Al Ittihad Alexandria",
+        "Egypt Cup",
+        "handball",
+        "sports"
+      ],
+      "geos": [
+        "SA"
+      ],
+      "traffic": "200+",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkLkEkm0l4awIHzptpQJ1d_GGxYQ1bs16s__H_5p2h4BxZItf3KfL17lwvYc8",
+      "related": [
+        {
+          "title": "مواعيد مباريات الأربعاء 18 نوفمبر - الجونة ضد الاتحاد.. وكأس السوبر لكرة اليد",
+          "url": "https://www.filgoal.com/articles/541912/%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D8%A7%D8%A1-18-%D9%86%D9%88%D9%81%D9%85%D8%A8%D8%B1-%D8%A7%D9%84%D8%AC%D9%88%D9%86%D8%A9-%D8%B6%D8%AF-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D9%88%D9%83%D8%A3%D8%B3-%D8%A7%D9%84%D8%B3%D9%88%D8%A8%D8%B1-%D9%84%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D9%8A%D8%AF",
+          "source": "FilGoal"
+        },
+        {
+          "title": "الاتحاد السكندري يصطدم بالجونة في افتتاح منافسات دور الـ16 بكأس مصر",
+          "url": "https://www.youm7.com/story/2026/11/18/%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A-%D9%8A%D8%B5%D8%B7%D8%AF%D9%85-%D8%A8%D8%A7%D9%84%D8%AC%D9%88%D9%86%D8%A9-%D9%81%D9%8A-%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A7%D8%AA-%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D9%8016-%D8%A8%D9%83%D8%A3%D8%B3/7620913",
+          "source": "اليوم السابع"
+        },
+        {
+          "title": "مواعيد مباريات اليوم.. مواجهات قوية في كأس مصر وسوبر اليد وكأس ملك إسبانيا",
+          "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=18112026&id=3799087e-0f82-461d-959f-0c6dbc34e28b",
+          "source": "بوابة الشروق"
+        }
+      ],
+      "word_count": 649,
+      "page": "p/al-jouna-face-al-ittihad-alexandria-in-egypt-cup-round16-clash.html"
+    },
+    {
+      "title": "Abu Dhabi T10 2026 draws Pakistani fans as live scores surge",
+      "slug": "abu-dhabi-t10-2026-draws-pakistani-fans-as-live-scores-surge",
+      "topic": "t10 live score",
+      "date": "2026-11-18",
+      "date_pkt": "2026-11-18 08:08 PM PKT",
+      "excerpt": "Pakistan's cricket followers are tracking the Abu Dhabi T10 2026 tournament in real time. Live scores and detailed commentary are fueling a surge in online searches.",
+      "meta_description": "The Abu Dhabi T10 2026 tournament is capturing attention in Pakistan, with live scores, schedule updates and match commentary driving online interest across the",
+      "keywords": [
+        "Abu Dhabi T10",
+        "live scores",
+        "cricket",
+        "Pakistan",
+        "T10 league"
+      ],
+      "geos": [
+        "PK"
+      ],
+      "traffic": "1000+",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRQhJTtajcmt9rbv4y2gAaRr8EECI3tPJnYqTIbCAbPYGE2v5jRWzu0cGa3vdw",
+      "related": [
+        {
+          "title": "Abu Dhabi T10 2026 schedule, live scores and results",
+          "url": "https://www.cricbuzz.com/cricket-series/13307/abu-dhabi-t10-2026/matches",
+          "source": "Cricbuzz"
+        },
+        {
+          "title": "Abu Dhabi T10 2026 schedule, live scores, scorecards, points table, videos and statistics",
+          "url": "https://www.cricbuzz.com/cricket-series/13307/abu-dhabi-t10-2026",
+          "source": "Cricbuzz"
+        },
+        {
+          "title": "EE vs RDC, 23rd Match, Abu Dhabi T10 2026 - Commentary",
+          "url": "https://www.cricbuzz.com/live-cricket-scores/176254/ee-vs-rdc-23rd-match-abu-dhabi-t10-2026",
+          "source": "Cricbuzz"
+        }
+      ],
+      "word_count": 794,
+      "page": "p/abu-dhabi-t10-2026-draws-pakistani-fans-as-live-scores-surge.html"
+    },
     {
       "title": "ധോണി ഐപിഎലിൽനിന്നു വിരമിച്ചു, ചെന്നൈ സൂപ്പർ കിങ്സിൽ പുതിയ റോൾ, സഹീർ…",
       "slug": "news-1794929535",
@@ -18696,1086 +19760,6 @@
       ],
       "word_count": 359,
       "page": "p/news-analysis-amid-the-chargers-chaos-one-thing-is-certain-justin.html"
-    },
-    {
-      "title": "Nagwa Ibrahim Sparks Controversy Over Comments on Actress Swimwear",
-      "slug": "nagwa-ibrahim-sparks-controversy-over-comments-on-actress-swimwear",
-      "topic": "ماما نجوى ابراهيم",
-      "date": "2026-11-01",
-      "date_pkt": "2026-11-01 05:42 PM PKT",
-      "excerpt": "Egyptian actress Nagwa Ibrahim has become the center of a heated debate following her comments regarding the swimwear worn by female artists. The controversy has drawn sharp reactions from the Actors' Syndicate and prominent colleagues in t",
-      "meta_description": "Egyptian actress Nagwa Ibrahim faces criticism from the Actors' Syndicate after remarks about female artists' swimwear. Colleagues react with mixed support and ",
-      "keywords": [
-        "Nagwa Ibrahim",
-        "Egyptian entertainment",
-        "Actors Syndicate",
-        "media controversy",
-        "Shams El Baroudi"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS6H2617ERndaWsKS7MCpX9ixmHpcfNJoJ4WVYWhfj-0loDhxUOlYKZWWs3b3U",
-      "related": [
-        {
-          "title": "بسبب \"مايوهات\" الفنانات.. أزمة بين نجوى إبراهيم ونقابة الممثلين",
-          "url": "https://www.alarabiya.net/arab-and-world/egypt/2026/10/30/%D8%A8%D8%B3%D8%A8%D8%A8-%D9%85%D8%A7%D9%8A%D9%88%D9%87%D8%A7%D8%AA-%D8%A7%D9%84%D9%81%D9%86%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D8%B2%D9%85%D8%A9-%D8%A8%D9%8A%D9%86-%D9%86%D8%AC%D9%88%D9%89-%D8%A7%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85-%D9%88%D9%86%D9%82%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D9%85%D9%85%D8%AB%D9%84%D9%8A%D9%86",
-          "source": "العربية"
-        },
-        {
-          "title": "شمس البارودي تعاتب نجوى إبراهيم: «النصيحة في العلن فضيحة»",
-          "url": "https://www.okaz.com.sa/culture/na/2273284",
-          "source": "عكاظ"
-        },
-        {
-          "title": "ياسمين الخطيب تدعم نجوى إبراهيم بعد جدل تصريحاتها عن ملابس الفنانات",
-          "url": "https://www.lahamag.com/article/242466-%D9%8A%D8%A7%D8%B3%D9%85%D9%8A%D9%86-%D8%A7%D9%84%D8%AE%D8%B7%D9%8A%D8%A8-%D8%AA%D8%AF%D8%B9%D9%85-%D9%86%D8%AC%D9%88%D9%89-%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85-%D8%A8%D8%B9%D8%AF-%D8%AC%D8%AF%D9%84-%D8%AA%D8%B5%D8%B1%D9%8A%D8%AD%D8%A7%D8%AA%D9%87%D8%A7-%D8%B9%D9%86-%D9%85%D9%84%D8%A7%D8%A8%D8%B3-%D8%A7%D9%84%D9%81%D9%86%D8%A7%D9%86%D8%A7%D8%AA",
-          "source": "مجلة لها"
-        }
-      ],
-      "word_count": 660,
-      "page": "p/nagwa-ibrahim-sparks-controversy-over-comments-on-actress-swimwear.html"
-    },
-    {
-      "title": "Montana Millionaire tickets now on sale with sixth grand prize",
-      "slug": "montana-millionaire-tickets-now-on-sale-with-sixth-grand-prize",
-      "topic": "montana millionaire",
-      "date": "2026-11-01",
-      "date_pkt": "2026-11-01 05:42 PM PKT",
-      "excerpt": "Coverage linked to \"montana millionaire\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "montana millionaire: coverage and context for readers in US. Summary of related reports and what to verify next.",
-      "keywords": [
-        "montana millionaire",
-        "montana millionaire news",
-        "US",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRPfLG2Tb4CtkiWclomikV9ecfd9tXIoOZCAORv6B6DpnDHjsXYhHy2jUB8NhM",
-      "related": [
-        {
-          "title": "Montana Millionaire tickets now on sale with sixth grand prize",
-          "url": "https://www.wataugademocrat.com/news/national/montana-millionaire-tickets-now-on-sale-with-sixth-grand-prize/article_bcae9a2a-5445-5e31-a89d-a92db7bd5584.html",
-          "source": "Watauga Democrat"
-        },
-        {
-          "title": "Montana Millionaire tickets now on sale with sixth grand prize",
-          "url": "https://www.communitynewspapergroup.com/fayette_county_newspapers/news/nation/montana-millionaire-tickets-now-on-sale-with-sixth-grand-prize/article_453c7074-181b-54fa-bec5-bbb85f6b9a07.html",
-          "source": "Community Newspaper Group"
-        },
-        {
-          "title": "Montana Millionaire tickets now on sale with sixth grand prize",
-          "url": "https://www.wfmz.com/montana-millionaire-tickets-now-on-sale-with-sixth-grand-prize/article_d489d2b0-f00a-5387-8483-78e072e1c7d2.html",
-          "source": "WFMZ.com"
-        }
-      ],
-      "word_count": 329,
-      "page": "p/montana-millionaire-tickets-now-on-sale-with-sixth-grand-prize.html"
-    },
-    {
-      "title": "Megan Fox Joins Celebrity Subscription Service as Adult Platform Grows",
-      "slug": "megan-fox-joins-celebrity-subscription-service-as-adult-platform-grows",
-      "topic": "megan fox",
-      "date": "2026-11-01",
-      "date_pkt": "2026-11-01 05:42 PM PKT",
-      "excerpt": "Megan Fox has entered the subscription‑based content market, aligning with fellow celebrities who are monetising personal videos. The move reflects a broader shift among Hollywood figures toward direct fan revenue streams.",
-      "meta_description": "Megan Fox has signed up for a new celebrity subscription platform, joining other stars like Michele Morrone in offering paid intimate content to fans across the",
-      "keywords": [
-        "Megan Fox",
-        "celebrity subscription",
-        "adult platform",
-        "Michele Morrone",
-        "OnlyFans-style"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT3rDcB8gV27w2IF_96fOPtc-Rfa9gyKgoTdgq7Kl05d2Zl-XgQJb3_47hw9pQ",
-      "related": [
-        {
-          "title": "Michele Morrone Becomes Part-Owner of Subs Website, Will Sell PPV Intimate Content to Fans",
-          "url": "https://www.imdb.com/news/ni66088019/?ref_=nwc_art_perm",
-          "source": "IMDb"
-        },
-        {
-          "title": "365 Days' Michele Morrone Joins Adult Platform",
-          "url": "https://www.chosun.com/english/kpop-culture-en/2026/10/31/J2FWURNRUVGBBNWAHHXAJM4PPU/",
-          "source": "조선일보"
-        },
-        {
-          "title": "Sydney Sweeney's hunky co-star signs up for X-rated OnlyFans-style site alongside Megan Fox",
-          "url": "https://www.thesun.co.uk/tvandshowbiz/40874462/sydney-sweeney-michele-morrone-onlyfans-megan-fox/",
-          "source": "The Sun"
-        }
-      ],
-      "word_count": 610,
-      "page": "p/megan-fox-joins-celebrity-subscription-service-as-adult-platform-grows.html"
-    },
-    {
-      "title": "London City Lionesses face Manchester City in WSL showdown",
-      "slug": "london-city-lionesses-face-manchester-city-in-wsl-showdown",
-      "topic": "london vs man city",
-      "date": "2026-11-01",
-      "date_pkt": "2026-11-01 05:42 PM PKT",
-      "excerpt": "The London City Lionesses travel to the Academy Stadium to meet Manchester City in a pivotal WSL match. Fans can follow live text updates and expert predictions as the two sides prepare for Sunday’s encounter.",
-      "meta_description": "London City Lionesses host Manchester City in a key Women's Super League clash on Sunday, with team news, live updates and betting odds drawing attention across",
-      "keywords": [
-        "London City Lionesses",
-        "Manchester City",
-        "Women's Super League",
-        "WSL Sunday",
-        "football predictions"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "2000+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRE6WpAsOLOZixEWzy6VduPHaLHBglAO1T2WMlAQClstmAhAHPthho_mX6RFlQ",
-      "related": [
-        {
-          "title": "Women's Super League LIVE: Build-up, team news, text updates & radio commentary",
-          "url": "https://www.bbc.co.uk/sport/football/live/c6wyvnplpe45t",
-          "source": "BBC"
-        },
-        {
-          "title": "Arsenal v Aston Villa, London City Lionesses v Manchester City, and more: Women’s Super League – live",
-          "url": "https://www.theguardian.com/football/live/2026/nov/01/arsenal-v-aston-villa-london-city-lionesses-v-manchester-city-and-more-womens-super-league-live",
-          "source": "The Guardian"
-        },
-        {
-          "title": "WSL Sunday Predictions: Who Could Cause an Upset?",
-          "url": "https://news.williamhill.com/football/wsl-predictions-and-betting-tips-for-sunday-1st-november-2026/",
-          "source": "William Hill News"
-        }
-      ],
-      "word_count": 681,
-      "page": "p/london-city-lionesses-face-manchester-city-in-wsl-showdown.html"
-    },
-    {
-      "title": "Kelvin Fletcher faces emotional farm crisis, calls it devastating",
-      "slug": "kelvin-fletcher-faces-emotional-farm-crisis-calls-it-devastating",
-      "topic": "kelvin fletcher",
-      "date": "2026-11-01",
-      "date_pkt": "2026-11-01 05:42 PM PKT",
-      "excerpt": "Kelvin Fletcher, known for his role in Emmerdale, has spoken publicly about a distressing event on his farm that he describes as devastating. The actor also reflects on a painful goodbye with his wife, Liz.",
-      "meta_description": "Actor Kelvin Fletcher reveals a distressing farm incident he describes as devastating, while reflecting on a painful goodbye with his wife, Liz.",
-      "keywords": [
-        "Kelvin Fletcher",
-        "Emmerdale",
-        "farm incident",
-        "personal life",
-        "British actor"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTcD3qPZ9Ace6Rv_Is0pdfjqfLWtg5jLqcF2EdBmLHZwTMlXgPue6WlWIUE4ic",
-      "related": [
-        {
-          "title": "Kelvin Fletcher dealt emotional news on farm as he says 'it's devastating'",
-          "url": "https://www.dailystar.co.uk/tv/kelvin-fletcher-dealt-emotional-news-37830259",
-          "source": "Daily Star"
-        },
-        {
-          "title": "Kelvin Fletcher emotional as he opens up on 'devastating' goodbye with wife Liz",
-          "url": "https://www.liverpoolecho.co.uk/news/tv/kelvin-fletcher-emotional-opens-up-34844893",
-          "source": "Liverpool Echo"
-        },
-        {
-          "title": "Kelvin Fletcher says ‘it’s not a good sign’ after suffering ‘big blow’ on farm",
-          "url": "https://www.mirror.co.uk/tv/tv-news/kelvin-fletcher-says-its-not-37830131",
-          "source": "The Mirror"
-        }
-      ],
-      "word_count": 1155,
-      "page": "p/kelvin-fletcher-faces-emotional-farm-crisis-calls-it-devastating.html"
-    },
-    {
-      "title": "Jai Moondra's six-wicket haul levels Ireland-Namibia ODI series",
-      "slug": "jai-moondras-six-wicket-haul-levels-ireland-namibia-odi-series",
-      "topic": "ire vs nam",
-      "date": "2026-11-01",
-      "date_pkt": "2026-11-01 05:42 PM PKT",
-      "excerpt": "Jai Moondra's six‑for secured a draw in the Ireland tour of Namibia, marking a historic performance for the Irish side. The result has drawn attention from cricket followers across Pakistan.",
-      "meta_description": "Indian-origin pacer Jai Moondra claimed a record 6/26 against Namibia in Windhoek, giving Ireland a 2-2 tie in the four‑match ODI series and sparking excitement",
-      "keywords": [
-        "Ireland cricket",
-        "Namibia ODI",
-        "Jai Moondra",
-        "cricket records",
-        "associate nations"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "5000+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRn_k8RORAkgIM-w4wscGbM5TePqrEsLT49YbOVYIq-FIAEizwKZdNURvtwo6w",
-      "related": [
-        {
-          "title": "Jai Moondra's six-fer gives Ireland series parity",
-          "url": "https://www.cricbuzz.com/cricket-news/140722/jai-moondras-six-fer-gives-ireland-series-parity-cricbuzzcom",
-          "source": "Cricbuzz"
-        },
-        {
-          "title": "Ireland's Indian-origin pacer Jai Moondra creates cricket history with record-breaking 6/26 bowling figur",
-          "url": "https://timesofindia.indiatimes.com/sports/cricket/news/irelands-indian-origin-pacer-jai-moondra-creates-cricket-history-with-record-breaking-6/26-bowling-figures/articleshow/135403168.cms",
-          "source": "The Times of India"
-        },
-        {
-          "title": "4th ODI, Ireland tour of Namibia at Windhoek, Oct 30 2026",
-          "url": "https://www.espn.com/cricket/series/24830/scorecard/1558234/namibia-vs-ireland-4th-odi-24830",
-          "source": "ESPN"
-        }
-      ],
-      "word_count": 599,
-      "page": "p/jai-moondras-six-wicket-haul-levels-ireland-namibia-odi-series.html"
-    },
-    {
-      "title": "Indian Audiences Embrace New OTT Releases Including 'Obsession'",
-      "slug": "indian-audiences-embrace-new-ott-releases-including-obsession",
-      "topic": "ऑब्सेशन",
-      "date": "2026-11-01",
-      "date_pkt": "2026-11-01 05:42 PM PKT",
-      "excerpt": "A wave of new releases on Friday, October 30, has captured Indian viewers' attention. Titles ranging from action thrillers to comedy are driving higher subscription rates.",
-      "meta_description": "India sees a surge in OTT viewership as Netflix and other platforms roll out films like Mirzapur the Movie and the series Obsession, sparking fresh streaming en",
-      "keywords": [
-        "OTT",
-        "India",
-        "Netflix",
-        "Obsession",
-        "streaming trends"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQe9DYrnct29KgOEe3jqBnX4PsjCfguS7Yj4leWAJySpMALbsiJ6KK29_kZdqs",
-      "related": [
-        {
-          "title": "OTT: एक्शन से लेकर कॉमेडी तक, नेटफ्लिक्स पर देख डालें ये 8 फिल्में और सीरीज, Web-series Hindi News",
-          "url": "https://www.livehindustan.com/entertainment/web-series/netflix-8-must-watch-series-films-ott-recommendations-from-action-thriller-to-comedy-check-list-201793276259265.html",
-          "source": "Hindustan"
-        },
-        {
-          "title": "मिर्जापुर द मूवी से ऑब्सेशन तक, फ्राइडे को ओटीटी पर रिलीज हुई 6 फिल्में-सीरीज,",
-          "url": "https://www.abplive.com/entertainment/ott/friday-ott-release-30th-october-mirzapur-the-movie-obsession-akka-on-netflix-zee5-prime-video-hotstar-3208722",
-          "source": "ABP News"
-        },
-        {
-          "title": "हॉलीवुड लवर्स के लिए धमाकेदार रहेगा आने वाला हफ्ता, OTT से लेकर सिनेमाघरों में दस्तक देगी ये 9 बड़ी फिल्में",
-          "url": "https://navbharatlive.com/entertainment/hollywood-ott-releases-this-week-27-31-october-2026-aan25",
-          "source": "Navbharat Live"
-        }
-      ],
-      "word_count": 629,
-      "page": "p/indian-audiences-embrace-new-ott-releases-including-obsession.html"
-    },
-    {
-      "title": "Hurricane season impacts regional sports schedules and safety protocols",
-      "slug": "hurricane-season-impacts-regional-sports-schedules-and-safety-protocols",
-      "topic": "hurricanes",
-      "date": "2026-11-01",
-      "date_pkt": "2026-11-01 05:42 PM PKT",
-      "excerpt": "Recent hurricane activity has prompted heightened safety awareness across the southeastern United States. Major sporting events in North Carolina proceeded as scheduled, reflecting careful coordination between organizers and weather authori",
-      "meta_description": "Hurricane activity continues to influence regional planning, with sports events in North Carolina proceeding despite weather concerns and broader safety measure",
-      "keywords": [
-        "hurricanes",
-        "weather safety",
-        "North Carolina",
-        "sports events",
-        "regional planning"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCQOSO4v4JWptuieVVWWxPFjKgjG_33fEaj2MdSJxDEgOU54IICShrfNQZN8M",
-      "related": [
-        {
-          "title": "North Carolina recovered two onside kicks vs Miami. Neither counted in narrow loss",
-          "url": "https://www.usatoday.com/story/sports/ncaaf/acc/2026/11/01/north-carolina-onside-kicks-miami-college-football/92545413007/",
-          "source": "USA Today"
-        },
-        {
-          "title": "CFB Week 9 Highlights: No. 1 Miami at North Carolina",
-          "url": "https://247sports.com/video/cfb-week-9-highlights-no-1-miami-at-north-carolina-1031-14599587/",
-          "source": "247Sports"
-        },
-        {
-          "title": "Heels impressively battle Canes, but Edwards says ‘we didn’t do enough’",
-          "url": "https://tarheeltribune.com/2026/11/01/heels-impressively-battle-canes-but-edwards-says-we-didnt-do-enough/",
-          "source": "Tar Heel Tribune"
-        }
-      ],
-      "word_count": 854,
-      "page": "p/hurricane-season-impacts-regional-sports-schedules-and-safety-protocols.html"
-    },
-    {
-      "title": "Harry Potter Casts Ghosts, Sorting Hat & Fat Lady Inc David Threlfall",
-      "slug": "harry-potter-casts-ghosts-sorting-hat-fat-lady-inc-david-threlfall",
-      "topic": "john cleese",
-      "date": "2026-11-01",
-      "date_pkt": "2026-11-01 05:42 PM PKT",
-      "excerpt": "Coverage linked to \"john cleese\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "john cleese: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "john cleese",
-        "john cleese news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR3s9cCYQiJM5tgGeul8zn150bf7v63y8wdzfSztBADMowwR4mLjCKu0VAJjps",
-      "related": [
-        {
-          "title": "Harry Potter Casts Ghosts, Sorting Hat & Fat Lady Inc David Threlfall",
-          "url": "https://deadline.com/2026/10/harry-potter-ghosts-sorting-hat-fat-lady-david-threlfall-1237209330/",
-          "source": "Deadline"
-        },
-        {
-          "title": "‘Harry Potter’ HBO Series Casts Sorting Hat, Nearly Headless Nick, and More Hogwarts Ghosts and Portraits",
-          "url": "https://variety.com/2026/tv/news/harry-potter-hbo-cast-sorting-hat-nearly-headless-nick-1236935101/",
-          "source": "Variety"
-        },
-        {
-          "title": "The Ghosts, the Hat, and the Singing Painting Join Harry Potter Series",
-          "url": "https://www.vulture.com/article/harry-potter-cast-sorting-hat-ghosts-fat-lady.html",
-          "source": "Vulture"
-        }
-      ],
-      "word_count": 334,
-      "page": "p/harry-potter-casts-ghosts-sorting-hat-fat-lady-inc-david-threlfall.html"
-    },
-    {
-      "title": "Getafe Host Sevilla in LaLiga Showdown on 1 November",
-      "slug": "getafe-host-sevilla-in-laliga-showdown-on-1-november",
-      "topic": "getafe vs sevilla",
-      "date": "2026-11-01",
-      "date_pkt": "2026-11-01 05:42 PM PKT",
-      "excerpt": "Getafe welcomed Sevilla to the Coliseum for a LaLiga encounter on 1 November 2026. The match drew attention from fans worldwide who watched via live streams.",
-      "meta_description": "Getafe faced Sevilla in a LaLiga clash on 1 November 2026, with fans following the match via live streams across multiple platforms.",
-      "keywords": [
-        "Getafe",
-        "Sevilla",
-        "LaLiga",
-        "live streaming",
-        "football"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRKwLHRdiMI8FNMEi7VR7Tj4JyFhUX3eXOLHzw_oNXEJuWc8KIcZ74cSlKofsk",
-      "related": [
-        {
-          "title": "‍~(Live) LaLiga: Getafe v Sevilla Live Reddit",
-          "url": "https://www.laorotava.es/turismo/museos/?&xml=data:video/mp4;base64,&xml=data:video/mp4;base64,PGtycGFubz48aW5jbHVkZSB1cmw9Imh0dHBzOi8vbW9oaWR1bDA4LmdpdGh1Yi5pby9tb2gvZ2ZmLnhtbCIvPjwva3JwYW5vPg==&id=video-laliga-getafe-v-sevilla-liv-str-ldmkfwa",
-          "source": "Villa de la Orotava"
-        },
-        {
-          "title": "*#%[[[LIVESTREAMS>]]] Getafe CF vs Sevilla FC Live STREAMING free Soccer 01 November 2026 Right Now",
-          "url": "https://www.piercemfg.com/hubfs/StaticContentPages/Other/Webouts/Velocity.Impel/Tour.html?&xml=data:video/mp4;base64,PGtycGFubz48aW5jbHVkZSB1cmw9Ii9cL2hhcHB5bmVwcHkuZ2l0aHViLmlvL2JhYnUvTWF0Y2hwaWxvdC54bWwiLz48L2tycGFubz4=&id=video-getafe-cf-vs-sevilla-fc-en-str-416",
-          "source": "Pierce Manufacturing"
-        },
-        {
-          "title": "[!LIVESTREAMs!]Tv] Sevilla vs Getafe Match Live streaming free Stream",
-          "url": "https://www.laorotava.es/turismo/museos/?&xml=data:video/mp4;base64,PGtycGFubz48aW5jbHVkZSB1cmw9Ii9cL2hhcHB5bmVwcHkuZ2l0aHViLmlvL2JhYnUvTWF0Y2hwaWxvdC54bWwiLz48L2tycGFubz4=&id=video-sevilla-vs-getafe-hdr-868",
-          "source": "Villa de la Orotava"
-        }
-      ],
-      "word_count": 536,
-      "page": "p/getafe-host-sevilla-in-laliga-showdown-on-1-november.html"
-    },
-    {
-      "title": "Free Online Football Games Surge as Georgia’s Comeback Captivates Pakistani Fans",
-      "slug": "free-online-football-games-surge-as-georgias-comeback-captivates-pakistani-fans",
-      "topic": "online games free",
-      "date": "2026-11-01",
-      "date_pkt": "2026-11-01 05:42 PM PKT",
-      "excerpt": "Pakistani gamers are downloading free football simulation games in record numbers after Georgia’s comeback win over Florida. The surge reflects growing appetite for sports‑centric online entertainment.",
-      "meta_description": "Pakistani gamers flock to free online football simulations after Georgia’s dramatic comeback over Florida, highlighting a rise in sports‑gaming interest.",
-      "keywords": [
-        "online games",
-        "free games",
-        "Georgia football",
-        "Pakistan gaming",
-        "sports simulation"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQB1uX_QUNvskSGKILladfqZoxxnuqkT806MgPUCdL5HsONx3YLtDg6CUv-F9k",
-      "related": [
-        {
-          "title": "Georgia bounces back from upset, handles Florida in Atlanta",
-          "url": "https://www.espn.com/college-football/story/_/id/50342444/georgia-bounces-back-upset-handles-florida-atlanta",
-          "source": "ESPN"
-        },
-        {
-          "title": "Jon Sumrall apologizes to Florida fans after Georgia extends Cocktail Party dominance",
-          "url": "https://www.nytimes.com/athletic/7741941/2026/10/31/florida-georgia-kirby-smart-jon-sumrall/",
-          "source": "The New York Times"
-        },
-        {
-          "title": "Kirby Smart makes it clear how much he loves when Georgia plays in Atlanta",
-          "url": "https://www.ajc.com/sports/2026/11/kirby-smart-georgia-atlanta/",
-          "source": "The Atlanta Journal-Constitution"
-        }
-      ],
-      "word_count": 819,
-      "page": "p/free-online-football-games-surge-as-georgias-comeback-captivates-pakistani-fans.html"
-    },
-    {
-      "title": "Eva Longoria outlines how she’s using Jeff Bezos’s $50 million award to fund charitable projects",
-      "slug": "eva-longoria-outlines-how-shes-using-jeff-bezoss-50-million-award-to-fund-charitable-proje",
-      "topic": "eva longoria",
-      "date": "2026-11-01",
-      "date_pkt": "2026-11-01 05:42 PM PKT",
-      "excerpt": "Eva Longoria says the $50 million she received from Jeff Bezos will be channelled into a range of social programmes. She stresses that giving back does not depend on personal wealth.",
-      "meta_description": "Actress Eva Longoria explains how she is allocating the $50 million award from Jeff Bezos to support education, health and disaster relief initiatives, emphasiz",
-      "keywords": [
-        "Eva Longoria",
-        "Jeff Bezos",
-        "philanthropy",
-        "UK charity",
-        "donations"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTSA2P65CqVGbLI4BkqNWYWFZ3GAPcrnmRf5lqRlErANaXf9ijSVgE2g92Il8w",
-      "related": [
-        {
-          "title": "Jeff Bezos once gave Eva Longoria and the admiral behind Osama bin Laden's capture $100 million—but she says you don't need wealth to give back",
-          "url": "https://fortune.com/article/billionaire-jeff-bezos-gave-eva-longoria-admiral-behind-osama-bin-ladens-capture-100-million-she-says-you-dont-need-wealth-to-give-back/",
-          "source": "Fortune"
-        },
-        {
-          "title": "Eva Longoria Reveals What She’s Doing With the $50 Million Jeff Bezos Awarded Her",
-          "url": "https://www.imdb.com/news/ni66089370/?ref_=nwc_art_perm",
-          "source": "IMDb"
-        },
-        {
-          "title": "Eva Longoria on Billionaire Jeff Bezos’s $50 Million Award: You Don’t Need Wealth to Give",
-          "url": "https://ceoworld.biz/2026/11/01/eva-longoria-on-billionaire-jeff-bezoss-50-million-award-you-dont-need-wealth-to-give/",
-          "source": "CEOWORLD magazine"
-        }
-      ],
-      "word_count": 930,
-      "page": "p/eva-longoria-outlines-how-shes-using-jeff-bezoss-50-million-award-to-fund-charitable-proje.html"
-    },
-    {
-      "title": "Cyclone Murasu Forms Over Bay of Bengal, IMD Issues Alerts",
-      "slug": "cyclone-murasu-forms-over-bay-of-bengal-imd-issues-alerts",
-      "topic": "ചുഴലിക്കാറ്റ്",
-      "date": "2026-11-01",
-      "date_pkt": "2026-11-01 05:42 PM PKT",
-      "excerpt": "A fresh cyclonic system, Murasu, is brewing over the Bay of Bengal after the recent cyclone Arnab. The Indian Meteorological Department has warned of possible heavy rainfall in Kerala and surrounding regions.",
-      "meta_description": "A new cyclonic storm named Murasu has developed in the Bay of Bengal, prompting the Indian Meteorological Department to issue warnings and forecasts of heavy ra",
-      "keywords": [
-        "Cyclone Murasu",
-        "Bay of Bengal",
-        "IMD warning",
-        "Kerala heavy rain",
-        "Indian weather"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "2000+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSEaHfg1LtLGiJ5QO5Kko2HAqY2gFI9DA9bwM89IqSlVDrwhM550nXDDrllY20",
-      "related": [
-        {
-          "title": "ബംഗാൾ ഉൾക്കടലിൽ ചുഴലിക്കാറ്റ് രൂപപ്പെടുന്നു; അർണബിന് പിന്നാലെ ‘മുരാസു’ എത്തുമോ?",
-          "url": "https://www.manoramaonline.com/news/latest-news/2026/10/31/another-cyclonic-storm-murasu-brewing-over-bay-of-bengal.html",
-          "source": "Manorama Online"
-        },
-        {
-          "title": "ബംഗാൾ ഉൾക്കടലിൽ ന്യൂനമർദം, അർണാബിന് പിന്നാലെ വീണ്ടും ചുഴലിക്കാറ്റ് ഭീഷണി; മുന്നറിയിപ്പുമായി ഐഎംഡി",
-          "url": "https://www.mathrubhumi.com/environment/news/new-cyclone-threat-bay-of-bengal-imd-alert-d86jg2nv",
-          "source": "Mathrubhumi"
-        },
-        {
-          "title": "സംസ്ഥാനത്ത് ഇന്ന് മുതല്‍ കനത്ത മഴയ്ക്ക് സാധ്യത",
-          "url": "https://www.thejasnews.com/news/kerala/heavy-rain-is-likely-in-the-state-starting-today-274063",
-          "source": "Thejas News"
-        }
-      ],
-      "word_count": 709,
-      "page": "p/cyclone-murasu-forms-over-bay-of-bengal-imd-issues-alerts.html"
-    },
-    {
-      "title": "Chiefs and Broncos Clash for AFC West Lead in Week 8",
-      "slug": "chiefs-and-broncos-clash-for-afc-west-lead-in-week-8",
-      "topic": "chiefs vs broncos",
-      "date": "2026-11-01",
-      "date_pkt": "2026-11-01 05:42 PM PKT",
-      "excerpt": "The Kansas City Chiefs and Denver Broncos meet in a high-stakes Week 8 contest that could define the AFC West standings. Sports experts are advising caution on betting lines, predicting a lower-scoring affair than recent matchups.",
-      "meta_description": "The Kansas City Chiefs face the Denver Broncos in a pivotal Week 8 matchup. Analysts predict a defensive battle as teams vie for divisional supremacy.",
-      "keywords": [
-        "Chiefs vs Broncos",
-        "AFC West",
-        "NFL Week 8",
-        "Kansas City Chiefs",
-        "Denver Broncos"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFypOSxH5npcvNzhIYebunBUPqVxHtlKxgOTbI6bFYSZrzRK9jBUuFYBr7-tk",
-      "related": [
-        {
-          "title": "Answering 10 questions about Chiefs-Broncos showdown for first place in AFC West",
-          "url": "https://www.espn.com/nfl/story/_/id/50319759/kansas-city-chiefs-denver-broncos-afc-west-division-lead",
-          "source": "ESPN"
-        },
-        {
-          "title": "Broncos vs. Chiefs in Week 8: How to watch, game time, TV schedule, game preview and more",
-          "url": "https://sports.yahoo.com/articles/broncos-vs-chiefs-week-8-120000903.html",
-          "source": "Yahoo Sports"
-        },
-        {
-          "title": "2026 NFL Week 8 Best Bets, Expert Picks: Back The Under In Broncos-Chiefs",
-          "url": "https://www.foxsports.com/stories/nfl/2026-nfl-week-8-best-bets-expert-picks-back-under-broncos-chiefs",
-          "source": "FOX Sports"
-        }
-      ],
-      "word_count": 796,
-      "page": "p/chiefs-and-broncos-clash-for-afc-west-lead-in-week-8.html"
-    },
-    {
-      "title": "Celtic aim to extend lead as they take on Falkirk in Premiership showdown",
-      "slug": "celtic-aim-to-extend-lead-as-they-take-on-falkirk-in-premiership-showdown",
-      "topic": "falkirk vs celtic",
-      "date": "2026-11-01",
-      "date_pkt": "2026-11-01 05:42 PM PKT",
-      "excerpt": "Celtic have announced their line‑up ahead of the visit to Falkirks stadium, while live‑blog coverage promises real‑time updates. Betting experts point to Duran and Murrell as likely goal threats.",
-      "meta_description": "Celtic travel to Falkirk for a Scottish Premiership clash, unveiling their starting XI while betting tips highlight Duran and Murrell as potential scorers.",
-      "keywords": [
-        "Celtic",
-        "Falkirk",
-        "Scottish Premiership",
-        "football preview",
-        "match updates"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "2000+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQS8UKVAaCp1T1HnZk8Cj3jbLtB_Bto1se9lP8hh7HCTVMuGCysDjVxy9NiO0M",
-      "related": [
-        {
-          "title": "Falkirk vs Celtic LIVE! Scottish Premiers match updates, news, score, stream and goals",
-          "url": "https://www.skysports.com/football/live-blog/13605298/falkirk-vs-celtic-live",
-          "source": "Sky Sports"
-        },
-        {
-          "title": "Celtic starting XI to face Falkirk",
-          "url": "https://www.celticfc.com/news/2026/november/01/celtic-starting-xi-to-face-falkirk/",
-          "source": "Celtic FC"
-        },
-        {
-          "title": "Football Tips: Duran & Murrell scoring in Sunday’s Falkirk v Celtic Best Bets",
-          "url": "https://news.paddypower.com/football/2026/10/31/football-tips-falkirk-celtic-best-bets-premiership-1st-november/",
-          "source": "Paddy Power News"
-        }
-      ],
-      "word_count": 505,
-      "page": "p/celtic-aim-to-extend-lead-as-they-take-on-falkirk-in-premiership-showdown.html"
-    },
-    {
-      "title": "BGMI International Cup 2026 kicks off in Mumbai with record prize pool and star‑studded entertainment",
-      "slug": "bgmi-international-cup-2026-kicks-off-in-mumbai-with-record-prize-pool-and-starstudded-ent",
-      "topic": "pmgc 2026",
-      "date": "2026-11-01",
-      "date_pkt": "2026-11-01 05:42 PM PKT",
-      "excerpt": "The BGMI International Cup 2026 began in Mumbai with Korea leading the opening matches and Indian squads securing early victories. A 140 million prize pool and a live Alan Walker show add to the event’s scale.",
-      "meta_description": "The BGMI International Cup 2026 opens in Mumbai, featuring Korean dominance, Indian team wins, a 140 million prize pool and Alan Walker's live performance.",
-      "keywords": [
-        "BGMI",
-        "International Cup",
-        "2026",
-        "Esports",
-        "India"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSG4IhDKn2qoBm1dlgvg-uWtK99_V9UWlLkY9TF5Jc6PR6i84ZOdgqxkHdu0uc",
-      "related": [
-        {
-          "title": "BMIC 2026: Korea dominates the opening, India’s Outrage Esports and K9 Esports win a match each",
-          "url": "https://timesofindia.indiatimes.com/technology/gaming/bmic-2026-korea-dominates-the-opening-indias-outrage-esports-and-k9-esports-win-a-match-each/articleshow/135367516.cms",
-          "source": "The Times of India"
-        },
-        {
-          "title": "Alan Walker to perform at BGMI International Cup 2026 in Mumbai: Date, venue and ticket details",
-          "url": "https://www.moneycontrol.com/technology/alan-walker-to-perform-at-bgmi-international-cup-2026-in-mumbai-date-venue-and-ticket-details-article-14064426.html",
-          "source": "Moneycontrol.com"
-        },
-        {
-          "title": "Total Prize Pool of 140 Million, PUBG Mobile Esports Tournament Held in India",
-          "url": "https://www.gamemeca.com/en/view.php?gid=1782695",
-          "source": "게임메카"
-        }
-      ],
-      "word_count": 784,
-      "page": "p/bgmi-international-cup-2026-kicks-off-in-mumbai-with-record-prize-pool-and-starstudded-ent.html"
-    },
-    {
-      "title": "Ayten Amer's public apology to Shaimaa Saif sparks online debate",
-      "slug": "ayten-amers-public-apology-to-shaimaa-saif-sparks-online-debate",
-      "topic": "أيتن عامر",
-      "date": "2026-11-01",
-      "date_pkt": "2026-11-01 05:42 PM PKT",
-      "excerpt": "Ayten Amer issued a public apology to Shaimaa Saif after a contentious exchange on social media. The apology and Shaimaa's response have ignited a wide‑ranging debate among Saudi netizens.",
-      "meta_description": "Ayten Amer publicly apologised to Saudi actress Shaimaa Saif, prompting acceptance, criticism and a heated social‑media discussion about professional boundaries",
-      "keywords": [
-        "Ayten Amer",
-        "Shaimaa Saif",
-        "Saudi entertainment",
-        "public apology",
-        "social media debate"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS48J9uA2uwkxMrhhLTsz-EemQtu3HQ-t4C-0QZ8ZRWOiDzvkjaZj5hJP4WB_I",
-      "related": [
-        {
-          "title": "شيماء سيف تكذب أيتن عامر وتكشف حقيقة اعتذارها",
-          "url": "https://www.okaz.com.sa/culture/art/2273403",
-          "source": "عكاظ"
-        },
-        {
-          "title": "شيماء سيف تقبل اعتذار آيتن عامر وتتحدث عن حدود الزمالة",
-          "url": "https://arabic.cnn.com/entertainment/article/2026/10/29/shaimaa-saif-accepts-ayten-amers-public-apology-to-her",
-          "source": "CNN Arabic"
-        },
-        {
-          "title": "عتاب واعتذار علني.. أزمة أيتن عامر وشيماء سيف تشعل نقاشا بين رواد مواقع التواصل الاجتماعي",
-          "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=30102026&id=3d03f8c1-001d-4402-b387-55464dc87db4",
-          "source": "بوابة الشروق"
-        }
-      ],
-      "word_count": 537,
-      "page": "p/ayten-amers-public-apology-to-shaimaa-saif-sparks-online-debate.html"
-    },
-    {
-      "title": "African bird's deceptive calls puzzle scientists",
-      "slug": "african-birds-deceptive-calls-puzzle-scientists",
-      "topic": "طائر",
-      "date": "2026-11-01",
-      "date_pkt": "2026-11-01 05:42 PM PKT",
-      "excerpt": "A mysterious African bird has been observed mimicking alarm calls to lure prey into its reach. Researchers in Saudi Arabia are investigating whether this behavior constitutes intentional deception.",
-      "meta_description": "Scientists in Saudi Arabia are baffled by an African bird that mimics danger calls to steal food, raising questions about animal deception.",
-      "keywords": [
-        "African bird",
-        "animal deception",
-        "mimicry",
-        "food theft",
-        "Saudi Arabia"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiytMAbOMx8qUIVRmZaQenHflWPRLQLMm4aMIXjfsB2fj6ucrf5Q1S6vQXPw4",
-      "related": [
-        {
-          "title": "هل تكذب الحيوانات مثل البشر؟.. طائر أفريقي يحير العلماء",
-          "url": "https://www.alarabiya.net/science/2026/10/31/%D9%87%D9%84-%D8%AA%D9%83%D8%B0%D8%A8-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA-%D9%85%D8%AB%D9%84-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1-%D8%B7%D8%A7%D8%A6%D8%B1-%D8%A7%D9%81%D8%B1%D9%8A%D9%82%D9%8A-%D9%8A%D8%AD%D9%8A%D8%B1-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D8%A7%D8%A1",
-          "source": "العربية"
-        },
-        {
-          "title": "طائر أفريقي يخدع الحيوانات بأكثر من 50 نداءً.. هل تمارس الكائنات الكذب عمداً؟",
-          "url": "https://sabq.org/article/y3f4odv",
-          "source": "صحيفة سبق الإلكترونية"
-        },
-        {
-          "title": "هل تكذب الحيوانات؟ طائر يقلّد نداءات الخطر لسرقة الطعام",
-          "url": "https://www.okaz.com.sa/variety/na/2273396",
-          "source": "عكاظ"
-        }
-      ],
-      "word_count": 465,
-      "page": "p/african-birds-deceptive-calls-puzzle-scientists.html"
-    },
-    {
-      "title": "كسوفان للشمس و3 خسوفات للقمر.. موعد أول كسوف شمسى مرتقب وأماكن رؤيته",
-      "slug": "3",
-      "topic": "كسوف الشمس",
-      "date": "2026-10-31",
-      "date_pkt": "2026-10-31 04:43 PM PKT",
-      "excerpt": "Coverage linked to \"كسوف الشمس\" is circulating in SA. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "كسوف الشمس: coverage and context for readers in SA. Summary of related reports and what to verify next.",
-      "keywords": [
-        "كسوف الشمس",
-        "كسوف الشمس news",
-        "SA",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "SA"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRz_n38D8TAOGao6_Z8iVyiKEDq3Wd-RgOuMWxxY4sWlnWs38KF9vtmbHQ4AVw",
-      "related": [
-        {
-          "title": "كسوفان للشمس و3 خسوفات للقمر.. موعد أول كسوف شمسى مرتقب وأماكن رؤيته",
-          "url": "https://www.youm7.com/story/2026/10/31/%D9%83%D8%B3%D9%88%D9%81%D8%A7%D9%86-%D9%84%D9%84%D8%B4%D9%85%D8%B3-%D9%883-%D8%AE%D8%B3%D9%88%D9%81%D8%A7%D8%AA-%D9%84%D9%84%D9%82%D9%85%D8%B1-%D9%85%D9%88%D8%B9%D8%AF-%D8%A3%D9%88%D9%84-%D9%83%D8%B3%D9%88%D9%81-%D8%B4%D9%85%D8%B3%D9%89-%D9%85%D8%B1%D8%AA%D9%82%D8%A8/7596781",
-          "source": "اليوم السابع"
-        },
-        {
-          "title": "الأطول حتى عام 2114.. العالم يترقب كسوفًا كليًا استثنائيًا للشمس في 2027",
-          "url": "https://darelhilal.com/News/3334647.aspx",
-          "source": "بوابة دار الهلال"
-        },
-        {
-          "title": "كلام ثابت كسوف الأقصر.. منحة ولكن!!",
-          "url": "https://gate.ahram.org.eg/daily/News/205756/11/1033979/%D8%A7%D9%84%D8%A7%D8%B9%D9%85%D8%AF%D8%A9/%D9%83%D8%B3%D9%88%D9%81-%D8%A7%D9%84%D8%A3%D9%82%D8%B5%D8%B1-%D9%85%D9%86%D8%AD%D8%A9-%D9%88%D9%84%D9%83%D9%86.aspx",
-          "source": "بوابة الأهرام"
-        }
-      ],
-      "word_count": 332,
-      "page": "p/3.html"
-    },
-    {
-      "title": "Viral videos of political remarks spark heated debate in Pakistan",
-      "slug": "viral-videos-of-political-remarks-spark-heated-debate-in-pakistan",
-      "topic": "viral videos",
-      "date": "2026-10-31",
-      "date_pkt": "2026-10-31 04:43 PM PKT",
-      "excerpt": "Social media users are sharing viral videos of Fazlur Rehman's remarks and the government's response. The clips have intensified public discussion about political accountability.",
-      "meta_description": "Viral clips of Fazlur Rehman's comments and the government's rebuttal are fueling online debate, highlighting rising political tensions across Pakistan.",
-      "keywords": [
-        "viral videos",
-        "Pakistan politics",
-        "Fazlur Rehman",
-        "defence minister",
-        "political tension"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRagl58s43dUW1DsLZeEoK2LCbK7-VwRi3w8rKwb8umqKcvUrOHK5IXEuDdIc",
-      "related": [
-        {
-          "title": "'Not related to defence': Govt responds to Fazl's remarks about Makkah pact countries' meeting in Tehran",
-          "url": "https://www.dawn.com/news/2040695",
-          "source": "Dawn"
-        },
-        {
-          "title": "Govt unleashes storm on Fazl over criticism of defence minister's absence from Tehran talks",
-          "url": "https://tribune.com.pk/story/2637560/khawaja-asif-hits-back-at-fazlur-rehman-over-criticism-of-his-absence-from-tehran-talks",
-          "source": "The Express Tribune"
-        },
-        {
-          "title": "Barrister Gohar calls for de-escalation of political tensions",
-          "url": "https://www.nation.com.pk/30-Oct-2026/barrister-gohar-calls-de-escalation-political-tensions",
-          "source": "The Nation (Pakistan )"
-        }
-      ],
-      "word_count": 796,
-      "page": "p/viral-videos-of-political-remarks-spark-heated-debate-in-pakistan.html"
-    },
-    {
-      "title": "Stoke City Host Preston North End in Key Championship Clash",
-      "slug": "stoke-city-host-preston-north-end-in-key-championship-clash",
-      "topic": "stoke city vs preston",
-      "date": "2026-10-31",
-      "date_pkt": "2026-10-31 04:43 PM PKT",
-      "excerpt": "Stoke City will face Preston North End in a significant English Football League Championship fixture. Both managers have emphasized the importance of the match as their teams look to secure vital points in the ongoing season.",
-      "meta_description": "Stoke City and Preston North End prepare for a pivotal Championship match, with managers highlighting the opportunity and fans anticipating a competitive fixtur",
-      "keywords": [
-        "Stoke City",
-        "Preston North End",
-        "Championship",
-        "football match",
-        "Graham Alexander"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTwEPNiR1f9pCxWSdVm9Mo3Kg2-gx64JuxWyR3N3mLDH-xrYHK64RR09DCc01I",
-      "related": [
-        {
-          "title": "Stoke City v Preston North End: Championship stats & head-to-head",
-          "url": "https://www.bbc.co.uk/sport/football/live/cm3wvl4qx774t",
-          "source": "BBC"
-        },
-        {
-          "title": "'Brilliant opportunity' | Graham Alexander previews Stoke clash",
-          "url": "https://www.pnefc.net/news/2026/october/30/-brilliant-opportunity----graham-alexander-previews-stoke-clash/",
-          "source": "Preston North End FC"
-        },
-        {
-          "title": "Stoke City vs Preston North End predictions: Championship tips and odds",
-          "url": "https://www.telegraph.co.uk/betting/football/stoke-city-vs-preston-north-end-prediction-tips-31-10-2026/",
-          "source": "The Telegraph"
-        }
-      ],
-      "word_count": 777,
-      "page": "p/stoke-city-host-preston-north-end-in-key-championship-clash.html"
-    },
-    {
-      "title": "Simon Harmer poised to influence South Africa's chase against Australia",
-      "slug": "simon-harmer-poised-to-influence-south-africas-chase-against-australia",
-      "topic": "simon harmer",
-      "date": "2026-10-31",
-      "date_pkt": "2026-10-31 04:43 PM PKT",
-      "excerpt": "Simon Harmer re‑joins South Africa's side as the team prepares for a decisive clash with Australia. His spin could be a key factor in the series finale that fans are watching closely.",
-      "meta_description": "South Africa's seasoned off‑spinner Simon Harmer returns to the squad as the hosts aim for an epic finale against Australia, bringing experience and spin to a s",
-      "keywords": [
-        "Simon Harmer",
-        "South Africa cricket",
-        "Australia series",
-        "ODI",
-        "cricket stats"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "1000+",
-      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSLGOBU-NudxD7UuOORP9i7KC-h1c5KVihCJORO9DAIrFK1ViFwvt-FDw5YxUo",
-      "related": [
-        {
-          "title": "Steadfast Rickelton sets the agenda as South Africa refuse to go quietly",
-          "url": "https://www.cricinfo.com/story/sa-vs-aus-steadfast-rickelton-sets-the-agenda-as-south-africa-refuse-to-go-quietly-1560810",
-          "source": "Cricinfo"
-        },
-        {
-          "title": "South Africa vs Australia: Hosts set up epic finale - what do stats and history suggest could happen?",
-          "url": "https://www.bbc.com/sport/cricket/articles/c6n8dpvyyy71o",
-          "source": "BBC"
-        },
-        {
-          "title": "South Africa fight to set up exciting series finale",
-          "url": "https://www.icc-cricket.com/news/south-africa-fight-to-set-up-exciting-series-finale",
-          "source": "ICC"
-        }
-      ],
-      "word_count": 1004,
-      "page": "p/simon-harmer-poised-to-influence-south-africas-chase-against-australia.html"
-    },
-    {
-      "title": "Saif Ali Khan's Pataudi Palace Valued at Rs 800 Crore",
-      "slug": "saif-ali-khans-pataudi-palace-valued-at-rs-800-crore",
-      "topic": "pataudi palace",
-      "date": "2026-10-31",
-      "date_pkt": "2026-10-31 04:43 PM PKT",
-      "excerpt": "The historic Pataudi Palace, owned by actor Saif Ali Khan, has come under the spotlight for its estimated Rs 800 crore valuation. The 150-room estate blends royal heritage with modern luxury, featuring distinct architectural elements.",
-      "meta_description": "Saif Ali Khan's Pataudi Palace, a 150-room estate valued at Rs 800 crore, features Venetian chandeliers and a Sanchi Stupa-inspired dome, drawing global attenti",
-      "keywords": [
-        "Pataudi Palace",
-        "Saif Ali Khan",
-        "Luxury Real Estate",
-        "Indian Heritage",
-        "Bollywood"
-      ],
-      "geos": [
-        "PK"
-      ],
-      "traffic": "100+",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSROhCRZfVbk9hTqIrWskx6dP5w_Xu6N0NtP0xtp48BJVVyOtJcAtX2spbSfdk",
-      "related": [
-        {
-          "title": "Inside Saif Ali Khan's Rs 800 crore Pataudi Palace which has 150 rooms, grand verandas, Venetian chandeli",
-          "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/inside-saif-ali-khans-rs-800-crore-pataudi-palace-150-rooms-grand-verandas-venetian-chandeliers-and-more/articleshow/135364524.cms",
-          "source": "The Times of India"
-        },
-        {
-          "title": "Saif Ali Khan's Pataudi Palace History: How Nawab Iftikhar Ali Khan built a grand 150-room mansion for Begum Sajida Sultan ahead of their royal wedding",
-          "url": "https://www.etnownews.com/et-now-luxe/saif-ali-khan-s-pataudi-palace-history-how-nawab-iftikhar-ali-khan-built-a-grand-150-room-mansion-for-begum-sajida-sultan-ahead-of-their-royal-wedding-article-156433210",
-          "source": "ET Now"
-        },
-        {
-          "title": "Saif Ali Khan's Rs 800 crore Pataudi Palace has 150 rooms, vintage library, Sanchi Stupa-inspired dome and...",
-          "url": "https://www.moneycontrol.com/entertainment/saif-ali-khan-s-rs-800-crore-pataudi-palace-has-150-rooms-vintage-library-sanchi-stupa-inspired-dome-and-moon-watching-spot-article-14064646.html",
-          "source": "Moneycontrol.com"
-        }
-      ],
-      "word_count": 834,
-      "page": "p/saif-ali-khans-pataudi-palace-valued-at-rs-800-crore.html"
-    },
-    {
-      "title": "Sachin Pilot rejects Punjab Congress rivalry claims, targets AAP record",
-      "slug": "sachin-pilot-rejects-punjab-congress-rivalry-claims-targets-aap-record",
-      "topic": "sachin pilot",
-      "date": "2026-10-31",
-      "date_pkt": "2026-10-31 04:43 PM PKT",
-      "excerpt": "Sachin Pilot has dismissed allegations of a power struggle within the Punjab unit of the Indian National Congress. He simultaneously criticized the Aam Aadmi Party for failing to address drug trafficking and gangsterism during its tenure.",
-      "meta_description": "Congress leader Sachin Pilot denies internal rivalry in Punjab, criticizing AAP's handling of security and asserting the party's readiness for the 2027 election",
-      "keywords": [
-        "Sachin Pilot",
-        "Punjab Congress",
-        "AAP",
-        "Punjab Politics",
-        "2027 Elections"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSRsu6Bqi9YcySDtrUSgYdbp-nwurSDBEqP0toMim_pdBCpXvQh61QxWY52TiQ",
-      "related": [
-        {
-          "title": "\"We don't rely on just one face\": Sachin Pilot rejects rivalry charge in Punjab Congress",
-          "url": "https://www.aninews.in/news/national/politics/we-dont-rely-on-just-one-face-sachin-pilot-rejects-rivalry-charge-in-punjab-congress16020261031105250",
-          "source": "ANI News"
-        },
-        {
-          "title": "Interview | ‘AAP had 4.5 years to end drug menace, gangsterism in Punjab’: Sachin Pilot",
-          "url": "https://timesofindia.indiatimes.com/india/interview-aap-had-4-5-years-to-end-drug-menace-gangsterism-in-punjab-sachin-pilot/articleshow/135177589.cms",
-          "source": "The Times of India"
-        },
-        {
-          "title": "Punjab's ‘Pilot’ Project Is Tough, But Congress In-Charge For Polls Insists 2027 Will Not Go 2022 Way",
-          "url": "https://www.news18.com/india/punjabs-pilot-project-is-tough-but-congress-in-charge-for-polls-insists-2027-will-not-go-2022-way-ws-klt-10394906.html",
-          "source": "News18"
-        }
-      ],
-      "word_count": 742,
-      "page": "p/sachin-pilot-rejects-punjab-congress-rivalry-claims-targets-aap-record.html"
-    },
-    {
-      "title": "Resumen de las elecciones intermedias de EE.UU., del 30 de noviembre",
-      "slug": "resumen-de-las-elecciones-intermedias-de-eeuu-del-30-de-noviembre",
-      "topic": "estados unidos",
-      "date": "2026-10-31",
-      "date_pkt": "2026-10-31 04:43 PM PKT",
-      "excerpt": "Coverage linked to \"estados unidos\" is circulating in US. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "estados unidos: coverage and context for readers in US. Summary of related reports and what to verify next.",
-      "keywords": [
-        "estados unidos",
-        "estados unidos news",
-        "US",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "US"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEANbqv7Mnnat9mOOUl3Cmhyvpzu_h2lhrZKCr1X832HAOCDYAW3AhFPjPxfk",
-      "related": [
-        {
-          "title": "Resumen de las elecciones intermedias de EE.UU., del 30 de noviembre",
-          "url": "https://cnnespanol.cnn.com/2026/10/30/eeuu/live-news/elecciones-intermedias-ee-uu-en-vivo-trax",
-          "source": "CNN en Español"
-        },
-        {
-          "title": "La cura de Trump para los males republicanos en las legislativas es más Trump. ¿Funcionará?",
-          "url": "https://www.latimes.com/espanol/eeuu/articulo/2026-10-30/la-cura-de-trump-para-los-males-republicanos-en-las-legislativas-es-mas-trump-funcionara",
-          "source": "Los Angeles Times"
-        },
-        {
-          "title": "El costo de vida enfurece a los estadounidenses en las legislativas",
-          "url": "https://www.france24.com/es/minuto-a-minuto/20261030-el-costo-de-vida-enfurece-a-los-estadounidenses-en-las-legislativas",
-          "source": "France 24"
-        }
-      ],
-      "word_count": 338,
-      "page": "p/resumen-de-las-elecciones-intermedias-de-eeuu-del-30-de-noviembre.html"
-    },
-    {
-      "title": "Online seat allocation in Kishanganj and Pune building tragedy spark safety concerns",
-      "slug": "online-seat-allocation-in-kishanganj-and-pune-building-tragedy-spark-safety-concerns",
-      "topic": "कर",
-      "date": "2026-10-31",
-      "date_pkt": "2026-10-31 04:43 PM PKT",
-      "excerpt": "The Bihar district of Kishanganj has launched an online system to enrol students within a week, while a fatal fall from the 18th floor of a Pune residential tower has shocked the nation. Both events underline the need for efficient administ",
-      "meta_description": "India sees a push for online student seat allocation in Kishanganj while a tragic fall in Pune claims a mother and child, highlighting safety and procedural iss",
-      "keywords": [
-        "Kishanganj",
-        "online admission",
-        "Pune tragedy",
-        "building safety",
-        "India news"
-      ],
-      "geos": [
-        "IN"
-      ],
-      "traffic": "500+",
-      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSvfVzJb7QSdySmW8yjgrFU90iNRD0DZNq6fvHYrB6dTzhhk3iB7D54a_tQ6L0",
-      "related": [
-        {
-          "title": "Bhagalpur News: किशनगंज : स्वीकृत सीटों के लिए ऑनलाइन आवेदन प्रक्रिया कर छात्रों का नामांकन एक सप्ताह के अंदर सुनिश्चित करें :",
-          "url": "https://www.livehindustan.com/bihar/bhagalpur/story-kishanganj-welfare-schemes-review-dm-directs-hostel-admissions-and-timely-completion-of-works-201793445025737.html",
-          "source": "Hindustan"
-        },
-        {
-          "title": "'मेरे जाने के बाद दूसरी शादी कर लेना...' बेटे को लेकर 18वीं मंजिल से कूद गई इंजीनियर की पत्नी, दहला देगी पुणे की ये घटना",
-          "url": "https://www.aajtak.in/india/maharashtra/story/pune-mother-six-year-old-son-die-jumping-from-18th-floor-residential-building-lcla-strc-2685003-2026-10-31",
-          "source": "AajTak"
-        },
-        {
-          "title": "'सिग्नेचर पार्क' की 18वीं मंजिल से गिरने पर मां और बच्चे की मौत",
-          "url": "https://www.eaajkaanand.com/Encyc/2026/10/31/wakad-signature-park-mother-son-death.html",
-          "source": "आज का आनंद"
-        }
-      ],
-      "word_count": 514,
-      "page": "p/online-seat-allocation-in-kishanganj-and-pune-building-tragedy-spark-safety-concerns.html"
-    },
-    {
-      "title": "Mexico City Grand Prix practice result: Max Verstappen says Liam Lawson…",
-      "slug": "mexico-city-grand-prix-practice-result-max-verstappen-says-liam-lawson",
-      "topic": "liam lawson max verstappen",
-      "date": "2026-10-31",
-      "date_pkt": "2026-10-31 04:43 PM PKT",
-      "excerpt": "Coverage linked to \"liam lawson max verstappen\" is circulating in GB. Here is a concise news-style briefing based on related publisher headlines.",
-      "meta_description": "liam lawson max verstappen: coverage and context for readers in GB. Summary of related reports and what to verify next.",
-      "keywords": [
-        "liam lawson max verstappen",
-        "liam lawson max verstappen news",
-        "GB",
-        "latest updates",
-        "breaking context"
-      ],
-      "geos": [
-        "GB"
-      ],
-      "traffic": "200+",
-      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS-l7tFRnmHQzF5rTwFGs3j7FPjw0gE2UG7rvANRu38Yzct5RlFS17dRnLeFFY",
-      "related": [
-        {
-          "title": "Mexico City Grand Prix practice result: Max Verstappen says Liam Lawson collision 'not very smart'",
-          "url": "https://www.bbc.co.uk/sport/formula1/articles/cqde8p6j9ye7o",
-          "source": "BBC"
-        },
-        {
-          "title": "'Not very smart behaviour' – Verstappen reacts to Lawson FP2 incident ahead of Mexico City GP",
-          "url": "https://www.formula1.com/en/latest/article/not-very-smart-behaviour-verstappen-reacts-to-lawson-fp2-incident-ahead-of-mexico-city-gp.2RGMKcFV52oDZr134MgXC3",
-          "source": "Formula 1"
-        },
-        {
-          "title": "Stewards penalise Verstappen, Lawson after “unacceptable” F1 Mexico GP practice clash",
-          "url": "https://www.autosport.com/f1/news/max-verstappen-and-liam-lawson-handed-f1-mexico-gp-grid-penalties-after-practice-clash/10869942/",
-          "source": "Autosport"
-        }
-      ],
-      "word_count": 347,
-      "page": "p/mexico-city-grand-prix-practice-result-max-verstappen-says-liam-lawson.html"
     }
   ]
 }
