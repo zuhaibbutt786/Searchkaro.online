@@ -1,10 +1,142 @@
 {
-  "updated_at": "2026-11-17T14:15:38.612669+00:00",
-  "updated_at_pkt": "2026-11-17 07:15 PM PKT",
+  "updated_at": "2026-11-18T13:45:54.420950+00:00",
+  "updated_at_pkt": "2026-11-18 06:45 PM PKT",
   "source": "jobs.e-next.in",
   "count": 400,
-  "new_in_this_run": 50,
+  "new_in_this_run": 6,
   "courses": [
+    {
+      "title": "Leadership Through Tough Times",
+      "slug": "leadership-through-tough-times",
+      "udemy_url": "https://www.udemy.com/course/leadership-through-tough-times/?couponCode=12THNOV26",
+      "image": "https://img-c.udemycdn.com/course/480x270/4866888_ebad_2.jpg",
+      "category": "Business Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Leadership Through Tough Times is listed with a free Udemy coupon in Business Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Business Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/leadership-through-tough-times.html",
+      "added_at": "2026-11-18T13:45:23.936794+00:00",
+      "added_at_pkt": "2026-11-18 06:45 PM PKT"
+    },
+    {
+      "title": "Personal Growth - Affirmations and Taking Action",
+      "slug": "personal-growth---affirmations-and-taking-action",
+      "udemy_url": "https://www.udemy.com/course/personal-growth-affirmations-and-taking-action/?couponCode=12THNOV26",
+      "image": "https://img-c.udemycdn.com/course/480x270/4917622_0aae_2.jpg",
+      "category": "Personal Development Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Personal Growth - Affirmations and Taking Action is listed with a free Udemy coupon in Personal Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Personal Development Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/personal-growth---affirmations-and-taking-action.html",
+      "added_at": "2026-11-18T13:45:19.826103+00:00",
+      "added_at_pkt": "2026-11-18 06:45 PM PKT"
+    },
+    {
+      "title": "Azure AVD & Entra ID Practice Tests: 160 Questions Explained",
+      "slug": "azure-avd-entra-id-practice-tests-160-questions-explained",
+      "udemy_url": "https://www.udemy.com/course/azure-avd-entra-id-practice-tests/?couponCode=B72038E33545F3238782",
+      "image": "https://img-c.udemycdn.com/course/480x270/7394383_c036.jpg",
+      "category": "IT & Software Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Azure AVD & Entra ID Practice Tests: 160 Questions Explained is listed with a free Udemy coupon in IT & Software Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in IT & Software Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/azure-avd-entra-id-practice-tests-160-questions-explained.html",
+      "added_at": "2026-11-18T13:45:14.576027+00:00",
+      "added_at_pkt": "2026-11-18 06:45 PM PKT"
+    },
+    {
+      "title": "Claude im Produktmanagement: Von Anforderungen zur Strategie",
+      "slug": "claude-im-produktmanagement-von-anforderungen-zur-strategie",
+      "udemy_url": "https://www.udemy.com/course/claude-for-product-management-german/?couponCode=5CC9B6370F7D1CFC1179",
+      "image": "https://img-c.udemycdn.com/course/480x270/7409761_fc41_2.jpg",
+      "category": "Business Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Claude im Produktmanagement: Von Anforderungen zur Strategie is listed with a free Udemy coupon in Business Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Business Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/claude-im-produktmanagement-von-anforderungen-zur-strategie.html",
+      "added_at": "2026-11-18T13:45:13.129013+00:00",
+      "added_at_pkt": "2026-11-18 06:45 PM PKT"
+    },
+    {
+      "title": "Your AI Agent for outstanding Customer capture & Conversion",
+      "slug": "your-ai-agent-for-outstanding-customer-capture-conversion",
+      "udemy_url": "https://www.udemy.com/course/your-ai-agent-for-outstanding-customer-capture-conversion/?couponCode=EEA033556EDE45BC38DA",
+      "image": "https://img-c.udemycdn.com/course/480x270/6336421_2a6a.jpg",
+      "category": "Business Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Your AI Agent for outstanding Customer capture & Conversion is listed with a free Udemy coupon in Business Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "learn": [
+        "Core ideas covered in the course",
+        "Practical examples you can apply",
+        "Certificate of completion when eligible",
+        "Lifetime access after successful enrollment"
+      ],
+      "who": "Learners interested in Business Enroll Now Free who want a free coupon seat while it lasts.",
+      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "page": "p/your-ai-agent-for-outstanding-customer-capture-conversion.html",
+      "added_at": "2026-11-18T13:45:11.711924+00:00",
+      "added_at_pkt": "2026-11-18 06:45 PM PKT"
+    },
+    {
+      "title": "MS Word Masterclass: From Beginner to Advanced Professional",
+      "slug": "ms-word-masterclass-from-beginner-to-advanced-professional",
+      "udemy_url": "https://www.udemy.com/course/ms-word-masterclass-from-beginner-to-advanced-professional/?couponCode=EDCE008E8A389B8C6FAC",
+      "image": "https://img-c.udemycdn.com/course/480x270/7277869_c99e.jpg",
+      "category": "Office Productivity Enroll Now Free",
+      "language": "Language",
+      "instructor": "Name",
+      "length": "Length",
+      "summary": "Unlock the full potential of Microsoft Word with our comprehensive masterclass. From formatting basics to advanced mail merge and VBA automation, you'll gain the skills to create polished documents quickly. Enroll now and start mastering Word for free.",
+      "learn": [
+        "Master Word's interface and essential shortcuts.",
+        "Create and format professional documents using styles and templates.",
+        "Automate repetitive tasks with macros and VBA.",
+        "Collaborate and track changes in shared documents."
+      ],
+      "who": "This course is ideal for students, business professionals, and anyone looking to elevate their document creation skills from novice to expert.",
+      "note": "Coupon may expire; confirm $0 on Udemy.",
+      "page": "p/ms-word-masterclass-from-beginner-to-advanced-professional.html",
+      "added_at": "2026-11-18T13:45:10.233441+00:00",
+      "added_at_pkt": "2026-11-18 06:45 PM PKT"
+    },
     {
       "title": "AI Engineer Associate Certificate Course",
       "slug": "ai-engineer-associate-certificate-course",
@@ -1108,7 +1240,7 @@
     {
       "title": "Purpose Driven Leadership",
       "slug": "purpose-driven-leadership",
-      "udemy_url": "https://www.udemy.com/course/purpose-driven-leadership-t/?couponCode=10THNOV",
+      "udemy_url": "https://www.udemy.com/course/purpose-driven-leadership-t/?couponCode=12THNOV26",
       "image": "https://img-c.udemycdn.com/course/480x270/4866896_05d0_2.jpg",
       "category": "Business Enroll Now Free",
       "language": "Language",
@@ -1130,7 +1262,7 @@
     {
       "title": "How to Transform Your Life - practical ways",
       "slug": "how-to-transform-your-life---practical-ways",
-      "udemy_url": "https://www.udemy.com/course/how-to-transform-your-life-practical-ways/?couponCode=10THNOV",
+      "udemy_url": "https://www.udemy.com/course/how-to-transform-your-life-practical-ways/?couponCode=12THNOV26",
       "image": "https://img-c.udemycdn.com/course/480x270/4912620_d57d.jpg",
       "category": "Personal Development Enroll Now Free",
       "language": "Language",
@@ -1152,21 +1284,21 @@
     {
       "title": "Fundamentals of Successful Leadership - Leading with Impact",
       "slug": "fundamentals-of-successful-leadership---leading-with-impact",
-      "udemy_url": "https://www.udemy.com/course/fundamentals-of-successful-leadership-leading-with-impact/?couponCode=10THNOV",
+      "udemy_url": "https://www.udemy.com/course/fundamentals-of-successful-leadership-leading-with-impact/?couponCode=12THNOV26",
       "image": "https://img-c.udemycdn.com/course/480x270/4925880_ceba.jpg",
       "category": "Personal Development Enroll Now Free",
       "language": "Language",
       "instructor": "Name",
       "length": "Length",
-      "summary": "Fundamentals of Successful Leadership - Leading with Impact is listed with a free Udemy coupon in Personal Development Enroll Now Free. Open Udemy and confirm the price shows free before checkout.",
+      "summary": "Discover the essential skills that transform good managers into inspiring leaders. This free course covers proven strategies for influence, decision‑making, and team motivation. Enroll today and start leading with confidence and impact.",
       "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
+        "Master the core principles of effective leadership",
+        "Develop communication techniques that inspire trust",
+        "Learn decision‑making frameworks for high‑pressure situations",
+        "Build resilient teams that thrive on collaboration"
       ],
-      "who": "Learners interested in Personal Development Enroll Now Free who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
+      "who": "Ideal for aspiring leaders, managers, and anyone looking to elevate their influence in any setting.",
+      "note": "Coupon may expire; confirm $0 price on Udemy before enrolling.",
       "page": "p/fundamentals-of-successful-leadership---leading-with-impact.html",
       "added_at": "2026-11-16T13:29:15.706250+00:00",
       "added_at_pkt": "2026-11-16 06:29 PM PKT"
@@ -1174,7 +1306,7 @@
     {
       "title": "Leadership - Leading a Community",
       "slug": "leadership---leading-a-community",
-      "udemy_url": "https://www.udemy.com/course/leadership-leading-a-community/?couponCode=10THNOV",
+      "udemy_url": "https://www.udemy.com/course/leadership-leading-a-community/?couponCode=12THNOV26",
       "image": "https://img-c.udemycdn.com/course/480x270/4997402_4203.jpg",
       "category": "Personal Development Enroll Now Free",
       "language": "Language",
@@ -8671,138 +8803,6 @@
       "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
       "page": "p/full-stack-html-css-js-ai-python-django-php-laravel-livewire.html",
       "added_at": "2026-11-04T12:52:14.888022+00:00",
-      "added_at_pkt": "2026-11-04 05:52 PM PKT"
-    },
-    {
-      "title": "Build Portfolio Website in Laravel 11 for Beginners",
-      "slug": "build-portfolio-website-in-laravel-11-for-beginners",
-      "udemy_url": "https://www.udemy.com/course/laravel-2025-real-project-portfolio-and-blog-for-beginners/?couponCode=33C566B3FB48A1B5E13A",
-      "image": "https://img-c.udemycdn.com/course/480x270/6359319_0140_2.jpg",
-      "category": "Development",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Build Portfolio Website in Laravel 11 for Beginners is listed with a free Udemy coupon in Development. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Development who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/build-portfolio-website-in-laravel-11-for-beginners.html",
-      "added_at": "2026-11-04T12:52:13.431284+00:00",
-      "added_at_pkt": "2026-11-04 05:52 PM PKT"
-    },
-    {
-      "title": "Build Blog Website in Laravel 11 for Beginners",
-      "slug": "build-blog-website-in-laravel-11-for-beginners",
-      "udemy_url": "https://www.udemy.com/course/build-blog-website-in-laravel-11-for-beginners/?couponCode=8736EDE3CE5C206C1FB8",
-      "image": "https://img-c.udemycdn.com/course/480x270/6370557_faa1_4.jpg",
-      "category": "Development",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Build Blog Website in Laravel 11 for Beginners is listed with a free Udemy coupon in Development. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Development who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/build-blog-website-in-laravel-11-for-beginners.html",
-      "added_at": "2026-11-04T12:52:12.031976+00:00",
-      "added_at_pkt": "2026-11-04 05:52 PM PKT"
-    },
-    {
-      "title": "Build E-Commerce Cash On Delivery in Laravel 11 for Beginner",
-      "slug": "build-e-commerce-cash-on-delivery-in-laravel-11-for-beginner",
-      "udemy_url": "https://www.udemy.com/course/build-e-commerce-cash-on-delivery-in-laravel-11-for-beginner/?couponCode=93338595FD3F0B9DEDD9",
-      "image": "https://img-c.udemycdn.com/course/480x270/6370649_344c_2.jpg",
-      "category": "Development",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Build E-Commerce Cash On Delivery in Laravel 11 for Beginner is listed with a free Udemy coupon in Development. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Development who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/build-e-commerce-cash-on-delivery-in-laravel-11-for-beginner.html",
-      "added_at": "2026-11-04T12:52:10.619472+00:00",
-      "added_at_pkt": "2026-11-04 05:52 PM PKT"
-    },
-    {
-      "title": "Complete Portfolio Website in Livewire 3 for Beginners",
-      "slug": "complete-portfolio-website-in-livewire-3-for-beginners",
-      "udemy_url": "https://www.udemy.com/course/complete-portfolio-website-in-livewire-3-for-beginners/?couponCode=2C438F5C91A88DB76275",
-      "image": "https://img-c.udemycdn.com/course/480x270/6423083_9d17.jpg",
-      "category": "Development",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Learn how to build a full-featured portfolio website from scratch using Livewire 3 and Laravel. This free course covers everything from setting up the environment to deploying your site, making it perfect for beginners who want to create a professional online presence.",
-      "learn": [
-        "Set up Laravel and Livewire 3 environment",
-        "Design responsive portfolio layout with Blade components",
-        "Implement dynamic content loading and form handling",
-        "Deploy the application to a production server"
-      ],
-      "who": "This course is ideal for web developers with basic Laravel knowledge looking to expand into Livewire and build a portfolio site.",
-      "note": "Coupon may expire; confirm $0 on Udemy before enrolling.",
-      "page": "p/complete-portfolio-website-in-livewire-3-for-beginners.html",
-      "added_at": "2026-11-04T12:52:08.917917+00:00",
-      "added_at_pkt": "2026-11-04 05:52 PM PKT"
-    },
-    {
-      "title": "Portfolio Blog E-Commerce in Laravel 11 for Beginners",
-      "slug": "portfolio-blog-e-commerce-in-laravel-11-for-beginners",
-      "udemy_url": "https://www.udemy.com/course/portfolio-blog-e-commerce-in-laravel-11-for-beginners/?couponCode=7CA74B723776A345D9A4",
-      "image": "https://img-c.udemycdn.com/course/480x270/6431847_feee.jpg",
-      "category": "Development",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Portfolio Blog E-Commerce in Laravel 11 for Beginners is listed with a free Udemy coupon in Development. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Development who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/portfolio-blog-e-commerce-in-laravel-11-for-beginners.html",
-      "added_at": "2026-11-04T12:52:06.858978+00:00",
-      "added_at_pkt": "2026-11-04 05:52 PM PKT"
-    },
-    {
-      "title": "Easy Generative AI ChatGPT Deepseek and +100 AI Tools",
-      "slug": "easy-generative-ai-chatgpt-deepseek-and-100-ai-tools",
-      "udemy_url": "https://www.udemy.com/course/easy-generative-ai-chatgpt-deepseek-and-100-ai-tools/?couponCode=9F2FF67BED774B7F469A",
-      "image": "https://img-c.udemycdn.com/course/480x270/6460885_a08e_4.jpg",
-      "category": "Marketing",
-      "language": "Language",
-      "instructor": "Name",
-      "length": "Length",
-      "summary": "Easy Generative AI ChatGPT Deepseek and +100 AI Tools is listed with a free Udemy coupon in Marketing. Open Udemy and confirm the price shows free before checkout.",
-      "learn": [
-        "Core ideas covered in the course",
-        "Practical examples you can apply",
-        "Certificate of completion when eligible",
-        "Lifetime access after successful enrollment"
-      ],
-      "who": "Learners interested in Marketing who want a free coupon seat while it lasts.",
-      "note": "Coupons expire or hit limits — confirm $0 on Udemy before enrolling.",
-      "page": "p/easy-generative-ai-chatgpt-deepseek-and-100-ai-tools.html",
-      "added_at": "2026-11-04T12:52:05.460724+00:00",
       "added_at_pkt": "2026-11-04 05:52 PM PKT"
     }
   ]
