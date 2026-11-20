@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Get Latest Universe Value with DAX Measure in Power Pivot | LearnWithZuhaib</title>
+  <meta name="description" content="Use a single DAX measure to fetch the most recent Universe amount based on the Date column." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, dax,powerpivot" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/get-latest-universe-value-with-dax-measure-in-power-pivot.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I handle ties when multiple rows share the latest date?", "acceptedAnswer": {"@type": "Answer", "text": "The measure will sum all Universe values for that date. If you need a single row, add another distinguishing column to the filter."}}, {"@type": "Question", "name": "Can I use this measure in a line chart?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, but the chart will show a constant value because the measure ignores the X‑axis. Use a separate date column for the axis."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-11-20 · Q&A guide</p>
+    <h1>Get Latest Universe Value with DAX Measure in Power Pivot</h1>
+    <p class="lead">Use a single DAX measure to fetch the most recent Universe amount based on the Date column.</p>
+    <div class="content">
+<h2>Problem Overview</h2>
+<p>The goal is to return the Universe value that corresponds to the most recent date in the current filter context. The user’s attempt returns the grand total because the filter context is not properly limited to the row with the maximum date.</p>
+<h2>Why the Grand Total Appears</h2>
+<p>Using CALCULATE with FILTER(tbData, tbData[Date] = [Last Universe Date]) still evaluates the measure over the entire table. When the measure inside the FILTER references a column that is not aggregated, Power BI expands the context to the entire table, causing the SUM of Universe to be calculated for all rows.</p>
+<h2>Correct DAX Pattern</h2>
+<p>1. Find the maximum date that satisfies the current context. 2. Return the Universe value that belongs to that date. 3. Use CALCULATE with a single filter expression that directly compares the Date column to the maximum date. 4. Avoid using EARLIER or multiple CALCULATE layers that can break the context.</p>
+<pre><code>VAR MaxDate = CALCULATE(MAX(tbData[Date]), ALLSELECTED(tbData))
+RETURN CALCULATE(SUM(tbData[Universe]), tbData[Date] = MaxDate)</code></pre>
+<h2>Full Measure Example</h2>
+<p>The measure below can be placed in any visual or used in other calculations. It respects slicers, page filters, and row context when used in a table.</p>
+<pre><code>LastUniverseValue =
+VAR MaxDate = CALCULATE(MAX(tbData[Date]), ALLSELECTED(tbData))
+RETURN CALCULATE(SUM(tbData[Universe]), tbData[Date] = MaxDate)</code></pre>
+<h2>Usage Tips</h2>
+<p>• Place the measure in a card to display the latest value. • Combine it with other measures (e.g., % of total) by referencing the same variable. • If multiple rows share the same latest date, the measure returns the sum of all corresponding Universe values.</p>
+<p><strong>Takeaway:</strong> A single measure that filters on the maximum date returns the latest Universe value without producing the grand total.</p>
+<h2>People also ask</h2>
+<h3>How do I handle ties when multiple rows share the latest date?</h3>
+<p>The measure will sum all Universe values for that date. If you need a single row, add another distinguishing column to the filter.</p>
+<h3>Can I use this measure in a line chart?</h3>
+<p>Yes, but the chart will show a constant value because the measure ignores the X‑axis. Use a separate date column for the axis.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/57874126/return-latest-value-in-column-based-on-date" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

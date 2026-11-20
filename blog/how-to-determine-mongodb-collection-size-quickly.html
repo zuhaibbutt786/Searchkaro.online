@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How to Determine MongoDB Collection Size Quickly | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to interpret MongoDB stats to find the real size of a collection and its indexes." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, mongodb" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/how-to-determine-mongodb-collection-size-quickly.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How often should I run db.collection.stats() for monitoring?", "acceptedAnswer": {"@type": "Answer", "text": "Run it at least once per day for active collections; for large, write‑heavy collections, a 15‑minute interval is reasonable."}}, {"@type": "Question", "name": "Can I ignore storageSize when calculating disk usage?", "acceptedAnswer": {"@type": "Answer", "text": "No. storageSize plus totalIndexSize gives the true disk footprint; ignoring it underestimates the required storage."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-11-20 · Q&A guide</p>
+    <h1>How to Determine MongoDB Collection Size Quickly</h1>
+    <p class="lead">Learn how to interpret MongoDB stats to find the real size of a collection and its indexes.</p>
+    <div class="content">
+<h2>Decoding the stats() Output</h2>
+<p>The db.collection.stats() command returns a JSON object that contains several metrics. The most common keys are count, size, storageSize, totalIndexSize, and avgObjSize. Each key represents a different aspect of the collection: count is the number of documents, size is the raw data size, storageSize is the allocated space on disk, and totalIndexSize aggregates all index storage.</p>
+<p>Understanding these metrics is essential because they are not always intuitive. For example, size can be smaller than storageSize when the collection is sparse or when the storage engine has allocated more space than the current data requires. avgObjSize gives an average document size, which can help estimate future growth.</p>
+<p>When you inspect the output, look for the _id_ index and any custom indexes. The indexSizes object shows how much space each index consumes, which is crucial for performance tuning.</p>
+<h2>Size vs StorageSize: What They Mean</h2>
+<p>size reflects the total bytes of all documents in the collection, excluding indexes and padding. storageSize, on the other hand, is the amount of disk space that the collection has actually reserved. In WiredTiger, storageSize is usually a multiple of the page size (often 4KB), so it can be larger than size.</p>
+<p>If your storageSize is significantly higher than size, it indicates fragmentation or that the collection has grown and then shrunk. Monitoring this ratio over time can reveal when you need to run a compact operation or rebuild indexes.</p>
+<h2>Index Sizes and Their Contribution</h2>
+<p>The indexSizes field lists each index name and its allocated space. The totalIndexSize is the sum of all these values. Indexes can dominate the storage footprint, especially for collections with many compound or hashed indexes.</p>
+<p>When planning capacity, add totalIndexSize to storageSize to get the full disk usage. If an index is no longer needed, dropping it can free up a substantial amount of space.</p>
+<h2>Practical Commands to Measure Size</h2>
+<p>Use the following shell commands to retrieve the key metrics:</p>
+<p>```
+// Basic stats
+var stats = db.myCollection.stats();
+printjson(stats);</p>
+<p>// Size in megabytes
+print(&#x27;Data size (MB):&#x27;, stats.size / (1024 * 1024));</p>
+<p>// Total disk usage (data + indexes)
+print(&#x27;Total disk usage (MB):&#x27;, (stats.storageSize + stats.totalIndexSize) / (1024 * 1024));
+```</p>
+<p>These snippets provide quick, human‑readable numbers that can be logged or fed into monitoring dashboards.</p>
+<h2>Using the Size for Capacity Planning</h2>
+<p>When forecasting storage needs, multiply the current size by the expected growth rate and add a buffer for indexes and fragmentation. For example, if your collection is 1.5 GB and you anticipate a 20% yearly increase, plan for at least 2 GB next year.</p>
+<p>Also consider the impact of write amplification in WiredTiger, which can increase storageSize by up to 10–20% of the data size. Regularly running db.repairDatabase() or compact can mitigate this effect.</p>
+<p><strong>Takeaway:</strong> Use db.collection.stats() to get accurate data size, but remember storageSize reflects allocated space, and indexes can add a large overhead.</p>
+<h2>People also ask</h2>
+<h3>How often should I run db.collection.stats() for monitoring?</h3>
+<p>Run it at least once per day for active collections; for large, write‑heavy collections, a 15‑minute interval is reasonable.</p>
+<h3>Can I ignore storageSize when calculating disk usage?</h3>
+<p>No. storageSize plus totalIndexSize gives the true disk footprint; ignoring it underestimates the required storage.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/41712939/how-to-know-mongodb-collection-size" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

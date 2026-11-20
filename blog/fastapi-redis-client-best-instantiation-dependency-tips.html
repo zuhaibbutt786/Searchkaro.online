@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FastAPI Redis Client: Best Instantiation &amp; Dependency Tips | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to properly create and share a Redis client in FastAPI, avoiding common pitfalls and ensuring efficient resource usage." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, python,redis,fastapi" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/fastapi-redis-client-best-instantiation-dependency-tips.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I reuse the same Redis client across requests?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Store the client in `app.state` and return it from a dependency; it will be reused for all requests."}}, {"@type": "Question", "name": "Does redis‑py automatically pool connections?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, `redis.Redis` uses a connection pool internally; creating one instance per worker is sufficient."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-11-20 · Q&A guide</p>
+    <h1>FastAPI Redis Client: Best Instantiation &amp; Dependency Tips</h1>
+    <p class="lead">Learn how to properly create and share a Redis client in FastAPI, avoiding common pitfalls and ensuring efficient resource usage.</p>
+    <div class="content">
+<h2>Why a Single Connection Matters</h2>
+<p>Redis connections are expensive to create and close. Re‑creating a client on every request adds latency and can exhaust the server’s connection limit. A shared connection pool keeps the overhead low and guarantees thread‑safe access across async workers.</p>
+<pre><code>```python
+import redis
+client = redis.Redis(host=&#x27;localhost&#x27;, port=6379, db=0, decode_responses=True)
+```</code></pre>
+<h2>Module‑Scoped vs Dependency Injection</h2>
+<p>Defining the client at module level is quick but hides the lifecycle. Each worker process will instantiate its own client, which is fine for simple scripts but makes shutdown handling difficult. Using Depends creates a new client per request, which defeats connection pooling and adds unnecessary overhead.</p>
+<pre><code>```python
+# module level
+r = redis.Redis(host=&#x27;localhost&#x27;, port=6379, db=0)
+```</code></pre>
+<h2>Lifespan Events for Connection Lifecycle</h2>
+<p>FastAPI’s startup and shutdown events allow you to create a client once, store it in `app.state`, and close it gracefully. A dependency that returns `app.state.redis` guarantees the same instance is used in every request.</p>
+<pre><code>```python
+from fastapi import FastAPI, Depends
+import redis
+
+app = FastAPI()
+
+@app.on_event(&quot;startup&quot;)
+async def startup():
+    app.state.redis = redis.Redis(host=&#x27;localhost&#x27;, port=6379, db=0, decode_responses=True)
+
+@app.on_event(&quot;shutdown&quot;)
+async def shutdown():
+    app.state.redis.close()
+
+def get_redis() -&gt; redis.Redis:
+    return app.state.redis
+
+@app.get(&quot;/foo&quot;)
+async def foo(r: redis.Redis = Depends(get_redis)):
+    return {&quot;message&quot;: r.get(&quot;foo&quot;)}
+```</code></pre>
+<h2>Async Redis with redis‑py</h2>
+<p>When using async endpoints, switch to `redis.asyncio.Redis` (or `aioredis`). The pattern remains identical: create once on startup, close on shutdown, and expose via Depends.</p>
+<pre><code>```python
+import redis
+
+@app.on_event(&quot;startup&quot;)
+async def startup():
+    app.state.redis = redis.asyncio.Redis(host=&#x27;localhost&#x27;, port=6379, db=0, decode_responses=True)
+
+@app.on_event(&quot;shutdown&quot;)
+async def shutdown():
+    await app.state.redis.close()
+
+def get_redis() -&gt; redis.asyncio.Redis:
+    return app.state.redis
+```</code></pre>
+<h2>Best Practice Recommendation</h2>
+<p>Create the Redis client once during the application startup, keep it in `app.state`, and provide it to routes via a simple dependency. This approach gives you connection pooling, clean shutdown, and minimal boilerplate.</p>
+<p><strong>Takeaway:</strong> Instantiate Redis once at startup, store in `app.state`, and inject it with a dependency for efficient, clean FastAPI applications.</p>
+<h2>People also ask</h2>
+<h3>Can I reuse the same Redis client across requests?</h3>
+<p>Yes. Store the client in `app.state` and return it from a dependency; it will be reused for all requests.</p>
+<h3>Does redis‑py automatically pool connections?</h3>
+<p>Yes, `redis.Redis` uses a connection pool internally; creating one instance per worker is sufficient.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/73563804/what-is-the-recommended-way-to-instantiate-and-pass-around-a-redis-client-with-f" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

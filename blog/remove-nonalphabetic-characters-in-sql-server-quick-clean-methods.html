@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Remove Non‑Alphabetic Characters in SQL Server – Quick &amp; Clean Methods | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to strip every non‑alphabetic character from a string in SQL Server using built‑in functions or a lightweight scalar function. The guide covers both alphabetic and alphanumeric filtering techniques." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, sql-server,parsing,user-defined-functions,alphanumeric,alphabetic" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/remove-nonalphabetic-characters-in-sql-server-quick-clean-methods.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I remove digits only, keeping letters?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, use TRANSLATE with digits mapped to '' or a regex‑style function that keeps only [A-Za-z]."}}, {"@type": "Question", "name": "Is there a way to keep spaces between words?", "acceptedAnswer": {"@type": "Answer", "text": "Include a space in the allowed set: TRANSLATE(..., '0123456789!@#', '') or adjust the pattern to '[A-Za-z ]'."}}, {"@type": "Question", "name": "Will these methods affect Unicode characters?", "acceptedAnswer": {"@type": "Answer", "text": "TRANSLATE and XML PATH work with NVARCHAR, so Unicode letters are preserved. Ensure your pattern includes the appropriate Unicode ranges if needed."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-11-20 · Q&A guide</p>
+    <h1>Remove Non‑Alphabetic Characters in SQL Server – Quick &amp; Clean Methods</h1>
+    <p class="lead">Learn how to strip every non‑alphabetic character from a string in SQL Server using built‑in functions or a lightweight scalar function. The guide covers both alphabetic and alphanumeric filtering techniques.</p>
+    <div class="content">
+<h2>Why Clean Strings Matters</h2>
+<p>Data quality often hinges on removing stray symbols before analysis or reporting. Non‑alphabetic or non‑alphanumeric noise can break joins, skew aggregations, and inflate storage. A consistent approach keeps ETL pipelines simple and reliable.</p>
+<h2>TRANSLATE – The Modern One‑Liner</h2>
+<p>SQL Server 2017 introduced TRANSLATE, which maps each source character to a replacement. By mapping every unwanted character to an empty string, you can delete them in a single statement.</p>
+<pre><code>SELECT TRANSLATE(&#x27;Abc123!@#&#x27;, &#x27;0123456789!@#&#x27;, &#x27;&#x27;) AS Cleaned;
+-- Result: Abc</code></pre>
+<h2>XML PATH Set‑Based Filter</h2>
+<p>For earlier versions, a set‑based trick uses XML PATH to rebuild the string from only allowed characters. This avoids a cursor or row‑by‑row function call.</p>
+<pre><code>DECLARE @s NVARCHAR(MAX) = &#x27;Abc123!@#&#x27;;
+SELECT
+  (SELECT SUBSTRING(@s, v.n, 1)
+   FROM (SELECT TOP (LEN(@s)) ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS n
+         FROM sys.all_objects) v
+   WHERE PATINDEX(&#x27;%[A-Za-z]%&#x27;, SUBSTRING(@s, v.n, 1)) &gt; 0
+   FOR XML PATH(&#x27;&#x27;), TYPE).value(&#x27;.&#x27;, &#x27;NVARCHAR(MAX)&#x27;) AS Cleaned;
+-- Result: Abc</code></pre>
+<h2>Scalar Function for Reuse</h2>
+<p>When you need to apply the same logic across multiple queries, a scalar UDF keeps the code DRY. The function loops through each character, appending only those that match a pattern.</p>
+<pre><code>CREATE FUNCTION dbo.RemoveNonAlpha (@input NVARCHAR(MAX))
+RETURNS NVARCHAR(MAX)
+AS
+BEGIN
+  DECLARE @pos INT = 1, @len INT = LEN(@input), @out NVARCHAR(MAX) = &#x27;&#x27;;
+  WHILE @pos &lt;= @len
+  BEGIN
+    IF SUBSTRING(@input, @pos, 1) LIKE &#x27;[A-Za-z]&#x27;
+      SET @out = @out + SUBSTRING(@input, @pos, 1);
+    SET @pos = @pos + 1;
+  END
+  RETURN @out;
+END;
+
+SELECT dbo.RemoveNonAlpha(&#x27;Abc123!@#&#x27;) AS Cleaned;  -- Abc</code></pre>
+<h2>Performance &amp; Version Considerations</h2>
+<p>TRANSLATE is fastest on 2017+ because it runs in a single pass. The XML PATH method is set‑based and avoids CLR overhead but can be slower on very large strings. Scalar functions are convenient but may incur row‑by‑row cost; index hints or CROSS APPLY can mitigate this.</p>
+<p><strong>Takeaway:</strong> SQL Server offers multiple efficient ways to cleanse strings—choose the method that matches your version and performance needs.</p>
+<h2>People also ask</h2>
+<h3>Can I remove digits only, keeping letters?</h3>
+<p>Yes, use TRANSLATE with digits mapped to &#x27;&#x27; or a regex‑style function that keeps only [A-Za-z].</p>
+<h3>Is there a way to keep spaces between words?</h3>
+<p>Include a space in the allowed set: TRANSLATE(..., &#x27;0123456789!@#&#x27;, &#x27;&#x27;) or adjust the pattern to &#x27;[A-Za-z ]&#x27;.</p>
+<h3>Will these methods affect Unicode characters?</h3>
+<p>TRANSLATE and XML PATH work with NVARCHAR, so Unicode letters are preserved. Ensure your pattern includes the appropriate Unicode ranges if needed.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/1007697/how-to-strip-all-non-alphabetic-characters-from-string-in-sql-server" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

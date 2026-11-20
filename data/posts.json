@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "title": "git commit vs git push: What\u2019s the Difference?",
+      "slug": "git-commit-vs-git-push-whats-the-difference",
+      "date": "2026-11-20",
+      "excerpt": "Understand the distinct roles of git commit and git push in Git workflows.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Remove Non\u2011Alphabetic Characters in SQL Server \u2013 Quick & Clean Methods",
+      "slug": "remove-nonalphabetic-characters-in-sql-server-quick-clean-methods",
+      "date": "2026-11-20",
+      "excerpt": "Learn how to strip every non\u2011alphabetic character from a string in SQL Server using built\u2011in functions or a lightweight scalar function. The guide covers both alphabetic and alphanumeric filtering techniques.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "How to Determine MongoDB Collection Size Quickly",
+      "slug": "how-to-determine-mongodb-collection-size-quickly",
+      "date": "2026-11-20",
+      "excerpt": "Learn how to interpret MongoDB stats to find the real size of a collection and its indexes.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Get Latest Universe Value with DAX Measure in Power Pivot",
+      "slug": "get-latest-universe-value-with-dax-measure-in-power-pivot",
+      "date": "2026-11-20",
+      "excerpt": "Use a single DAX measure to fetch the most recent Universe amount based on the Date column.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "FastAPI Redis Client: Best Instantiation & Dependency Tips",
+      "slug": "fastapi-redis-client-best-instantiation-dependency-tips",
+      "date": "2026-11-20",
+      "excerpt": "Learn how to properly create and share a Redis client in FastAPI, avoiding common pitfalls and ensuring efficient resource usage.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Fix Laravel Auth::attempt 302 Redirect Issue \u2013 Proper Login Flow",
+      "slug": "fix-laravel-authattempt-302-redirect-issue-proper-login-flow",
+      "date": "2026-11-20",
+      "excerpt": "Learn why Auth::attempt returns a 302 response and how to restructure routes, middleware, and authentication code for a working Laravel login.",
+      "source": "stackoverflow"
+    },
+    {
       "title": "Fix 'type' object not subscriptable with List[int] in Python classes",
       "slug": "fix-type-object-not-subscriptable-with-listint-in-python-classes",
       "date": "2026-11-13",

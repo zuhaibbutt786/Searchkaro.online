@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fix Laravel Auth::attempt 302 Redirect Issue – Proper Login Flow | LearnWithZuhaib</title>
+  <meta name="description" content="Learn why Auth::attempt returns a 302 response and how to restructure routes, middleware, and authentication code for a working Laravel login." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, php,laravel,authentication,laravel-5" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/fix-laravel-authattempt-302-redirect-issue-proper-login-flow.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I need to hash the password manually before calling Auth::attempt?", "acceptedAnswer": {"@type": "Answer", "text": "No. Store the password as a bcrypt hash; Auth::attempt will compare the raw input to the stored hash automatically."}}, {"@type": "Question", "name": "Why does Laravel still send a 302 after a successful login?", "acceptedAnswer": {"@type": "Answer", "text": "Redirects are intentional; after a successful login you usually redirect to a protected page, which is performed with a 302 response."}}, {"@type": "Question", "name": "Can I keep the custom middleware and still use Auth::attempt?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, but the middleware must be applied after the login route, otherwise the unauthenticated request will be intercepted before Auth::attempt runs."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-11-20 · Q&A guide</p>
+    <h1>Fix Laravel Auth::attempt 302 Redirect Issue – Proper Login Flow</h1>
+    <p class="lead">Learn why Auth::attempt returns a 302 response and how to restructure routes, middleware, and authentication code for a working Laravel login.</p>
+    <div class="content">
+<h2>Why a 302 is shown after submitting the login form</h2>
+<p>Laravel automatically redirects when a request ends with a `Redirect` response. In the posted code the controller returns `Redirect::to(&#x27;login&#x27;)` both on validation failure and on authentication failure. Because the route that receives the POST request is not named, the redirect URL is resolved as a plain string, causing the browser to receive a 302 status and load the login page again. The real problem is that the authentication never succeeds, so the redirect path is always hit.</p>
+<h2>Common mistakes that break Auth::attempt</h2>
+<p>1. Storing passwords in plain text and comparing them with the raw input. Auth::attempt expects the password column to be hashed with `bcrypt`. 2. Using the query builder (`DB::table`) to fetch the user before calling `Auth::attempt`. This bypasses Laravel&#x27;s built‑in password verification. 3. Not naming the login route, which makes `route(&#x27;login&#x27;)` resolve to an empty string and forces a fallback 302.</p>
+<p>Fixing any of these will stop the unwanted redirect loop.</p>
+<pre><code>use Illuminate\Support\Facades\Hash;
+
+// Example of a proper users table migration
+Schema::create(&#x27;users&#x27;, function (Blueprint $table) {
+    $table-&gt;increments(&#x27;id&#x27;);
+    $table-&gt;string(&#x27;name&#x27;)-&gt;unique();
+    $table-&gt;string(&#x27;email&#x27;)-&gt;unique();
+    $table-&gt;string(&#x27;password&#x27;); // bcrypt hash
+    $table-&gt;timestamps();
+});</code></pre>
+<h2>Define a named POST route and apply the auth middleware correctly</h2>
+<p>Place the login route outside the protected group and give it a name. The logout route should be inside the group, but it also needs a name if you use `route(&#x27;logout&#x27;)` in views.</p>
+<p>The middleware group should be `auth` (Laravel’s built‑in) unless you have a custom one that extends it.</p>
+<pre><code>// routes/web.php
+Route::post(&#x27;login&#x27;, &#x27;UserController@doLogin&#x27;)-&gt;name(&#x27;login&#x27;);
+Route::post(&#x27;logout&#x27;, &#x27;UserController@doLogout&#x27;)-&gt;name(&#x27;logout&#x27;);
+
+Route::middleware(&#x27;auth&#x27;)-&gt;group(function () {
+    Route::view(&#x27;/form&#x27;, &#x27;form&#x27;);
+    Route::view(&#x27;/createUser&#x27;, &#x27;users&#x27;);
+});</code></pre>
+<h2>Rewrite the login controller to use Laravel’s Auth facade correctly</h2>
+<p>Remove the manual query, let `Auth::attempt` handle password hashing, and return a proper redirect on success. Also keep validation errors and old input for a better UX.</p>
+<p>When authentication succeeds, redirect to a protected page (e.g., `/dashboard`). When it fails, redirect back with an error message.</p>
+<pre><code>public function doLogin(Request $request)
+{
+    $validated = $request-&gt;validate([
+        &#x27;name&#x27;     =&gt; &#x27;required|string&#x27;,
+        &#x27;password&#x27; =&gt; &#x27;required|string|min:3&#x27;,
+    ]);
+
+    $credentials = $request-&gt;only(&#x27;name&#x27;, &#x27;password&#x27;);
+
+    if (Auth::attempt($credentials)) {
+        // Regenerate session to prevent fixation attacks
+        $request-&gt;session()-&gt;regenerate();
+        return redirect()-&gt;intended(&#x27;dashboard&#x27;);
+    }
+
+    return back()-&gt;withErrors([
+        &#x27;login&#x27; =&gt; &#x27;The provided credentials do not match our records.&#x27;,
+    ])-&gt;withInput($request-&gt;except(&#x27;password&#x27;));
+}</code></pre>
+<h2>Test the flow and verify that the 302 disappears</h2>
+<p>1. Create a test user using `php artisan tinker` and hash the password with `bcrypt(&#x27;secret&#x27;)`. 2. Submit the login form with correct credentials – you should be redirected to `/dashboard` (HTTP 302 is still used for the redirect, but the target page loads). 3. Submit with wrong credentials – you stay on the login page and see the validation error. The unwanted 302 that previously returned the login view directly is gone.</p>
+<p><strong>Takeaway:</strong> Use Laravel&#x27;s built‑in Auth::attempt with hashed passwords, name your routes, and let the framework handle redirects.</p>
+<h2>People also ask</h2>
+<h3>Do I need to hash the password manually before calling Auth::attempt?</h3>
+<p>No. Store the password as a bcrypt hash; Auth::attempt will compare the raw input to the stored hash automatically.</p>
+<h3>Why does Laravel still send a 302 after a successful login?</h3>
+<p>Redirects are intentional; after a successful login you usually redirect to a protected page, which is performed with a 302 response.</p>
+<h3>Can I keep the custom middleware and still use Auth::attempt?</h3>
+<p>Yes, but the middleware must be applied after the login route, otherwise the unauthenticated request will be intercepted before Auth::attempt runs.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/48879431/laravel-authattempt-302-found" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>
