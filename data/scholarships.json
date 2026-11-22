@@ -1,408 +1,129 @@
 {
-  "updated_at": "2026-11-15T12:36:34.045832+00:00",
+  "updated_at": "2026-11-22T13:10:11.144449+00:00",
   "items": [
     {
-      "title": "Top 10 Scholarships in Japan for International MS Students",
-      "slug": "top-10-scholarships-in-japan-for-international-ms-students",
-      "url": "https://www.scholars4dev.com/scholarships-in-japan-for-international-students/",
-      "summary": "Japan offers a range of scholarships for international MS students, covering tuition, living expenses, and travel. These programs are designed to attract bright minds from Pakistan, India, and beyond. With competitive selection criteria, applicants can secure financial support and a vibrant academic experience in Japan. Learn how to qualify, apply, and maximize your chances of success.",
-      "meta_description": "Explore the best Japan scholarships for MS students worldwide. Find eligibility, benefits, application steps and FAQs tailored for Pakistani and Indian students.",
+      "title": "10+ New MS/PhD Scholarships for International Students",
+      "slug": "10-new-msphd-scholarships-for-international-students",
+      "url": "https://www.scholars4dev.com/new-scholarships-16-november-2026/",
+      "summary": "This guide highlights the latest MS and PhD scholarship opportunities added to Scholars4Dev. These fully funded programs are ideal for students from Pakistan, India, and other regions seeking higher education abroad. The list is sorted by the soonest deadlines to help you plan your applications effectively.",
+      "meta_description": "Discover 10+ new MS and PhD scholarships for students in Pakistan and India. Updated deadlines, eligibility, and benefits for global academic success.",
       "eligibility": [
-        "International students pursuing a Master’s degree in Japan",
-        "Applicants from Pakistan, India, or any other country with no residency requirement",
-        "Strong academic record and proficiency in Japanese or English"
+        "Holding a relevant Bachelor's degree for MS or Master's degree for PhD programs",
+        "Strong academic record with competitive GPA and standardized test scores",
+        "Proficiency in English as per the specific university requirements"
       ],
       "benefits": [
-        "Full tuition coverage and monthly stipend for living expenses",
-        "Access to world‑class research facilities and cultural immersion"
+        "Full or partial tuition fee waivers for graduate studies",
+        "Monthly living stipends and potential health insurance coverage"
       ],
       "how_to_apply": [
-        "Step 1: Identify the scholarship that matches your field and check the eligibility criteria.",
-        "Step 2: Gather required documents (transcripts, recommendation letters, language test scores, CV, statement of purpose).",
-        "Step 3: Submit the application through the scholarship portal or university admissions office before the deadline."
-      ],
-      "faqs": [
-        {
-          "q": "Can I apply for multiple scholarships at the same time?",
-          "a": "Yes, you can apply to several scholarships, but be sure to meet each program’s specific requirements and deadlines."
-        },
-        {
-          "q": "Is Japanese language proficiency mandatory for all scholarships?",
-          "a": "Some scholarships require basic Japanese, while others accept English‑only applications. Check the individual program details."
-        }
-      ],
-      "keywords": [
-        "Japan scholarships",
-        "pakistan",
-        "india"
-      ],
-      "level": "MS",
-      "region": "Worldwide",
-      "source": "www.scholars4dev.com",
-      "published": "Sun, 15 Nov 2026 12:26:00 +0000",
-      "page": "p/top-10-scholarships-in-japan-for-international-ms-students.html"
-    },
-    {
-      "title": "MS/PhD Scholarship Application Questions and Answers",
-      "slug": "msphd-scholarship-application-questions-and-answers",
-      "url": "https://www.scholars4dev.com/scholarship-application-questions-answers/",
-      "summary": "Preparing for graduate studies abroad? This guide addresses the most frequent questions encountered during the scholarship application process. It helps students from Pakistan and India craft compelling responses for MS and PhD programs. By understanding what reviewers look for, you can improve your chances of securing funding.",
-      "meta_description": "Master your MS or PhD scholarship application with these essential Q&As. Learn how to answer common queries for global study from Pakistan and India.",
-      "eligibility": [
-        "Holding a relevant undergraduate or master's degree for MS or PhD tracks",
-        "Demonstrating strong academic performance and research potential",
-        "Meeting specific language proficiency requirements like IELTS or TOEFL"
-      ],
-      "benefits": [
-        "Clearer understanding of application expectations and reviewer criteria",
-        "Improved confidence in answering critical essay and interview questions"
-      ],
-      "how_to_apply": [
-        "Review the specific scholarship guidelines and required documents",
-        "Draft answers to common application questions using personal examples",
-        "Submit your completed application before the official deadline"
-      ],
-      "faqs": [
-        {
-          "q": "What are the most common scholarship application questions?",
-          "a": "Common questions include why you chose your field, your career goals, and how this scholarship will help you achieve them."
-        },
-        {
-          "q": "How should I answer questions about my research interests?",
-          "a": "Be specific about your research topic and explain how it aligns with the faculty or program you are applying to."
-        },
-        {
-          "q": "Do I need to mention financial need in my application?",
-          "a": "Only if explicitly asked. Focus more on academic merit and potential impact unless the scholarship is need-based."
-        }
-      ],
-      "keywords": [
-        "scholarship application questions",
-        "MS PhD scholarships",
-        "pakistan",
-        "india"
-      ],
-      "level": "MS/PhD",
-      "region": "Worldwide",
-      "source": "www.scholars4dev.com",
-      "published": "Sun, 15 Nov 2026 12:25:00 +0000",
-      "page": "p/msphd-scholarship-application-questions-and-answers.html"
-    },
-    {
-      "title": "Top 10+ International Scholarships for Women (MS/PhD)",
-      "slug": "top-10-international-scholarships-for-women-msphd",
-      "url": "https://www.scholars4dev.com/international-scholarships-for-women/",
-      "summary": "This guide highlights over ten prestigious international scholarships and fellowships specifically designed to empower women in higher education. These programs support female researchers and students in fields ranging from science and engineering to business and peace studies. Ideal for candidates from Pakistan, India, and other regions seeking global academic opportunities. Explore these pathways to advance your career and contribute to global development.",
-      "meta_description": "Discover 10+ top international scholarships for women pursuing MS or PhD. Find fully funded opportunities in science, business, and development worldwide.",
-      "eligibility": [
-        "Female applicants only",
-        "Holding a relevant undergraduate or master's degree for MS/PhD programs",
-        "Demonstrated academic excellence and leadership potential",
-        "Strong motivation for research or study in target fields"
-      ],
-      "benefits": [
-        "Full or partial funding for tuition, living expenses, and travel",
-        "Access to global academic networks and mentorship opportunities",
-        "Enhanced career prospects in international organizations"
-      ],
-      "how_to_apply": [
-        "Review specific eligibility criteria and deadlines for each scholarship listed",
-        "Prepare a strong personal statement highlighting your academic and professional goals",
-        "Submit applications directly through the respective scholarship portals before the deadline"
+        "Review the specific eligibility criteria and required documents for each scholarship",
+        "Prepare your application package, including transcripts, CV, and research proposals",
+        "Submit applications directly through the university or scholarship portal before the deadline"
       ],
       "faqs": [
         {
           "q": "Are these scholarships open to students from Pakistan and India?",
-          "a": "Yes, most of the listed international scholarships are open to applicants from all over the world, including Pakistan and India, provided you meet the specific academic and language requirements."
+          "a": "Yes, these opportunities are for international students, including those from Pakistan and India, unless specific country restrictions are noted in the individual scholarship details."
         },
         {
-          "q": "Do I need to be enrolled in a university before applying?",
-          "a": "It depends on the specific scholarship. Some require you to apply for the university first, while others allow you to apply for the scholarship directly. Always check the individual program guidelines."
+          "q": "What level of study do these scholarships cover?",
+          "a": "The listed scholarships are primarily for Master's (MS) and Doctoral (PhD) level studies."
+        },
+        {
+          "q": "How often is this list updated?",
+          "a": "The list is updated regularly as new scholarships are added or existing ones are modified on Scholars4Dev."
         }
       ],
       "keywords": [
-        "international scholarships for women",
         "MS PhD scholarships",
-        "fully funded scholarships",
+        "international student funding",
         "pakistan",
         "india",
-        "women in science",
-        "global education"
+        "scholars4dev"
       ],
       "level": "MS/PhD",
       "region": "Worldwide",
       "source": "www.scholars4dev.com",
-      "published": "Sat, 14 Nov 2026 10:03:00 +0000",
-      "page": "p/top-10-international-scholarships-for-women-msphd.html"
+      "published": "Mon, 16 Nov 2026 10:22:00 +0000",
+      "page": "p/10-new-msphd-scholarships-for-international-students.html"
     },
     {
-      "title": "Top 10+ Science, Engineering and Technology Scholarships for Internati",
-      "slug": "top-10-science-engineering-and-technology-scholarships-for-internati",
-      "url": "https://www.scholars4dev.com/science-engineering-technology-scholarships-for-international-students/",
-      "summary": "Do you want to pursue an international degree in Science, Engineering, or Technology? The Science, Engineering, and Technology fields are popular fields of study supported by scholarships and fellowships by foreign governments, universities, and international organizations. scholars4dev.com lists the top 10 scholarships in the field of science, engineering, and technology offered by Universities around the world. Read more » The post Top 10+ Science, Engineering and Technology Scholarships for I",
-      "meta_description": "Do you want to pursue an international degree in Science, Engineering, or Technology? The Science, Engineering, and Technology fields are popular fields of",
+      "title": "EPFL Master Excellence Fellowships 2027: Full Guide for Students",
+      "slug": "epfl-master-excellence-fellowships-2027-full-guide-for-students",
+      "url": "https://www.scholars4dev.com/epfl-excellence-fellowships/",
+      "summary": "The EPFL Master Excellence Fellowship supports outstanding students from any nationality pursuing a Master's degree at École Polytechnique Fédérale de Lausanne. This prestigious award provides significant financial aid to help cover living costs during your studies in Switzerland. It is an ideal opportunity for high-achieving candidates from Pakistan, India, and other regions to study at a top global university.",
+      "meta_description": "Apply for EPFL Master Excellence Fellowships 2027. Get CHF 10,000/semester support for your MS in Switzerland. Check eligibility and deadlines now.",
       "eligibility": [
-        "Open to applicants seeking MS/PhD opportunities",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
+        "Must be an outstanding student of any nationality applying for a Master's degree at EPFL.",
+        "Your Master's application must be validated by 15 December 2026 for the September 2027 intake.",
+        "Applicants should demonstrate academic excellence and potential for research or professional impact."
       ],
       "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
+        "Financial support of CHF 10,000 per semester to assist with living expenses.",
+        "Access to world-class education and research facilities at a leading Swiss university."
       ],
       "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
+        "Submit your Master's degree application to EPFL before the validation deadline of 15 December 2026.",
+        "Ensure your academic records and supporting documents clearly highlight your excellence and achievements.",
+        "Monitor your EPFL application portal for any specific fellowship-related forms or notifications."
       ],
       "faqs": [
         {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
+          "q": "Are students from Pakistan and India eligible for this fellowship?",
+          "a": "Yes, the EPFL Master Excellence Fellowships are open to outstanding students of any nationality, including those from Pakistan and India."
         },
         {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
+          "q": "What is the financial value of the EPFL Master Excellence Fellowship?",
+          "a": "The fellowship provides CHF 10,000 per semester to help cover living costs during your Master's studies."
+        },
+        {
+          "q": "When is the deadline to apply for the 2027 intake?",
+          "a": "Your Master's application must be validated by 15 December 2026 for courses starting in September 2027."
         }
       ],
       "keywords": [
-        "scholarship",
-        "ms/phd",
-        "worldwide",
+        "EPFL Master Excellence Fellowships",
+        "MS scholarships in Switzerland",
         "pakistan",
-        "india"
+        "india",
+        "EPFL 2027 application"
       ],
-      "level": "MS/PhD",
+      "level": "MS",
       "region": "Worldwide",
       "source": "www.scholars4dev.com",
-      "published": "Sat, 14 Nov 2026 10:02:00 +0000",
-      "page": "p/top-10-science-engineering-and-technology-scholarships-for-internati.html"
+      "published": "Mon, 16 Nov 2026 09:40:00 +0000",
+      "page": "p/epfl-master-excellence-fellowships-2027-full-guide-for-students.html"
     },
     {
-      "title": "Top 8 International Fellowships for Students, Researchers and Professi",
-      "slug": "top-8-international-fellowships-for-students-researchers-and-professi",
-      "url": "https://www.scholars4dev.com/top-10-academic-research-professional-fellowships-for-international-students/",
-      "summary": "There are a number of international fellowships open to students, researchers, and professionals for study, research, or professional undertaking at Universities, Institutions, and Organizations around the world. Read more » The post Top 8 International Fellowships for Students, Researchers and Professionals first appeared on Scholars4DeV .",
-      "meta_description": "There are a number of international fellowships open to students, researchers, and professionals for study, research, or professional undertaking at Univer",
-      "eligibility": [
-        "Open to applicants seeking MS/PhD opportunities",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
+      "title": "Politecnico di Milano Merit-Based International Scholarships for MS in Europe",
+      "slug": "politecnico-di-milano-merit-based-international-scholarships-for-ms-in-europe",
+      "url": "https://www.scholars4dev.com/politecnico-milano-merit-based-international-scholarships/",
+      "summary": "Explore Politecnico di Milano's Merit-Based International Scholarships for exceptional Pakistani and Indian students seeking MS programs in Europe. Apply before Dec 15, 2026, and start your course in Sep 2027.\n\nEligibility:\n- International students\n- MS programs\n\nBenefits:\n- Tuition fee coverage\n- Living expenses\n\nHow to Apply:\n1. Check eligibility\n2. Submit your application\n3. Meet scholarship criteria\n\nFAQs:\n- Q: What is the scholarship deadline?\n  A: Dec 15, 2026\n- Q: What programs are eligible?\n  A: MS programs at Politecnico di Milano, Italy",
+      "meta_description": "",
+      "eligibility": [],
+      "benefits": [],
+      "how_to_apply": [],
+      "faqs": [],
       "keywords": [
-        "scholarship",
-        "ms/phd",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "MS/PhD",
-      "region": "Worldwide",
-      "source": "www.scholars4dev.com",
-      "published": "Sat, 14 Nov 2026 09:59:00 +0000",
-      "page": "p/top-8-international-fellowships-for-students-researchers-and-professi.html"
-    },
-    {
-      "title": "Top 5+ Training Scholarships for International Students",
-      "slug": "top-5-training-scholarships-for-international-students",
-      "url": "https://www.scholars4dev.com/short-courses-training-scholarships-for-international-students/",
-      "summary": "Do you want to improve your chances in scholarship and job applications? Taking short courses or trainings allow you to upgrade your skills and boost your academic qualifications. scholars4dev.com lists the Top 5 training scholarships in various fields of study offered at Universities around the world. Read more » The post Top 5+ Training Scholarships for International Students first appeared on Scholars4DeV .",
-      "meta_description": "Do you want to improve your chances in scholarship and job applications? Taking short courses or trainings allow you to upgrade your skills and boost your ",
-      "eligibility": [
-        "Open to applicants seeking MS/PhD opportunities",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "scholarship",
-        "ms/phd",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "MS/PhD",
-      "region": "Worldwide",
-      "source": "www.scholars4dev.com",
-      "published": "Sat, 14 Nov 2026 09:20:00 +0000",
-      "page": "p/top-5-training-scholarships-for-international-students.html"
-    },
-    {
-      "title": "5+ Chancellor/Vice Chancellor Scholarships for MS & PhD Students",
-      "slug": "5-chancellorvice-chancellor-scholarships-for-ms-phd-students",
-      "url": "https://www.scholars4dev.com/vice-chancellors-scholarships-for-international-students/",
-      "summary": "Chancellor and Vice‑Chancellor scholarships are among the most respected awards offered by top UK and Australian universities. They provide full or partial tuition waivers and often include a living stipend for outstanding international candidates. These scholarships target MS and PhD programmes and are open to students from Pakistan, India and other countries. Learn how to qualify, apply, and maximise your chances of receiving this elite funding.",
-      "meta_description": "Discover 5+ prestigious Chancellor and Vice‑Chancellor scholarships for MS and PhD studies in Europe. Ideal for high‑achieving students from Pakistan, India and worldwide.",
-      "eligibility": [
-        "Citizens of Pakistan, India, or any other country with a valid passport.",
-        "Academic excellence demonstrated by a minimum 3.5 GPA/percentage or equivalent in the most recent degree.",
-        "Admission offer (unconditional or conditional) for a full‑time MS or PhD programme at a participating university."
-      ],
-      "benefits": [
-        "Full or partial tuition fee waiver for the entire duration of the MS/PhD programme.",
-        "Monthly stipend or bursary to cover living expenses, travel allowances may also be offered."
-      ],
-      "how_to_apply": [
-        "Secure an unconditional or conditional admission offer from a participating university.",
-        "Complete the university’s scholarship application form and upload required documents (transcripts, CV, research proposal, recommendation letters).",
-        "Submit the application before the university‑specified deadline and await the selection committee’s decision."
-      ],
-      "faqs": [
-        {
-          "q": "Can students from Pakistan or India apply for these scholarships?",
-          "a": "Yes, the Chancellor and Vice‑Chancellor scholarships are open to all international applicants, including students from Pakistan and India."
-        },
-        {
-          "q": "Do I need to have a research proposal to apply?",
-          "a": "A research proposal is required for PhD applicants and strongly recommended for MS candidates, as it helps the selection panel assess academic potential."
-        }
-      ],
-      "keywords": [
-        "Chancellor Vice Chancellor scholarships MS PhD",
+        "Politecnico di Milano Merit-Based Scholarships",
+        "MS scholarships",
+        "European scholarships",
         "Pakistan",
         "India"
       ],
-      "level": "MS/PhD",
+      "level": "MS",
       "region": "Europe",
       "source": "www.scholars4dev.com",
-      "published": "Sat, 14 Nov 2026 09:19:00 +0000",
-      "page": "p/5-chancellorvice-chancellor-scholarships-for-ms-phd-students.html"
+      "published": "Mon, 16 Nov 2026 09:39:00 +0000",
+      "page": "p/politecnico-di-milano-merit-based-international-scholarships-for-ms-in-europe.html"
     },
     {
-      "title": "Top 10+ International MS Scholarships for Pakistan & India Students",
-      "slug": "top-10-international-ms-scholarships-for-pakistan-india-students",
-      "url": "https://www.scholars4dev.com/scholarships-by-global-institutions-organizations-foundations/",
-      "summary": "This guide highlights over ten prestigious international scholarships for Master's degrees offered by global organizations like the World Bank, ADB, and UNESCO. It covers major programs including Erasmus Mundus, Commonwealth, and Rotary fellowships. These opportunities provide full funding for students from Pakistan, India, and other developing nations. Each entry includes eligibility criteria and application strategies.",
-      "meta_description": "Discover top 10+ international MS scholarships from Erasmus Mundus, Commonwealth, and World Bank. Full funding guides for Pakistani & Indian students.",
-      "eligibility": [
-        "Holders of a relevant undergraduate degree with strong academic records",
-        "Citizens of developing countries, with specific focus on Pakistan and India",
-        "Proficiency in English (IELTS/TOEFL) as required by specific programs"
-      ],
-      "benefits": [
-        "Full coverage of tuition fees, living stipends, and travel expenses",
-        "Access to global networks, mentorship, and career development opportunities"
-      ],
-      "how_to_apply": [
-        "Research specific deadlines and requirements for each global organization",
-        "Prepare a strong Statement of Purpose tailored to the scholarship's mission",
-        "Submit applications directly through the official portals of the institutions"
-      ],
-      "faqs": [
-        {
-          "q": "Are these scholarships open to students from Pakistan and India?",
-          "a": "Yes, most of these global organizations and foundations specifically target students from developing nations, including Pakistan and India."
-        },
-        {
-          "q": "Do I need to apply to the university separately?",
-          "a": "It depends on the program. Some, like Erasmus Mundus, require a joint application, while others like Commonwealth may require a university offer first."
-        },
-        {
-          "q": "Is the funding full or partial?",
-          "a": "Most listed programs offer full funding, covering tuition, living costs, and airfare, but you should verify specific stipend details on the official site."
-        }
-      ],
-      "keywords": [
-        "international MS scholarships",
-        "pakistan",
-        "india",
-        "erasmus mundus",
-        "commonwealth scholarship",
-        "world bank scholarship",
-        "fully funded masters"
-      ],
-      "level": "MS",
-      "region": "Worldwide",
-      "source": "www.scholars4dev.com",
-      "published": "Sat, 14 Nov 2026 08:52:00 +0000",
-      "page": "p/top-10-international-ms-scholarships-for-pakistan-india-students.html"
-    },
-    {
-      "title": "Top 15+ Research Scholarships for International Students",
-      "slug": "top-15-research-scholarships-for-international-students",
-      "url": "https://www.scholars4dev.com/top-25-research-scholarships-for-international-students/",
-      "summary": "Research scholarships are among the best-funded scholarships for international students. Know more about the top 15+ research scholarships for a PhD or research Master's, from government programmes in the USA, Canada, Australia, Japan and Singapore to university scholarships at Cambridge, Imperial, Melbourne and more. Read more » The post Top 15+ Research Scholarships for International Students first appeared on Scholars4DeV .",
-      "meta_description": "Research scholarships are among the best-funded scholarships for international students. Know more about the top 15+ research scholarships for a PhD or res",
-      "eligibility": [
-        "Open to applicants seeking PhD opportunities",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "scholarship",
-        "phd",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "PhD",
-      "region": "Worldwide",
-      "source": "www.scholars4dev.com",
-      "published": "Sat, 14 Nov 2026 08:51:00 +0000",
-      "page": "p/top-15-research-scholarships-for-international-students.html"
-    },
-    {
-      "title": "Bartlett Promise Sub-Saharan Africa Master’s Scholarship at UCL",
-      "slug": "bartlett-promise-sub-saharan-africa-masters-scholarship-at-ucl",
-      "url": "https://www.scholars4dev.com/the-barlett-masters-scholarship-scheme-at-the-university-of-london/",
-      "summary": "2027-28 Bartlett Promise Sub-Saharan Africa Master's Scholarships are open to nationals and residents of eligible Sub-Saharan African countries in financial need. The scholarships cover full overseas tuition fees, a £18,348 stipend, flights and visa costs for a Master's at the Bartlett, UCL's Faculty of the Built Environment in the UK. Applications open on 15 February and close on 31 March 2027. Read more » The post Bartlett Promise Sub-Saharan Africa Master’s Scholarship at UCL first appeared o",
-      "meta_description": "2027-28 Bartlett Promise Sub-Saharan Africa Master's Scholarships are open to nationals and residents of eligible Sub-Saharan African countries in financia",
+      "title": "Mastercard Foundation AfOx Graduate Scholarships for the Oxford MBA",
+      "slug": "mastercard-foundation-afox-graduate-scholarships-for-the-oxford-mba",
+      "url": "https://www.scholars4dev.com/mastercard-foundation-afox-graduate-scholarships-oxford-mba/",
+      "summary": "2027-28 Mastercard Foundation AfOx Graduate Scholarships are open to Africans who live in Africa. The scholarships are towards the full-time MBA at Saïd Business School, University of Oxford, and cover full course fees plus living costs. Deadline is 6 January 2027. Read more » The post Mastercard Foundation AfOx Graduate Scholarships for the Oxford MBA first appeared on Scholars4DeV .",
+      "meta_description": "2027-28 Mastercard Foundation AfOx Graduate Scholarships are open to Africans who live in Africa. The scholarships are towards the full-time MBA at Saïd Bu",
       "eligibility": [
         "Open to applicants seeking MS opportunities",
         "Valid passport and academic documents as required",
@@ -430,24 +151,24 @@
       "keywords": [
         "scholarship",
         "ms",
-        "europe",
+        "worldwide",
         "pakistan",
         "india"
       ],
       "level": "MS",
-      "region": "Europe",
+      "region": "Worldwide",
       "source": "www.scholars4dev.com",
-      "published": "Fri, 13 Nov 2026 20:34:00 +0000",
-      "page": "p/bartlett-promise-sub-saharan-africa-masters-scholarship-at-ucl.html"
+      "published": "Mon, 16 Nov 2026 09:35:00 +0000",
+      "page": "p/mastercard-foundation-afox-graduate-scholarships-for-the-oxford-mba.html"
     },
     {
-      "title": "UNICAF Scholarships for Online Degrees at UK Universities",
-      "slug": "unicaf-scholarships-for-online-degrees-at-uk-universities",
-      "url": "https://www.scholars4dev.com/unicaf-scholarships-for-online-degrees/",
-      "summary": "UNICAF Scholarships for Online Degrees at UK Universities",
-      "meta_description": "UNICAF Scholarships for Online Degrees at UK Universities",
+      "title": "President’s PhD Scholarships at Imperial College London",
+      "slug": "presidents-phd-scholarships-at-imperial-college-london",
+      "url": "https://www.scholars4dev.com/imperial-presidents-phd-scholarships/",
+      "summary": "2027-28 President's PhD Scholarships are open to high-achieving students of any nationality. The scholarships are towards a PhD in any faculty at Imperial College London in the UK and cover full tuition fees, a stipend and research costs. Application rounds close on 2 November 2026, 11 January 2027 and 1 March 2027. PhDs start between August and November 2027. Read more » The post President’s PhD Scholarships at Imperial College London first appeared on Scholars4DeV .",
+      "meta_description": "2027-28 President's PhD Scholarships are open to high-achieving students of any nationality. The scholarships are towards a PhD in any faculty at Imperial ",
       "eligibility": [
-        "Open to applicants seeking MS/PhD opportunities",
+        "Open to applicants seeking PhD opportunities",
         "Valid passport and academic documents as required",
         "Meet host country language/entry rules"
       ],
@@ -472,351 +193,548 @@
       ],
       "keywords": [
         "scholarship",
-        "ms/phd",
+        "phd",
         "europe",
         "pakistan",
         "india"
       ],
-      "level": "MS/PhD",
+      "level": "PhD",
       "region": "Europe",
       "source": "www.scholars4dev.com",
-      "published": "",
-      "page": "p/unicaf-scholarships-for-online-degrees-at-uk-universities.html"
+      "published": "Mon, 16 Nov 2026 09:34:00 +0000",
+      "page": "p/presidents-phd-scholarships-at-imperial-college-london.html"
     },
     {
-      "title": "Kyoto iUP: Undergraduate Scholarship for Pakistan & India Students",
-      "slug": "kyoto-iup-undergraduate-scholarship-for-pakistan-india-students",
-      "url": "https://www.scholars4dev.com/kyoto-university-international-undergraduate-program/",
-      "summary": "The Kyoto iUP is a fully English-taught undergraduate program at Kyoto University, one of Japan's most prestigious institutions. It offers a unique opportunity for international students to study in a global environment without needing prior Japanese language proficiency. This program is highly competitive and attracts top talent from around the world, including strong applicants from South Asia. Graduates receive a recognized Bachelor's degree from Kyoto University.",
-      "meta_description": "Apply for the Kyoto University International Undergraduate Program (Kyoto iUP). A top choice for Pakistani and Indian students seeking global education.",
+      "title": "American University Emerging Global Leader Scholarship for MS/PhD/Job Role in Pakistan & India",
+      "slug": "american-university-emerging-global-leader-scholarship-for-msphdjob-role-in-pakistan-india",
+      "url": "https://www.scholars4dev.com/american-university-scholarships-for-international-students/",
+      "summary": "American University offers the Emerging Global Leader Scholarship for international students, including Pakistan and India, pursuing MS, PhD, or job roles. This scholarship provides financial assistance for undergraduate studies at American University in Washington DC, USA. Apply before January 15, 2027, for courses starting Fall 2027.",
+      "meta_description": "",
       "eligibility": [
-        "High school graduates or those expected to graduate by the start of the academic year.",
-        "Demonstrated proficiency in English (e.g., TOEFL, IELTS, or equivalent).",
-        "Strong academic record with competitive grades in relevant subjects."
+        "Eligible for MS, PhD, or job role in Pakistan & India",
+        "Diverse and underrepresented backgrounds",
+        "International students",
+        "Students pursuing undergraduate studies at American University in Washington DC, USA"
       ],
       "benefits": [
-        "Access to world-class education at a top-ranked Japanese university.",
-        "Fully English-medium instruction, removing the language barrier for non-Japanese speakers."
+        "Financial assistance for undergraduate studies",
+        "Fully funded or partial scholarships",
+        "Opportunity to study at American University in Washington DC, USA"
       ],
       "how_to_apply": [
-        "Review the official Kyoto University iUP admission guidelines and prepare required documents.",
-        "Submit your online application via the university's designated portal before the deadline.",
-        "Prepare for the entrance examination and interview if shortlisted."
+        "Step 1: Research the scholarship and eligibility criteria",
+        "Step 2: Prepare application materials including transcripts, essays, and recommendation letters",
+        "Step 3: Submit the scholarship application before January 15, 2027, for courses starting Fall 2027."
       ],
       "faqs": [
         {
-          "q": "Do I need to know Japanese to apply for Kyoto iUP?",
-          "a": "No, the Kyoto iUP is taught entirely in English. While learning Japanese is encouraged for daily life, it is not a prerequisite for admission."
+          "q": "What are the required application materials for the American University Emerging Global Leader Scholarship?",
+          "a": "Applicants from Pakistan and India must prepare application materials including transcripts, essays, and recommendation letters to apply for the American University Emerging Global Leader Scholarship for MS, PhD, or job role opportunities. Ensure eligibility criteria are met before submitting the scholarship application before the deadline of January 15, 2027, for courses starting Fall 2027."
         },
         {
-          "q": "Is the Kyoto iUP open to students from Pakistan and India?",
-          "a": "Yes, the program is open to international students worldwide, including those from Pakistan and India, provided they meet the academic and language requirements."
+          "q": "Are there any eligibility requirements for the American University Emerging Global Leader Scholarship?",
+          "a": "To be eligible for the American University Emerging Global Leader Scholarship, applicants from Pakistan and India must have diverse and underrepresented backgrounds, be international students, and pursue undergraduate studies at American University in Washington DC, USA."
         }
       ],
       "keywords": [
-        "Kyoto University International Undergraduate Program",
-        "Kyoto iUP admission",
-        "undergraduate scholarship Japan",
+        "American University Emerging Global Leader Scholarship",
+        "MS/PhD/Job Role",
+        "Pakistan",
+        "India"
+      ],
+      "level": "Undergraduate",
+      "region": "Worldwide",
+      "source": "www.scholars4dev.com",
+      "published": "Mon, 16 Nov 2026 09:31:00 +0000",
+      "page": "p/american-university-emerging-global-leader-scholarship-for-msphdjob-role-in-pakistan-india.html"
+    },
+    {
+      "title": "Carleton Prestige Scholarships",
+      "slug": "carleton-prestige-scholarships",
+      "url": "https://www.scholars4dev.com/carleton-prestige-scholarships/",
+      "summary": "Carleton Prestige Scholarships are open to high school students from all countries, including international students, with an admission average of 90% or more. The scholarships are worth CA$5,000 to CA$14,178 a year for a Bachelor's degree at Carleton University in Canada. Deadline is 1 March 2027. Course starts September 2027. Read more » The post Carleton Prestige Scholarships first appeared on Scholars4DeV .",
+      "meta_description": "Carleton Prestige Scholarships are open to high school students from all countries, including international students, with an admission average of 90% or m",
+      "eligibility": [
+        "Open to applicants seeking Undergraduate opportunities",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "scholarship",
+        "undergraduate",
+        "worldwide",
         "pakistan",
         "india"
       ],
       "level": "Undergraduate",
       "region": "Worldwide",
       "source": "www.scholars4dev.com",
-      "published": "",
-      "page": "p/kyoto-iup-undergraduate-scholarship-for-pakistan-india-students.html"
+      "published": "Sun, 15 Nov 2026 16:42:00 +0000",
+      "page": "p/carleton-prestige-scholarships.html"
     },
     {
-      "title": "La Trobe Vice Chancellor Scholarship for International Students",
-      "slug": "la-trobe-vice-chancellor-scholarship-for-international-students",
-      "url": "https://www.scholars4dev.com/la-trobe-vice-chancellor-scholarship-for-international-students/",
-      "summary": "La Trobe Vice Chancellor Scholarship for International Students",
-      "meta_description": "La Trobe Vice Chancellor Scholarship for International Students",
+      "title": "NL Scholarship for MS at Erasmus Rotterdam: 2027 Guide",
+      "slug": "nl-scholarship-for-ms-at-erasmus-rotterdam-2027-guide",
+      "url": "https://www.scholars4dev.com/erasmus-university-holland-scholarship/",
+      "summary": "The NL Scholarship, formerly known as the Holland Scholarship, offers €5,000 in funding for the first year of a Master's degree at Erasmus University Rotterdam. This opportunity is specifically designed for non-EEA students, making it highly relevant for applicants from Pakistan and India. Deadlines vary by faculty, so prospective students must verify specific dates for their chosen department. Courses are scheduled to start in the 2027/28 academic year.",
+      "meta_description": "Secure €5,000 for your MS at Erasmus University Rotterdam. Check NL Scholarship eligibility, deadlines, and application steps for Pakistan & India students.",
       "eligibility": [
-        "Open to applicants seeking MS/PhD opportunities",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
+        "Applicants must be from outside the European Economic Area (non-EEA), including Pakistan and India.",
+        "Must be admitted to a full-time Bachelor's or Master's program at Erasmus University Rotterdam.",
+        "Must not have previously received a Dutch government scholarship for the same study level."
       ],
       "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
+        "Covers €5,000 of tuition fees for the first year of study.",
+        "Enhances the financial feasibility of studying in the Netherlands for international students."
       ],
       "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
+        "Secure admission to a qualifying Master's program at Erasmus University Rotterdam.",
+        "Check the specific application deadline for your faculty, as dates vary by department.",
+        "Submit the scholarship application via the university's portal before the faculty-specific deadline."
       ],
       "faqs": [
         {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
+          "q": "Is the NL Scholarship available for Pakistani and Indian students?",
+          "a": "Yes, the scholarship is open to all students from outside the EEA, which includes Pakistan and India."
         },
         {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
+          "q": "How much does the NL Scholarship cover?",
+          "a": "It provides a fixed amount of €5,000 towards tuition fees for the first year of your Master's degree."
+        },
+        {
+          "q": "When is the application deadline for 2027 intake?",
+          "a": "Deadlines vary by faculty. For example, the Institute of Housing and Urban Development (IHS) has a deadline of 25 April 2027. Always check your specific program's date."
         }
       ],
       "keywords": [
-        "scholarship",
-        "ms/phd",
-        "worldwide",
-        "pakistan",
-        "india"
+        "NL Scholarship Erasmus University Rotterdam",
+        "Holland Scholarship MS",
+        "Masters in Netherlands for Pakistan",
+        "Scholarships for Indian students in Europe",
+        "Erasmus Rotterdam MS funding"
       ],
-      "level": "MS/PhD",
-      "region": "Worldwide",
-      "source": "www.scholars4dev.com",
-      "published": "",
-      "page": "p/la-trobe-vice-chancellor-scholarship-for-international-students.html"
-    },
-    {
-      "title": "Commonwealth Shared Scholarship Scheme at UK Universities",
-      "slug": "commonwealth-shared-scholarship-scheme-at-uk-universities",
-      "url": "https://www.scholars4dev.com/commonwealth-shared-scholarship-scheme-for-developing-countries/",
-      "summary": "Commonwealth Shared Scholarship Scheme at UK Universities",
-      "meta_description": "Commonwealth Shared Scholarship Scheme at UK Universities",
-      "eligibility": [
-        "Open to applicants seeking MS/PhD opportunities",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "scholarship",
-        "ms/phd",
-        "europe",
-        "pakistan",
-        "india"
-      ],
-      "level": "MS/PhD",
+      "level": "MS",
       "region": "Europe",
       "source": "www.scholars4dev.com",
-      "published": "",
-      "page": "p/commonwealth-shared-scholarship-scheme-at-uk-universities.html"
+      "published": "Sun, 15 Nov 2026 16:42:00 +0000",
+      "page": "p/nl-scholarship-for-ms-at-erasmus-rotterdam-2027-guide.html"
     },
     {
-      "title": "Japan Human Resource Development Scholarships (JDS) for MS/PhD",
-      "slug": "japan-human-resource-development-scholarships-jds-for-msphd",
-      "url": "https://www.scholars4dev.com/japan-human-resource-development-scholarships-for-developing-countries-in-asia/",
-      "summary": "The Japan Human Resource Development Scholarships (JDS) offer fully funded opportunities for developing country nationals to pursue MS or PhD degrees in Japan. This program aims to build human capital by training professionals who will return to their home countries. It is an excellent option for students from Pakistan and India seeking high-quality research training in a developed economy. Candidates must demonstrate strong academic records and a clear plan to apply their knowledge back home.",
-      "meta_description": "Apply for JDS Japan scholarships for MS/PhD. Learn eligibility, benefits, and how Pakistani and Indian students can secure this global funding.",
-      "eligibility": [
-        "Citizens of designated developing countries, including Pakistan and India",
-        "Holders of a Bachelor's degree for MS or a Master's degree for PhD programs",
-        "Must be under a specific age limit (typically 35) at the time of application"
-      ],
-      "benefits": [
-        "Full coverage of tuition fees and living expenses",
-        "Round-trip international airfare and health insurance"
-      ],
-      "how_to_apply": [
-        "Obtain nomination from your government's relevant ministry or agency",
-        "Submit academic transcripts, research proposal, and recommendation letters",
-        "Pass the written and interview examinations conducted by the Japanese government"
-      ],
-      "faqs": [
-        {
-          "q": "Is the JDS scholarship available for students from Pakistan and India?",
-          "a": "Yes, both Pakistan and India are typically included in the list of eligible developing countries for the JDS program."
-        },
-        {
-          "q": "Do I need to know Japanese to apply for JDS?",
-          "a": "No, proficiency in Japanese is not required. Most programs are conducted in English, though learning basic Japanese is encouraged."
-        }
-      ],
-      "keywords": [
-        "Japan Human Resource Development Scholarships",
-        "JDS Japan",
-        "scholarships for Pakistani students",
-        "scholarships for Indian students",
-        "fully funded PhD Japan"
-      ],
-      "level": "MS/PhD",
-      "region": "Worldwide",
-      "source": "www.scholars4dev.com",
-      "published": "",
-      "page": "p/japan-human-resource-development-scholarships-jds-for-msphd.html"
-    },
-    {
-      "title": "Eiffel Scholarships in France for International Students",
-      "slug": "eiffel-scholarships-in-france-for-international-students",
-      "url": "https://www.scholars4dev.com/eiffel-scholarships-for-international-students/",
-      "summary": "Eiffel Scholarships in France for International Students",
-      "meta_description": "Eiffel Scholarships in France for International Students",
-      "eligibility": [
-        "Open to applicants seeking MS/PhD opportunities",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "scholarship",
-        "ms/phd",
-        "europe",
-        "pakistan",
-        "india"
-      ],
-      "level": "MS/PhD",
-      "region": "Europe",
-      "source": "www.scholars4dev.com",
-      "published": "",
-      "page": "p/eiffel-scholarships-in-france-for-international-students.html"
-    },
-    {
-      "title": "Emile Boutmy Scholarships for Non-EU Students at Sciences Po",
-      "slug": "emile-boutmy-scholarships-for-non-eu-students-at-sciences-po",
-      "url": "https://www.scholars4dev.com/emile-boutmy-scholarships-for-non-eu-students/",
-      "summary": "Emile Boutmy Scholarships for Non-EU Students at Sciences Po",
-      "meta_description": "Emile Boutmy Scholarships for Non-EU Students at Sciences Po",
-      "eligibility": [
-        "Open to applicants seeking MS/PhD opportunities",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "scholarship",
-        "ms/phd",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "MS/PhD",
-      "region": "Worldwide",
-      "source": "www.scholars4dev.com",
-      "published": "",
-      "page": "p/emile-boutmy-scholarships-for-non-eu-students-at-sciences-po.html"
-    },
-    {
-      "title": "Uppsala University Global Scholarships",
-      "slug": "uppsala-university-global-scholarships",
-      "url": "https://www.scholars4dev.com/the-uppsala-university-ipk-scholarships-for-international-students/",
-      "summary": "Uppsala University Global Scholarships",
-      "meta_description": "Uppsala University Global Scholarships",
-      "eligibility": [
-        "Open to applicants seeking MS/PhD opportunities",
-        "Valid passport and academic documents as required",
-        "Meet host country language/entry rules"
-      ],
-      "benefits": [
-        "See official listing for funding or salary details",
-        "International exposure and career growth"
-      ],
-      "how_to_apply": [
-        "Read the official announcement carefully",
-        "Prepare CV, transcripts, and recommendation letters",
-        "Submit before the deadline on the official portal"
-      ],
-      "faqs": [
-        {
-          "q": "Is this fully funded?",
-          "a": "Funding varies — confirm on the official page before applying."
-        },
-        {
-          "q": "Can students from Pakistan or India apply?",
-          "a": "Many listings are open internationally; check nationality rules on the source page."
-        }
-      ],
-      "keywords": [
-        "scholarship",
-        "ms/phd",
-        "worldwide",
-        "pakistan",
-        "india"
-      ],
-      "level": "MS/PhD",
-      "region": "Worldwide",
-      "source": "www.scholars4dev.com",
-      "published": "",
-      "page": "p/uppsala-university-global-scholarships.html"
-    },
-    {
-      "title": "Warwick Chancellor's International Scholarships for MS/PhD in Pakistan and India",
-      "slug": "warwick-chancellors-international-scholarships-for-msphd-in-pakistan-and-india",
-      "url": "https://www.scholars4dev.com/warwick-chancellors-international-scholarships/",
-      "summary": "Explore Warwick Chancellor's International Scholarships for Pakistani and Indian students pursuing MS or PhD degrees worldwide. These scholarships offer significant benefits and a competitive application process. Learn more and apply today.",
+      "title": "Padua International Excellence Scholarships at University of Padua (MS/PhD/job role eligible)",
+      "slug": "padua-international-excellence-scholarships-at-university-of-padua-msphdjob-role-eligible",
+      "url": "https://www.scholars4dev.com/university-of-padua-international-scholarships/",
+      "summary": "Explore the Padua International Excellence Scholarships for Pakistani and Indian students seeking MS, PhD, or job role opportunities at the esteemed University of Padua in Europe. Apply for €8,000 annual scholarships and fee exemptions for Bachelor's or Master's degrees, with application deadlines of 15 Nov 2026 (Call One) and 1 Mar 2027 (Call Two), courses starting in 2027/28.",
       "meta_description": "",
       "eligibility": [
-        "Nationals of Pakistan or India",
-        "Applying for MS or PhD programs at Warwick University",
-        "Meet the academic and English language requirements"
+        "Applicants from Pakistan and India",
+        "MS, PhD, or job role candidates",
+        "English-taught degree programmes at the University of Padua"
       ],
       "benefits": [
-        "Full tuition fee waiver",
-        "Monthly stipend for living expenses",
-        "Access to world-class facilities and resources at Warwick University"
+        "€8,000 annual scholarship",
+        "Fee exemption for Bachelor's or Master's degrees",
+        "Opportunities for MS, PhD, or job role aspirants"
       ],
       "how_to_apply": [
-        "Visit the Warwick University website",
-        "Find and apply for the Warwick Chancellor's International Scholarships program",
-        "Submit your application along with required documents and essays by the specified deadline"
+        "Step 1: Research and apply for eligible English-taught programmes at the University of Padua",
+        "Step 2: Submit completed application forms by respective deadlines (15 Nov 2026 for Call One and 1 Mar 2027 for Call Two)",
+        "Step 3: Ensure your application meets all eligibility criteria (MS, PhD, or job role candidates, Pakistani and Indian students) for the Padua International Excellence Scholarships."
       ],
-      "faqs": [],
+      "faqs": [
+        {
+          "q": "Are Pakistani and Indian students eligible for the Padua International Excellence Scholarships?",
+          "a": "Yes, Pakistani and Indian students are eligible for the Padua International Excellence Scholarships if they are pursuing MS, PhD, or job role opportunities and meet the English-taught degree programmes at the University of Padua eligibility criteria."
+        },
+        {
+          "q": "What is the scholarship amount for the Padua International Excellence Scholarships?",
+          "a": "The Padua International Excellence Scholarships offer €8,000 annually for eligible candidates. Additionally, Pakistani and Indian students can avail fee exemptions for their Bachelor's or Master's degrees."
+        },
+        {
+          "q": "When are the application deadlines for Call One and Call Two?",
+          "a": "The application deadlines for Call One (15th November 2026) and Call Two (1st March 2027) provide valuable opportunities for Pakistani and Indian students to pursue their MS, PhD, or job role aspirations at the University of Padua. Make sure to meet the English-taught degree programmes criteria."
+        }
+      ],
       "keywords": [
-        "Warwick Chancellor's International Scholarships",
-        "MS/PhD",
+        "Padua International Excellence Scholarships",
+        "University of Padua",
+        "MS/PhD/job role",
         "Pakistan",
         "India"
       ],
+      "level": "MS",
+      "region": "Europe",
+      "source": "www.scholars4dev.com",
+      "published": "Sun, 15 Nov 2026 16:42:00 +0000",
+      "page": "p/padua-international-excellence-scholarships-at-university-of-padua-msphdjob-role-eligible.html"
+    },
+    {
+      "title": "ADB Scholarships for MS/PhD/Job Role in Pakistan & India at University of Auckland",
+      "slug": "adb-scholarships-for-msphdjob-role-in-pakistan-india-at-university-of-auckland",
+      "url": "https://www.scholars4dev.com/adb-scholarships-at-univeristy-of-auckland/",
+      "summary": "Explore ADB Scholarships for Pakistani and Indian citizens pursuing MS, PhD, or job role studies at the University of Auckland in New Zealand. The scholarships cover tuition, living costs, insurance, and travel. Apply at least six months prior to course commencement.",
+      "meta_description": "",
+      "eligibility": [
+        "Nationals of ADB borrowing member countries",
+        "Currently residing in Pakistan or India",
+        "Planning to pursue MS, PhD, or job role studies at the University of Auckland"
+      ],
+      "benefits": [
+        "Full tuition coverage",
+        "Living costs assistance",
+        "Insurance and travel benefits",
+        "Opportunity to study at a world-renowned institution"
+      ],
+      "how_to_apply": [
+        "Step 1: Research and confirm program eligibility",
+        "Step 2: Check ADB Scholarship eligibility criteria",
+        "Step 3: Prepare application documents and submit through ADB's online portal"
+      ],
+      "faqs": [
+        {
+          "q": "What are the scholarship's application deadlines?",
+          "a": "Please refer to ADB's official website for application deadlines. Apply at least six months prior to course commencement."
+        },
+        {
+          "q": "What are the required documents for the application?",
+          "a": "Please refer to ADB's scholarship guidelines for a list of required documents. Ensure to prepare and submit all necessary documents through ADB's online portal."
+        }
+      ],
+      "keywords": [
+        "ADB Scholarships",
+        "University of Auckland",
+        "MS/PhD/Job Role",
+        "Pakistan",
+        "India"
+      ],
+      "level": "MS",
+      "region": "Worldwide",
+      "source": "www.scholars4dev.com",
+      "published": "Sun, 15 Nov 2026 16:42:00 +0000",
+      "page": "p/adb-scholarships-for-msphdjob-role-in-pakistan-india-at-university-of-auckland.html"
+    },
+    {
+      "title": "UNICAF Scholarships for MS/PhD or Future Professionals in Europe: Study in UK",
+      "slug": "unicaf-scholarships-for-msphd-or-future-professionals-in-europe-study-in-uk",
+      "url": "https://www.scholars4dev.com/unicaf-scholarships-for-online-degrees/",
+      "summary": "Are you a Pakistani or Indian student dreaming of pursuing your MS, PhD or a career-enhancing degree in Europe? Look no further than UNICAF Scholarships for Online Degrees at UK Universities! These scholarships offer a unique opportunity to gain valuable international experience while studying in prestigious UK institutions.",
+      "meta_description": "Eligible for MS/PhD or future professionals in Pakistan and India. Study in UK universities with UNICAF scholarships for online degrees. Apply now.",
+      "eligibility": [
+        "Nationals of Pakistan or India",
+        "Hold an undergraduate degree from a recognized institution",
+        "Meet the specific degree program entry requirements"
+      ],
+      "benefits": [
+        "Fully funded scholarships for MS, PhD or career-enhancing degrees",
+        "Study at UK universities with world-class reputations",
+        "Enhance your CV with an international experience"
+      ],
+      "how_to_apply": [
+        "Apply for an eligible online degree program at a UK university",
+        "Submit your scholarship application through the UNICAF platform",
+        "Complete the required admissions process"
+      ],
+      "faqs": [
+        {
+          "q": "Are Pakistani or Indian students eligible for these scholarships?",
+          "a": "Yes, Pakistani and Indian students are eligible for UNICAF Scholarships for Online Degrees at UK Universities."
+        },
+        {
+          "q": "What degrees are available for Pakistani or Indian students?",
+          "a": "Pakistani and Indian students can apply for fully funded scholarships for MS, PhD, or career-enhancing degrees at UK universities."
+        },
+        {
+          "q": "What is the application process for these scholarships?",
+          "a": "To apply, Pakistani and Indian students must first enroll in an eligible online degree program at a UK university and then submit their scholarship application through the UNICAF platform. They must also complete the required admissions process."
+        }
+      ],
+      "keywords": [
+        "scholarships for Pakistani students",
+        "scholarships for Indian students",
+        "online degree programs in UK",
+        "MS, PhD, and career-enhancing degrees",
+        "UNICAF platform",
+        "UK universities"
+      ],
+      "level": "MS/PhD",
+      "region": "Europe",
+      "source": "www.scholars4dev.com",
+      "published": "",
+      "page": "p/unicaf-scholarships-for-msphd-or-future-professionals-in-europe-study-in-uk.html"
+    },
+    {
+      "title": "University of Sydney International Stipend Scholarship (USYDIS)",
+      "slug": "university-of-sydney-international-stipend-scholarship-usydis",
+      "url": "https://www.scholars4dev.com/international-scholarships-at-university-of-sydney/",
+      "summary": "University of Sydney International Stipend Scholarship (USYDIS)",
+      "meta_description": "University of Sydney International Stipend Scholarship (USYDIS)",
+      "eligibility": [
+        "Open to applicants seeking MS/PhD opportunities",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "scholarship",
+        "ms/phd",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
       "level": "MS/PhD",
       "region": "Worldwide",
       "source": "www.scholars4dev.com",
       "published": "",
-      "page": "p/warwick-chancellors-international-scholarships-for-msphd-in-pakistan-and-india.html"
+      "page": "p/university-of-sydney-international-stipend-scholarship-usydis.html"
+    },
+    {
+      "title": "Karsh International Scholarships at Duke University",
+      "slug": "karsh-international-scholarships-at-duke-university",
+      "url": "https://www.scholars4dev.com/karsh-international-scholarships-at-duke-university/",
+      "summary": "Karsh International Scholarships at Duke University",
+      "meta_description": "Karsh International Scholarships at Duke University",
+      "eligibility": [
+        "Open to applicants seeking MS/PhD opportunities",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "scholarship",
+        "ms/phd",
+        "europe",
+        "pakistan",
+        "india"
+      ],
+      "level": "MS/PhD",
+      "region": "Europe",
+      "source": "www.scholars4dev.com",
+      "published": "",
+      "page": "p/karsh-international-scholarships-at-duke-university.html"
+    },
+    {
+      "title": "Oxford Pershing Square Graduate Scholarships for MS/PhD",
+      "slug": "oxford-pershing-square-graduate-scholarships-for-msphd",
+      "url": "https://www.scholars4dev.com/oxford-perishing-square-graduate-scholarships/",
+      "summary": "The Oxford Pershing Square Graduate Scholarships support outstanding candidates pursuing Master's or Doctoral degrees at the University of Oxford. This prestigious award is open to students from all over the world, including Pakistan and India. It aims to foster a diverse academic community by funding high-achieving graduate students.",
+      "meta_description": "Discover Oxford Pershing Square Graduate Scholarships for MS and PhD students. Learn eligibility, benefits, and how to apply for this global opportunity.",
+      "eligibility": [
+        "Applicants must be enrolled in a full-time Master's or Doctoral program at the University of Oxford.",
+        "Open to students of any nationality, including those from Pakistan and India.",
+        "Candidates must demonstrate exceptional academic merit and potential for leadership."
+      ],
+      "benefits": [
+        "Covers full tuition fees for the duration of the study.",
+        "Provides a maintenance stipend to cover living expenses in Oxford."
+      ],
+      "how_to_apply": [
+        "Submit your application for the Oxford graduate program through the official portal.",
+        "Indicate your interest in the Pershing Square Scholarship during the application process.",
+        "Ensure all required supporting documents and references are uploaded before the deadline."
+      ],
+      "faqs": [
+        {
+          "q": "Is the Oxford Pershing Square Scholarship available for Pakistani and Indian students?",
+          "a": "Yes, the scholarship is open to international students from all countries, including Pakistan and India, provided they meet the academic criteria."
+        },
+        {
+          "q": "Does this scholarship cover living costs?",
+          "a": "Yes, the award typically includes a maintenance stipend to help cover living expenses while studying in the UK."
+        }
+      ],
+      "keywords": [
+        "Oxford Pershing Square Graduate Scholarships",
+        "pakistan",
+        "india"
+      ],
+      "level": "MS/PhD",
+      "region": "Worldwide",
+      "source": "www.scholars4dev.com",
+      "published": "",
+      "page": "p/oxford-pershing-square-graduate-scholarships-for-msphd.html"
+    },
+    {
+      "title": "Swedish Institute Scholarships for Global Professionals",
+      "slug": "swedish-institute-scholarships-for-global-professionals",
+      "url": "https://www.scholars4dev.com/sweden-scholarships-for-international-students-from-developing-countries/",
+      "summary": "Swedish Institute Scholarships for Global Professionals",
+      "meta_description": "Swedish Institute Scholarships for Global Professionals",
+      "eligibility": [
+        "Open to applicants seeking MS/PhD opportunities",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "scholarship",
+        "ms/phd",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "MS/PhD",
+      "region": "Worldwide",
+      "source": "www.scholars4dev.com",
+      "published": "",
+      "page": "p/swedish-institute-scholarships-for-global-professionals.html"
+    },
+    {
+      "title": "Danish State Scholarships at University of Copenhagen",
+      "slug": "danish-state-scholarships-at-university-of-copenhagen",
+      "url": "https://www.scholars4dev.com/danish-state-scholarships-at-university-of-copenhagen/",
+      "summary": "Danish State Scholarships at University of Copenhagen",
+      "meta_description": "Danish State Scholarships at University of Copenhagen",
+      "eligibility": [
+        "Open to applicants seeking MS/PhD opportunities",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "scholarship",
+        "ms/phd",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "MS/PhD",
+      "region": "Worldwide",
+      "source": "www.scholars4dev.com",
+      "published": "",
+      "page": "p/danish-state-scholarships-at-university-of-copenhagen.html"
+    },
+    {
+      "title": "University of the People Online Tuition Free Degrees",
+      "slug": "university-of-the-people-online-tuition-free-degrees",
+      "url": "https://www.scholars4dev.com/free-online-education-at-university-of-the-people/",
+      "summary": "University of the People Online Tuition Free Degrees",
+      "meta_description": "University of the People Online Tuition Free Degrees",
+      "eligibility": [
+        "Open to applicants seeking MS/PhD opportunities",
+        "Valid passport and academic documents as required",
+        "Meet host country language/entry rules"
+      ],
+      "benefits": [
+        "See official listing for funding or salary details",
+        "International exposure and career growth"
+      ],
+      "how_to_apply": [
+        "Read the official announcement carefully",
+        "Prepare CV, transcripts, and recommendation letters",
+        "Submit before the deadline on the official portal"
+      ],
+      "faqs": [
+        {
+          "q": "Is this fully funded?",
+          "a": "Funding varies — confirm on the official page before applying."
+        },
+        {
+          "q": "Can students from Pakistan or India apply?",
+          "a": "Many listings are open internationally; check nationality rules on the source page."
+        }
+      ],
+      "keywords": [
+        "scholarship",
+        "ms/phd",
+        "worldwide",
+        "pakistan",
+        "india"
+      ],
+      "level": "MS/PhD",
+      "region": "Worldwide",
+      "source": "www.scholars4dev.com",
+      "published": "",
+      "page": "p/university-of-the-people-online-tuition-free-degrees.html"
     }
   ]
 }
