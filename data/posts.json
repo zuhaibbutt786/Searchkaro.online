@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "title": "Stage only modified files in Git, ignoring untracked files",
+      "slug": "stage-only-modified-files-in-git-ignoring-untracked-files",
+      "date": "2026-11-27",
+      "excerpt": "Use `git add -u` or `git commit -a` to stage tracked changes while keeping untracked files ignored by .gitignore.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Embed Images in Doxygen Main Page Across All Output Formats",
+      "slug": "embed-images-in-doxygen-main-page-across-all-output-formats",
+      "date": "2026-11-27",
+      "excerpt": "Use Doxygen\u2019s \\image directive and IMAGE_PATH to reference images in Markdown, ensuring compatibility with HTML, PDF, man pages, and Eclipse help.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Git Bash on Windows: Why .bashrc Isn\u2019t Executed",
+      "slug": "git-bash-on-windows-why-bashrc-isnt-executed",
+      "date": "2026-11-27",
+      "excerpt": "Git Bash starts a login shell, so .bashrc is ignored unless you source it from .bash_profile.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Shuffle an Array of Objects in JavaScript \u2013 Fisher\u2011Yates",
+      "slug": "shuffle-an-array-of-objects-in-javascript-fisheryates",
+      "date": "2026-11-27",
+      "excerpt": "Learn how to randomize an array of objects in JavaScript using the Fisher\u2011Yates algorithm, preserving object references.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "Create Clickable Hyperlinks in PowerShell Console Output",
+      "slug": "create-clickable-hyperlinks-in-powershell-console-output",
+      "date": "2026-11-27",
+      "excerpt": "Learn how to emit a clickable URL from PowerShell using ANSI escape sequences and make it visible in TFS 2015 build logs.",
+      "source": "stackoverflow"
+    },
+    {
+      "title": "How to Ignore or Handle Custom SQL Server Errors in Batch Inserts",
+      "slug": "how-to-ignore-or-handle-custom-sql-server-errors-in-batch-inserts",
+      "date": "2026-11-27",
+      "excerpt": "Learn how to suppress or catch user\u2011defined errors (e.g., 50001) in SQL Server so that batch jobs continue running without interruption.",
+      "source": "stackoverflow"
+    },
+    {
       "title": "git commit vs git push: What\u2019s the Difference?",
       "slug": "git-commit-vs-git-push-whats-the-difference",
       "date": "2026-11-20",

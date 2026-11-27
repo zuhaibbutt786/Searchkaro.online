@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stage only modified files in Git, ignoring untracked files | LearnWithZuhaib</title>
+  <meta name="description" content="Use `git add -u` or `git commit -a` to stage tracked changes while keeping untracked files ignored by .gitignore." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, git,sh,commit,gitignore,staging" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/stage-only-modified-files-in-git-ignoring-untracked-files.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I ignore a tracked file without removing it from the index?", "acceptedAnswer": {"@type": "Answer", "text": "Mark it as assume‑unchanged: `git update-index --assume-unchanged <file>`. This tells Git to skip it in status and diff."}}, {"@type": "Question", "name": "What does `git add -A` do compared to `git add .`?", "acceptedAnswer": {"@type": "Answer", "text": "`git add -A` stages all changes, including new, modified, and deleted files, just like `git add .`. It does not respect `.gitignore` for new files."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-11-27 · Q&A guide</p>
+    <h1>Stage only modified files in Git, ignoring untracked files</h1>
+    <p class="lead">Use `git add -u` or `git commit -a` to stage tracked changes while keeping untracked files ignored by .gitignore.</p>
+    <div class="content">
+<h2>Why `git add .` pulls untracked files</h2>
+<p>The dot tells Git to add every file in the current directory, regardless of whether it is tracked. Untracked files are added because they are not already in the index, so `git add .` will stage them. This behavior is by design and cannot be overridden with a simple flag.</p>
+<h2>`git add -u` stages only tracked modifications</h2>
+<p>The `-u` (or `--update`) option updates the index only for files that are already tracked. It records modifications and deletions but ignores new files. Run it from the repository root to affect the whole tree:</p>
+<pre><code>git add -u :/
+# or
+git add -u .</code></pre>
+<h2>Verify that your `.gitignore` is effective</h2>
+<p>The ignore file only applies to files that are not yet tracked. To double‑check, list ignored files with:</p>
+<pre><code>git ls-files -o --exclude-standard
+# or test a specific path
+git check-ignore -v .metadata/
+# The output shows the pattern that matched.</code></pre>
+<h2>Interactive staging with `git add -p`</h2>
+<p>If you want fine‑grained control over which hunks of a modified file are staged, use:</p>
+<pre><code>git add -p
+# Answer the prompts to stage selected changes.</code></pre>
+<h2>Common pitfalls and quick fixes</h2>
+<p>• If a file is already tracked, `.gitignore` will not stop it from being staged. Remove it from the index first: `git rm --cached &lt;file&gt;`. 
+• `git commit -a` automatically stages all tracked changes before committing, bypassing the index entirely. 
+• Ensure the `.gitignore` file is committed; uncommitted ignore rules have no effect.</p>
+<p><strong>Takeaway:</strong> Use `git add -u` to stage only tracked changes; `.gitignore` only blocks new, untracked files.</p>
+<h2>People also ask</h2>
+<h3>Can I ignore a tracked file without removing it from the index?</h3>
+<p>Mark it as assume‑unchanged: `git update-index --assume-unchanged &lt;file&gt;`. This tells Git to skip it in status and diff.</p>
+<h3>What does `git add -A` do compared to `git add .`?</h3>
+<p>`git add -A` stages all changes, including new, modified, and deleted files, just like `git add .`. It does not respect `.gitignore` for new files.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/7124726/git-add-only-modified-changes-and-ignore-untracked-files" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

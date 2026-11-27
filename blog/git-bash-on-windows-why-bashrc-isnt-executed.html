@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Git Bash on Windows: Why .bashrc Isn’t Executed | LearnWithZuhaib</title>
+  <meta name="description" content="Git Bash starts a login shell, so .bashrc is ignored unless you source it from .bash_profile." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, windows,git,bash,windows-7" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/git-bash-on-windows-why-bashrc-isnt-executed.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does .bashrc run automatically in Git Bash?", "acceptedAnswer": {"@type": "Answer", "text": "Only for non‑login shells; Git Bash starts a login shell."}}, {"@type": "Question", "name": "How do I run custom commands on Git Bash startup?", "acceptedAnswer": {"@type": "Answer", "text": "Place them in ~/.bash_profile or source ~/.bashrc from that file."}}, {"@type": "Question", "name": "Why isn’t my variable exported to child processes?", "acceptedAnswer": {"@type": "Answer", "text": "Add the export keyword in .bashrc."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-11-27 · Q&A guide</p>
+    <h1>Git Bash on Windows: Why .bashrc Isn’t Executed</h1>
+    <p class="lead">Git Bash starts a login shell, so .bashrc is ignored unless you source it from .bash_profile.</p>
+    <div class="content">
+<h2>Bash Startup Order</h2>
+<p>When Bash launches, it first checks if it is a login shell. For a login shell it reads /etc/profile, then ~/.bash_profile, ~/.bash_login, or ~/.profile. A non‑login shell reads ~/.bashrc. Git Bash opens a login shell by default.</p>
+<h2>Why .bashrc is Skipped</h2>
+<p>Because Git Bash runs as a login shell, it never reads ~/.bashrc unless a login file explicitly sources it. That explains why your variable is missing after a fresh start.</p>
+<h2>Fix: Create a .bash_profile</h2>
+<p>Add a simple profile that sources your rc file.</p>
+<pre><code>echo &#x27;source ~/.bashrc&#x27; &gt;&gt; ~/.bash_profile</code></pre>
+<h2>Export Variables Correctly</h2>
+<p>Variables defined in .bashrc need to be exported to be visible to subshells.</p>
+<pre><code>echo &#x27;export ZZZTESTVAR=234&#x27; &gt;&gt; ~/.bashrc</code></pre>
+<h2>Quick Checklist</h2>
+<p>1. Ensure the file name is .bash_profile, not .bash_profile.txt. 2. Add &quot;source ~/.bashrc&quot; to the profile. 3. Use export for environment variables. 4. Restart Git Bash and verify with `echo $ZZZTESTVAR`.</p>
+<p><strong>Takeaway:</strong> Add a .bash_profile that sources .bashrc and export variables to make Git Bash load your settings.</p>
+<h2>People also ask</h2>
+<h3>Does .bashrc run automatically in Git Bash?</h3>
+<p>Only for non‑login shells; Git Bash starts a login shell.</p>
+<h3>How do I run custom commands on Git Bash startup?</h3>
+<p>Place them in ~/.bash_profile or source ~/.bashrc from that file.</p>
+<h3>Why isn’t my variable exported to child processes?</h3>
+<p>Add the export keyword in .bashrc.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/32186840/git-for-windows-doesnt-execute-my-bashrc-file" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

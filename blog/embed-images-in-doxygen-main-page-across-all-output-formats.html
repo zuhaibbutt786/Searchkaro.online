@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Embed Images in Doxygen Main Page Across All Output Formats | LearnWithZuhaib</title>
+  <meta name="description" content="Use Doxygen’s \image directive and IMAGE_PATH to reference images in Markdown, ensuring compatibility with HTML, PDF, man pages, and Eclipse help." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, html,image,markdown,doxygen" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/embed-images-in-doxygen-main-page-across-all-output-formats.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I use Markdown image syntax for all formats?", "acceptedAnswer": {"@type": "Answer", "text": "No, Markdown images render only in HTML; use \\image for cross‑format support."}}, {"@type": "Question", "name": "Does Doxygen copy images automatically?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, any file referenced by \\image and located in an input directory or IMAGE_PATH is copied to each output."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-11-27 · Q&A guide</p>
+    <h1>Embed Images in Doxygen Main Page Across All Output Formats</h1>
+    <p class="lead">Use Doxygen’s \image directive and IMAGE_PATH to reference images in Markdown, ensuring compatibility with HTML, PDF, man pages, and Eclipse help.</p>
+    <div class="content">
+<h2>Problem Overview</h2>
+<p>When generating documentation with Doxygen, developers often embed images in the main page using Markdown syntax like ![Logo](../resources/logo.png). That approach works for HTML but fails for other formats because the relative path depends on the output directory structure.</p>
+<h2>Doxygen Image Handling</h2>
+<p>Doxygen can copy image files from the source tree into every output format. The \image command accepts an optional format argument; omitting it causes the image to appear in all supported outputs. The command also accepts a caption that will be rendered appropriately in PDF, man pages, etc.</p>
+<h2>Configuring IMAGE_PATH</h2>
+<p>Add the directory that holds your images to the IMAGE_PATH setting in the Doxyfile. For example:</p>
+<p>```
+IMAGE_PATH = resources
+```</p>
+<p>This tells Doxygen to search for image files in the resources folder and to copy them into the output directories.</p>
+<h2>Markdown Syntax with \image</h2>
+<p>Replace the Markdown image syntax with the Doxygen command inside your mainpage.md:</p>
+<p>```
+\image logo.png &quot;The Logo&quot;
+```</p>
+<p>Because IMAGE_PATH is set, Doxygen resolves logo.png relative to resources and copies it to every output format. No relative path tricks are needed.</p>
+<h2>Example Project Layout</h2>
+<p>A minimal layout that works for all formats:</p>
+<p>```
+work/
+├─ mainpage.md
+├─ resources/
+│  └─ logo.png
+└─ Doxyfile
+```</p>
+<p>Running doxygen will produce html/index.html, latex/refman.pdf, man/man1/, etc., all containing the logo.</p>
+<h2>Common Pitfalls</h2>
+<p>- Using Markdown syntax (![…]) only works for HTML.
+- Forgetting to set IMAGE_PATH causes images to be ignored.
+- Specifying a format (e.g., \image html logo.png) limits the image to that format only.</p>
+<p><strong>Takeaway:</strong> Use \image without a format specifier and set IMAGE_PATH to embed images consistently across all Doxygen output formats.</p>
+<h2>People also ask</h2>
+<h3>Can I use Markdown image syntax for all formats?</h3>
+<p>No, Markdown images render only in HTML; use \image for cross‑format support.</p>
+<h3>Does Doxygen copy images automatically?</h3>
+<p>Yes, any file referenced by \image and located in an input directory or IMAGE_PATH is copied to each output.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/30863422/doxygen-how-to-embed-images-on-main-page-for-all-output-formats" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

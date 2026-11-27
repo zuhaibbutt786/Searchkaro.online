@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shuffle an Array of Objects in JavaScript – Fisher‑Yates | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to randomize an array of objects in JavaScript using the Fisher‑Yates algorithm, preserving object references." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, javascript,arrays,shuffle" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/shuffle-an-array-of-objects-in-javascript-fisheryates.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I shuffle in place without copying?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, call the algorithm directly on the array, but the original order will be lost."}}, {"@type": "Question", "name": "Does the algorithm preserve object references?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, it only swaps indices; the objects themselves remain unchanged."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-11-27 · Q&A guide</p>
+    <h1>Shuffle an Array of Objects in JavaScript – Fisher‑Yates</h1>
+    <p class="lead">Learn how to randomize an array of objects in JavaScript using the Fisher‑Yates algorithm, preserving object references.</p>
+    <div class="content">
+<h2>Why Objects Need Shuffling</h2>
+<p>An array of objects behaves like a plain array; each element is a reference to an object. The Fisher‑Yates algorithm swaps indices, so it works identically for primitives and objects.</p>
+<h2>Implementing Fisher‑Yates for Objects</h2>
+<p>Create a copy of the array if immutability is required, then iterate from the end to the beginning, swapping elements with a randomly chosen earlier index.</p>
+<pre><code>function shuffleObjects(arr) {
+  const result = arr.slice(); // shallow copy
+  for (let i = result.length - 1; i &gt; 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+
+const people = [
+  { id: 1, name: &#x27;Alice&#x27; },
+  { id: 2, name: &#x27;Bob&#x27; },
+  { id: 3, name: &#x27;Carol&#x27; }
+];
+console.log(shuffleObjects(people));</code></pre>
+<h2>Common Mistakes to Avoid</h2>
+<p>1. Using `Math.random() * arr.length` inside the loop can bias the shuffle.
+2. Mutating the original array when a copy is expected.
+3. Forgetting to handle empty arrays, which would skip the loop safely.</p>
+<h2>Testing the Shuffle</h2>
+<p>Run the shuffle multiple times and compare the output order. A simple test verifies that all original objects appear exactly once in each shuffled result.</p>
+<pre><code>function testShuffle() {
+  const original = [1, 2, 3, 4, 5];
+  const seen = new Set();
+  for (let i = 0; i &lt; 100; i++) {
+    const shuffled = shuffleObjects(original);
+    seen.add(shuffled.join(&#x27;,&#x27;));
+  }
+  console.log(&#x27;Unique permutations:&#x27;, seen.size);
+}
+
+testShuffle();</code></pre>
+<p><strong>Takeaway:</strong> Use Fisher‑Yates to reliably shuffle object arrays without mutating originals.</p>
+<h2>People also ask</h2>
+<h3>Can I shuffle in place without copying?</h3>
+<p>Yes, call the algorithm directly on the array, but the original order will be lost.</p>
+<h3>Does the algorithm preserve object references?</h3>
+<p>Yes, it only swaps indices; the objects themselves remain unchanged.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/49555273/how-to-shuffle-an-array-of-objects-in-javascript" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>

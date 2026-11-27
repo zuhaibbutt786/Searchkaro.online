@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How to Ignore or Handle Custom SQL Server Errors in Batch Inserts | LearnWithZuhaib</title>
+  <meta name="description" content="Learn how to suppress or catch user‑defined errors (e.g., 50001) in SQL Server so that batch jobs continue running without interruption." />
+  <meta name="keywords" content="programming help, stack overflow answers, coding tutorial, sql,sql-server,sql-server-2008" />
+  <link rel="canonical" href="https://zuhaibbutt786.github.io/tech-blog-courses/blog/how-to-ignore-or-handle-custom-sql-server-errors-in-batch-inserts.html" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does SET ANSI_WARNINGS OFF suppress RAISERROR?", "acceptedAnswer": {"@type": "Answer", "text": "No. It only affects arithmetic overflow, divide‑by‑zero and similar warnings, not user‑defined errors."}}, {"@type": "Question", "name": "Can I suppress the error without changing the stored procedure?", "acceptedAnswer": {"@type": "Answer", "text": "Yes—add the message with sp_addmessage or execute the procedure inside a TRY…CATCH block that swallows error 50001."}}, {"@type": "Question", "name": "What severity should I use for a non‑blocking custom error?", "acceptedAnswer": {"@type": "Answer", "text": "Use severity 10‑16. Severity 20+ terminates the connection, which will always stop the batch."}}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Learn<span>With</span>Zuhaib</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./" class="active">Tech Blog</a>
+        <a href="../courses/">Free Courses</a>
+        <a href="../scholarships/">Scholarships</a>
+        <a href="../jobs/">Jobs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container article">
+    <p class="date">2026-11-27 · Q&A guide</p>
+    <h1>How to Ignore or Handle Custom SQL Server Errors in Batch Inserts</h1>
+    <p class="lead">Learn how to suppress or catch user‑defined errors (e.g., 50001) in SQL Server so that batch jobs continue running without interruption.</p>
+    <div class="content">
+<h2>Why the error stops the Ant job</h2>
+<p>When a stored procedure raises a user‑defined error with a number greater than 50000, SQL Server expects the message to exist in sys.messages. SSMS will still run the rest of the batch, but the JDBC driver treats the missing message as a fatal exception and aborts the connection. This is why the Ant build fails after the first raised error.</p>
+<h2>Define the missing message with sp_addmessage</h2>
+<p>The simplest fix is to add the custom message to the server catalog. Once the message exists, the driver can translate the error and the batch can continue or be caught as expected.</p>
+<pre><code>EXEC sp_addmessage @msgnum = 50001,
+    @severity = 16,
+    @msgtext = N&#x27;Custom validation failed – row skipped.&#x27;;
+GO</code></pre>
+<h2>Catch the error inside the procedure</h2>
+<p>If you cannot modify the server catalog, wrap the risky statements in a TRY…CATCH block. Inside the CATCH you can log the problem and then use RETURN or continue processing. Using THROW without a message re‑raises the original error, so keep the CATCH logic simple.</p>
+<p>Important: SET XACT_ABORT OFF prevents the whole transaction from rolling back when a non‑fatal error occurs.</p>
+<pre><code>BEGIN TRY
+    EXEC dbo.YourProcedure @param = @value;
+END TRY
+BEGIN CATCH
+    IF ERROR_NUMBER() = 50001
+    BEGIN
+        PRINT N&#x27;Ignored custom error 50001 – continuing.&#x27;;
+        -- optional logging
+    END
+    ELSE
+        THROW; -- re‑raise unexpected errors
+END CATCH;</code></pre>
+<h2>Batch‑level isolation with GO or separate statements</h2>
+<p>When you run many INSERT statements in a single script, a single RAISERROR can halt the entire batch. Splitting the script with GO creates separate batches, allowing later batches to run even if an earlier one fails. This technique works well for ad‑hoc data loads.</p>
+<h2>Best practice for automated builds</h2>
+<p>In CI pipelines (Ant, Maven, etc.) configure the JDBC connection to ignore warnings if you only need to log them. However, for deterministic builds you should either add the custom message to sys.messages or handle it in TRY…CATCH. This guarantees that the build either succeeds or fails for a known reason.</p>
+<p><strong>Takeaway:</strong> Add missing custom messages or wrap the code in TRY…CATCH so batch jobs don’t abort on user‑defined errors.</p>
+<h2>People also ask</h2>
+<h3>Does SET ANSI_WARNINGS OFF suppress RAISERROR?</h3>
+<p>No. It only affects arithmetic overflow, divide‑by‑zero and similar warnings, not user‑defined errors.</p>
+<h3>Can I suppress the error without changing the stored procedure?</h3>
+<p>Yes—add the message with sp_addmessage or execute the procedure inside a TRY…CATCH block that swallows error 50001.</p>
+<h3>What severity should I use for a non‑blocking custom error?</h3>
+<p>Use severity 10‑16. Severity 20+ terminates the connection, which will always stop the batch.</p>
+<p class="note">Inspired by a public discussion on <a href="https://stackoverflow.com/questions/45966523/ignore-or-handle-an-error-when-running-a-query-in-sql-server" rel="noopener nofollow">Stack Overflow</a>. This article is an original explanation for learners.</p>
+    </div>
+    <p><a href="./">← All posts</a></p>
+  </main>
+</body>
+</html>
